@@ -3,6 +3,31 @@ import { GoogleAnalytics } from '@astrolib/analytics';
 import { ANALYTICS } from 'astrowind:config';
 ---
 
+{/* Google Tag Manager */}
+<script type="text/partytown">
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PKRLVW2G');
+</script>
+
+{/* VisitorTracking */}
+<script type="text/partytown" async defer src='https://app.visitortracking.com/assets/js/tracer.js'></script>
+<script type="text/partytown">
+  function init_tracer() {
+    var tracer = new Tracer({
+      websiteId: "c23f4336-24d3-4730-933f-43d04963bf26",
+      async: true,
+    });
+  }
+  if (document.readyState === "complete") {
+    init_tracer();
+  } else {
+    window.addEventListener("load", init_tracer);
+  }
+</script>
+
 {
   ANALYTICS?.vendors?.googleAnalytics?.id ? (
     <GoogleAnalytics
