@@ -1,0 +1,109 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import wojtekImg from '~/assets/images/site/wojtek-about.jpg';
+
+const metadata = {
+  title: 'O mnie',
+  description: 'Wojciech Tracichleb — przedsiebiorca budowlany, autor ksiazki Od Marzenia Do Wprowadzenia. Od 2013 roku w budownictwie jednorodzinnym.',
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero>
+    <Fragment slot="title">
+      Czesc! Nazywam sie<br />
+      <span class="text-accent dark:text-white">Wojciech Tracichleb.</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Jesli tu traficiscie, prawdopodobnie marzycie o wlasnym domu jednorodzinnym
+      lub wlasnie stawiacie pierwsze kroki zwiazane z jego budowa. Swietnie znam to uczucie —
+      mieszanke ekscytacji, obaw i natłoku pytan.
+    </Fragment>
+  </Hero>
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Generalny wykonawca',
+        description: 'Od wielu lat prowadze firme budowlana i jako generalny wykonawca buduje domy dla moich klientow.',
+      },
+      {
+        title: 'Doswiadczenie z kazdej perspektywy',
+        description: 'Znam proces budowy z perspektywy inwestora, wykonawcy, architekta. Prowadzilem tez biuro architektury wnetrz i firme meblowa.',
+      },
+      {
+        title: 'Wlasne doswiadczenie',
+        description: 'Towarzyszylem setkom osob w powstawaniu ich wymarzonego domu. Sam rowniez jako inwestor wybudowalem wlasny dom jednorodzinny.',
+      },
+    ]}
+    image={{
+      src: wojtekImg,
+      alt: 'Wojciech Tracichleb',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Przedsiebiorca budowlany z pasja do przekazywania wiedzy
+      </h3>
+      Prywatnie jestem mezem i tata dwoch chlopcow. Od 2013 roku zawodowo zajmuje sie tematyka budownictwa jednorodzinnego.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Dlaczego Pozytywnie Zbudowani?',
+        description: 'Chcialem podzielic sie z Wami doswiadczeniem, ktore zebralem przez te wszystkie lata. Dlatego powstala marka pozytywniezbudowani.pl i dlatego napisalem ksiazke Od marzenia do wprowadzenia.',
+      },
+      {
+        title: 'Cel: uporzadkowac wiedze',
+        description: 'Od 12 lat zajmuje sie budownictwem jednorodzinnym i postawilem sobie za cel uporzadkowanie w jedna spojna calosc wiedzy, ktora jest Wam potrzebna, aby przejsc przez budowe pewnie i swiadomie.',
+      },
+    ]}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Misja
+      </h3>
+      Chce byc Waszym przewodnikiem — tak, jakby obok Was stal doswiadczony starszy brat, ktory juz to przeszedl.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Czytaj blog',
+        href: '/blog/',
+        icon: 'tabler:book',
+      },
+      {
+        text: 'Poznaj ksiazke',
+        href: '/ksiazka/',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Chcesz wiedziec wiecej?
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Zapraszam na bloga, gdzie dziele sie praktyczna wiedza o budowie domu. Jesli szukasz kompleksowego przewodnika — serdecznie polecam moja ksiazke.
+    </Fragment>
+  </CallToAction>
+</Layout>

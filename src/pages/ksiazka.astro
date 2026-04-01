@@ -1,0 +1,157 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features from '~/components/widgets/Features.astro';
+
+import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
+
+const metadata = {
+  title: 'Ksiazka — Od Marzenia Do Wprowadzenia',
+  description: 'Ponad 600 stron praktycznej wiedzy o budowie domu jednorodzinnego. Ksiazka Wojciecha Tracichleb — kompletny przewodnik dla inwestora.',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero -->
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Kup ksiazke',
+        href: 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603',
+        target: '_blank',
+        icon: 'tabler:shopping-cart',
+      },
+    ]}
+    image={{ src: ksiazkaImg, alt: 'Ksiazka Od Marzenia Do Wprowadzenia — Wojciech Tracichleb' }}
+  >
+    <Fragment slot="title">
+      Od Marzenia<br />
+      <span class="text-accent dark:text-white">Do Wprowadzenia</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Ponad 600 stron praktycznej wiedzy o budowie domu jednorodzinnego.
+      Wasz przewodnik w drodze do wlasnego domu — napisany przez praktyka z 12-letnim doswiadczeniem.
+    </Fragment>
+  </Hero>
+
+  <!-- Co zyskasz -->
+  <Features
+    id="co-zyskasz"
+    tagline="Zawartosc"
+    title="Co zyskasz dzieki ksiazce"
+    subtitle="Kompleksowy poradnik, ktory przeprowadzi Was przez caly proces budowy domu — od marzenia do klucza w drzwiach."
+    items={[
+      {
+        title: 'Wybor dzialki',
+        description: 'Jak znalezc idealna dzialke, co sprawdzic przed zakupem, jak czytac MPZP i ksiege wieczysta.',
+        icon: 'tabler:map-pin',
+      },
+      {
+        title: 'Projekt domu',
+        description: 'Gotowy czy indywidualny? Jak czytac projekt, na co uwazac, jakie bledy unikac.',
+        icon: 'tabler:home-2',
+      },
+      {
+        title: 'Formalnosci',
+        description: 'Pozwolenie na budowe, zgloszenie, kierownik budowy, dziennik budowy — krok po kroku.',
+        icon: 'tabler:file-check',
+      },
+      {
+        title: 'Finanse',
+        description: 'Kredyt na budowe, kosztorys, budzet, transze — jak nie zbankrutowac w trakcie.',
+        icon: 'tabler:currency-zloty',
+      },
+      {
+        title: 'Budowa',
+        description: 'Od fundamentow po dach. Technologie, materialy, ekipy, nadzor — wszystko co musisz wiedziec.',
+        icon: 'tabler:building',
+      },
+      {
+        title: 'Wykonczeniowka',
+        description: 'Kolejnosc prac, lazienki, kuchnia, podlogi, drzwi — jak doprowadzic dom do stanu zamieszkania.',
+        icon: 'tabler:paint',
+      },
+    ]}
+  />
+
+  <!-- Dla kogo -->
+  <Content
+    isReversed
+    tagline="Dla kogo"
+    title="Dla kogo powstala ta ksiazka"
+    items={[
+      {
+        title: 'Marzysz o wlasnym domu',
+        description: 'Nie wiesz od czego zaczac? Ta ksiazka da Ci solidne podstawy zanim wydasz pierwszy grosz.',
+      },
+      {
+        title: 'Jestes w trakcie budowy',
+        description: 'Potrzebujesz sprawdzonych rozwiazan? Znajdziesz tu odpowiedzi na pytania, ktore beda sie pojawiac na kazdym etapie.',
+      },
+      {
+        title: 'Wybrales projekt i planujesz start',
+        description: 'Dowiesz sie, jak przygotowac sie do budowy, zeby uniknac bledow i opoznien.',
+      },
+    ]}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Twoj przewodnik w drodze do wlasnego domu
+      </h3>
+      Niezaleznie od etapu, na ktorym jestescie — ta ksiazka zmieni Wasze podejscie do budowy.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Recenzje -->
+  <Testimonials
+    title="Co mowia czytelnicy"
+    testimonials={[
+      {
+        testimonial: 'Ksiazka, ktora chcialbym miec zanim zaczynalem budowe. Konkretna, praktyczna, bez lania wody.',
+        name: 'Extradom.pl — Daria Bucko',
+        job: 'Recenzja',
+      },
+      {
+        testimonial: 'Wreszcie ktos napisal o budowie domu tak, ze kazdy to zrozumie. Polecam kazdemu, kto planuje budowe.',
+        name: 'Joanna Pachalko',
+        job: 'Czytelniczka',
+      },
+      {
+        testimonial: 'Jako czlowiek z branzy musze powiedziec — to najlepsza ksiazka o budowie domu na polskim rynku.',
+        name: 'Aleksander Lipinski',
+        job: 'Czytelnik',
+      },
+    ]}
+  />
+
+  <!-- CTA -->
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Kup ksiazke — 119 zl',
+        href: 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603',
+        target: '_blank',
+        icon: 'tabler:shopping-cart',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Gotowi na budowe?
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Ponad 600 stron wiedzy, ktora zaoszczedzi Wam tysiecy zlotych i miesiecy stresu.
+      Zacznijcie od solidnych podstaw.
+    </Fragment>
+  </CallToAction>
+</Layout>

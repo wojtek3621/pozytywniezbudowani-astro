@@ -1,0 +1,88 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+
+const metadata = {
+  title: 'Media',
+  description: 'Publikacje i wystapienia Wojciecha Tracichleb w mediach — Money.pl, Dobrze Mieszkaj, Coraz Lepsza Firma, Extradom.',
+};
+
+const publications = [
+  {
+    title: 'Coraz Lepsza Firma — wywiad',
+    url: 'https://www.corazlepszafirma.pl/blog/wojciech-tracichleb-wywiad',
+    source: 'corazlepszafirma.pl',
+  },
+  {
+    title: 'Dobrze Mieszkaj — bledy przy dachu',
+    url: 'https://www.dobrzemieszkaj.pl/najlepsze_domy/technologie/334/budujesz_dom_ekspert_wyjasnia_jakie_bledy_przy_dachu_kosztuja_najwiecej,317387.html',
+    source: 'dobrzemieszkaj.pl',
+  },
+  {
+    title: 'Dobrze Mieszkaj — stolarka w domu',
+    url: 'https://www.dobrzemieszkaj.pl/najlepsze_domy/domy/331/stolarka_w_domu_jak_dbac_o_okna_drzwi_rolety_i_brame_garazowa_ekspert_radzi,316541.html',
+    source: 'dobrzemieszkaj.pl',
+  },
+  {
+    title: 'Dobrze Mieszkaj — jak wybrac projekt domu',
+    url: 'https://www.dobrzemieszkaj.pl/najlepsze_domy/domy/331/jak_wybrac_projekt_domu_ekspert_radzi_na_co_zwrocic_uwage,316146.html',
+    source: 'dobrzemieszkaj.pl',
+  },
+  {
+    title: 'Dobrze Mieszkaj — kredyt na budowe domu',
+    url: 'https://www.dobrzemieszkaj.pl/najlepsze_domy/domy/331/kredyt_na_budowe_domu_ekspert_radzi_jak_ogarnac_wszystkie_formalnosci_to_trzeba_wiedziec,315878.html',
+    source: 'dobrzemieszkaj.pl',
+  },
+  {
+    title: 'Dobrze Mieszkaj — kluczowe zasady budowy',
+    url: 'https://www.dobrzemieszkaj.pl/najlepsze_domy/domy/331/bez_tego_nie_ruszysz_z_budowa_domu_malo_kto_o_tym_wie_ekspert_tlumaczy_kluczowe_zasady,315667.html',
+    source: 'dobrzemieszkaj.pl',
+  },
+  {
+    title: 'Money.pl — problem z rekami do pracy',
+    url: 'https://www.money.pl/gospodarka/zabraknie-rak-do-pracy-wielki-problem-budowlanki-7212489332370400a.html',
+    source: 'money.pl',
+  },
+  {
+    title: 'Extradom — recenzja ksiazki',
+    url: 'https://www.extradom.pl/porady/artykul-od-marzenia-do-wprowadzenia-wojciech-tracichleb-recenzja-ksiazki',
+    source: 'extradom.pl',
+  },
+  {
+    title: 'Spotify — podcast',
+    url: 'https://open.spotify.com/episode/5KtERj16VHqu2SXYBTf04q?si=h6SK8aqKQ9iL8YE_3gq1LQ',
+    source: 'spotify.com',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <Hero tagline="Media">
+    <Fragment slot="title">
+      Moje <span class="text-accent dark:text-white">publikacje</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Artykuly, wywiady i wystapienia w mediach branzowych.
+    </Fragment>
+  </Hero>
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    <div class="space-y-4">
+      {publications.map((pub) => (
+        <a href={pub.url} target="_blank" rel="noopener"
+          class="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md hover:border-primary/30 transition-all">
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="text-lg font-semibold dark:text-white">{pub.title}</h3>
+              <span class="text-sm text-muted">{pub.source}</span>
+            </div>
+            <svg class="w-5 h-5 text-muted flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>
