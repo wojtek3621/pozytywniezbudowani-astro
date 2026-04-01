@@ -1,0 +1,962 @@
+{
+  "date": "2026-04-01T22:03:43.192733",
+  "total": 119,
+  "ok": 119,
+  "skip": 0,
+  "error": 0,
+  "with_image": 119,
+  "articles": [
+    {
+      "id": "724043952",
+      "slug": "xps-pod-plyta-fundamentowa-czy-sie-oplaca",
+      "title": "XPS pod płytą fundamentową - czy to się opłaca?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043935",
+      "slug": "rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac",
+      "title": "Rekuperacja czy wentylacja grawitacyjna – co wybrać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043933",
+      "slug": "instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym",
+      "title": "Instalacja wodno-kanalizacyjna w domu jednorodzinnym – najważniejsze zasady",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043934",
+      "slug": "czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji",
+      "title": "Czym ogrzewać dom jednorodzinny – porównanie wszystkich opcji",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043936",
+      "slug": "styropian-czy-welna-na-elewacje-co-wybrac",
+      "title": "Styropian czy wełna na elewację – co wybrać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043941",
+      "slug": "kuchnia-na-wymiar-jak-zamowic-i-na-co-uwazac",
+      "title": "Kuchnia na wymiar – jak zamówić i na co uważać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043940",
+      "slug": "wykonczenie-lazienki-krok-po-kroku",
+      "title": "Wykończenie łazienki krok po kroku",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043937",
+      "slug": "tynki-cementowo-wapienne-czy-gipsowe",
+      "title": "Tynki cementowo-wapienne czy gipsowe",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043938",
+      "slug": "podloga-na-ogrzewanie-podlogowe-co-wybrac",
+      "title": "Podłoga na ogrzewanie podłogowe – co wybrać?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043939",
+      "slug": "gladzie-gipsowe-jak-wykonac-i-sprawdzic",
+      "title": "Gładzie gipsowe – jak wykonać i sprawdzić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043942",
+      "slug": "drzwi-wewnetrzne-jak-wybrac-i-zamowic",
+      "title": "Drzwi wewnętrzne – jak wybrać i zamówić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043943",
+      "slug": "smart-home-od-czego-zaczac",
+      "title": "Smart home – od czego zacząć budując dom jednorodzinny",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043944",
+      "slug": "fotowoltaika-w-2026-czy-warto-inwestowac",
+      "title": "Fotowoltaika w 2026 – czy warto inwestować?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043945",
+      "slug": "klimatyzacja-w-projekcie-domu-planowanie-z-wyprzedzeniem",
+      "title": "Klimatyzacja w projekcie domu – planowanie z wyprzedzeniem",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043946",
+      "slug": "alarm-w-domu-rodzaje-systemow",
+      "title": "Alarm w domu – rodzaje systemów",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043947",
+      "slug": "ogrodzenie-posesji-rodzaje-i-koszty",
+      "title": "Ogrodzenie posesji – rodzaje i koszty",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043948",
+      "slug": "basen-w-ogrodzie-rodzaje-i-koszty",
+      "title": "Basen w ogrodzie – rodzaje i koszty",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043949",
+      "slug": "garderoba-walk-in-jak-zaplanowac",
+      "title": "Garderoba walk-in – jak zaplanować",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043950",
+      "slug": "lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy-domu",
+      "title": "Lista rzeczy do załatwienia przed rozpoczęciem budowy domu",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043951",
+      "slug": "kolejnosc-prac-wykonczeniowych-w-domu",
+      "title": "Kolejność prac wykończeniowych w domu – kompletny przewodnik",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043932",
+      "slug": "instalacja-elektryczna-w-domu-planowanie",
+      "title": "Instalacja elektryczna w domu – planowanie",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043931",
+      "slug": "okna-pcv-drewniane-aluminiowe-porownanie",
+      "title": "Okna PCV, drewniane czy aluminiowe – porównanie",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043930",
+      "slug": "wiezba-dachowa-tradycyjna-czy-wiazary-prefabrykowane",
+      "title": "Więźba dachowa tradycyjna czy wiązary prefabrykowane",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043929",
+      "slug": "jaka-technologie-budowy-wybrac-podsumowanie",
+      "title": "Jaką technologię budowy wybrać – podsumowanie",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043928",
+      "slug": "plyta-fundamentowa-czy-lawy-co-wybrac",
+      "title": "Płyta fundamentowa czy ławy – co wybrać?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043925",
+      "slug": "dokumentacja-powykonawcza-co-zawiera-i-po-co",
+      "title": "Dokumentacja powykonawcza – co zawiera i po co",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043924",
+      "slug": "pelnomocnictwo-dla-kierownika-budowy-zakres",
+      "title": "Pełnomocnictwo dla kierownika budowy – zakres",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043923",
+      "slug": "inspektor-nadzoru-inwestorskiego-czy-potrzebny",
+      "title": "Inspektor nadzoru inwestorskiego – czy potrzebny przy budowie domu?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043922",
+      "slug": "odbior-domu-do-uzytkowania-procedura-krok-po-kroku",
+      "title": "Odbiór domu do użytkowania – procedura krok po kroku",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043921",
+      "slug": "tablica-budowy-co-musi-zawierac-i-gdzie-powiesic",
+      "title": "Tablica budowy – co musi zawierać i gdzie powiesić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043920",
+      "slug": "zgloszenie-rozpoczecia-budowy-gdzie-i-jak",
+      "title": "Zgłoszenie rozpoczęcia budowy – gdzie i jak",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043919",
+      "slug": "geodeta-na-budowie-kiedy-jest-potrzebny",
+      "title": "Geodeta na budowie – kiedy jest potrzebny",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043918",
+      "slug": "kierownik-budowy-obowiazki-i-jak-wybrac",
+      "title": "Kierownik budowy – obowiązki i jak wybrać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043917",
+      "slug": "dziennik-budowy-jak-prowadzic-poprawnie",
+      "title": "Dziennik budowy – jak prowadzić poprawnie",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043916",
+      "slug": "ile-trwa-uzyskanie-pozwolenia-na-budowe",
+      "title": "Ile trwa uzyskanie pozwolenia na budowę",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043915",
+      "slug": "zgloszenie-budowy-a-pozwolenie-czym-sie-roznia",
+      "title": "Zgłoszenie budowy a pozwolenie na budowę – czym się różnią",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043914",
+      "slug": "pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku",
+      "title": "Pozwolenie na budowę - jak uzyskać krok po kroku",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043899",
+      "slug": "kosztorys-slepy-vs-kosztorys-wykonawczy",
+      "title": "Kosztorys ślepy vs kosztorys wykonawczy – czym się różnią i który wybrać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043898",
+      "slug": "kredyt-a-budowa-systemem-gospodarczym-czy-sie-oplaca",
+      "title": "Kredyt a budowa systemem gospodarczym – czy się opłaca?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043897",
+      "slug": "co-zrobic-gdy-budzet-nie-wystarczy",
+      "title": "Co zrobić gdy budżet nie wystarczy na budowę domu",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043907",
+      "slug": "prawdziwy-koszt-budowy-domu",
+      "title": "Prawdziwy koszt budowy domu – od działki po ostatnią ratę",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043906",
+      "slug": "kalkulator-transz-kredytu-na-budowe-domu",
+      "title": "Kalkulator transz kredytu na budowę domu – ile płacisz w karencji",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043905",
+      "slug": "nadplata-kredytu-hipotecznego-skrocenie-okresu-czy-nizsza-rata",
+      "title": "Nadpłata kredytu hipotecznego – skrócenie okresu czy niższa rata?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043904",
+      "slug": "ile-wkladu-wlasnego-na-budowe-domu-potrzebujesz",
+      "title": "Ile wkładu własnego na budowę domu potrzebujesz",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043903",
+      "slug": "co-jesli-wibor-wzrosnie-jak-zmieni-sie-twoja-rata",
+      "title": "Co jeśli WIBOR wzrośnie – jak zmieni się Twoja rata",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043902",
+      "slug": "kredyt-na-20-25-czy-30-lat-porownanie-kosztow",
+      "title": "Kredyt na 20, 25 czy 30 lat – porównanie kosztów",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043901",
+      "slug": "kalkulator-raty-kredytu-hipotecznego",
+      "title": "Kalkulator raty kredytu hipotecznego – oblicz swoją ratę",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043896",
+      "slug": "jak-przygotowac-sie-finansowo-do-budowy-domu",
+      "title": "Jak przygotować się finansowo do budowy domu",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043884",
+      "slug": "od-marzenia-do-planu-pierwszy-krok-w-strone-wlasnego-domu",
+      "title": "Od marzenia do planu – pierwszy krok w stronę własnego domu",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043888",
+      "slug": "jak-oszacowac-budzet-na-budowe-domu",
+      "title": "Jak oszacować budżet na budowę domu – praktyczny poradnik",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043895",
+      "slug": "budowa-domu-etapami-jak-rozlozyc-w-czasie-i-finansach",
+      "title": "Budowa domu etapami – jak rozłożyć w czasie i finansach",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043894",
+      "slug": "ukryte-koszty-budowy-domu",
+      "title": "Ukryte koszty budowy domu – o czym zapominasz?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043893",
+      "slug": "ubezpieczenie-budowy-jakie-i-czy-obowiazkowe",
+      "title": "Ubezpieczenie budowy – jakie i czy obowiązkowe",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043892",
+      "slug": "wklad-wlasny-przy-kredycie-na-budowe-domu",
+      "title": "Wkład własny przy kredycie na budowę domu – ile i jak zebrać?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043889",
+      "slug": "kosztorys-budowy-domu-jak-przygotowac",
+      "title": "Kosztorys budowy domu – jak przygotować",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043891",
+      "slug": "rozliczanie-budowy-z-bankiem-jak-dzialaja-transze",
+      "title": "Rozliczanie budowy z bankiem – jak działają transze",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043890",
+      "slug": "vat-8-vs-23-na-materialy-budowlane-jak-zaoszczedzic",
+      "title": "VAT 8% vs 23% na materiały budowlane – jak zaoszczędzić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043887",
+      "slug": "ile-kosztuje-budowa-domu-w-2026-roku",
+      "title": "Ile kosztuje budowa domu w 2026 roku – realne koszty",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043886",
+      "slug": "kredyt-na-budowe-domu-jak-dziala",
+      "title": "Kredyt na budowę domu – jak działa i jak się różni od mieszkaniowego",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043885",
+      "slug": "5-pytan-ktore-musisz-sobie-zadac-zanim-zaczniesz-budowac",
+      "title": "5 pytań, które musisz sobie zadać zanim zaczniesz budować",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043883",
+      "slug": "budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku",
+      "title": "Budowa domu a kredyt hipoteczny – czy nie stanę się niewolnikiem banku?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043882",
+      "slug": "czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet",
+      "title": "Czy stać mnie na budowę domu? Jak policzyć realny budżet",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043881",
+      "slug": "jak-wybrac-projekt-domu-dla-rodziny-z-dziecmi",
+      "title": "Jak wybrać projekt domu dla rodziny z dziećmi – praktyczny poradnik",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043876",
+      "slug": "poziom-zero-budynku-co-to-jest-jak-ustalic",
+      "title": "Poziom zero budynku – co to jest i jak ustalić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043872",
+      "slug": "dom-z-antresola-plusy-i-minusy",
+      "title": "Dom z antresolą – plusy i minusy, o których mało kto mówi",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043871",
+      "slug": "bledy-w-projekcie-domu-jak-wylapac-przed-budowa",
+      "title": "Błędy w projekcie domu - jak wyłapać przed budową",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043865",
+      "slug": "architekt-adaptujacy-jak-wybrac-i-ile-kosztuje",
+      "title": "Architekt adaptujący – jak wybrać i ile kosztuje",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043864",
+      "slug": "adaptacja-projektu-gotowego-co-mozna-zmienic",
+      "title": "Adaptacja projektu gotowego – co można zmienić i ile to kosztuje",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043861",
+      "slug": "ile-metrow-kwadratowych-domu-potrzebujesz-naprawde",
+      "title": "Ile metrów kwadratowych domu potrzebujesz naprawdę?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043850",
+      "slug": "droga-dojazdowa-do-dzialki-asfalt-szuter-brak-drogi",
+      "title": "Droga dojazdowa do działki – asfalt, szuter, brak drogi",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043846",
+      "slug": "jak-sprawdzic-grunt-na-dzialce-bez-geologa",
+      "title": "Jak sprawdzić grunt na działce bez geologa - praktyczne metody wstępnej oceny",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043837",
+      "slug": "badania-geotechniczne-dzialki-dlaczego-sa-obowiazkowe",
+      "title": "Badania geotechniczne działki - dlaczego są obowiązkowe",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043828",
+      "slug": "inteligentny-dom-wszystkie-funkcje-ktore-mozesz-miec-i-jak-zdecydowac-ktore-sa-dla-ciebie",
+      "title": "Inteligentny dom - wszystkie funkcje, które możesz mieć (i jak zdecydować, które są dla Ciebie)",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043826",
+      "slug": "jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik",
+      "title": "Jak wybrać działkę pod budowę domu – kompletny poradnik dla przyszłego inwestora",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043900",
+      "slug": "przekroczenie-budzetu-na-budowe-jak-reagowac",
+      "title": "Przekroczenie budżetu na budowę – jak reagować",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043880",
+      "slug": "dom-z-plaskim-dachem-zalety-i-wady",
+      "title": "Dom z płaskim dachem – zalety i wady",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043870",
+      "slug": "taras-czy-balkon-co-wybrac-przy-budowie-domu",
+      "title": "Taras czy balkon – co wybrać przy budowie domu",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043879",
+      "slug": "okna-dachowe-vs-lukarny-porownanie-rozwiazan",
+      "title": "Okna dachowe vs lukarny - porównanie rozwiązań na poddaszu",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043868",
+      "slug": "ile-kosztuje-projekt-domu-gotowy-vs-indywidualny",
+      "title": "Ile kosztuje projekt domu – gotowy vs indywidualny",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043869",
+      "slug": "strony-swiata-a-projekt-domu-naslonecznienie-pomieszczen",
+      "title": "Strony świata a projekt domu – jak zaplanować nasłonecznienie pomieszczeń",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043878",
+      "slug": "projekt-wnetrz-na-etapie-budowy-kiedy-zamowic",
+      "title": "Projekt wnętrz na etapie budowy – kiedy zamówić, żeby nie żałować",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043867",
+      "slug": "zmiany-w-projekcie-po-rozpoczeciu-budowy",
+      "title": "Zmiany w projekcie po rozpoczęciu budowy – czy to możliwe?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043877",
+      "slug": "projekt-zagospodarowania-terenu-co-zawiera",
+      "title": "Projekt zagospodarowania terenu – co zawiera i jak go przeczytać, zanim zaczniecie budować",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043866",
+      "slug": "usytuowanie-domu-na-dzialce",
+      "title": "Usytuowanie domu na działce – na co zwrócić uwagę",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043875",
+      "slug": "kat-nachylenia-dachu-jak-wplywa-na-projekt-i-koszty",
+      "title": "Kąt nachylenia dachu – jak wpływa na projekt i koszty budowy domu",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043873",
+      "slug": "garaz-w-bryle-budynku-czy-wolnostojacy",
+      "title": "Garaż w bryle budynku czy wolnostojący? Co wybrać i dlaczego ta decyzja wpływa na całą budowę",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043874",
+      "slug": "projekt-gotowy-czy-indywidualny-co-wybrac",
+      "title": "Projekt gotowy czy indywidualny – co wybrać i dlaczego to pytanie może być źle postawione",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043863",
+      "slug": "jak-czytac-projekt-domu-poradnik-dla-laika",
+      "title": "Jak czytać projekt domu – poradnik dla laika",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043862",
+      "slug": "dom-z-poddaszem-uzytkowym-plusy-i-minusy",
+      "title": "Dom z poddaszem użytkowym – plusy i minusy",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043860",
+      "slug": "dom-parterowy-czy-pietrowy-co-wybrac",
+      "title": "Dom parterowy czy piętrowy – co wybrać i dlaczego?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043672",
+      "slug": "budowa-domu-bez-pozwolenia-kiedy-jest-mozliwa",
+      "title": "Budowa domu bez pozwolenia – kiedy jest możliwa? [2026]",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043674",
+      "slug": "dlaczego-technologia-tradycyjna-murowana-jest-tak-popularna",
+      "title": "Dlaczego technologia tradycyjna, murowana, jest tak popularna?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043859",
+      "slug": "dzialka-w-obszarze-zalewowym-jak-sprawdzic",
+      "title": "Działka w obszarze zalewowym – jak sprawdzić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043858",
+      "slug": "koszty-ukryte-dzialki-na-co-uwazac",
+      "title": "Koszty ukryte działki – na co uważać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043857",
+      "slug": "dzialka-z-budynkiem-do-rozbiorki-czy-warto",
+      "title": "Działka z budynkiem do rozbiórki – czy warto kupić?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043856",
+      "slug": "wymiary-dzialki-a-wielkosc-domu-jak-policzyc",
+      "title": "Wymiary działki a wielkość domu – jak policzyć",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043855",
+      "slug": "archeologiczne-tereny-a-budowa-domu",
+      "title": "Archeologiczne tereny a budowa domu – co musisz wiedzieć",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043854",
+      "slug": "linia-energetyczna-przez-dzialke-co-robic",
+      "title": "Linia energetyczna przez działkę – co robić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043853",
+      "slug": "drenaz-dzialki-kiedy-jest-potrzebny",
+      "title": "Drenaż działki – kiedy jest potrzebny",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043852",
+      "slug": "umowa-przedwstepna-na-dzialke-na-co-uwazac",
+      "title": "Umowa przedwstępna na działkę – na co uważać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043851",
+      "slug": "jak-znalezc-dzialke-metoda-street-view",
+      "title": "Jak znaleźć dobrą działkę metodą Street View",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043849",
+      "slug": "sasiedzi-przed-zakupem-dzialki-o-co-pytac",
+      "title": "Sąsiedzi przed zakupem działki – o co pytać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043848",
+      "slug": "poziom-wod-gruntowych-jak-sprawdzic-i-co-oznacza",
+      "title": "Poziom wód gruntowych – jak sprawdzić i co oznacza",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043847",
+      "slug": "dzialka-z-drzewami-wycinka-i-formalnosci",
+      "title": "Działka z drzewami - wycinka i formalności",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043845",
+      "slug": "dzialka-z-dostepem-do-drogi-sluzebnosc-przejazdu",
+      "title": "Działka z dostępem do drogi - służebność przejazdu",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043844",
+      "slug": "jak-negocjowac-cene-dzialki-budowlanej",
+      "title": "Jak negocjować cenę działki budowlanej",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043843",
+      "slug": "dzialka-rolna-pod-budowe-domu-odrolnienie",
+      "title": "Działka rolna pod budowę domu - odrolnienie krok po kroku",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043842",
+      "slug": "dzialka-na-skarpie-czy-warto-i-co-sprawdzic",
+      "title": "Działka na skarpie - czy warto i co sprawdzić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043841",
+      "slug": "dzialka-w-sasiedztwie-lasu-o-czym-pamietac",
+      "title": "Działka w sąsiedztwie lasu - o czym pamiętać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043840",
+      "slug": "ksiega-wieczysta-dzialki-co-sprawdzic",
+      "title": "Księga wieczysta działki - co sprawdzić",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043839",
+      "slug": "mapa-zasadnicza-jak-ja-czytac",
+      "title": "Mapa zasadnicza - jak ją czytać i co z niej wynika",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043838",
+      "slug": "media-na-dzialce-co-sprawdzic-przed-zakupem",
+      "title": "Media na działce - co sprawdzić przed zakupem",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043836",
+      "slug": "warunki-zabudowy-kiedy-potrzebne-jak-uzyskac",
+      "title": "Warunki zabudowy - kiedy są potrzebne i jak je uzyskać",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043835",
+      "slug": "mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego",
+      "title": "MPZP - jak czytać miejscowy plan zagospodarowania przestrzennego",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043823",
+      "slug": "slownik-pojec-z-placu-budowy-czesc-1-fundamenty",
+      "title": "Słownik pojęć z placu budowy. Część 1 - Fundamenty",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043675",
+      "slug": "jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego",
+      "title": "Jak dobrać kabel przyłączeniowy do domu jednorodzinnego?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043677",
+      "slug": "co-powinien-zawierac-projekt-budowlany-jakie-zmiany-zaszly-we-wrzesniu-2021-roku",
+      "title": "Co powinien zawierać projekt budowlany? Jakie zmiany zaszły we wrześniu 2021 roku?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043676",
+      "slug": "zakonczenie-budowy-domu-jakich-formalnosci-trzeba-dopelnic",
+      "title": "Zakończenie budowy domu – jakich formalności trzeba dopełnić?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    },
+    {
+      "id": "724043673",
+      "slug": "na-co-zwracac-uwage-przy-wyborze-projektu-domu",
+      "title": "Na co zwracać uwagę przy wyborze projektu domu?",
+      "status": "ok",
+      "image": true,
+      "warnings": []
+    }
+  ]
+}
