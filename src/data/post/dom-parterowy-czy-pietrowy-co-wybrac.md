@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T16:47:14
 updateDate: 2026-01-10T18:57:45
 title: "Dom parterowy czy piętrowy – co wybrać i dlaczego?"
-excerpt: "Ta decyzja wpłynie na wszystko &ndash; od wyboru działki po codzienne życie przez dekady. Sprawdźcie, co wybrać.
-
-&nbsp;"
+excerpt: "Ta decyzja wpłynie na wszystko – od wyboru działki po codzienne życie przez dekady. Sprawdźcie, co wybrać."
 image: "~/assets/images/blog/dom-parterowy-czy-pietrowy-co-wybrac.jpeg"
 category: "Blog"
 tags:

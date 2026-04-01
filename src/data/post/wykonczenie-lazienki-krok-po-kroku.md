@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:03:39
 updateDate: 2026-02-14T22:31:40
 title: "Wykończenie łazienki krok po kroku"
-excerpt: "Łazienka to jedyne pomieszczenie, w którym nie ma miejsca na improwizację. Sprawdźcie, jak ją wykończyć bez kosztownych wpadek.
-
-&nbsp;"
+excerpt: "Łazienka to jedyne pomieszczenie, w którym nie ma miejsca na improwizację. Sprawdźcie, jak ją wykończyć bez kosztownych wpadek."
 image: "~/assets/images/blog/wykonczenie-lazienki-krok-po-kroku.jpeg"
 category: "Blog"
 tags:

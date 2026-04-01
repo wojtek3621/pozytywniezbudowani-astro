@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:40:35
 updateDate: 2026-01-11T16:42:37
 title: "Przekroczenie budżetu na budowę – jak reagować"
-excerpt: "Budżet pęka w szwach, a dom wciąż nie jest gotowy? Spokojnie &ndash; masz więcej opcji, niż Ci się wydaje...
-
-&nbsp;"
+excerpt: "Budżet pęka w szwach, a dom wciąż nie jest gotowy? Spokojnie – masz więcej opcji, niż Ci się wydaje..."
 image: "~/assets/images/blog/przekroczenie-budzetu-na-budowe-jak-reagowac.jpeg"
 category: "Blog"
 tags:

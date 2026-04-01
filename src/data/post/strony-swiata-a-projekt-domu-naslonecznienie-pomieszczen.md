@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T17:57:45
 updateDate: 2026-01-10T20:23:39
 title: "Strony świata a projekt domu – jak zaplanować nasłonecznienie pomieszczeń"
-excerpt: "Salon tonący w mroku, sypialnia jak piekarnik &ndash; to można przewidzieć już na etapie projektu...
-
-&nbsp;"
+excerpt: "Salon tonący w mroku, sypialnia jak piekarnik – to można przewidzieć już na etapie projektu..."
 image: "~/assets/images/blog/strony-swiata-a-projekt-domu-naslonecznienie-pomieszczen.jpeg"
 category: "Blog"
 tags:

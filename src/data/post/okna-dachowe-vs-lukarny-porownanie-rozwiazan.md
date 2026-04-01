@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:15:17
 updateDate: 2026-01-10T20:27:52
 title: "Okna dachowe vs lukarny - porównanie rozwiązań na poddaszu"
-excerpt: "Ciemne poddasze to zmarnowana przestrzeń. Okna dachowe czy lukarny &ndash; która droga lepsza dla Waszego domu?
-
-&nbsp;"
+excerpt: "Ciemne poddasze to zmarnowana przestrzeń. Okna dachowe czy lukarny – która droga lepsza dla Waszego domu?"
 image: "~/assets/images/blog/okna-dachowe-vs-lukarny-porownanie-rozwiazan.jpeg"
 category: "Blog"
 tags:

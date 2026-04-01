@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T17:53:49
 updateDate: 2026-02-14T22:44:24
 title: "Instalacja wodno-kanalizacyjna w domu jednorodzinnym – najważniejsze zasady"
-excerpt: "Błędy w instalacji wod-kan wychodzą po latach &ndash; i kosztują fortunę. Sprawdźcie, jak ich uniknąć.
-
-&nbsp;"
+excerpt: "Błędy w instalacji wod-kan wychodzą po latach – i kosztują fortunę. Sprawdźcie, jak ich uniknąć."
 image: "~/assets/images/blog/instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym.jpeg"
 category: "Blog"
 tags:

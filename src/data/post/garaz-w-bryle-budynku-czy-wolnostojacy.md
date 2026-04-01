@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:07:04
 updateDate: 2026-01-10T19:10:32
 title: "Garaż w bryle budynku czy wolnostojący? Co wybrać i dlaczego ta decyzja wpływa na całą budowę"
-excerpt: "Garaż to nie tylko miejsce na auto. Ta decyzja wpływa na projekt, działkę i codzienne życie. Sprawdźcie, co wybrać.
-
-&nbsp;"
+excerpt: "Garaż to nie tylko miejsce na auto. Ta decyzja wpływa na projekt, działkę i codzienne życie. Sprawdźcie, co wybrać."
 image: "~/assets/images/blog/garaz-w-bryle-budynku-czy-wolnostojacy.jpeg"
 category: "Blog"
 tags:

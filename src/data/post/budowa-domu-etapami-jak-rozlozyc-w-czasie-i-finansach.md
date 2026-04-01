@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:10:11
 updateDate: 2026-01-11T22:33:35
 title: "Budowa domu etapami – jak rozłożyć w czasie i finansach"
-excerpt: "Budowa domu to maraton, nie sprint. Pokażę Wam, jak rozłożyć ją w czasie, żeby nie zwariować...
-
-&nbsp;"
+excerpt: "Budowa domu to maraton, nie sprint. Pokażę Wam, jak rozłożyć ją w czasie, żeby nie zwariować..."
 image: "~/assets/images/blog/budowa-domu-etapami-jak-rozlozyc-w-czasie-i-finansach.jpeg"
 category: "Blog"
 tags:

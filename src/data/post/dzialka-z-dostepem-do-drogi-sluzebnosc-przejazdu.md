@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T18:12:12
 updateDate: 2026-01-04T18:13:41
 title: "Działka z dostępem do drogi - służebność przejazdu"
-excerpt: "Bez dostępu do drogi publicznej nie wybudujesz domu. Sprawdź, czym jest służebność przejazdu i jak ją zweryfikować...
-
-&nbsp;"
+excerpt: "Bez dostępu do drogi publicznej nie wybudujesz domu. Sprawdź, czym jest służebność przejazdu i jak ją zweryfikować..."
 image: "~/assets/images/blog/dzialka-z-dostepem-do-drogi-sluzebnosc-przejazdu.jpeg"
 category: "Blog"
 tags:

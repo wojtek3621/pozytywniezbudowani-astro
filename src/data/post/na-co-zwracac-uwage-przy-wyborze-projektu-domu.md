@@ -2,14 +2,14 @@
 publishDate: 2024-09-30T12:38:09
 updateDate: 2024-10-09T12:38:35
 title: "Na co zwracać uwagę przy wyborze projektu domu?"
-excerpt: "Marzenie o&nbsp;własnym domu i&nbsp;jego budowa są&nbsp;jednymi z&nbsp;najdonioślejszych wydarzeń w&nbsp;życiu. Nic dziwnego, że&nbsp;wybór odpowiedniego projektu jest&hellip;"
+excerpt: "Marzenie o własnym domu i jego budowa są jednymi z najdonioślejszych wydarzeń w życiu. Nic dziwnego, że wybór odpowiedniego projektu jest…"
 image: "~/assets/images/blog/na-co-zwracac-uwage-przy-wyborze-projektu-domu.jpg"
 category: "Blog"
 author: "Wojciech Tracichleb"
 metadata:
   canonical: "https://pozytywniezbudowani.pl/blog/na-co-zwracac-uwage-przy-wyborze-projektu-domu/"
   title: "Na co zwracać uwagę przy wyborze projektu domu?"
-  description: "Marzenie o&nbsp;własnym domu i&nbsp;jego budowa są&nbsp;jednymi z&nbsp;najdonioślejszych wydarzeń w&nbsp;życiu. Nic dziwnego, że&nbsp;wybór odpowiedniego projektu jest&hellip;"
+  description: "Marzenie o własnym domu i jego budowa są jednymi z najdonioślejszych wydarzeń w życiu. Nic dziwnego, że wybór odpowiedniego projek"
   robots:
     index: true
     follow: true

@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T17:49:30
 updateDate: 2026-01-10T19:02:08
 title: "Jak czytać projekt domu – poradnik dla laika"
-excerpt: "Kilkadziesiąt stron rysunków technicznych. Linie, symbole, wymiary. Spokojnie &ndash; nie musicie kończyć architektury, żeby to zrozumieć...
-
-&nbsp;"
+excerpt: "Kilkadziesiąt stron rysunków technicznych. Linie, symbole, wymiary. Spokojnie – nie musicie kończyć architektury, żeby to zrozumieć..."
 image: "~/assets/images/blog/jak-czytac-projekt-domu-poradnik-dla-laika.jpeg"
 category: "Blog"
 tags:

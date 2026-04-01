@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:10:08
 updateDate: 2026-01-04T19:11:12
 title: "Drenaż działki – kiedy jest potrzebny"
-excerpt: "Zanim podpiszecie umowę na działkę, sprawdźcie jedną rzecz. Woda pod ziemią może zmienić budżet o dziesiątki tysięcy złotych...
-
-&nbsp;"
+excerpt: "Zanim podpiszecie umowę na działkę, sprawdźcie jedną rzecz. Woda pod ziemią może zmienić budżet o dziesiątki tysięcy złotych..."
 image: "~/assets/images/blog/drenaz-dzialki-kiedy-jest-potrzebny.jpeg"
 category: "Blog"
 tags:

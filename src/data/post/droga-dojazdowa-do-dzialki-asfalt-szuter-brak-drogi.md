@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:00:07
 updateDate: 2026-01-11T18:36:34
 title: "Droga dojazdowa do działki – asfalt, szuter, brak drogi"
-excerpt: "Tumany kurzu latem, błoto po kostki zimą &ndash; czy na pewno wiecie, na co się piszecie?
-
-&nbsp;"
+excerpt: "Tumany kurzu latem, błoto po kostki zimą – czy na pewno wiecie, na co się piszecie?"
 image: "~/assets/images/blog/droga-dojazdowa-do-dzialki-asfalt-szuter-brak-drogi.jpeg"
 category: "Blog"
 tags:

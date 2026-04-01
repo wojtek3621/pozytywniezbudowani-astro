@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:16:32
 updateDate: 2026-02-14T18:30:15
 title: "Basen w ogrodzie – rodzaje i koszty"
-excerpt: "Basen w ogrodzie brzmi pięknie. Ale który wybrać i ile to naprawdę kosztuje? Sprawdźcie, zanim podejmiecie decyzję.
-
-&nbsp;"
+excerpt: "Basen w ogrodzie brzmi pięknie. Ale który wybrać i ile to naprawdę kosztuje? Sprawdźcie, zanim podejmiecie decyzję."
 image: "~/assets/images/blog/basen-w-ogrodzie-rodzaje-i-koszty.jpeg"
 category: "Blog"
 tags:

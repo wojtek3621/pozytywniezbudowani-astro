@@ -2,9 +2,7 @@
 publishDate: 2025-06-13T15:44:14
 updateDate: 2026-01-04T11:18:26
 title: "Słownik pojęć z placu budowy. Część 1 - Fundamenty"
-excerpt: "Majster mówi o ławicach, osiach i fi dwunastce, a Wy kiwacie głową, choć nic z tego nie rozumiecie? Czas to zmienić...
-
-&nbsp;"
+excerpt: "Majster mówi o ławicach, osiach i fi dwunastce, a Wy kiwacie głową, choć nic z tego nie rozumiecie? Czas to zmienić..."
 image: "~/assets/images/blog/slownik-pojec-z-placu-budowy-czesc-1-fundamenty.jpg"
 category: "Blog"
 tags:

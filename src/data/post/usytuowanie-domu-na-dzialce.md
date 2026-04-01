@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T17:54:01
 updateDate: 2026-01-10T20:17:50
 title: "Usytuowanie domu na działce – na co zwrócić uwagę"
-excerpt: "Złe umiejscowienie domu to brak słońca w salonie, woda pod fundamentem i taras z widokiem na śmietnik sąsiada. Jak tego uniknąć?
-
-&nbsp;"
+excerpt: "Złe umiejscowienie domu to brak słońca w salonie, woda pod fundamentem i taras z widokiem na śmietnik sąsiada. Jak tego uniknąć?"
 image: "~/assets/images/blog/usytuowanie-domu-na-dzialce.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T17:50:56
 updateDate: 2026-01-04T17:54:47
 title: "Księga wieczysta działki - co sprawdzić"
-excerpt: "Zanim podpiszesz umowę, zajrzyj do jednego dokumentu. Może oszczędzić Wam setki tysięcy złotych...
-
-&nbsp;"
+excerpt: "Zanim podpiszesz umowę, zajrzyj do jednego dokumentu. Może oszczędzić Wam setki tysięcy złotych..."
 image: "~/assets/images/blog/ksiega-wieczysta-dzialki-co-sprawdzic.jpeg"
 category: "Blog"
 tags:

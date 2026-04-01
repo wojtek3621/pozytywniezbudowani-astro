@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T17:56:34
 updateDate: 2026-01-10T20:26:19
 title: "Ile kosztuje projekt domu – gotowy vs indywidualny"
-excerpt: "Różnica w cenie katalogowej to dopiero początek historii. Rzeczywisty koszt może Was zaskoczyć &ndash; na plus lub na minus...
-
-&nbsp;"
+excerpt: "Różnica w cenie katalogowej to dopiero początek historii. Rzeczywisty koszt może Was zaskoczyć – na plus lub na minus..."
 image: "~/assets/images/blog/ile-kosztuje-projekt-domu-gotowy-vs-indywidualny.jpeg"
 category: "Blog"
 tags:

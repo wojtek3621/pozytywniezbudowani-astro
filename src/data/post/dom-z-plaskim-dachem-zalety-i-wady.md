@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:16:49
 updateDate: 2026-01-10T20:31:17
 title: "Dom z płaskim dachem – zalety i wady"
-excerpt: "Nowoczesna bryła kusi na wizualizacjach. Ale jak płaski dach sprawdza się w polskim klimacie?
-
-&nbsp;"
+excerpt: "Nowoczesna bryła kusi na wizualizacjach. Ale jak płaski dach sprawdza się w polskim klimacie?"
 image: "~/assets/images/blog/dom-z-plaskim-dachem-zalety-i-wady.jpeg"
 category: "Blog"
 tags:

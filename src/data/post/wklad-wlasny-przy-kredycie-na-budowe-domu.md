@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:53:36
 updateDate: 2026-01-11T22:03:08
 title: "Wkład własny przy kredycie na budowę domu – ile i jak zebrać?"
-excerpt: "20% wartości nieruchomości. Tyle mówi teoria. A jak to wygląda w praktyce przy budowie domu?
-
-&nbsp;"
+excerpt: "20% wartości nieruchomości. Tyle mówi teoria. A jak to wygląda w praktyce przy budowie domu?"
 image: "~/assets/images/blog/wklad-wlasny-przy-kredycie-na-budowe-domu.jpeg"
 category: "Blog"
 tags:

@@ -2,7 +2,7 @@
 publishDate: 2026-02-04T12:21:24
 updateDate: 2026-02-04T12:25:17
 title: "Zgłoszenie budowy a pozwolenie na budowę – czym się różnią"
-excerpt: "Zgłoszenie czy pozwolenie? To nie tylko kwestia formalności &ndash; ta decyzja wpływa na bezpieczeństwo całej inwestycji."
+excerpt: "Zgłoszenie czy pozwolenie? To nie tylko kwestia formalności – ta decyzja wpływa na bezpieczeństwo całej inwestycji."
 image: "~/assets/images/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia.jpeg"
 category: "Blog"
 tags:

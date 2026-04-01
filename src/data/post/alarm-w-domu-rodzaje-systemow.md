@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:13:47
 updateDate: 2026-02-14T22:13:37
 title: "Alarm w domu – rodzaje systemów"
-excerpt: "Budujecie dom i zastanawiacie się nad alarmem? Wyjaśniam, czym różnią się systemy i który sprawdzi się u Was.
-
-&nbsp;"
+excerpt: "Budujecie dom i zastanawiacie się nad alarmem? Wyjaśniam, czym różnią się systemy i który sprawdzi się u Was."
 image: "~/assets/images/blog/alarm-w-domu-rodzaje-systemow.jpeg"
 category: "Blog"
 tags:

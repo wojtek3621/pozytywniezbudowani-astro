@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:19:18
 updateDate: 2026-02-03T20:10:28
 title: "Co zrobić gdy budżet nie wystarczy na budowę domu"
-excerpt: "Arkusz z kosztorysem pokazuje więcej niż macie? Zanim zrezygnujecie z budowy, przeczytajcie to...
-
-&nbsp;"
+excerpt: "Arkusz z kosztorysem pokazuje więcej niż macie? Zanim zrezygnujecie z budowy, przeczytajcie to..."
 image: "~/assets/images/blog/co-zrobic-gdy-budzet-nie-wystarczy.jpeg"
 category: "Blog"
 tags:

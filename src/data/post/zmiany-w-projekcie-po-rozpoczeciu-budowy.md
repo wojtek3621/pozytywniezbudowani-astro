@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T17:55:12
 updateDate: 2026-01-10T20:20:35
 title: "Zmiany w projekcie po rozpoczęciu budowy – czy to możliwe?"
-excerpt: "Budowa ruszyła, a Wy chcecie coś zmienić? Jedne modyfikacje załatwicie w dzień, inne mogą Was zatrzymać na miesiące...
-
-&nbsp;"
+excerpt: "Budowa ruszyła, a Wy chcecie coś zmienić? Jedne modyfikacje załatwicie w dzień, inne mogą Was zatrzymać na miesiące..."
 image: "~/assets/images/blog/zmiany-w-projekcie-po-rozpoczeciu-budowy.jpeg"
 category: "Blog"
 tags:

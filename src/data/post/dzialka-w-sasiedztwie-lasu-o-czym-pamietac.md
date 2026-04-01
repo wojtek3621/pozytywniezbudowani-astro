@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T17:53:44
 updateDate: 2026-01-04T17:58:58
 title: "Działka w sąsiedztwie lasu - o czym pamiętać"
-excerpt: "Las za płotem brzmi jak spełnienie marzeń. Ale zanim podpiszecie akt notarialny, sprawdźcie co kryje się za tym idyllicznym obrazem...
-
-&nbsp;"
+excerpt: "Las za płotem brzmi jak spełnienie marzeń. Ale zanim podpiszecie akt notarialny, sprawdźcie co kryje się za tym idyllicznym obrazem..."
 image: "~/assets/images/blog/dzialka-w-sasiedztwie-lasu-o-czym-pamietac.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:56:07
 updateDate: 2026-01-11T22:06:54
 title: "Ubezpieczenie budowy – jakie i czy obowiązkowe"
-excerpt: "Polisa na budowę to nie formalność do odhaczenia. To Wasza siatka bezpieczeństwa, gdy wszystko pójdzie nie tak...
-
-&nbsp;"
+excerpt: "Polisa na budowę to nie formalność do odhaczenia. To Wasza siatka bezpieczeństwa, gdy wszystko pójdzie nie tak..."
 image: "~/assets/images/blog/ubezpieczenie-budowy-jakie-i-czy-obowiazkowe.jpeg"
 category: "Blog"
 tags:

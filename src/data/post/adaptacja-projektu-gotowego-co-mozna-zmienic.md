@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T17:50:41
 updateDate: 2026-01-11T18:54:36
 title: "Adaptacja projektu gotowego – co można zmienić i ile to kosztuje"
-excerpt: "Projekt gotowy to dopiero punkt wyjścia. Możecie zmienić więcej, niż myślicie &ndash; ale nie wszystko warto zmieniać...
-
-&nbsp;"
+excerpt: "Projekt gotowy to dopiero punkt wyjścia. Możecie zmienić więcej, niż myślicie – ale nie wszystko warto zmieniać..."
 image: "~/assets/images/blog/adaptacja-projektu-gotowego-co-mozna-zmienic.jpeg"
 category: "Blog"
 tags:

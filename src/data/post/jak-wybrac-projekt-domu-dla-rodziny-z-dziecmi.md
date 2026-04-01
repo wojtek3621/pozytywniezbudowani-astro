@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:18:28
 updateDate: 2026-01-11T19:50:47
 title: "Jak wybrać projekt domu dla rodziny z dziećmi – praktyczny poradnik"
-excerpt: "Dzieci rosną szybciej niż myślicie. Jak wybrać projekt, który sprawdzi się przez następne 20 lat?
-
-&nbsp;"
+excerpt: "Dzieci rosną szybciej niż myślicie. Jak wybrać projekt, który sprawdzi się przez następne 20 lat?"
 image: "~/assets/images/blog/jak-wybrac-projekt-domu-dla-rodziny-z-dziecmi.jpeg"
 category: "Blog"
 tags:

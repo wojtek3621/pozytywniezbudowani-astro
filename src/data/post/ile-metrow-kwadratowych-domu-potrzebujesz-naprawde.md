@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T16:54:11
 updateDate: 2026-01-11T18:50:09
 title: "Ile metrów kwadratowych domu potrzebujesz naprawdę?"
-excerpt: "Wiele razy słyszałem, że ktoś wybudował za duży dom. Że dom jest za mały &ndash; tylko raz. Ta asymetria mówi więcej niż tysiąc poradników...
-
-&nbsp;"
+excerpt: "Wiele razy słyszałem, że ktoś wybudował za duży dom. Że dom jest za mały – tylko raz. Ta asymetria mówi więcej niż tysiąc poradników..."
 image: "~/assets/images/blog/ile-metrow-kwadratowych-domu-potrzebujesz-naprawde.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:06:18
 updateDate: 2026-02-14T22:17:04
 title: "Drzwi wewnętrzne – jak wybrać i zamówić"
-excerpt: "Drzwi to jedyny element domu, którego dotykacie kilkadziesiąt razy dziennie. Warto wybrać je z głową.
-
-&nbsp;"
+excerpt: "Drzwi to jedyny element domu, którego dotykacie kilkadziesiąt razy dziennie. Warto wybrać je z głową."
 image: "~/assets/images/blog/drzwi-wewnetrzne-jak-wybrac-i-zamowic.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:50:44
 updateDate: 2026-01-11T21:44:22
 title: "Rozliczanie budowy z bankiem – jak działają transze"
-excerpt: "Kredyt na budowę domu to nie jednorazowy przelew. To seria wypłat, które musicie rozliczać z bankiem...
-
-&nbsp;"
+excerpt: "Kredyt na budowę domu to nie jednorazowy przelew. To seria wypłat, które musicie rozliczać z bankiem..."
 image: "~/assets/images/blog/rozliczanie-budowy-z-bankiem-jak-dzialaja-transze.jpeg"
 category: "Blog"
 tags:

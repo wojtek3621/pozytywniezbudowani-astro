@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:48:18
 updateDate: 2026-01-11T21:38:05
 title: "VAT 8% vs 23% na materiały budowlane – jak zaoszczędzić"
-excerpt: "Ta różnica w stawce VAT może oznaczać kilkadziesiąt tysięcy złotych oszczędności. Wystarczy wiedzieć, jak to zrobić...
-
-&nbsp;"
+excerpt: "Ta różnica w stawce VAT może oznaczać kilkadziesiąt tysięcy złotych oszczędności. Wystarczy wiedzieć, jak to zrobić..."
 image: "~/assets/images/blog/vat-8-vs-23-na-materialy-budowlane-jak-zaoszczedzic.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:23:16
 updateDate: 2026-02-03T20:22:06
 title: "Kredyt a budowa systemem gospodarczym – czy się opłaca?"
-excerpt: "Oszczędzisz dziesiątki tysięcy czy wpadniesz w pułapkę opóźnień? Sprawdźcie, zanim weźmiecie kredyt...
-
-&nbsp;"
+excerpt: "Oszczędzisz dziesiątki tysięcy czy wpadniesz w pułapkę opóźnień? Sprawdźcie, zanim weźmiecie kredyt..."
 image: "~/assets/images/blog/kredyt-a-budowa-systemem-gospodarczym-czy-sie-oplaca.jpeg"
 category: "Blog"
 tags:

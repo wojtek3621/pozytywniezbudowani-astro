@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T17:51:48
 updateDate: 2026-01-11T18:56:37
 title: "Architekt adaptujący – jak wybrać i ile kosztuje"
-excerpt: "To od niego zależy, czy proces projektowo-administracyjny przebiegnie sprawnie. Wybierzcie mądrze...
-
-&nbsp;"
+excerpt: "To od niego zależy, czy proces projektowo-administracyjny przebiegnie sprawnie. Wybierzcie mądrze..."
 image: "~/assets/images/blog/architekt-adaptujacy-jak-wybrac-i-ile-kosztuje.jpeg"
 category: "Blog"
 tags:

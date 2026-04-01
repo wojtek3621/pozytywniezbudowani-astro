@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:20:18
 updateDate: 2026-02-14T18:28:08
 title: "Kolejność prac wykończeniowych w domu – kompletny przewodnik"
-excerpt: "Wykończeniówka to sztafeta, nie sprint. Poznajcie kolejność, która chroni Wasz budżet i nerwy.
-
-&nbsp;"
+excerpt: "Wykończeniówka to sztafeta, nie sprint. Poznajcie kolejność, która chroni Wasz budżet i nerwy."
 image: "~/assets/images/blog/kolejnosc-prac-wykonczeniowych-w-domu.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:02:08
 updateDate: 2026-02-14T22:23:23
 title: "Gładzie gipsowe – jak wykonać i sprawdzić"
-excerpt: "Gładka ściana to nie to samo co równa. Sprawdźcie, jak tego dopilnować &ndash; zanim będzie za późno.
-
-&nbsp;"
+excerpt: "Gładka ściana to nie to samo co równa. Sprawdźcie, jak tego dopilnować – zanim będzie za późno."
 image: "~/assets/images/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic.jpeg"
 category: "Blog"
 tags:

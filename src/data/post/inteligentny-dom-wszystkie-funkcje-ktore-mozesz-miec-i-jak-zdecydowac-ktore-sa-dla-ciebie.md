@@ -2,9 +2,7 @@
 publishDate: 2025-12-27T21:42:02
 updateDate: 2026-01-11T18:10:53
 title: "Inteligentny dom - wszystkie funkcje, które możesz mieć (i jak zdecydować, które są dla Ciebie)"
-excerpt: "Gdy pada hasło &bdquo;smart home&quot;, większość osób wyobraża sobie włączanie światła głosem albo sterowanie ogrzewaniem z telefonu. Tymczasem...
-
-&nbsp;"
+excerpt: "Gdy pada hasło \"smart home\", większość osób wyobraża sobie włączanie światła głosem albo sterowanie ogrzewaniem z telefonu. Tymczasem..."
 image: "~/assets/images/blog/inteligentny-dom-wszystkie-funkcje-ktore-mozesz-miec-i-jak-zdecydowac-ktore-sa-dla-ciebie.jpeg"
 category: "Blog"
 tags:

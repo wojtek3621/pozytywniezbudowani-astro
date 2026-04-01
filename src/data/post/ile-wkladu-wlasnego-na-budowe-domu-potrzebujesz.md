@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:52:26
 updateDate: 2026-02-03T19:23:27
 title: "Ile wkładu własnego na budowę domu potrzebujesz"
-excerpt: "Bank wymaga minimum 10% wkładu własnego, ale czy to naprawdę wystarczy? Sprawdź, ile powinieneś mieć...
-
-&nbsp;"
+excerpt: "Bank wymaga minimum 10% wkładu własnego, ale czy to naprawdę wystarczy? Sprawdź, ile powinieneś mieć..."
 image: "~/assets/images/blog/ile-wkladu-wlasnego-na-budowe-domu-potrzebujesz.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:04:57
 updateDate: 2026-02-14T22:32:02
 title: "Kuchnia na wymiar – jak zamówić i na co uważać"
-excerpt: "Kuchnia to nie tylko fronty i kolor. Podpowiem, na czym naprawdę nie warto oszczędzać &ndash; i gdzie można.
-
-&nbsp;"
+excerpt: "Kuchnia to nie tylko fronty i kolor. Podpowiem, na czym naprawdę nie warto oszczędzać – i gdzie można."
 image: "~/assets/images/blog/kuchnia-na-wymiar-jak-zamowic-i-na-co-uwazac.jpeg"
 category: "Blog"
 tags:

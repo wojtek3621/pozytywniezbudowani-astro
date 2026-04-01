@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T17:57:59
 updateDate: 2026-02-14T22:39:21
 title: "Styropian czy wełna na elewację – co wybrać"
-excerpt: "Dwa materiały, zupełnie różne właściwości. Sprawdźcie, który naprawdę pasuje do Waszego domu.
-
-&nbsp;"
+excerpt: "Dwa materiały, zupełnie różne właściwości. Sprawdźcie, który naprawdę pasuje do Waszego domu."
 image: "~/assets/images/blog/styropian-czy-welna-na-elewacje-co-wybrac.jpeg"
 category: "Blog"
 tags:

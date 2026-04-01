@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:45:55
 updateDate: 2026-01-11T21:50:54
 title: "Kosztorys budowy domu – jak przygotować"
-excerpt: "Kilkanaście wycen, dziesiątki telefonów, setki pozycji w arkuszu. Chaos? Nie, jeśli wiesz, jak to ogarnąć...
-
-&nbsp;"
+excerpt: "Kilkanaście wycen, dziesiątki telefonów, setki pozycji w arkuszu. Chaos? Nie, jeśli wiesz, jak to ogarnąć..."
 image: "~/assets/images/blog/kosztorys-budowy-domu-jak-przygotowac.jpeg"
 category: "Blog"
 tags:

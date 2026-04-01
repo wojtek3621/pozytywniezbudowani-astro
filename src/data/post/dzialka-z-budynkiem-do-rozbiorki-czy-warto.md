@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:19:57
 updateDate: 2026-01-04T19:21:01
 title: "Działka z budynkiem do rozbiórki – czy warto kupić?"
-excerpt: "Nieatrakcyjna na pierwszy rzut oka działka z ruderą może okazać się strzałem w dziesiątkę. Ale może też pochłonąć Wasz budżet...
-
-&nbsp;"
+excerpt: "Nieatrakcyjna na pierwszy rzut oka działka z ruderą może okazać się strzałem w dziesiątkę. Ale może też pochłonąć Wasz budżet..."
 image: "~/assets/images/blog/dzialka-z-budynkiem-do-rozbiorki-czy-warto.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:12:34
 updateDate: 2026-02-14T22:14:24
 title: "Klimatyzacja w projekcie domu – planowanie z wyprzedzeniem"
-excerpt: "Klimatyzacja zaplanowana na etapie projektu to komfort bez kucia ścian. Sprawdźcie, jak to zrobić dobrze.
-
-&nbsp;"
+excerpt: "Klimatyzacja zaplanowana na etapie projektu to komfort bez kucia ścian. Sprawdźcie, jak to zrobić dobrze."
 image: "~/assets/images/blog/klimatyzacja-w-projekcie-domu-planowanie-z-wyprzedzeniem.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T18:22:10
 updateDate: 2026-01-04T18:23:49
 title: "Poziom wód gruntowych – jak sprawdzić i co oznacza"
-excerpt: "Woda gruntowa może zniszczyć Wasz dom od podstaw. Dosłownie. Sprawdźcie, jak ją wykryć przed zakupem działki...
-
-&nbsp;"
+excerpt: "Woda gruntowa może zniszczyć Wasz dom od podstaw. Dosłownie. Sprawdźcie, jak ją wykryć przed zakupem działki..."
 image: "~/assets/images/blog/poziom-wod-gruntowych-jak-sprawdzic-i-co-oznacza.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T17:13:57
 updateDate: 2026-02-14T17:17:55
 title: "Więźba dachowa tradycyjna czy wiązary prefabrykowane"
-excerpt: "Wielu inwestorów wybiera więźbę &bdquo;bo tak się robi&quot;. Zanim podejmiecie decyzję, poznajcie różnice, które naprawdę mają znaczenie.
-
-&nbsp;"
+excerpt: "Wielu inwestorów wybiera więźbę \"bo tak się robi\". Zanim podejmiecie decyzję, poznajcie różnice, które naprawdę mają znaczenie."
 image: "~/assets/images/blog/wiezba-dachowa-tradycyjna-czy-wiazary-prefabrykowane.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:09:42
 updateDate: 2026-01-10T20:12:01
 title: "Kąt nachylenia dachu – jak wpływa na projekt i koszty budowy domu"
-excerpt: "Zakochaliście się w projekcie, kupiliście działkę &ndash; a potem okazało się, że MPZP wymaga zupełnie innego dachu. Jak tego uniknąć?
-
-&nbsp;"
+excerpt: "Zakochaliście się w projekcie, kupiliście działkę – a potem okazało się, że MPZP wymaga zupełnie innego dachu. Jak tego uniknąć?"
 image: "~/assets/images/blog/kat-nachylenia-dachu-jak-wplywa-na-projekt-i-koszty.jpeg"
 category: "Blog"
 tags:

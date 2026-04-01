@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T17:00:13
 updateDate: 2026-02-03T19:46:18
 title: "Prawdziwy koszt budowy domu – od działki po ostatnią ratę"
-excerpt: "Dom za 600 000 zł? Policz jeszcze raz. Od działki po ostatnią ratę wydasz znacznie więcej...
-
-&nbsp;"
+excerpt: "Dom za 600 000 zł? Policz jeszcze raz. Od działki po ostatnią ratę wydasz znacznie więcej..."
 image: "~/assets/images/blog/prawdziwy-koszt-budowy-domu.jpeg"
 category: "Blog"
 tags:

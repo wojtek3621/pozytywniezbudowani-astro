@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:17:27
 updateDate: 2026-01-04T19:18:49
 title: "Wymiary działki a wielkość domu – jak policzyć"
-excerpt: "Znalazłeś działkę i projekt, ale czy na pewno do siebie pasują? Pokażę Ci, jak to policzyć...
-
-&nbsp;"
+excerpt: "Znalazłeś działkę i projekt, ale czy na pewno do siebie pasują? Pokażę Ci, jak to policzyć..."
 image: "~/assets/images/blog/wymiary-dzialki-a-wielkosc-domu-jak-policzyc.jpeg"
 category: "Blog"
 tags:

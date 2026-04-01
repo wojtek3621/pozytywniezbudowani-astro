@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T18:08:44
 updateDate: 2026-01-04T18:11:35
 title: "Jak negocjować cenę działki budowlanej"
-excerpt: "Kilka tysięcy złotych oszczędności jest na wyciągnięcie ręki &ndash; wystarczy wiedzieć, jak rozmawiać ze sprzedającym...
-
-&nbsp;"
+excerpt: "Kilka tysięcy złotych oszczędności jest na wyciągnięcie ręki – wystarczy wiedzieć, jak rozmawiać ze sprzedającym..."
 image: "~/assets/images/blog/jak-negocjowac-cene-dzialki-budowlanej.jpeg"
 category: "Blog"
 tags:

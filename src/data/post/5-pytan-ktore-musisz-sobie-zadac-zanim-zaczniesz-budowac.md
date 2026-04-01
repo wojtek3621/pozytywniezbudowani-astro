@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:31:37
 updateDate: 2026-01-11T21:07:36
 title: "5 pytań, które musisz sobie zadać zanim zaczniesz budować"
-excerpt: "Zanim weźmiesz kredyt, zanim kupisz działkę &ndash; usiądź i odpowiedz szczerze na te pytania...
-
-&nbsp;"
+excerpt: "Zanim weźmiesz kredyt, zanim kupisz działkę – usiądź i odpowiedz szczerze na te pytania..."
 image: "~/assets/images/blog/5-pytan-ktore-musisz-sobie-zadac-zanim-zaczniesz-budowac.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T17:59:36
 updateDate: 2026-01-04T18:01:56
 title: "Działka na skarpie - czy warto i co sprawdzić"
-excerpt: "Działka na skarpie kusi niższą ceną i pięknymi widokami. Ale czy wiecie, co naprawdę czeka Was przy budowie domu na pochyłym terenie?
-
-&nbsp;"
+excerpt: "Działka na skarpie kusi niższą ceną i pięknymi widokami. Ale czy wiecie, co naprawdę czeka Was przy budowie domu na pochyłym terenie?"
 image: "~/assets/images/blog/dzialka-na-skarpie-czy-warto-i-co-sprawdzic.jpeg"
 category: "Blog"
 tags:

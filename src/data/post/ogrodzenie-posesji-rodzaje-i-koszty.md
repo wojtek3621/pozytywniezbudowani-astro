@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:15:02
 updateDate: 2026-02-14T18:30:52
 title: "Ogrodzenie posesji – rodzaje i koszty"
-excerpt: "Ogrodzenie to pierwsza rzecz, którą widzą goście &ndash; i ostatnia, o której myślą inwestorzy. Sprawdźcie, jak wybrać mądrze.
-
-&nbsp;"
+excerpt: "Ogrodzenie to pierwsza rzecz, którą widzą goście – i ostatnia, o której myślą inwestorzy. Sprawdźcie, jak wybrać mądrze."
 image: "~/assets/images/blog/ogrodzenie-posesji-rodzaje-i-koszty.jpeg"
 category: "Blog"
 tags:

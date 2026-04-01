@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T18:57:38
 updateDate: 2026-01-04T18:59:12
 title: "Sąsiedzi przed zakupem działki – o co pytać"
-excerpt: "Sąsiedzi wiedzą o okolicy rzeczy, których nie znajdziecie w żadnych dokumentach...
-
-&nbsp;"
+excerpt: "Sąsiedzi wiedzą o okolicy rzeczy, których nie znajdziecie w żadnych dokumentach..."
 image: "~/assets/images/blog/sasiedzi-przed-zakupem-dzialki-o-co-pytac.jpeg"
 category: "Blog"
 tags:

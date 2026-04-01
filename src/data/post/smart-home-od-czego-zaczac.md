@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:07:19
 updateDate: 2026-02-14T22:16:30
 title: "Smart home – od czego zacząć budując dom jednorodzinny"
-excerpt: "Zanim wydacie fortunę na smart home, przeczytajcie co naprawdę warto zautomatyzować &ndash; i czy w ogóle musicie.
-
-&nbsp;"
+excerpt: "Zanim wydacie fortunę na smart home, przeczytajcie co naprawdę warto zautomatyzować – i czy w ogóle musicie."
 image: "~/assets/images/blog/smart-home-od-czego-zaczac.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:57:49
 updateDate: 2026-02-03T19:29:44
 title: "Kalkulator transz kredytu na budowę domu – ile płacisz w karencji"
-excerpt: "Przez całą budowę płacisz tylko odsetki. A kapitał? Ani złotówki mniej. Sprawdź, ile to naprawdę kosztuje...
-
-&nbsp;"
+excerpt: "Przez całą budowę płacisz tylko odsetki. A kapitał? Ani złotówki mniej. Sprawdź, ile to naprawdę kosztuje..."
 image: "~/assets/images/blog/kalkulator-transz-kredytu-na-budowe-domu.jpeg"
 category: "Blog"
 tags:

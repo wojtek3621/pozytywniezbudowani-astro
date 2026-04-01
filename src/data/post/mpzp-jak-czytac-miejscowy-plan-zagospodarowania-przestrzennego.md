@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T15:42:52
 updateDate: 2026-01-04T16:10:19
 title: "MPZP - jak czytać miejscowy plan zagospodarowania przestrzennego"
-excerpt: "Kolorowa mapa z tajemniczymi symbolami może zadecydować o losach Waszej budowy...
-
-&nbsp;"
+excerpt: "Kolorowa mapa z tajemniczymi symbolami może zadecydować o losach Waszej budowy..."
 image: "~/assets/images/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego.jpeg"
 category: "Blog"
 tags:

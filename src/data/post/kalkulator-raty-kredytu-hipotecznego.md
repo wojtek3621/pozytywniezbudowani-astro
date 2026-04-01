@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:42:56
 updateDate: 2026-02-03T08:23:44
 title: "Kalkulator raty kredytu hipotecznego – oblicz swoją ratę"
-excerpt: "Ile zapłacicie bankowi co miesiąc? Wpisz kwotę kredytu i sprawdź sam&hellip;
-
-&nbsp;"
+excerpt: "Ile zapłacicie bankowi co miesiąc? Wpisz kwotę kredytu i sprawdź sam…"
 image: "~/assets/images/blog/kalkulator-raty-kredytu-hipotecznego.jpeg"
 category: "Blog"
 tags:

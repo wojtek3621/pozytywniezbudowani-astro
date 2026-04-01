@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:00:55
 updateDate: 2026-02-14T22:23:58
 title: "Podłoga na ogrzewanie podłogowe – co wybrać?"
-excerpt: "Wybór podłogi na ogrzewanie podłogowe to nie kwestia gustu &ndash; to decyzja techniczna na 20 lat. Sprawdźcie, co naprawdę działa.
-
-&nbsp;"
+excerpt: "Wybór podłogi na ogrzewanie podłogowe to nie kwestia gustu – to decyzja techniczna na 20 lat. Sprawdźcie, co naprawdę działa."
 image: "~/assets/images/blog/podloga-na-ogrzewanie-podlogowe-co-wybrac.jpeg"
 category: "Blog"
 tags:

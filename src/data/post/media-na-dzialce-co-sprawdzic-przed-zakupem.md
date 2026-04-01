@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T16:18:29
 updateDate: 2026-01-04T16:23:08
 title: "Media na działce - co sprawdzić przed zakupem"
-excerpt: "Tańsza działka bez mediów może okazać się droższa niż ta z pełną infrastrukturą. Sprawdź, jak to policzyć...
-
-&nbsp;"
+excerpt: "Tańsza działka bez mediów może okazać się droższa niż ta z pełną infrastrukturą. Sprawdź, jak to policzyć..."
 image: "~/assets/images/blog/media-na-dzialce-co-sprawdzic-przed-zakupem.jpeg"
 category: "Blog"
 tags:

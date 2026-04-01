@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:58:20
 updateDate: 2026-01-11T22:22:34
 title: "Ukryte koszty budowy domu – o czym zapominasz?"
-excerpt: "Grosz do grosza, a będzie kokosza. Sprawdź, które koszty budowy wymkną Ci się spod kontroli...
-
-&nbsp;"
+excerpt: "Grosz do grosza, a będzie kokosza. Sprawdź, które koszty budowy wymkną Ci się spod kontroli..."
 image: "~/assets/images/blog/ukryte-koszty-budowy-domu.jpeg"
 category: "Blog"
 tags:

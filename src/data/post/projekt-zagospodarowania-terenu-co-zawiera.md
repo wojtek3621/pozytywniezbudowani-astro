@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:12:41
 updateDate: 2026-01-10T20:18:52
 title: "Projekt zagospodarowania terenu – co zawiera i jak go przeczytać, zanim zaczniecie budować"
-excerpt: "Ten dokument określi, jak będziecie żyć na działce przez kolejne dekady. A większość inwestorów nawet go nie czyta...
-
-&nbsp;"
+excerpt: "Ten dokument określi, jak będziecie żyć na działce przez kolejne dekady. A większość inwestorów nawet go nie czyta..."
 image: "~/assets/images/blog/projekt-zagospodarowania-terenu-co-zawiera.jpeg"
 category: "Blog"
 tags:

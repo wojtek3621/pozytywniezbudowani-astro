@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:22:39
 updateDate: 2026-01-11T20:51:36
 title: "Budowa domu a kredyt hipoteczny – czy nie stanę się niewolnikiem banku?"
-excerpt: "30 lat spłacania kredytu brzmi przerażająco. Ale czy na pewno musi tak być? Pokażę Wam, jak podejść do tematu...
-
-&nbsp;"
+excerpt: "30 lat spłacania kredytu brzmi przerażająco. Ale czy na pewno musi tak być? Pokażę Wam, jak podejść do tematu..."
 image: "~/assets/images/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku.jpeg"
 category: "Blog"
 tags:

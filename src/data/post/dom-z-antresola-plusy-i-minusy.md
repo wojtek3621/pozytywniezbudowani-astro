@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:03:08
 updateDate: 2026-01-11T19:20:45
 title: "Dom z antresolą – plusy i minusy, o których mało kto mówi"
-excerpt: "Salon z podwójną wysokością robi wrażenie. Ale czy po roku mieszkania nadal będziecie zachwyceni?
-
-&nbsp;"
+excerpt: "Salon z podwójną wysokością robi wrażenie. Ale czy po roku mieszkania nadal będziecie zachwyceni?"
 image: "~/assets/images/blog/dom-z-antresola-plusy-i-minusy.jpeg"
 category: "Blog"
 tags:

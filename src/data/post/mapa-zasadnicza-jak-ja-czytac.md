@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T16:24:10
 updateDate: 2026-01-04T17:50:07
 title: "Mapa zasadnicza - jak ją czytać i co z niej wynika"
-excerpt: "Dziwne literki i kolorowe kreski na mapie? Po tym artykule będziecie je czytać jak otwartą książkę...
-
-&nbsp;"
+excerpt: "Dziwne literki i kolorowe kreski na mapie? Po tym artykule będziecie je czytać jak otwartą książkę..."
 image: "~/assets/images/blog/mapa-zasadnicza-jak-ja-czytac.jpeg"
 category: "Blog"
 tags:

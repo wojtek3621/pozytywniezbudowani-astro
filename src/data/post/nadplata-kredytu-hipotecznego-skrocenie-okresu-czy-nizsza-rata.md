@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:54:51
 updateDate: 2026-02-03T19:26:53
 title: "Nadpłata kredytu hipotecznego – skrócenie okresu czy niższa rata?"
-excerpt: "Zostało Ci 10 000 zł &ndash; nadpłacić kredyt czy nie? A jeśli tak, to którą opcję wybrać? Policz sam...
-
-&nbsp;"
+excerpt: "Zostało Ci 10 000 zł – nadpłacić kredyt czy nie? A jeśli tak, to którą opcję wybrać? Policz sam..."
 image: "~/assets/images/blog/nadplata-kredytu-hipotecznego-skrocenie-okresu-czy-nizsza-rata.jpeg"
 category: "Blog"
 tags:

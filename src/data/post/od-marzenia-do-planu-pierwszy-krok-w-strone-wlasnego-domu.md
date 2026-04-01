@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:27:00
 updateDate: 2026-01-11T22:38:13
 title: "Od marzenia do planu – pierwszy krok w stronę własnego domu"
-excerpt: "Większość osób zaczyna od szukania projektu. A powinni zacząć od czegoś zupełnie innego...
-
-&nbsp;"
+excerpt: "Większość osób zaczyna od szukania projektu. A powinni zacząć od czegoś zupełnie innego..."
 image: "~/assets/images/blog/od-marzenia-do-planu-pierwszy-krok-w-strone-wlasnego-domu.jpeg"
 category: "Blog"
 tags:

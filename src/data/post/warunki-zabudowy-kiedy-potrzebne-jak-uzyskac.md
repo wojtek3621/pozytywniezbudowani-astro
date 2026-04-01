@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T15:49:53
 updateDate: 2026-01-04T16:17:16
 title: "Warunki zabudowy - kiedy są potrzebne i jak je uzyskać"
-excerpt: "Działka bez planu miejscowego? Sprawdź, czy potrzebujesz &bdquo;wuzetki&quot; i jak ją uzyskać, zanim zmienią się przepisy...
-
-&nbsp;"
+excerpt: "Działka bez planu miejscowego? Sprawdź, czy potrzebujesz \"wuzetki\" i jak ją uzyskać, zanim zmienią się przepisy..."
 image: "~/assets/images/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:42:49
 updateDate: 2026-01-11T22:37:52
 title: "Jak oszacować budżet na budowę domu – praktyczny poradnik"
-excerpt: "Budżet to nie liczba w głowie. To arkusz z dziesiątkami pozycji, które musicie policzyć zanim wbijecie pierwszą łopatę...
-
-&nbsp;"
+excerpt: "Budżet to nie liczba w głowie. To arkusz z dziesiątkami pozycji, które musicie policzyć zanim wbijecie pierwszą łopatę..."
 image: "~/assets/images/blog/jak-oszacowac-budzet-na-budowe-domu.jpeg"
 category: "Blog"
 tags:

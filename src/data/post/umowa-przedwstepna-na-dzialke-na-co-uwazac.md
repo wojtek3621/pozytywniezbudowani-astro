@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:04:02
 updateDate: 2026-01-04T19:09:14
 title: "Umowa przedwstępna na działkę – na co uważać"
-excerpt: "Zanim wpłacicie pieniądze za wymarzoną działkę, przeczytajcie, jak się naprawdę zabezpieczyć...
-
-&nbsp;"
+excerpt: "Zanim wpłacicie pieniądze za wymarzoną działkę, przeczytajcie, jak się naprawdę zabezpieczyć..."
 image: "~/assets/images/blog/umowa-przedwstepna-na-dzialke-na-co-uwazac.jpeg"
 category: "Blog"
 tags:

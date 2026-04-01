@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T15:37:53
 updateDate: 2026-01-11T21:13:06
 title: "Kredyt na budowę domu – jak działa i jak się różni od mieszkaniowego"
-excerpt: "Kredyt na budowę to zupełnie inna historia niż kredyt na gotowe mieszkanie. Sprawdźcie, na co się przygotować&hellip;
-
-&nbsp;"
+excerpt: "Kredyt na budowę to zupełnie inna historia niż kredyt na gotowe mieszkanie. Sprawdźcie, na co się przygotować…"
 image: "~/assets/images/blog/kredyt-na-budowe-domu-jak-dziala.jpeg"
 category: "Blog"
 tags:

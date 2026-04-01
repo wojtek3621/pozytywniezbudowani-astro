@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:15:49
 updateDate: 2026-01-04T19:16:57
 title: "Archeologiczne tereny a budowa domu – co musisz wiedzieć"
-excerpt: "W Polsce jest pół miliona stanowisk archeologicznych. Czy Wasza działka to jedno z nich? Sprawdźcie, zanim koparka wjedzie na teren...
-
-&nbsp;"
+excerpt: "W Polsce jest pół miliona stanowisk archeologicznych. Czy Wasza działka to jedno z nich? Sprawdźcie, zanim koparka wjedzie na teren..."
 image: "~/assets/images/blog/archeologiczne-tereny-a-budowa-domu.jpeg"
 category: "Blog"
 tags:

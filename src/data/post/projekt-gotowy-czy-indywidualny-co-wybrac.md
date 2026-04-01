@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:08:26
 updateDate: 2026-01-10T19:03:18
 title: "Projekt gotowy czy indywidualny – co wybrać i dlaczego to pytanie może być źle postawione"
-excerpt: "Tysiące projektów w katalogach, a Ty nie wiesz, który wybrać? Jest trzecia droga, o której mało kto mówi...
-
-&nbsp;"
+excerpt: "Tysiące projektów w katalogach, a Ty nie wiesz, który wybrać? Jest trzecia droga, o której mało kto mówi..."
 image: "~/assets/images/blog/projekt-gotowy-czy-indywidualny-co-wybrac.jpeg"
 category: "Blog"
 tags:

@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:21:54
 updateDate: 2026-01-04T19:23:01
 title: "Koszty ukryte działki – na co uważać"
-excerpt: "Ta działka wydaje się okazją? Sprawdź, co może ukrywać jej cena...
-
-&nbsp;"
+excerpt: "Ta działka wydaje się okazją? Sprawdź, co może ukrywać jej cena..."
 image: "~/assets/images/blog/koszty-ukryte-dzialki-na-co-uwazac.jpeg"
 category: "Blog"
 tags:

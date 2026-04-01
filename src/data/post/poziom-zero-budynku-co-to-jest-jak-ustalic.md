@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:11:34
 updateDate: 2026-01-11T19:32:19
 title: "Poziom zero budynku – co to jest i jak ustalić"
-excerpt: "Jedna kreska na projekcie, a potrafi zdecydować o&nbsp;walce z wilgocią przez lata...
-
-&nbsp;"
+excerpt: "Jedna kreska na projekcie, a potrafi zdecydować o walce z wilgocią przez lata..."
 image: "~/assets/images/blog/poziom-zero-budynku-co-to-jest-jak-ustalic.jpeg"
 category: "Blog"
 tags:

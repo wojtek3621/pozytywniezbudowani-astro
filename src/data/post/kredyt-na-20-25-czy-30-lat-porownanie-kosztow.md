@@ -2,9 +2,7 @@
 publishDate: 2026-01-11T16:46:10
 updateDate: 2026-02-03T19:18:49
 title: "Kredyt na 20, 25 czy 30 lat – porównanie kosztów"
-excerpt: "Niska rata czy mniej odsetek? Jest trzecia droga, która daje Wam obie korzyści naraz...
-
-&nbsp;"
+excerpt: "Niska rata czy mniej odsetek? Jest trzecia droga, która daje Wam obie korzyści naraz..."
 image: "~/assets/images/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow.jpeg"
 category: "Blog"
 tags:

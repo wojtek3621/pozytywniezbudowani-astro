@@ -2,9 +2,7 @@
 publishDate: 2026-01-10T18:00:57
 updateDate: 2026-01-10T20:29:54
 title: "Taras czy balkon – co wybrać przy budowie domu"
-excerpt: "Balkon w domu jednorodzinnym wygląda pięknie na wizualizacji. Ale czy naprawdę będziecie go używać?
-
-&nbsp;"
+excerpt: "Balkon w domu jednorodzinnym wygląda pięknie na wizualizacji. Ale czy naprawdę będziecie go używać?"
 image: "~/assets/images/blog/taras-czy-balkon-co-wybrac-przy-budowie-domu.jpeg"
 category: "Blog"
 tags:

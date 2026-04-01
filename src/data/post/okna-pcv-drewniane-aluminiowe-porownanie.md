@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T17:18:40
 updateDate: 2026-02-14T17:21:04
 title: "Okna PCV, drewniane czy aluminiowe – porównanie"
-excerpt: "PCV, drewno czy aluminium? Sprawdźcie, który materiał pasuje do Waszego domu &ndash; i dlaczego montaż jest ważniejszy niż marka.
-
-&nbsp;"
+excerpt: "PCV, drewno czy aluminium? Sprawdźcie, który materiał pasuje do Waszego domu – i dlaczego montaż jest ważniejszy niż marka."
 image: "~/assets/images/blog/okna-pcv-drewniane-aluminiowe-porownanie.jpeg"
 category: "Blog"
 tags:

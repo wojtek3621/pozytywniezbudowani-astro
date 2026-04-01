@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:02:14
 updateDate: 2026-01-04T19:05:52
 title: "Jak znaleźć dobrą działkę metodą Street View"
-excerpt: "Zanim wsiądziecie w auto i pojedziecie oglądać działkę &ndash; sprawdźcie ją zdalnie. Pokażę Wam jak...
-
-&nbsp;"
+excerpt: "Zanim wsiądziecie w auto i pojedziecie oglądać działkę – sprawdźcie ją zdalnie. Pokażę Wam jak..."
 image: "~/assets/images/blog/jak-znalezc-dzialke-metoda-street-view.jpeg"
 category: "Blog"
 tags:

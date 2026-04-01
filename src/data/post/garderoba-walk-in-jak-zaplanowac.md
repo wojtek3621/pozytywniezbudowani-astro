@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:17:35
 updateDate: 2026-02-14T18:29:28
 title: "Garderoba walk-in – jak zaplanować"
-excerpt: "Garderoba wymaga konkretnego planu już na etapie projektu. Sprawdźcie, od czego zacząć i na co uważać.
-
-&nbsp;"
+excerpt: "Garderoba wymaga konkretnego planu już na etapie projektu. Sprawdźcie, od czego zacząć i na co uważać."
 image: "~/assets/images/blog/garderoba-walk-in-jak-zaplanowac.jpeg"
 category: "Blog"
 tags:

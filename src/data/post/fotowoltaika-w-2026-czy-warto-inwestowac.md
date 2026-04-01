@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T18:09:52
 updateDate: 2026-02-14T22:15:27
 title: "Fotowoltaika w 2026 – czy warto inwestować?"
-excerpt: "Złote czasy fotowoltaiki minęły. Ale czy to znaczy, że nie warto? Sprawdźcie, co mówią liczby w 2026 roku.
-
-&nbsp;"
+excerpt: "Złote czasy fotowoltaiki minęły. Ale czy to znaczy, że nie warto? Sprawdźcie, co mówią liczby w 2026 roku."
 image: "~/assets/images/blog/fotowoltaika-w-2026-czy-warto-inwestowac.jpeg"
 category: "Blog"
 tags:

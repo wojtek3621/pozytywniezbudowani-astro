@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T17:06:55
 updateDate: 2026-02-14T17:13:06
 title: "Jaką technologię budowy wybrać – podsumowanie"
-excerpt: "Nie ma jednej najlepszej technologii budowy. Jest za to sposób, żeby wybrać tę właściwą dla Was.
-
-&nbsp;"
+excerpt: "Nie ma jednej najlepszej technologii budowy. Jest za to sposób, żeby wybrać tę właściwą dla Was."
 image: "~/assets/images/blog/jaka-technologie-budowy-wybrac-podsumowanie.jpeg"
 category: "Blog"
 tags:

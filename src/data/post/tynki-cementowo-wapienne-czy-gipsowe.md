@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T17:59:09
 updateDate: 2026-02-14T22:28:34
 title: "Tynki cementowo-wapienne czy gipsowe"
-excerpt: "Wybór tynku to nie kwestia gustu. Sprawdźcie, który tynk gdzie stosować i jak uniknąć kosztownych błędów.
-
-&nbsp;"
+excerpt: "Wybór tynku to nie kwestia gustu. Sprawdźcie, który tynk gdzie stosować i jak uniknąć kosztownych błędów."
 image: "~/assets/images/blog/tynki-cementowo-wapienne-czy-gipsowe.jpeg"
 category: "Blog"
 tags:

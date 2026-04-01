@@ -2,9 +2,7 @@
 publishDate: 2024-09-30T12:33:41
 updateDate: 2026-01-06T20:18:52
 title: "Budowa domu bez pozwolenia – kiedy jest możliwa? [2026]"
-excerpt: "Od 2022 roku można budować domy do 70 m&sup2; bez pozwolenia. Ale &bdquo;bez pozwolenia&quot; nie oznacza &bdquo;bez formalności&quot;...
-
-&nbsp;"
+excerpt: "Od 2022 roku można budować domy do 70 m² bez pozwolenia. Ale \"bez pozwolenia\" nie oznacza \"bez formalności\"..."
 image: "~/assets/images/blog/budowa-domu-bez-pozwolenia-kiedy-jest-mozliwa.jpg"
 category: "Blog"
 tags:

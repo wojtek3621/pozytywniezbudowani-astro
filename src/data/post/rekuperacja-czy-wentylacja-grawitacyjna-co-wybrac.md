@@ -2,9 +2,7 @@
 publishDate: 2026-02-14T17:56:30
 updateDate: 2026-02-14T22:47:04
 title: "Rekuperacja czy wentylacja grawitacyjna – co wybrać"
-excerpt: "Rekuperacja to przede wszystkim komfort. I dopóki tego nie zrozumiecie, będziecie podejmować tę decyzję źle.
-
-&nbsp;"
+excerpt: "Rekuperacja to przede wszystkim komfort. I dopóki tego nie zrozumiecie, będziecie podejmować tę decyzję źle."
 image: "~/assets/images/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac.jpeg"
 category: "Blog"
 tags:

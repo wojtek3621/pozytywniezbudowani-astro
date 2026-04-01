@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T19:23:38
 updateDate: 2026-01-04T19:24:46
 title: "Działka w obszarze zalewowym – jak sprawdzić"
-excerpt: "Atrakcyjna cena działki nad rzeką może oznaczać zakaz budowy. Sprawdź, jak zweryfikować ryzyko powodziowe...
-
-&nbsp;"
+excerpt: "Atrakcyjna cena działki nad rzeką może oznaczać zakaz budowy. Sprawdź, jak zweryfikować ryzyko powodziowe..."
 image: "~/assets/images/blog/dzialka-w-obszarze-zalewowym-jak-sprawdzic.jpeg"
 category: "Blog"
 tags:

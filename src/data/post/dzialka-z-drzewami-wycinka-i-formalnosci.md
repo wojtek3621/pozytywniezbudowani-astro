@@ -2,9 +2,7 @@
 publishDate: 2026-01-04T18:18:52
 updateDate: 2026-01-04T18:20:22
 title: "Działka z drzewami - wycinka i formalności"
-excerpt: "Piękna działka ze starymi drzewami może okazać się skomplikowana. Zanim podpiszecie akt notarialny, sprawdźcie...
-
-&nbsp;"
+excerpt: "Piękna działka ze starymi drzewami może okazać się skomplikowana. Zanim podpiszecie akt notarialny, sprawdźcie..."
 image: "~/assets/images/blog/dzialka-z-drzewami-wycinka-i-formalnosci.jpeg"
 category: "Blog"
 tags:
