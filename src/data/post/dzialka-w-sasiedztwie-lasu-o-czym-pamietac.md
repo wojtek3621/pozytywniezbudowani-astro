@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Las za płotem, śpiew ptaków o świcie, sarny zaglądające na podwórko. Brzmi jak scenariusz do pięknego życia, prawda? Wiele osób kupując działkę w sąsiedztwie lasu widzi właśnie ten obrazek – i nie ma w tym nic złego. Bliskość natury to ogromna wartość. Jednak zanim damy się ponieść marzeniom o porannej kawie na tarasie z widokiem na korony drzew, musimy zejść na ziemię i przyjrzeć się temu, co naprawdę oznacza budowa domu przy lesie. Bo choć zalety są niezaprzeczalne, to diabeł jak zwykle tkwi w szczegółach – a tych szczegółów jest więcej, niż mogłoby się wydawać.</p>
 
-<p style="text-align: center;"><img alt="Zielona działka budowlana z widokiem na las iglasty w tle" class="responsive-image" src="/files/userfiles/dzialka-budowlana-przy-lesie.jpeg" style="width: 525px; height: 350px;" title="Działka budowlana w sąsiedztwie lasu" /></p>
+<p style="text-align: center;"><img alt="Zielona działka budowlana z widokiem na las iglasty w tle" class="responsive-image" src="/images/content/dzialka-budowlana-przy-lesie.jpeg" style="width: 525px; height: 350px;" title="Działka budowlana w sąsiedztwie lasu" /></p>
 
 <h2 style="text-align: justify;">Las za płotem – historia jednego rozczarowania</h2>
 

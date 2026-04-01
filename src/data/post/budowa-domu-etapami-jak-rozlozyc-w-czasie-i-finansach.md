@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Kalendarz z zaznaczonymi etapami budowy obok wydrukowanego harmonogramu prac" class="responsive-image" src="/files/userfiles/etapy-budowy-domu-kalendarz-harmonogram.jpeg" style="width: 525px; height: 350px;" title="Planowanie etapów budowy domu - kalendarz i harmonogram" /></p>
+<p style="text-align: center;"><img alt="Kalendarz z zaznaczonymi etapami budowy obok wydrukowanego harmonogramu prac" class="responsive-image" src="/images/content/etapy-budowy-domu-kalendarz-harmonogram.jpeg" style="width: 525px; height: 350px;" title="Planowanie etapów budowy domu - kalendarz i harmonogram" /></p>
 
 <p style="text-align: justify;">Budowa domu jednorodzinnego to przedsięwzięcie rozłożone na miesiące, a często na lata. To dziesiątki decyzji, setki telefonów, tysiące szczegółów do dopilnowania. I jeśli nie rozłożycie tego wszystkiego sensownie w czasie – zarówno pod względem organizacyjnym, jak i finansowym – możecie naprawdę stracić głowę.</p>
 

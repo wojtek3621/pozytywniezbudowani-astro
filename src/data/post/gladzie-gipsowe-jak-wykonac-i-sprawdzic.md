@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Jasne wnętrze domu jednorodzinnego z idealnie gładkimi białymi ścianami po szpachlowaniu gładziami gipsowymi" class="responsive-image" src="/files/userfiles/gladzie-gipsowe-biale-sciany-wnetrze.jpeg" style="width: 525px; height: 350px;" title="Wnętrze domu po nałożeniu gładzi gipsowych na ścianach" /></p>
+<p style="text-align: center;"><img alt="Jasne wnętrze domu jednorodzinnego z idealnie gładkimi białymi ścianami po szpachlowaniu gładziami gipsowymi" class="responsive-image" src="/images/content/gladzie-gipsowe-biale-sciany-wnetrze.jpeg" style="width: 525px; height: 350px;" title="Wnętrze domu po nałożeniu gładzi gipsowych na ścianach" /></p>
 
 
 <p style="text-align: justify;">Jest taki moment na budowie, kiedy po miesiącach kurzu, hałasu i betonu nagle wszystko zaczyna wyglądać jak dom. Ściany stają się białe. Gładkie. Czyste. To moment, w którym większość inwestorów odczuwa ulgę – nareszcie wykończeniówka, nareszcie coś ładnego. I właśnie w tym momencie najłatwiej o kosztowny błąd. Bo gładź gipsowa to coś znacznie więcej niż „białe malowanie ścian” – to etap, który decyduje o tym, jak Wasze ściany będą wyglądać przez następne 20–30 lat. Pod każdym światłem. O każdej porze dnia. I pod każdą farbą, jaką na nie nałożycie.</p>

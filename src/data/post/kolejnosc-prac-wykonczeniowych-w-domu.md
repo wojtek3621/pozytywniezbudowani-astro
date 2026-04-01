@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Pomieszczenie domu jednorodzinnego w trakcie prac wykończeniowych z widocznymi etapami: gładzie, malowanie i montaż podłóg" class="responsive-image" src="/files/userfiles/prace-wykonczeniowe-wnetrze-remont-dom.jpeg" style="width: 525px; height: 350px;" title="Wnętrze domu w trakcie prac wykończeniowych" /></p>
+<p style="text-align: center;"><img alt="Pomieszczenie domu jednorodzinnego w trakcie prac wykończeniowych z widocznymi etapami: gładzie, malowanie i montaż podłóg" class="responsive-image" src="/images/content/prace-wykonczeniowe-wnetrze-remont-dom.jpeg" style="width: 525px; height: 350px;" title="Wnętrze domu w trakcie prac wykończeniowych" /></p>
 
 
 <p style="text-align: justify;">Dom w stanie deweloperskim wygląda jak pudełko pełne obietnic. Potem zaczyna się wykończeniówka i okazuje się, że ten etap potrafi pochłonąć tyle samo czasu, nerwów i pieniędzy, co postawienie całego stanu surowego. Najgorsze, co możecie zrobić na tym etapie, to rzucić się w wir prac bez jasnego planu kolejności. Bo wykończenie domu to precyzyjnie ułożony ciąg zdarzeń, w którym każdy etap zależy od poprzedniego.</p><h2>Dlaczego kolejność ma tak ogromne znaczenie</h2>

@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Wyobraźcie sobie taki obrazek: wracacie do domu po całym dniu pracy, pada deszcz, jest ciemno, a Wasz samochód zaczyna ślizgać się na błotnistej drodze. Dzieci w fotelikach pytają, czemu tak trzęsie. Żona zerka przez okno i widzi, że koła zakopały się po felgi. Brzmi jak scenariusz z horroru? Dla wielu właścicieli domów przy drogach gruntowych to po prostu kolejny listopadowy wieczór.</p>
 
-<p style="text-align: center;"><img alt="Droga żwirowa prowadząca do działek budowlanych w osiedlu podmiejskim" class="responsive-image" src="/files/userfiles/droga-dojazdowa-szuter-asfalt.jpeg" style="width: 525px; height: 350px;" title="Droga dojazdowa do działki – porównanie nawierzchni" /></p>
+<p style="text-align: center;"><img alt="Droga żwirowa prowadząca do działek budowlanych w osiedlu podmiejskim" class="responsive-image" src="/images/content/droga-dojazdowa-szuter-asfalt.jpeg" style="width: 525px; height: 350px;" title="Droga dojazdowa do działki – porównanie nawierzchni" /></p>
 
 <p style="text-align: justify;">Kiedy szukacie działki pod budowę domu, naturalnie zwracacie uwagę na lokalizację, metraż, kształt terenu, dostęp do mediów. Ale droga dojazdowa? To pytanie często pojawia się na samym końcu – albo w ogóle się nie pojawia, aż do momentu, gdy staje się problemem. A wtedy jest już za późno na łatwe rozwiązania.</p>
 

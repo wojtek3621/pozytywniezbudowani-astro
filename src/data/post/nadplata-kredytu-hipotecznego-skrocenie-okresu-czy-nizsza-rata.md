@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Rozwidlenie dróg na dokumentach kredytowych symbolizujące wybór strategii nadpłaty" class="responsive-image" src="/files/userfiles/nadplata-kredytu-dwie-sciezki-wybor.jpeg" style="width: 525px; height: 350px;" title="Nadpłata kredytu hipotecznego - wybór między skróceniem okresu a niższą ratą" /></p>
+<p style="text-align: center;"><img alt="Rozwidlenie dróg na dokumentach kredytowych symbolizujące wybór strategii nadpłaty" class="responsive-image" src="/images/content/nadplata-kredytu-dwie-sciezki-wybor.jpeg" style="width: 525px; height: 350px;" title="Nadpłata kredytu hipotecznego - wybór między skróceniem okresu a niższą ratą" /></p>
 
 <p style="text-align: justify;">Zostało Wam trochę wolnych środków na koncie. Może to premia roczna, może zwrot podatku, a może po prostu przez kilka miesięcy udało się odłożyć więcej niż zwykle. I teraz stajecie przed pytaniem, które zadaje sobie każdy świadomy kredytobiorca: nadpłacić kredyt czy nie? A jeśli tak – to skrócić okres spłaty, czy może obniżyć miesięczną ratę?</p>
 

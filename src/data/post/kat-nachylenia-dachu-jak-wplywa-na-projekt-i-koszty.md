@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Drewniana konstrukcja więźby dachowej domu jednorodzinnego w trakcie budowy" class="responsive-image" src="/files/userfiles/kat-nachylenia-dachu-konstrukcja.jpeg" style="width: 525px; height: 350px;" title="Konstrukcja więźby dachowej – drewniane krokwie pod różnymi kątami" /></p>
+<p style="text-align: center;"><img alt="Drewniana konstrukcja więźby dachowej domu jednorodzinnego w trakcie budowy" class="responsive-image" src="/images/content/kat-nachylenia-dachu-konstrukcja.jpeg" style="width: 525px; height: 350px;" title="Konstrukcja więźby dachowej – drewniane krokwie pod różnymi kątami" /></p>
 
 <p style="text-align: justify;"><strong>Przeglądając projekty domów, zwracacie uwagę na metraż, układ pomieszczeń, liczbę sypialni i wielkość salonu. Sprawdzacie, czy garaż jest w bryle, czy wolnostojący. Analizujecie, ile okien jest od strony ogrodu. Ale jest jeden parametr, który często umyka uwadze, a który potrafi całkowicie zmienić Wasze plany – kąt nachylenia dachu. Ten niepozorny szczegół techniczny, wyrażony w stopniach, ma wpływ na to, czy w ogóle będziecie mogli wybudować wymarzony dom na upatrzonej działce, ile zapłacicie za pokrycie dachowe i jak będzie wyglądała bryła Waszego domu przez następne kilkadziesiąt lat.</strong></p>
 

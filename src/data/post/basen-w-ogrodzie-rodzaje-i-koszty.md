@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Prostokątny basen ogrodowy z czystą wodą w ogrodzie domu jednorodzinnego w ciepły letni dzień" class="responsive-image" src="/files/userfiles/basen-ogrodowy-dom-jednorodzinny-lato.jpeg" style="width: 525px; height: 350px;" title="Basen ogrodowy przy nowoczesnym domu jednorodzinnym latem" /></p>
+<p style="text-align: center;"><img alt="Prostokątny basen ogrodowy z czystą wodą w ogrodzie domu jednorodzinnego w ciepły letni dzień" class="responsive-image" src="/images/content/basen-ogrodowy-dom-jednorodzinny-lato.jpeg" style="width: 525px; height: 350px;" title="Basen ogrodowy przy nowoczesnym domu jednorodzinnym latem" /></p>
 
 
 <p style="text-align: justify;">Basen w ogrodzie to jedno z tych marzeń, które pojawiają się gdzieś między wyborem dachówki a planowaniem podjazdu. Najpierw jest wizja – gorący lipcowy dzień, zimna woda, dzieci pluskające się do zachodu słońca. Potem przychodzi rzeczywistość – a wraz z nią pytania, na które trzeba znaleźć konkretne odpowiedzi, zanim wydacie choćby złotówkę. Bo basen to nie jest impulsowy zakup. To decyzja, która wpływa na Wasz budżet, na zagospodarowanie działki, na codzienną rutynę przez cały sezon, a w niektórych przypadkach – przez cały rok.</p>

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Lupa powiększająca szczegóły na rachunku budowlanym symbolizująca ukryte koszty" class="responsive-image" src="/files/userfiles/ukryte-koszty-budowy-lupa-rachunek.jpeg" style="width: 525px; height: 350px;" title="Ukryte koszty budowy domu - szczegóły, które łatwo przeoczyć" /></p>
+<p style="text-align: center;"><img alt="Lupa powiększająca szczegóły na rachunku budowlanym symbolizująca ukryte koszty" class="responsive-image" src="/images/content/ukryte-koszty-budowy-lupa-rachunek.jpeg" style="width: 525px; height: 350px;" title="Ukryte koszty budowy domu - szczegóły, które łatwo przeoczyć" /></p>
 
 <p style="text-align: justify;">Zdarzyło mi się kiedyś wyjść z marketu budowlanego z paragonem na 350 złotych i przez dłuższą chwilę zastanawiać się, na co właściwie poszły te pieniądze. Szybkie spojrzenie na koszyk nie pomogło w rozwiązaniu zagadki. Na paragonie widziałem produkty za 4 złote, 11 złotych, może coś za 17 – ale nic za 50 ani tym bardziej za 100. Wziąłem więc kalkulator i pozycja po pozycji dodawałem te wszystkie pojedyncze złotówki. Niestety na końcu znów pojawiła się kwota 350 złotych.</p>
 

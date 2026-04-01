@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację: kupiliście wymarzoną działkę, wybraliście projekt, podpisaliście umowę z architektem, a on po tygodniu dzwoni z pytaniem o wyniki badań geotechnicznych. Mówi, że bez nich nie ruszy dalej. Wy na to, że przecież sąsiedzi budowali bez żadnych wierceń i wszystko stoi. On odpowiada, że owszem – ale przepisy się zmieniły, a poza tym wolałby wiedzieć, na czym będzie opierał Wasz dom, zanim zaprojektuje fundamenty. I ma rację.</p>
 
-<p style="text-align: center;"><img alt="Wiertnica geotechniczna podczas pobierania próbek gruntu na działce budowlanej" class="responsive-image" src="/files/userfiles/badania-geotechniczne-wiertnica-dzialka.jpeg" style="width: 525px; height: 350px;" title="Badania geotechniczne gruntu na działce budowlanej" /></p>
+<p style="text-align: center;"><img alt="Wiertnica geotechniczna podczas pobierania próbek gruntu na działce budowlanej" class="responsive-image" src="/images/content/badania-geotechniczne-wiertnica-dzialka.jpeg" style="width: 525px; height: 350px;" title="Badania geotechniczne gruntu na działce budowlanej" /></p>
 
 <p style="text-align: justify;">Te kilka zdań to nie wymyślona historia. To scenariusz, który powtarza się na budowach w całej Polsce. Ludzie kupują działki, nie wiedząc, co jest pod spodem. A potem albo się szczęśliwie okazuje, że grunt jest w porządku, albo budowa zamienia się w kosztowny koszmar. Badania geotechniczne to jeden z tych wydatków, które pozwalają spać spokojnie – i to dosłownie, bo dom postawiony na dobrze rozpoznanym gruncie nie będzie pękał ani osiadał.</p>
 

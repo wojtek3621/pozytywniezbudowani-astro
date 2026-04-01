@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;"><strong>Przeglądając projekty domów, wielokrotnie natrafiacie na wizualizacje z pięknym balkonem nad wejściem lub z przestronnym tarasem wychodzącym z salonu. Obydwa rozwiązania wyglądają kusząco, ale w praktyce jedno z nich przysparza znacznie więcej problemów niż drugie. Zanim podejmiecie decyzję, warto poznać nie tylko różnice w kosztach budowy, ale przede wszystkim to, jak taras i balkon sprawdzają się w codziennym użytkowaniu – oraz jakie ryzyko wiąże się z każdym z tych rozwiązań.</strong></p>
 
-<p style="text-align: center;"><img alt="Nowoczesny taras drewniany przy domu jednorodzinnym z meblami ogrodowymi" class="responsive-image" src="/files/userfiles/taras-balkon-dom-jednorodzinny.jpeg" style="width: 525px; height: 350px;" title="Taras czy balkon – przestrzeń zewnętrzna przy domu jednorodzinnym" /></p>
+<p style="text-align: center;"><img alt="Nowoczesny taras drewniany przy domu jednorodzinnym z meblami ogrodowymi" class="responsive-image" src="/images/content/taras-balkon-dom-jednorodzinny.jpeg" style="width: 525px; height: 350px;" title="Taras czy balkon – przestrzeń zewnętrzna przy domu jednorodzinnym" /></p>
 
 <h2 style="text-align: justify;">Przestrzeń na zewnątrz – potrzeba czy marzenie</h2>
 

@@ -17,7 +17,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Żółta tablica informacyjna budowy z wymaganymi danymi zamontowana na ogrodzeniu" class="responsive-image" src="/files/userfiles/tablica-budowy-informacyjna-ogrodzenie.jpeg" style="width: 525px; height: 350px;" title="Tablica informacyjna budowy zamontowana przy wjeździe na plac budowy" /></p>
+<p style="text-align: center;"><img alt="Żółta tablica informacyjna budowy z wymaganymi danymi zamontowana na ogrodzeniu" class="responsive-image" src="/images/content/tablica-budowy-informacyjna-ogrodzenie.jpeg" style="width: 525px; height: 350px;" title="Tablica informacyjna budowy zamontowana przy wjeździe na plac budowy" /></p>
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację. Jest poniedziałkowy poranek, Wasza ekipa właśnie rozpoczyna prace na działce. Koparka wjeżdża na plac, słychać silnik betoniarki. Nagle na budowę wpada kontrola z nadzoru budowlanego. Pierwszy rzut oka inspektora pada na ogrodzenie – szuka czegoś żółtego. Tablicy informacyjnej. Jeśli jej nie ma albo jest źle wypełniona, macie problem. Może to być mandat, a w skrajnych przypadkach nawet wstrzymanie robót. A wszystko przez kawałek żółtej płyty, który kosztuje kilkadziesiąt złotych i wymaga pięciu minut pracy z markerem.</p>
 

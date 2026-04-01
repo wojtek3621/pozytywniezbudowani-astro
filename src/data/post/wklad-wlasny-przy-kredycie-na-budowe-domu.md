@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Skarbonka w kształcie domu obok słoika z monetami symbolizująca oszczędzanie na wkład własny" class="responsive-image" src="/files/userfiles/wklad-wlasny-skarbonka-dom-oszczednosci.jpeg" style="width: 525px; height: 350px;" title="Zbieranie wkładu własnego na budowę domu - skarbonka i oszczędności" /></p>
+<p style="text-align: center;"><img alt="Skarbonka w kształcie domu obok słoika z monetami symbolizująca oszczędzanie na wkład własny" class="responsive-image" src="/images/content/wklad-wlasny-skarbonka-dom-oszczednosci.jpeg" style="width: 525px; height: 350px;" title="Zbieranie wkładu własnego na budowę domu - skarbonka i oszczędności" /></p>
 
 <p style="text-align: justify;">Dwadzieścia procent. Ta liczba pojawia się niemal w każdym artykule o kredytach hipotecznych i brzmi jak wyrok. Dwadzieścia procent wartości nieruchomości – to musi być na stole, zanim bank w ogóle zacznie z Wami rozmawiać. Przy budowie domu za 800 tysięcy złotych oznacza to 160 tysięcy z własnej kieszeni. Kwota, która potrafi przyprawić o zawrót głowy.</p>
 

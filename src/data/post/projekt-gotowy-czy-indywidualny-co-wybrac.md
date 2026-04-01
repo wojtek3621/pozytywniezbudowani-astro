@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Rozłożony katalog projektów gotowych domów z kolorowymi wizualizacjami i rzutami architektonicznymi" class="responsive-image" src="/files/userfiles/projekt-gotowy-indywidualny-katalog.jpeg" style="width: 525px; height: 350px;" title="Projekty domów gotowych – katalog z wizualizacjami i planami" /></p>
+<p style="text-align: center;"><img alt="Rozłożony katalog projektów gotowych domów z kolorowymi wizualizacjami i rzutami architektonicznymi" class="responsive-image" src="/images/content/projekt-gotowy-indywidualny-katalog.jpeg" style="width: 525px; height: 350px;" title="Projekty domów gotowych – katalog z wizualizacjami i planami" /></p>
 
 <p style="text-align: justify;"><strong>Decyzja o wyborze projektu domu to jeden z tych momentów, w których wielu przyszłych inwestorów staje jak przed ścianą. Z jednej strony kuszą tysiące gotowych projektów dostępnych za ułamek ceny projektu indywidualnego, z drugiej – marzenie o domu szytym na miarę, zaprojektowanym specjalnie dla Was. Prawda jest jednak taka, że odpowiedź na pytanie „gotowy czy indywidualny" nie jest ani prosta, ani uniwersalna. Co więcej – samo pytanie może prowadzić Was na manowce, bo pomija trzecią, często najrozsądniejszą opcję.</strong></p>
 

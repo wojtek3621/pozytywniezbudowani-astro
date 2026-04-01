@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Rząd nowoczesnych białych drzwi wewnętrznych bezprzylgowych w jasnym korytarzu domu jednorodzinnego" class="responsive-image" src="/files/userfiles/drzwi-wewnetrzne-korytarz-nowoczesne.jpeg" style="width: 525px; height: 350px;" title="Nowoczesne drzwi wewnętrzne w korytarzu domu jednorodzinnego" /></p>
+<p style="text-align: center;"><img alt="Rząd nowoczesnych białych drzwi wewnętrznych bezprzylgowych w jasnym korytarzu domu jednorodzinnego" class="responsive-image" src="/images/content/drzwi-wewnetrzne-korytarz-nowoczesne.jpeg" style="width: 525px; height: 350px;" title="Nowoczesne drzwi wewnętrzne w korytarzu domu jednorodzinnego" /></p>
 
 
 <p style="text-align: justify;">Drzwi wewnętrzne to jeden z tych elementów domu, o których myśli się na końcu, a żałuje na początku użytkowania. I nie chodzi tu o estetykę – bo ładne drzwi znajdziecie praktycznie w każdym salonie. Chodzi o to, co jest pod spodem. O konstrukcję, której nie widać. O wymiary otworów, których nikt Wam nie wytłumaczył na etapie murowania ścian. O wypełnienie, które decyduje, czy w sypialni będziecie słyszeć telewizor z salonu. I wreszcie – o sam proces zamawiania, w którym jeden błąd potrafi kosztować tygodnie opóźnień i sporo nerwów.</p>

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Laptop z otwartym arkuszem kalkulacyjnym budżetu budowy domu na biurku" class="responsive-image" src="/files/userfiles/szacowanie-budzetu-laptop-arkusz-kalkulacyjny.jpeg" style="width: 525px; height: 350px;" title="Szacowanie budżetu budowy domu w arkuszu kalkulacyjnym na laptopie" /></p>
+<p style="text-align: center;"><img alt="Laptop z otwartym arkuszem kalkulacyjnym budżetu budowy domu na biurku" class="responsive-image" src="/images/content/szacowanie-budzetu-laptop-arkusz-kalkulacyjny.jpeg" style="width: 525px; height: 350px;" title="Szacowanie budżetu budowy domu w arkuszu kalkulacyjnym na laptopie" /></p>
 
 <p style="text-align: justify;">Pytanie „ile będzie kosztować budowa?" pada na każdym spotkaniu z przyszłymi inwestorami. I niemal zawsze pada druga część tego pytania: „Jak to policzyć, żeby się nie pomylić?". Bo jedno to znać średnie stawki rynkowe, a drugie – przełożyć je na konkretną sytuację: Wasz projekt, Waszą działkę, Wasze oczekiwania co do standardu wykończenia. Dziś przejdziemy przez cały proces szacowania budżetu – od pierwszych, orientacyjnych wyliczeń po szczegółowy kosztorys, który pozwoli Wam kontrolować wydatki na każdym etapie.</p>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Mały drewniany model domu na wadze z monetami symbolizujący decyzję o kredycie hipotecznym" class="responsive-image" src="/files/userfiles/kredyt-hipoteczny-dom-lancuch-wolnosc.jpeg" style="width: 525px; height: 350px;" title="Kredyt hipoteczny na budowę domu - równowaga między marzeniem a zobowiązaniem" /></p>
+<p style="text-align: center;"><img alt="Mały drewniany model domu na wadze z monetami symbolizujący decyzję o kredycie hipotecznym" class="responsive-image" src="/images/content/kredyt-hipoteczny-dom-lancuch-wolnosc.jpeg" style="width: 525px; height: 350px;" title="Kredyt hipoteczny na budowę domu - równowaga między marzeniem a zobowiązaniem" /></p>
 
 <p style="text-align: justify;">Kredyt hipoteczny na budowę domu to dla wielu z nas najbardziej poważna decyzja finansowa w życiu. 30 lat zobowiązania – to brzmi jak wyrok. Ale czy faktycznie musicie czuć się jak więźniowie własnego marzenia? Czy istnieje sposób, by wybudować dom i nie zamienić się w „niewolnika banku", który przez kolejne kilkadziesiąt lat żyje od raty do raty, bojąc się każdej wzmianki o stopach procentowych?</p>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Otwarty notatnik z odręcznymi notatkami obok filiżanki kawy na drewnianym stole" class="responsive-image" src="/files/userfiles/pytania-przed-budowa-notatnik-kawa.jpeg" style="width: 525px; height: 350px;" title="Lista pytań do przemyślenia przed rozpoczęciem budowy domu" /></p>
+<p style="text-align: center;"><img alt="Otwarty notatnik z odręcznymi notatkami obok filiżanki kawy na drewnianym stole" class="responsive-image" src="/images/content/pytania-przed-budowa-notatnik-kawa.jpeg" style="width: 525px; height: 350px;" title="Lista pytań do przemyślenia przed rozpoczęciem budowy domu" /></p>
 
 <p style="text-align: justify;">Jest taki moment w życiu, kiedy marzenie o własnym domu przestaje być mglistą wizją i zaczyna nabierać konkretnych kształtów. Przeglądacie projekty, jeździcie oglądać działki, liczycie w kalkultorach zdolność kredytową. I nagle okazuje się, że to wszystko jest w zasięgu ręki. Że można. Że się da.</p>
 

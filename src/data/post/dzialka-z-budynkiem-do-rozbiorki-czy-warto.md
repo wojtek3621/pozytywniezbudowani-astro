@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Przeglądacie ogłoszenia i natrafiasz na działkę w świetnej lokalizacji, z rozsądną ceną, ale jest pewien haczyk – stoi na niej stary, walący się budynek. Sprzedający pisze, że „do rozbiórki" albo „do generalnego remontu", co w praktyce często oznacza to samo. I teraz macie dylemat: czy to okazja, czy raczej pułapka, która pochłonie Wasz czas, nerwy i pieniądze?</p>
 
-<p style="text-align: center;"><img alt="Stary, zniszczony dom jednorodzinny na działce budowlanej przeznaczony do rozbiórki" class="responsive-image" src="/files/userfiles/dzialka-stary-dom-rozbiorka.jpeg" style="width: 525px; height: 350px;" title="Działka ze starym domem przeznaczonym do rozbiórki" /></p>
+<p style="text-align: center;"><img alt="Stary, zniszczony dom jednorodzinny na działce budowlanej przeznaczony do rozbiórki" class="responsive-image" src="/images/content/dzialka-stary-dom-rozbiorka.jpeg" style="width: 525px; height: 350px;" title="Działka ze starym domem przeznaczonym do rozbiórki" /></p>
 
 <p style="text-align: justify;">To pytanie słyszę regularnie od osób, które szukają terenu pod budowę własnego domu. Szczególnie w atrakcyjnych lokalizacjach, gdzie pustych działek po prostu już nie ma. Bo prawda jest taka, że w dobrych dzielnicach, blisko centrum, z wygodnym dojazdem do szkół i pracy – „czyste" parcele dawno zniknęły z rynku. Zostały te z obciążeniem w postaci starej zabudowy.</p>
 

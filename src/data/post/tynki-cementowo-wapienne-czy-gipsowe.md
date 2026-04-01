@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Świeżo nałożony tynk gipsowy maszynowy na ścianach wnętrza domu jednorodzinnego z widocznym agregatem tynkarskim" class="responsive-image" src="/files/userfiles/tynkowanie-scian-tynk-maszynowy-wnetrze.jpeg" style="width: 525px; height: 350px;" title="Nakładanie tynku maszynowego na ściany wewnętrzne domu" /></p>
+<p style="text-align: center;"><img alt="Świeżo nałożony tynk gipsowy maszynowy na ścianach wnętrza domu jednorodzinnego z widocznym agregatem tynkarskim" class="responsive-image" src="/images/content/tynkowanie-scian-tynk-maszynowy-wnetrze.jpeg" style="width: 525px; height: 350px;" title="Nakładanie tynku maszynowego na ściany wewnętrzne domu" /></p>
 
 
 <p style="text-align: justify;">Wchodzicie na budowę, która wygląda już jak dom. Ściany stoją, dach jest zamknięty, okna zamontowane. Przed Wami etap, który nieodwracalnie kształtuje to, jak Wasz dom będzie wyglądał i funkcjonował od środka – tynkowanie ścian i wykonanie wylewek podłogowych. Na pierwszy rzut oka to proste decyzje: „jakiś tynk” na ściany i „jakaś wylewka” na podłogę. Tymczasem wybory, które teraz podejmiecie, będą z Wami przez dekady. Źle dobrany tynk w łazience? Za kilka lat odpadnie razem z płytkami. Wylewka bez dylatacji w dużym salonie? Pęknięcie przeniesie się na gotową posadzkę.</p><h2>Dlaczego wybór tynku to więcej niż estetyka</h2>

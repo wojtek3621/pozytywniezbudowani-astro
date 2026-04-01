@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Kalkulator z wyświetloną kwotą obok wydrukowanych tabel kredytowych i długopisu" class="responsive-image" src="/files/userfiles/kalkulator-raty-kredytu-hipotecznego-obliczenia.jpeg" style="width: 525px; height: 350px;" title="Kalkulator raty kredytu hipotecznego - obliczanie miesięcznej raty" /></p>
+<p style="text-align: center;"><img alt="Kalkulator z wyświetloną kwotą obok wydrukowanych tabel kredytowych i długopisu" class="responsive-image" src="/images/content/kalkulator-raty-kredytu-hipotecznego-obliczenia.jpeg" style="width: 525px; height: 350px;" title="Kalkulator raty kredytu hipotecznego - obliczanie miesięcznej raty" /></p>
 
 <p style="text-align: justify;">Zastanawialiście się kiedyś, ile tak naprawdę będzie kosztował Was kredyt na budowę domu? Nie chodzi mi o sumę, którą pożyczacie – to wiecie. Chodzi o to, ile będziecie oddawać bankowi co miesiąc przez najbliższych kilkanaście, może kilkadziesiąt lat. Wpiszcie poniżej kwotę kredytu i sprawdźcie sami.</p>
 

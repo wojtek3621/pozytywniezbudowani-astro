@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Rozłożone dokumenty kosztorysu budowlanego obok projektu technicznego domu" class="responsive-image" src="/files/userfiles/kosztorys-budowy-dokumenty-projekt-techniczny.jpeg" style="width: 525px; height: 350px;" title="Kosztorys budowy domu z projektem technicznym i specyfikacjami" /></p>
+<p style="text-align: center;"><img alt="Rozłożone dokumenty kosztorysu budowlanego obok projektu technicznego domu" class="responsive-image" src="/images/content/kosztorys-budowy-dokumenty-projekt-techniczny.jpeg" style="width: 525px; height: 350px;" title="Kosztorys budowy domu z projektem technicznym i specyfikacjami" /></p>
 
 <p style="text-align: justify;">Znam wielu inwestorów, którzy zaczynali budowę z przekonaniem, że „jakoś to będzie". Wielu z nich skończyło z kredytem większym niż planowali, z nieukończonym ogrodem albo – co gorsza – z wykończeniówką odłożoną „na później", które ciągnie się latami. A wszystko dlatego, że na początku zabrakło jednego – porządnego kosztorysu.</p>
 

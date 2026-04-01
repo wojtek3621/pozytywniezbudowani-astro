@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Kalendarz biurkowy z zaznaczonymi terminami obok dokumentów budowlanych i projektu domu" class="responsive-image" src="/files/userfiles/pozwolenie-na-budowe-czas-oczekiwania-terminy.jpeg" style="width: 525px; height: 350px;" title="Terminy i czas oczekiwania na pozwolenie na budowę" /></p>
+<p style="text-align: center;"><img alt="Kalendarz biurkowy z zaznaczonymi terminami obok dokumentów budowlanych i projektu domu" class="responsive-image" src="/images/content/pozwolenie-na-budowe-czas-oczekiwania-terminy.jpeg" style="width: 525px; height: 350px;" title="Terminy i czas oczekiwania na pozwolenie na budowę" /></p>
 
 <p style="text-align: justify;">Złożyliście wniosek o pozwolenie na budowę i teraz zaczynacie odliczanie. Kalendarz wisi na lodówce, każdy dzień zaznaczony krzyżykiem. Tydzień, drugi, trzeci – cisza. Dzwonicie do urzędu, słyszycie „wniosek jest w trakcie rozpatrywania". I zaczyna się nerwowe czekanie, które potrafi ciągnąć się tygodniami dłużej, niż zakładaliście. Bo między tym, co mówią przepisy, a tym, co dzieje się w rzeczywistości, często rozciąga się przepaść.</p>
 

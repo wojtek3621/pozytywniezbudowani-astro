@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Wydrukowany wykres budżetu z czerwoną linią przekroczenia i kalkulator" class="responsive-image" src="/files/userfiles/przekroczenie-budzetu-wykres-czerwona-linia.jpeg" style="width: 525px; height: 350px;" title="Przekroczenie budżetu budowy - analiza kosztów i reakcja" /></p>
+<p style="text-align: center;"><img alt="Wydrukowany wykres budżetu z czerwoną linią przekroczenia i kalkulator" class="responsive-image" src="/images/content/przekroczenie-budzetu-wykres-czerwona-linia.jpeg" style="width: 525px; height: 350px;" title="Przekroczenie budżetu budowy - analiza kosztów i reakcja" /></p>
 
 <p style="text-align: justify;">Zdarzyło mi się wyjść z marketu, zapłaciwszy 350 złotych, i szczerze zastanawiać się, na co poszły te pieniądze. Szybkie spojrzenie na koszyk nie pomogło w rozwiązaniu zagadki. Na paragonie były produkty za 4 złote, 2 złote, 11 złotych, ale nic za 50 złotych ani tym bardziej 100 złotych. Wziąłem więc kalkulator i pozycja po pozycji dodawałem te wszystkie pojedyncze złotówki. Niestety na koniec znów pokazała się kwota 350 złotych. Z budową domu jest dokładnie tak samo. Tu 6000 złotych, tu 1700 złotych, tu coś za 11 000 złotych – i robi się półtora miliona. Ale wydatek wydatkowi nierówny, a budżet ma to do siebie, że kończy się szybciej, niż byśmy chcieli.</p>
 

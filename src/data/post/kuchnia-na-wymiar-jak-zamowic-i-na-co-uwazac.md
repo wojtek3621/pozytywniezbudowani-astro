@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Nowoczesna zabudowa kuchenna na wymiar z białymi matowymi frontami i drewnianym blatem w jasnym wnętrzu domu" class="responsive-image" src="/files/userfiles/kuchnia-na-wymiar-nowoczesna-zabudowa.jpeg" style="width: 525px; height: 350px;" title="Nowoczesna kuchnia na wymiar z białymi frontami i drewnianym blatem" /></p>
+<p style="text-align: center;"><img alt="Nowoczesna zabudowa kuchenna na wymiar z białymi matowymi frontami i drewnianym blatem w jasnym wnętrzu domu" class="responsive-image" src="/images/content/kuchnia-na-wymiar-nowoczesna-zabudowa.jpeg" style="width: 525px; height: 350px;" title="Nowoczesna kuchnia na wymiar z białymi frontami i drewnianym blatem" /></p>
 
 
 <p style="text-align: justify;">Kuchnia to jedno z tych pomieszczeń, w których spędzacie naprawdę dużo czasu – często więcej niż w salonie. Gotujecie, jecie, rozmawiacie, pomagacie dzieciom w lekcjach. To serce domu w najpełniejszym tego słowa znaczeniu. A jednocześnie to jedna z największych pojedynczych pozycji w budżecie na wykończeniówkę. Dlatego decyzja o kuchni na wymiar zasługuje na to, żeby podejść do niej świadomie – z wiedzą, czego oczekiwać od wykonawcy, na co zwrócić uwagę przy wyborze materiałów i gdzie tkwią pułapki, o których nikt nie mówi na pierwszym spotkaniu w salonie meblowym.</p><h2>Dlaczego na wymiar, a nie z marketu?</h2>

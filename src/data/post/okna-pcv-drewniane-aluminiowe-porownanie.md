@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Duże okna od podłogi do sufitu w nowoczesnym domu jednorodzinnym z widokiem na ogród – porównanie materiałów okiennych" class="responsive-image" src="/files/userfiles/okna-nowoczesny-dom-duze-przeszklenia.jpeg" style="width: 525px; height: 350px;" title="Nowoczesny dom jednorodzinny z dużymi przeszkleniami od podłogi do sufitu" /></p>
+<p style="text-align: center;"><img alt="Duże okna od podłogi do sufitu w nowoczesnym domu jednorodzinnym z widokiem na ogród – porównanie materiałów okiennych" class="responsive-image" src="/images/content/okna-nowoczesny-dom-duze-przeszklenia.jpeg" style="width: 525px; height: 350px;" title="Nowoczesny dom jednorodzinny z dużymi przeszkleniami od podłogi do sufitu" /></p>
 
 
 <p style="text-align: justify;">Wybór okien to jedna z tych decyzji na budowie, która potrafi spędzać sen z powiek tygodniami. Internet pełen jest forów, na których toczy się niemal religijna wojna – jedni przysięgają na PCV, drudzy twierdzą, że tylko drewno jest prawdziwe, a trzeci są przekonani, że aluminium to jedyna przyszłość. Do tego dochodzą handlowcy w salonach, z których każdy ma „najlepszą ofertę na rynku". Nic dziwnego, że czujecie się zagubieni.</p>

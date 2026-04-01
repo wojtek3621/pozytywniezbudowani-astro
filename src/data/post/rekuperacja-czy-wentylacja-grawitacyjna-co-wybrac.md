@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Rekuperator z podłączonymi kanałami wentylacyjnymi w kotłowni domu jednorodzinnego" class="responsive-image" src="/files/userfiles/rekuperator-centrala-wentylacyjna-kotlownia.jpeg" style="width: 525px; height: 350px;" title="Centrala rekuperacyjna zamontowana w pomieszczeniu technicznym domu" /></p>
+<p style="text-align: center;"><img alt="Rekuperator z podłączonymi kanałami wentylacyjnymi w kotłowni domu jednorodzinnego" class="responsive-image" src="/images/content/rekuperator-centrala-wentylacyjna-kotlownia.jpeg" style="width: 525px; height: 350px;" title="Centrala rekuperacyjna zamontowana w pomieszczeniu technicznym domu" /></p>
 
 
 <p style="text-align: justify;">Jest taki moment na każdej budowie, kiedy pada pytanie o wentylację. Między wyborem technologii ścian a rozmowami o dachu. Prawie zawsze wygląda to tak samo – ktoś mówi „weźmy rekuperację, bo się zwróci", ktoś inny odpowiada „po co przepłacać, grawitacyjna działa od lat", a architekt dyplomatycznie kiwa głową na obie strony. Efekt? Decyzja podejmowana w oparciu o mity, marketingowe hasła i opinię szwagra, który „czytał w internecie". Tymczasem wybór systemu wentylacji to jedna z tych decyzji, które będziecie odczuwać codziennie. Przez kilkadziesiąt lat. I naprawdę warto podjąć ją świadomie.</p><h2>Wentylacja to podstawa, nie opcja</h2>

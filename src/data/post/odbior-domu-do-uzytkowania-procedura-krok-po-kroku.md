@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Klucze do nowego domu na tle dokumentów i ukończonego budynku jednorodzinnego" class="responsive-image" src="/files/userfiles/odbior-domu-uzytkowanie-klucze-dokumenty.jpeg" style="width: 525px; height: 350px;" title="Odbiór domu do użytkowania - ostatni etap formalności budowlanych" /></p>
+<p style="text-align: center;"><img alt="Klucze do nowego domu na tle dokumentów i ukończonego budynku jednorodzinnego" class="responsive-image" src="/images/content/odbior-domu-uzytkowanie-klucze-dokumenty.jpeg" style="width: 525px; height: 350px;" title="Odbiór domu do użytkowania - ostatni etap formalności budowlanych" /></p>
 
 <p style="text-align: justify;">Miesiące, a czasem lata oczekiwania, planowania, stresu i radości – wszystko zmierza do jednego momentu: przeprowadzki do własnego domu. Ale między ostatnim szlifowaniem ścian a rozpakowaniem pierwszego kartonu jest jeszcze jeden krok, o którym wielu inwestorów zapomina albo dowiaduje się w ostatniej chwili. To zawiadomienie o zakończeniu budowy, bez którego nie możecie legalnie zamieszkać w swoim nowym domu. Brzmi biurokratycznie? Tak, bo to formalność. Ale wcale nie musi być skomplikowana, jeśli wiecie, co i w jakiej kolejności przygotować.</p>
 

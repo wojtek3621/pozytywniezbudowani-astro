@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Znacie ten moment, kiedy ktoś Wam opowiada o swoim wyremontowanym domu, a potem dodaje: „No, ale teraz mamy problem z piwnicą, bo ciągle stoi w wodzie"? Słuchacie i kiwacie głowami ze współczuciem, jednocześnie myśląc, że przecież to ich sprawa, że nie sprawdzili wcześniej. A potem sami kupujecie działkę i okazuje się, że poziom wód gruntowych jest tak wysoki, że zamiast fundamentów tradycyjnych musicie robić płytę, drenaż opaskowy, studnię chłonną – i nagle budżet puchnie o kilkadziesiąt tysięcy złotych. Woda gruntowa to jeden z tych tematów, o których mało kto myśli przy zakupie działki, a który potrafi wywrócić cały plan budowy do góry nogami.</p>
 
-<p style="text-align: center;"><img alt="Woda gruntowa widoczna w świeżo wykopanym wykopie próbnym na działce" class="responsive-image" src="/files/userfiles/poziom-wod-gruntowych-woda-wykop.jpeg" style="width: 525px; height: 350px;" title="Wysoki poziom wód gruntowych widoczny w wykopie" /></p>
+<p style="text-align: center;"><img alt="Woda gruntowa widoczna w świeżo wykopanym wykopie próbnym na działce" class="responsive-image" src="/images/content/poziom-wod-gruntowych-woda-wykop.jpeg" style="width: 525px; height: 350px;" title="Wysoki poziom wód gruntowych widoczny w wykopie" /></p>
 
 <h2 style="text-align: justify;">Czym właściwie są wody gruntowe i dlaczego mają znaczenie</h2>
 

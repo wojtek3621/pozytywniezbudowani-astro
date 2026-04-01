@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Piękna działka nad rzeką, malowniczy widok na dolinę, cena zaskakująco atrakcyjna. Brzmi jak idealna okazja? A może to pułapka, w którą wpadło już wielu inwestorów przed Wami. Bo działka położona w obszarze zalewowym – nawet jeśli w planie zagospodarowania widnieje jako budowlana – może okazać się bezwartościowa. Nie dlatego, że jest brzydka. Nie dlatego, że brakuje mediów. Lecz dlatego, że prawo po prostu nie pozwoli Wam na niej nic wybudować. A nawet jeśli pozwoli – konsekwencje mogą ciągnąć się za Wami przez dekady.</p>
 
-<p style="text-align: center;"><img alt="Działka budowlana położona w dolinie rzecznej z widokiem na rzekę w tle" class="responsive-image" src="/files/userfiles/dzialka-obszar-zalewowy-rzeka.jpeg" style="width: 525px; height: 350px;" title="Działka w pobliżu rzeki – ryzyko obszaru zalewowego" /></p>
+<p style="text-align: center;"><img alt="Działka budowlana położona w dolinie rzecznej z widokiem na rzekę w tle" class="responsive-image" src="/images/content/dzialka-obszar-zalewowy-rzeka.jpeg" style="width: 525px; height: 350px;" title="Działka w pobliżu rzeki – ryzyko obszaru zalewowego" /></p>
 
 <h2 style="text-align: justify;">Dlaczego sprawdzenie zagrożenia powodziowego to absolutna konieczność</h2>
 

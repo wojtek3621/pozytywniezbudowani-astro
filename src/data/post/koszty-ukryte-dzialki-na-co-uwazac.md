@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Widzicie ogłoszenie. Działka budowlana w atrakcyjnej lokalizacji, rozsądna cena, ładne zdjęcia. Jedziecie na oględziny. Teren Wam się podoba, sąsiedztwo też. Już wyobrażacie sobie, jak za rok czy dwa Wasz dom będzie tu stał. W głowie krążą myśli o metrażu, o projekcie, o tarasie z widokiem na zachód słońca. I wtedy właściciel lub pośrednik wspomina jakby mimochodem, że „media są w drodze" albo że „wystarczy tylko dogadać się z zakładem energetycznym w sprawie tej linii".</p>
 
-<p style="text-align: center;"><img alt="Kalkulator, dokumenty i monety na biurku symbolizujące ukryte koszty związane z działką" class="responsive-image" src="/files/userfiles/koszty-ukryte-dzialki-kalkulator-dokumenty.jpeg" style="width: 525px; height: 350px;" title="Analiza ukrytych kosztów zakupu działki budowlanej" /></p>
+<p style="text-align: center;"><img alt="Kalkulator, dokumenty i monety na biurku symbolizujące ukryte koszty związane z działką" class="responsive-image" src="/images/content/koszty-ukryte-dzialki-kalkulator-dokumenty.jpeg" style="width: 525px; height: 350px;" title="Analiza ukrytych kosztów zakupu działki budowlanej" /></p>
 
 <p style="text-align: justify;">„Wystarczy tylko" – to jedno z najbardziej kosztownych sformułowań w branży nieruchomości. Bo za tymi słowami może kryć się rachunek, który sprawi, że pozornie atrakcyjna działka stanie się droższa niż sąsiednia, ta, którą odrzuciliście jako „za drogą".</p>
 

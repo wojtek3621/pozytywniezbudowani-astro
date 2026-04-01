@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Młoda para stojąca na pustej działce budowlanej patrząca w dal i planująca przyszły dom" class="responsive-image" src="/files/userfiles/marzenie-o-domu-para-ogladajaca-dzialke.jpeg" style="width: 525px; height: 350px;" title="Para oglądająca działkę budowlaną i planująca budowę wymarzonego domu" /></p>
+<p style="text-align: center;"><img alt="Młoda para stojąca na pustej działce budowlanej patrząca w dal i planująca przyszły dom" class="responsive-image" src="/images/content/marzenie-o-domu-para-ogladajaca-dzialke.jpeg" style="width: 525px; height: 350px;" title="Para oglądająca działkę budowlaną i planująca budowę wymarzonego domu" /></p>
 
 <p style="text-align: justify;">Właśnie podjęliście jedną z największych decyzji w życiu. Powiedzieliście sobie – albo może jeszcze tylko pomyśleliście – że chcecie wybudować własny dom. I teraz siedzicie z tym uczuciem, które miesza ekscytację z lekkim przerażeniem. Co dalej? Od czego zacząć? Czy najpierw szukać działki, czy projektu? A może od razu iść do banku?</p>
 

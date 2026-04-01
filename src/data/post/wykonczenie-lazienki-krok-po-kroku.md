@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Łazienka w trakcie wykończenia z widoczną hydroizolacją i częściowo ułożonymi płytkami ceramicznymi na ścianach" class="responsive-image" src="/files/userfiles/wykonczenie-lazienki-plytki-hydroizolacja.jpeg" style="width: 525px; height: 350px;" title="Wykończenie łazienki – układanie płytek na hydroizolacji" /></p>
+<p style="text-align: center;"><img alt="Łazienka w trakcie wykończenia z widoczną hydroizolacją i częściowo ułożonymi płytkami ceramicznymi na ścianach" class="responsive-image" src="/images/content/wykonczenie-lazienki-plytki-hydroizolacja.jpeg" style="width: 525px; height: 350px;" title="Wykończenie łazienki – układanie płytek na hydroizolacji" /></p>
 
 
 <p style="text-align: justify;">Łazienka to pomieszczenie, w którym schodzi się wszystko naraz – woda, elektryka, ogrzewanie, hydroizolacja, precyzyjny montaż ceramiki i armatury. To też jedyne pomieszczenie w domu, w którym błąd popełniony na początku potrafi ujawnić się dopiero po miesiącach, a jego naprawa oznacza skucie płytek, rozebranie ścian i zaczynanie od nowa. Dlatego właśnie łazienka powinna być pierwszym pomieszczeniem, które wykańczacie po zakończeniu prac instalacyjnych – i dlatego poświęcam jej osobny, obszerny poradnik.</p>

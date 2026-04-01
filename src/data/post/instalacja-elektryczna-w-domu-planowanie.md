@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Przewody elektryczne w peszelach prowadzone w bruzdach ścian domu jednorodzinnego przed tynkowaniem" class="responsive-image" src="/files/userfiles/instalacja-elektryczna-bruzdy-przewody-dom.jpeg" style="width: 525px; height: 350px;" title="Prowadzenie instalacji elektrycznej w ścianach domu jednorodzinnego" /></p>
+<p style="text-align: center;"><img alt="Przewody elektryczne w peszelach prowadzone w bruzdach ścian domu jednorodzinnego przed tynkowaniem" class="responsive-image" src="/images/content/instalacja-elektryczna-bruzdy-przewody-dom.jpeg" style="width: 525px; height: 350px;" title="Prowadzenie instalacji elektrycznej w ścianach domu jednorodzinnego" /></p>
 
 
 <p style="text-align: justify;">Jest taki moment na każdej budowie, kiedy inwestor staje przed zadaniem, które wydaje się absurdalne. Ściany są gołe, tynków jeszcze nie ma, podłogi to surowy beton – a elektryk pyta: „Gdzie będzie stało łóżko? Z której strony szafki nocne? Jaka zabudowa kuchenna? Gdzie telewizor w salonie?". I czeka na odpowiedź. Konkretną, z wymiarami, najlepiej z rysunkiem. Bo za tydzień zaczyna kuć bruzdy w ścianach, a każda zmiana po tynkach to dodatkowe pieniądze, czas i nerwy.</p>

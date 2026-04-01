@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Badania geotechniczne to jeden z tych elementów procesu budowlanego, o których wiele osób dowiaduje się dopiero wtedy, gdy architekt albo kierownik budowy mówi: „Poproszę o opinię geologa". I nagle okazuje się, że trzeba zapłacić kilkaset złotych za wiercenie dziur w ziemi, żeby dowiedzieć się, co siedzi pod tą trawą, którą właśnie kosiliście po raz pierwszy jako szczęśliwi właściciele nowej działki.</p>
 
-<p style="text-align: center;"><img alt="Osoba kopiąca próbny wykop łopatą na działce w celu sprawdzenia rodzaju gruntu" class="responsive-image" src="/files/userfiles/sprawdzanie-gruntu-lopata-wykop.jpeg" style="width: 525px; height: 350px;" title="Samodzielne sprawdzanie gruntu na działce łopatą" /></p>
+<p style="text-align: center;"><img alt="Osoba kopiąca próbny wykop łopatą na działce w celu sprawdzenia rodzaju gruntu" class="responsive-image" src="/images/content/sprawdzanie-gruntu-lopata-wykop.jpeg" style="width: 525px; height: 350px;" title="Samodzielne sprawdzanie gruntu na działce łopatą" /></p>
 
 <p style="text-align: justify;">Nie zrozumcie mnie źle – badania geotechniczne to absolutna podstawa przed budową domu i nie namawiam Was do ich pomijania. Wprost przeciwnie. Ale zanim wydacie pieniądze na specjalistę, zanim podpiszecie akt notarialny i zanim wpadniecie w pułapkę „pięknej działki w super cenie", możecie sami przeprowadzić wstępną ocenę terenu. Taką, która pozwoli Wam odrzucić działki z oczywistymi problemami i skupić się na tych, które rokują najlepiej. Albo – jeśli już kupiliście – przynajmniej będziecie wiedzieć, czego mniej więcej spodziewać się po wynikach profesjonalnych badań.</p>
 

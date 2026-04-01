@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Wykres ze strzałką rosnącą w górę symbolizujący wzrost stóp procentowych WIBOR" class="responsive-image" src="/files/userfiles/wibor-wzrost-wykres-strzalka-gora.jpeg" style="width: 525px; height: 350px;" title="Wzrost WIBOR i jego wpływ na ratę kredytu hipotecznego" /></p>
+<p style="text-align: center;"><img alt="Wykres ze strzałką rosnącą w górę symbolizujący wzrost stóp procentowych WIBOR" class="responsive-image" src="/images/content/wibor-wzrost-wykres-strzalka-gora.jpeg" style="width: 525px; height: 350px;" title="Wzrost WIBOR i jego wpływ na ratę kredytu hipotecznego" /></p>
 
 <p style="text-align: justify;">Pamiętacie rok 2022? Ci z Was, którzy mieli wtedy kredyt hipoteczny, pamiętają go aż za dobrze. W ciągu kilkunastu miesięcy raty niektórych kredytów podwoiły się. Dosłownie. Rodziny, które płaciły 2500 zł miesięcznie, nagle zaczęły dostawać harmonogramy z kwotą 4500 zł lub więcej. Dla wielu oznaczało to dramatyczne cięcia w budżecie domowym, dla niektórych – konieczność sprzedaży wymarzonego domu.</p>
 
