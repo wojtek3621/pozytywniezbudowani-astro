@@ -12,6 +12,8 @@ import { getStaticPathsBlogPost, blogPostRobots } from '~/utils/blog';
 import { findImage } from '~/utils/images';
 import type { MetaData } from '~/types';
 import RelatedPosts from '~/components/blog/RelatedPosts.astro';
+import ArticleSchema from '~/components/common/ArticleSchema.astro';
+import BreadcrumbSchema from '~/components/common/BreadcrumbSchema.astro';
 
 export const prerender = true;
 
@@ -46,6 +48,22 @@ const metadata = merge(
 ---
 
 <Layout metadata={metadata}>
+  <ArticleSchema
+    title={post.title}
+    description={post.excerpt}
+    publishDate={post.publishDate}
+    updateDate={post.updateDate}
+    image={typeof image === 'string' ? image : image?.src}
+    url={String(url)}
+  />
+  <BreadcrumbSchema
+    items={[
+      { name: 'Strona główna', url: 'https://pozytywniezbudowani.pl/' },
+      { name: 'Blog', url: 'https://pozytywniezbudowani.pl/blog/' },
+      { name: post.title, url: String(url) },
+    ]}
+  />
+
   <SinglePost post={{ ...post, image: image }} url={url}>
     {post.Content ? <post.Content /> : <Fragment set:html={post.content || ''} />}
   </SinglePost>

@@ -1,0 +1,31 @@
+---
+/**
+ * JSON-LD Organization structured data.
+ * Global schema for the Pozytywnie Zbudowani brand.
+ * Use on homepage only (not every page).
+ */
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Pozytywnie Zbudowani',
+  url: 'https://pozytywniezbudowani.pl',
+  logo: 'https://pozytywniezbudowani.pl/images/logo-pz.svg',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'kontakt@pozytywniezbudowani.pl',
+    contactType: 'customer service',
+    availableLanguage: 'Polish',
+  },
+  sameAs: [
+    'https://www.facebook.com/pozytywniezbudowani',
+    'https://www.youtube.com/@pozytywniezbudowani',
+    'https://open.spotify.com/show/2dlDtEmsfaVSybolz1dFWS',
+  ],
+  founder: {
+    '@type': 'Person',
+    name: 'Wojciech Tracichleb',
+  },
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

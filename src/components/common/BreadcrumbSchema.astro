@@ -1,0 +1,24 @@
+---
+/**
+ * JSON-LD BreadcrumbList structured data.
+ * Generates schema.org/BreadcrumbList for Google breadcrumb rich results.
+ */
+export interface Props {
+  items: { name: string; url: string }[];
+}
+
+const { items } = Astro.props;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.name,
+    item: item.url,
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

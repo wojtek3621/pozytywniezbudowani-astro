@@ -1,0 +1,45 @@
+---
+/**
+ * JSON-LD BlogPosting structured data for blog articles.
+ * Generates schema.org/BlogPosting markup for Google rich results.
+ */
+export interface Props {
+  title: string;
+  description?: string;
+  publishDate: Date;
+  updateDate?: Date;
+  image?: string;
+  url: string;
+}
+
+const { title, description, publishDate, updateDate, image, url } = Astro.props;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description: description || '',
+  datePublished: publishDate.toISOString(),
+  dateModified: (updateDate || publishDate).toISOString(),
+  author: {
+    '@type': 'Person',
+    name: 'Wojciech Tracichleb',
+    url: 'https://pozytywniezbudowani.pl/o-mnie/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Pozytywnie Zbudowani',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://pozytywniezbudowani.pl/images/logo-pz.svg',
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': url,
+  },
+  ...(image ? { image } : {}),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
