@@ -51,6 +51,14 @@ const metadata = {
     </Fragment>
   </Hero>
 
+  <!-- Cel -->
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12 text-center">
+    <p class="text-lg text-muted leading-relaxed">
+      Od 12 lat zajmuję się budownictwem jednorodzinnym i postawiłem sobie za cel uporządkowanie w jedną spójną całość
+      wiedzy, która jest Wam potrzebna, aby sprawnie przejść przez cały ten proces.
+    </p>
+  </div>
+
   <!-- Książka -->
   <Content
     isReversed
@@ -80,9 +88,13 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Budowa domu jednorodzinnego — kompletny poradnik
+        Od Marzenia Do Wprowadzenia
       </h3>
-      Przeprowadzę Was przez cały proces budowy domu w sposób prosty i praktyczny.
+      Marzysz o własnym domu, ale nie wiesz, od czego zacząć? Jesteś w trakcie budowy i potrzebujesz sprawdzonych
+      rozwiązań? A może właśnie wybrałeś projekt i szukasz praktycznych wskazówek?
+      <br /><br />
+      Ta książka przeprowadzi Cię przez kompletny proces budowy własnego domu — od koncepcji i planowania, przez
+      wszystkie etapy budowy, aż po malowanie i kładzenie płytek. Oto Twój przewodnik w drodze do własnego domu.
     </Fragment>
 
     <Fragment slot="bg">
@@ -98,17 +110,17 @@ const metadata = {
       {
         title: 'Od 2013 roku w budownictwie jednorodzinnym',
         description:
-          'Generalny wykonawca, który zna proces budowy z każdej perspektywy — od strony inwestora, wykonawcy, architekta i inspektora.',
+          'Specjalizuje się wyłącznie w domach jednorodzinnych, uczestnicząc w powstawaniu kilkuset takich budynków. Jako właściciel firmy budowlanej zajmującej się generalnym wykonawstwem zna proces budowy z każdej perspektywy.',
       },
       {
         title: 'Setki zrealizowanych projektów',
         description:
-          'Towarzyszyłem setkom osób w powstawaniu ich wymarzonego domu. Sam również jako inwestor wybudowałem własny dom.',
+          'Towarzyszył setkom osób w powstawaniu ich wymarzonego domu. Sam również jako inwestor wybudował własny dom jednorodzinny. Razem z żoną prowadził również biuro architektury wnętrz, obsługując klientów z Polski i zagranicy.',
       },
       {
         title: 'Autor i edukator',
         description:
-          'Napisałem książkę, prowadzę bloga i dzielę się wiedzą, którą chciałbym mieć sam, gdy zaczynałem przygodę z budownictwem.',
+          'Pisząc książkę „Od marzenia do wprowadzenia", postawił sobie za cel przekazanie praktycznej wiedzy w sposób zrozumiały dla każdego przyszłego właściciela domu — pisząc prosto, konkretnie i na temat.',
       },
     ]}
     image={{
@@ -118,7 +130,8 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Wojciech Tracichleb</h3>
-      Przedsiębiorca budowlany z pasją do przekazywania wiedzy.
+      Przedsiębiorca budowlany z pasją do przekazywania wiedzy. Od 2013 roku zawodowo zajmuje się tematyką budownictwa
+      jednorodzinnego. Na co dzień prowadzi firmę budowlaną i jako generalny wykonawca buduje domy dla swoich klientów.
     </Fragment>
 
     <Fragment slot="bg">
@@ -135,6 +148,28 @@ const metadata = {
       { title: 'Zbudowanych domów', amount: '100+' },
     ]}
   />
+
+  <!-- Newsletter CTA -->
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Dołącz do newslettera',
+        href: 'https://pozytywniezbudowani.pl/newsletter/',
+        icon: 'tabler:mail',
+      },
+    ]}
+  >
+    <Fragment slot="title"> Dołącz do newslettera </Fragment>
+
+    <Fragment slot="subtitle">
+      Regularnie dzielę się praktyczną wiedzą o budowie domu. Zapisz się, aby nie przegapić najważniejszych wskazówek.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </CallToAction>
 
   <!-- Najnowsze na blogu -->
   <BlogLatestPosts
