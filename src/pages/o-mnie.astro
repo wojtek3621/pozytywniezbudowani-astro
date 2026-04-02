@@ -8,21 +8,21 @@ import wojtekImg from '~/assets/images/site/wojtek-about.jpg';
 
 const metadata = {
   title: 'O mnie',
-  description: 'Wojciech Tracichleb — przedsiebiorca budowlany, autor ksiazki Od Marzenia Do Wprowadzenia. Od 2013 roku w budownictwie jednorodzinnym.',
+  description: 'Wojciech Tracichleb — przedsiębiorca budowlany, autor książki Od Marzenia Do Wprowadzenia. Od 2013 roku w budownictwie jednorodzinnym.',
 };
 ---
 
 <Layout metadata={metadata}>
   <Hero>
     <Fragment slot="title">
-      Czesc! Nazywam sie<br />
-      <span class="text-accent dark:text-white">Wojciech Tracichleb.</span>
+      Cześć!<br />
+      <span class="text-accent dark:text-white">Nazywam się Wojciech Tracichleb.</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Jesli tu traficiscie, prawdopodobnie marzycie o wlasnym domu jednorodzinnym
-      lub wlasnie stawiacie pierwsze kroki zwiazane z jego budowa. Swietnie znam to uczucie —
-      mieszanke ekscytacji, obaw i natłoku pytan.
+      Jeśli tu trafiliście, prawdopodobnie marzycie o własnym domu jednorodzinnym
+      lub właśnie stawiacie pierwsze (lub kolejne) kroki związane z jego budową.
+      Świetnie znam to uczucie – mieszankę ekscytacji i obaw, które towarzyszą tak wielkiemu przedsięwzięciu.
     </Fragment>
   </Hero>
 
@@ -31,15 +31,15 @@ const metadata = {
     items={[
       {
         title: 'Generalny wykonawca',
-        description: 'Od wielu lat prowadze firme budowlana i jako generalny wykonawca buduje domy dla moich klientow.',
+        description: 'Od wielu lat prowadzę firmę budowlaną i jako generalny wykonawca buduję domy dla moich klientów.',
       },
       {
-        title: 'Doswiadczenie z kazdej perspektywy',
-        description: 'Znam proces budowy z perspektywy inwestora, wykonawcy, architekta. Prowadzilem tez biuro architektury wnetrz i firme meblowa.',
+        title: 'Doświadczenie z każdej perspektywy',
+        description: 'Znam proces budowy z każdej możliwej perspektywy. Przez kilka lat razem z żoną prowadziłem również biuro architektury wnętrz. Wcześniej prowadziłem też firmę produkującą meble na wymiar oraz firmę specjalizującą się w instalacjach dla domów jednorodzinnych.',
       },
       {
-        title: 'Wlasne doswiadczenie',
-        description: 'Towarzyszylem setkom osob w powstawaniu ich wymarzonego domu. Sam rowniez jako inwestor wybudowalem wlasny dom jednorodzinny.',
+        title: 'Własne doświadczenie',
+        description: 'Towarzyszyłem setkom osób w powstawaniu ich wymarzonego domu. Sam również jako inwestor wybudowałem własny dom jednorodzinny.',
       },
     ]}
     image={{
@@ -49,9 +49,9 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Przedsiebiorca budowlany z pasja do przekazywania wiedzy
+        Przedsiębiorca budowlany z pasją do przekazywania wiedzy
       </h3>
-      Prywatnie jestem mezem i tata dwoch chlopcow. Od 2013 roku zawodowo zajmuje sie tematyka budownictwa jednorodzinnego.
+      Prywatnie jestem mężem i tatą dwóch chłopców. Od 2013 roku zawodowo zajmuję się tematyką budownictwa jednorodzinnego.
     </Fragment>
 
     <Fragment slot="bg">
@@ -64,19 +64,19 @@ const metadata = {
     items={[
       {
         title: 'Dlaczego Pozytywnie Zbudowani?',
-        description: 'Chcialem podzielic sie z Wami doswiadczeniem, ktore zebralem przez te wszystkie lata. Dlatego powstala marka pozytywniezbudowani.pl i dlatego napisalem ksiazke Od marzenia do wprowadzenia.',
+        description: 'Chciałbym podzielić się z Wami doświadczeniem, które zebrałem przez te wszystkie lata. Dlatego właśnie powstała marka pozytywniezbudowani.pl i dlatego napisałem książkę Od marzenia do wprowadzenia.',
       },
       {
-        title: 'Cel: uporzadkowac wiedze',
-        description: 'Od 12 lat zajmuje sie budownictwem jednorodzinnym i postawilem sobie za cel uporzadkowanie w jedna spojna calosc wiedzy, ktora jest Wam potrzebna, aby przejsc przez budowe pewnie i swiadomie.',
+        title: 'Misja',
+        description: 'Chciałbym, abyście znaleźli tu wsparcie oraz wiedzę, która pomoże Wam spełnić marzenie o budowie własnego domu — spokojnie, pewnie i świadomie.',
       },
     ]}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Misja
+        Cel
       </h3>
-      Chce byc Waszym przewodnikiem — tak, jakby obok Was stal doswiadczony starszy brat, ktory juz to przeszedl.
+      Od 12 lat zajmuję się budownictwem jednorodzinnym i postawiłem sobie za cel uporządkowanie w jedną spójną całość wiedzy, która jest Wam potrzebna, aby przejść przez budowę pewnie i świadomie.
     </Fragment>
 
     <Fragment slot="bg">
@@ -93,17 +93,18 @@ const metadata = {
         icon: 'tabler:book',
       },
       {
-        text: 'Poznaj ksiazke',
+        text: 'Poznaj książkę',
         href: '/ksiazka/',
       },
     ]}
   >
     <Fragment slot="title">
-      Chcesz wiedziec wiecej?
+      Chcesz wiedzieć więcej?
     </Fragment>
 
     <Fragment slot="subtitle">
-      Zapraszam na bloga, gdzie dziele sie praktyczna wiedza o budowie domu. Jesli szukasz kompleksowego przewodnika — serdecznie polecam moja ksiazke.
+      Zapraszam na bloga, gdzie dzielę się praktyczną wiedzą o budowie domu.
+      Jeśli szukasz kompleksowego przewodnika — serdecznie polecam moją książkę.
     </Fragment>
   </CallToAction>
 </Layout>

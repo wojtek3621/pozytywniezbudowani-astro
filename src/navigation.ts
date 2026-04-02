@@ -7,7 +7,7 @@ export const headerData = {
       href: getBlogPermalink(),
     },
     {
-      text: 'Ksiazka',
+      text: 'Książka',
       href: getPermalink('/ksiazka'),
     },
     {
@@ -35,17 +35,14 @@ export const footerData = {
     {
       title: 'Blog',
       links: [
-        { text: 'Wszystkie artykuly', href: getBlogPermalink() },
-        { text: 'Dzialka', href: getPermalink('dzialka', 'category') },
-        { text: 'Projekt', href: getPermalink('projekt', 'category') },
-        { text: 'Finanse', href: getPermalink('finanse', 'category') },
+        { text: 'Wszystkie artykuły', href: getBlogPermalink() },
       ],
     },
     {
       title: 'Informacje',
       links: [
         { text: 'O mnie', href: getPermalink('/o-mnie') },
-        { text: 'Ksiazka', href: getPermalink('/ksiazka') },
+        { text: 'Książka', href: getPermalink('/ksiazka') },
         { text: 'Kontakt', href: getPermalink('/kontakt') },
         { text: 'Sklep', href: getPermalink('/sklep') },
       ],
@@ -53,14 +50,14 @@ export const footerData = {
     {
       title: 'Prawne',
       links: [
-        { text: 'Polityka prywatnosci', href: getPermalink('/polityka-prywatnosci') },
+        { text: 'Polityka prywatności', href: getPermalink('/polityka-prywatnosci') },
         { text: 'Regulamin newslettera', href: getPermalink('/regulamin-newslettera') },
-        { text: 'Regulamin sprzedazy', href: getPermalink('/regulamin-sprzedazy-produktow-cyfrowych') },
+        { text: 'Regulamin sprzedaży', href: getPermalink('/regulamin-sprzedazy-produktow-cyfrowych') },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Polityka prywatnosci', href: getPermalink('/polityka-prywatnosci') },
+    { text: 'Polityka prywatności', href: getPermalink('/polityka-prywatnosci') },
     { text: 'Regulamin', href: getPermalink('/regulamin-newslettera') },
   ],
   socialLinks: [
@@ -68,6 +65,6 @@ export const footerData = {
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
-    &copy; ${new Date().getFullYear()} Pozytywnie Zbudowani — Wojciech Tracichleb. Wszelkie prawa zastrzezone.
+    &copy; ${new Date().getFullYear()} Pozytywnie Zbudowani — Wojciech Tracichleb. Wszelkie prawa zastrzeżone.
   `,
 };
