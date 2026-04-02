@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:45:55
 updateDate: 2026-01-11T21:50:54
-title: "Kosztorys budowy domu – jak przygotować"
-excerpt: "Kilkanaście wycen, dziesiątki telefonów, setki pozycji w arkuszu. Chaos? Nie, jeśli wiesz, jak to ogarnąć..."
-image: "~/assets/images/blog/kosztorys-budowy-domu-jak-przygotowac.jpeg"
-category: "Blog"
+title: 'Kosztorys budowy domu – jak przygotować'
+excerpt: 'Kilkanaście wycen, dziesiątki telefonów, setki pozycji w arkuszu. Chaos? Nie, jeśli wiesz, jak to ogarnąć...'
+image: '~/assets/images/blog/kosztorys-budowy-domu-jak-przygotowac.jpeg'
+category: 'Blog'
 tags:
-  - "kosztorys budowy domu"
-  - "wycena budowy domu"
-  - "budżet na budowę"
-author: "Wojciech Tracichleb"
+  - 'kosztorys budowy domu'
+  - 'wycena budowy domu'
+  - 'budżet na budowę'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/kosztorys-budowy-domu-jak-przygotowac/"
-  title: "Kosztorys budowy domu – jak przygotować krok po kroku"
-  description: "Jak przygotować kosztorys budowy domu? Praktyczny poradnik zbierania wycen, organizacji arkusza kalkulacyjnego i porównywania ofert wykonawców."
+  canonical: 'https://pozytywniezbudowani.pl/blog/kosztorys-budowy-domu-jak-przygotowac/'
+  title: 'Kosztorys budowy domu – jak przygotować krok po kroku'
+  description: 'Jak przygotować kosztorys budowy domu? Praktyczny poradnik zbierania wycen, organizacji arkusza kalkulacyjnego i porównywania ofert wykonawców.'
   robots:
     index: true
     follow: true

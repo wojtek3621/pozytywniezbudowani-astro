@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T17:56:34
 updateDate: 2026-01-10T20:26:19
-title: "Ile kosztuje projekt domu – gotowy vs indywidualny"
-excerpt: "Różnica w cenie katalogowej to dopiero początek historii. Rzeczywisty koszt może Was zaskoczyć – na plus lub na minus..."
-image: "~/assets/images/blog/ile-kosztuje-projekt-domu-gotowy-vs-indywidualny.jpeg"
-category: "Blog"
+title: 'Ile kosztuje projekt domu – gotowy vs indywidualny'
+excerpt: 'Różnica w cenie katalogowej to dopiero początek historii. Rzeczywisty koszt może Was zaskoczyć – na plus lub na minus...'
+image: '~/assets/images/blog/ile-kosztuje-projekt-domu-gotowy-vs-indywidualny.jpeg'
+category: 'Blog'
 tags:
-  - "koszt projektu domu"
-  - "projekt gotowy vs indywidualny"
-  - "cena projektu domu"
-author: "Wojciech Tracichleb"
+  - 'koszt projektu domu'
+  - 'projekt gotowy vs indywidualny'
+  - 'cena projektu domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ile-kosztuje-projekt-domu-gotowy-vs-indywidualny/"
-  title: "Ile kosztuje projekt domu – gotowy vs indywidualny | Porównanie"
-  description: "Sprawdź realne koszty projektów domów: gotowy od kilku tysięcy, indywidualny kilkanaście tysięcy i więcej. Dowiedz się, co wybrać i na co uważać przy"
+  canonical: 'https://pozytywniezbudowani.pl/blog/ile-kosztuje-projekt-domu-gotowy-vs-indywidualny/'
+  title: 'Ile kosztuje projekt domu – gotowy vs indywidualny | Porównanie'
+  description: 'Sprawdź realne koszty projektów domów: gotowy od kilku tysięcy, indywidualny kilkanaście tysięcy i więcej. Dowiedz się, co wybrać i na co uważać przy'
   robots:
     index: true
     follow: true

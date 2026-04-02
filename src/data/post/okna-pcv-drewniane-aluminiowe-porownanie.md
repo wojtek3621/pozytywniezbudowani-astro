@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T17:18:40
 updateDate: 2026-02-14T17:21:04
-title: "Okna PCV, drewniane czy aluminiowe – porównanie"
-excerpt: "PCV, drewno czy aluminium? Sprawdźcie, który materiał pasuje do Waszego domu – i dlaczego montaż jest ważniejszy niż marka."
-image: "~/assets/images/blog/okna-pcv-drewniane-aluminiowe-porownanie.jpeg"
-category: "Blog"
+title: 'Okna PCV, drewniane czy aluminiowe – porównanie'
+excerpt: 'PCV, drewno czy aluminium? Sprawdźcie, który materiał pasuje do Waszego domu – i dlaczego montaż jest ważniejszy niż marka.'
+image: '~/assets/images/blog/okna-pcv-drewniane-aluminiowe-porownanie.jpeg'
+category: 'Blog'
 tags:
-  - "okna PCV drewniane aluminiowe porównanie"
-  - "jaki materiał okien wybrać"
-  - "okna do domu jednorodzinnego"
-author: "Wojciech Tracichleb"
+  - 'okna PCV drewniane aluminiowe porównanie'
+  - 'jaki materiał okien wybrać'
+  - 'okna do domu jednorodzinnego'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/okna-pcv-drewniane-aluminiowe-porownanie/"
-  title: "Okna PCV, drewniane czy aluminiowe – porównanie"
-  description: "PCV, drewno czy aluminium? Porównanie materiałów okiennych pod kątem izolacji, trwałości, ceny i montażu. Praktyczny przewodnik dla budujących pierwszy dom."
+  canonical: 'https://pozytywniezbudowani.pl/blog/okna-pcv-drewniane-aluminiowe-porownanie/'
+  title: 'Okna PCV, drewniane czy aluminiowe – porównanie'
+  description: 'PCV, drewno czy aluminium? Porównanie materiałów okiennych pod kątem izolacji, trwałości, ceny i montażu. Praktyczny przewodnik dla budujących pierwszy dom.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Duże okna od podłogi do sufitu w nowoczesnym domu jednorodzinnym z widokiem na ogród – porównanie materiałów okiennych" class="responsive-image" src="/images/content/okna-nowoczesny-dom-duze-przeszklenia.jpeg" style="width: 525px; height: 350px;" title="Nowoczesny dom jednorodzinny z dużymi przeszkleniami od podłogi do sufitu" /></p>
-
 
 <p style="text-align: justify;">Wybór okien to jedna z tych decyzji na budowie, która potrafi spędzać sen z powiek tygodniami. Internet pełen jest forów, na których toczy się niemal religijna wojna – jedni przysięgają na PCV, drudzy twierdzą, że tylko drewno jest prawdziwe, a trzeci są przekonani, że aluminium to jedyna przyszłość. Do tego dochodzą handlowcy w salonach, z których każdy ma „najlepszą ofertę na rynku". Nic dziwnego, że czujecie się zagubieni.</p>
 

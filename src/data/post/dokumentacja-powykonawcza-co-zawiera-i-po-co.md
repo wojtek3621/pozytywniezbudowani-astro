@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T14:15:38
 updateDate: 2026-02-04T14:17:01
-title: "Dokumentacja powykonawcza – co zawiera i po co"
-excerpt: "Budowa za Wami, ale bez tych 7 dokumentów nie możecie legalnie mieszkać. Sprawdźcie, co musicie przygotować."
-image: "~/assets/images/blog/dokumentacja-powykonawcza-co-zawiera-i-po-co.jpeg"
-category: "Blog"
+title: 'Dokumentacja powykonawcza – co zawiera i po co'
+excerpt: 'Budowa za Wami, ale bez tych 7 dokumentów nie możecie legalnie mieszkać. Sprawdźcie, co musicie przygotować.'
+image: '~/assets/images/blog/dokumentacja-powykonawcza-co-zawiera-i-po-co.jpeg'
+category: 'Blog'
 tags:
-  - "dokumentacja powykonawcza"
-  - "odbiór domu"
-  - "zgłoszenie zakończenia budowy"
-author: "Wojciech Tracichleb"
+  - 'dokumentacja powykonawcza'
+  - 'odbiór domu'
+  - 'zgłoszenie zakończenia budowy'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dokumentacja-powykonawcza-co-zawiera-i-po-co/"
-  title: "Dokumentacja powykonawcza domu – co zawiera i po co"
-  description: "Dowiedz się, jakie dokumenty musisz zgromadzić przed odbiorem domu. Lista 7 wymaganych elementów, koszty i procedura zgłoszenia zakończenia budowy."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dokumentacja-powykonawcza-co-zawiera-i-po-co/'
+  title: 'Dokumentacja powykonawcza domu – co zawiera i po co'
+  description: 'Dowiedz się, jakie dokumenty musisz zgromadzić przed odbiorem domu. Lista 7 wymaganych elementów, koszty i procedura zgłoszenia zakończenia budowy.'
   robots:
     index: true
     follow: true

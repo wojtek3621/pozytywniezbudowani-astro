@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T16:47:14
 updateDate: 2026-01-10T18:57:45
-title: "Dom parterowy czy piętrowy – co wybrać i dlaczego?"
-excerpt: "Ta decyzja wpłynie na wszystko – od wyboru działki po codzienne życie przez dekady. Sprawdźcie, co wybrać."
-image: "~/assets/images/blog/dom-parterowy-czy-pietrowy-co-wybrac.jpeg"
-category: "Blog"
+title: 'Dom parterowy czy piętrowy – co wybrać i dlaczego?'
+excerpt: 'Ta decyzja wpłynie na wszystko – od wyboru działki po codzienne życie przez dekady. Sprawdźcie, co wybrać.'
+image: '~/assets/images/blog/dom-parterowy-czy-pietrowy-co-wybrac.jpeg'
+category: 'Blog'
 tags:
-  - "dom parterowy czy piętrowy"
-  - "projekt domu parterowego"
-  - "dom z poddaszem użytkowym"
-author: "Wojciech Tracichleb"
+  - 'dom parterowy czy piętrowy'
+  - 'projekt domu parterowego'
+  - 'dom z poddaszem użytkowym'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dom-parterowy-czy-pietrowy-co-wybrac/"
-  title: "Dom parterowy czy piętrowy - co wybrać i dlaczego? | Poradnik"
-  description: "Dom parterowy czy piętrowy? Poznaj zalety i wady obu rozwiązań. Praktyczne porady od generalnego wykonawcy, który pomoże Ci podjąć świadomą decyzję."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dom-parterowy-czy-pietrowy-co-wybrac/'
+  title: 'Dom parterowy czy piętrowy - co wybrać i dlaczego? | Poradnik'
+  description: 'Dom parterowy czy piętrowy? Poznaj zalety i wady obu rozwiązań. Praktyczne porady od generalnego wykonawcy, który pomoże Ci podjąć świadomą decyzję.'
   robots:
     index: true
     follow: true

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T18:14:33
 updateDate: 2026-01-11T18:32:16
-title: "Jak sprawdzić grunt na działce bez geologa - praktyczne metody wstępnej oceny"
-excerpt: "Zanim wydacie pieniądze na badania geotechniczne, możecie sami wiele odkryć. Pokażę Wam jak..."
-image: "~/assets/images/blog/jak-sprawdzic-grunt-na-dzialce-bez-geologa.jpeg"
-category: "Blog"
+title: 'Jak sprawdzić grunt na działce bez geologa - praktyczne metody wstępnej oceny'
+excerpt: 'Zanim wydacie pieniądze na badania geotechniczne, możecie sami wiele odkryć. Pokażę Wam jak...'
+image: '~/assets/images/blog/jak-sprawdzic-grunt-na-dzialce-bez-geologa.jpeg'
+category: 'Blog'
 tags:
-  - "sprawdzenie gruntu działka"
-  - "rodzaj gleby działka"
-  - "wody gruntowe działka"
-author: "Wojciech Tracichleb"
+  - 'sprawdzenie gruntu działka'
+  - 'rodzaj gleby działka'
+  - 'wody gruntowe działka'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jak-sprawdzic-grunt-na-dzialce-bez-geologa/"
-  title: "Jak sprawdzić grunt na działce bez geologa? Praktyczne metody"
-  description: "Poznaj sprawdzone sposoby na wstępną ocenę gruntu przed zakupem działki. Rośliny, sąsiedzi, obserwacje terenu – co możesz zbadać samodzielnie."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jak-sprawdzic-grunt-na-dzialce-bez-geologa/'
+  title: 'Jak sprawdzić grunt na działce bez geologa? Praktyczne metody'
+  description: 'Poznaj sprawdzone sposoby na wstępną ocenę gruntu przed zakupem działki. Rośliny, sąsiedzi, obserwacje terenu – co możesz zbadać samodzielnie.'
   robots:
     index: true
     follow: true

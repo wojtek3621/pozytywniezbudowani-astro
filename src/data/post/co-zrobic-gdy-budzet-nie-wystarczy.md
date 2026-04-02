@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T16:19:18
 updateDate: 2026-02-03T20:10:28
-title: "Co zrobić gdy budżet nie wystarczy na budowę domu"
-excerpt: "Arkusz z kosztorysem pokazuje więcej niż macie? Zanim zrezygnujecie z budowy, przeczytajcie to..."
-image: "~/assets/images/blog/co-zrobic-gdy-budzet-nie-wystarczy.jpeg"
-category: "Blog"
+title: 'Co zrobić gdy budżet nie wystarczy na budowę domu'
+excerpt: 'Arkusz z kosztorysem pokazuje więcej niż macie? Zanim zrezygnujecie z budowy, przeczytajcie to...'
+image: '~/assets/images/blog/co-zrobic-gdy-budzet-nie-wystarczy.jpeg'
+category: 'Blog'
 tags:
-  - "budżet na budowę domu"
-  - "brak pieniędzy na budowę"
-  - "oszczędności przy budowie"
-author: "Wojciech Tracichleb"
+  - 'budżet na budowę domu'
+  - 'brak pieniędzy na budowę'
+  - 'oszczędności przy budowie'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/co-zrobic-gdy-budzet-nie-wystarczy/"
-  title: "Co zrobić gdy budżet nie wystarczy na budowę domu – praktyczne rozwiązania"
-  description: "Budżet na budowę domu się nie domyka? Poznaj sprawdzone strategie: mniejszy dom, etapowanie, oszczędności na VAT i świadome decyzje finansowe."
+  canonical: 'https://pozytywniezbudowani.pl/blog/co-zrobic-gdy-budzet-nie-wystarczy/'
+  title: 'Co zrobić gdy budżet nie wystarczy na budowę domu – praktyczne rozwiązania'
+  description: 'Budżet na budowę domu się nie domyka? Poznaj sprawdzone strategie: mniejszy dom, etapowanie, oszczędności na VAT i świadome decyzje finansowe.'
   robots:
     index: true
     follow: true

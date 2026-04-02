@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T17:55:09
 updateDate: 2026-02-14T22:40:07
-title: "Czym ogrzewać dom jednorodzinny – porównanie wszystkich opcji"
-excerpt: "Gaz, pompa ciepła, prąd – każdy doradzi co innego. Sprawdźcie, co naprawdę się sprawdza i jak podjąć tę decyzję świadomie."
-image: "~/assets/images/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji.jpeg"
-category: "Blog"
+title: 'Czym ogrzewać dom jednorodzinny – porównanie wszystkich opcji'
+excerpt: 'Gaz, pompa ciepła, prąd – każdy doradzi co innego. Sprawdźcie, co naprawdę się sprawdza i jak podjąć tę decyzję świadomie.'
+image: '~/assets/images/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji.jpeg'
+category: 'Blog'
 tags:
-  - "czym ogrzewać dom jednorodzinny"
-  - "pompa ciepła czy gaz"
-  - "ogrzewanie domu porównanie"
-author: "Wojciech Tracichleb"
+  - 'czym ogrzewać dom jednorodzinny'
+  - 'pompa ciepła czy gaz'
+  - 'ogrzewanie domu porównanie'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji/"
-  title: "Czym ogrzewać dom jednorodzinny – porównanie opcji"
-  description: "Pompa ciepła, kocioł gazowy, ogrzewanie elektryczne – porównanie źródeł ciepła dla domu jednorodzinnego. Praktyczny poradnik od praktyka z placu budowy."
+  canonical: 'https://pozytywniezbudowani.pl/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji/'
+  title: 'Czym ogrzewać dom jednorodzinny – porównanie opcji'
+  description: 'Pompa ciepła, kocioł gazowy, ogrzewanie elektryczne – porównanie źródeł ciepła dla domu jednorodzinnego. Praktyczny poradnik od praktyka z placu budowy.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Jednostka zewnętrzna pompy ciepła zamontowana przy ścianie nowoczesnego domu jednorodzinnego" class="responsive-image" src="/images/content/pompa-ciepla-jednostka-zewnetrzna-dom.jpeg" style="width: 525px; height: 350px;" title="Pompa ciepła powietrze-woda przy nowoczesnym domu jednorodzinnym" /></p>
-
 
 <p style="text-align: justify;">Wybór źródła ciepła to jedna z tych decyzji na budowie, o których będziecie myśleć codziennie przez najbliższe kilkanaście, a może i kilkadziesiąt lat. Każdego ranka, gdy włączycie ciepłą wodę w kranie. Każdego wieczoru, gdy w domu będzie ciepło – albo nie do końca. I każdego miesiąca, gdy przyjdzie rachunek za ogrzewanie. To nie jest decyzja, którą podejmuje się na podstawie opinii sąsiada albo reklamy w internecie. To decyzja, która wymaga zrozumienia kilku kluczowych zagadnień – i właśnie w tym chcę Wam pomóc.</p>
 

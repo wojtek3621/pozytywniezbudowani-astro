@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:11:59
 updateDate: 2026-01-04T19:13:33
-title: "Linia energetyczna przez działkę – co robić"
-excerpt: "Zanim podpiszecie akt notarialny na działkę z linią energetyczną, przeczytajcie o kosztach, które mogą Was zaskoczyć…"
-image: "~/assets/images/blog/linia-energetyczna-przez-dzialke-co-robic.jpeg"
-category: "Blog"
+title: 'Linia energetyczna przez działkę – co robić'
+excerpt: 'Zanim podpiszecie akt notarialny na działkę z linią energetyczną, przeczytajcie o kosztach, które mogą Was zaskoczyć…'
+image: '~/assets/images/blog/linia-energetyczna-przez-dzialke-co-robic.jpeg'
+category: 'Blog'
 tags:
-  - "linia energetyczna przez działkę"
-  - "służebność przesyłu"
-  - "słup energetyczny na działce"
-author: "Wojciech Tracichleb"
+  - 'linia energetyczna przez działkę'
+  - 'służebność przesyłu'
+  - 'słup energetyczny na działce'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/linia-energetyczna-przez-dzialke-co-robic/"
-  title: "Linia energetyczna przez działkę – co robić przed zakupem i po"
-  description: "Linia energetyczna na działce to problem wielu inwestorów. Poznaj swoje prawa, strefy ochronne, koszty przesunięcia i służebność przesyłu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/linia-energetyczna-przez-dzialke-co-robic/'
+  title: 'Linia energetyczna przez działkę – co robić przed zakupem i po'
+  description: 'Linia energetyczna na działce to problem wielu inwestorów. Poznaj swoje prawa, strefy ochronne, koszty przesunięcia i służebność przesyłu.'
   robots:
     index: true
     follow: true

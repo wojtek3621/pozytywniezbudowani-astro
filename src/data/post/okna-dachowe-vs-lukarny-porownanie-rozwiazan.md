@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:15:17
 updateDate: 2026-01-10T20:27:52
-title: "Okna dachowe vs lukarny - porównanie rozwiązań na poddaszu"
-excerpt: "Ciemne poddasze to zmarnowana przestrzeń. Okna dachowe czy lukarny – która droga lepsza dla Waszego domu?"
-image: "~/assets/images/blog/okna-dachowe-vs-lukarny-porownanie-rozwiazan.jpeg"
-category: "Blog"
+title: 'Okna dachowe vs lukarny - porównanie rozwiązań na poddaszu'
+excerpt: 'Ciemne poddasze to zmarnowana przestrzeń. Okna dachowe czy lukarny – która droga lepsza dla Waszego domu?'
+image: '~/assets/images/blog/okna-dachowe-vs-lukarny-porownanie-rozwiazan.jpeg'
+category: 'Blog'
 tags:
-  - "okna dachowe vs lukarny"
-  - "doświetlenie poddasza"
-  - "lukarny w domu"
-author: "Wojciech Tracichleb"
+  - 'okna dachowe vs lukarny'
+  - 'doświetlenie poddasza'
+  - 'lukarny w domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/okna-dachowe-vs-lukarny-porownanie-rozwiazan/"
-  title: "Okna dachowe vs lukarny - które rozwiązanie wybrać?"
-  description: "Porównanie okien dachowych i lukarn. Sprawdź zalety i wady obu rozwiązań. Dowiedz się, co lepiej doświetli Twoje poddasze."
+  canonical: 'https://pozytywniezbudowani.pl/blog/okna-dachowe-vs-lukarny-porownanie-rozwiazan/'
+  title: 'Okna dachowe vs lukarny - które rozwiązanie wybrać?'
+  description: 'Porównanie okien dachowych i lukarn. Sprawdź zalety i wady obu rozwiązań. Dowiedz się, co lepiej doświetli Twoje poddasze.'
   robots:
     index: true
     follow: true

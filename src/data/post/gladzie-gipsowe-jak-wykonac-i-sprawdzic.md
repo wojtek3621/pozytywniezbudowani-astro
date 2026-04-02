@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:02:08
 updateDate: 2026-02-14T22:23:23
-title: "Gładzie gipsowe – jak wykonać i sprawdzić"
-excerpt: "Gładka ściana to nie to samo co równa. Sprawdźcie, jak tego dopilnować – zanim będzie za późno."
-image: "~/assets/images/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic.jpeg"
-category: "Blog"
+title: 'Gładzie gipsowe – jak wykonać i sprawdzić'
+excerpt: 'Gładka ściana to nie to samo co równa. Sprawdźcie, jak tego dopilnować – zanim będzie za późno.'
+image: '~/assets/images/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic.jpeg'
+category: 'Blog'
 tags:
-  - "gładzie gipsowe"
-  - "jak sprawdzić gładzie"
-  - "standardy szpachlowania Q1-Q4"
-author: "Wojciech Tracichleb"
+  - 'gładzie gipsowe'
+  - 'jak sprawdzić gładzie'
+  - 'standardy szpachlowania Q1-Q4'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic/"
-  title: "Gładzie gipsowe - jak wykonać i sprawdzić | Poradnik"
-  description: "Gładzie gipsowe krok po kroku – rodzaje, standardy Q1–Q4, przygotowanie podłoża, odbiór ścian i jedna zasada, która uratuje Wasze nerwy przy wykończeniówce."
+  canonical: 'https://pozytywniezbudowani.pl/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic/'
+  title: 'Gładzie gipsowe - jak wykonać i sprawdzić | Poradnik'
+  description: 'Gładzie gipsowe krok po kroku – rodzaje, standardy Q1–Q4, przygotowanie podłoża, odbiór ścian i jedna zasada, która uratuje Wasze nerwy przy wykończeniówce.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Jasne wnętrze domu jednorodzinnego z idealnie gładkimi białymi ścianami po szpachlowaniu gładziami gipsowymi" class="responsive-image" src="/images/content/gladzie-gipsowe-biale-sciany-wnetrze.jpeg" style="width: 525px; height: 350px;" title="Wnętrze domu po nałożeniu gładzi gipsowych na ścianach" /></p>
-
 
 <p style="text-align: justify;">Jest taki moment na budowie, kiedy po miesiącach kurzu, hałasu i betonu nagle wszystko zaczyna wyglądać jak dom. Ściany stają się białe. Gładkie. Czyste. To moment, w którym większość inwestorów odczuwa ulgę – nareszcie wykończeniówka, nareszcie coś ładnego. I właśnie w tym momencie najłatwiej o kosztowny błąd. Bo gładź gipsowa to coś znacznie więcej niż „białe malowanie ścian” – to etap, który decyduje o tym, jak Wasze ściany będą wyglądać przez następne 20–30 lat. Pod każdym światłem. O każdej porze dnia. I pod każdą farbą, jaką na nie nałożycie.</p>
 

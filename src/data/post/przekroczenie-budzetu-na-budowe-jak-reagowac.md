@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T16:40:35
 updateDate: 2026-01-11T16:42:37
-title: "Przekroczenie budżetu na budowę – jak reagować"
-excerpt: "Budżet pęka w szwach, a dom wciąż nie jest gotowy? Spokojnie – masz więcej opcji, niż Ci się wydaje..."
-image: "~/assets/images/blog/przekroczenie-budzetu-na-budowe-jak-reagowac.jpeg"
-category: "Blog"
+title: 'Przekroczenie budżetu na budowę – jak reagować'
+excerpt: 'Budżet pęka w szwach, a dom wciąż nie jest gotowy? Spokojnie – masz więcej opcji, niż Ci się wydaje...'
+image: '~/assets/images/blog/przekroczenie-budzetu-na-budowe-jak-reagowac.jpeg'
+category: 'Blog'
 tags:
-  - "przekroczenie budżetu budowa"
-  - "koszty budowy domu"
-  - "budżet na budowę"
-author: "Wojciech Tracichleb"
+  - 'przekroczenie budżetu budowa'
+  - 'koszty budowy domu'
+  - 'budżet na budowę'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/przekroczenie-budzetu-na-budowe-jak-reagowac/"
-  title: "Przekroczenie budżetu na budowę domu – jak reagować i co robić"
-  description: "Co zrobić gdy budżet na budowę domu się kończy? Praktyczne strategie reagowania na przekroczenie kosztów. Dowiedz się jak uratować budowę."
+  canonical: 'https://pozytywniezbudowani.pl/blog/przekroczenie-budzetu-na-budowe-jak-reagowac/'
+  title: 'Przekroczenie budżetu na budowę domu – jak reagować i co robić'
+  description: 'Co zrobić gdy budżet na budowę domu się kończy? Praktyczne strategie reagowania na przekroczenie kosztów. Dowiedz się jak uratować budowę.'
   robots:
     index: true
     follow: true

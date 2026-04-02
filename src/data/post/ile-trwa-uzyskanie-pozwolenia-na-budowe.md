@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T12:25:46
 updateDate: 2026-02-04T12:28:23
-title: "Ile trwa uzyskanie pozwolenia na budowę"
-excerpt: "Urząd ma 65 dni. W praktyce bywa różnie. Sprawdźcie, od czego to zależy."
-image: "~/assets/images/blog/ile-trwa-uzyskanie-pozwolenia-na-budowe.jpeg"
-category: "Blog"
+title: 'Ile trwa uzyskanie pozwolenia na budowę'
+excerpt: 'Urząd ma 65 dni. W praktyce bywa różnie. Sprawdźcie, od czego to zależy.'
+image: '~/assets/images/blog/ile-trwa-uzyskanie-pozwolenia-na-budowe.jpeg'
+category: 'Blog'
 tags:
-  - "pozwolenie na budowę termin"
-  - "ile trwa pozwolenie na budowę"
-  - "czas oczekiwania na pozwolenie"
-author: "Wojciech Tracichleb"
+  - 'pozwolenie na budowę termin'
+  - 'ile trwa pozwolenie na budowę'
+  - 'czas oczekiwania na pozwolenie'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ile-trwa-uzyskanie-pozwolenia-na-budowe/"
-  title: "Ile trwa uzyskanie pozwolenia na budowę w 2026 roku"
-  description: "Poznaj realne terminy uzyskania pozwolenia na budowę domu. Sprawdź, co wpływa na czas oczekiwania i jak przyspieszyć procedurę."
+  canonical: 'https://pozytywniezbudowani.pl/blog/ile-trwa-uzyskanie-pozwolenia-na-budowe/'
+  title: 'Ile trwa uzyskanie pozwolenia na budowę w 2026 roku'
+  description: 'Poznaj realne terminy uzyskania pozwolenia na budowę domu. Sprawdź, co wpływa na czas oczekiwania i jak przyspieszyć procedurę.'
   robots:
     index: true
     follow: true

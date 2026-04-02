@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T18:08:44
 updateDate: 2026-01-04T18:11:35
-title: "Jak negocjować cenę działki budowlanej"
-excerpt: "Kilka tysięcy złotych oszczędności jest na wyciągnięcie ręki – wystarczy wiedzieć, jak rozmawiać ze sprzedającym..."
-image: "~/assets/images/blog/jak-negocjowac-cene-dzialki-budowlanej.jpeg"
-category: "Blog"
+title: 'Jak negocjować cenę działki budowlanej'
+excerpt: 'Kilka tysięcy złotych oszczędności jest na wyciągnięcie ręki – wystarczy wiedzieć, jak rozmawiać ze sprzedającym...'
+image: '~/assets/images/blog/jak-negocjowac-cene-dzialki-budowlanej.jpeg'
+category: 'Blog'
 tags:
-  - "negocjowanie ceny działki"
-  - "zakup działki budowlanej"
-  - "targowanie ceny gruntu"
-author: "Wojciech Tracichleb"
+  - 'negocjowanie ceny działki'
+  - 'zakup działki budowlanej'
+  - 'targowanie ceny gruntu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jak-negocjowac-cene-dzialki-budowlanej/"
-  title: "Jak negocjować cenę działki budowlanej – praktyczne porady"
-  description: "Sprawdzone techniki negocjacji przy zakupie działki. Dowiedz się, jak przygotować się do rozmów i jakie argumenty naprawdę działają."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jak-negocjowac-cene-dzialki-budowlanej/'
+  title: 'Jak negocjować cenę działki budowlanej – praktyczne porady'
+  description: 'Sprawdzone techniki negocjacji przy zakupie działki. Dowiedz się, jak przygotować się do rozmów i jakie argumenty naprawdę działają.'
   robots:
     index: true
     follow: true

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:10:08
 updateDate: 2026-01-04T19:11:12
-title: "Drenaż działki – kiedy jest potrzebny"
-excerpt: "Zanim podpiszecie umowę na działkę, sprawdźcie jedną rzecz. Woda pod ziemią może zmienić budżet o dziesiątki tysięcy złotych..."
-image: "~/assets/images/blog/drenaz-dzialki-kiedy-jest-potrzebny.jpeg"
-category: "Blog"
+title: 'Drenaż działki – kiedy jest potrzebny'
+excerpt: 'Zanim podpiszecie umowę na działkę, sprawdźcie jedną rzecz. Woda pod ziemią może zmienić budżet o dziesiątki tysięcy złotych...'
+image: '~/assets/images/blog/drenaz-dzialki-kiedy-jest-potrzebny.jpeg'
+category: 'Blog'
 tags:
-  - "drenaż działki"
-  - "odwodnienie działki"
-  - "wysoki poziom wód gruntowych"
-author: "Wojciech Tracichleb"
+  - 'drenaż działki'
+  - 'odwodnienie działki'
+  - 'wysoki poziom wód gruntowych'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/drenaz-dzialki-kiedy-jest-potrzebny/"
-  title: "Drenaż działki – kiedy jest potrzebny i jak sprawdzić"
-  description: "Dowiedz się, kiedy działka wymaga drenażu, jak rozpoznać sygnały ostrzegawcze i co zrobić, by woda nie stała się problemem podczas budowy domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/drenaz-dzialki-kiedy-jest-potrzebny/'
+  title: 'Drenaż działki – kiedy jest potrzebny i jak sprawdzić'
+  description: 'Dowiedz się, kiedy działka wymaga drenażu, jak rozpoznać sygnały ostrzegawcze i co zrobić, by woda nie stała się problemem podczas budowy domu.'
   robots:
     index: true
     follow: true

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:19:57
 updateDate: 2026-01-04T19:21:01
-title: "Działka z budynkiem do rozbiórki – czy warto kupić?"
-excerpt: "Nieatrakcyjna na pierwszy rzut oka działka z ruderą może okazać się strzałem w dziesiątkę. Ale może też pochłonąć Wasz budżet..."
-image: "~/assets/images/blog/dzialka-z-budynkiem-do-rozbiorki-czy-warto.jpeg"
-category: "Blog"
+title: 'Działka z budynkiem do rozbiórki – czy warto kupić?'
+excerpt: 'Nieatrakcyjna na pierwszy rzut oka działka z ruderą może okazać się strzałem w dziesiątkę. Ale może też pochłonąć Wasz budżet...'
+image: '~/assets/images/blog/dzialka-z-budynkiem-do-rozbiorki-czy-warto.jpeg'
+category: 'Blog'
 tags:
-  - "działka z budynkiem do rozbiórki"
-  - "koszt rozbiórki domu"
-  - "zakup działki zabudowanej"
-author: "Wojciech Tracichleb"
+  - 'działka z budynkiem do rozbiórki'
+  - 'koszt rozbiórki domu'
+  - 'zakup działki zabudowanej'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dzialka-z-budynkiem-do-rozbiorki-czy-warto/"
-  title: "Działka z budynkiem do rozbiórki – czy warto kupić? Poradnik"
-  description: "Rozważasz zakup działki ze starym budynkiem do wyburzenia? Poznaj ukryte zalety, realne koszty rozbiórki i formalności. Praktyczny poradnik inwestora."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-z-budynkiem-do-rozbiorki-czy-warto/'
+  title: 'Działka z budynkiem do rozbiórki – czy warto kupić? Poradnik'
+  description: 'Rozważasz zakup działki ze starym budynkiem do wyburzenia? Poznaj ukryte zalety, realne koszty rozbiórki i formalności. Praktyczny poradnik inwestora.'
   robots:
     index: true
     follow: true

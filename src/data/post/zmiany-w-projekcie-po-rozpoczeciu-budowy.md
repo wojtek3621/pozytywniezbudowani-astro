@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T17:55:12
 updateDate: 2026-01-10T20:20:35
-title: "Zmiany w projekcie po rozpoczęciu budowy – czy to możliwe?"
-excerpt: "Budowa ruszyła, a Wy chcecie coś zmienić? Jedne modyfikacje załatwicie w dzień, inne mogą Was zatrzymać na miesiące..."
-image: "~/assets/images/blog/zmiany-w-projekcie-po-rozpoczeciu-budowy.jpeg"
-category: "Blog"
+title: 'Zmiany w projekcie po rozpoczęciu budowy – czy to możliwe?'
+excerpt: 'Budowa ruszyła, a Wy chcecie coś zmienić? Jedne modyfikacje załatwicie w dzień, inne mogą Was zatrzymać na miesiące...'
+image: '~/assets/images/blog/zmiany-w-projekcie-po-rozpoczeciu-budowy.jpeg'
+category: 'Blog'
 tags:
-  - "zmiany w projekcie budowlanym"
-  - "odstępstwa od projektu"
-  - "projekt zamienny"
-author: "Wojciech Tracichleb"
+  - 'zmiany w projekcie budowlanym'
+  - 'odstępstwa od projektu'
+  - 'projekt zamienny'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/zmiany-w-projekcie-po-rozpoczeciu-budowy/"
-  title: "Zmiany w projekcie po rozpoczęciu budowy – czy to możliwe?"
-  description: "Dowiedz się, kiedy możesz zmienić projekt w trakcie budowy domu. Zmiany istotne i nieistotne – co wolno, jakie formalności i na co uważać."
+  canonical: 'https://pozytywniezbudowani.pl/blog/zmiany-w-projekcie-po-rozpoczeciu-budowy/'
+  title: 'Zmiany w projekcie po rozpoczęciu budowy – czy to możliwe?'
+  description: 'Dowiedz się, kiedy możesz zmienić projekt w trakcie budowy domu. Zmiany istotne i nieistotne – co wolno, jakie formalności i na co uważać.'
   robots:
     index: true
     follow: true

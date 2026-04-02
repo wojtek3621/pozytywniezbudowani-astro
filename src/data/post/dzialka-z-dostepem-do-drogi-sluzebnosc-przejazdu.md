@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T18:12:12
 updateDate: 2026-01-04T18:13:41
-title: "Działka z dostępem do drogi - służebność przejazdu"
-excerpt: "Bez dostępu do drogi publicznej nie wybudujesz domu. Sprawdź, czym jest służebność przejazdu i jak ją zweryfikować..."
-image: "~/assets/images/blog/dzialka-z-dostepem-do-drogi-sluzebnosc-przejazdu.jpeg"
-category: "Blog"
+title: 'Działka z dostępem do drogi - służebność przejazdu'
+excerpt: 'Bez dostępu do drogi publicznej nie wybudujesz domu. Sprawdź, czym jest służebność przejazdu i jak ją zweryfikować...'
+image: '~/assets/images/blog/dzialka-z-dostepem-do-drogi-sluzebnosc-przejazdu.jpeg'
+category: 'Blog'
 tags:
-  - "służebność drogi koniecznej"
-  - "dostęp do drogi publicznej"
-  - "służebność przejazdu"
-author: "Wojciech Tracichleb"
+  - 'służebność drogi koniecznej'
+  - 'dostęp do drogi publicznej'
+  - 'służebność przejazdu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dzialka-z-dostepem-do-drogi-sluzebnosc-przejazdu/"
-  title: "Działka z dostępem do drogi - służebność przejazdu | Poradnik"
-  description: "Sprawdź, czym jest służebność drogi koniecznej, jak ją ustanowić i dlaczego dostęp do drogi publicznej to warunek konieczny do budowy domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-z-dostepem-do-drogi-sluzebnosc-przejazdu/'
+  title: 'Działka z dostępem do drogi - służebność przejazdu | Poradnik'
+  description: 'Sprawdź, czym jest służebność drogi koniecznej, jak ją ustanowić i dlaczego dostęp do drogi publicznej to warunek konieczny do budowy domu.'
   robots:
     index: true
     follow: true

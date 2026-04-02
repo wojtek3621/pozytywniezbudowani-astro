@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T12:21:24
 updateDate: 2026-02-04T12:25:17
-title: "Zgłoszenie budowy a pozwolenie na budowę – czym się różnią"
-excerpt: "Zgłoszenie czy pozwolenie? To nie tylko kwestia formalności – ta decyzja wpływa na bezpieczeństwo całej inwestycji."
-image: "~/assets/images/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia.jpeg"
-category: "Blog"
+title: 'Zgłoszenie budowy a pozwolenie na budowę – czym się różnią'
+excerpt: 'Zgłoszenie czy pozwolenie? To nie tylko kwestia formalności – ta decyzja wpływa na bezpieczeństwo całej inwestycji.'
+image: '~/assets/images/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia.jpeg'
+category: 'Blog'
 tags:
-  - "zgłoszenie budowy"
-  - "pozwolenie na budowę"
-  - "różnice zgłoszenie pozwolenie"
-author: "Wojciech Tracichleb"
+  - 'zgłoszenie budowy'
+  - 'pozwolenie na budowę'
+  - 'różnice zgłoszenie pozwolenie'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia/"
-  title: "Zgłoszenie budowy a pozwolenie na budowę - różnice 2026"
-  description: "Poznaj kluczowe różnice między zgłoszeniem budowy a pozwoleniem. Sprawdź, która procedura pasuje do Twojego domu i jakie dokumenty przygotować."
+  canonical: 'https://pozytywniezbudowani.pl/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia/'
+  title: 'Zgłoszenie budowy a pozwolenie na budowę - różnice 2026'
+  description: 'Poznaj kluczowe różnice między zgłoszeniem budowy a pozwoleniem. Sprawdź, która procedura pasuje do Twojego domu i jakie dokumenty przygotować.'
   robots:
     index: true
     follow: true
@@ -24,8 +24,6 @@ metadata:
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację: stoicie przed urzędem z teczką dokumentów, przekonani, że za chwilę załatwicie wszystkie formalności i wreszcie ruszycie z budową. A urzędnik mówi Wam, że wybraliście złą procedurę. Że Wasz dom – ten konkretny, na tej konkretnej działce – wymaga pozwolenia na budowę, a nie zgłoszenia. Że musicie zaczynać od nowa. Tracicie tygodnie, może miesiące. I co najgorsze – mogliście tego uniknąć, gdybyście wcześniej zrozumieli, na czym polega różnica między tymi dwiema ścieżkami.</p>
 
 <p style="text-align: justify;">Zgłoszenie budowy i pozwolenie na budowę to dwa odrębne tryby administracyjne, które prowadzą do tego samego celu – legalnego rozpoczęcia budowy domu. Ale droga, jaką przejdziecie, i poziom bezpieczeństwa prawnego, jaki uzyskacie, są zasadniczo różne. I właśnie dlatego warto poświęcić kilkanaście minut na zrozumienie tych różnic, zanim podejmiecie decyzję.</p>
-
-
 
 <h2 style="text-align: justify;">Dwie ścieżki, jeden cel – ale inne zasady gry</h2>
 

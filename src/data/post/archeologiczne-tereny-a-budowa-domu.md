@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:15:49
 updateDate: 2026-01-04T19:16:57
-title: "Archeologiczne tereny a budowa domu – co musisz wiedzieć"
-excerpt: "W Polsce jest pół miliona stanowisk archeologicznych. Czy Wasza działka to jedno z nich? Sprawdźcie, zanim koparka wjedzie na teren..."
-image: "~/assets/images/blog/archeologiczne-tereny-a-budowa-domu.jpeg"
-category: "Blog"
+title: 'Archeologiczne tereny a budowa domu – co musisz wiedzieć'
+excerpt: 'W Polsce jest pół miliona stanowisk archeologicznych. Czy Wasza działka to jedno z nich? Sprawdźcie, zanim koparka wjedzie na teren...'
+image: '~/assets/images/blog/archeologiczne-tereny-a-budowa-domu.jpeg'
+category: 'Blog'
 tags:
-  - "stanowisko archeologiczne działka"
-  - "nadzór archeologiczny budowa"
-  - "badania archeologiczne przed budową"
-author: "Wojciech Tracichleb"
+  - 'stanowisko archeologiczne działka'
+  - 'nadzór archeologiczny budowa'
+  - 'badania archeologiczne przed budową'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/archeologiczne-tereny-a-budowa-domu/"
-  title: "Archeologiczne tereny a budowa domu – co musisz wiedzieć"
-  description: "Działka na stanowisku archeologicznym? Sprawdź, jak zweryfikować teren, jakie formalności Cię czekają i ile kosztuje nadzór archeologiczny przy budowie domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/archeologiczne-tereny-a-budowa-domu/'
+  title: 'Archeologiczne tereny a budowa domu – co musisz wiedzieć'
+  description: 'Działka na stanowisku archeologicznym? Sprawdź, jak zweryfikować teren, jakie formalności Cię czekają i ile kosztuje nadzór archeologiczny przy budowie domu.'
   robots:
     index: true
     follow: true

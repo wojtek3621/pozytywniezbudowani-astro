@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T16:52:26
 updateDate: 2026-02-03T19:23:27
-title: "Ile wkładu własnego na budowę domu potrzebujesz"
-excerpt: "Bank wymaga minimum 10% wkładu własnego, ale czy to naprawdę wystarczy? Sprawdź, ile powinieneś mieć..."
-image: "~/assets/images/blog/ile-wkladu-wlasnego-na-budowe-domu-potrzebujesz.jpeg"
-category: "Blog"
+title: 'Ile wkładu własnego na budowę domu potrzebujesz'
+excerpt: 'Bank wymaga minimum 10% wkładu własnego, ale czy to naprawdę wystarczy? Sprawdź, ile powinieneś mieć...'
+image: '~/assets/images/blog/ile-wkladu-wlasnego-na-budowe-domu-potrzebujesz.jpeg'
+category: 'Blog'
 tags:
-  - "wkład własny kredyt hipoteczny"
-  - "wkład własny budowa domu"
-  - "działka jako wkład własny"
-author: "Wojciech Tracichleb"
+  - 'wkład własny kredyt hipoteczny'
+  - 'wkład własny budowa domu'
+  - 'działka jako wkład własny'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ile-wkladu-wlasnego-na-budowe-domu-potrzebujesz/"
-  title: "Ile wkładu własnego na budowę domu? Kalkulator i praktyczne porady"
-  description: "Oblicz ile wkładu własnego potrzebujesz na budowę domu. Dowiedz się, jak działka może być Twoim wkładem własnym i dlaczego 20% to więcej niż tylko liczba."
+  canonical: 'https://pozytywniezbudowani.pl/blog/ile-wkladu-wlasnego-na-budowe-domu-potrzebujesz/'
+  title: 'Ile wkładu własnego na budowę domu? Kalkulator i praktyczne porady'
+  description: 'Oblicz ile wkładu własnego potrzebujesz na budowę domu. Dowiedz się, jak działka może być Twoim wkładem własnym i dlaczego 20% to więcej niż tylko liczba.'
   robots:
     index: true
     follow: true
@@ -151,8 +151,8 @@ metadata:
 })();
 
 function obliczWklad() {
-    var komunikat = document.getElementById('wklad-blad');
-    komunikat.style.display = 'none';
+var komunikat = document.getElementById('wklad-blad');
+komunikat.style.display = 'none';
 
     var budzetStr = document.getElementById('wklad-budzet').value;
     var budzet = parseFloat(budzetStr.replace(/\s/g, '').replace(/,/g, '.')) || 0;
@@ -230,20 +230,21 @@ function obliczWklad() {
     // Formatowanie pól
     if (budzet > 0) document.getElementById('wklad-budzet').value = formatujKwoteWk(budzet);
     if (dzialka > 0) document.getElementById('wklad-dzialka').value = formatujKwoteWk(dzialka);
+
 }
 
 function wyczyscWklad() {
-    document.getElementById('wklad-budzet').value = '';
-    document.getElementById('wklad-dzialka').value = '';
-    document.getElementById('wklad-kredyt-dzialka').value = '';
-    document.getElementById('wklad-oszczednosci').value = '';
-    document.getElementById('wklad-wyniki').style.display = 'none';
-    document.getElementById('wklad-blad').style.display = 'none';
-    document.getElementById('wklad-budzet').focus();
+document.getElementById('wklad-budzet').value = '';
+document.getElementById('wklad-dzialka').value = '';
+document.getElementById('wklad-kredyt-dzialka').value = '';
+document.getElementById('wklad-oszczednosci').value = '';
+document.getElementById('wklad-wyniki').style.display = 'none';
+document.getElementById('wklad-blad').style.display = 'none';
+document.getElementById('wklad-budzet').focus();
 }
 
 function formatujKwoteWk(liczba) {
-    return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 }
 </script><!-- KONIEC KALKULATORA WKŁADU WŁASNEGO -->
 

@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:17:35
 updateDate: 2026-02-14T18:29:28
-title: "Garderoba walk-in – jak zaplanować"
-excerpt: "Garderoba wymaga konkretnego planu już na etapie projektu. Sprawdźcie, od czego zacząć i na co uważać."
-image: "~/assets/images/blog/garderoba-walk-in-jak-zaplanowac.jpeg"
-category: "Blog"
+title: 'Garderoba walk-in – jak zaplanować'
+excerpt: 'Garderoba wymaga konkretnego planu już na etapie projektu. Sprawdźcie, od czego zacząć i na co uważać.'
+image: '~/assets/images/blog/garderoba-walk-in-jak-zaplanowac.jpeg'
+category: 'Blog'
 tags:
-  - "garderoba walk-in"
-  - "garderoba w domu"
-  - "jak zaplanować garderobę"
-author: "Wojciech Tracichleb"
+  - 'garderoba walk-in'
+  - 'garderoba w domu'
+  - 'jak zaplanować garderobę'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/garderoba-walk-in-jak-zaplanowac/"
-  title: "Garderoba walk-in – jak zaplanować | Praktyczny poradnik"
-  description: "Jak zaplanować garderobę walk-in w domu jednorodzinnym? Wymiary, wentylacja, oświetlenie i ergonomia – praktyczny poradnik i błędy do uniknięcia."
+  canonical: 'https://pozytywniezbudowani.pl/blog/garderoba-walk-in-jak-zaplanowac/'
+  title: 'Garderoba walk-in – jak zaplanować | Praktyczny poradnik'
+  description: 'Jak zaplanować garderobę walk-in w domu jednorodzinnym? Wymiary, wentylacja, oświetlenie i ergonomia – praktyczny poradnik i błędy do uniknięcia.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Wnętrze garderoby walk-in z drążkami na ubrania, półkami i szufladami w jasnym pomieszczeniu domu jednorodzinnego" class="responsive-image" src="/images/content/garderoba-walk-in-organizacja-ubrania.jpeg" style="width: 525px; height: 350px;" title="Garderoba walk-in z uporządkowanymi ubraniami i półkami" /></p>
-
 
 <p style="text-align: justify;">Garderoba walk-in to pojęcie kojarzące się z przestronnym pomieszczeniem, wyspami z szufladami i spokojnym porankiem. Tymczasem w polskiej rzeczywistości budowy domu jednorodzinnego garderoba to jedno z tych pomieszczeń, które albo zaplanujecie porządnie na etapie projektu, albo będziecie kombinować latami, próbując wycisnąć z dwóch metrów kwadratowych coś, co nawet nie zasługuje na nazwę garderoby.</p>
 

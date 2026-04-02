@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T16:50:09
 updateDate: 2026-02-03T19:20:24
-title: "Co jeśli WIBOR wzrośnie – jak zmieni się Twoja rata"
-excerpt: "Rata kredytu może wzrosnąć o kilkaset złotych w ciągu kilku miesięcy. Sprawdźcie, czy Wasz budżet to wytrzyma..."
-image: "~/assets/images/blog/co-jesli-wibor-wzrosnie-jak-zmieni-sie-twoja-rata.jpeg"
-category: "Blog"
+title: 'Co jeśli WIBOR wzrośnie – jak zmieni się Twoja rata'
+excerpt: 'Rata kredytu może wzrosnąć o kilkaset złotych w ciągu kilku miesięcy. Sprawdźcie, czy Wasz budżet to wytrzyma...'
+image: '~/assets/images/blog/co-jesli-wibor-wzrosnie-jak-zmieni-sie-twoja-rata.jpeg'
+category: 'Blog'
 tags:
-  - "wpływ WIBOR na ratę kredytu"
-  - "wzrost WIBOR rata"
-  - "symulacja wzrostu stóp procentowych"
-author: "Wojciech Tracichleb"
+  - 'wpływ WIBOR na ratę kredytu'
+  - 'wzrost WIBOR rata'
+  - 'symulacja wzrostu stóp procentowych'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/co-jesli-wibor-wzrosnie-jak-zmieni-sie-twoja-rata/"
-  title: "Co jeśli WIBOR wzrośnie – jak zmieni się Twoja rata kredytu"
-  description: "Sprawdź ile zapłacisz, gdy WIBOR wzrośnie o 1, 2 lub 4 punkty. Symulator stresu finansowego dla kredytobiorców. Lekcja z lat 2022-2023."
+  canonical: 'https://pozytywniezbudowani.pl/blog/co-jesli-wibor-wzrosnie-jak-zmieni-sie-twoja-rata/'
+  title: 'Co jeśli WIBOR wzrośnie – jak zmieni się Twoja rata kredytu'
+  description: 'Sprawdź ile zapłacisz, gdy WIBOR wzrośnie o 1, 2 lub 4 punkty. Symulator stresu finansowego dla kredytobiorców. Lekcja z lat 2022-2023.'
   robots:
     index: true
     follow: true

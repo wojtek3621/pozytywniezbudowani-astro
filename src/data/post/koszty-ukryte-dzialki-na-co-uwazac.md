@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:21:54
 updateDate: 2026-01-04T19:23:01
-title: "Koszty ukryte działki – na co uważać"
-excerpt: "Ta działka wydaje się okazją? Sprawdź, co może ukrywać jej cena..."
-image: "~/assets/images/blog/koszty-ukryte-dzialki-na-co-uwazac.jpeg"
-category: "Blog"
+title: 'Koszty ukryte działki – na co uważać'
+excerpt: 'Ta działka wydaje się okazją? Sprawdź, co może ukrywać jej cena...'
+image: '~/assets/images/blog/koszty-ukryte-dzialki-na-co-uwazac.jpeg'
+category: 'Blog'
 tags:
-  - "koszty ukryte działki"
-  - "na co uważać przy zakupie działki"
-  - "pułapki finansowe działka"
-author: "Wojciech Tracichleb"
+  - 'koszty ukryte działki'
+  - 'na co uważać przy zakupie działki'
+  - 'pułapki finansowe działka'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/koszty-ukryte-dzialki-na-co-uwazac/"
-  title: "Koszty ukryte działki – na co uważać przed zakupem"
-  description: "Poznaj pułapki finansowe przy zakupie działki budowlanej. Media, grunt, droga, przyłącza – sprawdź, co może podnieść cenę nawet o 100 000 zł."
+  canonical: 'https://pozytywniezbudowani.pl/blog/koszty-ukryte-dzialki-na-co-uwazac/'
+  title: 'Koszty ukryte działki – na co uważać przed zakupem'
+  description: 'Poznaj pułapki finansowe przy zakupie działki budowlanej. Media, grunt, droga, przyłącza – sprawdź, co może podnieść cenę nawet o 100 000 zł.'
   robots:
     index: true
     follow: true

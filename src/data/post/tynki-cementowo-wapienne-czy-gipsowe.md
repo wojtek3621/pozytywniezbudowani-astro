@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T17:59:09
 updateDate: 2026-02-14T22:28:34
-title: "Tynki cementowo-wapienne czy gipsowe"
-excerpt: "Wybór tynku to nie kwestia gustu. Sprawdźcie, który tynk gdzie stosować i jak uniknąć kosztownych błędów."
-image: "~/assets/images/blog/tynki-cementowo-wapienne-czy-gipsowe.jpeg"
-category: "Blog"
+title: 'Tynki cementowo-wapienne czy gipsowe'
+excerpt: 'Wybór tynku to nie kwestia gustu. Sprawdźcie, który tynk gdzie stosować i jak uniknąć kosztownych błędów.'
+image: '~/assets/images/blog/tynki-cementowo-wapienne-czy-gipsowe.jpeg'
+category: 'Blog'
 tags:
-  - "tynki cementowo-wapienne czy gipsowe"
-  - "tynki maszynowe"
-  - "wylewki podłogowe"
-author: "Wojciech Tracichleb"
+  - 'tynki cementowo-wapienne czy gipsowe'
+  - 'tynki maszynowe'
+  - 'wylewki podłogowe'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/tynki-cementowo-wapienne-czy-gipsowe/"
-  title: "Tynki cementowo-wapienne czy gipsowe – co wybrać?"
-  description: "Tynki gipsowe czy cementowo-wapienne? Który tynk gdzie stosować, jak odebrać tynki, dlaczego tynkować przed wylewkami i jak dobrać wylewkę pod ogrzewanie."
+  canonical: 'https://pozytywniezbudowani.pl/blog/tynki-cementowo-wapienne-czy-gipsowe/'
+  title: 'Tynki cementowo-wapienne czy gipsowe – co wybrać?'
+  description: 'Tynki gipsowe czy cementowo-wapienne? Który tynk gdzie stosować, jak odebrać tynki, dlaczego tynkować przed wylewkami i jak dobrać wylewkę pod ogrzewanie.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Świeżo nałożony tynk gipsowy maszynowy na ścianach wnętrza domu jednorodzinnego z widocznym agregatem tynkarskim" class="responsive-image" src="/images/content/tynkowanie-scian-tynk-maszynowy-wnetrze.jpeg" style="width: 525px; height: 350px;" title="Nakładanie tynku maszynowego na ściany wewnętrzne domu" /></p>
-
 
 <p style="text-align: justify;">Wchodzicie na budowę, która wygląda już jak dom. Ściany stoją, dach jest zamknięty, okna zamontowane. Przed Wami etap, który nieodwracalnie kształtuje to, jak Wasz dom będzie wyglądał i funkcjonował od środka – tynkowanie ścian i wykonanie wylewek podłogowych. Na pierwszy rzut oka to proste decyzje: „jakiś tynk” na ściany i „jakaś wylewka” na podłogę. Tymczasem wybory, które teraz podejmiecie, będą z Wami przez dekady. Źle dobrany tynk w łazience? Za kilka lat odpadnie razem z płytkami. Wylewka bez dylatacji w dużym salonie? Pęknięcie przeniesie się na gotową posadzkę.</p><h2>Dlaczego wybór tynku to więcej niż estetyka</h2>
 

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:14:12
 updateDate: 2026-01-10T20:21:54
-title: "Projekt wnętrz na etapie budowy – kiedy zamówić, żeby nie żałować"
-excerpt: "Elektryk pyta, gdzie mają być gniazdka, a Wy nie wiecie, gdzie stanie lodówka. Brzmi znajomo? Tego scenariusza można było uniknąć..."
-image: "~/assets/images/blog/projekt-wnetrz-na-etapie-budowy-kiedy-zamowic.jpeg"
-category: "Blog"
+title: 'Projekt wnętrz na etapie budowy – kiedy zamówić, żeby nie żałować'
+excerpt: 'Elektryk pyta, gdzie mają być gniazdka, a Wy nie wiecie, gdzie stanie lodówka. Brzmi znajomo? Tego scenariusza można było uniknąć...'
+image: '~/assets/images/blog/projekt-wnetrz-na-etapie-budowy-kiedy-zamowic.jpeg'
+category: 'Blog'
 tags:
-  - "projekt wnętrz kiedy zamówić"
-  - "architekt wnętrz budowa domu"
-  - "projekt wnętrz etap budowy"
-author: "Wojciech Tracichleb"
+  - 'projekt wnętrz kiedy zamówić'
+  - 'architekt wnętrz budowa domu'
+  - 'projekt wnętrz etap budowy'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/projekt-wnetrz-na-etapie-budowy-kiedy-zamowic/"
-  title: "Projekt wnętrz na etapie budowy – kiedy zamówić? Poradnik"
-  description: "Kiedy zamówić projekt wnętrz przy budowie domu? Dowiedz się, dlaczego odpowiedni moment to klucz do uniknięcia kosztownych przeróbek instalacji."
+  canonical: 'https://pozytywniezbudowani.pl/blog/projekt-wnetrz-na-etapie-budowy-kiedy-zamowic/'
+  title: 'Projekt wnętrz na etapie budowy – kiedy zamówić? Poradnik'
+  description: 'Kiedy zamówić projekt wnętrz przy budowie domu? Dowiedz się, dlaczego odpowiedni moment to klucz do uniknięcia kosztownych przeróbek instalacji.'
   robots:
     index: true
     follow: true

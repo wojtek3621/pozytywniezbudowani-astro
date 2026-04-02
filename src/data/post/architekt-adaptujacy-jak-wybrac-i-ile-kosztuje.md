@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T17:51:48
 updateDate: 2026-01-11T18:56:37
-title: "Architekt adaptujący – jak wybrać i ile kosztuje"
-excerpt: "To od niego zależy, czy proces projektowo-administracyjny przebiegnie sprawnie. Wybierzcie mądrze..."
-image: "~/assets/images/blog/architekt-adaptujacy-jak-wybrac-i-ile-kosztuje.jpeg"
-category: "Blog"
+title: 'Architekt adaptujący – jak wybrać i ile kosztuje'
+excerpt: 'To od niego zależy, czy proces projektowo-administracyjny przebiegnie sprawnie. Wybierzcie mądrze...'
+image: '~/assets/images/blog/architekt-adaptujacy-jak-wybrac-i-ile-kosztuje.jpeg'
+category: 'Blog'
 tags:
-  - "architekt adaptujący"
-  - "adaptacja projektu"
-  - "koszt adaptacji projektu"
-author: "Wojciech Tracichleb"
+  - 'architekt adaptujący'
+  - 'adaptacja projektu'
+  - 'koszt adaptacji projektu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/architekt-adaptujacy-jak-wybrac-i-ile-kosztuje/"
-  title: "Architekt adaptujący – jak wybrać i ile kosztuje"
-  description: "Dowiedz się, jak wybrać dobrego architekta adaptującego projekt gotowy. Poznaj realne koszty adaptacji i na co zwrócić uwagę przy wyborze specjalisty."
+  canonical: 'https://pozytywniezbudowani.pl/blog/architekt-adaptujacy-jak-wybrac-i-ile-kosztuje/'
+  title: 'Architekt adaptujący – jak wybrać i ile kosztuje'
+  description: 'Dowiedz się, jak wybrać dobrego architekta adaptującego projekt gotowy. Poznaj realne koszty adaptacji i na co zwrócić uwagę przy wyborze specjalisty.'
   robots:
     index: true
     follow: true

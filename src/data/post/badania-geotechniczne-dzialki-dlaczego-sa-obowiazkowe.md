@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T15:54:40
 updateDate: 2026-01-11T18:24:14
-title: "Badania geotechniczne działki - dlaczego są obowiązkowe"
-excerpt: "Wydatek 2000 zł, który może uchronić Was przed stratą 100 000 zł. Sprawdźcie, co naprawdę musicie wiedzieć..."
-image: "~/assets/images/blog/badania-geotechniczne-dzialki-dlaczego-sa-obowiazkowe.jpeg"
-category: "Blog"
+title: 'Badania geotechniczne działki - dlaczego są obowiązkowe'
+excerpt: 'Wydatek 2000 zł, który może uchronić Was przed stratą 100 000 zł. Sprawdźcie, co naprawdę musicie wiedzieć...'
+image: '~/assets/images/blog/badania-geotechniczne-dzialki-dlaczego-sa-obowiazkowe.jpeg'
+category: 'Blog'
 tags:
-  - "badania geotechniczne"
-  - "opinia geotechniczna"
-  - "grunt na działce"
-author: "Wojciech Tracichleb"
+  - 'badania geotechniczne'
+  - 'opinia geotechniczna'
+  - 'grunt na działce'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/badania-geotechniczne-dzialki-dlaczego-sa-obowiazkowe/"
-  title: "Badania geotechniczne działki – dlaczego są obowiązkowe?"
-  description: "Dowiedz się, czym są badania geotechniczne, ile kosztują i dlaczego bez opinii geotechnicznej nie uzyskasz pozwolenia na budowę domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/badania-geotechniczne-dzialki-dlaczego-sa-obowiazkowe/'
+  title: 'Badania geotechniczne działki – dlaczego są obowiązkowe?'
+  description: 'Dowiedz się, czym są badania geotechniczne, ile kosztują i dlaczego bez opinii geotechnicznej nie uzyskasz pozwolenia na budowę domu.'
   robots:
     index: true
     follow: true

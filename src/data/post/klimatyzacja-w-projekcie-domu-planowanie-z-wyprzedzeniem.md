@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:12:34
 updateDate: 2026-02-14T22:14:24
-title: "Klimatyzacja w projekcie domu – planowanie z wyprzedzeniem"
-excerpt: "Klimatyzacja zaplanowana na etapie projektu to komfort bez kucia ścian. Sprawdźcie, jak to zrobić dobrze."
-image: "~/assets/images/blog/klimatyzacja-w-projekcie-domu-planowanie-z-wyprzedzeniem.jpeg"
-category: "Blog"
+title: 'Klimatyzacja w projekcie domu – planowanie z wyprzedzeniem'
+excerpt: 'Klimatyzacja zaplanowana na etapie projektu to komfort bez kucia ścian. Sprawdźcie, jak to zrobić dobrze.'
+image: '~/assets/images/blog/klimatyzacja-w-projekcie-domu-planowanie-z-wyprzedzeniem.jpeg'
+category: 'Blog'
 tags:
-  - "klimatyzacja w domu"
-  - "klimatyzacja projekt domu"
-  - "planowanie klimatyzacji"
-author: "Wojciech Tracichleb"
+  - 'klimatyzacja w domu'
+  - 'klimatyzacja projekt domu'
+  - 'planowanie klimatyzacji'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/klimatyzacja-w-projekcie-domu-planowanie-z-wyprzedzeniem/"
-  title: "Klimatyzacja w projekcie domu – planowanie z wyprzedzeniem"
-  description: "Jak zaplanować klimatyzację na etapie projektu domu? Rury, dobór mocy, systemy split i multi-split, najczęstsze błędy, serwis i koszty – kompletny poradnik."
+  canonical: 'https://pozytywniezbudowani.pl/blog/klimatyzacja-w-projekcie-domu-planowanie-z-wyprzedzeniem/'
+  title: 'Klimatyzacja w projekcie domu – planowanie z wyprzedzeniem'
+  description: 'Jak zaplanować klimatyzację na etapie projektu domu? Rury, dobór mocy, systemy split i multi-split, najczęstsze błędy, serwis i koszty – kompletny poradnik.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Klimatyzator split zamontowany na ścianie nowoczesnej sypialni w domu jednorodzinnym" class="responsive-image" src="/images/content/klimatyzacja-jednostka-wewnetrzna-sypialnia.jpeg" style="width: 525px; height: 350px;" title="Jednostka wewnętrzna klimatyzacji zamontowana w sypialni domu" /></p>
-
 
 <p style="text-align: justify;">Jest lipiec, trzeci dzień z rzędu temperatura przekracza 33 stopnie, a Wy leżycie wieczorem w sypialni i nie możecie zasnąć. Pościel jest ciepła, powietrze gęste i nieruchome, a wentylator na szafce nocnej jedynie przerzuca gorące powietrze z jednego kąta pokoju do drugiego. I wtedy pada to zdanie, które słyszę regularnie od swoich inwestorów: „Szkoda, że nie pomyśleliśmy o klimatyzacji wcześniej".</p>
 

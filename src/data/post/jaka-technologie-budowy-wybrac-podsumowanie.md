@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T17:06:55
 updateDate: 2026-02-14T17:13:06
-title: "Jaką technologię budowy wybrać – podsumowanie"
-excerpt: "Nie ma jednej najlepszej technologii budowy. Jest za to sposób, żeby wybrać tę właściwą dla Was."
-image: "~/assets/images/blog/jaka-technologie-budowy-wybrac-podsumowanie.jpeg"
-category: "Blog"
+title: 'Jaką technologię budowy wybrać – podsumowanie'
+excerpt: 'Nie ma jednej najlepszej technologii budowy. Jest za to sposób, żeby wybrać tę właściwą dla Was.'
+image: '~/assets/images/blog/jaka-technologie-budowy-wybrac-podsumowanie.jpeg'
+category: 'Blog'
 tags:
-  - "technologia budowy domu"
-  - "dom murowany czy szkieletowy"
-  - "pustak ceramiczny czy gazobeton"
-author: "Wojciech Tracichleb"
+  - 'technologia budowy domu'
+  - 'dom murowany czy szkieletowy'
+  - 'pustak ceramiczny czy gazobeton'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jaka-technologie-budowy-wybrac-podsumowanie/"
-  title: "Jaką technologię budowy wybrać – podsumowanie"
-  description: "Murowany, szkieletowy czy prefabrykowany? Porównanie technologii budowy domu – materiały, czas, trwałość, akustyka i praktyczne wskazówki od praktyka."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jaka-technologie-budowy-wybrac-podsumowanie/'
+  title: 'Jaką technologię budowy wybrać – podsumowanie'
+  description: 'Murowany, szkieletowy czy prefabrykowany? Porównanie technologii budowy domu – materiały, czas, trwałość, akustyka i praktyczne wskazówki od praktyka.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Budowa ścian domu jednorodzinnego z pustaków ceramicznych poryzowanych – murarz przy pracy na rusztowaniu" class="responsive-image" src="/images/content/technologia-budowy-murowanie-scian-dom.jpeg" style="width: 525px; height: 350px;" title="Murowanie ścian domu jednorodzinnego z pustaków ceramicznych" /></p>
-
 
 <p style="text-align: justify;">Wybór technologii budowy domu to jedna z tych decyzji, które podejmujecie raz, a żyjecie z nią przez następne kilkadziesiąt lat. Nie da się za 10 lat zmienić zdania i podmienić ścian nośnych. To nie kolor elewacji, który w najgorszym wypadku przemalujecie. To podstawa Waszego domu – dosłownie i w przenośni. W tym artykule przejdziemy przez wszystkie popularne technologie – murowaną, szkieletową i prefabrykowaną – żebyście mogli podjąć świadomą decyzję dopasowaną do Waszej sytuacji.</p>
 

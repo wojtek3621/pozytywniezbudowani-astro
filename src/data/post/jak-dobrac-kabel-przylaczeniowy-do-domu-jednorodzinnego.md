@@ -1,20 +1,20 @@
 ---
 publishDate: 2024-09-30T12:43:27
 updateDate: 2025-12-28T20:42:57
-title: "Jak dobrać kabel przyłączeniowy do domu jednorodzinnego?"
-excerpt: "Dobór prawidłowego kabla zasilającego dom jednorodzinny wielu osobom sprawia problem. Nic dziwnego – w internecie trudno…"
-image: "~/assets/images/blog/jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego.jpg"
-category: "Blog"
+title: 'Jak dobrać kabel przyłączeniowy do domu jednorodzinnego?'
+excerpt: 'Dobór prawidłowego kabla zasilającego dom jednorodzinny wielu osobom sprawia problem. Nic dziwnego – w internecie trudno…'
+image: '~/assets/images/blog/jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego.jpg'
+category: 'Blog'
 tags:
-  - "kabel przyłączeniowy do domu"
-  - "kalkulator kabla WLZ"
-  - "dobór kabla zasilającego dom"
-  - "przekrój kabla przyłączeniowego"
-author: "Wojciech Tracichleb"
+  - 'kabel przyłączeniowy do domu'
+  - 'kalkulator kabla WLZ'
+  - 'dobór kabla zasilającego dom'
+  - 'przekrój kabla przyłączeniowego'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego/"
-  title: "Kabel przyłączeniowy do domu – kalkulator doboru przekroju [2026]"
-  description: "Ile mm² kabla WLZ potrzebujesz? Użyj kalkulatora, podaj moc i długość – otrzymasz wynik ze spadkiem napięcia. Praktyczny poradnik od wykonawcy z placu budowy."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego/'
+  title: 'Kabel przyłączeniowy do domu – kalkulator doboru przekroju [2026]'
+  description: 'Ile mm² kabla WLZ potrzebujesz? Użyj kalkulatora, podaj moc i długość – otrzymasz wynik ze spadkiem napięcia. Praktyczny poradnik od wykonawcy z placu budowy.'
   robots:
     index: true
     follow: true
@@ -420,6 +420,7 @@ metadata:
             align-items: flex-start;
         }
     }
+
 </style>
 <div class="cable-calculator-container">
 <h3 class="calc-title">Kalkulator Doboru Kabla Przyłączeniowego</h3>
@@ -530,10 +531,10 @@ metadata:
         function calculateForCable(materialName, size, totalPower, powerPerPhase, length, materialType) {
             const cable = cableData[materialType][size];
             const denominator = voltageDenominators[materialType][size];
-            
+
             const voltageDrop = (200 * powerPerPhase * length) / denominator;
             const powerSufficient = totalPower <= cable.maxPower;
-            
+
             let status;
             if (!powerSufficient) {
                 status = 'error';
@@ -614,14 +615,14 @@ metadata:
         function displayResults(results, power, length) {
             const resultsDiv = document.getElementById('calcResults');
             const resultContent = document.getElementById('calcResultContent');
-            
+
             let html = '';
-            
+
             results.forEach(result => {
                 let statusClass = '';
                 let statusText = '';
                 let statusBadgeClass = '';
-                
+
                 if (result.status === 'recommended') {
                     statusClass = 'recommended';
                     statusText = 'Zalecany';
@@ -638,14 +639,14 @@ metadata:
 
                 const voltageClass = getVoltageDropClass(result.voltageDrop, result.powerSufficient);
                 const comment = getComment(result);
-                
+
                 html += `
                     <div class="calc-cable-option ${statusClass}">
                         <div class="calc-cable-header">
                             <div class="calc-cable-name">${result.name}</div>
                             <div class="calc-status-badge ${statusBadgeClass}">${statusText}</div>
                         </div>
-                        
+
                         <div class="calc-cable-details">
                             <div class="calc-detail-item">
                                 <span class="calc-detail-label">Max. obciążenie</span>
@@ -660,7 +661,7 @@ metadata:
                                 <span class="calc-detail-value ${voltageClass}">${result.voltageDrop.toFixed(2)}%</span>
                             </div>
                         </div>
-                        
+
                         <div class="calc-comment ${comment.class}">
                             <span class="calc-comment-icon">${comment.icon}</span>
                             <span>${comment.text}</span>
@@ -668,12 +669,13 @@ metadata:
                     </div>
                 `;
             });
-            
+
             resultContent.innerHTML = html;
             resultsDiv.classList.add('visible');
             resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     })();
+
 </script><!-- KONIEC KALKULATORA -->
 
 <h2 style="text-align: justify;">Dlaczego dobór kabla to nie jest prosta sprawa</h2>

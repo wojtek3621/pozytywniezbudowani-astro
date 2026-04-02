@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:09:52
 updateDate: 2026-02-14T22:15:27
-title: "Fotowoltaika w 2026 – czy warto inwestować?"
-excerpt: "Złote czasy fotowoltaiki minęły. Ale czy to znaczy, że nie warto? Sprawdźcie, co mówią liczby w 2026 roku."
-image: "~/assets/images/blog/fotowoltaika-w-2026-czy-warto-inwestowac.jpeg"
-category: "Blog"
+title: 'Fotowoltaika w 2026 – czy warto inwestować?'
+excerpt: 'Złote czasy fotowoltaiki minęły. Ale czy to znaczy, że nie warto? Sprawdźcie, co mówią liczby w 2026 roku.'
+image: '~/assets/images/blog/fotowoltaika-w-2026-czy-warto-inwestowac.jpeg'
+category: 'Blog'
 tags:
-  - "fotowoltaika 2026"
-  - "net-billing"
-  - "czy warto fotowoltaikę"
-author: "Wojciech Tracichleb"
+  - 'fotowoltaika 2026'
+  - 'net-billing'
+  - 'czy warto fotowoltaikę'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/fotowoltaika-w-2026-czy-warto-inwestowac/"
-  title: "Fotowoltaika w 2026 – czy warto inwestować?"
-  description: "Czy fotowoltaika w 2026 się opłaca? Net-billing, współczynnik 1,23, magazyny energii i autokonsumpcja – sprawdźcie, zanim podejmiecie decyzję o montażu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/fotowoltaika-w-2026-czy-warto-inwestowac/'
+  title: 'Fotowoltaika w 2026 – czy warto inwestować?'
+  description: 'Czy fotowoltaika w 2026 się opłaca? Net-billing, współczynnik 1,23, magazyny energii i autokonsumpcja – sprawdźcie, zanim podejmiecie decyzję o montażu.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Instalacja paneli fotowoltaicznych na dachu domu jednorodzinnego w słoneczny dzień – widok z poziomu ogrodu" class="responsive-image" src="/images/content/fotowoltaika-panele-sloneczne-dach-domu.jpeg" style="width: 525px; height: 350px;" title="Panele fotowoltaiczne zamontowane na dachu domu jednorodzinnego" /></p>
-
 
 <p style="text-align: justify;">Kilka lat temu odpowiedź na pytanie z tytułu była prosta i brzmiała: tak, zdecydowanie. Instalacja fotowoltaiczna na dachu domu jednorodzinnego to była jedna z najlepszych inwestycji, jaką mogliście zrobić przy okazji budowy. Sieć energetyczna działała jak darmowy magazyn, oddawaliście nadwyżki latem, odbieraliście zimą, a rachunki za prąd spadały do symbolicznych kwot. Ludzie montowali panele i po prostu cieszyli się z decyzji.</p>
 

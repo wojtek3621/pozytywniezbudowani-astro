@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T14:11:15
 updateDate: 2026-02-04T14:13:31
-title: "Pełnomocnictwo dla kierownika budowy – zakres"
-excerpt: "Kierownik budowy może załatwiać za Was sprawy w urzędach. Ale tylko niektóre. Sprawdźcie, gdzie leży granica."
-image: "~/assets/images/blog/pelnomocnictwo-dla-kierownika-budowy-zakres.jpeg"
-category: "Blog"
+title: 'Pełnomocnictwo dla kierownika budowy – zakres'
+excerpt: 'Kierownik budowy może załatwiać za Was sprawy w urzędach. Ale tylko niektóre. Sprawdźcie, gdzie leży granica.'
+image: '~/assets/images/blog/pelnomocnictwo-dla-kierownika-budowy-zakres.jpeg'
+category: 'Blog'
 tags:
-  - "pełnomocnictwo kierownik budowy"
-  - "upoważnienie kierownika budowy"
-  - "zakres pełnomocnictwa budowa"
-author: "Wojciech Tracichleb"
+  - 'pełnomocnictwo kierownik budowy'
+  - 'upoważnienie kierownika budowy'
+  - 'zakres pełnomocnictwa budowa'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/pelnomocnictwo-dla-kierownika-budowy-zakres/"
-  title: "Pełnomocnictwo dla kierownika budowy - zakres i wzór 2026"
-  description: "Dowiedz się, jakie pełnomocnictwo możesz dać kierownikowi budowy. Zakres czynności urzędowych, wymogi formalne i praktyczne wskazówki."
+  canonical: 'https://pozytywniezbudowani.pl/blog/pelnomocnictwo-dla-kierownika-budowy-zakres/'
+  title: 'Pełnomocnictwo dla kierownika budowy - zakres i wzór 2026'
+  description: 'Dowiedz się, jakie pełnomocnictwo możesz dać kierownikowi budowy. Zakres czynności urzędowych, wymogi formalne i praktyczne wskazówki.'
   robots:
     index: true
     follow: true

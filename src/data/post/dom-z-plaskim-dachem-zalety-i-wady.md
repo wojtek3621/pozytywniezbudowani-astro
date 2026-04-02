@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:16:49
 updateDate: 2026-01-10T20:31:17
-title: "Dom z płaskim dachem – zalety i wady"
-excerpt: "Nowoczesna bryła kusi na wizualizacjach. Ale jak płaski dach sprawdza się w polskim klimacie?"
-image: "~/assets/images/blog/dom-z-plaskim-dachem-zalety-i-wady.jpeg"
-category: "Blog"
+title: 'Dom z płaskim dachem – zalety i wady'
+excerpt: 'Nowoczesna bryła kusi na wizualizacjach. Ale jak płaski dach sprawdza się w polskim klimacie?'
+image: '~/assets/images/blog/dom-z-plaskim-dachem-zalety-i-wady.jpeg'
+category: 'Blog'
 tags:
-  - "dom z płaskim dachem"
-  - "dach płaski zalety wady"
-  - "stropodach"
-author: "Wojciech Tracichleb"
+  - 'dom z płaskim dachem'
+  - 'dach płaski zalety wady'
+  - 'stropodach'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dom-z-plaskim-dachem-zalety-i-wady/"
-  title: "Dom z płaskim dachem - zalety i wady | Kompletny poradnik"
-  description: "Planujesz dom z płaskim dachem? Poznaj zalety, wady i realne koszty. Dowiedz się, co sprawdzić w MPZP i jak uniknąć błędów."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dom-z-plaskim-dachem-zalety-i-wady/'
+  title: 'Dom z płaskim dachem - zalety i wady | Kompletny poradnik'
+  description: 'Planujesz dom z płaskim dachem? Poznaj zalety, wady i realne koszty. Dowiedz się, co sprawdzić w MPZP i jak uniknąć błędów.'
   robots:
     index: true
     follow: true

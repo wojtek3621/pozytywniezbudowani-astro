@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:11:34
 updateDate: 2026-01-11T19:32:19
-title: "Poziom zero budynku – co to jest i jak ustalić"
-excerpt: "Jedna kreska na projekcie, a potrafi zdecydować o walce z wilgocią przez lata..."
-image: "~/assets/images/blog/poziom-zero-budynku-co-to-jest-jak-ustalic.jpeg"
-category: "Blog"
+title: 'Poziom zero budynku – co to jest i jak ustalić'
+excerpt: 'Jedna kreska na projekcie, a potrafi zdecydować o walce z wilgocią przez lata...'
+image: '~/assets/images/blog/poziom-zero-budynku-co-to-jest-jak-ustalic.jpeg'
+category: 'Blog'
 tags:
-  - "poziom zero budynku"
-  - "rzędna terenu"
-  - "ustalenie poziomu zero"
-author: "Wojciech Tracichleb"
+  - 'poziom zero budynku'
+  - 'rzędna terenu'
+  - 'ustalenie poziomu zero'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/poziom-zero-budynku-co-to-jest-i-jak-ustalic/"
-  title: "Poziom zero budynku – co to jest i jak ustalić | Poradnik"
-  description: "Poziom zero budynku to jeden z najważniejszych parametrów na budowie. Dowiedz się, jak go ustalić i dlaczego błąd w tym zakresie może Cię drogo kosztować."
+  canonical: 'https://pozytywniezbudowani.pl/blog/poziom-zero-budynku-co-to-jest-i-jak-ustalic/'
+  title: 'Poziom zero budynku – co to jest i jak ustalić | Poradnik'
+  description: 'Poziom zero budynku to jeden z najważniejszych parametrów na budowie. Dowiedz się, jak go ustalić i dlaczego błąd w tym zakresie może Cię drogo kosztować.'
   robots:
     index: true
     follow: true

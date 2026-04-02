@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:56:07
 updateDate: 2026-01-11T22:06:54
-title: "Ubezpieczenie budowy – jakie i czy obowiązkowe"
-excerpt: "Polisa na budowę to nie formalność do odhaczenia. To Wasza siatka bezpieczeństwa, gdy wszystko pójdzie nie tak..."
-image: "~/assets/images/blog/ubezpieczenie-budowy-jakie-i-czy-obowiazkowe.jpeg"
-category: "Blog"
+title: 'Ubezpieczenie budowy – jakie i czy obowiązkowe'
+excerpt: 'Polisa na budowę to nie formalność do odhaczenia. To Wasza siatka bezpieczeństwa, gdy wszystko pójdzie nie tak...'
+image: '~/assets/images/blog/ubezpieczenie-budowy-jakie-i-czy-obowiazkowe.jpeg'
+category: 'Blog'
 tags:
-  - "ubezpieczenie budowy domu"
-  - "polisa budowlana"
-  - "ubezpieczenie nieruchomości w budowie"
-author: "Wojciech Tracichleb"
+  - 'ubezpieczenie budowy domu'
+  - 'polisa budowlana'
+  - 'ubezpieczenie nieruchomości w budowie'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ubezpieczenie-budowy-jakie-i-czy-obowiazkowe/"
-  title: "Ubezpieczenie budowy domu – jakie wybrać i czy jest obowiązkowe?"
-  description: "Dowiedz się, jakie ubezpieczenie budowy domu wybrać. Sprawdź, co jest obowiązkowe przy kredycie i jakie polisy naprawdę Cię ochronią."
+  canonical: 'https://pozytywniezbudowani.pl/blog/ubezpieczenie-budowy-jakie-i-czy-obowiazkowe/'
+  title: 'Ubezpieczenie budowy domu – jakie wybrać i czy jest obowiązkowe?'
+  description: 'Dowiedz się, jakie ubezpieczenie budowy domu wybrać. Sprawdź, co jest obowiązkowe przy kredycie i jakie polisy naprawdę Cię ochronią.'
   robots:
     index: true
     follow: true

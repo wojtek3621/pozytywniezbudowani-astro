@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:13:47
 updateDate: 2026-02-14T22:13:37
-title: "Alarm w domu – rodzaje systemów"
-excerpt: "Budujecie dom i zastanawiacie się nad alarmem? Wyjaśniam, czym różnią się systemy i który sprawdzi się u Was."
-image: "~/assets/images/blog/alarm-w-domu-rodzaje-systemow.jpeg"
-category: "Blog"
+title: 'Alarm w domu – rodzaje systemów'
+excerpt: 'Budujecie dom i zastanawiacie się nad alarmem? Wyjaśniam, czym różnią się systemy i który sprawdzi się u Was.'
+image: '~/assets/images/blog/alarm-w-domu-rodzaje-systemow.jpeg'
+category: 'Blog'
 tags:
-  - "alarm w domu"
-  - "system alarmowy dom"
-  - "rodzaje alarmów"
-author: "Wojciech Tracichleb"
+  - 'alarm w domu'
+  - 'system alarmowy dom'
+  - 'rodzaje alarmów'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/alarm-w-domu-rodzaje-systemow/"
-  title: "Alarm w domu – rodzaje systemów alarmowych"
-  description: "Przewodowy, bezprzewodowy czy hybrydowy? Poznaj rodzaje systemów alarmowych do domu jednorodzinnego, ich elementy, normy europejskie i integrację ze smart home."
+  canonical: 'https://pozytywniezbudowani.pl/blog/alarm-w-domu-rodzaje-systemow/'
+  title: 'Alarm w domu – rodzaje systemów alarmowych'
+  description: 'Przewodowy, bezprzewodowy czy hybrydowy? Poznaj rodzaje systemów alarmowych do domu jednorodzinnego, ich elementy, normy europejskie i integrację ze smart home.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Nowoczesny panel dotykowy systemu alarmowego zamontowany przy drzwiach wejściowych domu jednorodzinnego" class="responsive-image" src="/images/content/alarm-domowy-panel-sterowania-wejscie.jpeg" style="width: 525px; height: 350px;" title="Panel sterowania systemem alarmowym przy wejściu do domu" /></p>
-
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację. Jest lipiec, siedzicie na plaży w Grecji, pijecie zimną lemoniadę i nagle łapiecie się na myśli: „A czy na pewno zamknąłem okno na piętrze?". Albo gorzej – „Czy włączyłem alarm?". Znacie to uczucie? Budowa domu to ogromne przedsięwzięcie, w które wkładacie setki tysięcy złotych i lata wysiłku. A potem ten dom stoi – piękny, nowy, pełen Waszych rzeczy – i zaczyna się zupełnie nowy rodzaj stresu. Nie o fundamenty ani dach, ale o to, czy Wasz dobytek jest bezpieczny, kiedy Was nie ma.</p>
 

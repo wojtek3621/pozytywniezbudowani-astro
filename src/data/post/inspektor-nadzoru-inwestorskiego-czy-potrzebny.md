@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T14:08:42
 updateDate: 2026-02-04T14:11:02
-title: "Inspektor nadzoru inwestorskiego – czy potrzebny przy budowie domu?"
-excerpt: "Kierownik budowy to nie wszystko. Sprawdźcie, czy Wasz dom potrzebuje jeszcze jednego specjalisty."
-image: "~/assets/images/blog/inspektor-nadzoru-inwestorskiego-czy-potrzebny.jpeg"
-category: "Blog"
+title: 'Inspektor nadzoru inwestorskiego – czy potrzebny przy budowie domu?'
+excerpt: 'Kierownik budowy to nie wszystko. Sprawdźcie, czy Wasz dom potrzebuje jeszcze jednego specjalisty.'
+image: '~/assets/images/blog/inspektor-nadzoru-inwestorskiego-czy-potrzebny.jpeg'
+category: 'Blog'
 tags:
-  - "inspektor nadzoru inwestorskiego"
-  - "nadzór inwestorski budowa domu"
-  - "kontrola budowy"
-author: "Wojciech Tracichleb"
+  - 'inspektor nadzoru inwestorskiego'
+  - 'nadzór inwestorski budowa domu'
+  - 'kontrola budowy'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/inspektor-nadzoru-inwestorskiego-czy-potrzebny/"
-  title: "Inspektor nadzoru inwestorskiego - czy potrzebny przy budowie domu?"
-  description: "Czy zatrudnić inspektora nadzoru inwestorskiego? Poznaj obowiązki, uprawnienia i koszty. Dowiedz się, kiedy warto go mieć na budowie domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/inspektor-nadzoru-inwestorskiego-czy-potrzebny/'
+  title: 'Inspektor nadzoru inwestorskiego - czy potrzebny przy budowie domu?'
+  description: 'Czy zatrudnić inspektora nadzoru inwestorskiego? Poznaj obowiązki, uprawnienia i koszty. Dowiedz się, kiedy warto go mieć na budowie domu.'
   robots:
     index: true
     follow: true

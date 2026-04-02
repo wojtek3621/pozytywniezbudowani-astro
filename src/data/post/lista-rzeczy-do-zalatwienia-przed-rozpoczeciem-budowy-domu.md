@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:19:04
 updateDate: 2026-02-14T18:28:48
-title: "Lista rzeczy do załatwienia przed rozpoczęciem budowy domu"
-excerpt: "Koparka za 3 tygodnie, a Wy nie wiecie, czy wszystko jest ogarnięte? Sprawdźcie, co musicie załatwić – punkt po punkcie."
-image: "~/assets/images/blog/lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy-domu.jpeg"
-category: "Blog"
+title: 'Lista rzeczy do załatwienia przed rozpoczęciem budowy domu'
+excerpt: 'Koparka za 3 tygodnie, a Wy nie wiecie, czy wszystko jest ogarnięte? Sprawdźcie, co musicie załatwić – punkt po punkcie.'
+image: '~/assets/images/blog/lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy-domu.jpeg'
+category: 'Blog'
 tags:
-  - "lista rzeczy przed budową domu"
-  - "co załatwić przed budową"
-  - "przygotowanie do budowy domu"
-author: "Wojciech Tracichleb"
+  - 'lista rzeczy przed budową domu'
+  - 'co załatwić przed budową'
+  - 'przygotowanie do budowy domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy-domu/"
-  title: "Lista rzeczy do załatwienia przed rozpoczęciem budowy domu"
-  description: "Co załatwić przed budową domu? Kompletna checklista: formalności, prąd, woda, kierownik, wykonawca, ubezpieczenie. Praktyczny przewodnik krok po kroku."
+  canonical: 'https://pozytywniezbudowani.pl/blog/lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy-domu/'
+  title: 'Lista rzeczy do załatwienia przed rozpoczęciem budowy domu'
+  description: 'Co załatwić przed budową domu? Kompletna checklista: formalności, prąd, woda, kierownik, wykonawca, ubezpieczenie. Praktyczny przewodnik krok po kroku.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Plany architektoniczne domu jednorodzinnego rozłożone na biurku obok kasku budowlanego i dokumentów formalnych" class="responsive-image" src="/images/content/przygotowanie-budowy-dokumenty-projekt-kask.jpeg" style="width: 525px; height: 350px;" title="Dokumentacja budowlana i projekt domu na biurku przed rozpoczęciem budowy" /></p>
-
 
 <p style="text-align: justify;">Znam to uczucie. Pozwolenie na budowę leży w szufladzie, wykonawca potwierdził termin, a Wy budzicie się w nocy z myślą: „Czy na pewno wszystko jest ogarnięte?”. To uczucie jest zupełnie normalne. Budowa domu to prawdopodobnie największe przedsięwzięcie logistyczne w Waszym życiu. Nie chodzi tylko o pieniądze i formalności. Chodzi o to, żeby w dniu, kiedy na działkę wjedzie koparka, nie okazało się, że brakuje prądu, wody, geodety albo podpisanej umowy z kierownikiem budowy.</p>
 

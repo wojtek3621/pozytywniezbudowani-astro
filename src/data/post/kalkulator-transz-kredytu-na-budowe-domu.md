@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T16:57:49
 updateDate: 2026-02-03T19:29:44
-title: "Kalkulator transz kredytu na budowę domu – ile płacisz w karencji"
-excerpt: "Przez całą budowę płacisz tylko odsetki. A kapitał? Ani złotówki mniej. Sprawdź, ile to naprawdę kosztuje..."
-image: "~/assets/images/blog/kalkulator-transz-kredytu-na-budowe-domu.jpeg"
-category: "Blog"
+title: 'Kalkulator transz kredytu na budowę domu – ile płacisz w karencji'
+excerpt: 'Przez całą budowę płacisz tylko odsetki. A kapitał? Ani złotówki mniej. Sprawdź, ile to naprawdę kosztuje...'
+image: '~/assets/images/blog/kalkulator-transz-kredytu-na-budowe-domu.jpeg'
+category: 'Blog'
 tags:
-  - "transze kredytu na budowę domu"
-  - "karencja kredyt budowlany"
-  - "koszty odsetek budowa"
-author: "Wojciech Tracichleb"
+  - 'transze kredytu na budowę domu'
+  - 'karencja kredyt budowlany'
+  - 'koszty odsetek budowa'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/kalkulator-transz-kredytu-na-budowe-domu/"
-  title: "Kalkulator transz kredytu na budowę domu – ile płacisz w karencji"
-  description: "Sprawdź, ile kosztują Cię transze kredytu budowlanego. Kalkulator odsetek w karencji pokaże szokującą prawdę o kosztach budowy na kredyt."
+  canonical: 'https://pozytywniezbudowani.pl/blog/kalkulator-transz-kredytu-na-budowe-domu/'
+  title: 'Kalkulator transz kredytu na budowę domu – ile płacisz w karencji'
+  description: 'Sprawdź, ile kosztują Cię transze kredytu budowlanego. Kalkulator odsetek w karencji pokaże szokującą prawdę o kosztach budowy na kredyt.'
   robots:
     index: true
     follow: true
@@ -157,8 +157,8 @@ metadata:
 })();
 
 function obliczTransze() {
-    var komunikat = document.getElementById('transze-blad');
-    komunikat.style.display = 'none';
+var komunikat = document.getElementById('transze-blad');
+komunikat.style.display = 'none';
 
     var kwotaStr = document.getElementById('transze-kwota').value;
     var kwota = parseFloat(kwotaStr.replace(/\s/g, '').replace(/,/g, '.'));
@@ -259,23 +259,24 @@ function obliczTransze() {
 
     // Formatowanie pola
     document.getElementById('transze-kwota').value = formatujKwoteT(kwota);
+
 }
 
 function wyczyscTransze() {
-    document.getElementById('transze-kwota').value = '';
-    document.getElementById('transze-opr').value = '';
-    document.getElementById('transze-czas').value = '';
-    document.getElementById('transze-t1').value = '';
-    document.getElementById('transze-t2').value = '';
-    document.getElementById('transze-t3').value = '';
-    document.getElementById('transze-t4').value = '';
-    document.getElementById('transze-wyniki').style.display = 'none';
-    document.getElementById('transze-blad').style.display = 'none';
-    document.getElementById('transze-kwota').focus();
+document.getElementById('transze-kwota').value = '';
+document.getElementById('transze-opr').value = '';
+document.getElementById('transze-czas').value = '';
+document.getElementById('transze-t1').value = '';
+document.getElementById('transze-t2').value = '';
+document.getElementById('transze-t3').value = '';
+document.getElementById('transze-t4').value = '';
+document.getElementById('transze-wyniki').style.display = 'none';
+document.getElementById('transze-blad').style.display = 'none';
+document.getElementById('transze-kwota').focus();
 }
 
 function formatujKwoteT(liczba) {
-    return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 }
 </script><!-- KONIEC KALKULATORA TRANSZ -->
 

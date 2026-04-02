@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-14T11:10:26
 updateDate: 2026-02-14T17:03:12
-title: "Płyta fundamentowa czy ławy – co wybrać?"
-excerpt: "Płyta czy ławy? Zanim podejmiecie decyzję, sprawdźcie co naprawdę decyduje o wyborze fundamentu."
-image: "~/assets/images/blog/plyta-fundamentowa-czy-lawy-co-wybrac.jpeg"
-category: "Blog"
+title: 'Płyta fundamentowa czy ławy – co wybrać?'
+excerpt: 'Płyta czy ławy? Zanim podejmiecie decyzję, sprawdźcie co naprawdę decyduje o wyborze fundamentu.'
+image: '~/assets/images/blog/plyta-fundamentowa-czy-lawy-co-wybrac.jpeg'
+category: 'Blog'
 tags:
-  - "płyta fundamentowa czy ławy"
-  - "rodzaje fundamentów"
-  - "fundamenty dom jednorodzinny"
-author: "Wojciech Tracichleb"
+  - 'płyta fundamentowa czy ławy'
+  - 'rodzaje fundamentów'
+  - 'fundamenty dom jednorodzinny'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/plyta-fundamentowa-czy-lawy-co-wybrac/"
-  title: "Płyta fundamentowa czy ławy – co wybrać? Porównanie"
-  description: "Płyta fundamentowa czy ławy? Porównuję koszty, czas realizacji i trwałość obu rozwiązań. Sprawdźcie, który fundament lepiej pasuje do Waszego domu i gruntu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/plyta-fundamentowa-czy-lawy-co-wybrac/'
+  title: 'Płyta fundamentowa czy ławy – co wybrać? Porównanie'
+  description: 'Płyta fundamentowa czy ławy? Porównuję koszty, czas realizacji i trwałość obu rozwiązań. Sprawdźcie, który fundament lepiej pasuje do Waszego domu i gruntu.'
   robots:
     index: true
     follow: true

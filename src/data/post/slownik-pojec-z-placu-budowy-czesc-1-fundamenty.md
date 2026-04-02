@@ -1,19 +1,19 @@
 ---
 publishDate: 2025-06-13T15:44:14
 updateDate: 2026-01-04T11:18:26
-title: "Słownik pojęć z placu budowy. Część 1 - Fundamenty"
-excerpt: "Majster mówi o ławicach, osiach i fi dwunastce, a Wy kiwacie głową, choć nic z tego nie rozumiecie? Czas to zmienić..."
-image: "~/assets/images/blog/slownik-pojec-z-placu-budowy-czesc-1-fundamenty.jpg"
-category: "Blog"
+title: 'Słownik pojęć z placu budowy. Część 1 - Fundamenty'
+excerpt: 'Majster mówi o ławicach, osiach i fi dwunastce, a Wy kiwacie głową, choć nic z tego nie rozumiecie? Czas to zmienić...'
+image: '~/assets/images/blog/slownik-pojec-z-placu-budowy-czesc-1-fundamenty.jpg'
+category: 'Blog'
 tags:
-  - "słownik budowlany"
-  - "terminologia budowlana"
-  - "fundamenty"
-author: "Wojciech Tracichleb"
+  - 'słownik budowlany'
+  - 'terminologia budowlana'
+  - 'fundamenty'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/slownik-pojec-z-placu-budowy-czesc-1-fundamenty/"
-  title: "Słownik budowlany – fundamenty | Terminy z placu budowy"
-  description: "Poznaj kluczowe terminy budowlane dotyczące fundamentów. Ławice, strzemiona, szalunki, XPS i EPS – wszystko, co musisz wiedzieć przed budową domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/slownik-pojec-z-placu-budowy-czesc-1-fundamenty/'
+  title: 'Słownik budowlany – fundamenty | Terminy z placu budowy'
+  description: 'Poznaj kluczowe terminy budowlane dotyczące fundamentów. Ławice, strzemiona, szalunki, XPS i EPS – wszystko, co musisz wiedzieć przed budową domu.'
   robots:
     index: true
     follow: true

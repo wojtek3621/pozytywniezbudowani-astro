@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:20:18
 updateDate: 2026-02-14T18:28:08
-title: "Kolejność prac wykończeniowych w domu – kompletny przewodnik"
-excerpt: "Wykończeniówka to sztafeta, nie sprint. Poznajcie kolejność, która chroni Wasz budżet i nerwy."
-image: "~/assets/images/blog/kolejnosc-prac-wykonczeniowych-w-domu.jpeg"
-category: "Blog"
+title: 'Kolejność prac wykończeniowych w domu – kompletny przewodnik'
+excerpt: 'Wykończeniówka to sztafeta, nie sprint. Poznajcie kolejność, która chroni Wasz budżet i nerwy.'
+image: '~/assets/images/blog/kolejnosc-prac-wykonczeniowych-w-domu.jpeg'
+category: 'Blog'
 tags:
-  - "kolejność prac wykończeniowych"
-  - "wykończenie domu"
-  - "etapy wykończenia"
-author: "Wojciech Tracichleb"
+  - 'kolejność prac wykończeniowych'
+  - 'wykończenie domu'
+  - 'etapy wykończenia'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/kolejnosc-prac-wykonczeniowych-w-domu/"
-  title: "Kolejność prac wykończeniowych w domu – kompletny przewodnik"
-  description: "Poznajcie optymalną kolejność prac wykończeniowych w domu jednorodzinnym. Łazienki, gładzie, podłogi, drzwi, schody – sprawdźcie, co po czym i dlaczego właśnie."
+  canonical: 'https://pozytywniezbudowani.pl/blog/kolejnosc-prac-wykonczeniowych-w-domu/'
+  title: 'Kolejność prac wykończeniowych w domu – kompletny przewodnik'
+  description: 'Poznajcie optymalną kolejność prac wykończeniowych w domu jednorodzinnym. Łazienki, gładzie, podłogi, drzwi, schody – sprawdźcie, co po czym i dlaczego właśnie.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Pomieszczenie domu jednorodzinnego w trakcie prac wykończeniowych z widocznymi etapami: gładzie, malowanie i montaż podłóg" class="responsive-image" src="/images/content/prace-wykonczeniowe-wnetrze-remont-dom.jpeg" style="width: 525px; height: 350px;" title="Wnętrze domu w trakcie prac wykończeniowych" /></p>
-
 
 <p style="text-align: justify;">Dom w stanie deweloperskim wygląda jak pudełko pełne obietnic. Potem zaczyna się wykończeniówka i okazuje się, że ten etap potrafi pochłonąć tyle samo czasu, nerwów i pieniędzy, co postawienie całego stanu surowego. Najgorsze, co możecie zrobić na tym etapie, to rzucić się w wir prac bez jasnego planu kolejności. Bo wykończenie domu to precyzyjnie ułożony ciąg zdarzeń, w którym każdy etap zależy od poprzedniego.</p><h2>Dlaczego kolejność ma tak ogromne znaczenie</h2>
 

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T18:02:49
 updateDate: 2026-01-04T18:04:30
-title: "Działka rolna pod budowę domu - odrolnienie krok po kroku"
-excerpt: "Kusząca cena działki rolnej może skrywać formalności, o których nie masz pojęcia..."
-image: "~/assets/images/blog/dzialka-rolna-pod-budowe-domu-odrolnienie.jpeg"
-category: "Blog"
+title: 'Działka rolna pod budowę domu - odrolnienie krok po kroku'
+excerpt: 'Kusząca cena działki rolnej może skrywać formalności, o których nie masz pojęcia...'
+image: '~/assets/images/blog/dzialka-rolna-pod-budowe-domu-odrolnienie.jpeg'
+category: 'Blog'
 tags:
-  - "odrolnienie działki"
-  - "działka rolna budowa domu"
-  - "przekształcenie działki rolnej"
-author: "Wojciech Tracichleb"
+  - 'odrolnienie działki'
+  - 'działka rolna budowa domu'
+  - 'przekształcenie działki rolnej'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dzialka-rolna-pod-budowe-domu-odrolnienie/"
-  title: "Działka rolna pod budowę domu – odrolnienie krok po kroku"
-  description: "Jak odrolnić działkę rolną pod budowę domu? Procedura, koszty, przepisy 2025/2026. Praktyczny poradnik z uwzględnieniem reformy planistycznej."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-rolna-pod-budowe-domu-odrolnienie/'
+  title: 'Działka rolna pod budowę domu – odrolnienie krok po kroku'
+  description: 'Jak odrolnić działkę rolną pod budowę domu? Procedura, koszty, przepisy 2025/2026. Praktyczny poradnik z uwzględnieniem reformy planistycznej.'
   robots:
     index: true
     follow: true

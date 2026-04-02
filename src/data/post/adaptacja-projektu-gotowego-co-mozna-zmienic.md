@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T17:50:41
 updateDate: 2026-01-11T18:54:36
-title: "Adaptacja projektu gotowego – co można zmienić i ile to kosztuje"
-excerpt: "Projekt gotowy to dopiero punkt wyjścia. Możecie zmienić więcej, niż myślicie – ale nie wszystko warto zmieniać..."
-image: "~/assets/images/blog/adaptacja-projektu-gotowego-co-mozna-zmienic.jpeg"
-category: "Blog"
+title: 'Adaptacja projektu gotowego – co można zmienić i ile to kosztuje'
+excerpt: 'Projekt gotowy to dopiero punkt wyjścia. Możecie zmienić więcej, niż myślicie – ale nie wszystko warto zmieniać...'
+image: '~/assets/images/blog/adaptacja-projektu-gotowego-co-mozna-zmienic.jpeg'
+category: 'Blog'
 tags:
-  - "adaptacja projektu gotowego"
-  - "zmiany w projekcie domu"
-  - "architekt adaptujący"
-author: "Wojciech Tracichleb"
+  - 'adaptacja projektu gotowego'
+  - 'zmiany w projekcie domu'
+  - 'architekt adaptujący'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/adaptacja-projektu-gotowego-co-mozna-zmienic/"
-  title: "Adaptacja projektu gotowego – co można zmienić i ile to kosztuje"
-  description: "Dowiedz się, jakie zmiany możesz wprowadzić w projekcie gotowym podczas adaptacji. Poznaj koszty i sprawdź, co wymaga zgody autora projektu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/adaptacja-projektu-gotowego-co-mozna-zmienic/'
+  title: 'Adaptacja projektu gotowego – co można zmienić i ile to kosztuje'
+  description: 'Dowiedz się, jakie zmiany możesz wprowadzić w projekcie gotowym podczas adaptacji. Poznaj koszty i sprawdź, co wymaga zgody autora projektu.'
   robots:
     index: true
     follow: true

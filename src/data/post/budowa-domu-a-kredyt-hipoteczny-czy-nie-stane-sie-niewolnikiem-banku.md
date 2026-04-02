@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:22:39
 updateDate: 2026-01-11T20:51:36
-title: "Budowa domu a kredyt hipoteczny – czy nie stanę się niewolnikiem banku?"
-excerpt: "30 lat spłacania kredytu brzmi przerażająco. Ale czy na pewno musi tak być? Pokażę Wam, jak podejść do tematu..."
-image: "~/assets/images/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku.jpeg"
-category: "Blog"
+title: 'Budowa domu a kredyt hipoteczny – czy nie stanę się niewolnikiem banku?'
+excerpt: '30 lat spłacania kredytu brzmi przerażająco. Ale czy na pewno musi tak być? Pokażę Wam, jak podejść do tematu...'
+image: '~/assets/images/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku.jpeg'
+category: 'Blog'
 tags:
-  - "kredyt hipoteczny budowa domu"
-  - "niewolnik banku"
-  - "kredyt na dom 30 lat"
-author: "Wojciech Tracichleb"
+  - 'kredyt hipoteczny budowa domu'
+  - 'niewolnik banku'
+  - 'kredyt na dom 30 lat'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku/"
-  title: "Kredyt hipoteczny na budowę domu – jak nie zostać niewolnikiem banku"
-  description: "Czy kredyt hipoteczny na 30 lat oznacza zniewolenie? Poznaj strategie, które dają bezpieczeństwo finansowe i swobodę podczas budowy domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku/'
+  title: 'Kredyt hipoteczny na budowę domu – jak nie zostać niewolnikiem banku'
+  description: 'Czy kredyt hipoteczny na 30 lat oznacza zniewolenie? Poznaj strategie, które dają bezpieczeństwo finansowe i swobodę podczas budowy domu.'
   robots:
     index: true
     follow: true

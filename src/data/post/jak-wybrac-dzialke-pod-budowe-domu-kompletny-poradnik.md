@@ -1,19 +1,19 @@
 ---
 publishDate: 2025-12-27T19:02:52
 updateDate: 2026-01-11T18:06:07
-title: "Jak wybrać działkę pod budowę domu – kompletny poradnik dla przyszłego inwestora"
-excerpt: "Ładna działka i dobra działka to często dwie różne rzeczy. Sprawdź, czego nie widać na zdjęciach w ogłoszeniu..."
-image: "~/assets/images/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik.jpeg"
-category: "Blog"
+title: 'Jak wybrać działkę pod budowę domu – kompletny poradnik dla przyszłego inwestora'
+excerpt: 'Ładna działka i dobra działka to często dwie różne rzeczy. Sprawdź, czego nie widać na zdjęciach w ogłoszeniu...'
+image: '~/assets/images/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik.jpeg'
+category: 'Blog'
 tags:
-  - "jak wybrać działkę pod budowę domu"
-  - "zakup działki budowlanej"
-  - "na co zwrócić uwagę przy zakupie działki"
-author: "Wojciech Tracichleb"
+  - 'jak wybrać działkę pod budowę domu'
+  - 'zakup działki budowlanej'
+  - 'na co zwrócić uwagę przy zakupie działki'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/"
-  title: "Jak wybrać działkę pod budowę domu – kompletny poradnik 2026"
-  description: "Sprawdź, co musisz wiedzieć przed zakupem działki budowlanej. MPZP, badania gruntu, media, dostęp do drogi – pełna checklista od praktyka z budów."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/'
+  title: 'Jak wybrać działkę pod budowę domu – kompletny poradnik 2026'
+  description: 'Sprawdź, co musisz wiedzieć przed zakupem działki budowlanej. MPZP, badania gruntu, media, dostęp do drogi – pełna checklista od praktyka z budów.'
   robots:
     index: true
     follow: true

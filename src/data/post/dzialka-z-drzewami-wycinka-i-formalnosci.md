@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T18:18:52
 updateDate: 2026-01-04T18:20:22
-title: "Działka z drzewami - wycinka i formalności"
-excerpt: "Piękna działka ze starymi drzewami może okazać się skomplikowana. Zanim podpiszecie akt notarialny, sprawdźcie..."
-image: "~/assets/images/blog/dzialka-z-drzewami-wycinka-i-formalnosci.jpeg"
-category: "Blog"
+title: 'Działka z drzewami - wycinka i formalności'
+excerpt: 'Piękna działka ze starymi drzewami może okazać się skomplikowana. Zanim podpiszecie akt notarialny, sprawdźcie...'
+image: '~/assets/images/blog/dzialka-z-drzewami-wycinka-i-formalnosci.jpeg'
+category: 'Blog'
 tags:
-  - "wycinka drzew na działce"
-  - "zezwolenie na wycinkę"
-  - "działka z drzewami"
-author: "Wojciech Tracichleb"
+  - 'wycinka drzew na działce'
+  - 'zezwolenie na wycinkę'
+  - 'działka z drzewami'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dzialka-z-drzewami-wycinka-i-formalnosci/"
-  title: "Działka z drzewami – wycinka i formalności 2025 | Poradnik"
-  description: "Kupiłeś działkę z drzewami? Sprawdź aktualne przepisy o wycince, limity obwodu pnia, procedury zgłoszenia i kary. Praktyczny poradnik dla inwestorów."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-z-drzewami-wycinka-i-formalnosci/'
+  title: 'Działka z drzewami – wycinka i formalności 2025 | Poradnik'
+  description: 'Kupiłeś działkę z drzewami? Sprawdź aktualne przepisy o wycince, limity obwodu pnia, procedury zgłoszenia i kary. Praktyczny poradnik dla inwestorów.'
   robots:
     index: true
     follow: true

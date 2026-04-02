@@ -1,19 +1,19 @@
 ---
 publishDate: 2024-09-30T12:41:29
 updateDate: 2026-01-04T19:42:53
-title: "Dlaczego technologia tradycyjna, murowana, jest tak popularna?"
-excerpt: "88% Polaków wybiera domy murowane. Co stoi za tą decyzją – tradycja, emocje czy twardy rachunek zysków i strat?"
-image: "~/assets/images/blog/dlaczego-technologia-tradycyjna-murowana-jest-tak-popularna.jpg"
-category: "Blog"
+title: 'Dlaczego technologia tradycyjna, murowana, jest tak popularna?'
+excerpt: '88% Polaków wybiera domy murowane. Co stoi za tą decyzją – tradycja, emocje czy twardy rachunek zysków i strat?'
+image: '~/assets/images/blog/dlaczego-technologia-tradycyjna-murowana-jest-tak-popularna.jpg'
+category: 'Blog'
 tags:
-  - "domy murowane"
-  - "technologia murowana"
-  - "pustaki ceramiczne"
-author: "Wojciech Tracichleb"
+  - 'domy murowane'
+  - 'technologia murowana'
+  - 'pustaki ceramiczne'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dlaczego-technologia-tradycyjna-murowana-jest-tak-popularna/"
-  title: "Dlaczego domy murowane cieszą się taką popularnością w Polsce?"
-  description: "Poznaj powody, dla których 88% Polaków wybiera domy murowane. 1000 lat tradycji, trwałość na pokolenia i sprawdzone rozwiązania."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dlaczego-technologia-tradycyjna-murowana-jest-tak-popularna/'
+  title: 'Dlaczego domy murowane cieszą się taką popularnością w Polsce?'
+  description: 'Poznaj powody, dla których 88% Polaków wybiera domy murowane. 1000 lat tradycji, trwałość na pokolenia i sprawdzone rozwiązania.'
   robots:
     index: true
     follow: true

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:23:38
 updateDate: 2026-01-04T19:24:46
-title: "Działka w obszarze zalewowym – jak sprawdzić"
-excerpt: "Atrakcyjna cena działki nad rzeką może oznaczać zakaz budowy. Sprawdź, jak zweryfikować ryzyko powodziowe..."
-image: "~/assets/images/blog/dzialka-w-obszarze-zalewowym-jak-sprawdzic.jpeg"
-category: "Blog"
+title: 'Działka w obszarze zalewowym – jak sprawdzić'
+excerpt: 'Atrakcyjna cena działki nad rzeką może oznaczać zakaz budowy. Sprawdź, jak zweryfikować ryzyko powodziowe...'
+image: '~/assets/images/blog/dzialka-w-obszarze-zalewowym-jak-sprawdzic.jpeg'
+category: 'Blog'
 tags:
-  - "działka w obszarze zalewowym"
-  - "mapy zagrożenia powodziowego"
-  - "Hydroportal"
-author: "Wojciech Tracichleb"
+  - 'działka w obszarze zalewowym'
+  - 'mapy zagrożenia powodziowego'
+  - 'Hydroportal'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dzialka-w-obszarze-zalewowym-jak-sprawdzic/"
-  title: "Działka w obszarze zalewowym – jak sprawdzić przed zakupem"
-  description: "Dowiedz się, jak sprawdzić czy działka jest w obszarze zalewowym. Hydroportal, mapy powodziowe, MPZP i rozmowa z sąsiadami – praktyczny poradnik."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-w-obszarze-zalewowym-jak-sprawdzic/'
+  title: 'Działka w obszarze zalewowym – jak sprawdzić przed zakupem'
+  description: 'Dowiedz się, jak sprawdzić czy działka jest w obszarze zalewowym. Hydroportal, mapy powodziowe, MPZP i rozmowa z sąsiadami – praktyczny poradnik.'
   robots:
     index: true
     follow: true

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:03:08
 updateDate: 2026-01-11T19:20:45
-title: "Dom z antresolą – plusy i minusy, o których mało kto mówi"
-excerpt: "Salon z podwójną wysokością robi wrażenie. Ale czy po roku mieszkania nadal będziecie zachwyceni?"
-image: "~/assets/images/blog/dom-z-antresola-plusy-i-minusy.jpeg"
-category: "Blog"
+title: 'Dom z antresolą – plusy i minusy, o których mało kto mówi'
+excerpt: 'Salon z podwójną wysokością robi wrażenie. Ale czy po roku mieszkania nadal będziecie zachwyceni?'
+image: '~/assets/images/blog/dom-z-antresola-plusy-i-minusy.jpeg'
+category: 'Blog'
 tags:
-  - "dom z antresolą"
-  - "antresola w domu"
-  - "salon z antresolą"
-author: "Wojciech Tracichleb"
+  - 'dom z antresolą'
+  - 'antresola w domu'
+  - 'salon z antresolą'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dom-z-antresola-plusy-i-minusy/"
-  title: "Dom z antresolą - plusy i minusy | Praktyczny poradnik"
-  description: "Antresola w domu to efektowne rozwiązanie, ale czy praktyczne? Poznaj realne zalety i wady domu z antresolą - akustyka, ogrzewanie, koszty."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dom-z-antresola-plusy-i-minusy/'
+  title: 'Dom z antresolą - plusy i minusy | Praktyczny poradnik'
+  description: 'Antresola w domu to efektowne rozwiązanie, ale czy praktyczne? Poznaj realne zalety i wady domu z antresolą - akustyka, ogrzewanie, koszty.'
   robots:
     index: true
     follow: true

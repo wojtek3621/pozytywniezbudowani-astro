@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T16:23:16
 updateDate: 2026-02-03T20:22:06
-title: "Kredyt a budowa systemem gospodarczym – czy się opłaca?"
-excerpt: "Oszczędzisz dziesiątki tysięcy czy wpadniesz w pułapkę opóźnień? Sprawdźcie, zanim weźmiecie kredyt..."
-image: "~/assets/images/blog/kredyt-a-budowa-systemem-gospodarczym-czy-sie-oplaca.jpeg"
-category: "Blog"
+title: 'Kredyt a budowa systemem gospodarczym – czy się opłaca?'
+excerpt: 'Oszczędzisz dziesiątki tysięcy czy wpadniesz w pułapkę opóźnień? Sprawdźcie, zanim weźmiecie kredyt...'
+image: '~/assets/images/blog/kredyt-a-budowa-systemem-gospodarczym-czy-sie-oplaca.jpeg'
+category: 'Blog'
 tags:
-  - "kredyt budowa domu"
-  - "system gospodarczy"
-  - "budowa domu systemem gospodarczym kredyt"
-author: "Wojciech Tracichleb"
+  - 'kredyt budowa domu'
+  - 'system gospodarczy'
+  - 'budowa domu systemem gospodarczym kredyt'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/kredyt-a-budowa-systemem-gospodarczym-czy-sie-oplaca/"
-  title: "Kredyt a budowa systemem gospodarczym – czy się opłaca?"
-  description: "Czy połączenie kredytu hipotecznego z budową systemem gospodarczym to przepis na oszczędności? Poznaj realne liczby, pułapki i sprawdź, czy to dla Ciebie."
+  canonical: 'https://pozytywniezbudowani.pl/blog/kredyt-a-budowa-systemem-gospodarczym-czy-sie-oplaca/'
+  title: 'Kredyt a budowa systemem gospodarczym – czy się opłaca?'
+  description: 'Czy połączenie kredytu hipotecznego z budową systemem gospodarczym to przepis na oszczędności? Poznaj realne liczby, pułapki i sprawdź, czy to dla Ciebie.'
   robots:
     index: true
     follow: true

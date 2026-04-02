@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:48:18
 updateDate: 2026-01-11T21:38:05
-title: "VAT 8% vs 23% na materiały budowlane – jak zaoszczędzić"
-excerpt: "Ta różnica w stawce VAT może oznaczać kilkadziesiąt tysięcy złotych oszczędności. Wystarczy wiedzieć, jak to zrobić..."
-image: "~/assets/images/blog/vat-8-vs-23-na-materialy-budowlane-jak-zaoszczedzic.jpeg"
-category: "Blog"
+title: 'VAT 8% vs 23% na materiały budowlane – jak zaoszczędzić'
+excerpt: 'Ta różnica w stawce VAT może oznaczać kilkadziesiąt tysięcy złotych oszczędności. Wystarczy wiedzieć, jak to zrobić...'
+image: '~/assets/images/blog/vat-8-vs-23-na-materialy-budowlane-jak-zaoszczedzic.jpeg'
+category: 'Blog'
 tags:
-  - "VAT materiały budowlane"
-  - "stawka VAT budowa domu"
-  - "oszczędności na budowie"
-author: "Wojciech Tracichleb"
+  - 'VAT materiały budowlane'
+  - 'stawka VAT budowa domu'
+  - 'oszczędności na budowie'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/vat-8-vs-23-na-materialy-budowlane-jak-zaoszczedzic/"
-  title: "VAT 8% vs 23% na materiały budowlane – jak zaoszczędzić?"
-  description: "Dowiedz się, jak legalnie płacić 8% VAT zamiast 23% na materiały budowlane. Praktyczny poradnik dla inwestorów budujących dom jednorodzinny."
+  canonical: 'https://pozytywniezbudowani.pl/blog/vat-8-vs-23-na-materialy-budowlane-jak-zaoszczedzic/'
+  title: 'VAT 8% vs 23% na materiały budowlane – jak zaoszczędzić?'
+  description: 'Dowiedz się, jak legalnie płacić 8% VAT zamiast 23% na materiały budowlane. Praktyczny poradnik dla inwestorów budujących dom jednorodzinny.'
   robots:
     index: true
     follow: true

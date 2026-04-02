@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T14:06:18
 updateDate: 2026-02-04T14:08:29
-title: "Odbiór domu do użytkowania – procedura krok po kroku"
-excerpt: "Budowa prawie za Wami. Ale zanim się wprowadzicie, musicie dopełnić ostatniej formalności. Sprawdźcie, jak to zrobić."
-image: "~/assets/images/blog/odbior-domu-do-uzytkowania-procedura-krok-po-kroku.jpeg"
-category: "Blog"
+title: 'Odbiór domu do użytkowania – procedura krok po kroku'
+excerpt: 'Budowa prawie za Wami. Ale zanim się wprowadzicie, musicie dopełnić ostatniej formalności. Sprawdźcie, jak to zrobić.'
+image: '~/assets/images/blog/odbior-domu-do-uzytkowania-procedura-krok-po-kroku.jpeg'
+category: 'Blog'
 tags:
-  - "odbiór domu"
-  - "zawiadomienie o zakończeniu budowy"
-  - "zgłoszenie zakończenia budowy"
-author: "Wojciech Tracichleb"
+  - 'odbiór domu'
+  - 'zawiadomienie o zakończeniu budowy'
+  - 'zgłoszenie zakończenia budowy'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/odbior-domu-do-uzytkowania-procedura-krok-po-kroku/"
-  title: "Odbiór domu do użytkowania - procedura krok po kroku [2026]"
-  description: "Jak zgłosić zakończenie budowy domu? Poznaj wymagane dokumenty, terminy i procedurę zawiadomienia nadzoru budowlanego krok po kroku."
+  canonical: 'https://pozytywniezbudowani.pl/blog/odbior-domu-do-uzytkowania-procedura-krok-po-kroku/'
+  title: 'Odbiór domu do użytkowania - procedura krok po kroku [2026]'
+  description: 'Jak zgłosić zakończenie budowy domu? Poznaj wymagane dokumenty, terminy i procedurę zawiadomienia nadzoru budowlanego krok po kroku.'
   robots:
     index: true
     follow: true

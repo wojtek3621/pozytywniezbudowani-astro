@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T17:57:45
 updateDate: 2026-01-10T20:23:39
-title: "Strony świata a projekt domu – jak zaplanować nasłonecznienie pomieszczeń"
-excerpt: "Salon tonący w mroku, sypialnia jak piekarnik – to można przewidzieć już na etapie projektu..."
-image: "~/assets/images/blog/strony-swiata-a-projekt-domu-naslonecznienie-pomieszczen.jpeg"
-category: "Blog"
+title: 'Strony świata a projekt domu – jak zaplanować nasłonecznienie pomieszczeń'
+excerpt: 'Salon tonący w mroku, sypialnia jak piekarnik – to można przewidzieć już na etapie projektu...'
+image: '~/assets/images/blog/strony-swiata-a-projekt-domu-naslonecznienie-pomieszczen.jpeg'
+category: 'Blog'
 tags:
-  - "strony świata projekt domu"
-  - "nasłonecznienie pomieszczeń"
-  - "orientacja domu"
-author: "Wojciech Tracichleb"
+  - 'strony świata projekt domu'
+  - 'nasłonecznienie pomieszczeń'
+  - 'orientacja domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/strony-swiata-a-projekt-domu-naslonecznienie-pomieszczen/"
-  title: "Strony świata a projekt domu - nasłonecznienie pomieszczeń"
-  description: "Jak orientacja domu względem stron świata wpływa na komfort mieszkania? Dowiedz się, gdzie umieścić salon, sypialnię i kuchnię, by cieszyć się słońcem."
+  canonical: 'https://pozytywniezbudowani.pl/blog/strony-swiata-a-projekt-domu-naslonecznienie-pomieszczen/'
+  title: 'Strony świata a projekt domu - nasłonecznienie pomieszczeń'
+  description: 'Jak orientacja domu względem stron świata wpływa na komfort mieszkania? Dowiedz się, gdzie umieścić salon, sypialnię i kuchnię, by cieszyć się słońcem.'
   robots:
     index: true
     follow: true

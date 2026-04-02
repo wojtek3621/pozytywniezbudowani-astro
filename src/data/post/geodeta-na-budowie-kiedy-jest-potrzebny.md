@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T12:41:18
 updateDate: 2026-02-04T12:43:00
-title: "Geodeta na budowie – kiedy jest potrzebny"
-excerpt: "Geodeta pojawia się na budowie minimum trzy razy. Dowiedzcie się kiedy i dlaczego każda z tych wizyt jest obowiązkowa."
-image: "~/assets/images/blog/geodeta-na-budowie-kiedy-jest-potrzebny.jpeg"
-category: "Blog"
+title: 'Geodeta na budowie – kiedy jest potrzebny'
+excerpt: 'Geodeta pojawia się na budowie minimum trzy razy. Dowiedzcie się kiedy i dlaczego każda z tych wizyt jest obowiązkowa.'
+image: '~/assets/images/blog/geodeta-na-budowie-kiedy-jest-potrzebny.jpeg'
+category: 'Blog'
 tags:
-  - "geodeta na budowie"
-  - "tyczenie budynku"
-  - "mapa do celów projektowych"
-author: "Wojciech Tracichleb"
+  - 'geodeta na budowie'
+  - 'tyczenie budynku'
+  - 'mapa do celów projektowych'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/geodeta-na-budowie-kiedy-jest-potrzebny/"
-  title: "Geodeta na budowie - kiedy jest potrzebny i co robi"
-  description: "Dowiedz się, kiedy geodeta jest niezbędny na budowie domu. Trzy obowiązkowe etapy, praktyczne wskazówki wyboru specjalisty i współpracy."
+  canonical: 'https://pozytywniezbudowani.pl/blog/geodeta-na-budowie-kiedy-jest-potrzebny/'
+  title: 'Geodeta na budowie - kiedy jest potrzebny i co robi'
+  description: 'Dowiedz się, kiedy geodeta jest niezbędny na budowie domu. Trzy obowiązkowe etapy, praktyczne wskazówki wyboru specjalisty i współpracy.'
   robots:
     index: true
     follow: true

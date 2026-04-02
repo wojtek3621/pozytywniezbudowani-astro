@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T12:16:11
 updateDate: 2026-02-04T12:21:34
-title: "Pozwolenie na budowę - jak uzyskać krok po kroku"
-excerpt: "Pozwolenie na budowę to pierwszy poważny egzamin przed Waszą budową. Pokażę Wam, jak go zdać za pierwszym podejściem."
-image: "~/assets/images/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku.jpeg"
-category: "Blog"
+title: 'Pozwolenie na budowę - jak uzyskać krok po kroku'
+excerpt: 'Pozwolenie na budowę to pierwszy poważny egzamin przed Waszą budową. Pokażę Wam, jak go zdać za pierwszym podejściem.'
+image: '~/assets/images/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku.jpeg'
+category: 'Blog'
 tags:
-  - "pozwolenie na budowę"
-  - "jak uzyskać pozwolenie na budowę"
-  - "dokumenty do pozwolenia na budowę"
-author: "Wojciech Tracichleb"
+  - 'pozwolenie na budowę'
+  - 'jak uzyskać pozwolenie na budowę'
+  - 'dokumenty do pozwolenia na budowę'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku/"
-  title: "Pozwolenie na budowę 2026 - jak uzyskać krok po kroku"
-  description: "Kompletny przewodnik po pozwoleniu na budowę domu jednorodzinnego. Dokumenty, terminy, koszty i nowe przepisy 2026. Praktyczna wiedza od generalnego"
+  canonical: 'https://pozytywniezbudowani.pl/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku/'
+  title: 'Pozwolenie na budowę 2026 - jak uzyskać krok po kroku'
+  description: 'Kompletny przewodnik po pozwoleniu na budowę domu jednorodzinnego. Dokumenty, terminy, koszty i nowe przepisy 2026. Praktyczna wiedza od generalnego'
   robots:
     index: true
     follow: true

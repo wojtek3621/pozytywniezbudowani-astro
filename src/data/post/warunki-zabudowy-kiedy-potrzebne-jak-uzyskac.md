@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T15:49:53
 updateDate: 2026-01-04T16:17:16
-title: "Warunki zabudowy - kiedy są potrzebne i jak je uzyskać"
-excerpt: "Działka bez planu miejscowego? Sprawdź, czy potrzebujesz \"wuzetki\" i jak ją uzyskać, zanim zmienią się przepisy..."
-image: "~/assets/images/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac.jpeg"
-category: "Blog"
+title: 'Warunki zabudowy - kiedy są potrzebne i jak je uzyskać'
+excerpt: 'Działka bez planu miejscowego? Sprawdź, czy potrzebujesz "wuzetki" i jak ją uzyskać, zanim zmienią się przepisy...'
+image: '~/assets/images/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac.jpeg'
+category: 'Blog'
 tags:
-  - "warunki zabudowy"
-  - "decyzja WZ"
-  - "plan ogólny gminy"
-author: "Wojciech Tracichleb"
+  - 'warunki zabudowy'
+  - 'decyzja WZ'
+  - 'plan ogólny gminy'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/"
-  title: "Warunki zabudowy 2026 - kiedy potrzebne i jak uzyskać WZ"
-  description: "Warunki zabudowy w 2026 roku - nowe przepisy, 5-letnia ważność decyzji i plany ogólne. Praktyczny poradnik: procedura, dokumenty i terminy dla inwestorów."
+  canonical: 'https://pozytywniezbudowani.pl/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/'
+  title: 'Warunki zabudowy 2026 - kiedy potrzebne i jak uzyskać WZ'
+  description: 'Warunki zabudowy w 2026 roku - nowe przepisy, 5-letnia ważność decyzji i plany ogólne. Praktyczny poradnik: procedura, dokumenty i terminy dla inwestorów.'
   robots:
     index: true
     follow: true

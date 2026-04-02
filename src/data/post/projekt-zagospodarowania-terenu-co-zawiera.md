@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:12:41
 updateDate: 2026-01-10T20:18:52
-title: "Projekt zagospodarowania terenu – co zawiera i jak go przeczytać, zanim zaczniecie budować"
-excerpt: "Ten dokument określi, jak będziecie żyć na działce przez kolejne dekady. A większość inwestorów nawet go nie czyta..."
-image: "~/assets/images/blog/projekt-zagospodarowania-terenu-co-zawiera.jpeg"
-category: "Blog"
+title: 'Projekt zagospodarowania terenu – co zawiera i jak go przeczytać, zanim zaczniecie budować'
+excerpt: 'Ten dokument określi, jak będziecie żyć na działce przez kolejne dekady. A większość inwestorów nawet go nie czyta...'
+image: '~/assets/images/blog/projekt-zagospodarowania-terenu-co-zawiera.jpeg'
+category: 'Blog'
 tags:
-  - "projekt zagospodarowania terenu"
-  - "PZT"
-  - "adaptacja projektu domu"
-author: "Wojciech Tracichleb"
+  - 'projekt zagospodarowania terenu'
+  - 'PZT'
+  - 'adaptacja projektu domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/projekt-zagospodarowania-terenu-co-zawiera/"
-  title: "Projekt zagospodarowania terenu – co zawiera i jak go czytać"
-  description: "Dowiedz się, co zawiera projekt zagospodarowania terenu (PZT), na co zwrócić uwagę i jak go przeanalizować przed budową domu jednorodzinnego."
+  canonical: 'https://pozytywniezbudowani.pl/blog/projekt-zagospodarowania-terenu-co-zawiera/'
+  title: 'Projekt zagospodarowania terenu – co zawiera i jak go czytać'
+  description: 'Dowiedz się, co zawiera projekt zagospodarowania terenu (PZT), na co zwrócić uwagę i jak go przeanalizować przed budową domu jednorodzinnego.'
   robots:
     index: true
     follow: true

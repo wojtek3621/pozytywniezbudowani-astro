@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T17:25:07
 updateDate: 2026-02-14T17:52:30
-title: "Instalacja elektryczna w domu – planowanie"
-excerpt: "Elektryka to jedyny etap, w którym musicie wiedzieć, gdzie stanie łóżko i lodówka – choć ściany są jeszcze gołe."
-image: "~/assets/images/blog/instalacja-elektryczna-w-domu-planowanie.jpeg"
-category: "Blog"
+title: 'Instalacja elektryczna w domu – planowanie'
+excerpt: 'Elektryka to jedyny etap, w którym musicie wiedzieć, gdzie stanie łóżko i lodówka – choć ściany są jeszcze gołe.'
+image: '~/assets/images/blog/instalacja-elektryczna-w-domu-planowanie.jpeg'
+category: 'Blog'
 tags:
-  - "instalacja elektryczna w domu"
-  - "planowanie instalacji elektrycznej"
-  - "rozdzielnica elektryczna"
-author: "Wojciech Tracichleb"
+  - 'instalacja elektryczna w domu'
+  - 'planowanie instalacji elektrycznej'
+  - 'rozdzielnica elektryczna'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/instalacja-elektryczna-w-domu-planowanie/"
-  title: "Instalacja elektryczna w domu – planowanie krok po kroku"
-  description: "Jak dobrze zaplanować instalację elektryczną w domu jednorodzinnym? Obwody, rozdzielnica, ochrona przepięciowa, smart home – kompletny przewodnik inwestora."
+  canonical: 'https://pozytywniezbudowani.pl/blog/instalacja-elektryczna-w-domu-planowanie/'
+  title: 'Instalacja elektryczna w domu – planowanie krok po kroku'
+  description: 'Jak dobrze zaplanować instalację elektryczną w domu jednorodzinnym? Obwody, rozdzielnica, ochrona przepięciowa, smart home – kompletny przewodnik inwestora.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Przewody elektryczne w peszelach prowadzone w bruzdach ścian domu jednorodzinnego przed tynkowaniem" class="responsive-image" src="/images/content/instalacja-elektryczna-bruzdy-przewody-dom.jpeg" style="width: 525px; height: 350px;" title="Prowadzenie instalacji elektrycznej w ścianach domu jednorodzinnego" /></p>
-
 
 <p style="text-align: justify;">Jest taki moment na każdej budowie, kiedy inwestor staje przed zadaniem, które wydaje się absurdalne. Ściany są gołe, tynków jeszcze nie ma, podłogi to surowy beton – a elektryk pyta: „Gdzie będzie stało łóżko? Z której strony szafki nocne? Jaka zabudowa kuchenna? Gdzie telewizor w salonie?". I czeka na odpowiedź. Konkretną, z wymiarami, najlepiej z rysunkiem. Bo za tydzień zaczyna kuć bruzdy w ścianach, a każda zmiana po tynkach to dodatkowe pieniądze, czas i nerwy.</p>
 

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T17:50:56
 updateDate: 2026-01-04T17:54:47
-title: "Księga wieczysta działki - co sprawdzić"
-excerpt: "Zanim podpiszesz umowę, zajrzyj do jednego dokumentu. Może oszczędzić Wam setki tysięcy złotych..."
-image: "~/assets/images/blog/ksiega-wieczysta-dzialki-co-sprawdzic.jpeg"
-category: "Blog"
+title: 'Księga wieczysta działki - co sprawdzić'
+excerpt: 'Zanim podpiszesz umowę, zajrzyj do jednego dokumentu. Może oszczędzić Wam setki tysięcy złotych...'
+image: '~/assets/images/blog/ksiega-wieczysta-dzialki-co-sprawdzic.jpeg'
+category: 'Blog'
 tags:
-  - "księga wieczysta działki"
-  - "jak sprawdzić księgę wieczystą"
-  - "działy księgi wieczystej"
-author: "Wojciech Tracichleb"
+  - 'księga wieczysta działki'
+  - 'jak sprawdzić księgę wieczystą'
+  - 'działy księgi wieczystej'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ksiega-wieczysta-dzialki-co-sprawdzic/"
-  title: "Księga wieczysta działki – co sprawdzić przed zakupem"
-  description: "Jak czytać księgę wieczystą działki? Poznaj wszystkie działy KW, służebności, hipoteki i wzmianki, by nie kupić kota w worku."
+  canonical: 'https://pozytywniezbudowani.pl/blog/ksiega-wieczysta-dzialki-co-sprawdzic/'
+  title: 'Księga wieczysta działki – co sprawdzić przed zakupem'
+  description: 'Jak czytać księgę wieczystą działki? Poznaj wszystkie działy KW, służebności, hipoteki i wzmianki, by nie kupić kota w worku.'
   robots:
     index: true
     follow: true

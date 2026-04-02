@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T17:56:30
 updateDate: 2026-02-14T22:47:04
-title: "Rekuperacja czy wentylacja grawitacyjna – co wybrać"
-excerpt: "Rekuperacja to przede wszystkim komfort. I dopóki tego nie zrozumiecie, będziecie podejmować tę decyzję źle."
-image: "~/assets/images/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac.jpeg"
-category: "Blog"
+title: 'Rekuperacja czy wentylacja grawitacyjna – co wybrać'
+excerpt: 'Rekuperacja to przede wszystkim komfort. I dopóki tego nie zrozumiecie, będziecie podejmować tę decyzję źle.'
+image: '~/assets/images/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac.jpeg'
+category: 'Blog'
 tags:
-  - "rekuperacja czy wentylacja grawitacyjna"
-  - "wentylacja w domu jednorodzinnym"
-  - "rekuperacja w domu"
-author: "Wojciech Tracichleb"
+  - 'rekuperacja czy wentylacja grawitacyjna'
+  - 'wentylacja w domu jednorodzinnym'
+  - 'rekuperacja w domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac/"
-  title: "Rekuperacja czy wentylacja grawitacyjna – co wybrać?"
-  description: "Rekuperacja czy grawitacyjna? Porównuję oba systemy wentylacji z perspektywy praktyka. Sprawdź, co się opłaca i dlaczego komfort wygrywa z oszczędnością."
+  canonical: 'https://pozytywniezbudowani.pl/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac/'
+  title: 'Rekuperacja czy wentylacja grawitacyjna – co wybrać?'
+  description: 'Rekuperacja czy grawitacyjna? Porównuję oba systemy wentylacji z perspektywy praktyka. Sprawdź, co się opłaca i dlaczego komfort wygrywa z oszczędnością.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Rekuperator z podłączonymi kanałami wentylacyjnymi w kotłowni domu jednorodzinnego" class="responsive-image" src="/images/content/rekuperator-centrala-wentylacyjna-kotlownia.jpeg" style="width: 525px; height: 350px;" title="Centrala rekuperacyjna zamontowana w pomieszczeniu technicznym domu" /></p>
-
 
 <p style="text-align: justify;">Jest taki moment na każdej budowie, kiedy pada pytanie o wentylację. Między wyborem technologii ścian a rozmowami o dachu. Prawie zawsze wygląda to tak samo – ktoś mówi „weźmy rekuperację, bo się zwróci", ktoś inny odpowiada „po co przepłacać, grawitacyjna działa od lat", a architekt dyplomatycznie kiwa głową na obie strony. Efekt? Decyzja podejmowana w oparciu o mity, marketingowe hasła i opinię szwagra, który „czytał w internecie". Tymczasem wybór systemu wentylacji to jedna z tych decyzji, które będziecie odczuwać codziennie. Przez kilkadziesiąt lat. I naprawdę warto podjąć ją świadomie.</p><h2>Wentylacja to podstawa, nie opcja</h2>
 

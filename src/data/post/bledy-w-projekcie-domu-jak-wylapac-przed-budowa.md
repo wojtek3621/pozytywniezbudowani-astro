@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:02:05
 updateDate: 2026-01-11T19:19:32
-title: "Błędy w projekcie domu - jak wyłapać przed budową"
-excerpt: "Projekt kosztował tysiące złotych, ale czy jest bezbłędny? Sprawdźcie to zanim wbiją pierwszą łopatę..."
-image: "~/assets/images/blog/bledy-w-projekcie-domu-jak-wylapac-przed-budowa.jpeg"
-category: "Blog"
+title: 'Błędy w projekcie domu - jak wyłapać przed budową'
+excerpt: 'Projekt kosztował tysiące złotych, ale czy jest bezbłędny? Sprawdźcie to zanim wbiją pierwszą łopatę...'
+image: '~/assets/images/blog/bledy-w-projekcie-domu-jak-wylapac-przed-budowa.jpeg'
+category: 'Blog'
 tags:
-  - "błędy w projekcie domu"
-  - "weryfikacja projektu budowlanego"
-  - "adaptacja projektu"
-author: "Wojciech Tracichleb"
+  - 'błędy w projekcie domu'
+  - 'weryfikacja projektu budowlanego'
+  - 'adaptacja projektu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/bledy-w-projekcie-domu-jak-wylapac-przed-budowa/"
-  title: "Błędy w projekcie domu - jak wyłapać przed budową | Poradnik"
-  description: "Poznaj najczęstsze błędy w projektach domów i dowiedz się, jak je wyłapać przed rozpoczęciem budowy. Praktyczne wskazówki od doświadczonego wykonawcy."
+  canonical: 'https://pozytywniezbudowani.pl/blog/bledy-w-projekcie-domu-jak-wylapac-przed-budowa/'
+  title: 'Błędy w projekcie domu - jak wyłapać przed budową | Poradnik'
+  description: 'Poznaj najczęstsze błędy w projektach domów i dowiedz się, jak je wyłapać przed rozpoczęciem budowy. Praktyczne wskazówki od doświadczonego wykonawcy.'
   robots:
     index: true
     follow: true

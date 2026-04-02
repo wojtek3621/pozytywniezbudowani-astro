@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T16:10:11
 updateDate: 2026-01-11T22:33:35
-title: "Budowa domu etapami – jak rozłożyć w czasie i finansach"
-excerpt: "Budowa domu to maraton, nie sprint. Pokażę Wam, jak rozłożyć ją w czasie, żeby nie zwariować..."
-image: "~/assets/images/blog/budowa-domu-etapami-jak-rozlozyc-w-czasie-i-finansach.jpeg"
-category: "Blog"
+title: 'Budowa domu etapami – jak rozłożyć w czasie i finansach'
+excerpt: 'Budowa domu to maraton, nie sprint. Pokażę Wam, jak rozłożyć ją w czasie, żeby nie zwariować...'
+image: '~/assets/images/blog/budowa-domu-etapami-jak-rozlozyc-w-czasie-i-finansach.jpeg'
+category: 'Blog'
 tags:
-  - "budowa domu etapami"
-  - "harmonogram budowy"
-  - "transze kredytu"
-author: "Wojciech Tracichleb"
+  - 'budowa domu etapami'
+  - 'harmonogram budowy'
+  - 'transze kredytu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/budowa-domu-etapami-jak-rozlozyc-w-czasie-i-finansach/"
-  title: "Budowa domu etapami - jak rozłożyć w czasie i finansach"
-  description: "Dowiedz się, jak rozplanować budowę domu w czasie i finansach. Transze bankowe, harmonogram prac, bufory czasowe i strategie przy ograniczonym budżecie."
+  canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-etapami-jak-rozlozyc-w-czasie-i-finansach/'
+  title: 'Budowa domu etapami - jak rozłożyć w czasie i finansach'
+  description: 'Dowiedz się, jak rozplanować budowę domu w czasie i finansach. Transze bankowe, harmonogram prac, bufory czasowe i strategie przy ograniczonym budżecie.'
   robots:
     index: true
     follow: true

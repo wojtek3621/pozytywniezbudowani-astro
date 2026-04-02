@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:58:20
 updateDate: 2026-01-11T22:22:34
-title: "Ukryte koszty budowy domu – o czym zapominasz?"
-excerpt: "Grosz do grosza, a będzie kokosza. Sprawdź, które koszty budowy wymkną Ci się spod kontroli..."
-image: "~/assets/images/blog/ukryte-koszty-budowy-domu.jpeg"
-category: "Blog"
+title: 'Ukryte koszty budowy domu – o czym zapominasz?'
+excerpt: 'Grosz do grosza, a będzie kokosza. Sprawdź, które koszty budowy wymkną Ci się spod kontroli...'
+image: '~/assets/images/blog/ukryte-koszty-budowy-domu.jpeg'
+category: 'Blog'
 tags:
-  - "ukryte koszty budowy domu"
-  - "budżet budowy"
-  - "dodatkowe wydatki budowa"
-author: "Wojciech Tracichleb"
+  - 'ukryte koszty budowy domu'
+  - 'budżet budowy'
+  - 'dodatkowe wydatki budowa'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ukryte-koszty-budowy-domu/"
-  title: "Ukryte koszty budowy domu – o czym zapominasz? Praktyczny przewodnik"
-  description: "Poznaj ukryte koszty budowy domu, które mogą przekroczyć Twój budżet. Dowiedz się, jak zaoszczędzić na VAT, przyłączach i wykończeniówce."
+  canonical: 'https://pozytywniezbudowani.pl/blog/ukryte-koszty-budowy-domu/'
+  title: 'Ukryte koszty budowy domu – o czym zapominasz? Praktyczny przewodnik'
+  description: 'Poznaj ukryte koszty budowy domu, które mogą przekroczyć Twój budżet. Dowiedz się, jak zaoszczędzić na VAT, przyłączach i wykończeniówce.'
   robots:
     index: true
     follow: true

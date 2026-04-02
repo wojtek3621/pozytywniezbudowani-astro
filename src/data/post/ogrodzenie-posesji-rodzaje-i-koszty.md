@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:15:02
 updateDate: 2026-02-14T18:30:52
-title: "Ogrodzenie posesji – rodzaje i koszty"
-excerpt: "Ogrodzenie to pierwsza rzecz, którą widzą goście – i ostatnia, o której myślą inwestorzy. Sprawdźcie, jak wybrać mądrze."
-image: "~/assets/images/blog/ogrodzenie-posesji-rodzaje-i-koszty.jpeg"
-category: "Blog"
+title: 'Ogrodzenie posesji – rodzaje i koszty'
+excerpt: 'Ogrodzenie to pierwsza rzecz, którą widzą goście – i ostatnia, o której myślą inwestorzy. Sprawdźcie, jak wybrać mądrze.'
+image: '~/assets/images/blog/ogrodzenie-posesji-rodzaje-i-koszty.jpeg'
+category: 'Blog'
 tags:
-  - "ogrodzenie posesji rodzaje"
-  - "ogrodzenie domu koszty"
-  - "jakie ogrodzenie wybrać"
-author: "Wojciech Tracichleb"
+  - 'ogrodzenie posesji rodzaje'
+  - 'ogrodzenie domu koszty'
+  - 'jakie ogrodzenie wybrać'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ogrodzenie-posesji-rodzaje-i-koszty/"
-  title: "Ogrodzenie posesji – rodzaje, materiały i koszty"
-  description: "Poznaj rodzaje ogrodzeń: panelowe, aluminiowe, drewniane, betonowe i gabionowe. Przepisy, podmurówka, automatyka bram i orientacyjne koszty ogrodzenia posesji."
+  canonical: 'https://pozytywniezbudowani.pl/blog/ogrodzenie-posesji-rodzaje-i-koszty/'
+  title: 'Ogrodzenie posesji – rodzaje, materiały i koszty'
+  description: 'Poznaj rodzaje ogrodzeń: panelowe, aluminiowe, drewniane, betonowe i gabionowe. Przepisy, podmurówka, automatyka bram i orientacyjne koszty ogrodzenia posesji.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Eleganckie ogrodzenie aluminiowe z bramą wjazdową przed nowoczesnym domem jednorodzinnym w ciepłym świetle zachodzącego słońca" class="responsive-image" src="/images/content/ogrodzenie-nowoczesne-aluminiowe-dom.jpeg" style="width: 525px; height: 350px;" title="Nowoczesne ogrodzenie aluminiowe przed domem jednorodzinnym" /></p>
-
 
 <p style="text-align: justify;">Budowa domu dobiega końca, elewacja lśni, trawnik powoli się zieleni – i nagle orientujecie się, że Wasza posesja wygląda jak plac budowy otoczony prowizoryczną siatką na krzywo wbitych słupkach. Znam to doskonale. Ogrodzenie jest jednym z tych elementów, które inwestorzy planują „na końcu", a potem żałują, że nie pomyśleli o nim wcześniej. Bo ogrodzenie to nie tylko metalowe przęsła wokół działki. To granica Waszej prywatności, wizytówka domu widoczna z ulicy, element bezpieczeństwa i – co bywa bolesne – kolejna poważna pozycja w budżecie.</p>
 

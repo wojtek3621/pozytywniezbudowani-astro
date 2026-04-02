@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:06:18
 updateDate: 2026-02-14T22:17:04
-title: "Drzwi wewnętrzne – jak wybrać i zamówić"
-excerpt: "Drzwi to jedyny element domu, którego dotykacie kilkadziesiąt razy dziennie. Warto wybrać je z głową."
-image: "~/assets/images/blog/drzwi-wewnetrzne-jak-wybrac-i-zamowic.jpeg"
-category: "Blog"
+title: 'Drzwi wewnętrzne – jak wybrać i zamówić'
+excerpt: 'Drzwi to jedyny element domu, którego dotykacie kilkadziesiąt razy dziennie. Warto wybrać je z głową.'
+image: '~/assets/images/blog/drzwi-wewnetrzne-jak-wybrac-i-zamowic.jpeg'
+category: 'Blog'
 tags:
-  - "drzwi wewnętrzne jak wybrać"
-  - "drzwi wewnętrzne do domu"
-  - "zamówienie drzwi wewnętrznych"
-author: "Wojciech Tracichleb"
+  - 'drzwi wewnętrzne jak wybrać'
+  - 'drzwi wewnętrzne do domu'
+  - 'zamówienie drzwi wewnętrznych'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/drzwi-wewnetrzne-jak-wybrac-i-zamowic/"
-  title: "Drzwi wewnętrzne – jak wybrać i zamówić | Kompletny poradnik"
-  description: "Jak wybrać drzwi wewnętrzne do nowego domu? Przylgowe czy bezprzylgowe, fornir czy laminat, plaster miodu czy płyta wiórowa. Praktyczny poradnik od A do Z."
+  canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-wewnetrzne-jak-wybrac-i-zamowic/'
+  title: 'Drzwi wewnętrzne – jak wybrać i zamówić | Kompletny poradnik'
+  description: 'Jak wybrać drzwi wewnętrzne do nowego domu? Przylgowe czy bezprzylgowe, fornir czy laminat, plaster miodu czy płyta wiórowa. Praktyczny poradnik od A do Z.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Rząd nowoczesnych białych drzwi wewnętrznych bezprzylgowych w jasnym korytarzu domu jednorodzinnego" class="responsive-image" src="/images/content/drzwi-wewnetrzne-korytarz-nowoczesne.jpeg" style="width: 525px; height: 350px;" title="Nowoczesne drzwi wewnętrzne w korytarzu domu jednorodzinnego" /></p>
-
 
 <p style="text-align: justify;">Drzwi wewnętrzne to jeden z tych elementów domu, o których myśli się na końcu, a żałuje na początku użytkowania. I nie chodzi tu o estetykę – bo ładne drzwi znajdziecie praktycznie w każdym salonie. Chodzi o to, co jest pod spodem. O konstrukcję, której nie widać. O wymiary otworów, których nikt Wam nie wytłumaczył na etapie murowania ścian. O wypełnienie, które decyduje, czy w sypialni będziecie słyszeć telewizor z salonu. I wreszcie – o sam proces zamawiania, w którym jeden błąd potrafi kosztować tygodnie opóźnień i sporo nerwów.</p>
 

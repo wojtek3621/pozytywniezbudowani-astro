@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T17:00:13
 updateDate: 2026-02-03T19:46:18
-title: "Prawdziwy koszt budowy domu – od działki po ostatnią ratę"
-excerpt: "Dom za 600 000 zł? Policz jeszcze raz. Od działki po ostatnią ratę wydasz znacznie więcej..."
-image: "~/assets/images/blog/prawdziwy-koszt-budowy-domu.jpeg"
-category: "Blog"
+title: 'Prawdziwy koszt budowy domu – od działki po ostatnią ratę'
+excerpt: 'Dom za 600 000 zł? Policz jeszcze raz. Od działki po ostatnią ratę wydasz znacznie więcej...'
+image: '~/assets/images/blog/prawdziwy-koszt-budowy-domu.jpeg'
+category: 'Blog'
 tags:
-  - "całkowity koszt budowy domu"
-  - "ile kosztuje budowa domu"
-  - "odsetki kredytu hipotecznego"
-author: "Wojciech Tracichleb"
+  - 'całkowity koszt budowy domu'
+  - 'ile kosztuje budowa domu'
+  - 'odsetki kredytu hipotecznego'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/prawdziwy-koszt-budowy-domu/"
-  title: "Prawdziwy koszt budowy domu – ile naprawdę zapłacisz"
-  description: "Dom za 600 000 zł kosztuje ponad milion. Sprawdź, co składa się na całkowity koszt budowy i jak odsetki kredytu pochłaniają Twój budżet."
+  canonical: 'https://pozytywniezbudowani.pl/blog/prawdziwy-koszt-budowy-domu/'
+  title: 'Prawdziwy koszt budowy domu – ile naprawdę zapłacisz'
+  description: 'Dom za 600 000 zł kosztuje ponad milion. Sprawdź, co składa się na całkowity koszt budowy i jak odsetki kredytu pochłaniają Twój budżet.'
   robots:
     index: true
     follow: true

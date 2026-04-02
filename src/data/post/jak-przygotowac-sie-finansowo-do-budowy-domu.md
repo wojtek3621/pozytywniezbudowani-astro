@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T16:12:38
 updateDate: 2026-01-11T22:54:38
-title: "Jak przygotować się finansowo do budowy domu"
-excerpt: "Budowa domu to maraton finansowy, nie sprint. Zaczynacie go na lata przed wbiciem pierwszej łopaty..."
-image: "~/assets/images/blog/jak-przygotowac-sie-finansowo-do-budowy-domu.jpeg"
-category: "Blog"
+title: 'Jak przygotować się finansowo do budowy domu'
+excerpt: 'Budowa domu to maraton finansowy, nie sprint. Zaczynacie go na lata przed wbiciem pierwszej łopaty...'
+image: '~/assets/images/blog/jak-przygotowac-sie-finansowo-do-budowy-domu.jpeg'
+category: 'Blog'
 tags:
-  - "przygotowanie finansowe budowa domu"
-  - "kredyt hipoteczny na budowę"
-  - "budżet budowy domu"
-author: "Wojciech Tracichleb"
+  - 'przygotowanie finansowe budowa domu'
+  - 'kredyt hipoteczny na budowę'
+  - 'budżet budowy domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/"
-  title: "Jak przygotować się finansowo do budowy domu | Poradnik 2026"
-  description: "Poznaj sprawdzone strategie przygotowania finansowego do budowy domu. BIK, kredyt hipoteczny, budżet, rezerwy – praktyczny przewodnik od praktyka."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/'
+  title: 'Jak przygotować się finansowo do budowy domu | Poradnik 2026'
+  description: 'Poznaj sprawdzone strategie przygotowania finansowego do budowy domu. BIK, kredyt hipoteczny, budżet, rezerwy – praktyczny przewodnik od praktyka.'
   robots:
     index: true
     follow: true

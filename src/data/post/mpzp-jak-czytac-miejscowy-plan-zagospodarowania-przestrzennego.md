@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T15:42:52
 updateDate: 2026-01-04T16:10:19
-title: "MPZP - jak czytać miejscowy plan zagospodarowania przestrzennego"
-excerpt: "Kolorowa mapa z tajemniczymi symbolami może zadecydować o losach Waszej budowy..."
-image: "~/assets/images/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego.jpeg"
-category: "Blog"
+title: 'MPZP - jak czytać miejscowy plan zagospodarowania przestrzennego'
+excerpt: 'Kolorowa mapa z tajemniczymi symbolami może zadecydować o losach Waszej budowy...'
+image: '~/assets/images/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego.jpeg'
+category: 'Blog'
 tags:
-  - "MPZP"
-  - "miejscowy plan zagospodarowania przestrzennego"
-  - "jak czytać MPZP"
-author: "Wojciech Tracichleb"
+  - 'MPZP'
+  - 'miejscowy plan zagospodarowania przestrzennego'
+  - 'jak czytać MPZP'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego/"
-  title: "MPZP – jak czytać miejscowy plan zagospodarowania przestrzennego"
-  description: "Dowiedz się, jak samodzielnie czytać MPZP przed zakupem działki. Praktyczny poradnik: symbole, parametry zabudowy i pułapki, które musisz znać."
+  canonical: 'https://pozytywniezbudowani.pl/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego/'
+  title: 'MPZP – jak czytać miejscowy plan zagospodarowania przestrzennego'
+  description: 'Dowiedz się, jak samodzielnie czytać MPZP przed zakupem działki. Praktyczny poradnik: symbole, parametry zabudowy i pułapki, które musisz znać.'
   robots:
     index: true
     follow: true

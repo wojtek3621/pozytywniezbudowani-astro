@@ -1,19 +1,19 @@
 ---
 publishDate: 2024-09-30T12:33:41
 updateDate: 2026-01-06T20:18:52
-title: "Budowa domu bez pozwolenia – kiedy jest możliwa? [2026]"
-excerpt: "Od 2022 roku można budować domy do 70 m² bez pozwolenia. Ale \"bez pozwolenia\" nie oznacza \"bez formalności\"..."
-image: "~/assets/images/blog/budowa-domu-bez-pozwolenia-kiedy-jest-mozliwa.jpg"
-category: "Blog"
+title: 'Budowa domu bez pozwolenia – kiedy jest możliwa? [2026]'
+excerpt: 'Od 2022 roku można budować domy do 70 m² bez pozwolenia. Ale "bez pozwolenia" nie oznacza "bez formalności"...'
+image: '~/assets/images/blog/budowa-domu-bez-pozwolenia-kiedy-jest-mozliwa.jpg'
+category: 'Blog'
 tags:
-  - "budowa domu bez pozwolenia"
-  - "dom na zgłoszenie"
-  - "dom do 70 m2"
-author: "Wojciech Tracichleb"
+  - 'budowa domu bez pozwolenia'
+  - 'dom na zgłoszenie'
+  - 'dom do 70 m2'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/budowa-domu-bez-pozwolenia-kiedy-jest-mozliwa/"
-  title: "Budowa domu bez pozwolenia – kiedy jest możliwa? [2026]"
-  description: "Dowiedz się, kiedy możesz budować dom bez pozwolenia na budowę. Dom do 70 m², dom rekreacyjny do 35 m² - warunki, dokumenty, procedura zgłoszenia."
+  canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-bez-pozwolenia-kiedy-jest-mozliwa/'
+  title: 'Budowa domu bez pozwolenia – kiedy jest możliwa? [2026]'
+  description: 'Dowiedz się, kiedy możesz budować dom bez pozwolenia na budowę. Dom do 70 m², dom rekreacyjny do 35 m² - warunki, dokumenty, procedura zgłoszenia.'
   robots:
     index: true
     follow: true

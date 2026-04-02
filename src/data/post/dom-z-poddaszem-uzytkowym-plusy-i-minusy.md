@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T17:47:46
 updateDate: 2026-01-10T19:00:28
-title: "Dom z poddaszem użytkowym – plusy i minusy"
-excerpt: "Jedni uważają skosy za przytulny element wnętrza, inni za stratę przestrzeni. Zanim wybierzecie taki projekt, poznajcie całą prawdę..."
-image: "~/assets/images/blog/dom-z-poddaszem-uzytkowym-plusy-i-minusy.jpeg"
-category: "Blog"
+title: 'Dom z poddaszem użytkowym – plusy i minusy'
+excerpt: 'Jedni uważają skosy za przytulny element wnętrza, inni za stratę przestrzeni. Zanim wybierzecie taki projekt, poznajcie całą prawdę...'
+image: '~/assets/images/blog/dom-z-poddaszem-uzytkowym-plusy-i-minusy.jpeg'
+category: 'Blog'
 tags:
-  - "dom z poddaszem użytkowym"
-  - "poddasze użytkowe plusy minusy"
-  - "skosy na piętrze"
-author: "Wojciech Tracichleb"
+  - 'dom z poddaszem użytkowym'
+  - 'poddasze użytkowe plusy minusy'
+  - 'skosy na piętrze'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dom-z-poddaszem-uzytkowym-plusy-i-minusy/"
-  title: "Dom z poddaszem użytkowym – plusy i minusy | Poradnik"
-  description: "Czy dom z poddaszem użytkowym to dobry wybór? Poznaj zalety i wady skosów na piętrze, koszty budowy i praktyczne aspekty codziennego użytkowania."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dom-z-poddaszem-uzytkowym-plusy-i-minusy/'
+  title: 'Dom z poddaszem użytkowym – plusy i minusy | Poradnik'
+  description: 'Czy dom z poddaszem użytkowym to dobry wybór? Poznaj zalety i wady skosów na piętrze, koszty budowy i praktyczne aspekty codziennego użytkowania.'
   robots:
     index: true
     follow: true

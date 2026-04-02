@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:19:48
 updateDate: 2026-01-11T19:55:58
-title: "Czy stać mnie na budowę domu? Jak policzyć realny budżet"
-excerpt: "Rata kredytu hipotecznego nigdy nie przestaje robić wrażenia. Sprawdźcie, czy Wasz budżet to wytrzyma..."
-image: "~/assets/images/blog/czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet.jpeg"
-category: "Blog"
+title: 'Czy stać mnie na budowę domu? Jak policzyć realny budżet'
+excerpt: 'Rata kredytu hipotecznego nigdy nie przestaje robić wrażenia. Sprawdźcie, czy Wasz budżet to wytrzyma...'
+image: '~/assets/images/blog/czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet.jpeg'
+category: 'Blog'
 tags:
-  - "budżet budowy domu"
-  - "czy stać mnie na dom"
-  - "koszty budowy domu"
-author: "Wojciech Tracichleb"
+  - 'budżet budowy domu'
+  - 'czy stać mnie na dom'
+  - 'koszty budowy domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet/"
-  title: "Czy stać mnie na budowę domu? Jak policzyć realny budżet"
-  description: "Dowiedz się, jak sprawdzić, czy stać Cię na budowę domu. Praktyczny poradnik liczenia budżetu z 20% marginesem błędu i ukrytymi oszczędnościami."
+  canonical: 'https://pozytywniezbudowani.pl/blog/czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet/'
+  title: 'Czy stać mnie na budowę domu? Jak policzyć realny budżet'
+  description: 'Dowiedz się, jak sprawdzić, czy stać Cię na budowę domu. Praktyczny poradnik liczenia budżetu z 20% marginesem błędu i ukrytymi oszczędnościami.'
   robots:
     index: true
     follow: true

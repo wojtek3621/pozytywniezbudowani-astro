@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T16:18:29
 updateDate: 2026-01-04T16:23:08
-title: "Media na działce - co sprawdzić przed zakupem"
-excerpt: "Tańsza działka bez mediów może okazać się droższa niż ta z pełną infrastrukturą. Sprawdź, jak to policzyć..."
-image: "~/assets/images/blog/media-na-dzialce-co-sprawdzic-przed-zakupem.jpeg"
-category: "Blog"
+title: 'Media na działce - co sprawdzić przed zakupem'
+excerpt: 'Tańsza działka bez mediów może okazać się droższa niż ta z pełną infrastrukturą. Sprawdź, jak to policzyć...'
+image: '~/assets/images/blog/media-na-dzialce-co-sprawdzic-przed-zakupem.jpeg'
+category: 'Blog'
 tags:
-  - "media na działce"
-  - "przyłącza na działce"
-  - "co sprawdzić przed zakupem działki"
-author: "Wojciech Tracichleb"
+  - 'media na działce'
+  - 'przyłącza na działce'
+  - 'co sprawdzić przed zakupem działki'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/media-na-dzialce-co-sprawdzic-przed-zakupem/"
-  title: "Media na działce - co sprawdzić przed zakupem | Poradnik"
-  description: "Prąd, woda, gaz, kanalizacja, internet – dowiedz się, jak sprawdzić dostępność mediów na działce przed zakupem i uniknąć kosztownych niespodzianek."
+  canonical: 'https://pozytywniezbudowani.pl/blog/media-na-dzialce-co-sprawdzic-przed-zakupem/'
+  title: 'Media na działce - co sprawdzić przed zakupem | Poradnik'
+  description: 'Prąd, woda, gaz, kanalizacja, internet – dowiedz się, jak sprawdzić dostępność mediów na działce przed zakupem i uniknąć kosztownych niespodzianek.'
   robots:
     index: true
     follow: true

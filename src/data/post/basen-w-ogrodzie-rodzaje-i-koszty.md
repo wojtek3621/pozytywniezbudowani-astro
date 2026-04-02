@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:16:32
 updateDate: 2026-02-14T18:30:15
-title: "Basen w ogrodzie – rodzaje i koszty"
-excerpt: "Basen w ogrodzie brzmi pięknie. Ale który wybrać i ile to naprawdę kosztuje? Sprawdźcie, zanim podejmiecie decyzję."
-image: "~/assets/images/blog/basen-w-ogrodzie-rodzaje-i-koszty.jpeg"
-category: "Blog"
+title: 'Basen w ogrodzie – rodzaje i koszty'
+excerpt: 'Basen w ogrodzie brzmi pięknie. Ale który wybrać i ile to naprawdę kosztuje? Sprawdźcie, zanim podejmiecie decyzję.'
+image: '~/assets/images/blog/basen-w-ogrodzie-rodzaje-i-koszty.jpeg'
+category: 'Blog'
 tags:
-  - "basen w ogrodzie"
-  - "basen ogrodowy rodzaje"
-  - "basen ogrodowy koszty"
-author: "Wojciech Tracichleb"
+  - 'basen w ogrodzie'
+  - 'basen ogrodowy rodzaje'
+  - 'basen ogrodowy koszty'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/basen-w-ogrodzie-rodzaje-i-koszty/"
-  title: "Basen w ogrodzie – rodzaje, koszty i praktyczne porady"
-  description: "Basen ogrodowy to poważna decyzja. Poznaj rodzaje basenów, realne koszty budowy i utrzymania, ogrzewanie wody i filtrację. Praktyczny przewodnik od A do Z."
+  canonical: 'https://pozytywniezbudowani.pl/blog/basen-w-ogrodzie-rodzaje-i-koszty/'
+  title: 'Basen w ogrodzie – rodzaje, koszty i praktyczne porady'
+  description: 'Basen ogrodowy to poważna decyzja. Poznaj rodzaje basenów, realne koszty budowy i utrzymania, ogrzewanie wody i filtrację. Praktyczny przewodnik od A do Z.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Prostokątny basen ogrodowy z czystą wodą w ogrodzie domu jednorodzinnego w ciepły letni dzień" class="responsive-image" src="/images/content/basen-ogrodowy-dom-jednorodzinny-lato.jpeg" style="width: 525px; height: 350px;" title="Basen ogrodowy przy nowoczesnym domu jednorodzinnym latem" /></p>
-
 
 <p style="text-align: justify;">Basen w ogrodzie to jedno z tych marzeń, które pojawiają się gdzieś między wyborem dachówki a planowaniem podjazdu. Najpierw jest wizja – gorący lipcowy dzień, zimna woda, dzieci pluskające się do zachodu słońca. Potem przychodzi rzeczywistość – a wraz z nią pytania, na które trzeba znaleźć konkretne odpowiedzi, zanim wydacie choćby złotówkę. Bo basen to nie jest impulsowy zakup. To decyzja, która wpływa na Wasz budżet, na zagospodarowanie działki, na codzienną rutynę przez cały sezon, a w niektórych przypadkach – przez cały rok.</p>
 

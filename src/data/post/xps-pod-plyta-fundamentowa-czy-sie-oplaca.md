@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-20T12:47:10
 updateDate: 2026-02-20T13:04:23
-title: "XPS pod płytą fundamentową - czy to się opłaca?"
-excerpt: "Czy XPS pod płytą fundamentową to dobra inwestycja? Zanim się zgodzicie, zobaczcie co naprawdę daje."
-image: "~/assets/images/blog/xps-pod-plyta-fundamentowa-czy-sie-oplaca.jpeg"
-category: "Blog"
+title: 'XPS pod płytą fundamentową - czy to się opłaca?'
+excerpt: 'Czy XPS pod płytą fundamentową to dobra inwestycja? Zanim się zgodzicie, zobaczcie co naprawdę daje.'
+image: '~/assets/images/blog/xps-pod-plyta-fundamentowa-czy-sie-oplaca.jpeg'
+category: 'Blog'
 tags:
-  - "XPS pod płytą fundamentową"
-  - "styrodur pod płytę"
-  - "izolacja płyty fundamentowej"
-author: "Wojciech Tracichleb"
+  - 'XPS pod płytą fundamentową'
+  - 'styrodur pod płytę'
+  - 'izolacja płyty fundamentowej'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/xps-pod-plyta-fundamentowa-czy-sie-oplaca/"
-  title: "XPS pod płytą fundamentową – czy to się opłaca?"
-  description: "Czy styrodur XPS pod płytą fundamentową to dobra inwestycja? Konkretne wyliczenia, wymagania techniczne i analiza opłacalności. Praktycznie i bez marketingu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/xps-pod-plyta-fundamentowa-czy-sie-oplaca/'
+  title: 'XPS pod płytą fundamentową – czy to się opłaca?'
+  description: 'Czy styrodur XPS pod płytą fundamentową to dobra inwestycja? Konkretne wyliczenia, wymagania techniczne i analiza opłacalności. Praktycznie i bez marketingu.'
   robots:
     index: true
     follow: true

@@ -54,6 +54,17 @@ export default [
     },
   },
   {
-    ignores: ['dist', 'node_modules', '.github', 'types.generated.d.ts', '.astro'],
+    ignores: [
+      'dist',
+      'node_modules',
+      '.github',
+      'types.generated.d.ts',
+      '.astro',
+      // Legal pages with raw HTML from old CMS — not worth linting
+      'src/pages/polityka-prywatnosci.astro',
+      'src/pages/regulamin-*.astro',
+      // Third-party tracking scripts (VisitorTracking uses var, non-standard patterns)
+      'src/components/common/Analytics.astro',
+    ],
   },
 ];

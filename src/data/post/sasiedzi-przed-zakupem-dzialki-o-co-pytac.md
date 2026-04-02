@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T18:57:38
 updateDate: 2026-01-04T18:59:12
-title: "Sąsiedzi przed zakupem działki – o co pytać"
-excerpt: "Sąsiedzi wiedzą o okolicy rzeczy, których nie znajdziecie w żadnych dokumentach..."
-image: "~/assets/images/blog/sasiedzi-przed-zakupem-dzialki-o-co-pytac.jpeg"
-category: "Blog"
+title: 'Sąsiedzi przed zakupem działki – o co pytać'
+excerpt: 'Sąsiedzi wiedzą o okolicy rzeczy, których nie znajdziecie w żadnych dokumentach...'
+image: '~/assets/images/blog/sasiedzi-przed-zakupem-dzialki-o-co-pytac.jpeg'
+category: 'Blog'
 tags:
-  - "sąsiedzi przed zakupem działki"
-  - "o co pytać sąsiadów"
-  - "weryfikacja działki"
-author: "Wojciech Tracichleb"
+  - 'sąsiedzi przed zakupem działki'
+  - 'o co pytać sąsiadów'
+  - 'weryfikacja działki'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/sasiedzi-przed-zakupem-dzialki-o-co-pytac/"
-  title: "Sąsiedzi przed zakupem działki – o co pytać | Poradnik"
-  description: "Dowiedz się, o co zapytać sąsiadów przed zakupem działki. Praktyczne pytania o grunt, wody gruntowe, hałas i okolicę, które mogą uchronić Cię przed kosztownym błędem."
+  canonical: 'https://pozytywniezbudowani.pl/blog/sasiedzi-przed-zakupem-dzialki-o-co-pytac/'
+  title: 'Sąsiedzi przed zakupem działki – o co pytać | Poradnik'
+  description: 'Dowiedz się, o co zapytać sąsiadów przed zakupem działki. Praktyczne pytania o grunt, wody gruntowe, hałas i okolicę, które mogą uchronić Cię przed kosztownym błędem.'
   robots:
     index: true
     follow: true

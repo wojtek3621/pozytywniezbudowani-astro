@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:02:14
 updateDate: 2026-01-04T19:05:52
-title: "Jak znaleźć dobrą działkę metodą Street View"
-excerpt: "Zanim wsiądziecie w auto i pojedziecie oglądać działkę – sprawdźcie ją zdalnie. Pokażę Wam jak..."
-image: "~/assets/images/blog/jak-znalezc-dzialke-metoda-street-view.jpeg"
-category: "Blog"
+title: 'Jak znaleźć dobrą działkę metodą Street View'
+excerpt: 'Zanim wsiądziecie w auto i pojedziecie oglądać działkę – sprawdźcie ją zdalnie. Pokażę Wam jak...'
+image: '~/assets/images/blog/jak-znalezc-dzialke-metoda-street-view.jpeg'
+category: 'Blog'
 tags:
-  - "działka budowlana"
-  - "Street View"
-  - "szukanie działki"
-author: "Wojciech Tracichleb"
+  - 'działka budowlana'
+  - 'Street View'
+  - 'szukanie działki'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jak-znalezc-dzialke-metoda-street-view/"
-  title: "Jak znaleźć działkę metodą Street View – praktyczny poradnik"
-  description: "Poznaj sprytny sposób na szukanie działki budowlanej zdalnie. Google Street View pozwala ocenić sąsiedztwo, drogi i okolicę bez wychodzenia z domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jak-znalezc-dzialke-metoda-street-view/'
+  title: 'Jak znaleźć działkę metodą Street View – praktyczny poradnik'
+  description: 'Poznaj sprytny sposób na szukanie działki budowlanej zdalnie. Google Street View pozwala ocenić sąsiedztwo, drogi i okolicę bez wychodzenia z domu.'
   robots:
     index: true
     follow: true

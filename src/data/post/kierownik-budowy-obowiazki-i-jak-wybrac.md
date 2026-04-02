@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T12:32:52
 updateDate: 2026-02-04T12:40:44
-title: "Kierownik budowy – obowiązki i jak wybrać"
-excerpt: "Kierownik budowy to nie formalność do odhaczenia. To człowiek, który może uratować Wasz dom przed kosztownymi błędami."
-image: "~/assets/images/blog/kierownik-budowy-obowiazki-i-jak-wybrac.jpeg"
-category: "Blog"
+title: 'Kierownik budowy – obowiązki i jak wybrać'
+excerpt: 'Kierownik budowy to nie formalność do odhaczenia. To człowiek, który może uratować Wasz dom przed kosztownymi błędami.'
+image: '~/assets/images/blog/kierownik-budowy-obowiazki-i-jak-wybrac.jpeg'
+category: 'Blog'
 tags:
-  - "kierownik budowy"
-  - "obowiązki kierownika budowy"
-  - "jak wybrać kierownika budowy"
-author: "Wojciech Tracichleb"
+  - 'kierownik budowy'
+  - 'obowiązki kierownika budowy'
+  - 'jak wybrać kierownika budowy'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/kierownik-budowy-obowiazki-i-jak-wybrac/"
-  title: "Kierownik budowy – obowiązki i jak wybrać | Poradnik 2026"
-  description: "Dowiedz się, jakie obowiązki ma kierownik budowy, jak zweryfikować jego uprawnienia i na co zwrócić uwagę przy wyborze. Praktyczny poradnik dla inwestora."
+  canonical: 'https://pozytywniezbudowani.pl/blog/kierownik-budowy-obowiazki-i-jak-wybrac/'
+  title: 'Kierownik budowy – obowiązki i jak wybrać | Poradnik 2026'
+  description: 'Dowiedz się, jakie obowiązki ma kierownik budowy, jak zweryfikować jego uprawnienia i na co zwrócić uwagę przy wyborze. Praktyczny poradnik dla inwestora.'
   robots:
     index: true
     follow: true

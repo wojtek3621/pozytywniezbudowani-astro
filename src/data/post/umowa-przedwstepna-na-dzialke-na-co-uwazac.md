@@ -1,21 +1,21 @@
 ---
 publishDate: 2026-01-04T19:04:02
 updateDate: 2026-01-04T19:09:14
-title: "Umowa przedwstępna na działkę – na co uważać"
-excerpt: "Zanim wpłacicie pieniądze za wymarzoną działkę, przeczytajcie, jak się naprawdę zabezpieczyć..."
-image: "~/assets/images/blog/umowa-przedwstepna-na-dzialke-na-co-uwazac.jpeg"
-category: "Blog"
+title: 'Umowa przedwstępna na działkę – na co uważać'
+excerpt: 'Zanim wpłacicie pieniądze za wymarzoną działkę, przeczytajcie, jak się naprawdę zabezpieczyć...'
+image: '~/assets/images/blog/umowa-przedwstepna-na-dzialke-na-co-uwazac.jpeg'
+category: 'Blog'
 tags:
-  - "Zadatek"
-  - "zaliczka"
-  - "forma notarialna – wszystko"
-  - "co musicie wiedzieć"
-  - "zanim podpiszecie"
-author: "Wojciech Tracichleb"
+  - 'Zadatek'
+  - 'zaliczka'
+  - 'forma notarialna – wszystko'
+  - 'co musicie wiedzieć'
+  - 'zanim podpiszecie'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/umowa-przedwstepna-na-dzialke-na-co-uwazac/"
-  title: "Umowa przedwstępna na działkę – na co uważać przy zakupie"
-  description: "Zadatek czy zaliczka? Forma pisemna czy notarialna? Dowiedz się, jak bezpiecznie podpisać umowę przedwstępną na działkę i uniknąć kosztownych błędów."
+  canonical: 'https://pozytywniezbudowani.pl/blog/umowa-przedwstepna-na-dzialke-na-co-uwazac/'
+  title: 'Umowa przedwstępna na działkę – na co uważać przy zakupie'
+  description: 'Zadatek czy zaliczka? Forma pisemna czy notarialna? Dowiedz się, jak bezpiecznie podpisać umowę przedwstępną na działkę i uniknąć kosztownych błędów.'
   robots:
     index: true
     follow: true

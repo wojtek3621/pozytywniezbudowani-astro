@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:00:07
 updateDate: 2026-01-11T18:36:34
-title: "Droga dojazdowa do działki – asfalt, szuter, brak drogi"
-excerpt: "Tumany kurzu latem, błoto po kostki zimą – czy na pewno wiecie, na co się piszecie?"
-image: "~/assets/images/blog/droga-dojazdowa-do-dzialki-asfalt-szuter-brak-drogi.jpeg"
-category: "Blog"
+title: 'Droga dojazdowa do działki – asfalt, szuter, brak drogi'
+excerpt: 'Tumany kurzu latem, błoto po kostki zimą – czy na pewno wiecie, na co się piszecie?'
+image: '~/assets/images/blog/droga-dojazdowa-do-dzialki-asfalt-szuter-brak-drogi.jpeg'
+category: 'Blog'
 tags:
-  - "droga dojazdowa do działki"
-  - "droga szutrowa"
-  - "działka bez asfaltu"
-author: "Wojciech Tracichleb"
+  - 'droga dojazdowa do działki'
+  - 'droga szutrowa'
+  - 'działka bez asfaltu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/droga-dojazdowa-do-dzialki-asfalt-szuter-brak-drogi/"
-  title: "Droga dojazdowa do działki – asfalt, szuter czy brak drogi?"
-  description: "Jaką drogę dojazdową wybrać do działki? Asfalt, szuter, droga gruntowa – poznaj konsekwencje na lata i wpływ na budowę domu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/droga-dojazdowa-do-dzialki-asfalt-szuter-brak-drogi/'
+  title: 'Droga dojazdowa do działki – asfalt, szuter czy brak drogi?'
+  description: 'Jaką drogę dojazdową wybrać do działki? Asfalt, szuter, droga gruntowa – poznaj konsekwencje na lata i wpływ na budowę domu.'
   robots:
     index: true
     follow: true

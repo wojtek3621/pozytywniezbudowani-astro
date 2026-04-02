@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T17:54:01
 updateDate: 2026-01-10T20:17:50
-title: "Usytuowanie domu na działce – na co zwrócić uwagę"
-excerpt: "Złe umiejscowienie domu to brak słońca w salonie, woda pod fundamentem i taras z widokiem na śmietnik sąsiada. Jak tego uniknąć?"
-image: "~/assets/images/blog/usytuowanie-domu-na-dzialce.jpeg"
-category: "Blog"
+title: 'Usytuowanie domu na działce – na co zwrócić uwagę'
+excerpt: 'Złe umiejscowienie domu to brak słońca w salonie, woda pod fundamentem i taras z widokiem na śmietnik sąsiada. Jak tego uniknąć?'
+image: '~/assets/images/blog/usytuowanie-domu-na-dzialce.jpeg'
+category: 'Blog'
 tags:
-  - "usytuowanie domu na działce"
-  - "odległość domu od granicy"
-  - "projekt zagospodarowania terenu"
-author: "Wojciech Tracichleb"
+  - 'usytuowanie domu na działce'
+  - 'odległość domu od granicy'
+  - 'projekt zagospodarowania terenu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/usytuowanie-domu-na-dzialce/"
-  title: "Usytuowanie domu na działce – na co zwrócić uwagę"
-  description: "Jak prawidłowo usytuować dom na działce? Poznaj kluczowe zasady: odległości od granic, linia zabudowy, strony świata i poziom zero budynku."
+  canonical: 'https://pozytywniezbudowani.pl/blog/usytuowanie-domu-na-dzialce/'
+  title: 'Usytuowanie domu na działce – na co zwrócić uwagę'
+  description: 'Jak prawidłowo usytuować dom na działce? Poznaj kluczowe zasady: odległości od granic, linia zabudowy, strony świata i poziom zero budynku.'
   robots:
     index: true
     follow: true

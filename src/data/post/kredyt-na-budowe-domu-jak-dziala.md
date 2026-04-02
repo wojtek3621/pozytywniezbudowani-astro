@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:37:53
 updateDate: 2026-01-11T21:13:06
-title: "Kredyt na budowę domu – jak działa i jak się różni od mieszkaniowego"
-excerpt: "Kredyt na budowę to zupełnie inna historia niż kredyt na gotowe mieszkanie. Sprawdźcie, na co się przygotować…"
-image: "~/assets/images/blog/kredyt-na-budowe-domu-jak-dziala.jpeg"
-category: "Blog"
+title: 'Kredyt na budowę domu – jak działa i jak się różni od mieszkaniowego'
+excerpt: 'Kredyt na budowę to zupełnie inna historia niż kredyt na gotowe mieszkanie. Sprawdźcie, na co się przygotować…'
+image: '~/assets/images/blog/kredyt-na-budowe-domu-jak-dziala.jpeg'
+category: 'Blog'
 tags:
-  - "kredyt na budowę domu"
-  - "kredyt budowlany"
-  - "transze kredytu hipotecznego"
-author: "Wojciech Tracichleb"
+  - 'kredyt na budowę domu'
+  - 'kredyt budowlany'
+  - 'transze kredytu hipotecznego'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/kredyt-na-budowe-domu-jak-dziala/"
-  title: "Kredyt na budowę domu – jak działa i czym różni się od mieszkaniowego"
-  description: "Poznaj mechanizm kredytu na budowę domu: transze, harmonogram, wkład własny. Dowiedz się, czym różni się od kredytu na gotowe mieszkanie."
+  canonical: 'https://pozytywniezbudowani.pl/blog/kredyt-na-budowe-domu-jak-dziala/'
+  title: 'Kredyt na budowę domu – jak działa i czym różni się od mieszkaniowego'
+  description: 'Poznaj mechanizm kredytu na budowę domu: transze, harmonogram, wkład własny. Dowiedz się, czym różni się od kredytu na gotowe mieszkanie.'
   robots:
     index: true
     follow: true

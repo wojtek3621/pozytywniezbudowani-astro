@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T17:49:30
 updateDate: 2026-01-10T19:02:08
-title: "Jak czytać projekt domu – poradnik dla laika"
-excerpt: "Kilkadziesiąt stron rysunków technicznych. Linie, symbole, wymiary. Spokojnie – nie musicie kończyć architektury, żeby to zrozumieć..."
-image: "~/assets/images/blog/jak-czytac-projekt-domu-poradnik-dla-laika.jpeg"
-category: "Blog"
+title: 'Jak czytać projekt domu – poradnik dla laika'
+excerpt: 'Kilkadziesiąt stron rysunków technicznych. Linie, symbole, wymiary. Spokojnie – nie musicie kończyć architektury, żeby to zrozumieć...'
+image: '~/assets/images/blog/jak-czytac-projekt-domu-poradnik-dla-laika.jpeg'
+category: 'Blog'
 tags:
-  - "jak czytać projekt domu"
-  - "dokumentacja projektowa"
-  - "rzuty domu"
-author: "Wojciech Tracichleb"
+  - 'jak czytać projekt domu'
+  - 'dokumentacja projektowa'
+  - 'rzuty domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jak-czytac-projekt-domu-poradnik-dla-laika/"
-  title: "Jak czytać projekt domu – poradnik dla laika"
-  description: "Dowiedz się, jak samodzielnie czytać i analizować projekt domu. Poznaj kluczowe elementy dokumentacji budowlanej i naucz się weryfikować rysunki."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jak-czytac-projekt-domu-poradnik-dla-laika/'
+  title: 'Jak czytać projekt domu – poradnik dla laika'
+  description: 'Dowiedz się, jak samodzielnie czytać i analizować projekt domu. Poznaj kluczowe elementy dokumentacji budowlanej i naucz się weryfikować rysunki.'
   robots:
     index: true
     follow: true

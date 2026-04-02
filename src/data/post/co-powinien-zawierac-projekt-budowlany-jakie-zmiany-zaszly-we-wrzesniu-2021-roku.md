@@ -1,15 +1,15 @@
 ---
 publishDate: 2024-09-30T12:50:00
 updateDate: 2025-12-28T19:23:17
-title: "Co powinien zawierać projekt budowlany? Jakie zmiany zaszły we wrześniu 2021 roku?"
-excerpt: "Marzysz o własnym domu? Działka już jest, teraz czas na znalezienie domu, który będzie spełniał oczekiwania Twoje i rodziny. Na przejrzenie…"
-image: "~/assets/images/blog/co-powinien-zawierac-projekt-budowlany-jakie-zmiany-zaszly-we-wrzesniu-2021-roku.jpg"
-category: "Blog"
-author: "Wojciech Tracichleb"
+title: 'Co powinien zawierać projekt budowlany? Jakie zmiany zaszły we wrześniu 2021 roku?'
+excerpt: 'Marzysz o własnym domu? Działka już jest, teraz czas na znalezienie domu, który będzie spełniał oczekiwania Twoje i rodziny. Na przejrzenie…'
+image: '~/assets/images/blog/co-powinien-zawierac-projekt-budowlany-jakie-zmiany-zaszly-we-wrzesniu-2021-roku.jpg'
+category: 'Blog'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/co-powinien-zawierac-projekt-budowlany-jakie-zmiany-zaszly-we-wrzesniu-2021-roku/"
-  title: "Co powinien zawierać projekt budowlany? Jakie zmiany zaszły we wrześniu 2021 roku?"
-  description: "Marzysz o własnym domu? Działka już jest, teraz czas na znalezienie domu, który będzie spełniał oczekiwania Twoje i rodziny. Na pr"
+  canonical: 'https://pozytywniezbudowani.pl/blog/co-powinien-zawierac-projekt-budowlany-jakie-zmiany-zaszly-we-wrzesniu-2021-roku/'
+  title: 'Co powinien zawierać projekt budowlany? Jakie zmiany zaszły we wrześniu 2021 roku?'
+  description: 'Marzysz o własnym domu? Działka już jest, teraz czas na znalezienie domu, który będzie spełniał oczekiwania Twoje i rodziny. Na pr'
   robots:
     index: true
     follow: true

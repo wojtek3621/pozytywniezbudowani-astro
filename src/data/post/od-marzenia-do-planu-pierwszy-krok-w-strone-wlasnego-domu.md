@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:27:00
 updateDate: 2026-01-11T22:38:13
-title: "Od marzenia do planu – pierwszy krok w stronę własnego domu"
-excerpt: "Większość osób zaczyna od szukania projektu. A powinni zacząć od czegoś zupełnie innego..."
-image: "~/assets/images/blog/od-marzenia-do-planu-pierwszy-krok-w-strone-wlasnego-domu.jpeg"
-category: "Blog"
+title: 'Od marzenia do planu – pierwszy krok w stronę własnego domu'
+excerpt: 'Większość osób zaczyna od szukania projektu. A powinni zacząć od czegoś zupełnie innego...'
+image: '~/assets/images/blog/od-marzenia-do-planu-pierwszy-krok-w-strone-wlasnego-domu.jpeg'
+category: 'Blog'
 tags:
-  - "marzenie o domu"
-  - "planowanie budowy"
-  - "pierwszy krok budowa domu"
-author: "Wojciech Tracichleb"
+  - 'marzenie o domu'
+  - 'planowanie budowy'
+  - 'pierwszy krok budowa domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/od-marzenia-do-planu-pierwszy-krok-w-strone-wlasnego-domu/"
-  title: "Od marzenia do planu - pierwszy krok w stronę własnego domu"
-  description: "Jak zamienić marzenie o domu w konkretny plan? Poznaj pierwsze kroki, które musisz podjąć, zanim zaczniesz szukać działki i projektu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/od-marzenia-do-planu-pierwszy-krok-w-strone-wlasnego-domu/'
+  title: 'Od marzenia do planu - pierwszy krok w stronę własnego domu'
+  description: 'Jak zamienić marzenie o domu w konkretny plan? Poznaj pierwsze kroki, które musisz podjąć, zanim zaczniesz szukać działki i projektu.'
   robots:
     index: true
     follow: true

@@ -1,20 +1,20 @@
 ---
 publishDate: 2026-01-11T16:46:10
 updateDate: 2026-02-03T19:18:49
-title: "Kredyt na 20, 25 czy 30 lat – porównanie kosztów"
-excerpt: "Niska rata czy mniej odsetek? Jest trzecia droga, która daje Wam obie korzyści naraz..."
-image: "~/assets/images/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow.jpeg"
-category: "Blog"
+title: 'Kredyt na 20, 25 czy 30 lat – porównanie kosztów'
+excerpt: 'Niska rata czy mniej odsetek? Jest trzecia droga, która daje Wam obie korzyści naraz...'
+image: '~/assets/images/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow.jpeg'
+category: 'Blog'
 tags:
-  - "kredyt hipoteczny 25 czy 30 lat"
-  - "porównanie okresów kredytowania"
-  - "koszt kredytu hipotecznego"
-  - "kalkulator kredytu hipotecznego"
-author: "Wojciech Tracichleb"
+  - 'kredyt hipoteczny 25 czy 30 lat'
+  - 'porównanie okresów kredytowania'
+  - 'koszt kredytu hipotecznego'
+  - 'kalkulator kredytu hipotecznego'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow/"
-  title: "Kredyt na 20, 25 czy 30 lat - porównanie kosztów | KALKULATOR"
-  description: "Sprawdź, ile zapłacisz odsetek przy kredycie na 20, 25 i 30 lat. Poznaj strategię, która łączy niską ratę z oszczędnościami."
+  canonical: 'https://pozytywniezbudowani.pl/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow/'
+  title: 'Kredyt na 20, 25 czy 30 lat - porównanie kosztów | KALKULATOR'
+  description: 'Sprawdź, ile zapłacisz odsetek przy kredycie na 20, 25 i 30 lat. Poznaj strategię, która łączy niską ratę z oszczędnościami.'
   robots:
     index: true
     follow: true

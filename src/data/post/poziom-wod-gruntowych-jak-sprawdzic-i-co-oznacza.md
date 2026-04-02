@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T18:22:10
 updateDate: 2026-01-04T18:23:49
-title: "Poziom wód gruntowych – jak sprawdzić i co oznacza"
-excerpt: "Woda gruntowa może zniszczyć Wasz dom od podstaw. Dosłownie. Sprawdźcie, jak ją wykryć przed zakupem działki..."
-image: "~/assets/images/blog/poziom-wod-gruntowych-jak-sprawdzic-i-co-oznacza.jpeg"
-category: "Blog"
+title: 'Poziom wód gruntowych – jak sprawdzić i co oznacza'
+excerpt: 'Woda gruntowa może zniszczyć Wasz dom od podstaw. Dosłownie. Sprawdźcie, jak ją wykryć przed zakupem działki...'
+image: '~/assets/images/blog/poziom-wod-gruntowych-jak-sprawdzic-i-co-oznacza.jpeg'
+category: 'Blog'
 tags:
-  - "poziom wód gruntowych"
-  - "woda gruntowa na działce"
-  - "badania geotechniczne"
-author: "Wojciech Tracichleb"
+  - 'poziom wód gruntowych'
+  - 'woda gruntowa na działce'
+  - 'badania geotechniczne'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/poziom-wod-gruntowych-jak-sprawdzic-i-co-oznacza/"
-  title: "Poziom wód gruntowych – jak sprawdzić i co oznacza dla budowy domu"
-  description: "Sprawdź poziom wód gruntowych na działce przed zakupem. Poznaj metody weryfikacji, konsekwencje wysokiego poziomu i sposoby zabezpieczenia fundamentów."
+  canonical: 'https://pozytywniezbudowani.pl/blog/poziom-wod-gruntowych-jak-sprawdzic-i-co-oznacza/'
+  title: 'Poziom wód gruntowych – jak sprawdzić i co oznacza dla budowy domu'
+  description: 'Sprawdź poziom wód gruntowych na działce przed zakupem. Poznaj metody weryfikacji, konsekwencje wysokiego poziomu i sposoby zabezpieczenia fundamentów.'
   robots:
     index: true
     follow: true

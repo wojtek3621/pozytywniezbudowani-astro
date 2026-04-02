@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:31:37
 updateDate: 2026-01-11T21:07:36
-title: "5 pytań, które musisz sobie zadać zanim zaczniesz budować"
-excerpt: "Zanim weźmiesz kredyt, zanim kupisz działkę – usiądź i odpowiedz szczerze na te pytania..."
-image: "~/assets/images/blog/5-pytan-ktore-musisz-sobie-zadac-zanim-zaczniesz-budowac.jpeg"
-category: "Blog"
+title: '5 pytań, które musisz sobie zadać zanim zaczniesz budować'
+excerpt: 'Zanim weźmiesz kredyt, zanim kupisz działkę – usiądź i odpowiedz szczerze na te pytania...'
+image: '~/assets/images/blog/5-pytan-ktore-musisz-sobie-zadac-zanim-zaczniesz-budowac.jpeg'
+category: 'Blog'
 tags:
-  - "pytania przed budową domu"
-  - "przygotowanie do budowy"
-  - "czy budować dom"
-author: "Wojciech Tracichleb"
+  - 'pytania przed budową domu'
+  - 'przygotowanie do budowy'
+  - 'czy budować dom'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/5-pytan-ktore-musisz-sobie-zadac-zanim-zaczniesz-budowac/"
-  title: "5 pytań przed budową domu – co przemyśleć zanim zaczniesz"
-  description: "Zanim weźmiesz kredyt i kupisz działkę, zadaj sobie te 5 pytań. Mogą uchronić Cię przed błędem, który będzie kosztował lata życia."
+  canonical: 'https://pozytywniezbudowani.pl/blog/5-pytan-ktore-musisz-sobie-zadac-zanim-zaczniesz-budowac/'
+  title: '5 pytań przed budową domu – co przemyśleć zanim zaczniesz'
+  description: 'Zanim weźmiesz kredyt i kupisz działkę, zadaj sobie te 5 pytań. Mogą uchronić Cię przed błędem, który będzie kosztował lata życia.'
   robots:
     index: true
     follow: true

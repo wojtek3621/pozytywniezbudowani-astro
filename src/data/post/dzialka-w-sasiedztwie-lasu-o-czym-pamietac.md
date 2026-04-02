@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T17:53:44
 updateDate: 2026-01-04T17:58:58
-title: "Działka w sąsiedztwie lasu - o czym pamiętać"
-excerpt: "Las za płotem brzmi jak spełnienie marzeń. Ale zanim podpiszecie akt notarialny, sprawdźcie co kryje się za tym idyllicznym obrazem..."
-image: "~/assets/images/blog/dzialka-w-sasiedztwie-lasu-o-czym-pamietac.jpeg"
-category: "Blog"
+title: 'Działka w sąsiedztwie lasu - o czym pamiętać'
+excerpt: 'Las za płotem brzmi jak spełnienie marzeń. Ale zanim podpiszecie akt notarialny, sprawdźcie co kryje się za tym idyllicznym obrazem...'
+image: '~/assets/images/blog/dzialka-w-sasiedztwie-lasu-o-czym-pamietac.jpeg'
+category: 'Blog'
 tags:
-  - "działka przy lesie"
-  - "budowa domu przy lesie"
-  - "odległość budynku od lasu"
-author: "Wojciech Tracichleb"
+  - 'działka przy lesie'
+  - 'budowa domu przy lesie'
+  - 'odległość budynku od lasu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dzialka-w-sasiedztwie-lasu-o-czym-pamietac/"
-  title: "Działka w sąsiedztwie lasu - o czym pamiętać przed zakupem"
-  description: "Czy działka przy lesie to marzenie czy pułapka? Sprawdź przepisy, odległości budynku od lasu i praktyczne aspekty budowy domu w sąsiedztwie lasu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-w-sasiedztwie-lasu-o-czym-pamietac/'
+  title: 'Działka w sąsiedztwie lasu - o czym pamiętać przed zakupem'
+  description: 'Czy działka przy lesie to marzenie czy pułapka? Sprawdź przepisy, odległości budynku od lasu i praktyczne aspekty budowy domu w sąsiedztwie lasu.'
   robots:
     index: true
     follow: true

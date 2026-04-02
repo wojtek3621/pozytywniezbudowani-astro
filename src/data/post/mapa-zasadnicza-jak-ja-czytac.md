@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T16:24:10
 updateDate: 2026-01-04T17:50:07
-title: "Mapa zasadnicza - jak ją czytać i co z niej wynika"
-excerpt: "Dziwne literki i kolorowe kreski na mapie? Po tym artykule będziecie je czytać jak otwartą książkę..."
-image: "~/assets/images/blog/mapa-zasadnicza-jak-ja-czytac.jpeg"
-category: "Blog"
+title: 'Mapa zasadnicza - jak ją czytać i co z niej wynika'
+excerpt: 'Dziwne literki i kolorowe kreski na mapie? Po tym artykule będziecie je czytać jak otwartą książkę...'
+image: '~/assets/images/blog/mapa-zasadnicza-jak-ja-czytac.jpeg'
+category: 'Blog'
 tags:
-  - "mapa zasadnicza"
-  - "oznaczenia na mapie zasadniczej"
-  - "jak czytać mapę działki"
-author: "Wojciech Tracichleb"
+  - 'mapa zasadnicza'
+  - 'oznaczenia na mapie zasadniczej'
+  - 'jak czytać mapę działki'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/mapa-zasadnicza-jak-ja-czytac/"
-  title: "Mapa zasadnicza - jak ją czytać i co z niej wynika | Poradnik"
-  description: "Dowiedz się, jak czytać mapę zasadniczą działki. Poznaj oznaczenia mediów, kolory sieci i praktyczne wskazówki przed zakupem terenu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/mapa-zasadnicza-jak-ja-czytac/'
+  title: 'Mapa zasadnicza - jak ją czytać i co z niej wynika | Poradnik'
+  description: 'Dowiedz się, jak czytać mapę zasadniczą działki. Poznaj oznaczenia mediów, kolory sieci i praktyczne wskazówki przed zakupem terenu.'
   robots:
     index: true
     follow: true

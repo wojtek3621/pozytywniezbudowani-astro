@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T18:07:19
 updateDate: 2026-02-14T22:16:30
-title: "Smart home – od czego zacząć budując dom jednorodzinny"
-excerpt: "Zanim wydacie fortunę na smart home, przeczytajcie co naprawdę warto zautomatyzować – i czy w ogóle musicie."
-image: "~/assets/images/blog/smart-home-od-czego-zaczac.jpeg"
-category: "Blog"
+title: 'Smart home – od czego zacząć budując dom jednorodzinny'
+excerpt: 'Zanim wydacie fortunę na smart home, przeczytajcie co naprawdę warto zautomatyzować – i czy w ogóle musicie.'
+image: '~/assets/images/blog/smart-home-od-czego-zaczac.jpeg'
+category: 'Blog'
 tags:
-  - "smart home od czego zacząć"
-  - "inteligentny dom budowa"
-  - "automatyka domowa"
-author: "Wojciech Tracichleb"
+  - 'smart home od czego zacząć'
+  - 'inteligentny dom budowa'
+  - 'automatyka domowa'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/smart-home-od-czego-zaczac/"
-  title: "Smart home – od czego zacząć budując dom? Poradnik"
-  description: "Smart home w domu jednorodzinnym – kiedy zaplanować, ile kosztuje i czy w ogóle potrzebujecie. Praktyczny przewodnik dla budujących pierwszy dom."
+  canonical: 'https://pozytywniezbudowani.pl/blog/smart-home-od-czego-zaczac/'
+  title: 'Smart home – od czego zacząć budując dom? Poradnik'
+  description: 'Smart home w domu jednorodzinnym – kiedy zaplanować, ile kosztuje i czy w ogóle potrzebujecie. Praktyczny przewodnik dla budujących pierwszy dom.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Ręce trzymające tablet z interfejsem sterowania inteligentnym domem na tle nowoczesnego salonu" class="responsive-image" src="/images/content/smart-home-tablet-sterowanie-domem.jpeg" style="width: 525px; height: 350px;" title="Sterowanie inteligentnym domem za pomocą tabletu" /></p>
-
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację. Wprowadzacie się do nowego domu, w którym budowa pochłonęła ostatnie dwa lata Waszego życia. Wszystko lśni nowością. I wtedy sąsiad pyta: „A macie smart home?". Odpowiadacie, że nie, a on z politowaniem kręci głową, jakbyście właśnie przyznali się, że nie macie bieżącej wody. I nagle pojawia się ten irracjonalny niepokój – czy przypadkiem nie popełniliście błędu? Czy Wasz dom jest „przestarzały", zanim w ogóle zdążyliście się w nim zadomowić?</p>
 

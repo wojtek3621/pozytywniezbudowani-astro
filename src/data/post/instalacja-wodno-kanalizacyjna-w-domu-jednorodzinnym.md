@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T17:53:49
 updateDate: 2026-02-14T22:44:24
-title: "Instalacja wodno-kanalizacyjna w domu jednorodzinnym – najważniejsze zasady"
-excerpt: "Błędy w instalacji wod-kan wychodzą po latach – i kosztują fortunę. Sprawdźcie, jak ich uniknąć."
-image: "~/assets/images/blog/instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym.jpeg"
-category: "Blog"
+title: 'Instalacja wodno-kanalizacyjna w domu jednorodzinnym – najważniejsze zasady'
+excerpt: 'Błędy w instalacji wod-kan wychodzą po latach – i kosztują fortunę. Sprawdźcie, jak ich uniknąć.'
+image: '~/assets/images/blog/instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym.jpeg'
+category: 'Blog'
 tags:
-  - "instalacja wodno-kanalizacyjna dom"
-  - "instalacja wodna PEX"
-  - "kanalizacja w domu"
-author: "Wojciech Tracichleb"
+  - 'instalacja wodno-kanalizacyjna dom'
+  - 'instalacja wodna PEX'
+  - 'kanalizacja w domu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym/"
-  title: "Instalacja wodno-kanalizacyjna w domu – zasady i błędy"
-  description: "Jak zaplanować instalację wodno-kanalizacyjną w domu jednorodzinnym? Materiały, średnice rur, spadki kanalizacji, próba szczelności i błędy kosztujące fortunę."
+  canonical: 'https://pozytywniezbudowani.pl/blog/instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym/'
+  title: 'Instalacja wodno-kanalizacyjna w domu – zasady i błędy'
+  description: 'Jak zaplanować instalację wodno-kanalizacyjną w domu jednorodzinnym? Materiały, średnice rur, spadki kanalizacji, próba szczelności i błędy kosztujące fortunę.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Rury PEX i kanalizacyjne rozłożone w podłodze domu jednorodzinnego przed zalaniem wylewką" class="responsive-image" src="/images/content/instalacja-wod-kan-rury-pex-podloga.jpeg" style="width: 525px; height: 350px;" title="Montaż instalacji wodno-kanalizacyjnej w domu jednorodzinnym" /></p>
-
 
 <p style="text-align: justify;">Jest taki moment na budowie, kiedy dom stoi już w stanie surowym, dach jest zamknięty, okna wstawione – i nagle przychodzi czas na coś, czego nie widać gołym okiem, a co będzie decydować o Waszym komforcie przez następne kilkadziesiąt lat. Mówię o instalacji wodno-kanalizacyjnej. O rurach, które ukryjecie pod posadzką i w ścianach, o spadkach, które albo będą działać, albo nie, o złączkach, które albo wytrzymają, albo zaleją Wam dom.</p>
 

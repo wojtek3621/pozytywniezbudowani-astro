@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T16:54:11
 updateDate: 2026-01-11T18:50:09
-title: "Ile metrów kwadratowych domu potrzebujesz naprawdę?"
-excerpt: "Wiele razy słyszałem, że ktoś wybudował za duży dom. Że dom jest za mały – tylko raz. Ta asymetria mówi więcej niż tysiąc poradników..."
-image: "~/assets/images/blog/ile-metrow-kwadratowych-domu-potrzebujesz-naprawde.jpeg"
-category: "Blog"
+title: 'Ile metrów kwadratowych domu potrzebujesz naprawdę?'
+excerpt: 'Wiele razy słyszałem, że ktoś wybudował za duży dom. Że dom jest za mały – tylko raz. Ta asymetria mówi więcej niż tysiąc poradników...'
+image: '~/assets/images/blog/ile-metrow-kwadratowych-domu-potrzebujesz-naprawde.jpeg'
+category: 'Blog'
 tags:
-  - "ile metrów kwadratowych domu"
-  - "wielkość domu dla rodziny"
-  - "metraż domu jednorodzinnego"
-author: "Wojciech Tracichleb"
+  - 'ile metrów kwadratowych domu'
+  - 'wielkość domu dla rodziny'
+  - 'metraż domu jednorodzinnego'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ile-metrow-kwadratowych-domu-potrzebujesz-naprawde/"
-  title: "Ile metrów kwadratowych domu potrzebujesz? Praktyczny poradnik"
-  description: "Jak określić optymalną wielkość domu dla Twojej rodziny? Praktyczne wskazówki, realne potrzeby vs marzenia i konsekwencje finansowe wyboru metrażu."
+  canonical: 'https://pozytywniezbudowani.pl/blog/ile-metrow-kwadratowych-domu-potrzebujesz-naprawde/'
+  title: 'Ile metrów kwadratowych domu potrzebujesz? Praktyczny poradnik'
+  description: 'Jak określić optymalną wielkość domu dla Twojej rodziny? Praktyczne wskazówki, realne potrzeby vs marzenia i konsekwencje finansowe wyboru metrażu.'
   robots:
     index: true
     follow: true

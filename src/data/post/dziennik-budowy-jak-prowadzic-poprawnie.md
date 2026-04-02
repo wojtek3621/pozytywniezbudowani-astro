@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T12:29:15
 updateDate: 2026-02-04T12:31:56
-title: "Dziennik budowy – jak prowadzić poprawnie"
-excerpt: "Dziennik budowy to oficjalna biografia Waszego domu. Pokażę Wam, jak prowadzić go poprawnie i uniknąć problemów przy odbiorze."
-image: "~/assets/images/blog/dziennik-budowy-jak-prowadzic-poprawnie.jpeg"
-category: "Blog"
+title: 'Dziennik budowy – jak prowadzić poprawnie'
+excerpt: 'Dziennik budowy to oficjalna biografia Waszego domu. Pokażę Wam, jak prowadzić go poprawnie i uniknąć problemów przy odbiorze.'
+image: '~/assets/images/blog/dziennik-budowy-jak-prowadzic-poprawnie.jpeg'
+category: 'Blog'
 tags:
-  - "dziennik budowy"
-  - "wpisy w dzienniku budowy"
-  - "elektroniczny dziennik budowy EDB"
-author: "Wojciech Tracichleb"
+  - 'dziennik budowy'
+  - 'wpisy w dzienniku budowy'
+  - 'elektroniczny dziennik budowy EDB'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/dziennik-budowy-jak-prowadzic-poprawnie/"
-  title: "Dziennik budowy - jak prowadzić poprawnie krok po kroku"
-  description: "Dowiedz się, jak prawidłowo prowadzić dziennik budowy. Wpisy, odbiory, dokumentacja etapów i nowy system elektroniczny EDB - praktyczny przewodnik."
+  canonical: 'https://pozytywniezbudowani.pl/blog/dziennik-budowy-jak-prowadzic-poprawnie/'
+  title: 'Dziennik budowy - jak prowadzić poprawnie krok po kroku'
+  description: 'Dowiedz się, jak prawidłowo prowadzić dziennik budowy. Wpisy, odbiory, dokumentacja etapów i nowy system elektroniczny EDB - praktyczny przewodnik.'
   robots:
     index: true
     follow: true

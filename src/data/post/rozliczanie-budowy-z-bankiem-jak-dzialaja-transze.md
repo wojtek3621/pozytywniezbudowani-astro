@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:50:44
 updateDate: 2026-01-11T21:44:22
-title: "Rozliczanie budowy z bankiem – jak działają transze"
-excerpt: "Kredyt na budowę domu to nie jednorazowy przelew. To seria wypłat, które musicie rozliczać z bankiem..."
-image: "~/assets/images/blog/rozliczanie-budowy-z-bankiem-jak-dzialaja-transze.jpeg"
-category: "Blog"
+title: 'Rozliczanie budowy z bankiem – jak działają transze'
+excerpt: 'Kredyt na budowę domu to nie jednorazowy przelew. To seria wypłat, które musicie rozliczać z bankiem...'
+image: '~/assets/images/blog/rozliczanie-budowy-z-bankiem-jak-dzialaja-transze.jpeg'
+category: 'Blog'
 tags:
-  - "transze kredytu budowlanego"
-  - "rozliczanie budowy z bankiem"
-  - "harmonogram wypłat kredytu"
-author: "Wojciech Tracichleb"
+  - 'transze kredytu budowlanego'
+  - 'rozliczanie budowy z bankiem'
+  - 'harmonogram wypłat kredytu'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/rozliczanie-budowy-z-bankiem-jak-dzialaja-transze/"
-  title: "Rozliczanie budowy z bankiem – jak działają transze kredytu"
-  description: "Dowiedz się, jak działają transze kredytu na budowę domu. Praktyczny przewodnik po harmonogramie wypłat, wizytach rzeczoznawcy i rozliczaniu z bankiem."
+  canonical: 'https://pozytywniezbudowani.pl/blog/rozliczanie-budowy-z-bankiem-jak-dzialaja-transze/'
+  title: 'Rozliczanie budowy z bankiem – jak działają transze kredytu'
+  description: 'Dowiedz się, jak działają transze kredytu na budowę domu. Praktyczny przewodnik po harmonogramie wypłat, wizytach rzeczoznawcy i rozliczaniu z bankiem.'
   robots:
     index: true
     follow: true

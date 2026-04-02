@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-04T19:17:27
 updateDate: 2026-01-04T19:18:49
-title: "Wymiary działki a wielkość domu – jak policzyć"
-excerpt: "Znalazłeś działkę i projekt, ale czy na pewno do siebie pasują? Pokażę Ci, jak to policzyć..."
-image: "~/assets/images/blog/wymiary-dzialki-a-wielkosc-domu-jak-policzyc.jpeg"
-category: "Blog"
+title: 'Wymiary działki a wielkość domu – jak policzyć'
+excerpt: 'Znalazłeś działkę i projekt, ale czy na pewno do siebie pasują? Pokażę Ci, jak to policzyć...'
+image: '~/assets/images/blog/wymiary-dzialki-a-wielkosc-domu-jak-policzyc.jpeg'
+category: 'Blog'
 tags:
-  - "wymiary działki"
-  - "wielkość domu"
-  - "odległość od granicy działki"
-author: "Wojciech Tracichleb"
+  - 'wymiary działki'
+  - 'wielkość domu'
+  - 'odległość od granicy działki'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/wymiary-dzialki-a-wielkosc-domu-jak-policzyc/"
-  title: "Wymiary działki a wielkość domu – jak policzyć [Poradnik 2026]"
-  description: "Sprawdź, jak obliczyć, czy Twój wymarzony dom zmieści się na działce. Odległości od granic, przepisy i praktyczne przykłady obliczeń."
+  canonical: 'https://pozytywniezbudowani.pl/blog/wymiary-dzialki-a-wielkosc-domu-jak-policzyc/'
+  title: 'Wymiary działki a wielkość domu – jak policzyć [Poradnik 2026]'
+  description: 'Sprawdź, jak obliczyć, czy Twój wymarzony dom zmieści się na działce. Odległości od granic, przepisy i praktyczne przykłady obliczeń.'
   robots:
     index: true
     follow: true

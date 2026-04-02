@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:00:57
 updateDate: 2026-01-10T20:29:54
-title: "Taras czy balkon – co wybrać przy budowie domu"
-excerpt: "Balkon w domu jednorodzinnym wygląda pięknie na wizualizacji. Ale czy naprawdę będziecie go używać?"
-image: "~/assets/images/blog/taras-czy-balkon-co-wybrac-przy-budowie-domu.jpeg"
-category: "Blog"
+title: 'Taras czy balkon – co wybrać przy budowie domu'
+excerpt: 'Balkon w domu jednorodzinnym wygląda pięknie na wizualizacji. Ale czy naprawdę będziecie go używać?'
+image: '~/assets/images/blog/taras-czy-balkon-co-wybrac-przy-budowie-domu.jpeg'
+category: 'Blog'
 tags:
-  - "taras czy balkon"
-  - "taras przy domu"
-  - "balkon w domu jednorodzinnym"
-author: "Wojciech Tracichleb"
+  - 'taras czy balkon'
+  - 'taras przy domu'
+  - 'balkon w domu jednorodzinnym'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/taras-czy-balkon-co-wybrac-przy-budowie-domu/"
-  title: "Taras czy balkon przy budowie domu? Praktyczny poradnik"
-  description: "Taras na gruncie czy balkon na piętrze? Poznaj różnice w kosztach, eksploatacji i ryzyku przecieków. Dowiedz się, które rozwiązanie wybrać."
+  canonical: 'https://pozytywniezbudowani.pl/blog/taras-czy-balkon-co-wybrac-przy-budowie-domu/'
+  title: 'Taras czy balkon przy budowie domu? Praktyczny poradnik'
+  description: 'Taras na gruncie czy balkon na piętrze? Poznaj różnice w kosztach, eksploatacji i ryzyku przecieków. Dowiedz się, które rozwiązanie wybrać.'
   robots:
     index: true
     follow: true

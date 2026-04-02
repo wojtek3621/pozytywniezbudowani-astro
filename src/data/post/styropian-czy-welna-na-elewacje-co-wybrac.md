@@ -1,26 +1,25 @@
 ---
 publishDate: 2026-02-14T17:57:59
 updateDate: 2026-02-14T22:39:21
-title: "Styropian czy wełna na elewację – co wybrać"
-excerpt: "Dwa materiały, zupełnie różne właściwości. Sprawdźcie, który naprawdę pasuje do Waszego domu."
-image: "~/assets/images/blog/styropian-czy-welna-na-elewacje-co-wybrac.jpeg"
-category: "Blog"
+title: 'Styropian czy wełna na elewację – co wybrać'
+excerpt: 'Dwa materiały, zupełnie różne właściwości. Sprawdźcie, który naprawdę pasuje do Waszego domu.'
+image: '~/assets/images/blog/styropian-czy-welna-na-elewacje-co-wybrac.jpeg'
+category: 'Blog'
 tags:
-  - "styropian czy wełna na elewację"
-  - "ocieplenie domu styropian wełna"
-  - "porównanie styropian wełna mineralna"
-author: "Wojciech Tracichleb"
+  - 'styropian czy wełna na elewację'
+  - 'ocieplenie domu styropian wełna'
+  - 'porównanie styropian wełna mineralna'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/styropian-czy-welna-na-elewacje-co-wybrac/"
-  title: "Styropian czy wełna na elewację – co wybrać i dlaczego?"
-  description: "Styropian czy wełna mineralna na ocieplenie domu? Porównuję lambda, cenę, ognioodporność, akustykę i montaż. Praktyczny poradnik dla inwestora budującego dom."
+  canonical: 'https://pozytywniezbudowani.pl/blog/styropian-czy-welna-na-elewacje-co-wybrac/'
+  title: 'Styropian czy wełna na elewację – co wybrać i dlaczego?'
+  description: 'Styropian czy wełna mineralna na ocieplenie domu? Porównuję lambda, cenę, ognioodporność, akustykę i montaż. Praktyczny poradnik dla inwestora budującego dom.'
   robots:
     index: true
     follow: true
 ---
 
 <p style="text-align: center;"><img alt="Płyty styropianowe przyklejone do ścian zewnętrznych domu jednorodzinnego podczas ocieplenia elewacji" class="responsive-image" src="/images/content/ocieplenie-elewacji-styropian-montaz.jpeg" style="width: 525px; height: 350px;" title="Montaż ocieplenia styropianowego na elewacji domu jednorodzinnego" /></p>
-
 
 <p style="text-align: justify;">To jedno z pytań, które słyszę najczęściej na budowach. I jednocześnie jedno z tych, na które nie da się odpowiedzieć jednym zdaniem. Bo wybór między styropianem a wełną mineralną to nie kwestia „lepszy–gorszy". To kwestia Waszego domu, Waszej lokalizacji, Waszego budżetu i – co może Was zaskoczyć – Waszego stosunku do ciszy, bezpieczeństwa i tego, jak długo chcecie mieszkać w tym domu bez niespodzianek.</p>
 

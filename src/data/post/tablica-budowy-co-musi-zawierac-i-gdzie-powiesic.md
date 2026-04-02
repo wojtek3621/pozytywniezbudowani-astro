@@ -1,17 +1,17 @@
 ---
 publishDate: 2026-02-04T14:02:36
 updateDate: 2026-02-04T14:05:21
-title: "Tablica budowy – co musi zawierać i gdzie powiesić"
-excerpt: "Zanim wbijecie pierwszą łopatę, musicie powiesić tablicę budowy. Sprawdźcie, jakie dane są wymagane i gdzie ją umieścić."
-image: "~/assets/images/blog/tablica-budowy-co-musi-zawierac-i-gdzie-powiesic.jpeg"
-category: "Blog"
+title: 'Tablica budowy – co musi zawierać i gdzie powiesić'
+excerpt: 'Zanim wbijecie pierwszą łopatę, musicie powiesić tablicę budowy. Sprawdźcie, jakie dane są wymagane i gdzie ją umieścić.'
+image: '~/assets/images/blog/tablica-budowy-co-musi-zawierac-i-gdzie-powiesic.jpeg'
+category: 'Blog'
 tags:
-  - "tablica-budowy-co-musi-zawierac-gdzie-powiesic"
-author: "Wojciech Tracichleb"
+  - 'tablica-budowy-co-musi-zawierac-gdzie-powiesic'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/tablica-budowy-co-musi-zawierac-i-gdzie-powiesic/"
-  title: "Tablica budowy – wymagania prawne i gdzie powiesić [2026]"
-  description: "Sprawdź co musi zawierać tablica budowy według prawa budowlanego. Wymagania, umiejscowienie, kary za brak tablicy informacyjnej na budowie."
+  canonical: 'https://pozytywniezbudowani.pl/blog/tablica-budowy-co-musi-zawierac-i-gdzie-powiesic/'
+  title: 'Tablica budowy – wymagania prawne i gdzie powiesić [2026]'
+  description: 'Sprawdź co musi zawierać tablica budowy według prawa budowlanego. Wymagania, umiejscowienie, kary za brak tablicy informacyjnej na budowie.'
   robots:
     index: true
     follow: true

@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-11T15:40:14
 updateDate: 2026-01-11T21:20:48
-title: "Ile kosztuje budowa domu w 2026 roku – realne koszty"
-excerpt: "Konkretna kwota za metr kwadratowy? To nie takie proste. Pokażę Ci, jak realnie oszacować budżet..."
-image: "~/assets/images/blog/ile-kosztuje-budowa-domu-w-2026-roku.jpeg"
-category: "Blog"
+title: 'Ile kosztuje budowa domu w 2026 roku – realne koszty'
+excerpt: 'Konkretna kwota za metr kwadratowy? To nie takie proste. Pokażę Ci, jak realnie oszacować budżet...'
+image: '~/assets/images/blog/ile-kosztuje-budowa-domu-w-2026-roku.jpeg'
+category: 'Blog'
 tags:
-  - "koszty budowy domu 2026"
-  - "ile kosztuje budowa domu"
-  - "budżet na budowę"
-author: "Wojciech Tracichleb"
+  - 'koszty budowy domu 2026'
+  - 'ile kosztuje budowa domu'
+  - 'budżet na budowę'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/ile-kosztuje-budowa-domu-w-2026-roku/"
-  title: "Ile kosztuje budowa domu w 2026 roku? Realne koszty"
-  description: "Poznaj realne koszty budowy domu w 2026 roku. Dowiedz się, jak oszacować budżet, co wpływa na cenę i jakich ukrytych kosztów się spodziewać."
+  canonical: 'https://pozytywniezbudowani.pl/blog/ile-kosztuje-budowa-domu-w-2026-roku/'
+  title: 'Ile kosztuje budowa domu w 2026 roku? Realne koszty'
+  description: 'Poznaj realne koszty budowy domu w 2026 roku. Dowiedz się, jak oszacować budżet, co wpływa na cenę i jakich ukrytych kosztów się spodziewać.'
   robots:
     index: true
     follow: true

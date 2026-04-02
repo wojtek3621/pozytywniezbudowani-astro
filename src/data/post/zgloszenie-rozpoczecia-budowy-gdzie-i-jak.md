@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-02-04T13:58:57
 updateDate: 2026-02-04T14:01:31
-title: "Zgłoszenie rozpoczęcia budowy – gdzie i jak"
-excerpt: "Pozwolenie na budowę w kieszeni, a łopata wciąż stoi? Jest jeszcze jeden krok, zanim legalnie wbijecie ją w ziemię."
-image: "~/assets/images/blog/zgloszenie-rozpoczecia-budowy-gdzie-i-jak.jpeg"
-category: "Blog"
+title: 'Zgłoszenie rozpoczęcia budowy – gdzie i jak'
+excerpt: 'Pozwolenie na budowę w kieszeni, a łopata wciąż stoi? Jest jeszcze jeden krok, zanim legalnie wbijecie ją w ziemię.'
+image: '~/assets/images/blog/zgloszenie-rozpoczecia-budowy-gdzie-i-jak.jpeg'
+category: 'Blog'
 tags:
-  - "zgłoszenie rozpoczęcia budowy"
-  - "zawiadomienie o rozpoczęciu robót budowlanych"
-  - "PINB"
-author: "Wojciech Tracichleb"
+  - 'zgłoszenie rozpoczęcia budowy'
+  - 'zawiadomienie o rozpoczęciu robót budowlanych'
+  - 'PINB'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/zgloszenie-rozpoczecia-budowy-gdzie-i-jak/"
-  title: "Zgłoszenie rozpoczęcia budowy 2026 - gdzie i jak złożyć"
-  description: "Jak zgłosić rozpoczęcie budowy domu? Gdzie złożyć zawiadomienie, jakie dokumenty przygotować i kiedy można zacząć prace. Praktyczny poradnik."
+  canonical: 'https://pozytywniezbudowani.pl/blog/zgloszenie-rozpoczecia-budowy-gdzie-i-jak/'
+  title: 'Zgłoszenie rozpoczęcia budowy 2026 - gdzie i jak złożyć'
+  description: 'Jak zgłosić rozpoczęcie budowy domu? Gdzie złożyć zawiadomienie, jakie dokumenty przygotować i kiedy można zacząć prace. Praktyczny poradnik.'
   robots:
     index: true
     follow: true

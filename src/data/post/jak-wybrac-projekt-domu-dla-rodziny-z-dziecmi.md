@@ -1,19 +1,19 @@
 ---
 publishDate: 2026-01-10T18:18:28
 updateDate: 2026-01-11T19:50:47
-title: "Jak wybrać projekt domu dla rodziny z dziećmi – praktyczny poradnik"
-excerpt: "Dzieci rosną szybciej niż myślicie. Jak wybrać projekt, który sprawdzi się przez następne 20 lat?"
-image: "~/assets/images/blog/jak-wybrac-projekt-domu-dla-rodziny-z-dziecmi.jpeg"
-category: "Blog"
+title: 'Jak wybrać projekt domu dla rodziny z dziećmi – praktyczny poradnik'
+excerpt: 'Dzieci rosną szybciej niż myślicie. Jak wybrać projekt, który sprawdzi się przez następne 20 lat?'
+image: '~/assets/images/blog/jak-wybrac-projekt-domu-dla-rodziny-z-dziecmi.jpeg'
+category: 'Blog'
 tags:
-  - "projekt domu dla rodziny"
-  - "dom dla dzieci"
-  - "projekt domu z pokojem dziecięcym"
-author: "Wojciech Tracichleb"
+  - 'projekt domu dla rodziny'
+  - 'dom dla dzieci'
+  - 'projekt domu z pokojem dziecięcym'
+author: 'Wojciech Tracichleb'
 metadata:
-  canonical: "https://pozytywniezbudowani.pl/blog/jak-wybrac-projekt-domu-dla-rodziny-z-dziecmi/"
-  title: "Jak wybrać projekt domu dla rodziny z dziećmi | Poradnik 2026"
-  description: "Praktyczne wskazówki jak wybrać projekt domu dla rodziny z dziećmi. Ile pokoi, parterowy czy piętrowy, bezpieczeństwo i przyszłościowe myślenie."
+  canonical: 'https://pozytywniezbudowani.pl/blog/jak-wybrac-projekt-domu-dla-rodziny-z-dziecmi/'
+  title: 'Jak wybrać projekt domu dla rodziny z dziećmi | Poradnik 2026'
+  description: 'Praktyczne wskazówki jak wybrać projekt domu dla rodziny z dziećmi. Ile pokoi, parterowy czy piętrowy, bezpieczeństwo i przyszłościowe myślenie.'
   robots:
     index: true
     follow: true
