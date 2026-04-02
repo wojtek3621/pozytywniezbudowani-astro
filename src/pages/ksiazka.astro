@@ -5,6 +5,7 @@ import Content from '~/components/widgets/Content.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
 
 import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
 
@@ -36,9 +37,13 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <strong>Twój przewodnik w drodze do własnego domu.</strong><br /><br />
-      Książka prowadzi Was przez wszystkie etapy budowy domu — od pierwszej myśli „Może wybudujemy własny dom?", przez wybór
-      projektu i działki, pozyskanie finansowania, budowę, aż po wykończenie wnętrz. Napisałem ją z myślą o tym, aby stała
-      się kompleksowym przewodnikiem po całym procesie budowlanym.
+      Książka prowadzi Was przez wszystkie etapy budowy domu — od pierwszej myśli „Może wybudujemy własny dom?", przez
+      wybór projektu i działki, pozyskanie finansowania, budowę, aż po wykończenie wnętrz. Napisałem ją z myślą o tym,
+      aby stała się kompleksowym przewodnikiem po całym procesie budowy domu jednorodzinnego.<br /><br />
+      Opisałem w niej, jak przygotować się do budowy domu oraz na co zwrócić uwagę na każdym z etapów budowy tak, by
+      przejść je bez niepotrzebnych nerwów i móc spać spokojnie. W tej książce nie ma przytoczonych dziesiątek norm
+      i przepisów budowlanych. To nie jest publikacja akademicka. Postawiłem sobie za cel pisać w przystępny sposób, aby
+      treść była łatwa w odbiorze, i jednocześnie przekazać Wam komplet informacji, których potrzebujecie.
     </Fragment>
   </Hero>
 
@@ -78,6 +83,11 @@ const metadata = {
         description: '',
         icon: 'tabler:eye',
       },
+      {
+        title: 'Kontrolę nad terminem i budżetem inwestycji',
+        description: '',
+        icon: 'tabler:chart-line',
+      },
     ]}
   />
 
@@ -88,19 +98,23 @@ const metadata = {
     title="Dla kogo powstała ta książka"
     items={[
       {
-        title: 'Marzycie o własnym domu, ale nie wiecie, od czego zacząć',
+        title: 'Marzą o własnym domu i myślą o jego budowie',
         description: '',
       },
       {
-        title: 'Jesteście w trakcie budowy i potrzebujecie sprawdzonych rozwiązań',
+        title: 'Budują systemem gospodarczym i szukają uporządkowanej wiedzy',
         description: '',
       },
       {
-        title: 'Wybraliście projekt i planujecie start',
+        title: 'Zatrudnili generalnego wykonawcę, ale chcą mieć poczucie kontroli nad budową',
         description: '',
       },
       {
-        title: 'Chcecie uniknąć błędów, które kosztują dziesiątki tysięcy złotych',
+        title: 'Rozważają kupno od dewelopera z obawy, że nie dadzą sobie rady z samodzielną organizacją budowy',
+        description: '',
+      },
+      {
+        title: 'Planują budowę za 2-3 lata i chcą się odpowiednio przygotować',
         description: '',
       },
     ]}
@@ -118,36 +132,122 @@ const metadata = {
   </Content>
 
   <!-- Spis treści -->
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12" id="spis-tresci">
     <h2 class="text-3xl font-bold dark:text-white mb-8 text-center">Spis treści</h2>
-    <div class="grid md:grid-cols-2 gap-6">
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Część 1 -->
       <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
-        <h3 class="font-bold text-primary text-lg mb-2">Część 1</h3>
-        <p class="text-muted">Marzenie o własnym domu</p>
+        <h3 class="font-bold text-primary text-lg mb-3">Część 1 — Marzenie o własnym domu</h3>
+        <ul class="space-y-1 text-muted text-sm">
+          <li>Kim jestem? Dwa słowa, zanim zaczniemy</li>
+          <li>Pięć porad, jak czytać tę książkę, aby wykorzystać ją w pełni</li>
+          <li>Czego pragniesz?</li>
+          <li>Finanse i historia miksera za 300 zł</li>
+          <li>Wymarzony projekt</li>
+          <li>Wymarzona działka</li>
+        </ul>
       </div>
+
+      <!-- Część 2 -->
       <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
-        <h3 class="font-bold text-primary text-lg mb-2">Część 2</h3>
-        <p class="text-muted">Planowanie budowy własnego domu</p>
+        <h3 class="font-bold text-primary text-lg mb-3">Część 2 — Planowanie budowy</h3>
+        <ul class="space-y-1 text-muted text-sm">
+          <li>Twoja Drużyna Pierścienia</li>
+          <li>Wybór technologii budowy</li>
+          <li>Zakup działki</li>
+          <li>Co jeśli nie umiesz znaleźć odpowiedniej działki?</li>
+          <li>Ostateczny wybór projektu</li>
+          <li>Pozwolenie na budowę</li>
+          <li>Poziom zero budynku</li>
+          <li>Kredyt hipoteczny</li>
+          <li>Projekt wnętrz</li>
+          <li>Kto to wybuduje i kiedy zacząć rozmawiać z wykonawcami?</li>
+          <li>Ukryte pieniądze</li>
+          <li>Polisa ubezpieczeniowa</li>
+          <li>Ostatnie przygotowania</li>
+        </ul>
       </div>
+
+      <!-- Część 3A -->
       <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
-        <h3 class="font-bold text-primary text-lg mb-2">Część 3A</h3>
-        <p class="text-muted">Od pustej działki do stanu surowego otwartego</p>
+        <h3 class="font-bold text-primary text-lg mb-3">Część 3A — Od pustej działki do stanu surowego</h3>
+        <ul class="space-y-1 text-muted text-sm">
+          <li>Wytyczenie przez geodetę</li>
+          <li>Płyta fundamentowa czy ławy fundamentowe</li>
+          <li>Kanalizacja i przelotki mediów</li>
+          <li>Szalunki, chudy beton i zbrojenie</li>
+          <li>Izolacja pionowa</li>
+          <li>Ściany fundamentowe</li>
+          <li>Murowanie ścian nośnych</li>
+          <li>Elementy żelbetowe</li>
+          <li>Konstrukcja dachu</li>
+          <li>Pokrycia dachowe</li>
+          <li>Ściany działowe</li>
+        </ul>
       </div>
+
+      <!-- Część 3B -->
       <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
-        <h3 class="font-bold text-primary text-lg mb-2">Część 3B</h3>
-        <p class="text-muted">Od stanu surowego otwartego do stanu deweloperskiego</p>
+        <h3 class="font-bold text-primary text-lg mb-3">Część 3B — Do stanu deweloperskiego</h3>
+        <ul class="space-y-1 text-muted text-sm">
+          <li>Stolarka otworowa — drzwi, okna, rolety, brama</li>
+          <li>Przyłącza do budynku (woda, kanalizacja, gaz)</li>
+          <li>Instalacja elektryczna</li>
+          <li>Klimatyzacja</li>
+          <li>Fotowoltaika</li>
+          <li>Tynki maszynowe</li>
+          <li>Rekuperacja — wentylacja z odzyskiem ciepła</li>
+          <li>Instalacja wodno-kanalizacyjna</li>
+          <li>Ogrzewanie — źródła ciepła i sposoby ogrzewania</li>
+          <li>Wylewki podłogowe</li>
+          <li>Sufity podwieszane i zabudowa poddasza</li>
+          <li>Docieplenie elewacji</li>
+        </ul>
       </div>
+
+      <!-- Część 4 -->
       <div
         class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700 md:col-span-2"
       >
-        <h3 class="font-bold text-primary text-lg mb-2">Część 4</h3>
-        <p class="text-muted">Wykańczanie domu, a nie inwestora</p>
+        <h3 class="font-bold text-primary text-lg mb-3">Część 4 — Wykańczanie domu, a nie inwestora</h3>
+        <div class="grid sm:grid-cols-2 gap-x-8">
+          <ul class="space-y-1 text-muted text-sm">
+            <li>Wykończenie łazienek</li>
+            <li>Płytkowanie pozostałych podłóg</li>
+            <li>Gładzie i malowanie</li>
+            <li>Montaż klimatyzatorów</li>
+            <li>Osprzęt elektryczny i oświetlenie</li>
+            <li>Listwy przypodłogowe</li>
+            <li>Zgłoszenie zakończenia prac w nadzorze</li>
+          </ul>
+          <ul class="space-y-1 text-muted text-sm">
+            <li>Utwardzenie terenu wokół domu</li>
+            <li>Automatyczne nawadnianie i roboty koszące</li>
+            <li>Studnia głębinowa</li>
+            <li>Zmiękczacz wody</li>
+            <li>Basen w ogrodzie</li>
+            <li>Smart home — inteligentne domy</li>
+            <li>Instalacja alarmowa lub monitoring</li>
+            <li>Ładowarka samochodów elektrycznych</li>
+            <li>Kino domowe</li>
+            <li>Centralny odkurzacz czy może robot</li>
+          </ul>
+        </div>
       </div>
     </div>
     <p class="text-sm text-muted text-center mt-4">
       Zamówienia złożone do godziny 11:00 zostają wysłane tego samego dnia.
     </p>
   </div>
+
+  <!-- Stats -->
+  <Stats
+    stats={[
+      { title: 'Lat doświadczenia', amount: '12+' },
+      { title: 'Osób w zespole', amount: '3' },
+      { title: 'Miesięcy pracy nad książką', amount: '10' },
+    ]}
+  />
 
   <!-- O autorze -->
   <Content
@@ -215,6 +315,79 @@ const metadata = {
       },
     ]}
   />
+
+  <!-- Drużyna Pierścienia -->
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12" id="druzyna">
+    <div class="text-center mb-10">
+      <p class="text-sm font-semibold uppercase tracking-wider text-primary">Zespół</p>
+      <h2 class="text-3xl font-bold dark:text-white mt-2 mb-4">Moja Drużyna Pierścienia</h2>
+      <p class="text-muted max-w-2xl mx-auto">
+        Tak samo jak budowa domu jest ogromnym przedsięwzięciem, tak i napisanie tej książki było nie lada wyzwaniem. W
+        pracę nad książką zaangażowanych było wiele osób. To ich wsparciu, wiedzy i zaangażowaniu książka zawdzięcza swój
+        ostateczny kształt.
+      </p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Dagmara Biela</h3>
+        <p class="text-sm text-primary mb-2">Doradztwo i koordynacja</p>
+        <p class="text-muted text-sm">
+          Matka Chrzestna książki i całego projektu Pozytywnie Zbudowani. Od kilku lat, jako coach i mentorka, wspiera
+          autora w prowadzeniu firmy w ramach Akademii Liderów Branży Budowlanej.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Witold Nieć</h3>
+        <p class="text-sm text-primary mb-2">Redaktor prowadzący</p>
+        <p class="text-muted text-sm">
+          Dziennikarz, publicysta, redaktor z blisko 40-letnim doświadczeniem ze słowem pisanym. Współautor przewodników
+          po Korsyce. Służył radą na każdym etapie pracy nad książką.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Adrianna Hess</h3>
+        <p class="text-sm text-primary mb-2">Redakcja i korekta</p>
+        <p class="text-muted text-sm">
+          Edycją tekstów zajmuje się od niemal 10 lat. Rozwiązała każde zbyt zawiłe zdanie i zadbała, by treść była
+          jednocześnie precyzyjna i przystępna.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Mirosław Marmaj</h3>
+        <p class="text-sm text-primary mb-2">Projekt okładki</p>
+        <p class="text-muted text-sm">
+          Nie tylko stworzył oprawę książki, ale odpowiada też za stronę internetową i całą identyfikację wizualną marki
+          Pozytywnie Zbudowani.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Katarzyna Rzędzian</h3>
+        <p class="text-sm text-primary mb-2">Ilustracje</p>
+        <p class="text-muted text-sm">
+          Niezwykle utalentowana artystka, specjalizująca się w grafice i animacji komputerowej. Dzięki jej pracy
+          trudniejsze zagadnienia stają się zrozumiałe na pierwszy rzut oka.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Bartosz Jończyk</h3>
+        <p class="text-sm text-primary mb-2">Łamanie i skład</p>
+        <p class="text-muted text-sm">
+          Od lat pomaga autorom publikacji przekazywać wiedzę w sposób czytelny i łatwy w odbiorze. Dzięki jego
+          zaangażowaniu treść przyswoicie bez trudu.
+        </p>
+      </div>
+      <div
+        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700 sm:col-span-2 lg:col-span-1"
+      >
+        <h3 class="font-bold dark:text-white text-lg">Kinga Dolczewska</h3>
+        <p class="text-sm text-primary mb-2">Korekta po składzie</p>
+        <p class="text-muted text-sm">
+          Korektorka z ponad dziesięcioletnim doświadczeniem. Zaopiekowała się każdą wdową i sierotą w tekście, dbając o
+          perfekcyjny efekt końcowy.
+        </p>
+      </div>
+    </div>
+  </div>
 
   <!-- CTA -->
   <CallToAction
