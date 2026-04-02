@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Wnętrze garderoby walk-in z drążkami na ubrania, półkami i szufladami w jasnym pomieszczeniu domu jednorodzinnego" class="responsive-image" src="/images/content/garderoba-walk-in-organizacja-ubrania.jpeg" style="width: 525px; height: 350px;" title="Garderoba walk-in z uporządkowanymi ubraniami i półkami" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Wnętrze garderoby walk-in z drążkami na ubrania, półkami i szufladami w jasnym pomieszczeniu domu jednorodzinnego" class="responsive-image" src="/images/content/garderoba-walk-in-organizacja-ubrania.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Garderoba walk-in z uporządkowanymi ubraniami i półkami" /></p>
 
 <p style="text-align: justify;">Garderoba walk-in to pojęcie kojarzące się z przestronnym pomieszczeniem, wyspami z szufladami i spokojnym porankiem. Tymczasem w polskiej rzeczywistości budowy domu jednorodzinnego garderoba to jedno z tych pomieszczeń, które albo zaplanujecie porządnie na etapie projektu, albo będziecie kombinować latami, próbując wycisnąć z dwóch metrów kwadratowych coś, co nawet nie zasługuje na nazwę garderoby.</p>
 

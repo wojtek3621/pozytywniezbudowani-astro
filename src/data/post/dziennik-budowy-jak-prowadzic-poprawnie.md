@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Dziennik budowy z wpisami i długopisem na tle placu budowy domu jednorodzinnego" class="responsive-image" src="/images/content/dziennik-budowy-wpisy-dokumentacja.jpeg" style="width: 525px; height: 350px;" title="Dziennik budowy - oficjalny dokument przebiegu robót budowlanych" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Dziennik budowy z wpisami i długopisem na tle placu budowy domu jednorodzinnego" class="responsive-image" src="/images/content/dziennik-budowy-wpisy-dokumentacja.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Dziennik budowy - oficjalny dokument przebiegu robót budowlanych" /></p>
 
 <p style="text-align: justify;">Dziennik budowy to jeden z tych dokumentów, które większość inwestorów traktuje jak zło konieczne. Kolejna papierologia, kolejny wymóg urzędniczy, kolejna rzecz do odhaczenia. A potem, gdy przychodzi moment zakończenia budowy i składania zawiadomienia do nadzoru budowlanego, okazuje się, że w dzienniku brakuje połowy wpisów, daty się nie zgadzają, a kierownik budowy „jakoś zapomniał" udokumentować odbiór zbrojenia fundamentów. I zaczyna się problem.</p>
 

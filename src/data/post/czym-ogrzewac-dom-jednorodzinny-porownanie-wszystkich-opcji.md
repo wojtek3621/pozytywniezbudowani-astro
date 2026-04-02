@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Jednostka zewnętrzna pompy ciepła zamontowana przy ścianie nowoczesnego domu jednorodzinnego" class="responsive-image" src="/images/content/pompa-ciepla-jednostka-zewnetrzna-dom.jpeg" style="width: 525px; height: 350px;" title="Pompa ciepła powietrze-woda przy nowoczesnym domu jednorodzinnym" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Jednostka zewnętrzna pompy ciepła zamontowana przy ścianie nowoczesnego domu jednorodzinnego" class="responsive-image" src="/images/content/pompa-ciepla-jednostka-zewnetrzna-dom.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Pompa ciepła powietrze-woda przy nowoczesnym domu jednorodzinnym" /></p>
 
 <p style="text-align: justify;">Wybór źródła ciepła to jedna z tych decyzji na budowie, o których będziecie myśleć codziennie przez najbliższe kilkanaście, a może i kilkadziesiąt lat. Każdego ranka, gdy włączycie ciepłą wodę w kranie. Każdego wieczoru, gdy w domu będzie ciepło – albo nie do końca. I każdego miesiąca, gdy przyjdzie rachunek za ogrzewanie. To nie jest decyzja, którą podejmuje się na podstawie opinii sąsiada albo reklamy w internecie. To decyzja, która wymaga zrozumienia kilku kluczowych zagadnień – i właśnie w tym chcę Wam pomóc.</p>
 

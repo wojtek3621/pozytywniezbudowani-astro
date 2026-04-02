@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Architekt omawiający plany projektu domu z klientami przy biurku w jasnym biurze" class="responsive-image" src="/images/content/architekt-adaptujacy-konsultacja.jpeg" style="width: 525px; height: 350px;" title="Konsultacja z architektem adaptującym – omówienie projektu domu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Architekt omawiający plany projektu domu z klientami przy biurku w jasnym biurze" class="responsive-image" src="/images/content/architekt-adaptujacy-konsultacja.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Konsultacja z architektem adaptującym – omówienie projektu domu" /></p>
 
 <p style="text-align: justify;"><strong>Architekt adaptujący to pierwsza osoba, z którą będziecie współpracować na drodze do pozwolenia na budowę. To on sprawia, że projekt gotowy staje się projektem budowlanym – dokumentem, który pozwoli Wam legalnie rozpocząć budowę. Wybór właściwej osoby na tym etapie może Wam zaoszczędzić zarówno pieniędzy, jak i nerwów. Ale może też kosztować – jeśli podejdziecie do tego pochopnie.</strong></p>
 

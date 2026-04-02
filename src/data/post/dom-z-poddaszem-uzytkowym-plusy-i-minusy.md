@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Jasna sypialnia na poddaszu użytkowym z widocznymi skosami sufitu i oknem dachowym" class="responsive-image" src="/images/content/poddasze-uzytkowe-skosy-sypialnia.jpeg" style="width: 525px; height: 350px;" title="Sypialnia na poddaszu użytkowym – przytulne wnętrze ze skosami" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Jasna sypialnia na poddaszu użytkowym z widocznymi skosami sufitu i oknem dachowym" class="responsive-image" src="/images/content/poddasze-uzytkowe-skosy-sypialnia.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Sypialnia na poddaszu użytkowym – przytulne wnętrze ze skosami" /></p>
 
 <p style="text-align: justify;"><strong>Przeglądając projekty domów, prędzej czy później traficie na budynki z poddaszem użytkowym. Te charakterystyczne skosy na piętrze budzą skrajne emocje – jedni uważają je za przytulny element nadający wnętrzom niepowtarzalny charakter, inni widzą w nich wyłącznie utrudnienie w aranżacji i stratę cennej przestrzeni. Prawda, jak to zwykle bywa, leży gdzieś pośrodku. Zanim podejmiecie decyzję o wyborze takiego projektu, warto dokładnie zrozumieć, z czym wiąże się życie pod skosami.</strong></p>
 

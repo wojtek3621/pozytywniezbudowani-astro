@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Kierownik budowy w kasku ochronnym z dokumentacją na tle domu w budowie" class="responsive-image" src="/images/content/kierownik-budowy-nadzor-dokumentacja.jpeg" style="width: 525px; height: 350px;" title="Kierownik budowy sprawdzający dokumentację na placu budowy domu jednorodzinnego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Kierownik budowy w kasku ochronnym z dokumentacją na tle domu w budowie" class="responsive-image" src="/images/content/kierownik-budowy-nadzor-dokumentacja.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Kierownik budowy sprawdzający dokumentację na placu budowy domu jednorodzinnego" /></p>
 
 <p style="text-align: justify;">Wyobraźcie sobie, że budujecie dom bez nawigacji. Macie samochód, macie cel, ale nie wiecie, którędy jechać. Możecie się zatrzymywać i pytać przechodniów, ale każdy wskaże Wam inną drogę. Niektórzy będą mieli dobre intencje, inni nie. A Wy nie macie jak ocenić, kto ma rację. Dokładnie tak wygląda budowa domu bez kompetentnego kierownika budowy. Niby wszystko się toczy, ekipy pracują, materiały przyjeżdżają – ale czy na pewno w dobrym kierunku?</p>
 

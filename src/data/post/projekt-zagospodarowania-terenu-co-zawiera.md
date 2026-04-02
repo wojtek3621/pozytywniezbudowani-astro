@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Rysunek techniczny projektu zagospodarowania terenu z oznaczonym domem, podjazdem i przyłączami mediów" class="responsive-image" src="/images/content/projekt-zagospodarowania-terenu-plan.jpeg" style="width: 525px; height: 350px;" title="Projekt zagospodarowania terenu – plan działki z domem i infrastrukturą" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Rysunek techniczny projektu zagospodarowania terenu z oznaczonym domem, podjazdem i przyłączami mediów" class="responsive-image" src="/images/content/projekt-zagospodarowania-terenu-plan.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Projekt zagospodarowania terenu – plan działki z domem i infrastrukturą" /></p>
 
 <p style="text-align: justify;">Kiedy kupujecie gotowy projekt domu i oddajecie go architektowi adaptującemu, większość z Was skupia się na tym, co dzieje się wewnątrz budynku. Rozkład pomieszczeń, wielkość okien, może zmiana kąta nachylenia dachu. Tymczasem jest jeden dokument, który często przelatuje przez ręce inwestorów niemal niezauważony, a który potrafi zdeterminować, jak będziecie żyć na swojej działce przez kolejne dekady. Mówię o projekcie zagospodarowania terenu.</p>
 

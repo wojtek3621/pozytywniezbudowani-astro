@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Formularz zawiadomienia o rozpoczęciu budowy PB-12 z długopisem na biurku" class="responsive-image" src="/images/content/zgloszenie-rozpoczecia-budowy-formularz.jpeg" style="width: 525px; height: 350px;" title="Formularz zgłoszenia rozpoczęcia robót budowlanych do nadzoru budowlanego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Formularz zawiadomienia o rozpoczęciu budowy PB-12 z długopisem na biurku" class="responsive-image" src="/images/content/zgloszenie-rozpoczecia-budowy-formularz.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Formularz zgłoszenia rozpoczęcia robót budowlanych do nadzoru budowlanego" /></p>
 
 <p style="text-align: justify;">Dostaliście <a href="/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku">pozwolenie na budowę</a>. <a href="/blog/kierownik-budowy-obowiazki-i-jak-wybrac">Kierownik budowy</a> podpisał umowę. Ekipa czeka na telefon. I co teraz – możecie zaczynać? Nie tak szybko. Między pozwoleniem a pierwszym kopnięciem łopaty jest jeszcze jeden krok – zawiadomienie o rozpoczęciu robót budowlanych. To formalność, ale taka, której pominięcie może Was kosztować. I nie mówię tu o karze finansowej, choć ta też istnieje. Mówię o spokoju ducha, że wszystko robicie zgodnie z przepisami, że nikt za pół roku nie zapuka do drzwi z pytaniem, dlaczego budowa ruszyła bez powiadomienia nadzoru.</p>
 

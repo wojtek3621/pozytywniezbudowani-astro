@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację: znajdujecie wymarzoną działkę w pięknej okolicy, cena jest atrakcyjna, wymiary odpowiadają Waszym potrzebom, a sprzedający zapewnia, że wszystko jest w porządku. Podpisujecie akt notarialny, płacicie, a potem okazuje się, że do tej działki nie ma legalnego dojazdu. Starostwo odmawia wydania pozwolenia na budowę, a Wy zostajecie z pięknym kawałkiem ziemi, na którym nie możecie zbudować domu. Brzmi jak scenariusz koszmaru? Niestety, takie sytuacje zdarzają się częściej, niż mogłoby się wydawać.</p>
 
-<p style="text-align: center;"><img alt="Wąska droga żwirowa prowadząca między posesjami do działki w głębi" class="responsive-image" src="/images/content/sluzebnosc-przejazdu-droga-dojazdowa.jpeg" style="width: 525px; height: 350px;" title="Droga dojazdowa przez sąsiednią działkę – służebność przejazdu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Wąska droga żwirowa prowadząca między posesjami do działki w głębi" class="responsive-image" src="/images/content/sluzebnosc-przejazdu-droga-dojazdowa.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Droga dojazdowa przez sąsiednią działkę – służebność przejazdu" /></p>
 
 <p style="text-align: justify;">Dostęp do drogi publicznej to jeden z tych elementów, które na pierwszy rzut oka wydają się oczywiste, a w praktyce potrafią zablokować całą inwestycję. Jeśli zastanawiacie się nad zakupem działki budowlanej, ten temat powinniście poznać dogłębnie – zanim podpiszecie jakąkolwiek umowę.</p>
 

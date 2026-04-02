@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Widok z okna na rozległą panoramę miasta, poranna kawa na tarasie z widokiem na góry, dom wtopiony w zbocze niczym kadr z architektonicznego magazynu. Działka na skarpie potrafi rozbudzić wyobraźnię jak mało które miejsce pod budowę domu. Ale zanim pozwolicie, by romantyczna wizja przesłoniła Wam zdrowy rozsądek, musimy porozmawiać o tym, czego zdjęcia w ogłoszeniach nie pokazują – o fundamentach, drenażu, murach oporowych i kilkudziesięciu tysiącach złotych dodatkowych kosztów, które mogą Was czekać. Bo działka na skarpie to nie jest zwykła działka z „lekkim problemem". To zupełnie inna kategoria inwestycji.</p>
 
-<p style="text-align: center;"><img alt="Działka budowlana położona na zboczu z panoramicznym widokiem na okolicę" class="responsive-image" src="/images/content/dzialka-na-skarpie-zbocze.jpeg" style="width: 525px; height: 350px;" title="Działka budowlana na skarpie z widokiem" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Działka budowlana położona na zboczu z panoramicznym widokiem na okolicę" class="responsive-image" src="/images/content/dzialka-na-skarpie-zbocze.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Działka budowlana na skarpie z widokiem" /></p>
 
 <h2 style="text-align: justify;">Dlaczego działki na skarpie kuszą – i dlaczego bywają tańsze</h2>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Prefabrykowane wiązary dachowe podnoszone dźwigiem na ściany domu jednorodzinnego podczas montażu więźby" class="responsive-image" src="/images/content/wiezba-dachowa-montaz-wiazarow-dzwig.jpeg" style="width: 525px; height: 350px;" title="Montaż wiązarów prefabrykowanych dźwigiem na budowie domu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Prefabrykowane wiązary dachowe podnoszone dźwigiem na ściany domu jednorodzinnego podczas montażu więźby" class="responsive-image" src="/images/content/wiezba-dachowa-montaz-wiazarow-dzwig.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Montaż wiązarów prefabrykowanych dźwigiem na budowie domu" /></p>
 
 <p style="text-align: justify;">Jest taki moment na budowie, kiedy ściany stoją, wieniec zalany, a Wy wchodzicie na plac i nagle uświadamiacie sobie, że teraz zaczyna się dach. I natychmiast pojawia się pytanie, które potrafi wywołać gorące dyskusje na każdym forum budowlanym – więźba tradycyjna czy wiązary prefabrykowane? Obydwie technologie mają swoich zagorzałych zwolenników. Obydwie mają realne zalety. I obydwie – przy złym wykonaniu – mogą stać się źródłem poważnych problemów na lata. Pytanie nie brzmi „która jest lepsza", bo odpowiedź zależy od Waszego konkretnego domu, Waszego projektu i Waszych planów. Pytanie brzmi: na podstawie jakich kryteriów podjąć tę decyzję świadomie?</p><h2>Dlaczego ten wybór jest ważniejszy, niż myślicie</h2>
 

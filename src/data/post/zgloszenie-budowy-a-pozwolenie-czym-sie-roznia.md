@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Dwa formularze budowlane na biurku symbolizujące wybór między zgłoszeniem a pozwoleniem na budowę" class="responsive-image" src="/images/content/zgloszenie-budowy-vs-pozwolenie-porownanie.jpeg" style="width: 525px; height: 350px;" title="Porównanie procedur: zgłoszenie budowy i pozwolenie na budowę" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Dwa formularze budowlane na biurku symbolizujące wybór między zgłoszeniem a pozwoleniem na budowę" class="responsive-image" src="/images/content/zgloszenie-budowy-vs-pozwolenie-porownanie.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Porównanie procedur: zgłoszenie budowy i pozwolenie na budowę" /></p>
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację: stoicie przed urzędem z teczką dokumentów, przekonani, że za chwilę załatwicie wszystkie formalności i wreszcie ruszycie z budową. A urzędnik mówi Wam, że wybraliście złą procedurę. Że Wasz dom – ten konkretny, na tej konkretnej działce – wymaga pozwolenia na budowę, a nie zgłoszenia. Że musicie zaczynać od nowa. Tracicie tygodnie, może miesiące. I co najgorsze – mogliście tego uniknąć, gdybyście wcześniej zrozumieli, na czym polega różnica między tymi dwiema ścieżkami.</p>
 

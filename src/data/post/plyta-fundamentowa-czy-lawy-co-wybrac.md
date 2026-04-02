@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Płyta fundamentowa ze zbrojeniem stalowym gotowa do zalania betonem na placu budowy domu jednorodzinnego" class="responsive-image" src="/images/content/plyta-fundamentowa-zbrojenie-budowa-domu.jpeg" style="width: 525px; height: 350px;" title="Przygotowanie płyty fundamentowej z siatką zbrojeniową na placu budowy" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Płyta fundamentowa ze zbrojeniem stalowym gotowa do zalania betonem na placu budowy domu jednorodzinnego" class="responsive-image" src="/images/content/plyta-fundamentowa-zbrojenie-budowa-domu.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Przygotowanie płyty fundamentowej z siatką zbrojeniową na placu budowy" /></p>
 
 <p style="text-align: justify;">Fundament to jedyna część domu, której nie da się poprawić po fakcie. Można wymienić dach, przebudować ściany, zmienić instalacje – ale to, co leży pod ziemią, zostaje tam na zawsze. I właśnie dlatego decyzja „płyta czy ławy" nie powinna wynikać z tego, co akurat poleca sąsiad albo co buduje ekipa, z którą podpisaliście umowę. Powinna wynikać z twardych danych – z tego, co mówi Wam grunt pod nogami.</p>
 

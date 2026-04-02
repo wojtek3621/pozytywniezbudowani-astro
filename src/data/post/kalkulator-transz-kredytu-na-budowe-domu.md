@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Etapowy układ banknotów i monet symbolizujący transze kredytu budowlanego" class="responsive-image" src="/images/content/transze-kredytu-karencja-etapy-pieniadze.jpeg" style="width: 525px; height: 350px;" title="Transze kredytu budowlanego - kalkulator kosztów w okresie karencji" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Etapowy układ banknotów i monet symbolizujący transze kredytu budowlanego" class="responsive-image" src="/images/content/transze-kredytu-karencja-etapy-pieniadze.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Transze kredytu budowlanego - kalkulator kosztów w okresie karencji" /></p>
 
 <p style="text-align: justify;">Kupując mieszkanie na kredyt, dostajesz całą kwotę od razu. Podpisujesz umowę, bank przelewa pieniądze sprzedającemu, a Ty od następnego miesiąca spłacasz normalne raty – odsetki plus kapitał. Z każdą kolejną wpłatą Twój dług maleje. Proste, logiczne, przewidywalne.</p>
 

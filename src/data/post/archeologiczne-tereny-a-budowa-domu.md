@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację: kupiliście działkę, macie projekt, pozwolenie na budowę, koparka właśnie zaczyna zdejmować humus – i nagle operator zatrzymuje maszynę. W łyżce coś błysnęło. Fragment ceramiki? Kawałek starego metalu? A może coś, co wygląda na kość? Od tego momentu Wasza budowa może stanąć na kilka dni, tygodni, a w skrajnych przypadkach – nawet na pół roku. I nie chodzi tu o żadną groźbę ani straszenie. To realne konsekwencje wynikające z polskiego prawa, które chroni dziedzictwo archeologiczne.</p>
 
-<p style="text-align: center;"><img alt="Działka budowlana z tablicą informacyjną o strefie ochrony archeologicznej" class="responsive-image" src="/images/content/teren-archeologiczny-budowa-domu.jpeg" style="width: 525px; height: 350px;" title="Działka w strefie ochrony archeologicznej" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Działka budowlana z tablicą informacyjną o strefie ochrony archeologicznej" class="responsive-image" src="/images/content/teren-archeologiczny-budowa-domu.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Działka w strefie ochrony archeologicznej" /></p>
 
 <p style="text-align: justify;">W Polsce zarejestrowanych jest około pół miliona stanowisk archeologicznych. To tereny, na których w przeszłości odkryto ślady dawnych osad, cmentarzysk, miejsc kultu lub po prostu artefakty świadczące o tym, że kiedyś żyli tu ludzie. Biorąc pod uwagę rozległość naszego kraju i burzliwą historię tych ziem – od kultur neolitycznych, przez osady słowiańskie, po średniowieczne grodziska – prawdopodobieństwo, że Wasza wymarzona działka znajduje się w pobliżu takiego stanowiska, wcale nie jest takie małe, jak mogłoby się wydawać.</p>
 

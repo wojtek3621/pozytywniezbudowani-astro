@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Wyobraźcie sobie sytuację: znajdujecie działkę idealną pod każdym względem. Lokalizacja – świetna. Cena – akceptowalna. Wymiary – pasują do projektu. Podpisujecie umowę przedwstępną, wpłacacie zadatek, a potem okazuje się, że nie możecie na niej postawić domu, o którym marzycie. Dlaczego? Bo w miejscowym planie zagospodarowania przestrzennego jest zapisane, że dach musi mieć kąt nachylenia 35–45 stopni, a Wasz wymarzony dom ma dach płaski. Albo że garaż musi znajdować się w bryle budynku, a Wy wybraliście projekt bez garażu. Takie historie zdarzają się częściej, niż mogłoby się wydawać – i właśnie dlatego nauka czytania MPZP to jedna z podstawowych umiejętności, które powinniście opanować, zanim zaczniecie poważnie szukać działki.</p>
 
-<p style="text-align: center;"><img alt="Kolorowa mapa MPZP z oznaczeniami stref i legendą rozłożona na biurku obok dokumentów" class="responsive-image" src="/images/content/mpzp-miejscowy-plan-zagospodarowania-mapa.jpeg" style="width: 525px; height: 350px;" title="Miejscowy plan zagospodarowania przestrzennego rozłożony na biurku" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Kolorowa mapa MPZP z oznaczeniami stref i legendą rozłożona na biurku obok dokumentów" class="responsive-image" src="/images/content/mpzp-miejscowy-plan-zagospodarowania-mapa.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Miejscowy plan zagospodarowania przestrzennego rozłożony na biurku" /></p>
 
 <h2 style="text-align: justify;">Czym właściwie jest miejscowy plan zagospodarowania przestrzennego</h2>
 

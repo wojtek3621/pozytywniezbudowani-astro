@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Para przy stole z laptopem i dokumentami planująca finansowanie budowy domu" class="responsive-image" src="/images/content/przygotowanie-finansowe-budowa-domu-rodzina-planuje.jpeg" style="width: 525px; height: 350px;" title="Rodzina planująca finansowanie budowy domu - kompleksowe przygotowanie" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Para przy stole z laptopem i dokumentami planująca finansowanie budowy domu" class="responsive-image" src="/images/content/przygotowanie-finansowe-budowa-domu-rodzina-planuje.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Rodzina planująca finansowanie budowy domu - kompleksowe przygotowanie" /></p>
 
 <p style="text-align: justify;">Budowa domu to nie tylko beton, cegły i dachówki. To przede wszystkim pieniądze, które musicie mieć pod kontrolą na długo przed pierwszą wizytą w banku. I nie mówię tu o miesiącach – mówię o latach. Dosłownie latach przygotowań, zanim w ogóle zaczniecie myśleć o projekcie czy działce. Większość osób marzących o własnych czterech kątach nie zdaje sobie z tego sprawy. Myślą, że wystarczy uzbierać na wkład własny, pójść do banku i sprawa załatwiona. Tymczasem przygotowanie finansowe do budowy domu to proces, który powinien zacząć się na długo przed złożeniem pierwszego wniosku kredytowego.</p>
 

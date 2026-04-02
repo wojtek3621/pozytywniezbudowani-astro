@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Faktury za materiały budowlane obok kalkulatora i stosu banknotów euro" class="responsive-image" src="/images/content/vat-materialy-budowlane-faktury-oszczednosci.jpeg" style="width: 525px; height: 350px;" title="Oszczędności na VAT przy zakupie materiałów budowlanych" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Faktury za materiały budowlane obok kalkulatora i stosu banknotów euro" class="responsive-image" src="/images/content/vat-materialy-budowlane-faktury-oszczednosci.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Oszczędności na VAT przy zakupie materiałów budowlanych" /></p>
 
 <p style="text-align: justify;">Za każdym razem niesamowicie zaskakuje mnie, gdy widzę osobę prywatną kupującą materiał budowlany w hurtowni – nieważne, czy pustak, beton, piasek, dachówkę, kable elektryczne, rurki do podłogówki, czy farbę do ścian. I nie chodzi mi o to, że coś robi źle. Chodzi o to, że przepłaca. Czasami bardzo mocno przepłaca.</p>
 

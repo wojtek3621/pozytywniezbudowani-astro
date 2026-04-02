@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Inspektor nadzoru inwestorskiego w kasku kontrolujący dokumentację na budowie domu" class="responsive-image" src="/images/content/inspektor-nadzoru-inwestorskiego-kontrola.jpeg" style="width: 525px; height: 350px;" title="Inspektor nadzoru inwestorskiego sprawdzający jakość robót budowlanych" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Inspektor nadzoru inwestorskiego w kasku kontrolujący dokumentację na budowie domu" class="responsive-image" src="/images/content/inspektor-nadzoru-inwestorskiego-kontrola.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Inspektor nadzoru inwestorskiego sprawdzający jakość robót budowlanych" /></p>
 
 <p style="text-align: justify;">Budujecie dom i macie już kierownika budowy. Architekta też. Może nawet generalnego wykonawcę. I nagle ktoś pyta: „A co z inspektorem nadzoru inwestorskiego?". Wasze pierwsze pytanie brzmi zapewne: „Czy to nie jest przypadkiem to samo co kierownik budowy?". Drugie: „Czy naprawdę muszę płacić kolejnej osobie za patrzenie na moją budowę?". To dobre pytania i zasługują na uczciwe odpowiedzi.</p>
 

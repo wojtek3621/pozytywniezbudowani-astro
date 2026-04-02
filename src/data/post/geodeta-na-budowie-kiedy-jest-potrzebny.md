@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Geodeta z teodolitem wykonujący pomiary na działce budowlanej" class="responsive-image" src="/images/content/geodeta-pomiary-tyczenie-budynku.jpeg" style="width: 525px; height: 350px;" title="Geodeta wykonujący pomiary geodezyjne na działce przed budową domu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Geodeta z teodolitem wykonujący pomiary na działce budowlanej" class="responsive-image" src="/images/content/geodeta-pomiary-tyczenie-budynku.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Geodeta wykonujący pomiary geodezyjne na działce przed budową domu" /></p>
 
 <p style="text-align: justify;">Gdybym miał wskazać specjalistę, którego inwestorzy najczęściej niedoceniają, byłby to geodeta. Większość osób budujących dom postrzega go jako urzędnika z teodolitem – ktoś przyjeżdża, wbija jakieś paliki, zostawia papier i znika. Tymczasem geodeta to jeden z członków mojej „Drużyny Pierścienia" – grupy specjalistów, bez których budowa domu zamienia się w loterię. Nazywam go „magikiem od map", bo potrafi zobaczyć rzeczy niewidoczne gołym okiem: przebieg granic, ukryte instalacje, ograniczenia zabudowy.</p>
 

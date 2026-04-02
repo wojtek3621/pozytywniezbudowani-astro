@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Izolacja z XPS pod plyte fundamentowa" class="responsive-image" src="/images/content/xps-pod-plyte-fundamentowa.jpeg" style="width: 525px; height: 350px;" title="Docieplenie z XPS pod plyte fundamentowa" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Izolacja z XPS pod plyte fundamentowa" class="responsive-image" src="/images/content/xps-pod-plyte-fundamentowa.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Docieplenie z XPS pod plyte fundamentowa" /></p>
 
 <p style="text-align: justify;">Pytania o XPS pod płytą fundamentową dostaję regularnie. Temat wraca jak bumerang – i nic dziwnego, bo w internecie znajdziecie dziesiątki artykułów zachwalających to rozwiązanie, pisanych często przez producentów materiałów izolacyjnych lub firmy, które zarabiają na ich sprzedaży. Mało kto natomiast siada z kalkulatorem i liczy, czy to w ogóle ma jakikolwiek sens ekonomiczny. A jeszcze mniej osób pyta o dokumenty dopuszczające materiał do zastosowań konstrukcyjnych. Dlatego dziś rozłożymy ten temat na czynniki pierwsze.</p>
 

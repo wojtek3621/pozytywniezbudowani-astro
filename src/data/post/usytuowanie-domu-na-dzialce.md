@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Widok z lotu ptaka na dom jednorodzinny usytuowany na działce z ogrodem i podjazdem" class="responsive-image" src="/images/content/usytuowanie-domu-dzialka-widok.jpeg" style="width: 525px; height: 350px;" title="Usytuowanie domu na działce – widok z góry na zagospodarowany teren" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Widok z lotu ptaka na dom jednorodzinny usytuowany na działce z ogrodem i podjazdem" class="responsive-image" src="/images/content/usytuowanie-domu-dzialka-widok.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Usytuowanie domu na działce – widok z góry na zagospodarowany teren" /></p>
 
 <p style="text-align: justify;"><strong>Kupiliście działkę, macie wybrany projekt i wydaje Wam się, że teraz wystarczy tylko postawić dom gdzieś pośrodku, żeby było ładnie i symetrycznie? Niestety sprawa jest nieco bardziej skomplikowana. Usytuowanie domu na działce to jedna z tych decyzji, które podejmuje się raz, a ich konsekwencje odczuwa przez całe życie – bo przesunąć gotowy budynek o metr w lewo nie da się nawet za duże pieniądze. Złe umiejscowienie domu może oznaczać brak słońca w salonie przez większość dnia, problemy z wodą spływającą pod fundament albo taras z widokiem na śmietnik sąsiada zamiast na ogród. W tym artykule wyjaśnię, na co musicie zwrócić uwagę, zanim architekt narysuje Wasz dom na planie zagospodarowania terenu – bo wtedy będzie już za późno na refleksję.</strong></p>
 

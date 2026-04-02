@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Kiedy oglądacie działkę pod budowę domu, skupiacie się zwykle na tym, co widzicie na własne oczy. Wymiary, kształt, nasłonecznienie, odległość od drogi. Sprawdzacie mapę zasadniczą, miejscowy plan zagospodarowania, księgę wieczystą. To wszystko jest ważne i absolutnie konieczne. Ale jest jeszcze jedno źródło informacji, które wielu przyszłych inwestorów kompletnie pomija – ludzie, którzy mieszkają obok od lat. Sąsiedzi wiedzą o okolicy rzeczy, których nie znajdziecie w żadnych dokumentach. Rzeczy, które mogą zaważyć na tym, czy za kilka lat będziecie szczęśliwi w nowym domu, czy będziecie żałować swojej decyzji.</p>
 
-<p style="text-align: center;"><img alt="Przyjazna rozmowa kupującego z sąsiadem przez ogrodzenie działki" class="responsive-image" src="/images/content/rozmowa-z-sasiadem-przed-zakupem.jpeg" style="width: 525px; height: 350px;" title="Rozmowa z sąsiadem przed zakupem działki" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Przyjazna rozmowa kupującego z sąsiadem przez ogrodzenie działki" class="responsive-image" src="/images/content/rozmowa-z-sasiadem-przed-zakupem.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Rozmowa z sąsiadem przed zakupem działki" /></p>
 
 <h2 style="text-align: justify;">Dlaczego rozmowa z sąsiadami to nie formalność</h2>
 

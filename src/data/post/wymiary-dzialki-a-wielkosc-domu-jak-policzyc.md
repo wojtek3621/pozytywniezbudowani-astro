@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Jest taki moment w procesie przygotowań do budowy, który pamiętam z niemal każdego spotkania z klientami. Siedzą przede mną z rozłożonym projektem domu, który pokochali od pierwszego wejrzenia, i z ogłoszeniem działki, która wydaje się idealna. A potem pada pytanie: „Panie Wojtku, to się zmieści, prawda?". I wtedy zaczyna się najbardziej praktyczna część całej zabawy – matematyka. Nie ta zaawansowana, nie różniczki i całki. Prosta arytmetyka, która jednak potrafi uratować Was przed zakupem działki, na której Wasz wymarzony dom nigdy nie powstanie.</p>
 
-<p style="text-align: center;"><img alt="Geodeta z tyczką pomiarową i sprzętem GPS wykonujący pomiar działki budowlanej" class="responsive-image" src="/images/content/wymiary-dzialki-geodeta-pomiar.jpeg" style="width: 525px; height: 350px;" title="Pomiar wymiarów działki przez geodetę" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Geodeta z tyczką pomiarową i sprzętem GPS wykonujący pomiar działki budowlanej" class="responsive-image" src="/images/content/wymiary-dzialki-geodeta-pomiar.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Pomiar wymiarów działki przez geodetę" /></p>
 
 <p style="text-align: justify;">Bo widzicie, to nie jest tak, że kupujecie działkę o wymiarach 20 na 30 metrów i możecie na niej postawić dom o wymiarach 20 na 30 metrów. Między wielkością działki a wielkością domu, który da się na niej wybudować, istnieje przepaść wypełniona przepisami, odległościami od granic, liniami zabudowy i całą masą innych ograniczeń, o których wielu kupujących dowiaduje się dopiero po podpisaniu aktu notarialnego. A wtedy jest już zdecydowanie za późno na załamywanie rąk.</p>
 

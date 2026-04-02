@@ -23,7 +23,7 @@ metadata:
 
 <p style="text-align: justify;"><strong>Gdy pada hasło „smart home", większość osób wyobraża sobie włączanie światła głosem albo sterowanie ogrzewaniem z telefonu. Tymczasem możliwości inteligentnego domu wykraczają daleko poza te podstawowe funkcje – i obejmują ponad 500 różnych rozwiązań, od automatycznego podlewania ogrodu po system, który rozpoznaje Waszą twarz przy drzwiach wejściowych. Problem w tym, że nikt Wam tego nie powie wprost. Sprzedawcy pokażą Wam to, co sami oferują. Instalatorzy zaproponują to, co znają. A Wy zostaniecie z pytaniem: czy w ogóle tego potrzebuję? Ten artykuł ma Wam pomóc odpowiedzieć na to pytanie – zanim wydacie pierwszy grosz.</strong></p>
 
-<p style="text-align: center;"><img alt="" class="responsive-image" src="/images/content/inteligentny-dom-panel-sterowania-smart-home.jpeg" style="width: 525px; height: 350px;" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="" class="responsive-image" src="/images/content/inteligentny-dom-panel-sterowania-smart-home.jpeg" width="525" height="350" style="width: 525px; height: 350px;" /></p>
 
 <h2 style="text-align: justify;">Zanim zaczniesz wydawać pieniądze, zadaj sobie jedno pytanie</h2>
 
@@ -55,7 +55,7 @@ metadata:
 
 <p style="text-align: justify;">Jeszcze ciekawsze są funkcje związane ze zdrowiem i samopoczuciem. Istnieją systemy oświetlenia biocentrycznego, które zmieniają temperaturę barwową światła w ciągu dnia. Rano lamp emituje więcej światła niebieskiego, które pobudza i pomaga się obudzić. Wieczorem stopniowo przechodzi w ciepłe, żółtawe tony, które sygnalizują organizmowi, że zbliża się pora snu. Badania pokazują, że tego typu oświetlenie może znacząco poprawić jakość snu – a dobry sen to fundament zdrowia.</p>
 
-<p style="text-align: center;"><img alt="" class="responsive-image" src="/images/content/sterowanie-oswietleniem-smart-home-aplikacja.jpeg" style="width: 627px; height: 350px;" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="" class="responsive-image" src="/images/content/sterowanie-oswietleniem-smart-home-aplikacja.jpeg" width="627" height="350" style="width: 627px; height: 350px;" /></p>
 
 <p style="text-align: justify;">Macie też funkcje bezpieczeństwa związane z oświetleniem. Symulacja obecności podczas urlopu – system losowo włącza i wyłącza światła w różnych pomieszczeniach, naśladując naturalne zachowanie domowników. Albo automatyczne oświetlenie drogi ewakuacyjnej w przypadku alarmu pożarowego – wszystkie lampy na korytarzach włączają się na maksymalną jasność, a rolety podnoszą się, odsłaniając okna.</p>
 
@@ -63,7 +63,7 @@ metadata:
 
 <p style="text-align: justify;">Jeśli szukacie wymiernych korzyści finansowych z inwestycji w smart home, to właśnie tutaj je znajdziecie. Inteligentne sterowanie ogrzewaniem i klimatyzacją potrafi przynieść oszczędności rzędu 25-30% kosztów energii. To nie są marketingowe obietnice – to realne dane z instalacji w polskich domach.</p>
 
-<p style="text-align: center;"><img alt="" class="responsive-image" src="/images/content/inteligentny-termostat-ogrzewanie-podlogowe-smart.jpg" style="width: 525px; height: 350px;" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="" class="responsive-image" src="/images/content/inteligentny-termostat-ogrzewanie-podlogowe-smart.jpg" width="525" height="350" style="width: 525px; height: 350px;" /></p>
 
 <p style="text-align: justify;">Podstawowa funkcja to oczywiście sterowanie temperaturą w poszczególnych pomieszczeniach. Ale sama możliwość ustawienia różnych temperatur w różnych pokojach to za mało, żeby mówić o prawdziwych oszczędnościach. Kluczowe są automatyzacje, które reagują na rzeczywiste zachowanie domowników.</p>
 
@@ -133,7 +133,7 @@ metadata:
 
 <h2 style="text-align: justify;">Przewodowy czy bezprzewodowy – decyzja, którą musicie podjąć teraz</h2>
 
-<p style="text-align: center;"><img alt="" class="responsive-image" src="/images/content/rozdzielnica-elektryczna-moduly-smart-home-knx.jpg" style="width: 627px; height: 350px;" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="" class="responsive-image" src="/images/content/rozdzielnica-elektryczna-moduly-smart-home-knx.jpg" width="627" height="350" style="width: 627px; height: 350px;" /></p>
 
 <p style="text-align: justify;">Jeśli budujecie dom, macie przed sobą fundamentalną decyzję: system przewodowy czy bezprzewodowy. To wybór, który determinuje wiele kolejnych decyzji i który bardzo trudno zmienić po zakończeniu budowy.</p>
 
@@ -161,7 +161,7 @@ metadata:
 
 <p style="text-align: justify;">Żebyście mogli systematycznie przejść przez wszystkie możliwości smart home i świadomie zdecydować, które z nich są dla Was istotne, przygotowałem specjalną checklistę. To dokument, który możecie pobrać, wydrukować i w spokoju przeanalizować – samodzielnie lub z partnerem.</p>
 
-<p style="text-align: center;"><img alt="" class="responsive-image" src="/images/content/checklista-smart-home-planowanie-funkcji.jpg" style="width: 525px; height: 350px;" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="" class="responsive-image" src="/images/content/checklista-smart-home-planowanie-funkcji.jpg" width="525" height="350" style="width: 525px; height: 350px;" /></p>
 
 <p style="text-align: justify;">Checklista zawiera ponad 500 funkcji podzielonych na kategorie: oświetlenie, ogrzewanie i klimatyzacja, rolety i żaluzje, bezpieczeństwo, multimedia, ogród, a także specjalistyczne zastosowania jak basen czy sauna. Przy każdej funkcji możecie zaznaczyć, czy jest dla Was istotna, czy nie jesteście pewni, czy zdecydowanie jej nie chcecie.</p>
 

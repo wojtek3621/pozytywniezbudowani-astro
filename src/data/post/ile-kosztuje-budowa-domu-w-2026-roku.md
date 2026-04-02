@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Dom jednorodzinny w stanie surowym otwartym z rusztowaniami i materiałami budowlanymi" class="responsive-image" src="/images/content/koszty-budowy-domu-stan-surowy-rusztowanie.jpeg" style="width: 525px; height: 350px;" title="Dom w stanie surowym otwartym - realne koszty budowy w 2026 roku" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Dom jednorodzinny w stanie surowym otwartym z rusztowaniami i materiałami budowlanymi" class="responsive-image" src="/images/content/koszty-budowy-domu-stan-surowy-rusztowanie.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Dom w stanie surowym otwartym - realne koszty budowy w 2026 roku" /></p>
 
 <p style="text-align: justify;">Wpisujecie w wyszukiwarkę „ile kosztuje budowa domu" i dostajecie dziesiątki odpowiedzi. Każda inna. Jedna strona podaje kwotę X za metr kwadratowy, druga Y, trzecia Z. Wychodzicie z takiego researchu bardziej zdezorientowani niż przed rozpoczęciem. Znam to uczucie – i wiem, dlaczego tak się dzieje.</p>
 

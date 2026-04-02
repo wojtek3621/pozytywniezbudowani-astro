@@ -23,7 +23,7 @@ metadata:
 
 <p style="text-align: justify;">Znaleźliście działkę, która wydaje się idealna. Lokalizacja odpowiada, wymiary pasują do projektu, cena mieści się w budżecie. Właściciel mówi, że ma kilku innych zainteresowanych. W głowie pojawia się myśl: trzeba działać szybko, żeby ktoś jej nie sprzątnie sprzed nosa. I właśnie w tym momencie wiele osób popełnia błąd – podpisuje cokolwiek, co wygląda jak umowa, i wpłaca pieniądze, nie rozumiejąc tak naprawdę, co podpisuje i jakie konsekwencje może to mieć w przyszłości.</p>
 
-<p style="text-align: center;"><img alt="Ręce podpisujące umowę przedwstępną na zakup nieruchomości przy biurku" class="responsive-image" src="/images/content/umowa-przedwstepna-dzialka-podpisywanie.jpeg" style="width: 525px; height: 350px;" title="Podpisywanie umowy przedwstępnej na zakup działki" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Ręce podpisujące umowę przedwstępną na zakup nieruchomości przy biurku" class="responsive-image" src="/images/content/umowa-przedwstepna-dzialka-podpisywanie.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Podpisywanie umowy przedwstępnej na zakup działki" /></p>
 
 <p style="text-align: justify;">Umowa przedwstępna na działkę to dokument, który – prawidłowo sporządzony – daje Wam czas na załatwienie formalności i zabezpiecza przed sytuacją, w której właściciel nagle sprzeda komuś innemu. Źle przygotowany lub podpisany w pośpiechu może jednak stać się źródłem problemów i strat finansowych. Dlatego zanim cokolwiek podpiszecie, warto zrozumieć, o co w tym wszystkim chodzi.</p>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Klimatyzator split zamontowany na ścianie nowoczesnej sypialni w domu jednorodzinnym" class="responsive-image" src="/images/content/klimatyzacja-jednostka-wewnetrzna-sypialnia.jpeg" style="width: 525px; height: 350px;" title="Jednostka wewnętrzna klimatyzacji zamontowana w sypialni domu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Klimatyzator split zamontowany na ścianie nowoczesnej sypialni w domu jednorodzinnym" class="responsive-image" src="/images/content/klimatyzacja-jednostka-wewnetrzna-sypialnia.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Jednostka wewnętrzna klimatyzacji zamontowana w sypialni domu" /></p>
 
 <p style="text-align: justify;">Jest lipiec, trzeci dzień z rzędu temperatura przekracza 33 stopnie, a Wy leżycie wieczorem w sypialni i nie możecie zasnąć. Pościel jest ciepła, powietrze gęste i nieruchome, a wentylator na szafce nocnej jedynie przerzuca gorące powietrze z jednego kąta pokoju do drugiego. I wtedy pada to zdanie, które słyszę regularnie od swoich inwestorów: „Szkoda, że nie pomyśleliśmy o klimatyzacji wcześniej".</p>
 

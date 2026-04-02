@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;"><strong>Domy z płaskim dachem kojarzą się z nowoczesnością, minimalistyczną bryłą i dużymi przeszkleniami. Coraz częściej pojawiają się na polskich osiedlach, budząc jednocześnie zachwyt i niepokój. Zachwyt – bo wyglądają świeżo i elegancko. Niepokój – bo w naszym klimacie płaski dach wydaje się wyzwaniem. Czy słusznie? Zanim podejmiecie decyzję, warto poznać obie strony medalu, bo ani entuzjaści, ani sceptycy nie mają monopolu na prawdę.</strong></p>
 
-<p style="text-align: center;"><img alt="Nowoczesny dom jednorodzinny z płaskim dachem i minimalistyczną bryłą" class="responsive-image" src="/images/content/dom-plaski-dach-nowoczesny.jpeg" style="width: 525px; height: 350px;" title="Dom z płaskim dachem – nowoczesna architektura jednorodzinna" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Nowoczesny dom jednorodzinny z płaskim dachem i minimalistyczną bryłą" class="responsive-image" src="/images/content/dom-plaski-dach-nowoczesny.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Dom z płaskim dachem – nowoczesna architektura jednorodzinna" /></p>
 
 <h2 style="text-align: justify;">Skąd ta popularność płaskich dachów?</h2>
 

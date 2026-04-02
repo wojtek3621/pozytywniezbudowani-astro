@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Teczka z dokumentacją powykonawczą: mapy geodezyjne, protokoły i świadectwo energetyczne" class="responsive-image" src="/images/content/dokumentacja-powykonawcza-protokoly-mapy.jpeg" style="width: 525px; height: 350px;" title="Dokumentacja powykonawcza niezbędna do zakończenia budowy domu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Teczka z dokumentacją powykonawczą: mapy geodezyjne, protokoły i świadectwo energetyczne" class="responsive-image" src="/images/content/dokumentacja-powykonawcza-protokoly-mapy.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Dokumentacja powykonawcza niezbędna do zakończenia budowy domu" /></p>
 
 <p style="text-align: justify;">Budowa dobiegła końca, dom stoi, wykończenie gotowe, meble czekają na transport. Zostało tylko jedno – formalnie zakończyć budowę i wprowadzić się. I właśnie wtedy okazuje się, że brakuje jednego dokumentu. Albo dwóch. Albo że świadectwo energetyczne trzeba było zamówić tydzień wcześniej, bo audytor ma kolejkę. Wprowadzenie opóźnia się o miesiąc, a Wy płacicie jeszcze jeden czynsz za wynajem. Dokumentacja powykonawcza to ostatni etap formalny Waszej budowy – i jednocześnie etap, który wielu inwestorów traktuje po macoszemu.</p>
 

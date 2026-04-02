@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Widok na fundamenty domu jednorodzinnego z widocznym poziomem terenu i oznaczeniem poziomu zero" class="responsive-image" src="/images/content/poziom-zero-budynku-fundamenty.jpeg" style="width: 525px; height: 350px;" title="Poziom zero budynku – fundamenty w relacji do terenu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Widok na fundamenty domu jednorodzinnego z widocznym poziomem terenu i oznaczeniem poziomu zero" class="responsive-image" src="/images/content/poziom-zero-budynku-fundamenty.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Poziom zero budynku – fundamenty w relacji do terenu" /></p>
 
 <p style="text-align: justify;">Kiedy rozmawiam z inwestorami o poziomie zero, często widzę w ich oczach lekkie zdziwienie. Przecież to tylko jakaś kreska na projekcie, jakaś liczba ze znakiem plus lub minus. Tymczasem ten niepozorny parametr potrafi zadecydować o tym, czy za kilka lat będziecie cieszyć się suchą piwnicą, czy walczyć z wilgocią. Czy Wasze schody będą miały równe stopnie, czy pierwszy i ostatni będą się różnić o kilka centymetrów. Czy brama garażowa zmieści się w otworze, czy trzeba będzie kombinować z nadprożem. Poziom zero to fundament – nie ten z betonu, ale ten informacyjny – na którym opiera się cała reszta budowy.</p>
 

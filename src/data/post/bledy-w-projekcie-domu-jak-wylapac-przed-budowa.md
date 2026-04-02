@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;"><strong>Projekt domu to dokumentacja, która kosztuje od kilku do kilkudziesięciu tysięcy złotych. Wydając takie pieniądze, większość inwestorów zakłada, że otrzymuje produkt bezbłędny, gotowy do realizacji bez żadnych poprawek. Tymczasem rzeczywistość bywa inna. Nawet w dobrze przygotowanych projektach zdarzają się niedociągnięcia, nieścisłości i rozwiązania, które na papierze wyglądają sensownie, ale w praktyce okazują się problematyczne. Wyłapanie tych błędów przed wbiciem pierwszej łopaty to nie kwestia nieufności wobec architektów, lecz element świadomego przygotowania do budowy.</strong></p>
 
-<p style="text-align: center;"><img alt="Architekt analizujący dokumentację projektową z ołówkiem i linijką" class="responsive-image" src="/images/content/bledy-projekt-domu-weryfikacja.jpeg" style="width: 525px; height: 350px;" title="Błędy w projekcie domu – weryfikacja dokumentacji przed budową" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Architekt analizujący dokumentację projektową z ołówkiem i linijką" class="responsive-image" src="/images/content/bledy-projekt-domu-weryfikacja.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Błędy w projekcie domu – weryfikacja dokumentacji przed budową" /></p>
 
 <h2 style="text-align: justify;">Kiedy projekt przestaje być tylko rysunkiem</h2>
 

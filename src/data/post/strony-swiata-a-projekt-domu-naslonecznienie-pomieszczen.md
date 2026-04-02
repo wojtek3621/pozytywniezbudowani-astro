@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Wyobraźcie sobie sytuację: wprowadzacie się do wymarzonego domu, mija kilka tygodni i zauważacie, że salon przez cały dzień tonie w mroku, a sypialnia nagrzewa się popołudniowym słońcem do tego stopnia, że wieczorem nie da się w niej zasnąć bez klimatyzacji. Projekt wyglądał świetnie na papierze, działka była idealna, wykonawcy zrobili wszystko zgodnie ze sztuką – a jednak coś poszło nie tak. Ten artykuł pomoże Wam uniknąć takiego scenariusza, bo orientacja domu względem stron świata to jedna z tych decyzji, których nie da się łatwo naprawić po wybudowaniu fundamentów.</p>
 
-<p style="text-align: center;"><img alt="Jasny salon z dużymi oknami i promieniami słońca wpadającymi do wnętrza" class="responsive-image" src="/images/content/strony-swiata-naslonecznienie-dom.jpeg" style="width: 525px; height: 350px;" title="Nasłonecznienie domu – promienie słoneczne przez duże okna salonu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Jasny salon z dużymi oknami i promieniami słońca wpadającymi do wnętrza" class="responsive-image" src="/images/content/strony-swiata-naslonecznienie-dom.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Nasłonecznienie domu – promienie słoneczne przez duże okna salonu" /></p>
 
 <h2 style="text-align: justify;">Dlaczego strony świata mają znaczenie</h2>
 

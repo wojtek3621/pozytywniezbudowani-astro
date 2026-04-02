@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Mały parasol chroniący model domu - metafora ubezpieczenia budowy" class="responsive-image" src="/images/content/ubezpieczenie-budowy-parasol-model-domu.jpeg" style="width: 525px; height: 350px;" title="Ubezpieczenie budowy domu - ochrona inwestycji" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Mały parasol chroniący model domu - metafora ubezpieczenia budowy" class="responsive-image" src="/images/content/ubezpieczenie-budowy-parasol-model-domu.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Ubezpieczenie budowy domu - ochrona inwestycji" /></p>
 
 <p style="text-align: justify;">Pamiętam rozmowę z jednym z moich klientów, który zadzwonił do mnie zdruzgotany. W nocy pękł mu zawór bezpieczeństwa w kotle gazowym – jednocześnie z czujnikiem ciśnienia, co zdarza się niezwykle rzadko. Kocioł rozsadziło i woda zalała cały parter. Podłogi, ściany, meble – wszystko do wymiany. Człowiek miał ubezpieczenie, więc pomyślał: „Dobrze, że mam polisę". Problem w tym, że polisa była słaba. Wybrana naprędce, byle spełnić wymóg banku. W efekcie odszkodowanie nie pokryło nawet połowy strat.</p>
 

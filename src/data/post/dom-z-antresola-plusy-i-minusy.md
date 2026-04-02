@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Przeglądając katalogi projektów domów, na pewno natrafiliście na wizualizacje salonów z wysokim sufitem, gdzie z poziomu kanapy widać drewnianą balustradę piętra, a przez ogromne przeszklenia wpada światło sięgające aż po kalenicę. To właśnie domy z antresolą – rozwiązanie, które budzi skrajne emocje. Jedni uważają je za szczyt elegancji i przepis na niepowtarzalny klimat wnętrza, inni twierdzą, że to drogie w utrzymaniu fanaberie, które po kilku zimach zaczynają irytować. Gdzie leży prawda? Jak to zazwyczaj bywa – gdzieś pośrodku, choć diabeł tkwi w szczegółach, o których rzadko mówi się na etapie wybierania projektu.</p>
 
-<p style="text-align: center;"><img alt="Salon z antresolą i podwójną wysokością sufitu z drewnianą balustradą" class="responsive-image" src="/images/content/dom-antresola-salon-wysokosc.jpeg" style="width: 525px; height: 350px;" title="Dom z antresolą – salon z podwójną wysokością i naturalnym światłem" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Salon z antresolą i podwójną wysokością sufitu z drewnianą balustradą" class="responsive-image" src="/images/content/dom-antresola-salon-wysokosc.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Dom z antresolą – salon z podwójną wysokością i naturalnym światłem" /></p>
 
 <h2 style="text-align: justify;">Czym właściwie jest antresola w domu jednorodzinnym</h2>
 

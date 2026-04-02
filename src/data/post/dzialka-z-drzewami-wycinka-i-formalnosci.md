@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Oglądacie działkę i widzicie piękne, rozłożyste drzewa. Może to stare jabłonie, może okazałe dęby, a może kilka brzóz, które dają przyjemny cień. W głowie pojawia się romantyczna wizja – hamak między drzewami, śpiew ptaków, dzieci bawiące się w cieniu koron. I to wszystko może się ziścić. Ale zanim podpiszecie umowę, warto zadać sobie jedno fundamentalne pytanie: co, jeśli któreś z tych drzew stoi dokładnie tam, gdzie ma stanąć Wasz dom?</p>
 
-<p style="text-align: center;"><img alt="Działka budowlana porośnięta starymi drzewami liściastymi wymagającymi oceny przed budową" class="responsive-image" src="/images/content/dzialka-z-drzewami-stare-deby.jpeg" style="width: 525px; height: 350px;" title="Działka budowlana z dużymi drzewami do wyceny" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Działka budowlana porośnięta starymi drzewami liściastymi wymagającymi oceny przed budową" class="responsive-image" src="/images/content/dzialka-z-drzewami-stare-deby.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Działka budowlana z dużymi drzewami do wyceny" /></p>
 
 <p style="text-align: justify;">Wycinka drzew na prywatnej działce to temat, który regularnie zaskakuje świeżo upieczonych właścicieli gruntów. Bo intuicja podpowiada, że skoro działka jest moja, to mogę z nią robić, co chcę. Niestety – lub na szczęście, zależy jak na to spojrzeć – przepisy mówią co innego. I ignorowanie ich może kosztować naprawdę dużo. Mówię tu o kwotach rzędu kilkudziesięciu tysięcy złotych za jedno drzewo wycięte bez wymaganych formalności.</p>
 

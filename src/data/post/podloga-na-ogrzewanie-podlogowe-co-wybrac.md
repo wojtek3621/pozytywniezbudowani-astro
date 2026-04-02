@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Próbki płytek ceramicznych, paneli winylowych i deski barlineckiej ułożone na podłodze z ogrzewaniem podłogowym" class="responsive-image" src="/images/content/podloga-ogrzewanie-podlogowe-probki-materialow.jpeg" style="width: 525px; height: 350px;" title="Próbki materiałów podłogowych na ogrzewaniu podłogowym" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Próbki płytek ceramicznych, paneli winylowych i deski barlineckiej ułożone na podłodze z ogrzewaniem podłogowym" class="responsive-image" src="/images/content/podloga-ogrzewanie-podlogowe-probki-materialow.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Próbki materiałów podłogowych na ogrzewaniu podłogowym" /></p>
 
 <p style="text-align: justify;">Jest taki moment na budowie, kiedy cały dom wygląda jak jedno wielkie, szare betonowe pudło. Wylewki wylane, rury grzewcze zalane, ściany postawione – i nagle przychodzi czas na decyzję, która zmieni to pudło w miejsce, po którym będziecie chodzić boso przez następne 20 lat. Wybór podłogi na ogrzewanie podłogowe to nie jest kwestia koloru ani wzoru z katalogu. To decyzja techniczna, która wpływa na to, jak szybko Wasz dom się nagrzeje, ile zapłacicie za ogrzewanie i czy za 5 lat będziecie zadowoleni, czy będziecie żałować.</p>
 

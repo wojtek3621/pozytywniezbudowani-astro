@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img alt="Inwestor w kasku na placu budowy z dokumentami i telefonem koordynujący prace" class="responsive-image" src="/images/content/system-gospodarczy-inwestor-na-budowie.jpeg" style="width: 525px; height: 350px;" title="Budowa domu systemem gospodarczym - inwestor koordynujący prace" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Inwestor w kasku na placu budowy z dokumentami i telefonem koordynujący prace" class="responsive-image" src="/images/content/system-gospodarczy-inwestor-na-budowie.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Budowa domu systemem gospodarczym - inwestor koordynujący prace" /></p>
 
 <p style="text-align: justify;">Zadzwonił do mnie kiedyś klient w środku budowy z pytaniem, które do dziś pamiętam: „Panie Wojtku, czy da się jakoś przyspieszyć wypłatę transzy, bo ekipa od dachu czeka, a ja nie mam z czego im zapłacić?". Budował systemem gospodarczym, żeby zaoszczędzić. Harmonogram bankowy zakładał, że do tego momentu będzie miał stan surowy otwarty. Miał – ale z dwutygodniowym poślizgiem, bo murarz się rozchorował. Bank weryfikował dokumenty już trzeci tydzień. A dekarz nie chciał czekać, bo miał kolejne zlecenie. Ten telefon uświadomił mi, jak wiele osób wchodzi w połączenie kredytu z budową gospodarczą, nie rozumiejąc do końca, na co się piszą.</p>
 
