@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Dokumenty do pozwolenia na budowę: projekt domu, formularz wniosku i pieczątka urzędowa na biurku" class="responsive-image" src="/images/content/pozwolenie-na-budowe-dokumenty-wniosek.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Komplet dokumentów do wniosku o pozwolenie na budowę domu jednorodzinnego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Dokumenty do pozwolenia na budowę: projekt domu, formularz wniosku i pieczątka urzędowa na biurku" class="responsive-image" src="/images/content/pozwolenie-na-budowe-dokumenty-wniosek.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Komplet dokumentów do wniosku o pozwolenie na budowę domu jednorodzinnego" /></p>
 
 <p style="text-align: justify;">Pamiętam dokładnie moment, gdy jeden z moich klientów zadzwonił do mnie zdruzgotany. Złożył wniosek o pozwolenie na budowę, minęły trzy miesiące, a on wciąż nie mógł ruszyć z budową. Urząd wzywał go do uzupełnienia braków po raz trzeci. Za każdym razem chodziło o coś innego – raz brakowało jednego egzemplarza projektu, raz oświadczenie miało niewłaściwą formułę, raz mapa była nieaktualna. Każde wezwanie oznaczało kolejne tygodnie oczekiwania. Sezon budowlany uciekał, a on tkwił w biurokratycznej pętli.</p>
 

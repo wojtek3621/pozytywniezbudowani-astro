@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Wybór projektu domu to jedna z pierwszych poważnych decyzji na drodze do własnych czterech kątów. I od razu pojawia się pytanie, które spędza sen z powiek wielu przyszłym inwestorom: kupić gotowy projekt z katalogu za kilka tysięcy złotych, czy zainwestować w projekt indywidualny, który kosztuje wielokrotnie więcej? Odpowiedź na to pytanie nie jest tak oczywista, jak mogłoby się wydawać. Bo cena widoczna na stronie biura projektowego to dopiero początek historii, a rzeczywisty koszt może Was zaskoczyć – zarówno na plus, jak i na minus.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Dokumentacja projektowa domu z kalkulatorem i długopisem na biurku" class="responsive-image" src="/images/content/koszt-projektu-domu-dokumentacja.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Koszt projektu domu – dokumentacja projektowa i kalkulator" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Dokumentacja projektowa domu z kalkulatorem i długopisem na biurku" class="responsive-image" src="/images/content/koszt-projektu-domu-dokumentacja.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Koszt projektu domu – dokumentacja projektowa i kalkulator" /></p>
 
 <h2 style="text-align: justify;">Kiedy projekt staje się początkiem wszystkiego</h2>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Plany architektoniczne domu jednorodzinnego rozłożone na biurku obok kasku budowlanego i dokumentów formalnych" class="responsive-image" src="/images/content/przygotowanie-budowy-dokumenty-projekt-kask.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Dokumentacja budowlana i projekt domu na biurku przed rozpoczęciem budowy" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Plany architektoniczne domu jednorodzinnego rozłożone na biurku obok kasku budowlanego i dokumentów formalnych" class="responsive-image" src="/images/content/przygotowanie-budowy-dokumenty-projekt-kask.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Dokumentacja budowlana i projekt domu na biurku przed rozpoczęciem budowy" /></p>
 
 <p style="text-align: justify;">Znam to uczucie. Pozwolenie na budowę leży w szufladzie, wykonawca potwierdził termin, a Wy budzicie się w nocy z myślą: „Czy na pewno wszystko jest ogarnięte?”. To uczucie jest zupełnie normalne. Budowa domu to prawdopodobnie największe przedsięwzięcie logistyczne w Waszym życiu. Nie chodzi tylko o pieniądze i formalności. Chodzi o to, żeby w dniu, kiedy na działkę wjedzie koparka, nie okazało się, że brakuje prądu, wody, geodety albo podpisanej umowy z kierownikiem budowy.</p>
 

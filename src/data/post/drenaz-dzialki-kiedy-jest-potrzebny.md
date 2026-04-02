@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Woda to życie. Ale woda w niewłaściwym miejscu i czasie to kłopoty. Na wielu budowach, które prowadziłem przez lata, widziałem, jak ten pozornie prosty temat potrafi zaskoczyć nawet doświadczonych inwestorów. Działka, która latem wyglądała sucho i obiecująco, wiosną zamieniała się w bagno. Fundamenty, które miały stać przez pokolenia, po kilku latach zaczynały pękać od wilgoci. To nie są strachy na lachy – to realne historie, które zdarzają się częściej, niż moglibyście przypuszczać.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Rury drenażowe PVC ułożone w wykopie żwirowym na działce budowlanej" class="responsive-image" src="/images/content/drenaz-dzialki-rury-pvc-wykop.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="System drenażu działki budowlanej" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Rury drenażowe PVC ułożone w wykopie żwirowym na działce budowlanej" class="responsive-image" src="/images/content/drenaz-dzialki-rury-pvc-wykop.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="System drenażu działki budowlanej" /></p>
 
 <p style="text-align: justify;">Drenaż działki to jeden z tych tematów, które rzadko pojawiają się w rozmowach o budowie wymarzonego domu. Rozmawiamy o projekcie, o kolorze elewacji, o tym, czy garaż będzie w bryle czy wolnostojący. Tymczasem kwestia wody pod ziemią może zaważyć na tym, czy Wasza budowa zmieści się w budżecie, czy też pochłonie znacznie więcej środków, niż zakładaliście. I to właśnie dlatego warto zrozumieć, kiedy drenaż jest konieczny, kiedy jest rozsądnym zabezpieczeniem, a kiedy można z niego zrezygnować.</p>
 

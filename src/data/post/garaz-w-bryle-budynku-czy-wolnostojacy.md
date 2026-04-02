@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Nowoczesny dom jednorodzinny z garażem zintegrowanym w bryle budynku, widok od frontu" class="responsive-image" src="/images/content/garaz-w-bryle-wolnostojacy-dom.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Dom z garażem w bryle budynku – nowoczesna elewacja frontowa" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Nowoczesny dom jednorodzinny z garażem zintegrowanym w bryle budynku, widok od frontu" class="responsive-image" src="/images/content/garaz-w-bryle-wolnostojacy-dom.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Dom z garażem w bryle budynku – nowoczesna elewacja frontowa" /></p>
 
 <p style="text-align: justify;"><strong>Garaż to jedno z tych pomieszczeń, które na etapie projektowania wydaje się oczywiste, a po kilku latach mieszkania w domu okazuje się albo zbawienne, albo kompletnie nieprzemyślane. Nie chodzi tylko o to, gdzie będziecie parkować samochód. Chodzi o codzienną wygodę, o koszty budowy, o wymiary działki, a czasem nawet o to, czy w ogóle dostaniecie pozwolenie na budowę. Ta decyzja wpływa na znacznie więcej aspektów, niż mogłoby się wydawać na pierwszy rzut oka.</strong></p>
 

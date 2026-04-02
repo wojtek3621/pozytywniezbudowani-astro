@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Ręka architekta z ołówkiem nanosząca poprawki na rzut projektu domu" class="responsive-image" src="/images/content/adaptacja-projektu-zmiany-plany.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Adaptacja projektu gotowego – nanoszenie zmian na rysunki architektoniczne" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Ręka architekta z ołówkiem nanosząca poprawki na rzut projektu domu" class="responsive-image" src="/images/content/adaptacja-projektu-zmiany-plany.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Adaptacja projektu gotowego – nanoszenie zmian na rysunki architektoniczne" /></p>
 
 <p style="text-align: justify;"><strong>Kupiliście projekt gotowy, który niemal idealnie odpowiada Waszym potrzebom. Niemal – bo salon mógłby być trochę większy, kąt dachu nie pasuje do wymagań miejscowego planu, a fundamenty w projekcie są na ławach, podczas gdy Wy marzycie o płycie fundamentowej. I teraz zastanawiacie się, czy to w ogóle da się zmienić, ile to będzie kosztować i czy nie prościej byłoby po prostu zamówić projekt indywidualny. Odpowiedź na te pytania znajdziecie w tym artykule.</strong></p>
 

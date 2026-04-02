@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Działka budowlana może wyglądać idealnie – spokojna okolica, ładne sąsiedztwo, rozsądna cena. A potem okazuje się, że do najbliższego wodociągu jest 300 metrów przez cudzą posesję, skrzynka elektryczna stoi po drugiej stronie drogi powiatowej, a gazociąg kończy się dwie ulice dalej. I nagle ta „okazyjna" działka pochłania dodatkowe kilkadziesiąt tysięcy złotych, o których nikt przy zakupie nie wspomniał.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Studzienka kanalizacyjna i skrzynka przyłączeniowa na działce budowlanej" class="responsive-image" src="/images/content/media-na-dzialce-przylacza-studzienki.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Przyłącza mediów na działce budowlanej" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Studzienka kanalizacyjna i skrzynka przyłączeniowa na działce budowlanej" class="responsive-image" src="/images/content/media-na-dzialce-przylacza-studzienki.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Przyłącza mediów na działce budowlanej" /></p>
 
 <p style="text-align: justify;">Dostępność mediów to jeden z tych czynników, które potrafią kompletnie zmienić ekonomikę całej inwestycji. Dlatego zanim podpiszecie umowę przedwstępną, powinniście dokładnie wiedzieć, co jest przy działce, co przez nią przebiega i ile będzie kosztowało podpięcie domu do niezbędnej infrastruktury. To nie jest kwestia drobnych oszczędności – to może być różnica między budową w budżecie a finansową katastrofą.</p>
 

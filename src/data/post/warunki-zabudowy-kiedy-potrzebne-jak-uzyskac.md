@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Mamy styczeń 2026 roku i jeśli czytacie ten artykuł, to prawdopodobnie zastanawiacie się, czy zdążycie jeszcze uzyskać warunki zabudowy na starych zasadach. Odpowiedź brzmi: to zależy. Zależy od tego, w której gminie macie działkę, na jakim etapie są prace nad planem ogólnym i czy zdążycie złożyć wniosek przed jego uchwaleniem. Ale po kolei – bo system planowania przestrzennego w Polsce właśnie przechodzi największą transformację od dwudziestu lat i warto zrozumieć, co to oznacza dla Waszych planów budowlanych.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Oficjalne dokumenty urzędowe z pieczątkami i decyzja o warunkach zabudowy na biurku" class="responsive-image" src="/images/content/warunki-zabudowy-decyzja-dokumenty.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Decyzja o warunkach zabudowy z dokumentami urzędowymi" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Oficjalne dokumenty urzędowe z pieczątkami i decyzja o warunkach zabudowy na biurku" class="responsive-image" src="/images/content/warunki-zabudowy-decyzja-dokumenty.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Decyzja o warunkach zabudowy z dokumentami urzędowymi" /></p>
 
 <h2 style="text-align: justify;">Czym właściwie są warunki zabudowy i dlaczego istnieją</h2>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Wizualizacja dwóch domów jednorodzinnych obok siebie – parterowego i piętrowego w nowoczesnym stylu" class="responsive-image" src="/images/content/dom-parterowy-pietrowy-porownanie.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Porównanie domu parterowego i piętrowego – dwa nowoczesne projekty" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Wizualizacja dwóch domów jednorodzinnych obok siebie – parterowego i piętrowego w nowoczesnym stylu" class="responsive-image" src="/images/content/dom-parterowy-pietrowy-porownanie.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Porównanie domu parterowego i piętrowego – dwa nowoczesne projekty" /></p>
 
 <p style="text-align: justify;"><strong>To pytanie pada na samym początku poszukiwań projektu. Zanim jeszcze zaczniecie przeglądać konkretne rzuty i wizualizacje, musicie odpowiedzieć sobie na podstawowe pytanie: czy Wasz wymarzony dom ma mieć jedną kondygnację, czy dwie? Ta decyzja wpłynie na wszystko, co nastąpi później – od wyboru działki, przez koszty budowy, aż po codzienne życie rodziny przez kolejne dekady.</strong></p>
 

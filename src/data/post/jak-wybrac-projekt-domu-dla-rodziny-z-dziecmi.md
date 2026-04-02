@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Kiedy w rodzinie pojawiają się dzieci, zmienia się niemal wszystko – także sposób, w jaki patrzymy na przestrzeń do życia. Nagle kawalerka, która jeszcze kilka lat temu wydawała się wystarczająca, staje się za ciasna. Dwupokojowe mieszkanie, w którym było całkiem przytulnie, zaczyna pękać w szwach. A blok, który wcześniej dawał wygodny dostęp do centrum, zamienia się w więzienie bez własnego skrawka zieleni. Jeśli właśnie w takiej sytuacji jesteście i myślicie o budowie domu – ten artykuł jest dla Was.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Nowoczesny dom jednorodzinny z ogrodem i placem zabaw dla dzieci" class="responsive-image" src="/images/content/dom-rodzina-dzieci-ogrod.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Projekt domu dla rodziny z dziećmi – przestrzeń do życia i zabawy" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Nowoczesny dom jednorodzinny z ogrodem i placem zabaw dla dzieci" class="responsive-image" src="/images/content/dom-rodzina-dzieci-ogrod.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Projekt domu dla rodziny z dziećmi – przestrzeń do życia i zabawy" /></p>
 
 <h2 style="text-align: justify;">Myślenie perspektywiczne, czyli dom na lata, nie na chwilę</h2>
 

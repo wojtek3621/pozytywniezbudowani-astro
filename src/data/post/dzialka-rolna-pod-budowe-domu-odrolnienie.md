@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Przeglądacie ogłoszenia i nagle trafia się działka w świetnej lokalizacji, w atrakcyjnej cenie, z pięknym widokiem na pola. Wszystko gra, tylko jeden szczegół – w dokumentach widnieje oznaczenie „R", czyli teren rolniczy. Pojawia się pytanie: czy można tam wybudować dom? Odpowiedź brzmi: tak, ale pod pewnymi warunkami. Proces nazywany potocznie „odrolnieniem" może być stosunkowo prosty albo ciągnąć się latami – w zależności od klasy gleby, lokalizacji i tego, jak dobrze się do niego przygotujecie. Do tego w 2023 roku weszła w życie reforma planistyczna, która od 2026 roku zmieni reguły gry dla wszystkich, którzy myślą o budowie na gruntach rolnych. Zanim podpiszecie umowę przedwstępną na taką działkę, przeczytajcie ten artykuł do końca.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Pole uprawne z tabliczką informacyjną na tle domów jednorodzinnych w sąsiedztwie" class="responsive-image" src="/images/content/dzialka-rolna-pole-odrolnienie.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Działka rolna przeznaczona do odrolnienia" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Pole uprawne z tabliczką informacyjną na tle domów jednorodzinnych w sąsiedztwie" class="responsive-image" src="/images/content/dzialka-rolna-pole-odrolnienie.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Działka rolna przeznaczona do odrolnienia" /></p>
 
 <h2 style="text-align: justify;">Czym właściwie jest odrolnienie działki</h2>
 

@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Wielu inwestorów traktuje projekt wnętrz jako coś, czym zajmą się na końcu budowy. Kiedy dom będzie już stał, tynki wyschną, a wylewki staną się twarde jak skała – wtedy przyjdzie czas na wybór kolorów ścian i mebli do salonu. To jeden z najdroższych błędów, jakie możecie popełnić podczas budowy swojego domu. Projekt wnętrz to nie tylko paleta barw i stylowe dodatki. To decyzje, które wpływają na rozmieszczenie każdego gniazdka elektrycznego, każdego punktu wodno-kanalizacyjnego i każdej ściany działowej w Waszym domu. Zamówiony zbyt późno nie będzie w stanie spełnić swojej najważniejszej funkcji.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Wnętrze domu w stanie surowym z widocznymi ścianami z pustaka i stropem betonowym" class="responsive-image" src="/images/content/projekt-wnetrz-stan-surowy.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Projekt wnętrz na etapie budowy – wizualizacja w stanie surowym" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Wnętrze domu w stanie surowym z widocznymi ścianami z pustaka i stropem betonowym" class="responsive-image" src="/images/content/projekt-wnetrz-stan-surowy.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Projekt wnętrz na etapie budowy – wizualizacja w stanie surowym" /></p>
 
 <h2 style="text-align: justify;">Dlaczego moment zamówienia projektu wnętrz jest tak ważny</h2>
 

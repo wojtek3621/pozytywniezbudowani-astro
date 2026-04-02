@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Nowoczesny panel dotykowy systemu alarmowego zamontowany przy drzwiach wejściowych domu jednorodzinnego" class="responsive-image" src="/images/content/alarm-domowy-panel-sterowania-wejscie.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Panel sterowania systemem alarmowym przy wejściu do domu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Nowoczesny panel dotykowy systemu alarmowego zamontowany przy drzwiach wejściowych domu jednorodzinnego" class="responsive-image" src="/images/content/alarm-domowy-panel-sterowania-wejscie.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Panel sterowania systemem alarmowym przy wejściu do domu" /></p>
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację. Jest lipiec, siedzicie na plaży w Grecji, pijecie zimną lemoniadę i nagle łapiecie się na myśli: „A czy na pewno zamknąłem okno na piętrze?". Albo gorzej – „Czy włączyłem alarm?". Znacie to uczucie? Budowa domu to ogromne przedsięwzięcie, w które wkładacie setki tysięcy złotych i lata wysiłku. A potem ten dom stoi – piękny, nowy, pełen Waszych rzeczy – i zaczyna się zupełnie nowy rodzaj stresu. Nie o fundamenty ani dach, ale o to, czy Wasz dobytek jest bezpieczny, kiedy Was nie ma.</p>
 

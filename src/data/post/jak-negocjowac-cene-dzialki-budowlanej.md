@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Pamiętam, jak jeden z moich klientów opowiadał mi historię zakupu swojej działki. Właściciel wystawił ją za 140 000 złotych. Mój klient – bez żadnego doświadczenia w negocjacjach, ale za to z solidnym przygotowaniem – zapłacił ostatecznie 118 000 złotych. Dwadzieścia dwa tysiące różnicy. Za te pieniądze można kupić przyzwoite okna do całego domu albo położyć podłogi we wszystkich pomieszczeniach. A wystarczyło kilka rozmów i odrobina odwagi, żeby powiedzieć cenę niższą niż ta w ogłoszeniu.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Para rozmawiająca ze sprzedawcą działki podczas oglądania terenu" class="responsive-image" src="/images/content/negocjacje-ceny-dzialki-rozmowa.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Negocjacje ceny działki budowlanej między kupującym a sprzedającym" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Para rozmawiająca ze sprzedawcą działki podczas oglądania terenu" class="responsive-image" src="/images/content/negocjacje-ceny-dzialki-rozmowa.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Negocjacje ceny działki budowlanej między kupującym a sprzedającym" /></p>
 
 <p style="text-align: justify;">Dlaczego o tym piszę? Bo wielu przyszłych inwestorów w ogóle nie próbuje negocjować. Albo próbuje, ale robi to tak nieumiejętnie, że sprzedający od razu czuje, że ma do czynienia z desperatem, który i tak kupi za każdą cenę. Tymczasem negocjacje przy zakupie działki to coś naturalnego – i sprzedający z reguły się ich spodziewają. Co więcej, często sami wystawiają cenę wyższą, żeby mieć z czego schodzić.</p>
 

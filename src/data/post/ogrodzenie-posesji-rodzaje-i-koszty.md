@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Eleganckie ogrodzenie aluminiowe z bramą wjazdową przed nowoczesnym domem jednorodzinnym w ciepłym świetle zachodzącego słońca" class="responsive-image" src="/images/content/ogrodzenie-nowoczesne-aluminiowe-dom.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Nowoczesne ogrodzenie aluminiowe przed domem jednorodzinnym" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Eleganckie ogrodzenie aluminiowe z bramą wjazdową przed nowoczesnym domem jednorodzinnym w ciepłym świetle zachodzącego słońca" class="responsive-image" src="/images/content/ogrodzenie-nowoczesne-aluminiowe-dom.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Nowoczesne ogrodzenie aluminiowe przed domem jednorodzinnym" /></p>
 
 <p style="text-align: justify;">Budowa domu dobiega końca, elewacja lśni, trawnik powoli się zieleni – i nagle orientujecie się, że Wasza posesja wygląda jak plac budowy otoczony prowizoryczną siatką na krzywo wbitych słupkach. Znam to doskonale. Ogrodzenie jest jednym z tych elementów, które inwestorzy planują „na końcu", a potem żałują, że nie pomyśleli o nim wcześniej. Bo ogrodzenie to nie tylko metalowe przęsła wokół działki. To granica Waszej prywatności, wizytówka domu widoczna z ulicy, element bezpieczeństwa i – co bywa bolesne – kolejna poważna pozycja w budżecie.</p>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Pusta działka budowlana z trawą i palikiami geodezyjnymi gotowa pod budowę domu" class="responsive-image" src="/images/content/jak-wybrac-dzialke-budowlana-poradnik.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Działka budowlana pod budowę domu jednorodzinnego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Pusta działka budowlana z trawą i palikiami geodezyjnymi gotowa pod budowę domu" class="responsive-image" src="/images/content/jak-wybrac-dzialke-budowlana-poradnik.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Działka budowlana pod budowę domu jednorodzinnego" /></p>
 
 <p style="text-align: justify;">Zakup działki to moment, w którym Wasze marzenie o własnym domu zaczyna nabierać realnych kształtów. To też moment, w którym można popełnić błędy, które będą kosztować Was dziesiątki tysięcy złotych – albo lata frustracji. Zanim podpiszecie akt notarialny, musicie wiedzieć, na co zwracać uwagę, kogo zapytać o radę i jak nie dać się nabrać na ładne zdjęcia w ogłoszeniu. Ten poradnik przeprowadzi Was przez cały proces – od określenia własnych potrzeb, przez analizę MPZP i sprawdzenie gruntu, aż po negocjacje i podpisanie umowy.</p>
 

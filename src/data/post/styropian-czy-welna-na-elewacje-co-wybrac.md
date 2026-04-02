@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Płyty styropianowe przyklejone do ścian zewnętrznych domu jednorodzinnego podczas ocieplenia elewacji" class="responsive-image" src="/images/content/ocieplenie-elewacji-styropian-montaz.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Montaż ocieplenia styropianowego na elewacji domu jednorodzinnego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Płyty styropianowe przyklejone do ścian zewnętrznych domu jednorodzinnego podczas ocieplenia elewacji" class="responsive-image" src="/images/content/ocieplenie-elewacji-styropian-montaz.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Montaż ocieplenia styropianowego na elewacji domu jednorodzinnego" /></p>
 
 <p style="text-align: justify;">To jedno z pytań, które słyszę najczęściej na budowach. I jednocześnie jedno z tych, na które nie da się odpowiedzieć jednym zdaniem. Bo wybór między styropianem a wełną mineralną to nie kwestia „lepszy–gorszy". To kwestia Waszego domu, Waszej lokalizacji, Waszego budżetu i – co może Was zaskoczyć – Waszego stosunku do ciszy, bezpieczeństwa i tego, jak długo chcecie mieszkać w tym domu bez niespodzianek.</p>
 

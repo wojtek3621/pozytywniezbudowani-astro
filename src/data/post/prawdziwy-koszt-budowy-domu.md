@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Model domu otoczony banknotami i monetami symbolizujący całkowite koszty budowy" class="responsive-image" src="/images/content/prawdziwy-koszt-budowy-domu-suma-calkowita.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Prawdziwy całkowity koszt budowy domu - od działki po ostatnią ratę" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Model domu otoczony banknotami i monetami symbolizujący całkowite koszty budowy" class="responsive-image" src="/images/content/prawdziwy-koszt-budowy-domu-suma-calkowita.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Prawdziwy całkowity koszt budowy domu - od działki po ostatnią ratę" /></p>
 
 <p style="text-align: justify;">Dom za 600 000 złotych będzie Was kosztował ponad milion. Brzmi jak prowokacja? To matematyka. Zwykłe dodawanie, które większość przyszłych inwestorów pomija – bo skupia się na kosztorysie budowy, nie na tym, co zapłacą przez następne 30 lat.</p>
 

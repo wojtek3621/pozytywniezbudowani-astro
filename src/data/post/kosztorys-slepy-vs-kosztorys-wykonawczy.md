@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Dwa różne rodzaje kosztorysów budowlanych rozłożone obok siebie na biurku" class="responsive-image" src="/images/content/kosztorys-slepy-wykonawczy-porownanie-dokumentow.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Porównanie kosztorysu ślepego i wykonawczego - rodzaje dokumentów budowlanych" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Dwa różne rodzaje kosztorysów budowlanych rozłożone obok siebie na biurku" class="responsive-image" src="/images/content/kosztorys-slepy-wykonawczy-porownanie-dokumentow.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Porównanie kosztorysu ślepego i wykonawczego - rodzaje dokumentów budowlanych" /></p>
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację. Wysyłacie projekt domu do pięciu firm budowlanych z prośbą o wycenę. Po dwóch tygodniach macie na skrzynce pięć ofert. Pierwsza opiewa na 380 tysięcy złotych, druga na 520 tysięcy, trzecia na 445 tysięcy, czwarta na 610 tysięcy, a piąta na 490 tysięcy. Rozpiętość ogromna – ponad 200 tysięcy różnicy między najtańszą a najdroższą ofertą. I teraz pytanie: którą wybrać? Czy najtańsza jest okazją, czy pułapką? Czy najdroższa to przepłacanie, czy może gwarancja jakości?</p>
 

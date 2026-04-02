@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;"><strong><a href="https://pozytywniezbudowani.pl/blog/dom-z-poddaszem-uzytkowym-plusy-i-minusy/">Poddasze użytkowe</a> bez odpowiedniego doświetlenia zamienia się w ciemną norę, w której nikt nie chce przebywać. Problem w tym, że doświetlić je można na dwa zasadniczo różne sposoby - montując okna dachowe lub budując lukarny. I choć oba rozwiązania prowadzą do tego samego celu, różnią się praktycznie we wszystkim: w kosztach, stopniu skomplikowania, wpływie na bryłę budynku i funkcjonalności poddasza. Decyzja między nimi często zapada na etapie projektu, a jej konsekwencje zostają z Wami na dziesiątki lat.</strong></p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Poddasze użytkowe z oknem dachowym wpuszczającym naturalne światło" class="responsive-image" src="/images/content/okna-dachowe-lukarny-poddasze.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Okna dachowe vs lukarny – doświetlenie poddasza użytkowego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Poddasze użytkowe z oknem dachowym wpuszczającym naturalne światło" class="responsive-image" src="/images/content/okna-dachowe-lukarny-poddasze.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Okna dachowe vs lukarny – doświetlenie poddasza użytkowego" /></p>
 
 <h2 style="text-align: justify;">Kiedy światło staje się problemem projektowym</h2>
 

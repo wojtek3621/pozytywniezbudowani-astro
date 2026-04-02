@@ -20,7 +20,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Trzy słupki monet o różnej wysokości symbolizujące różne okresy kredytu" class="responsive-image" src="/images/content/okres-kredytu-porownanie-lat-monety.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Porównanie okresów kredytu hipotecznego - 20, 25 czy 30 lat" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Trzy słupki monet o różnej wysokości symbolizujące różne okresy kredytu" class="responsive-image" src="/images/content/okres-kredytu-porownanie-lat-monety.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Porównanie okresów kredytu hipotecznego - 20, 25 czy 30 lat" /></p>
 
 <p style="text-align: justify;">Siadacie z doradcą kredytowym i pada pytanie: „Na ile lat?" W głowie macie dwa głosy. Jeden mówi: „Weź na krócej, mniej zapłacisz odsetek." Drugi szepce: „Weź na dłużej, rata będzie lżejsza." I oba mają rację – ale żaden nie mówi całej prawdy.</p>
 

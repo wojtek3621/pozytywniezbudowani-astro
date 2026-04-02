@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;">Pamiętam, jak jeden z moich klientów przyniósł mi na spotkanie wydruk mapy zasadniczej i powiedział: „Wojtek, tu jest całe mrowisko jakichś kresek i literek. Wygląda jak hieroglify. Czy Ty coś z tego rozumiesz?". Rozumiałem – i Wy też będziecie rozumieć po przeczytaniu tego artykułu. Mapa zasadnicza to jeden z najważniejszych dokumentów, które powinniście przeanalizować jeszcze przed zakupem działki. Nie dlatego, że jest to wymagane prawnie, ale dlatego, że może Was uchronić przed kosztownymi niespodziankami. Te wszystkie kolory, symbole i skróty mają konkretne znaczenie – i każdy z nich opowiada historię o tym, co dzieje się pod ziemią i nad ziemią w okolicy Waszej potencjalnej działki.</p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Mapa zasadnicza z naniesionymi granicami działek i uzbrojeniem terenu rozłożona na stole" class="responsive-image" src="/images/content/mapa-zasadnicza-geodezja-dokumenty.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Mapa zasadnicza z oznaczeniami geodezyjnymi" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Mapa zasadnicza z naniesionymi granicami działek i uzbrojeniem terenu rozłożona na stole" class="responsive-image" src="/images/content/mapa-zasadnicza-geodezja-dokumenty.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Mapa zasadnicza z oznaczeniami geodezyjnymi" /></p>
 
 <h2 style="text-align: justify;">Czym właściwie jest mapa zasadnicza</h2>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="" class="responsive-image" src="/images/content/slownik-fundamenty.jpeg" width="525" height="350" style="width: 525px; height: 350px;" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="" class="responsive-image" src="/images/content/slownik-fundamenty.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" /></p>
 
 <p style="text-align: justify;">Pamiętam rozmowę z klientem, który zadzwonił do mnie tuż po pierwszej wizycie na swojej budowie. Był wyraźnie sfrustrowany. Jego wykonawca przez pół godziny tłumaczył mu coś o osiach, ławicach i strzemionach fi osiem, a on kiwał głową i udawał, że rozumie. Kiedy wrócił do domu, nie potrafił żonie opowiedzieć, co właściwie dzieje się na działce. To uczucie – że wszyscy wokół mówią w obcym języku, a Wy musicie zgadywać, o co chodzi – znam z opowieści wielu inwestorów. Dlatego postanowiłem napisać ten tekst.</p>
 

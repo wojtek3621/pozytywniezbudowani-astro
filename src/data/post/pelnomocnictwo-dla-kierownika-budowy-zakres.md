@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Podpisywanie dokumentu pełnomocnictwa z pieczątką i długopisem na biurku" class="responsive-image" src="/images/content/pelnomocnictwo-kierownik-budowy-dokument.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Pełnomocnictwo dla kierownika budowy - dokument upoważniający do reprezentacji" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Podpisywanie dokumentu pełnomocnictwa z pieczątką i długopisem na biurku" class="responsive-image" src="/images/content/pelnomocnictwo-kierownik-budowy-dokument.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Pełnomocnictwo dla kierownika budowy - dokument upoważniający do reprezentacji" /></p>
 
 <p style="text-align: justify;">Budowa domu to nie tylko murowanie ścian i wylewanie betonu. To również dziesiątki spraw do załatwienia w urzędach – zawiadomienia, wnioski, odbiory dokumentów. I tu pojawia się pytanie, które słyszę regularnie: czy kierownik budowy może załatwić te sprawy za mnie? Czy mogę mu dać pełnomocnictwo i nie jeździć co chwilę do starostwa?</p>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Rury PEX i kanalizacyjne rozłożone w podłodze domu jednorodzinnego przed zalaniem wylewką" class="responsive-image" src="/images/content/instalacja-wod-kan-rury-pex-podloga.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Montaż instalacji wodno-kanalizacyjnej w domu jednorodzinnym" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Rury PEX i kanalizacyjne rozłożone w podłodze domu jednorodzinnego przed zalaniem wylewką" class="responsive-image" src="/images/content/instalacja-wod-kan-rury-pex-podloga.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Montaż instalacji wodno-kanalizacyjnej w domu jednorodzinnym" /></p>
 
 <p style="text-align: justify;">Jest taki moment na budowie, kiedy dom stoi już w stanie surowym, dach jest zamknięty, okna wstawione – i nagle przychodzi czas na coś, czego nie widać gołym okiem, a co będzie decydować o Waszym komforcie przez następne kilkadziesiąt lat. Mówię o instalacji wodno-kanalizacyjnej. O rurach, które ukryjecie pod posadzką i w ścianach, o spadkach, które albo będą działać, albo nie, o złączkach, które albo wytrzymają, albo zaleją Wam dom.</p>
 

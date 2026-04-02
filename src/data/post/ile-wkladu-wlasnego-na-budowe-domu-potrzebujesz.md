@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Banknoty i model domu z symbolicznym znakiem procentu" class="responsive-image" src="/images/content/wklad-wlasny-procent-banknoty-dom.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Wkład własny na budowę domu - jaki procent potrzebujesz" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Banknoty i model domu z symbolicznym znakiem procentu" class="responsive-image" src="/images/content/wklad-wlasny-procent-banknoty-dom.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Wkład własny na budowę domu - jaki procent potrzebujesz" /></p>
 
 <p style="text-align: justify;">Zanim bank pożyczy Wam pieniądze na budowę domu, zechce zobaczyć, że macie coś swojego. Coś, co pokazuje, że traktujecie tę inwestycję poważnie i że w razie czego – nie uciekniecie z kredytem, bo sami macie w tym przedsięwzięciu sporo do stracenia. To właśnie jest wkład własny. I choć brzmi jak kolejna bariera na drodze do własnego domu, w praktyce może okazać się znacznie łatwiejszy do pokonania, niż myślicie – szczególnie jeśli macie już działkę.</p>
 

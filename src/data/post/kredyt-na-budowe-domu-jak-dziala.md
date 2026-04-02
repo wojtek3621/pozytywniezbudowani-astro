@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Dłonie podpisujące umowę kredytową z dokumentami bankowymi i długopisem na biurku" class="responsive-image" src="/images/content/kredyt-budowlany-podpisywanie-umowy-bank.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Podpisywanie umowy kredytu na budowę domu w banku" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Dłonie podpisujące umowę kredytową z dokumentami bankowymi i długopisem na biurku" class="responsive-image" src="/images/content/kredyt-budowlany-podpisywanie-umowy-bank.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Podpisywanie umowy kredytu na budowę domu w banku" /></p>
 
 <p style="text-align: justify;">Kiedy mówię znajomym, że budowa domu finansowana kredytem hipotecznym różni się od kupna mieszkania na kredyt, patrzą na mnie z niedowierzaniem. „Kredyt to kredyt" – słyszę wtedy. I teoretycznie mają rację. Oba produkty to kredyty hipoteczne, oba wymagają wkładu własnego, oba będziecie spłacać przez kilkanaście lub kilkadziesiąt lat. Ale w praktyce różnice są podstawowe i jeśli o nich nie wiecie, możecie się nieźle zdziwić już na etapie składania wniosku.</p>
 

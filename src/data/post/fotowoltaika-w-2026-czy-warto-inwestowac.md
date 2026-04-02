@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Instalacja paneli fotowoltaicznych na dachu domu jednorodzinnego w słoneczny dzień – widok z poziomu ogrodu" class="responsive-image" src="/images/content/fotowoltaika-panele-sloneczne-dach-domu.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Panele fotowoltaiczne zamontowane na dachu domu jednorodzinnego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Instalacja paneli fotowoltaicznych na dachu domu jednorodzinnego w słoneczny dzień – widok z poziomu ogrodu" class="responsive-image" src="/images/content/fotowoltaika-panele-sloneczne-dach-domu.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Panele fotowoltaiczne zamontowane na dachu domu jednorodzinnego" /></p>
 
 <p style="text-align: justify;">Kilka lat temu odpowiedź na pytanie z tytułu była prosta i brzmiała: tak, zdecydowanie. Instalacja fotowoltaiczna na dachu domu jednorodzinnego to była jedna z najlepszych inwestycji, jaką mogliście zrobić przy okazji budowy. Sieć energetyczna działała jak darmowy magazyn, oddawaliście nadwyżki latem, odbieraliście zimą, a rachunki za prąd spadały do symbolicznych kwot. Ludzie montowali panele i po prostu cieszyli się z decyzji.</p>
 

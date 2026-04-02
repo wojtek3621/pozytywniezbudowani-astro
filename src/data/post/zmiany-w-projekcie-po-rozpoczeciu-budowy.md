@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;"><strong>Budowa ruszyła, fundamenty stoją, a Wy nagle zdajecie sobie sprawę, że okno w salonie powinno być większe. Albo że przesunięcie ściany działowej o metr całkowicie zmieni funkcjonalność kuchni. Czy to już za późno na zmiany? Niekoniecznie. Prawo budowlane przewiduje możliwość modyfikacji projektu nawet w trakcie realizacji, ale diabeł tkwi w szczegółach. Jedne zmiany załatwicie wpisem kierownika do dziennika budowy, inne wymagają nowego pozwolenia. Różnica między nimi może kosztować Was kilka tygodni formalności lub spokojny sen.</strong></p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Plany architektoniczne trzymane na tle domu w stanie surowym otwartym" class="responsive-image" src="/images/content/zmiany-projekt-budowa-plany.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Zmiany w projekcie podczas budowy – plany na tle stanu surowego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Plany architektoniczne trzymane na tle domu w stanie surowym otwartym" class="responsive-image" src="/images/content/zmiany-projekt-budowa-plany.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Zmiany w projekcie podczas budowy – plany na tle stanu surowego" /></p>
 
 <h2 style="text-align: justify;">Kiedy pomysł przychodzi za późno</h2>
 

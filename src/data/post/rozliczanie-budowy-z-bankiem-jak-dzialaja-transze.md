@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Doradca bankowy omawiający dokumenty kredytowe z klientem przy biurku" class="responsive-image" src="/images/content/transze-kredytu-spotkanie-doradca-bankowy.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Spotkanie z doradcą bankowym w sprawie transz kredytu budowlanego" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Doradca bankowy omawiający dokumenty kredytowe z klientem przy biurku" class="responsive-image" src="/images/content/transze-kredytu-spotkanie-doradca-bankowy.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Spotkanie z doradcą bankowym w sprawie transz kredytu budowlanego" /></p>
 
 <p style="text-align: justify;">Kiedy podpisujecie umowę kredytową na budowę domu, bank nie przelewa Wam całej kwoty na konto. I dobrze – bo gdyby tak zrobił, ryzykowałby, że środki rozejdą się nie wiadomo gdzie, a nieruchomość nigdy nie powstanie. Zamiast tego dostajecie pieniądze w częściach, zwanych transzami, które wypłacane są po kolei – w miarę jak budowa posuwa się do przodu. To mechanizm, który chroni zarówno bank, jak i Was samych. Ale żeby z niego korzystać bez stresu, musicie zrozumieć, jak działa i jakie reguły gry obowiązują.</p>
 

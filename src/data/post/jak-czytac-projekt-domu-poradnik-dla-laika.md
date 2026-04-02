@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Rozłożone rysunki techniczne projektu domu z rzutami kondygnacji i przekrojami budynku" class="responsive-image" src="/images/content/jak-czytac-projekt-domu-rzuty.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Dokumentacja projektowa domu – rzuty i przekroje architektoniczne" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Rozłożone rysunki techniczne projektu domu z rzutami kondygnacji i przekrojami budynku" class="responsive-image" src="/images/content/jak-czytac-projekt-domu-rzuty.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Dokumentacja projektowa domu – rzuty i przekroje architektoniczne" /></p>
 
 <p style="text-align: justify;"><strong>Otrzymaliście właśnie teczkę z projektem domu. Kilkadziesiąt stron rysunków technicznych, opisów, tabel i przekrojów. Architekt adaptujący przesłał Wam dokumentację do akceptacji, a Wy patrzycie na te wszystkie linie, symbole i wymiary jak na mapę obcego świata. Spokojnie – nie musicie kończyć studiów architektonicznych, żeby zrozumieć, co dokładnie pokazuje projekt Waszego przyszłego domu. Wystarczy poznać kilka podstawowych zasad i wiedzieć, na co zwracać uwagę.</strong></p>
 

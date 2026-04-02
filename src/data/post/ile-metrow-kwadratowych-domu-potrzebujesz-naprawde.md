@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Rzut architektoniczny domu jednorodzinnego z taśmą mierniczą i ołówkiem na biurku" class="responsive-image" src="/images/content/metraz-domu-plan-pomiar.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Planowanie metrażu domu – rzut architektoniczny z miarką" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Rzut architektoniczny domu jednorodzinnego z taśmą mierniczą i ołówkiem na biurku" class="responsive-image" src="/images/content/metraz-domu-plan-pomiar.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Planowanie metrażu domu – rzut architektoniczny z miarką" /></p>
 
 <p style="text-align: justify;"><strong>Wiele razy słyszałem od swoich klientów, że wybudowali za duży dom. Że w sumie nie potrzebują aż tylu pokoi, że kosztował – i kosztuje – zbyt wiele, budowa trwała za długo. Z kolei to, że ktoś wybudował za mały dom, słyszałem tylko raz – i był to budynek o powierzchni dwustu sześćdziesięciu metrów kwadratowych. Ta asymetria mówi bardzo dużo o tym, jak podejmujemy decyzje o wielkości naszego przyszłego domu i jak często te decyzje okazują się chybione.</strong></p>
 

@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Ręce trzymające tablet z interfejsem sterowania inteligentnym domem na tle nowoczesnego salonu" class="responsive-image" src="/images/content/smart-home-tablet-sterowanie-domem.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Sterowanie inteligentnym domem za pomocą tabletu" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Ręce trzymające tablet z interfejsem sterowania inteligentnym domem na tle nowoczesnego salonu" class="responsive-image" src="/images/content/smart-home-tablet-sterowanie-domem.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Sterowanie inteligentnym domem za pomocą tabletu" /></p>
 
 <p style="text-align: justify;">Wyobraźcie sobie taką sytuację. Wprowadzacie się do nowego domu, w którym budowa pochłonęła ostatnie dwa lata Waszego życia. Wszystko lśni nowością. I wtedy sąsiad pyta: „A macie smart home?". Odpowiadacie, że nie, a on z politowaniem kręci głową, jakbyście właśnie przyznali się, że nie macie bieżącej wody. I nagle pojawia się ten irracjonalny niepokój – czy przypadkiem nie popełniliście błędu? Czy Wasz dom jest „przestarzały", zanim w ogóle zdążyliście się w nim zadomowić?</p>
 

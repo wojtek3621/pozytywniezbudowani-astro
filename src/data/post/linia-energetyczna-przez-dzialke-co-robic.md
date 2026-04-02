@@ -21,7 +21,7 @@ metadata:
 
 <p style="text-align: justify;"><strong>Słupy energetyczne i linie przesyłowe to stały element polskiego krajobrazu – dopóki nie okazuje się, że przecinają działkę, którą chcecie kupić albo już kupiliście. Wtedy z malowniczego detalu stają się problemem wartym dziesiątki tysięcy złotych i miesiące formalności. Zanim podpiszecie akt notarialny lub zaczniecie planować przesunięcie linii, musicie wiedzieć, z czym tak naprawdę się mierzycie – bo to nie jest temat na pięciominutową rozmowę z pośrednikiem.</strong></p>
 
-<p style="text-align: center;"><img loading="lazy" alt="Słupy wysokiego napięcia z przewodami przebiegającymi nad działką budowlaną" class="responsive-image" src="/images/content/linia-energetyczna-przez-dzialke-slupy.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Linia energetyczna przechodząca przez działkę budowlaną" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Słupy wysokiego napięcia z przewodami przebiegającymi nad działką budowlaną" class="responsive-image" src="/images/content/linia-energetyczna-przez-dzialke-slupy.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Linia energetyczna przechodząca przez działkę budowlaną" /></p>
 
 <h2 style="text-align: justify;">Historia, która powinna dać Wam do myślenia</h2>
 

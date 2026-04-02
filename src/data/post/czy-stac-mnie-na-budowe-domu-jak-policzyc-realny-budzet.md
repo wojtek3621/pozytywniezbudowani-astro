@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Kalkulator leżący na dokumentach finansowych z arkuszem budżetu budowy domu i długopisem" class="responsive-image" src="/images/content/budzet-budowy-domu-kalkulator-dokumenty.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Planowanie budżetu na budowę domu - kalkulator i dokumenty finansowe" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Kalkulator leżący na dokumentach finansowych z arkuszem budżetu budowy domu i długopisem" class="responsive-image" src="/images/content/budzet-budowy-domu-kalkulator-dokumenty.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Planowanie budżetu na budowę domu - kalkulator i dokumenty finansowe" /></p>
 
 <p style="text-align: justify;">Budowa domu potrafi człowieka wykończyć – i to nie tylko nerwowo. Finansowo też. A najgorsze jest to, że wielu inwestorów wpędza się w kłopoty zupełnie niepotrzebnie. Podejmują decyzje na podstawie emocji, a nie kalkulacji. Budują „na styk", licząc że „jakoś to będzie". I potem rata kredytu hipotecznego – która, uwierzcie mi, nigdy nie przestaje robić wrażenia – zjada im radość z nowego domu.</p>
 

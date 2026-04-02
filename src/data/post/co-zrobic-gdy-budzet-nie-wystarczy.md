@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Pusty portfel obok modelu domu symbolizujący niedobór budżetu na budowę" class="responsive-image" src="/images/content/budzet-nie-wystarczy-pusty-portfel-dom.jpeg" width="525" height="350" style="width: 525px; height: 350px;" title="Gdy budżet nie wystarcza - jak poradzić sobie z brakiem środków na budowę" /></p>
+<p style="text-align: center;"><img loading="lazy" alt="Pusty portfel obok modelu domu symbolizujący niedobór budżetu na budowę" class="responsive-image" src="/images/content/budzet-nie-wystarczy-pusty-portfel-dom.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Gdy budżet nie wystarcza - jak poradzić sobie z brakiem środków na budowę" /></p>
 
 <p style="text-align: justify;">Znacie ten moment? Siedzicie wieczorem nad arkuszem kalkulacyjnym, sumujecie kolejne pozycje kosztorysu i z każdą linijką czujecie, jak Wasz wymarzony dom oddala się gdzieś w nieokreśloną przyszłość. Fundament – jest. Ściany – jakoś się domknie. Dach – no, będzie ciasno. A potem patrzymy na wykończeniówkę i okazuje się, że zabraknie nam kilkudziesięciu, a może nawet stu kilkudziesięciu tysięcy złotych. I co teraz? Odłożyć marzenie na półkę? Zacisnąć zęby i wziąć kredyt na styk? A może jest trzecia droga – taka, o której mało kto mówi wprost?</p>
 
