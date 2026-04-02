@@ -30,6 +30,12 @@ const { language, textDirection } = I18N;
   <head>
     <CommonMeta />
     <Favicons />
+
+    <!-- Performance: preconnect to external origins -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://app.visitortracking.com" />
+    <link rel="dns-prefetch" href="https://connect.mailerlite.com" />
     <CustomStyles />
     <ApplyColorMode />
     <Metadata {...metadata} />
