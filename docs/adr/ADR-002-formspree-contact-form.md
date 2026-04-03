@@ -1,3 +1,15 @@
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
 # ADR-002: Formspree jako formularz kontaktowy
 
 **Status:** Accepted

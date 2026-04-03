@@ -1,3 +1,15 @@
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
 # ADR-001: AstroWind jako base theme
 
 **Status:** Accepted
@@ -32,4 +44,4 @@ Wybralismy **AstroWind** (onWidget, 5.5k stars, MIT).
 
 ## References
 
-- Research: `~/aios-workspace/builds/research-astro-themes-pz-2026-04-01.md`
+- Research: wewn. `builds/research-astro-themes-pz-2026-04-01.md` (workspace AIOS)

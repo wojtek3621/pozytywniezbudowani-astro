@@ -1,3 +1,9 @@
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
 # ADR-005: Partytown dla GTM i analytics
 
 **Status:** Accepted

@@ -1,7 +1,13 @@
+---
+last_modified: 2026-04-03
+owner: kazik
+status: current
+---
+
 # Architecture — pozytywniezbudowani.pl
 
 Architektura, data flow, crosscutting concepts i glossary.
-Source of truth: `~/aios-workspace/plans/active/2026-04-01-pz-astro-migration.md`
+Source of truth: plan migracji w workspace AIOS (wewn.: `plans/active/2026-04-01-pz-astro-migration.md`)
 
 ---
 

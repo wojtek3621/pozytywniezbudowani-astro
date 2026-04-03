@@ -1,3 +1,9 @@
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
 # ADR-007: Zachowanie URL structure 1:1
 
 **Status:** Accepted

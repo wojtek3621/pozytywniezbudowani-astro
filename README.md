@@ -69,7 +69,7 @@ AIOS blog-master → reviewer → humanizator → grafik
     → git commit + push → Cloudflare auto-build (30-60s) → live
 ```
 
-Skrypt: `~/aios-workspace/data/connectors/pz_astro_publisher.py`
+Skrypt: `pz_astro_publisher.py` (wewn.: `data/connectors/pz_astro_publisher.py` w workspace AIOS)
 
 ### Recznie
 
@@ -118,13 +118,13 @@ Rollback: `git revert <hash> && git push` → Cloudflare auto-redeploy (<2 min).
 | Formspree | POST formularz kontaktowy | `src/pages/kontakt.astro` |
 | SalesCRM | Link zewnetrzny (sklep) | `src/pages/sklep.astro` |
 | Cloudflare Pages | Auto-deploy na push do main | GitHub webhook |
-| AIOS pipeline | pz_astro_publisher.py → git push | `~/aios-workspace/data/connectors/` |
-| pz_health_check.py | Monitoring co 15 min (homepage, blog, sitemap) | `~/aios-workspace/automation/` |
+| AIOS pipeline | pz_astro_publisher.py → git push | wewn.: `data/connectors/` |
+| pz_health_check.py | Monitoring co 15 min (homepage, blog, sitemap) | wewn.: `automation/` |
 
 ## Brand
 
 Kolory PZ: `#c5a44e` (zloty), `#3369B1` (niebieski), `#5A656B` (szary).
-Szczegoly: `~/aios-workspace/context/brand-voice.md`
+Szczegoly: wewn. `context/brand-voice.md` (workspace AIOS)
 
 ## Dokumentacja
 
@@ -133,10 +133,10 @@ Szczegoly: `~/aios-workspace/context/brand-voice.md`
 | Operations Runbook | [docs/OPERATIONS.md](docs/OPERATIONS.md) |
 | Architecture & Data Flow | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | Architecture Decision Records | [docs/adr/](docs/adr/) |
-| Migration Plan (source of truth) | `~/aios-workspace/plans/active/2026-04-01-pz-astro-migration.md` |
-| Audyt starej strony | `~/aios-workspace/builds/audyty/2026-04-01-pz-website-full-audit.md` |
-| Audyt enterprise standards | `~/aios-workspace/builds/audyty/2026-04-02-pz-astro-enterprise-audit.md` |
-| Audyt dokumentacji | `~/aios-workspace/builds/audyty/2026-04-03-pz-astro-documentation-audit.md` |
+| Migration Plan (source of truth) | wewn.: `plans/active/2026-04-01-pz-astro-migration.md` |
+| Audyt starej strony | wewn.: `builds/audyty/2026-04-01-pz-website-full-audit.md` |
+| Audyt enterprise standards | wewn.: `builds/audyty/2026-04-02-pz-astro-enterprise-audit.md` |
+| Audyt dokumentacji | wewn.: `builds/audyty/2026-04-03-pz-astro-documentation-re-audit.md` |
 
 ## Wlasciciel
 
@@ -147,3 +147,5 @@ Utrzymanie: AIOS (Kazik — Senior Developer)
 
 Base theme AstroWind: MIT — [LICENSE.md](LICENSE.md).
 Tresci (artykuly, obrazy, branding): Copyright Wojciech Tracichleb. All rights reserved.
+
+<!-- doc-metadata: last_modified=2026-04-03, owner=kazik, status=current -->

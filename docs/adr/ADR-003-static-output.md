@@ -1,3 +1,15 @@
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
 # ADR-003: Static output (nie SSR/hybrid)
 
 **Status:** Accepted
@@ -18,6 +30,12 @@ Wybralismy **static output** (`output: 'static'` w astro.config.ts).
 |------|-------------------|
 | SSR (server) | Wymaga runtime (Node.js/Cloudflare Workers). Wiecej kosztow, wiecej punktow awarii. Blog nie ma dynamicznego contentu. |
 | Hybrid | Kompromis — czesc stron static, czesc SSR. Niepotrzebne: formularz obsluguje Formspree, search jest client-side. |
+
+## Non-Goals
+
+- Komentarze pod artykulami (nie zlecone, nie potrzebne)
+- Personalizacja tresci per uzytkownik (blog jest publiczny, jednolity)
+- Server-side rendering na zadanie (brak use case'u)
 
 ## Consequences
 

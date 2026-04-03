@@ -1,3 +1,9 @@
+---
+last_modified: 2026-04-03
+owner: kazik
+status: accepted
+---
+
 # ADR-008: Markdown content (nie headless CMS)
 
 **Status:** Accepted
@@ -19,6 +25,12 @@ Wybralismy **pliki Markdown w repozytorium** (Astro Content Collections).
 | Headless CMS (Strapi, self-hosted) | Wymaga osobnego serwera, bazy danych, utrzymania. Over-engineering na 1-osobowy zespol redakcyjny. |
 | Headless CMS (Contentful/Sanity, SaaS) | Dodatkowa zaleznosc od zewnetrznego serwisu. Koszty rosna z iloscia contentu. Wojtek nie potrzebuje WYSIWYG — AIOS pipeline generuje content. |
 | Zachowanie MySQL + API | Utrzymywanie starej bazy + backendu. Sprzeczne z celem migracji (eliminacja PHP/MySQL). |
+
+## Non-Goals
+
+- Auto-sync z zewnetrznym CMS (content flow jest jednokierunkowy: AIOS → git → live)
+- WYSIWYG edytor w przegladarce (Wojtek nie edytuje recznie, pipeline AIOS generuje Markdown)
+- Multi-author workflow (1 autor, 1 pipeline)
 
 ## Consequences
 

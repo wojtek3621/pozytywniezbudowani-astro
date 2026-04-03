@@ -1,7 +1,13 @@
+---
+last_modified: 2026-04-03
+owner: kazik
+status: current
+---
+
 # Operations Runbook — pozytywniezbudowani.pl
 
 Procedury operacyjne dla strony Astro na Cloudflare Pages.
-Source of truth: `~/aios-workspace/plans/active/2026-04-01-pz-astro-migration.md`
+Source of truth: plan migracji w workspace AIOS (wewn.: `plans/active/2026-04-01-pz-astro-migration.md`)
 
 ---
 
@@ -15,7 +21,7 @@ Source of truth: `~/aios-workspace/plans/active/2026-04-01-pz-astro-migration.md
 4. Cloudflare Pages auto-build (30-60s)
 5. Artykul live na `https://pozytywniezbudowani.pl/blog/{slug}/`
 
-Skrypt: `~/aios-workspace/data/connectors/pz_astro_publisher.py`
+Skrypt: `pz_astro_publisher.py` (wewn.: `data/connectors/pz_astro_publisher.py` w workspace AIOS)
 
 ### Recznie
 
@@ -31,6 +37,50 @@ Skrypt: `~/aios-workspace/data/connectors/pz_astro_publisher.py`
 - Sprawdz sitemap: `https://pozytywniezbudowani.pl/sitemap-index.xml`
 - Sprawdz RSS: `https://pozytywniezbudowani.pl/rss.xml`
 - Google Search Console: Request Indexing (opcjonalnie)
+
+### Content Schema (pelna specyfikacja pol)
+
+Definicja: `src/content/config.ts` (Astro Content Collections, Zod schema).
+
+| Pole | Typ | Wymagane | Opis |
+|------|-----|----------|------|
+| `title` | string | TAK | Tytul artykulu (H1, meta title) |
+| `publishDate` | date | nie | Data publikacji (sortowanie, sitemap) |
+| `updateDate` | date | nie | Data aktualizacji (sygnal freshness dla Google) |
+| `draft` | boolean | nie | `true` = widoczny w dev, ukryty w produkcji |
+| `excerpt` | string | nie | Niestandardowy opis na listingu bloga (zamiast auto-excerpt) |
+| `image` | string | nie | Sciezka do hero image (`~/assets/images/blog/slug.jpg`) |
+| `category` | string | nie | Kategoria (default: "Blog") |
+| `tags` | string[] | nie | Tagi SEO (tablica stringow) |
+| `author` | string | nie | Autor (default: "Wojciech Tracichleb") |
+| `metadata` | object | nie | Zaawansowane SEO: canonical, robots (index/follow), OpenGraph, Twitter Cards |
+
+Przyklad minimalny:
+```yaml
+---
+title: "Tytul artykulu"
+publishDate: 2026-04-03
+---
+```
+
+Przyklad pelny:
+```yaml
+---
+title: "Tytul artykulu"
+publishDate: 2026-04-03
+updateDate: 2026-04-05
+author: "Wojciech Tracichleb"
+image: "~/assets/images/blog/slug.jpg"
+tags: ["budowa domu", "fundamenty"]
+category: "Blog"
+draft: false
+excerpt: "Niestandardowy opis widoczny na listingu bloga"
+metadata:
+  robots:
+    index: true
+    follow: true
+---
+```
 
 ## 2. Aktualizacja istniejacego artykulu
 
@@ -98,8 +148,8 @@ Brand PZ: `#c5a44e` (zloty), `#3369B1` (niebieski), `#5A656B` (szary).
 ### pz_health_check.py (AIOS, co 15 min)
 
 Sprawdza: homepage (200), blog listing (200), sitemap (200).
-Logi: `~/aios-workspace/automation/logs/pz_health_check.log`
-Stan: `~/aios-workspace/automation/logs/pz_health_state.json`
+Logi: wewn. `automation/logs/pz_health_check.log` (workspace AIOS)
+Stan: wewn. `automation/logs/pz_health_state.json` (workspace AIOS)
 Alert: Telegram do Wojtka jesli strona nie odpowiada.
 
 ### Cloudflare Analytics
@@ -150,6 +200,15 @@ Sprawdzaj: Coverage, CWV, Sitemaps, Indexing.
 - Sprawdz frontmatter postow — `robots: index: false`?
 - Submit sitemap ponownie w GSC
 
+### Po powaznym incydencie (>1h downtime)
+
+Zapisz w commit message lub osobnej notatce:
+1. Co sie stalo (1-2 zdania)
+2. Root cause (dlaczego)
+3. Co zrobic zeby sie nie powtorzylo (action item)
+
+Format: `git commit -m "postmortem: [opis incydentu] — root cause: [przyczyna]"`
+
 ## 7. Rollback
 
 ### Content rollback (zly artykul, bledna tresc)
@@ -167,7 +226,7 @@ Procedura awaryjna — tylko jesli Cloudflare/Astro kompletnie nie dziala:
 2. DNS propagation: 1-4h (do 48h worst case)
 3. MiroCMS na dhostingu nadal dziala (zachowac konto min. 30 dni po cutover)
 
-Pelna procedura: `~/aios-workspace/plans/active/2026-04-01-pz-astro-migration.md` sekcja 9.
+Pelna procedura: plan migracji sekcja 9 (wewn.: `plans/active/2026-04-01-pz-astro-migration.md` w workspace AIOS).
 
 ## 8. Kontakty i eskalacja
 

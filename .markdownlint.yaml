@@ -1,0 +1,40 @@
+# markdownlint config for PZ Astro docs
+# Lenient: docs are in Polish, tables are wide, some inline HTML
+
+# Disable line length (tables and URLs break this)
+MD013: false
+
+# Allow inline HTML (legacy content, embeds)
+MD033: false
+
+# Allow duplicate headings in different sections
+MD024:
+  siblings_only: true
+
+# Allow trailing punctuation in headings (Polish convention)
+MD026: false
+
+# Allow bare URLs
+MD034: false
+
+# Allow fenced code blocks without language
+MD040: false
+
+# Relax blanks around fences/lists (existing content)
+MD031: false
+MD032: false
+
+# Disable table column style check (compact tables OK)
+MD060: false
+
+# Allow YAML frontmatter (not parsed as heading)
+MD041: false
+
+# Disable heading style check (YAML frontmatter --- triggers false positives)
+MD003: false
+
+# Allow headings without blank lines above (frontmatter)
+MD022: false
+
+# Allow spaces in emphasis (Polish text patterns)
+MD037: false

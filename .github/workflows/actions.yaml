@@ -39,3 +39,16 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
+
+  docs:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint Markdown (docs + README)
+        run: npx markdownlint-cli2 "docs/**/*.md" "README.md" "CHANGELOG.md"
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --exclude-path "src" --include-fragments "docs/**/*.md" "README.md"
+          fail: false
