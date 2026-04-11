@@ -101,6 +101,7 @@ Uwaga: zmiana slug = zmiana URL. Jesli slug sie zmienia, dodaj redirect w `publi
 
 1. Utworz `src/pages/{slug}.astro`
 2. Uzyj Layout:
+
    ```astro
    ---
    import Layout from '~/layouts/PageLayout.astro';
@@ -112,6 +113,7 @@ Uwaga: zmiana slug = zmiana URL. Jesli slug sie zmienia, dodaj redirect w `publi
      <!-- tresc -->
    </Layout>
    ```
+
 3. Dodaj link w `src/navigation.ts` (menu glowne lub footer)
 4. `npm run build && git push`
 
