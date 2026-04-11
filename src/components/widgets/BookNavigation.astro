@@ -1,0 +1,157 @@
+---
+/**
+ * BookNavigation — sticky anchor sub-navigation for /ksiazka/ landing page.
+ * Displays BELOW the main Header, scrollable horizontal on mobile.
+ * Uses IntersectionObserver to highlight the active section.
+ */
+
+interface NavItem {
+  label: string;
+  href: string;
+}
+
+const items: NavItem[] = [
+  { label: 'Co zyskasz', href: '#co-zyskasz' },
+  { label: 'Spis treści', href: '#spis-tresci' },
+  { label: 'Wnętrze książki', href: '#wnetrze-ksiazki' },
+  { label: 'Recenzje', href: '#recenzje' },
+  { label: 'O autorze', href: '#o-autorze' },
+  { label: 'Drużyna', href: '#druzyna' },
+  { label: 'Kup książkę', href: '#kup-ksiazke' },
+];
+---
+
+<nav
+  id="book-nav"
+  class="sticky top-[72px] z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-slate-700 transition-shadow duration-300"
+  aria-label="Nawigacja po stronie książki"
+>
+  <div class="max-w-7xl mx-auto px-4">
+    <ul
+      class="flex gap-1 overflow-x-auto scrollbar-hide py-2.5 -mx-4 px-4 md:mx-0 md:px-0 md:justify-center md:gap-2"
+      id="book-nav-list"
+    >
+      {
+        items.map((item) => (
+          <li class="flex-shrink-0">
+            <a
+              href={item.href}
+              class="book-nav-link inline-block px-3 py-1.5 text-sm font-medium text-gray-600 dark:text-slate-400 rounded-full hover:text-primary hover:bg-blue-50 dark:hover:bg-slate-800 dark:hover:text-white transition-colors duration-200 whitespace-nowrap"
+              data-section={item.href.slice(1)}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</nav>
+
+<style>
+  /* Hide scrollbar on mobile but keep scroll functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Active link state */
+  .book-nav-link.active {
+    color: var(--aw-color-primary);
+    background-color: rgba(51, 105, 177, 0.08);
+    font-weight: 600;
+  }
+  :global(.dark) .book-nav-link.active {
+    color: var(--aw-color-accent);
+    background-color: rgba(197, 164, 78, 0.1);
+  }
+
+  /* Shadow when scrolled past hero */
+  #book-nav.has-shadow {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+</style>
+
+<script>
+  function initBookNav() {
+    const nav = document.getElementById('book-nav');
+    const links = document.querySelectorAll<HTMLAnchorElement>('.book-nav-link');
+    if (!nav || links.length === 0) return;
+
+    // Smooth scroll on click
+    links.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('data-section');
+        if (!targetId) return;
+        const target = document.getElementById(targetId);
+        if (target) {
+          const navHeight = nav.offsetHeight + 72; // header + sub-nav
+          const top = target.getBoundingClientRect().top + window.scrollY - navHeight;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // IntersectionObserver for active section highlighting
+    const sectionIds = Array.from(links).map((l) => l.getAttribute('data-section')!);
+    const sections = sectionIds
+      .map((id) => document.getElementById(id))
+      .filter((el): el is HTMLElement => el !== null);
+
+    if (sections.length > 0) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              links.forEach((l) => l.classList.remove('active'));
+              const activeLink = document.querySelector<HTMLAnchorElement>(
+                `.book-nav-link[data-section="${entry.target.id}"]`
+              );
+              if (activeLink) {
+                activeLink.classList.add('active');
+                // Scroll nav to show active link on mobile
+                const navList = document.getElementById('book-nav-list');
+                if (navList && window.innerWidth < 768) {
+                  const linkRect = activeLink.getBoundingClientRect();
+                  const listRect = navList.getBoundingClientRect();
+                  if (linkRect.left < listRect.left || linkRect.right > listRect.right) {
+                    activeLink.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                  }
+                }
+              }
+            }
+          });
+        },
+        {
+          rootMargin: '-20% 0px -60% 0px',
+          threshold: 0,
+        }
+      );
+
+      sections.forEach((section) => observer.observe(section));
+    }
+
+    // Shadow on scroll
+    const handleScroll = () => {
+      if (window.scrollY > 400) {
+        nav.classList.add('has-shadow');
+      } else {
+        nav.classList.remove('has-shadow');
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+  }
+
+  // Run on page load and after Astro navigation
+  document.addEventListener('astro:page-load', initBookNav);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initBookNav);
+  } else {
+    initBookNav();
+  }
+</script>

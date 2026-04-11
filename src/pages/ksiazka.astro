@@ -6,14 +6,47 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features from '~/components/widgets/Features.astro';
 import Stats from '~/components/widgets/Stats.astro';
+import Image from '~/components/common/Image.astro';
+import BookNavigation from '~/components/widgets/BookNavigation.astro';
 
 import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
+import bookCoverCta from '~/assets/images/ksiazka/book-cover-cta.jpg';
+
+import interior01 from '~/assets/images/ksiazka/interior-01.jpg';
+import interior02 from '~/assets/images/ksiazka/interior-02.jpg';
+import interior03 from '~/assets/images/ksiazka/interior-03.jpg';
+import interior04 from '~/assets/images/ksiazka/interior-04.jpg';
+import interior05 from '~/assets/images/ksiazka/interior-05.jpg';
+import interior06 from '~/assets/images/ksiazka/interior-06.jpg';
+import interior07 from '~/assets/images/ksiazka/interior-07.jpg';
+import interior08 from '~/assets/images/ksiazka/interior-08.jpg';
+import interior09 from '~/assets/images/ksiazka/interior-09.jpg';
+import interior10 from '~/assets/images/ksiazka/interior-10.jpg';
+import interior11 from '~/assets/images/ksiazka/interior-11.jpg';
+import interior12 from '~/assets/images/ksiazka/interior-12.jpg';
 
 const metadata = {
   title: 'Książka — Od Marzenia Do Wprowadzenia',
   description:
     'Ponad 600 stron praktycznej wiedzy o budowie domu jednorodzinnego. Książka Wojciecha Tracichleb — kompletny przewodnik dla inwestora.',
 };
+
+const interiorImages = [
+  { src: interior01, alt: 'Wnętrze książki — rozkładówka 1' },
+  { src: interior02, alt: 'Wnętrze książki — rozkładówka 2' },
+  { src: interior03, alt: 'Wnętrze książki — rozkładówka 3' },
+  { src: interior04, alt: 'Wnętrze książki — rozkładówka 4' },
+  { src: interior05, alt: 'Wnętrze książki — rozkładówka 5' },
+  { src: interior06, alt: 'Wnętrze książki — rozkładówka 6' },
+  { src: interior07, alt: 'Wnętrze książki — rozkładówka 7' },
+  { src: interior08, alt: 'Wnętrze książki — rozkładówka 8' },
+  { src: interior09, alt: 'Wnętrze książki — rozkładówka 9' },
+  { src: interior10, alt: 'Wnętrze książki — rozkładówka 10' },
+  { src: interior11, alt: 'Wnętrze książki — rozkładówka 11' },
+  { src: interior12, alt: 'Wnętrze książki — rozkładówka 12' },
+];
+
+const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603';
 ---
 
 <Layout metadata={metadata}>
@@ -22,8 +55,8 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Kup książkę',
-        href: 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603',
+        text: 'Kup książkę — 119 zł',
+        href: salesUrl,
         target: '_blank',
         icon: 'tabler:shopping-cart',
       },
@@ -37,15 +70,14 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <strong>Twój przewodnik w drodze do własnego domu.</strong><br /><br />
-      Książka prowadzi Was przez wszystkie etapy budowy domu — od pierwszej myśli „Może wybudujemy własny dom?", przez wybór
-      projektu i działki, pozyskanie finansowania, budowę, aż po wykończenie wnętrz. Napisałem ją z myślą o tym, aby stała
-      się kompleksowym przewodnikiem po całym procesie budowy domu jednorodzinnego.<br /><br />
-      Opisałem w niej, jak przygotować się do budowy domu oraz na co zwrócić uwagę na każdym z etapów budowy tak, by przejść
-      je bez niepotrzebnych nerwów i móc spać spokojnie. W tej książce nie ma przytoczonych dziesiątek norm i przepisów budowlanych.
-      To nie jest publikacja akademicka. Postawiłem sobie za cel pisać w przystępny sposób, aby treść była łatwa w odbiorze,
-      i jednocześnie przekazać Wam komplet informacji, których potrzebujecie.
+      Ponad 600 stron praktycznej wiedzy o budowie domu — od pierwszej myśli o budowie,
+      przez wybór projektu i działki, finansowanie, budowę, aż po wykończenie wnętrz.
+      Napisana przez praktyka z wieloletnim doświadczeniem jako generalny wykonawca.
     </Fragment>
   </Hero>
+
+  <!-- Sticky Anchor Navigation -->
+  <BookNavigation />
 
   <!-- Co zyskasz -->
   <Features
@@ -55,41 +87,65 @@ const metadata = {
     items={[
       {
         title: 'Pewność siebie w każdej decyzji budowlanej',
-        description: '',
+        description:
+          'Zrozumiesz, dlaczego wykonawca proponuje dane rozwiązanie i czy jest ono optymalne. Będziesz rozmawiać z fachowcami jak równy z równym.',
         icon: 'tabler:shield-check',
       },
       {
         title: 'Oszczędność dziesiątek tysięcy złotych na unikniętych błędach',
-        description: '',
+        description:
+          'Każdy błąd na budowie kosztuje — często dziesiątki tysięcy złotych. Książka pokazuje konkretne pułapki i jak ich uniknąć.',
         icon: 'tabler:currency-zloty',
       },
       {
         title: 'Spokojny sen przez cały okres budowy',
-        description: '',
+        description:
+          'Gdy wiesz, co powinno się dziać na każdym etapie, przestajesz się bać niespodzianek. Kontrolujesz proces zamiast reagować na kryzysy.',
         icon: 'tabler:moon',
       },
       {
         title: 'Wiedzę, jak skutecznie komunikować się z wykonawcami',
-        description: '',
+        description:
+          'Dowiesz się, jakie pytania zadawać, na co zwracać uwagę w umowach i jak egzekwować ustalenia bez konfliktów.',
         icon: 'tabler:messages',
       },
       {
         title: 'Plan działania na każdy etap — od pozwolenia po odbiór',
-        description: '',
+        description:
+          'Książka prowadzi Cię krok po kroku przez cały proces. Nie musisz zgadywać, co dalej — masz gotową mapę.',
         icon: 'tabler:list-check',
       },
       {
         title: 'Umiejętność rozpoznawania problemów zanim staną się kosztowne',
-        description: '',
+        description:
+          'Nauczysz się wychwytywać nieprawidłowości na wczesnym etapie — zanim przerodzi się to w kosztowną naprawę.',
         icon: 'tabler:eye',
       },
       {
         title: 'Kontrolę nad terminem i budżetem inwestycji',
-        description: '',
+        description:
+          'Poznasz sprawdzone metody planowania budowy i zarządzania budżetem, dzięki którym unikniesz typowego scenariusza: "dwa razy drożej i rok dłużej".',
         icon: 'tabler:chart-line',
       },
     ]}
   />
+
+  <!-- Mid-page CTA after Features -->
+  <div class="relative not-prose">
+    <div class="max-w-4xl mx-auto px-4 md:px-6 py-8 text-center">
+      <p class="text-lg text-muted dark:text-slate-400 mb-5">
+        Zamówienia złożone do godziny 11:00 wysyłamy tego samego dnia.
+      </p>
+      <a
+        href={salesUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-primary inline-flex items-center"
+      >
+        Zamów swój egzemplarz — 119 zł
+      </a>
+    </div>
+  </div>
 
   <!-- Dla kogo -->
   <Content
@@ -98,23 +154,23 @@ const metadata = {
     title="Dla kogo powstała ta książka"
     items={[
       {
-        title: 'Marzą o własnym domu i myślą o jego budowie',
+        title: 'Marzysz o własnym domu i myślisz o jego budowie',
         description: '',
       },
       {
-        title: 'Budują systemem gospodarczym i szukają uporządkowanej wiedzy',
+        title: 'Budujesz systemem gospodarczym i szukasz uporządkowanej wiedzy',
         description: '',
       },
       {
-        title: 'Zatrudnili generalnego wykonawcę, ale chcą mieć poczucie kontroli nad budową',
+        title: 'Zatrudniłeś generalnego wykonawcę, ale chcesz mieć kontrolę nad budową',
         description: '',
       },
       {
-        title: 'Rozważają kupno od dewelopera z obawy, że nie dadzą sobie rady z samodzielną organizacją budowy',
+        title: 'Rozważasz kupno od dewelopera, bo boisz się samodzielnej organizacji budowy',
         description: '',
       },
       {
-        title: 'Planują budowę za 2-3 lata i chcą się odpowiednio przygotować',
+        title: 'Planujesz budowę za 2-3 lata i chcesz się odpowiednio przygotować',
         description: '',
       },
     ]}
@@ -133,7 +189,10 @@ const metadata = {
 
   <!-- Spis treści -->
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12" id="spis-tresci">
-    <h2 class="text-3xl font-bold dark:text-white mb-8 text-center">Spis treści</h2>
+    <div class="text-center mb-8">
+      <p class="text-sm font-semibold uppercase tracking-wider text-primary">Pełna zawartość</p>
+      <h2 class="text-3xl font-bold dark:text-white mt-2">Spis treści</h2>
+    </div>
     <div class="grid md:grid-cols-2 gap-8">
       <!-- Część 1 -->
       <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
@@ -235,16 +294,46 @@ const metadata = {
         </div>
       </div>
     </div>
-    <p class="text-sm text-muted text-center mt-4">
-      Zamówienia złożone do godziny 11:00 zostają wysłane tego samego dnia.
-    </p>
   </div>
+
+  <!-- Wnętrze książki — galeria -->
+  <section class="relative not-prose scroll-mt-[144px]" id="wnetrze-ksiazki">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent pointer-events-none -z-[1]"></div>
+    <div class="max-w-6xl mx-auto px-4 md:px-6 py-12 md:py-16">
+      <div class="text-center mb-10">
+        <p class="text-sm font-semibold uppercase tracking-wider text-primary">Zajrzyj do środka</p>
+        <h2 class="text-3xl font-bold dark:text-white mt-2 mb-3">Wnętrze książki</h2>
+        <p class="text-muted max-w-2xl mx-auto">
+          Przejrzyste ilustracje, czytelny układ i praktyczne wskazówki na każdej stronie.
+          Ponad 600 stron w twardej oprawie — to książka, do której będziesz wracać na każdym etapie budowy.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        {
+          interiorImages.map((img) => (
+            <div class="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 bg-white dark:bg-gray-800">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                width={600}
+                height={400}
+                widths={[300, 600]}
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                class="w-full h-auto"
+                loading="lazy"
+              />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
 
   <!-- Stats -->
   <Stats
     stats={[
       { title: 'Lat doświadczenia', amount: '12+' },
-      { title: 'Osób w zespole', amount: '3' },
+      { title: 'Stron praktycznej wiedzy', amount: '600+' },
       { title: 'Miesięcy pracy nad książką', amount: '10' },
     ]}
   />
@@ -275,17 +364,18 @@ const metadata = {
 
   <!-- Recenzje -->
   <Testimonials
+    id="recenzje"
     title="Co mówią recenzenci"
     testimonials={[
       {
         testimonial:
-          '„Ta książka powinna być dołączana do każdego pozwolenia na budowę." „Od marzenia do wprowadzenia" to lektura, która realnie pomaga odnaleźć się w procesie budowy domu. Dzięki niej łatwiej podjąć decyzje – zarówno te oczywiste, jak i te mniej dostrzegalne, które mogą zaważyć nie tylko na kosztach, ale i na komforcie życia w przyszłym domu.',
+          'Ta książka powinna być dołączana do każdego pozwolenia na budowę. "Od marzenia do wprowadzenia" to lektura, która realnie pomaga odnaleźć się w procesie budowy domu. Dzięki niej łatwiej podjąć decyzje — zarówno te oczywiste, jak i te mniej dostrzegalne, które mogą zaważyć nie tylko na kosztach, ale i na komforcie życia w przyszłym domu.',
         name: 'Daria Bućko',
         job: 'Extradom.pl',
       },
       {
         testimonial:
-          'Jak bardzo chciałabym przeczytać tę książkę osiem lat temu! Książka Wojciecha Tracichleba to esencja wiedzy i doświadczenia, jakie autor zdobył, pracując jako generalny wykonawca. Na kilkuset stronach nie tylko wyjaśnia kolejne etapy budowy, ale co najważniejsze – dzieli się praktycznymi wskazówkami.',
+          'Jak bardzo chciałabym przeczytać tę książkę osiem lat temu! Książka Wojciecha Tracichleba to esencja wiedzy i doświadczenia, jakie autor zdobył, pracując jako generalny wykonawca. Na kilkuset stronach nie tylko wyjaśnia kolejne etapy budowy, ale co najważniejsze — dzieli się praktycznymi wskazówkami.',
         name: 'Joanna Pachałko',
         job: 'Czytelniczka',
       },
@@ -309,7 +399,7 @@ const metadata = {
       },
       {
         testimonial:
-          'Po przeczytaniu tej książki pomimo mego doświadczenia w budownictwie doszedłem do wniosku, że jednak wciąż mało wiem i na niektóre rzeczy powinno się patrzeć zdecydowanie głębiej – tak jak robi to autor. Obowiązkowa pozycja na półkach każdego, kto postanowił spełnić swe marzenie o budowie własnego domu.',
+          'Po przeczytaniu tej książki pomimo mego doświadczenia w budownictwie doszedłem do wniosku, że jednak wciąż mało wiem i na niektóre rzeczy powinno się patrzeć zdecydowanie głębiej — tak jak robi to autor. Obowiązkowa pozycja na półkach każdego, kto postanowił spełnić swe marzenie o budowie własnego domu.',
         name: 'Norbert Mroczkowski',
         job: 'Czytelnik',
       },
@@ -389,22 +479,60 @@ const metadata = {
     </div>
   </div>
 
-  <!-- CTA -->
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Kup książkę — 119 zł',
-        href: 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603',
-        target: '_blank',
-        icon: 'tabler:shopping-cart',
-      },
-    ]}
-  >
-    <Fragment slot="title"> Gotowi na budowę? </Fragment>
+  <!-- Dark CTA Section -->
+  <section class="relative not-prose scroll-mt-[144px]" id="kup-ksiazke">
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pointer-events-none -z-[1]"></div>
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-16 md:py-24">
+      <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16">
+        <!-- Book cover image -->
+        <div class="w-full md:w-2/5 flex-shrink-0">
+          <div class="max-w-xs mx-auto md:max-w-sm">
+            <Image
+              src={bookCoverCta}
+              alt="Książka Od Marzenia Do Wprowadzenia — okładka"
+              width={400}
+              height={560}
+              widths={[300, 400]}
+              sizes="(max-width: 767px) 280px, 400px"
+              class="w-full h-auto rounded-lg shadow-2xl"
+              loading="lazy"
+            />
+          </div>
+        </div>
 
-    <Fragment slot="subtitle">
-      Ponad 600 stron wiedzy, która zaoszczędzi Wam tysięcy złotych i miesięcy stresu. Zacznijcie od solidnych podstaw.
-    </Fragment>
-  </CallToAction>
+        <!-- CTA content -->
+        <div class="w-full md:w-3/5 text-center md:text-left">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 font-heading tracking-tight">
+            Gotowi na budowę?
+          </h2>
+          <p class="text-lg text-slate-300 mb-3 leading-relaxed">
+            Ponad 600 stron wiedzy, która zaoszczędzi Wam tysięcy złotych
+            i miesięcy stresu. To nie kolejny poradnik z internetu — to kompletny
+            przewodnik napisany przez człowieka, który buduje domy na co dzień.
+          </p>
+          <p class="text-slate-400 mb-8">
+            Twarda oprawa. Wysyłka w 24h. Darmowa dostawa.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <a
+              href={salesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center rounded-full font-semibold text-base leading-snug transition py-3.5 px-8 ease-in duration-200 cursor-pointer bg-accent hover:bg-yellow-700 text-white border-2 border-accent hover:border-yellow-700 shadow-lg hover:shadow-xl"
+            >
+              Kup książkę — 119 zł
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 17h-11v-14h-2"></path>
+                <path d="M6 5l14 1l-1 7h-13"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </Layout>
