@@ -20,13 +20,13 @@ Wybralismy **Preact** (~3KB) zamiast React (~40KB).
 
 ## Alternatives
 
-| Framework | Rozmiar | Dlaczego odrzucone |
-|-----------|---------|-------------------|
-| React | ~40KB | 10x wiekszy. Identyczne API (JSX), ale niepotrzebny rozmiar na proste komponenty. |
-| Svelte | ~2KB | Mniejszy niz Preact, ale inny ekosystem — mniej kompatybilny z istniejacymi komponentami AstroWind. |
-| Solid.js | ~7KB | Reaktywny, ale mniej popularny ekosystem. |
-| Vue | ~33KB | Zbyt duzy. Inny paradygmat niz JSX. |
-| CSS-only | 0KB | Idealne dla slidera, ale formularz z walidacja wymaga JS. |
+| Framework | Rozmiar | Dlaczego odrzucone                                                                                  |
+| --------- | ------- | --------------------------------------------------------------------------------------------------- |
+| React     | ~40KB   | 10x wiekszy. Identyczne API (JSX), ale niepotrzebny rozmiar na proste komponenty.                   |
+| Svelte    | ~2KB    | Mniejszy niz Preact, ale inny ekosystem — mniej kompatybilny z istniejacymi komponentami AstroWind. |
+| Solid.js  | ~7KB    | Reaktywny, ale mniej popularny ekosystem.                                                           |
+| Vue       | ~33KB   | Zbyt duzy. Inny paradygmat niz JSX.                                                                 |
+| CSS-only  | 0KB     | Idealne dla slidera, ale formularz z walidacja wymaga JS.                                           |
 
 ## Consequences
 

@@ -33,10 +33,10 @@ MiroCMS uzywa URLi w formacie `/blog/{slug}/`. Migracja na Astro mogla byc okazj
 
 ## Alternatives
 
-| Podejscie | Dlaczego odrzucone |
-|-----------|-------------------|
-| Nowe URLe + 301 | Utrata czesci link equity (Google przekleja 301, ale nie natychmiast). Ryzyko 404 jesli redirect pominiemy. |
-| Nowe URLe bez redirect | WYKLUCZONE — utrata calego ruchu organicznego i pozycji w Google. |
+| Podejscie              | Dlaczego odrzucone                                                                                          |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Nowe URLe + 301        | Utrata czesci link equity (Google przekleja 301, ale nie natychmiast). Ryzyko 404 jesli redirect pominiemy. |
+| Nowe URLe bez redirect | WYKLUCZONE — utrata calego ruchu organicznego i pozycji w Google.                                           |
 
 ## Consequences
 

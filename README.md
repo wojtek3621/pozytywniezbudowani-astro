@@ -76,13 +76,13 @@ Skrypt: `pz_astro_publisher.py` (wewn.: `data/connectors/pz_astro_publisher.py` 
 1. Utworz plik `src/data/post/slug-artykulu.md` z frontmatter:
    ```yaml
    ---
-   title: "Tytul artykulu"
-   description: "Meta opis (150-160 znakow)"
+   title: 'Tytul artykulu'
+   description: 'Meta opis (150-160 znakow)'
    publishDate: 2026-04-03
-   author: "Wojciech Tracichleb"
-   image: "~/assets/images/blog/slug.jpg"
-   tags: ["budowa domu", "fundamenty"]
-   category: "Blog"
+   author: 'Wojciech Tracichleb'
+   image: '~/assets/images/blog/slug.jpg'
+   tags: ['budowa domu', 'fundamenty']
+   category: 'Blog'
    ---
    ```
 2. Dodaj hero image do `src/assets/images/blog/`
@@ -99,27 +99,27 @@ Rollback: `git revert <hash> && git push` → Cloudflare auto-redeploy (<2 min).
 
 ## Konfiguracja
 
-| Plik | Co konfiguruje |
-|------|---------------|
-| `src/config.yaml` | Nazwa strony, SEO defaults, blog settings, analytics |
-| `astro.config.ts` | Integracje Astro (Partytown, MDX, Sitemap, Preact) |
-| `tailwind.config.js` | Kolory brandowe, typografia |
-| `src/navigation.ts` | Menu, social media, linki prawne w footerze |
-| `public/_headers` | Security headers (Cloudflare Pages) |
-| `public/_redirects` | 301 redirects |
-| `public/robots.txt` | Sitemap, Disallow rules |
+| Plik                 | Co konfiguruje                                       |
+| -------------------- | ---------------------------------------------------- |
+| `src/config.yaml`    | Nazwa strony, SEO defaults, blog settings, analytics |
+| `astro.config.ts`    | Integracje Astro (Partytown, MDX, Sitemap, Preact)   |
+| `tailwind.config.js` | Kolory brandowe, typografia                          |
+| `src/navigation.ts`  | Menu, social media, linki prawne w footerze          |
+| `public/_headers`    | Security headers (Cloudflare Pages)                  |
+| `public/_redirects`  | 301 redirects                                        |
+| `public/robots.txt`  | Sitemap, Disallow rules                              |
 
 ## Integracje
 
-| System | Mechanizm | Config |
-|--------|-----------|--------|
-| GTM (GTM-PKRLVW2G) | Partytown (worker thread, zero CWV impact) | `astro.config.ts` |
-| MailerLite | Embed form (island component) | `src/pages/newsletter.astro` |
-| Formspree | POST formularz kontaktowy | `src/pages/kontakt.astro` |
-| SalesCRM | Link zewnetrzny (sklep) | `src/pages/sklep.astro` |
-| Cloudflare Pages | Auto-deploy na push do main | GitHub webhook |
-| AIOS pipeline | pz_astro_publisher.py → git push | wewn.: `data/connectors/` |
-| pz_health_check.py | Monitoring co 15 min (homepage, blog, sitemap) | wewn.: `automation/` |
+| System             | Mechanizm                                      | Config                       |
+| ------------------ | ---------------------------------------------- | ---------------------------- |
+| GTM (GTM-PKRLVW2G) | Partytown (worker thread, zero CWV impact)     | `astro.config.ts`            |
+| MailerLite         | Embed form (island component)                  | `src/pages/newsletter.astro` |
+| Formspree          | POST formularz kontaktowy                      | `src/pages/kontakt.astro`    |
+| SalesCRM           | Link zewnetrzny (sklep)                        | `src/pages/sklep.astro`      |
+| Cloudflare Pages   | Auto-deploy na push do main                    | GitHub webhook               |
+| AIOS pipeline      | pz_astro_publisher.py → git push               | wewn.: `data/connectors/`    |
+| pz_health_check.py | Monitoring co 15 min (homepage, blog, sitemap) | wewn.: `automation/`         |
 
 ## Brand
 
@@ -128,15 +128,15 @@ Szczegoly: wewn. `context/brand-voice.md` (workspace AIOS)
 
 ## Dokumentacja
 
-| Dokument | Lokalizacja |
-|----------|------------|
-| Operations Runbook | [docs/OPERATIONS.md](docs/OPERATIONS.md) |
-| Architecture & Data Flow | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
-| Architecture Decision Records | [docs/adr/](docs/adr/) |
-| Migration Plan (source of truth) | wewn.: `plans/active/2026-04-01-pz-astro-migration.md` |
-| Audyt starej strony | wewn.: `builds/audyty/2026-04-01-pz-website-full-audit.md` |
-| Audyt enterprise standards | wewn.: `builds/audyty/2026-04-02-pz-astro-enterprise-audit.md` |
-| Audyt dokumentacji | wewn.: `builds/audyty/2026-04-03-pz-astro-documentation-re-audit.md` |
+| Dokument                         | Lokalizacja                                                          |
+| -------------------------------- | -------------------------------------------------------------------- |
+| Operations Runbook               | [docs/OPERATIONS.md](docs/OPERATIONS.md)                             |
+| Architecture & Data Flow         | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)                         |
+| Architecture Decision Records    | [docs/adr/](docs/adr/)                                               |
+| Migration Plan (source of truth) | wewn.: `plans/active/2026-04-01-pz-astro-migration.md`               |
+| Audyt starej strony              | wewn.: `builds/audyty/2026-04-01-pz-website-full-audit.md`           |
+| Audyt enterprise standards       | wewn.: `builds/audyty/2026-04-02-pz-astro-enterprise-audit.md`       |
+| Audyt dokumentacji               | wewn.: `builds/audyty/2026-04-03-pz-astro-documentation-re-audit.md` |
 
 ## Wlasciciel
 

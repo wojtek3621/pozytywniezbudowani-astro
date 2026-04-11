@@ -5,9 +5,11 @@ status: accepted
 ---
 
 ---
+
 last_modified: 2026-04-03
 owner: kazik
 status: accepted
+
 ---
 
 # ADR-003: Static output (nie SSR/hybrid)
@@ -26,10 +28,10 @@ Wybralismy **static output** (`output: 'static'` w astro.config.ts).
 
 ## Alternatives
 
-| Tryb | Dlaczego odrzucone |
-|------|-------------------|
+| Tryb         | Dlaczego odrzucone                                                                                                     |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | SSR (server) | Wymaga runtime (Node.js/Cloudflare Workers). Wiecej kosztow, wiecej punktow awarii. Blog nie ma dynamicznego contentu. |
-| Hybrid | Kompromis — czesc stron static, czesc SSR. Niepotrzebne: formularz obsluguje Formspree, search jest client-side. |
+| Hybrid       | Kompromis — czesc stron static, czesc SSR. Niepotrzebne: formularz obsluguje Formspree, search jest client-side.       |
 
 ## Non-Goals
 

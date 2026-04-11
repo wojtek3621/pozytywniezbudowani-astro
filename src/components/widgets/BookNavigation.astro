@@ -98,9 +98,7 @@ const items: NavItem[] = [
 
     // IntersectionObserver for active section highlighting
     const sectionIds = Array.from(links).map((l) => l.getAttribute('data-section')!);
-    const sections = sectionIds
-      .map((id) => document.getElementById(id))
-      .filter((el): el is HTMLElement => el !== null);
+    const sections = sectionIds.map((id) => document.getElementById(id)).filter((el): el is HTMLElement => el !== null);
 
     if (sections.length > 0) {
       const observer = new IntersectionObserver(

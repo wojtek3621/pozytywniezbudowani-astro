@@ -20,11 +20,11 @@ Wybralismy **Partytown** (@astrojs/partytown) do uruchamiania GTM i tracking scr
 
 ## Alternatives
 
-| Podejscie | Dlaczego odrzucone |
-|-----------|-------------------|
-| Inline scripts (jak MiroCMS) | Blokuja main thread. GTM + GA4 = 50-100ms na mobile. Gorsze CWV. |
-| Async/defer scripts | Lepsze niz inline, ale nadal main thread. Partytown = worker thread = zero CWV impact. |
-| Usunac tracking | Wojtek potrzebuje analytics do decyzji biznesowych. Nie wchodzi w gre. |
+| Podejscie                    | Dlaczego odrzucone                                                                     |
+| ---------------------------- | -------------------------------------------------------------------------------------- |
+| Inline scripts (jak MiroCMS) | Blokuja main thread. GTM + GA4 = 50-100ms na mobile. Gorsze CWV.                       |
+| Async/defer scripts          | Lepsze niz inline, ale nadal main thread. Partytown = worker thread = zero CWV impact. |
+| Usunac tracking              | Wojtek potrzebuje analytics do decyzji biznesowych. Nie wchodzi w gre.                 |
 
 ## Consequences
 

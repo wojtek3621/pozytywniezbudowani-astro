@@ -42,39 +42,41 @@ Skrypt: `pz_astro_publisher.py` (wewn.: `data/connectors/pz_astro_publisher.py` 
 
 Definicja: `src/content/config.ts` (Astro Content Collections, Zod schema).
 
-| Pole | Typ | Wymagane | Opis |
-|------|-----|----------|------|
-| `title` | string | TAK | Tytul artykulu (H1, meta title) |
-| `publishDate` | date | nie | Data publikacji (sortowanie, sitemap) |
-| `updateDate` | date | nie | Data aktualizacji (sygnal freshness dla Google) |
-| `draft` | boolean | nie | `true` = widoczny w dev, ukryty w produkcji |
-| `excerpt` | string | nie | Niestandardowy opis na listingu bloga (zamiast auto-excerpt) |
-| `image` | string | nie | Sciezka do hero image (`~/assets/images/blog/slug.jpg`) |
-| `category` | string | nie | Kategoria (default: "Blog") |
-| `tags` | string[] | nie | Tagi SEO (tablica stringow) |
-| `author` | string | nie | Autor (default: "Wojciech Tracichleb") |
-| `metadata` | object | nie | Zaawansowane SEO: canonical, robots (index/follow), OpenGraph, Twitter Cards |
+| Pole          | Typ      | Wymagane | Opis                                                                         |
+| ------------- | -------- | -------- | ---------------------------------------------------------------------------- |
+| `title`       | string   | TAK      | Tytul artykulu (H1, meta title)                                              |
+| `publishDate` | date     | nie      | Data publikacji (sortowanie, sitemap)                                        |
+| `updateDate`  | date     | nie      | Data aktualizacji (sygnal freshness dla Google)                              |
+| `draft`       | boolean  | nie      | `true` = widoczny w dev, ukryty w produkcji                                  |
+| `excerpt`     | string   | nie      | Niestandardowy opis na listingu bloga (zamiast auto-excerpt)                 |
+| `image`       | string   | nie      | Sciezka do hero image (`~/assets/images/blog/slug.jpg`)                      |
+| `category`    | string   | nie      | Kategoria (default: "Blog")                                                  |
+| `tags`        | string[] | nie      | Tagi SEO (tablica stringow)                                                  |
+| `author`      | string   | nie      | Autor (default: "Wojciech Tracichleb")                                       |
+| `metadata`    | object   | nie      | Zaawansowane SEO: canonical, robots (index/follow), OpenGraph, Twitter Cards |
 
 Przyklad minimalny:
+
 ```yaml
 ---
-title: "Tytul artykulu"
+title: 'Tytul artykulu'
 publishDate: 2026-04-03
 ---
 ```
 
 Przyklad pelny:
+
 ```yaml
 ---
-title: "Tytul artykulu"
+title: 'Tytul artykulu'
 publishDate: 2026-04-03
 updateDate: 2026-04-05
-author: "Wojciech Tracichleb"
-image: "~/assets/images/blog/slug.jpg"
-tags: ["budowa domu", "fundamenty"]
-category: "Blog"
+author: 'Wojciech Tracichleb'
+image: '~/assets/images/blog/slug.jpg'
+tags: ['budowa domu', 'fundamenty']
+category: 'Blog'
 draft: false
-excerpt: "Niestandardowy opis widoczny na listingu bloga"
+excerpt: 'Niestandardowy opis widoczny na listingu bloga'
 metadata:
   robots:
     index: true
@@ -90,6 +92,7 @@ metadata:
 4. Auto-deploy
 
 Uwaga: zmiana slug = zmiana URL. Jesli slug sie zmienia, dodaj redirect w `public/_redirects`:
+
 ```
 /blog/stary-slug/ /blog/nowy-slug/ 301
 ```
@@ -104,6 +107,7 @@ Uwaga: zmiana slug = zmiana URL. Jesli slug sie zmienia, dodaj redirect w `publi
    import { SITE } from 'astrowind:config';
    const metadata = { title: 'Tytul strony' };
    ---
+
    <Layout metadata={metadata}>
      <!-- tresc -->
    </Layout>
@@ -116,6 +120,7 @@ Uwaga: zmiana slug = zmiana URL. Jesli slug sie zmienia, dodaj redirect w `publi
 ### Social media (footer)
 
 Plik: `src/navigation.ts` → tablica `socialLinks`
+
 ```typescript
 { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/...' },
 ```
@@ -203,6 +208,7 @@ Sprawdzaj: Coverage, CWV, Sitemaps, Indexing.
 ### Po powaznym incydencie (>1h downtime)
 
 Zapisz w commit message lub osobnej notatce:
+
 1. Co sie stalo (1-2 zdania)
 2. Root cause (dlaczego)
 3. Co zrobic zeby sie nie powtorzylo (action item)
@@ -222,6 +228,7 @@ git push           # auto-redeploy (<2 min)
 ### Infrastructure rollback (do MiroCMS)
 
 Procedura awaryjna — tylko jesli Cloudflare/Astro kompletnie nie dziala:
+
 1. Zmien nameservery z powrotem na dhosting: ns1.dhosting.pl / ns2.dhosting.pl
 2. DNS propagation: 1-4h (do 48h worst case)
 3. MiroCMS na dhostingu nadal dziala (zachowac konto min. 30 dni po cutover)
@@ -230,12 +237,12 @@ Pelna procedura: plan migracji sekcja 9 (wewn.: `plans/active/2026-04-01-pz-astr
 
 ## 8. Kontakty i eskalacja
 
-| Rola | Kto | Kanal |
-|------|-----|-------|
-| Wlasciciel | Wojciech Tracichleb | Telegram, tel. 574 421 100 |
-| Utrzymanie | Kazik (AIOS Senior Dev) | Telegram @KazikVultimaBot |
-| Hosting | Cloudflare | https://dash.cloudflare.com/ |
-| DNS (stary) | dhosting.pl | Panel klienta |
-| Email | dpoczta.pl | Panel dhosting |
-| Formularz | Formspree | https://formspree.io/ |
-| Newsletter | MailerLite | https://app.mailerlite.com/ |
+| Rola        | Kto                     | Kanal                        |
+| ----------- | ----------------------- | ---------------------------- |
+| Wlasciciel  | Wojciech Tracichleb     | Telegram, tel. 574 421 100   |
+| Utrzymanie  | Kazik (AIOS Senior Dev) | Telegram @KazikVultimaBot    |
+| Hosting     | Cloudflare              | https://dash.cloudflare.com/ |
+| DNS (stary) | dhosting.pl             | Panel klienta                |
+| Email       | dpoczta.pl              | Panel dhosting               |
+| Formularz   | Formspree               | https://formspree.io/        |
+| Newsletter  | MailerLite              | https://app.mailerlite.com/  |

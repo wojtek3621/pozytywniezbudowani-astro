@@ -20,11 +20,11 @@ Wybralismy **pliki Markdown w repozytorium** (Astro Content Collections).
 
 ## Alternatives
 
-| Podejscie | Dlaczego odrzucone |
-|-----------|-------------------|
-| Headless CMS (Strapi, self-hosted) | Wymaga osobnego serwera, bazy danych, utrzymania. Over-engineering na 1-osobowy zespol redakcyjny. |
+| Podejscie                              | Dlaczego odrzucone                                                                                                                            |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Headless CMS (Strapi, self-hosted)     | Wymaga osobnego serwera, bazy danych, utrzymania. Over-engineering na 1-osobowy zespol redakcyjny.                                            |
 | Headless CMS (Contentful/Sanity, SaaS) | Dodatkowa zaleznosc od zewnetrznego serwisu. Koszty rosna z iloscia contentu. Wojtek nie potrzebuje WYSIWYG — AIOS pipeline generuje content. |
-| Zachowanie MySQL + API | Utrzymywanie starej bazy + backendu. Sprzeczne z celem migracji (eliminacja PHP/MySQL). |
+| Zachowanie MySQL + API                 | Utrzymywanie starej bazy + backendu. Sprzeczne z celem migracji (eliminacja PHP/MySQL).                                                       |
 
 ## Non-Goals
 
@@ -46,13 +46,13 @@ Wybralismy **pliki Markdown w repozytorium** (Astro Content Collections).
 
 ```yaml
 ---
-title: string        # wymagany
-description: string  # wymagany (meta description)
-publishDate: date    # wymagany
-author: string       # default: "Wojciech Tracichleb"
-image: string        # hero image path
-tags: string[]       # SEO keywords
-category: string     # default: "Blog"
-draft: boolean       # default: false
+title: string # wymagany
+description: string # wymagany (meta description)
+publishDate: date # wymagany
+author: string # default: "Wojciech Tracichleb"
+image: string # hero image path
+tags: string[] # SEO keywords
+category: string # default: "Blog"
+draft: boolean # default: false
 ---
 ```

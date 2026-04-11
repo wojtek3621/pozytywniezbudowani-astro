@@ -5,9 +5,11 @@ status: accepted
 ---
 
 ---
+
 last_modified: 2026-04-03
 owner: kazik
 status: accepted
+
 ---
 
 # ADR-002: Formspree jako formularz kontaktowy
@@ -26,11 +28,11 @@ Wybralismy **Formspree** jako primary form handler.
 
 ## Alternatives
 
-| Opcja | Dlaczego odrzucone |
-|-------|-------------------|
-| Cloudflare Worker | Wymaga pisania i utrzymywania kodu backendowego. Overengineering na traffic PZ (~1-5 submissions/dzien). |
+| Opcja                  | Dlaczego odrzucone                                                                                                  |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Cloudflare Worker      | Wymaga pisania i utrzymywania kodu backendowego. Overengineering na traffic PZ (~1-5 submissions/dzien).            |
 | Endpoint na aios-2 VPS | Dodaje zaleznosc od VPS. Jesli VPS padnie, formularz przestaje dzialac. Strona Astro jest niezalezna od infra AIOS. |
-| mailto: link | Wystawia email na scrapery. Brak ochrony antyspamowej. |
+| mailto: link           | Wystawia email na scrapery. Brak ochrony antyspamowej.                                                              |
 
 ## Consequences
 
