@@ -1,13 +1,10 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import Content from '~/components/widgets/Content.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Features from '~/components/widgets/Features.astro';
 import Image from '~/components/common/Image.astro';
 import BookNavigation from '~/components/widgets/BookNavigation.astro';
 
-import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
 import bookCoverCta from '~/assets/images/ksiazka/book-cover-cta.jpg';
 import heroWojtekKsiazka from '~/assets/images/site/hero-wojtek-ksiazka-portrait.jpg';
 import wojtekDlaKogoImg from '~/assets/images/site/wojtek-dla-kogo.jpg';
@@ -45,39 +42,40 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
 ---
 
 <Layout metadata={metadata}>
-
   <!-- Book schema JSON-LD (minimal, BEZ aggregateRating — Google penalty risk) -->
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Book",
-    "name": "Od Marzenia Do Wprowadzenia",
-    "author": {
-      "@type": "Person",
-      "name": "Wojciech Tracichleb"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Vultima sp. z o.o.",
-      "url": "https://pozytywniezbudowani.pl"
-    },
-    "inLanguage": "pl",
-    "numberOfPages": 608,
-    "bookFormat": "https://schema.org/Hardcover",
-    "image": "https://pozytywniezbudowani.pl/images/ksiazka-hero.jpg",
-    "offers": {
-      "@type": "Offer",
-      "price": "119.00",
-      "priceCurrency": "PLN",
-      "availability": "https://schema.org/InStock",
-      "url": "https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603"
-    }
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Book',
+      name: 'Od Marzenia Do Wprowadzenia',
+      author: {
+        '@type': 'Person',
+        name: 'Wojciech Tracichleb',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Vultima sp. z o.o.',
+        url: 'https://pozytywniezbudowani.pl',
+      },
+      inLanguage: 'pl',
+      numberOfPages: 608,
+      bookFormat: 'https://schema.org/Hardcover',
+      image: 'https://pozytywniezbudowani.pl/images/ksiazka-hero.jpg',
+      offers: {
+        '@type': 'Offer',
+        price: '119.00',
+        priceCurrency: 'PLN',
+        availability: 'https://schema.org/InStock',
+        url: 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603',
+      },
+    })}
+  />
 
   <!-- HERO SPLIT — dark bg, portret Wojtka, 4 value props, CTA -->
   <section class="bg-slate-900 py-16 md:py-24">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
-
         <!-- LEFT: portret (mobile: order-2) -->
         <div class="relative order-2 md:order-1">
           <Image
@@ -100,31 +98,39 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
             Zrozum każdą decyzję budowlaną — krok po kroku
           </h1>
           <p class="text-lg text-slate-300 mb-6 leading-relaxed">
-            608 stron, 86 rozdziałów, 12 lat doświadczenia generalnego wykonawcy. Kompletny
-            przewodnik dla inwestora — od pierwszej myśli o budowie do wprowadzenia.
+            608 stron, 86 rozdziałów, 12 lat doświadczenia generalnego wykonawcy. Kompletny przewodnik dla inwestora —
+            od pierwszej myśli o budowie do wprowadzenia.
           </p>
           <ul class="space-y-3 mb-8">
             <li class="flex items-start gap-3">
               <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path>
               </svg>
               <span class="text-slate-200">Zrozumiesz, co naprawdę decyduje o kosztach budowy</span>
             </li>
             <li class="flex items-start gap-3">
               <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path>
               </svg>
               <span class="text-slate-200">Zadasz wykonawcy właściwe pytania, zanim podpiszesz umowę</span>
             </li>
             <li class="flex items-start gap-3">
               <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path>
               </svg>
               <span class="text-slate-200">Poznasz każdy etap — od działki, przez stan surowy, po odbiór</span>
             </li>
             <li class="flex items-start gap-3">
               <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path>
               </svg>
               <span class="text-slate-200">Unikniesz błędów decyzyjnych, które kosztowały innych setki tysięcy</span>
             </li>
@@ -138,20 +144,22 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
               data-fbq-event="AddToCart"
             >
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/>
-                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/>
-                <path d="M17 17h-11v-14h-2"/>
-                <path d="M6 5l14 1l-1 7h-13"/>
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 17h-11v-14h-2"></path>
+                <path d="M6 5l14 1l-1 7h-13"></path>
               </svg>
               Kup książkę — 119 zł
             </a>
-            <a href="#co-zyskasz" class="text-slate-400 hover:text-amber-400 transition-colors text-sm py-4 underline underline-offset-4">
+            <a
+              href="#co-zyskasz"
+              class="text-slate-400 hover:text-amber-400 transition-colors text-sm py-4 underline underline-offset-4"
+            >
               Zobacz, co w środku ↓
             </a>
           </div>
           <p class="text-sm text-slate-500 mt-3">Wysyłka 0 zł • dostawa w 24h</p>
         </div>
-
       </div>
     </div>
   </section>
@@ -214,14 +222,14 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
   <section class="bg-gradient-to-br from-blue-600 to-blue-800 py-16 md:py-24" id="kup">
     <div class="max-w-4xl mx-auto px-4 sm:px-6">
       <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl p-8 md:p-12 relative overflow-hidden">
-
         <!-- Ribbon -->
-        <div class="absolute top-0 right-0 bg-amber-500 text-slate-900 text-xs font-bold px-4 py-2 rounded-bl-xl uppercase tracking-wide">
+        <div
+          class="absolute top-0 right-0 bg-amber-500 text-slate-900 text-xs font-bold px-4 py-2 rounded-bl-xl uppercase tracking-wide"
+        >
           Jedyny wariant
         </div>
 
         <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-
           <!-- LEFT: okładka -->
           <div class="flex justify-center">
             <Image
@@ -252,47 +260,77 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
 
             <ul class="space-y-3 mb-8">
               <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
                 </svg>
                 <span class="text-sm text-gray-800 dark:text-slate-200">
-                  <strong>Książka papierowa — 608 stron, twarda oprawa</strong><br/>
+                  <strong>Książka papierowa — 608 stron, twarda oprawa</strong><br />
                   78 oryginalnych ilustracji (rysunki architektoniczne, schematy, przekroje)
                 </span>
               </li>
               <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
                 </svg>
                 <span class="text-sm text-gray-800 dark:text-slate-200">
-                  <strong>Wysyłka 0 zł — kurier DPD</strong><br/>
+                  <strong>Wysyłka 0 zł — kurier DPD</strong><br />
                   Dostawa w 24h od nadania
                 </span>
               </li>
               <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
                 </svg>
                 <span class="text-sm text-gray-800 dark:text-slate-200">
-                  <strong>Gotowa teraz</strong><br/>
+                  <strong>Gotowa teraz</strong><br />
                   Zamówienie do 11:00 = wysyłka dziś
                 </span>
               </li>
               <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
                 </svg>
                 <span class="text-sm text-gray-800 dark:text-slate-200">
-                  <strong>Ponad 2000 sprzedanych egzemplarzy</strong><br/>
+                  <strong>Ponad 2000 sprzedanych egzemplarzy</strong><br />
                   Sprawdzony przewodnik, polecany przez Extradom.pl
                 </span>
               </li>
               <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
                 </svg>
                 <span class="text-sm text-gray-800 dark:text-slate-200">
-                  <strong>Autor: 12 lat praktyki jako GW</strong><br/>
+                  <strong>Autor: 12 lat praktyki jako GW</strong><br />
                   Z własnej firmy Vultima / 4izby.pl
                 </span>
               </li>
@@ -306,10 +344,10 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
               data-fbq-event="AddToCart"
             >
               <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/>
-                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/>
-                <path d="M17 17h-11v-14h-2"/>
-                <path d="M6 5l14 1l-1 7h-13"/>
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 17h-11v-14h-2"></path>
+                <path d="M6 5l14 1l-1 7h-13"></path>
               </svg>
               Kup książkę — 119 zł
             </a>
@@ -317,7 +355,6 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
               Konsultacja generalnego wykonawcy kosztuje 300–500 zł za godzinę. Ta książka to 12 lat praktyki za 119 zł.
             </p>
           </div>
-
         </div>
       </div>
     </div>
@@ -343,29 +380,47 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         <!-- RIGHT: copy + items -->
         <div>
           <p class="text-sm font-semibold uppercase tracking-wider text-primary mb-2">Dla kogo</p>
-          <h2 class="text-3xl font-bold mb-3 dark:text-white font-display">
-            Dla kogo napisałem tę książkę
-          </h2>
+          <h2 class="text-3xl font-bold mb-3 dark:text-white font-display">Dla kogo napisałem tę książkę</h2>
           <p class="text-lg text-muted mb-6">Ta książka zmieni Wasze podejście do budowy domu.</p>
           <ul class="space-y-3">
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
               <span class="text-base">Marzysz o własnym domu i myślisz o jego budowie</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
               <span class="text-base">Budujesz systemem gospodarczym i szukasz uporządkowanej wiedzy</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
               <span class="text-base">Zatrudniłeś generalnego wykonawcę, ale chcesz mieć kontrolę nad budową</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
               <span class="text-base">Rozważasz kupno od dewelopera, bo boisz się samodzielnej organizacji budowy</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
               <span class="text-base">Planujesz budowę za 2-3 lata i chcesz się odpowiednio przygotować</span>
             </li>
           </ul>
@@ -383,10 +438,20 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
     </div>
 
     <div class="space-y-3">
-      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+      <details
+        class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+      >
+        <summary
+          class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+        >
           <span>Część 1 — Marzenie o własnym domu</span>
-          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          <svg
+            class="w-5 h-5 transform transition-transform group-open:rotate-180"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+          >
         </summary>
         <ul class="px-6 pb-5 space-y-1 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
           <li>Kim jestem? Dwa słowa, zanim zaczniemy</li>
@@ -398,10 +463,20 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         </ul>
       </details>
 
-      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+      <details
+        class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+      >
+        <summary
+          class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+        >
           <span>Część 2 — Planowanie budowy</span>
-          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          <svg
+            class="w-5 h-5 transform transition-transform group-open:rotate-180"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+          >
         </summary>
         <ul class="px-6 pb-5 space-y-1 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
           <li>Twoja Drużyna Pierścienia</li>
@@ -420,10 +495,20 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         </ul>
       </details>
 
-      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+      <details
+        class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+      >
+        <summary
+          class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+        >
           <span>Część 3A — Od pustej działki do stanu surowego</span>
-          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          <svg
+            class="w-5 h-5 transform transition-transform group-open:rotate-180"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+          >
         </summary>
         <ul class="px-6 pb-5 space-y-1 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
           <li>Wytyczenie przez geodetę</li>
@@ -440,10 +525,20 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         </ul>
       </details>
 
-      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+      <details
+        class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+      >
+        <summary
+          class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+        >
           <span>Część 3B — Do stanu deweloperskiego</span>
-          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          <svg
+            class="w-5 h-5 transform transition-transform group-open:rotate-180"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+          >
         </summary>
         <ul class="px-6 pb-5 space-y-1 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
           <li>Stolarka otworowa — drzwi, okna, rolety, brama</li>
@@ -461,10 +556,20 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         </ul>
       </details>
 
-      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+      <details
+        class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+      >
+        <summary
+          class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+        >
           <span>Część 4 — Wykańczanie domu, a nie inwestora</span>
-          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          <svg
+            class="w-5 h-5 transform transition-transform group-open:rotate-180"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+          >
         </summary>
         <div class="grid sm:grid-cols-2 gap-x-8 px-6 pb-5 border-t border-gray-100 dark:border-gray-700 pt-4">
           <ul class="space-y-1 text-muted text-sm">
@@ -501,8 +606,8 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         <p class="text-sm font-semibold uppercase tracking-wider text-primary">Zajrzyj do środka</p>
         <h2 class="text-3xl font-bold dark:text-white mt-2 mb-3">Wnętrze książki</h2>
         <p class="text-muted max-w-2xl mx-auto">
-          Przejrzyste ilustracje, czytelny układ i praktyczne wskazówki na każdej stronie. 608 stron w twardej
-          oprawie — to książka, do której będziesz wracać na każdym etapie budowy.
+          Przejrzyste ilustracje, czytelny układ i praktyczne wskazówki na każdej stronie. 608 stron w twardej oprawie —
+          to książka, do której będziesz wracać na każdym etapie budowy.
         </p>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
@@ -543,7 +648,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           aria-label="Zamknij"
         >
           <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
           </svg>
         </button>
         <button
@@ -553,7 +658,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           aria-label="Poprzednie"
         >
           <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
           </svg>
         </button>
         <button
@@ -563,19 +668,14 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           aria-label="Następne"
         >
           <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
           </svg>
         </button>
-        <img
-          id="lightbox-img"
-          src=""
-          alt=""
-          class="max-w-full max-h-full object-contain select-none"
-        />
+        <img id="lightbox-img" src="" alt="" class="max-w-full max-h-full object-contain select-none" />
       </div>
 
       <script is:inline>
-        (function() {
+        (function () {
           const triggers = document.querySelectorAll('.lightbox-trigger');
           const lightbox = document.getElementById('lightbox');
           const lbImg = document.getElementById('lightbox-img');
@@ -613,21 +713,26 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           }
 
           function prev(e) {
-            e && e.stopPropagation();
+            if (e) e.stopPropagation();
             current = (current - 1 + items.length) % items.length;
             open(current);
           }
 
           function next(e) {
-            e && e.stopPropagation();
+            if (e) e.stopPropagation();
             current = (current + 1) % items.length;
             open(current);
           }
 
-          lbClose.addEventListener('click', (e) => { e.stopPropagation(); close(); });
+          lbClose.addEventListener('click', (e) => {
+            e.stopPropagation();
+            close();
+          });
           lbPrev.addEventListener('click', prev);
           lbNext.addEventListener('click', next);
-          lightbox.addEventListener('click', (e) => { if (e.target === lightbox || e.target === lbImg) close(); });
+          lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox || e.target === lbImg) close();
+          });
 
           document.addEventListener('keydown', (e) => {
             if (lightbox.classList.contains('hidden')) return;
@@ -658,15 +763,21 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         </div>
         <div>
           <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">12</div>
-          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">lat doświadczenia</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">
+            lat doświadczenia
+          </div>
         </div>
         <div>
           <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">2000+</div>
-          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">sprzedanych egzemplarzy</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">
+            sprzedanych egzemplarzy
+          </div>
         </div>
         <div>
           <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">17</div>
-          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">miesięcy pracy</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">
+            miesięcy pracy
+          </div>
         </div>
       </div>
     </div>
@@ -679,7 +790,13 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
       <div class="text-center mb-8">
         <p class="text-xs font-semibold uppercase tracking-wider text-muted mb-3">Polecają nas</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
-          <a href="https://www.extradom.pl/porady/artykul-od-marzenia-do-wprowadzenia-wojciech-tracichleb-recenzja-ksiazki" target="_blank" rel="noopener" class="opacity-70 hover:opacity-100 transition-opacity" title="Recenzja książki na Extradom.pl">
+          <a
+            href="https://www.extradom.pl/porady/artykul-od-marzenia-do-wprowadzenia-wojciech-tracichleb-recenzja-ksiazki"
+            target="_blank"
+            rel="noopener"
+            class="opacity-70 hover:opacity-100 transition-opacity"
+            title="Recenzja książki na Extradom.pl"
+          >
             <img src={extradomLogo.src} alt="Extradom.pl" width="160" height="28" class="h-7 w-auto" loading="lazy" />
           </a>
         </div>
@@ -733,7 +850,6 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
   <section class="bg-slate-900 text-white py-16 md:py-24" id="o-autorze">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
-
         <!-- LEFT: bio + guarantee -->
         <div>
           <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-3">O autorze</p>
@@ -749,8 +865,8 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
               wiedzy budowlanej dla inwestorów.
             </p>
             <p>
-              Ta książka to 12 lat tej pracy zebranych w jednym miejscu — napisane z perspektywy inwestora,
-              nie wykonawcy.
+              Ta książka to 12 lat tej pracy zebranych w jednym miejscu — napisane z perspektywy inwestora, nie
+              wykonawcy.
             </p>
           </div>
 
@@ -758,8 +874,8 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           <div class="mt-8 bg-amber-950/50 border-l-4 border-amber-500 rounded-r-lg p-5">
             <p class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">Zaufali mi czytelnicy</p>
             <p class="text-slate-300 text-sm leading-relaxed">
-              Ponad 2000 sprzedanych egzemplarzy. Oficjalna współpraca z Extradom.pl — największym portalem
-              z projektami domów w Polsce.
+              Ponad 2000 sprzedanych egzemplarzy. Oficjalna współpraca z Extradom.pl — największym portalem z projektami
+              domów w Polsce.
             </p>
           </div>
         </div>
@@ -776,7 +892,6 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
             class="w-full h-auto rounded-lg shadow-2xl"
           />
         </div>
-
       </div>
     </div>
   </section>
@@ -789,90 +904,158 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         <h2 class="text-3xl md:text-4xl font-bold dark:text-white mt-2 font-display">Najczęstsze pytania</h2>
       </div>
       <div class="space-y-3">
-
-        <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
             <span>Kiedy zacząć czytać tę książkę?</span>
-            <svg class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
             Im wcześniej, tym lepiej. Ta książka jest najcenniejsza ZANIM zaczniesz budowę — kiedy jeszcze masz wybór
-            działki, projektu, technologii. Po pierwszym etapie wybory się zamykają. Jeśli planujesz budowę za rok
-            lub dwa — to idealny moment na zakup.
+            działki, projektu, technologii. Po pierwszym etapie wybory się zamykają. Jeśli planujesz budowę za rok lub
+            dwa — to idealny moment na zakup.
           </p>
         </details>
 
-        <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
             <span>Mam znajomego wykonawcę, on mi powie wszystko. Po co mi ta książka?</span>
-            <svg class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-            Wykonawca powie Ci jak zbudować to, co on zbuduje. Ja piszę z perspektywy INWESTORA — co kontrolować,
-            o co pytać, czego nie robić. To dwie różne perspektywy. Nawet najlepszy GW jest stroną w umowie — Ty
-            jesteś drugą. Musisz wiedzieć co podpisujesz.
+            Wykonawca powie Ci jak zbudować to, co on zbuduje. Ja piszę z perspektywy INWESTORA — co kontrolować, o co
+            pytać, czego nie robić. To dwie różne perspektywy. Nawet najlepszy GW jest stroną w umowie — Ty jesteś
+            drugą. Musisz wiedzieć co podpisujesz.
           </p>
         </details>
 
-        <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
             <span>Są darmowe artykuły w internecie. Dlaczego mam płacić?</span>
-            <svg class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-            Tak, są. Napisałem ich ponad 100 na moim blogu pozytywniezbudowani.pl — zapraszam do czytania za darmo.
-            Ale budowa domu to nie pięć porad — to 608 stron powiązanych decyzji. Książka porządkuje to w jeden spójny
+            Tak, są. Napisałem ich ponad 100 na moim blogu pozytywniezbudowani.pl — zapraszam do czytania za darmo. Ale
+            budowa domu to nie pięć porad — to 608 stron powiązanych decyzji. Książka porządkuje to w jeden spójny
             przewodnik, od działki do wprowadzenia. Tego nie zrobisz składając artykuły ze 100 różnych źródeł.
           </p>
         </details>
 
-        <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
             <span>608 stron to dużo. Przeczytam?</span>
-            <svg class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
             Nie musisz czytać od deski do deski. Książka jest podzielona na 86 krótkich rozdziałów — każdy to jedna
-            konkretna decyzja (fundamenty? instalacja elektryczna? kredyt hipoteczny?). Otwierasz dokładnie to,
-            czego potrzebujesz w danym tygodniu budowy. Używasz jak encyklopedii.
+            konkretna decyzja (fundamenty? instalacja elektryczna? kredyt hipoteczny?). Otwierasz dokładnie to, czego
+            potrzebujesz w danym tygodniu budowy. Używasz jak encyklopedii.
           </p>
         </details>
 
-        <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
             <span>Czy jest wersja elektroniczna (ebook, PDF)?</span>
-            <svg class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-            Na ten moment dostępna jest tylko wersja papierowa. Fizyczna książka ma przewagi: można ją zabrać na
-            budowę, robić notatki ołówkiem, wracać bez otwierania laptopa w błocie i pyle. Twarda oprawa jest
-            zaprojektowana do pracy na placu.
+            Na ten moment dostępna jest tylko wersja papierowa. Fizyczna książka ma przewagi: można ją zabrać na budowę,
+            robić notatki ołówkiem, wracać bez otwierania laptopa w błocie i pyle. Twarda oprawa jest zaprojektowana do
+            pracy na placu.
           </p>
         </details>
 
-        <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
             <span>Jak szybko dostanę książkę?</span>
-            <svg class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-            Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. Dostawa standardowo w 24h.
-            W praktyce: zamawiasz dziś do południa — jutro po południu masz książkę w ręce.
+            Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. Dostawa standardowo w 24h. W praktyce:
+            zamawiasz dziś do południa — jutro po południu masz książkę w ręce.
           </p>
         </details>
 
-        <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
             <span>Ile egzemplarzy sprzedaliście?</span>
-            <svg class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-            Ponad 2000 egzemplarzy od premiery. Książka jest też polecana przez portal Extradom.pl —
-            największy serwis z projektami domów w Polsce. To nie jest kolejny e-book z internetu —
-            to 608 stron drukowanych, twardych faktów zebranych przez 17 miesięcy pisania.
+            Ponad 2000 egzemplarzy od premiery. Książka jest też polecana przez portal Extradom.pl — największy serwis z
+            projektami domów w Polsce. To nie jest kolejny e-book z internetu — to 608 stron drukowanych, twardych
+            faktów zebranych przez 17 miesięcy pisania.
           </p>
         </details>
-
       </div>
     </div>
   </section>
@@ -1030,14 +1213,24 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
 
   <!-- Meta Pixel base + ViewContent -->
   <script is:inline>
-    !function(f,b,e,v,n,t,s){
-      if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)
-    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    /* eslint-disable prefer-spread, prefer-rest-params, @typescript-eslint/no-unused-expressions */
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    /* eslint-enable prefer-spread, prefer-rest-params, @typescript-eslint/no-unused-expressions */
     // TODO: Wojtek podaje real Pixel ID przed uruchomieniem Meta Ads. Placeholder na razie.
     fbq('init', 'TODO_META_PIXEL_ID');
     fbq('track', 'PageView');
@@ -1045,49 +1238,62 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
       content_name: 'Od Marzenia Do Wprowadzenia',
       content_type: 'product',
       content_ids: ['book-od-marzenia'],
-      value: 119.00,
-      currency: 'PLN'
+      value: 119.0,
+      currency: 'PLN',
     });
   </script>
   <noscript>
-    <img height="1" width="1" style="display:none"
-         src="https://www.facebook.com/tr?id=TODO_META_PIXEL_ID&ev=PageView&noscript=1"/>
+    <img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=TODO_META_PIXEL_ID&ev=PageView&noscript=1"
+    />
   </noscript>
 
   <!-- AddToCart listeners + UTM whitelist forwarding (debate I6: whitelist, nie ślepo cały query string) -->
   <script is:inline>
-    (function() {
-      const ALLOWED_PARAMS = ['utm_source', 'utm_medium', 'utm_campaign',
-        'utm_content', 'utm_term', 'fbclid', 'gclid', 'ref'];
+    (function () {
+      const ALLOWED_PARAMS = [
+        'utm_source',
+        'utm_medium',
+        'utm_campaign',
+        'utm_content',
+        'utm_term',
+        'fbclid',
+        'gclid',
+        'ref',
+      ];
 
       // AddToCart event na wszystkich CTA z data-fbq-event="AddToCart"
-      document.querySelectorAll('[data-fbq-event="AddToCart"]').forEach(function(btn) {
-        btn.addEventListener('click', function() {
+      document.querySelectorAll('[data-fbq-event="AddToCart"]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
           if (typeof fbq !== 'undefined') {
             fbq('track', 'AddToCart', {
               content_name: 'Od Marzenia Do Wprowadzenia',
               content_type: 'product',
               content_ids: ['book-od-marzenia'],
-              value: 119.00,
-              currency: 'PLN'
+              value: 119.0,
+              currency: 'PLN',
             });
           }
         });
       });
 
       // UTM whitelist forwarding do salescrm.pl
-      document.querySelectorAll('a[href*="salescrm.pl"]').forEach(function(link) {
+      document.querySelectorAll('a[href*="salescrm.pl"]').forEach(function (link) {
         try {
-          var url = new URL(link.href);
-          var params = new URLSearchParams(window.location.search);
-          ALLOWED_PARAMS.forEach(function(key) {
-            var v = params.get(key);
-            if (v) url.searchParams.set(key, v);
+          const url = new URL(link.href);
+          const params = new URLSearchParams(window.location.search);
+          ALLOWED_PARAMS.forEach(function (key) {
+            const val = params.get(key);
+            if (val) url.searchParams.set(key, val);
           });
           link.href = url.toString();
-        } catch(e) {}
+        } catch {
+          /* URL parse may fail for relative hrefs */
+        }
       });
     })();
   </script>
-
 </Layout>
