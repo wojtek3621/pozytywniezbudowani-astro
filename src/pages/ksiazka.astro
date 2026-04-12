@@ -4,7 +4,6 @@ import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Features from '~/components/widgets/Features.astro';
-import Stats from '~/components/widgets/Stats.astro';
 import Image from '~/components/common/Image.astro';
 import BookNavigation from '~/components/widgets/BookNavigation.astro';
 
@@ -450,14 +449,37 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
     </div>
   </section>
 
-  <!-- Stats -->
-  <Stats
-    stats={[
-      { title: 'Lat doświadczenia', amount: '12+' },
-      { title: 'Stron praktycznej wiedzy', amount: '600' },
-      { title: 'Miesięcy pracy nad książką', amount: '10' },
-    ]}
-  />
+  <!-- Stats — 6 liczb w 3×2 grid (z faktycznych danych książki) -->
+  <section class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-10 gap-x-6 text-center">
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">608</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">stron</div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">86</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">rozdziałów</div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">78</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">ilustracji</div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">12</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">lat doświadczenia</div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">8</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">osób w zespole</div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">17</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">miesięcy pracy</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- O autorze -->
   <Content
