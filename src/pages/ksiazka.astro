@@ -11,28 +11,30 @@ import BookNavigation from '~/components/widgets/BookNavigation.astro';
 import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
 import bookCoverCta from '~/assets/images/ksiazka/book-cover-cta.jpg';
 
-import product01 from '~/assets/images/ksiazka/product-01-stos.jpg';
-import product02 from '~/assets/images/ksiazka/product-02-dynamic.jpg';
-import product03 from '~/assets/images/ksiazka/product-03-otwarta.jpg';
-import product04 from '~/assets/images/ksiazka/product-04-interior.jpg';
-import product05 from '~/assets/images/ksiazka/product-05-tyl.jpg';
-import product06 from '~/assets/images/ksiazka/product-06-kat.jpg';
-import product07 from '~/assets/images/ksiazka/product-07-wojtek-czyta.jpg';
+import interior01 from '~/assets/images/ksiazka/interior-01.jpg';
+import interior02 from '~/assets/images/ksiazka/interior-02.jpg';
+import interior03 from '~/assets/images/ksiazka/interior-03.jpg';
+import interior04 from '~/assets/images/ksiazka/interior-04.jpg';
+import interior05 from '~/assets/images/ksiazka/interior-05.jpg';
+import interior06 from '~/assets/images/ksiazka/interior-06.jpg';
+import interior07 from '~/assets/images/ksiazka/interior-07.jpg';
+import interior08 from '~/assets/images/ksiazka/interior-08.jpg';
 
 const metadata = {
   title: 'Książka — Od Marzenia Do Wprowadzenia',
   description:
-    'Ponad 600 stron praktycznej wiedzy o budowie domu jednorodzinnego. Książka Wojciecha Tracichleb — kompletny przewodnik dla inwestora.',
+    '600 stron praktycznej wiedzy o budowie domu jednorodzinnego. Książka Wojciecha Tracichleb — kompletny przewodnik dla inwestora.',
 };
 
 const interiorImages = [
-  { src: product01, alt: 'Stos książek — Od Marzenia Do Wprowadzenia' },
-  { src: product02, alt: 'Rozłożone egzemplarze — widok dynamiczny' },
-  { src: product03, alt: 'Otwarta książka — rozkładówka' },
-  { src: product04, alt: 'Wnętrze — strony z ilustracjami' },
-  { src: product05, alt: 'Tył okładki książki' },
-  { src: product06, alt: 'Książka — widok z kąta' },
-  { src: product07, alt: 'Wojciech Tracichleb czyta swoją książkę' },
+  { src: interior01, alt: 'Rozkładówka książki 1' },
+  { src: interior02, alt: 'Rozkładówka książki 2' },
+  { src: interior03, alt: 'Rozkładówka książki 3' },
+  { src: interior04, alt: 'Rozkładówka książki 4' },
+  { src: interior05, alt: 'Rozkładówka książki 5' },
+  { src: interior06, alt: 'Rozkładówka książki 6' },
+  { src: interior07, alt: 'Rozkładówka książki 7' },
+  { src: interior08, alt: 'Rozkładówka książki 8' },
 ];
 
 const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603';
@@ -59,7 +61,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
 
     <Fragment slot="subtitle">
       <strong>Twój przewodnik w drodze do własnego domu.</strong><br /><br />
-      Ponad 600 stron praktycznej wiedzy o budowie domu — od pierwszej myśli o budowie, przez wybór projektu i działki, finansowanie,
+      Aż 600 stron napisanych przystępnym językiem — od pierwszej myśli o budowie, przez wybór projektu i działki, finansowanie,
       budowę, aż po wykończenie wnętrz. Napisana przez praktyka z wieloletnim doświadczeniem jako generalny wykonawca.
     </Fragment>
   </Hero>
@@ -130,57 +132,72 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
     </div>
   </div>
 
-  <!-- Dla kogo -->
-  <Content
-    isReversed
-    tagline="Dla kogo"
-    title="Dla kogo powstała ta książka"
-    items={[
-      {
-        title: 'Marzysz o własnym domu i myślisz o jego budowie',
-        description: '',
-      },
-      {
-        title: 'Budujesz systemem gospodarczym i szukasz uporządkowanej wiedzy',
-        description: '',
-      },
-      {
-        title: 'Zatrudniłeś generalnego wykonawcę, ale chcesz mieć kontrolę nad budową',
-        description: '',
-      },
-      {
-        title: 'Rozważasz kupno od dewelopera, bo boisz się samodzielnej organizacji budowy',
-        description: '',
-      },
-      {
-        title: 'Planujesz budowę za 2-3 lata i chcesz się odpowiednio przygotować',
-        description: '',
-      },
-    ]}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Niezależnie od etapu, na którym jesteście
-      </h3>
-      Ta książka zmieni Wasze podejście do budowy domu.
-    </Fragment>
+  <!-- Dla kogo — custom layout z YouTube -->
+  <section class="py-16 md:py-20 bg-blue-50 dark:bg-transparent">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+        <!-- LEFT: YouTube video -->
+        <div class="relative overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/qTDvpQbUg9c"
+            title="Od marzenia do wprowadzenia — Wojciech Tracichleb"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+            class="absolute inset-0 w-full h-full"
+          ></iframe>
+        </div>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Spis treści -->
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12" id="spis-tresci">
-    <div class="text-center mb-8">
-      <p class="text-sm font-semibold uppercase tracking-wider text-primary">Pełna zawartość</p>
-      <h2 class="text-3xl font-bold dark:text-white mt-2">Spis treści</h2>
+        <!-- RIGHT: Copy + items -->
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-primary mb-2">Dla kogo</p>
+          <h2 class="text-3xl font-bold mb-3 dark:text-white font-display">
+            Niezależnie od etapu, na którym jesteście
+          </h2>
+          <p class="text-lg text-muted mb-6">Ta książka zmieni Wasze podejście do budowy domu.</p>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <span class="text-base">Marzysz o własnym domu i myślisz o jego budowie</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <span class="text-base">Budujesz systemem gospodarczym i szukasz uporządkowanej wiedzy</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <span class="text-base">Zatrudniłeś generalnego wykonawcę, ale chcesz mieć kontrolę nad budową</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <span class="text-base">Rozważasz kupno od dewelopera, bo boisz się samodzielnej organizacji budowy</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              <span class="text-base">Planujesz budowę za 2-3 lata i chcesz się odpowiednio przygotować</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="grid md:grid-cols-2 gap-8">
-      <!-- Część 1 -->
-      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
-        <h3 class="font-bold text-primary text-lg mb-3">Część 1 — Marzenie o własnym domu</h3>
-        <ul class="space-y-1 text-muted text-sm">
+  </section>
+
+  <!-- Spis treści — akordeon -->
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-16" id="spis-tresci">
+    <div class="text-center mb-10">
+      <p class="text-sm font-semibold uppercase tracking-wider text-primary">Pełna zawartość</p>
+      <h2 class="text-3xl md:text-4xl font-bold dark:text-white mt-2 font-display">Spis treści</h2>
+      <p class="text-muted mt-3">Kliknij część, aby zobaczyć szczegóły</p>
+    </div>
+
+    <div class="space-y-3">
+      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
+        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+          <span>Część 1 — Marzenie o własnym domu</span>
+          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <ul class="px-6 pb-5 space-y-1 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
           <li>Kim jestem? Dwa słowa, zanim zaczniemy</li>
           <li>Pięć porad, jak czytać tę książkę, aby wykorzystać ją w pełni</li>
           <li>Czego pragniesz?</li>
@@ -188,12 +205,14 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           <li>Wymarzony projekt</li>
           <li>Wymarzona działka</li>
         </ul>
-      </div>
+      </details>
 
-      <!-- Część 2 -->
-      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
-        <h3 class="font-bold text-primary text-lg mb-3">Część 2 — Planowanie budowy</h3>
-        <ul class="space-y-1 text-muted text-sm">
+      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
+        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+          <span>Część 2 — Planowanie budowy</span>
+          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <ul class="px-6 pb-5 space-y-1 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
           <li>Twoja Drużyna Pierścienia</li>
           <li>Wybór technologii budowy</li>
           <li>Zakup działki</li>
@@ -208,12 +227,14 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           <li>Polisa ubezpieczeniowa</li>
           <li>Ostatnie przygotowania</li>
         </ul>
-      </div>
+      </details>
 
-      <!-- Część 3A -->
-      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
-        <h3 class="font-bold text-primary text-lg mb-3">Część 3A — Od pustej działki do stanu surowego</h3>
-        <ul class="space-y-1 text-muted text-sm">
+      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
+        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+          <span>Część 3A — Od pustej działki do stanu surowego</span>
+          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <ul class="px-6 pb-5 space-y-1 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
           <li>Wytyczenie przez geodetę</li>
           <li>Płyta fundamentowa czy ławy fundamentowe</li>
           <li>Kanalizacja i przelotki mediów</li>
@@ -226,12 +247,14 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           <li>Pokrycia dachowe</li>
           <li>Ściany działowe</li>
         </ul>
-      </div>
+      </details>
 
-      <!-- Część 3B -->
-      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
-        <h3 class="font-bold text-primary text-lg mb-3">Część 3B — Do stanu deweloperskiego</h3>
-        <ul class="space-y-1 text-muted text-sm">
+      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
+        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+          <span>Część 3B — Do stanu deweloperskiego</span>
+          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <ul class="px-6 pb-5 space-y-1 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
           <li>Stolarka otworowa — drzwi, okna, rolety, brama</li>
           <li>Przyłącza do budynku (woda, kanalizacja, gaz)</li>
           <li>Instalacja elektryczna</li>
@@ -245,14 +268,14 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           <li>Sufity podwieszane i zabudowa poddasza</li>
           <li>Docieplenie elewacji</li>
         </ul>
-      </div>
+      </details>
 
-      <!-- Część 4 -->
-      <div
-        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700 md:col-span-2"
-      >
-        <h3 class="font-bold text-primary text-lg mb-3">Część 4 — Wykańczanie domu, a nie inwestora</h3>
-        <div class="grid sm:grid-cols-2 gap-x-8">
+      <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
+        <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+          <span>Część 4 — Wykańczanie domu, a nie inwestora</span>
+          <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <div class="grid sm:grid-cols-2 gap-x-8 px-6 pb-5 border-t border-gray-100 dark:border-gray-700 pt-4">
           <ul class="space-y-1 text-muted text-sm">
             <li>Wykończenie łazienek</li>
             <li>Płytkowanie pozostałych podłóg</li>
@@ -275,7 +298,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
             <li>Centralny odkurzacz czy może robot</li>
           </ul>
         </div>
-      </div>
+      </details>
     </div>
   </div>
 
@@ -287,7 +310,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         <p class="text-sm font-semibold uppercase tracking-wider text-primary">Zajrzyj do środka</p>
         <h2 class="text-3xl font-bold dark:text-white mt-2 mb-3">Wnętrze książki</h2>
         <p class="text-muted max-w-2xl mx-auto">
-          Przejrzyste ilustracje, czytelny układ i praktyczne wskazówki na każdej stronie. Ponad 600 stron w twardej
+          Przejrzyste ilustracje, czytelny układ i praktyczne wskazówki na każdej stronie. 600 stron w twardej
           oprawie — to książka, do której będziesz wracać na każdym etapie budowy.
         </p>
       </div>
@@ -490,7 +513,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
         <div class="w-full md:w-3/5 text-center md:text-left">
           <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 font-display tracking-tight">Gotowi na budowę?</h2>
           <p class="text-lg text-slate-300 mb-3 leading-relaxed">
-            Ponad 600 stron wiedzy, która zaoszczędzi Wam tysięcy złotych i miesięcy stresu. To nie kolejny poradnik z
+            Aż 600 stron wiedzy, która zaoszczędzi Wam tysięcy złotych i miesięcy stresu. To nie kolejny poradnik z
             internetu — to kompletny przewodnik napisany przez człowieka, który buduje domy na co dzień.
           </p>
           <p class="text-slate-400 mb-8">Twarda oprawa. Wysyłka w 24h. Darmowa dostawa.</p>

@@ -1,16 +1,16 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import OrganizationSchema from '~/components/common/OrganizationSchema.astro';
-import Image from '~/components/common/Image.astro';
 
+import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Stats from '~/components/widgets/Stats.astro';
 
-import heroImg from '~/assets/images/site/hero-wojtek-ksiazka-portrait.jpg';
+import heroImg from '~/assets/images/site/hero-bg.jpg';
 import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
-import wojtekImg from '~/assets/images/site/wojtek-o-mnie.jpg';
+import wojtekImg from '~/assets/images/site/wojtek-portrait.jpg';
 
 const metadata = {
   title: 'Budowa domu jednorodzinnego krok po kroku — Wojciech Tracichleb',
@@ -23,96 +23,33 @@ const metadata = {
 <Layout metadata={metadata}>
   <OrganizationSchema />
 
-  <!-- Split Hero -->
-  <section class="relative md:-mt-[76px] not-prose">
-    <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
-      <div class="pt-0 md:pt-[76px]"></div>
-      <div class="py-12 md:py-20">
-        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-          <!-- LEFT: Copy -->
-          <div class="order-2 md:order-1">
-            <p class="text-sm text-muted uppercase tracking-wider mb-4">Wojciech Tracichleb</p>
+  <!-- Hero -->
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Czytaj blog',
+        href: '/blog/',
+        icon: 'tabler:book',
+      },
+      {
+        text: 'Poznaj książkę',
+        href: '/ksiazka/',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+    image={{ src: heroImg, alt: 'Budowa domu jednorodzinnego — Pozytywnie Zbudowani' }}
+  >
+    <Fragment slot="title">
+      Budujecie dom?<br />
+      <span class="text-accent dark:text-white">Jesteście we właściwym miejscu.</span>
+    </Fragment>
 
-            <h1
-              class="text-4xl md:text-5xl font-display font-bold leading-tight tracking-tight mb-6 dark:text-gray-200"
-            >
-              Budowa domu<br />bez chaosu i kosztownych błędów.
-            </h1>
-
-            <p class="text-xl text-muted dark:text-slate-400 mb-8 leading-relaxed">
-              Od 12 lat pomagam inwestorom przejść przez budowę domu spokojnie. Książka, blog, 119 praktycznych
-              poradników — wszystko w jednym miejscu.
-            </p>
-
-            <!-- CTA row -->
-            <div class="flex flex-col sm:flex-row gap-4 mb-6">
-              <a
-                href="https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603"
-                target="_blank"
-                rel="noopener"
-                class="inline-flex items-center justify-center bg-[#c5a44e] hover:bg-[#b08f3a] text-white font-bold py-4 px-8 rounded-lg shadow-lg transition duration-200 text-center"
-              >
-                Kup książkę — 119 zł
-              </a>
-              <a
-                href="/blog/"
-                class="inline-flex items-center justify-center border-2 border-[#3369B1] text-[#3369B1] hover:bg-[#3369B1] hover:text-white font-semibold py-4 px-8 rounded-lg transition duration-200 text-center"
-              >
-                Czytaj blog
-              </a>
-            </div>
-
-            <!-- Testimonial -->
-            <p class="text-sm text-muted italic mt-6">
-              &laquo;Ta książka powinna być dołączana do każdego pozwolenia na budowę.&raquo;
-              <br />
-              <span class="not-italic font-medium">— Daria Bućko, Extradom.pl</span>
-            </p>
-
-            <!-- Stats row -->
-            <div class="flex flex-wrap gap-8 mt-8 pt-6 border-t border-gray-200 dark:border-slate-700">
-              <div>
-                <span class="text-2xl font-bold dark:text-white">12+</span>
-                <span class="block text-sm text-muted">Lat doświadczenia</span>
-              </div>
-              <div>
-                <span class="text-2xl font-bold dark:text-white">119</span>
-                <span class="block text-sm text-muted">Artykułów</span>
-              </div>
-              <div>
-                <span class="text-2xl font-bold dark:text-white">600+</span>
-                <span class="block text-sm text-muted">Stron w książce</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- RIGHT: Image -->
-          <div class="order-1 md:order-2 relative">
-            <div class="relative overflow-hidden rounded-lg shadow-xl">
-              <Image
-                src={heroImg}
-                alt="Wojciech Tracichleb — budowa domu bez chaosu"
-                class="w-full h-auto md:h-[600px] object-cover rounded-lg"
-                widths={[400, 768, 1200]}
-                width={1200}
-                sizes="(max-width: 768px) 100vw, 50vw"
-                aspectRatio="2:3"
-                layout="cover"
-                loading="eager"
-                decoding="async"
-              />
-              <!-- Gradient overlay left (desktop) -->
-              <div
-                class="hidden md:block absolute inset-0 bg-gradient-to-r from-white/30 via-transparent to-transparent dark:from-gray-900/30 pointer-events-none"
-              >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <Fragment slot="subtitle">
+      Wiem, jak dużym wyzwaniem potrafi być budowa własnego domu. Dziesiątki decyzji do podjęcia, kilkanaście różnych
+      ekip i natłok informacji z każdej możliwej strony. Dlatego tu jestem — żeby Was przez to przeprowadzić.
+    </Fragment>
+  </Hero>
 
   <!-- Cel -->
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12 text-center">
@@ -210,13 +147,11 @@ const metadata = {
     ]}
   />
 
-  <!-- Najnowsze na blogu — z override na animacje opacity -->
-  <div class="blog-cards-visible">
-    <BlogLatestPosts
-      title="Najnowsze na blogu"
-      information="Praktyczne porady dotyczące budowy domu jednorodzinnego — od wyboru działki, przez projekt i formalności, aż po wykończeniówkę."
-    />
-  </div>
+  <!-- Najnowsze na blogu -->
+  <BlogLatestPosts
+    title="Najnowsze na blogu"
+    information="Praktyczne porady dotyczące budowy domu jednorodzinnego — od wyboru działki, przez projekt i formalności, aż po wykończeniówkę."
+  />
 
   <!-- CTA -->
   <CallToAction
@@ -239,11 +174,3 @@ const metadata = {
     </Fragment>
   </CallToAction>
 </Layout>
-
-<style>
-  /* Override intersect-based opacity animation on blog cards — show immediately */
-  .blog-cards-visible :global(article) {
-    opacity: 1 !important;
-    animation: none !important;
-  }
-</style>
