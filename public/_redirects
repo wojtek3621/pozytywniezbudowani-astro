@@ -1,3 +1,6 @@
+# Sitemap alias (Astro generates sitemap-index.xml, GSC/bots expect sitemap.xml)
+/sitemap.xml /sitemap-index.xml 301
+
 # Old MiroCMS media sub-pages → consolidated media page
 /media/wstep/ /media/ 301
 /media/money-pl/ /media/ 301
