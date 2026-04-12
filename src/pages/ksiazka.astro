@@ -9,7 +9,7 @@ import BookNavigation from '~/components/widgets/BookNavigation.astro';
 
 import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
 import bookCoverCta from '~/assets/images/ksiazka/book-cover-cta.jpg';
-import niezaleznieImg from '~/assets/images/site/niezaleznie-etapu-flatlay.jpg';
+import niezaleznieImg from '~/assets/images/site/niezaleznie-etapu-book-spread.jpg';
 
 import interior01 from '~/assets/images/ksiazka/interior-01.jpg';
 import interior02 from '~/assets/images/ksiazka/interior-02.jpg';
@@ -136,16 +136,16 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
   <section class="py-16 md:py-20 bg-blue-50 dark:bg-transparent">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
-        <!-- LEFT: AI flat lay image (book + construction tools) -->
-        <div class="relative overflow-hidden rounded-lg shadow-xl">
+        <!-- LEFT: Open book spread (rozkładówka z rysunkami architektonicznymi) -->
+        <div class="relative">
           <Image
             src={niezaleznieImg}
-            alt="Książka Od Marzenia Do Wprowadzenia — narzędzia i plany budowy"
+            alt="Otwarta książka Od Marzenia Do Wprowadzenia — rozkładówka z rysunkami architektonicznymi"
             widths={[400, 768, 1200]}
             width={1200}
             sizes="(max-width: 768px) 100vw, 50vw"
             loading="lazy"
-            class="w-full h-auto rounded-lg"
+            class="w-full h-auto"
           />
         </div>
 
