@@ -1,0 +1,162 @@
+---
+/**
+ * GDPR Consent Banner — Google Consent Mode v2
+ *
+ * Replaces CookieYes (850 PLN/year) with zero-cost, zero-dependency solution.
+ * Sends gtag('consent', 'update', {...}) signals that GTM respects.
+ *
+ * Usage in Layout.astro:
+ *   <ConsentBanner position="head" />  — in <head>, BEFORE Analytics/GTM
+ *   <ConsentBanner position="body" />  — in <body>, visible banner + logic
+ */
+
+interface Props {
+  position: 'head' | 'body';
+}
+
+const { position } = Astro.props;
+---
+
+{position === 'head' && (
+  <script is:inline>
+    // Google Consent Mode v2 — set defaults BEFORE GTM loads
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    (function() {
+      var consent = null;
+      try {
+        var raw = document.cookie.split('; ').find(function(c){ return c.startsWith('pz_consent='); });
+        if (raw) consent = JSON.parse(decodeURIComponent(raw.split('=')[1]));
+      } catch(e) {}
+
+      if (consent) {
+        gtag('consent', 'default', {
+          'analytics_storage': consent.analytics ? 'granted' : 'denied',
+          'ad_storage': consent.marketing ? 'granted' : 'denied',
+          'ad_user_data': consent.marketing ? 'granted' : 'denied',
+          'ad_personalization': consent.marketing ? 'granted' : 'denied',
+          'functionality_storage': 'granted',
+          'security_storage': 'granted'
+        });
+      } else {
+        gtag('consent', 'default', {
+          'analytics_storage': 'denied',
+          'ad_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied',
+          'functionality_storage': 'granted',
+          'security_storage': 'granted',
+          'wait_for_update': 500
+        });
+      }
+    })();
+  </script>
+)}
+
+{position === 'body' && (
+  <div id="pz-consent-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:rgba(26,26,46,0.97); backdrop-filter:blur(8px); color:#fff; padding:16px 20px; font-family:system-ui,-apple-system,sans-serif; font-size:14px; line-height:1.5; box-shadow:0 -4px 20px rgba(0,0,0,0.3);">
+    <div style="max-width:1100px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; gap:12px;">
+      <div style="flex:1; min-width:280px;">
+        <p style="margin:0 0 8px; font-size:15px; font-weight:600;">Szanujemy Twoj&#x105; prywatno&#x15B;&#x107;</p>
+        <p style="margin:0; color:#b0b0c0; font-size:13px;">
+          U&#x17C;ywamy plik&#xF3;w cookie do analityki (jak korzystasz ze strony) i marketingu (trafniejsze reklamy).
+          Mo&#x17C;esz zaakceptowa&#x107; wszystkie lub wybra&#x107; kategorie.
+        </p>
+      </div>
+      <div style="display:flex; gap:8px; flex-wrap:wrap;">
+        <button id="pz-consent-settings" style="padding:8px 16px; background:transparent; color:#c5a44e; border:1px solid #c5a44e; border-radius:6px; cursor:pointer; font-size:13px; font-weight:500; transition:all 0.2s;">
+          Ustawienia
+        </button>
+        <button id="pz-consent-reject" style="padding:8px 16px; background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); border-radius:6px; cursor:pointer; font-size:13px; font-weight:500; transition:all 0.2s;">
+          Odrzuc opcjonalne
+        </button>
+        <button id="pz-consent-accept" style="padding:8px 20px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:6px; cursor:pointer; font-size:13px; font-weight:600; transition:all 0.2s;">
+          Akceptuj&#x119; wszystkie
+        </button>
+      </div>
+    </div>
+
+    <div id="pz-consent-details" style="display:none; max-width:1100px; margin:12px auto 0; padding-top:12px; border-top:1px solid rgba(255,255,255,0.1);">
+      <label style="display:flex; align-items:center; gap:8px; margin-bottom:8px; cursor:pointer;">
+        <input type="checkbox" id="pz-consent-analytics" checked style="accent-color:#c5a44e; width:16px; height:16px;" />
+        <span><strong>Analityka</strong> &#x2014; Google Analytics, Hotjar, Clarity</span>
+      </label>
+      <label style="display:flex; align-items:center; gap:8px; margin-bottom:8px; cursor:pointer;">
+        <input type="checkbox" id="pz-consent-marketing" checked style="accent-color:#c5a44e; width:16px; height:16px;" />
+        <span><strong>Marketing</strong> &#x2014; Meta Pixel, Google Ads</span>
+      </label>
+      <button id="pz-consent-save" style="margin-top:8px; padding:8px 20px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:6px; cursor:pointer; font-size:13px; font-weight:600;">
+        Potwierd&#x17A; wybory
+      </button>
+    </div>
+  </div>
+
+  <script is:inline>
+    (function() {
+      function getConsent() {
+        try {
+          var raw = document.cookie.split('; ').find(function(c){ return c.startsWith('pz_consent='); });
+          if (raw) return JSON.parse(decodeURIComponent(raw.split('=')[1]));
+        } catch(e) {}
+        return null;
+      }
+
+      function setConsent(analytics, marketing) {
+        var consent = { analytics: analytics, marketing: marketing, ts: Date.now() };
+        var expires = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toUTCString();
+        document.cookie = 'pz_consent=' + encodeURIComponent(JSON.stringify(consent)) + '; expires=' + expires + '; path=/; SameSite=Lax';
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'update', {
+          'analytics_storage': analytics ? 'granted' : 'denied',
+          'ad_storage': marketing ? 'granted' : 'denied',
+          'ad_user_data': marketing ? 'granted' : 'denied',
+          'ad_personalization': marketing ? 'granted' : 'denied'
+        });
+
+        dataLayer.push({ event: 'cookie_consent_update' });
+
+        var banner = document.getElementById('pz-consent-banner');
+        if (banner) banner.style.display = 'none';
+      }
+
+      function showBanner() {
+        if (!getConsent()) {
+          setTimeout(function() {
+            var banner = document.getElementById('pz-consent-banner');
+            if (banner) banner.style.display = 'block';
+          }, 800);
+        }
+      }
+
+      function bindEvents() {
+        var acceptBtn = document.getElementById('pz-consent-accept');
+        var rejectBtn = document.getElementById('pz-consent-reject');
+        var settingsBtn = document.getElementById('pz-consent-settings');
+        var saveBtn = document.getElementById('pz-consent-save');
+        var details = document.getElementById('pz-consent-details');
+
+        if (acceptBtn) acceptBtn.onclick = function() { setConsent(true, true); };
+        if (rejectBtn) rejectBtn.onclick = function() { setConsent(false, false); };
+        if (settingsBtn) settingsBtn.onclick = function() {
+          if (details) details.style.display = details.style.display === 'none' ? 'block' : 'none';
+        };
+        if (saveBtn) saveBtn.onclick = function() {
+          var a = document.getElementById('pz-consent-analytics');
+          var m = document.getElementById('pz-consent-marketing');
+          setConsent(a ? a.checked : false, m ? m.checked : false);
+        };
+      }
+
+      showBanner();
+      bindEvents();
+
+      document.addEventListener('astro:page-load', function() {
+        showBanner();
+        bindEvents();
+      });
+    })();
+  </script>
+)}
