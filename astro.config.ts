@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
-import partytown from '@astrojs/partytown';
+// import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
@@ -47,11 +47,12 @@ export default defineConfig({
       },
     }),
 
-    ...whenExternalScripts(() =>
-      partytown({
-        config: { forward: ['dataLayer.push'] },
-      })
-    ),
+    // Partytown removed — breaks GTM, Meta Pixel, CookieYes, Hotjar
+    // ...whenExternalScripts(() =>
+    //   partytown({
+    //     config: { forward: ['dataLayer.push'] },
+    //   })
+    // ),
 
     compress({
       CSS: true,

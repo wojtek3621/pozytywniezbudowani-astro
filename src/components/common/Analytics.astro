@@ -4,7 +4,7 @@ import { ANALYTICS } from 'astrowind:config';
 ---
 
 {/* Google Tag Manager */}
-<script type="text/partytown">
+<script>
   (function (w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -18,8 +18,8 @@ import { ANALYTICS } from 'astrowind:config';
 </script>
 
 {/* VisitorTracking */}
-<script type="text/partytown" async defer src="https://app.visitortracking.com/assets/js/tracer.js"></script>
-<script type="text/partytown">
+<script async defer src="https://app.visitortracking.com/assets/js/tracer.js"></script>
+<script>
   function init_tracer() {
     var tracer = new Tracer({
       websiteId: 'c23f4336-24d3-4730-933f-43d04963bf26',
@@ -37,7 +37,18 @@ import { ANALYTICS } from 'astrowind:config';
   ANALYTICS?.vendors?.googleAnalytics?.id ? (
     <GoogleAnalytics
       id={String(ANALYTICS.vendors.googleAnalytics.id)}
-      partytown={ANALYTICS?.vendors?.googleAnalytics?.partytown}
+      partytown={false}
     />
   ) : null
 }
+
+<script>
+  // SPA navigation fix — fire GTM on Astro page transitions
+  document.addEventListener('astro:page-load', () => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'astro:page-load',
+      page_path: window.location.pathname,
+    });
+  });
+</script>
