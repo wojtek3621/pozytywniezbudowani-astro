@@ -10,6 +10,7 @@ import BookNavigation from '~/components/widgets/BookNavigation.astro';
 
 import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
 import bookCoverCta from '~/assets/images/ksiazka/book-cover-cta.jpg';
+import niezaleznieImg from '~/assets/images/site/niezaleznie-etapu-flatlay.jpg';
 
 import interior01 from '~/assets/images/ksiazka/interior-01.jpg';
 import interior02 from '~/assets/images/ksiazka/interior-02.jpg';
@@ -136,17 +137,17 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
   <section class="py-16 md:py-20 bg-blue-50 dark:bg-transparent">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
-        <!-- LEFT: YouTube video -->
-        <div class="relative overflow-hidden rounded-lg shadow-xl aspect-video">
-          <iframe
-            src="https://www.youtube.com/embed/qTDvpQbUg9c"
-            title="Od marzenia do wprowadzenia — Wojciech Tracichleb"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+        <!-- LEFT: AI flat lay image (book + construction tools) -->
+        <div class="relative overflow-hidden rounded-lg shadow-xl">
+          <Image
+            src={niezaleznieImg}
+            alt="Książka Od Marzenia Do Wprowadzenia — narzędzia i plany budowy"
+            widths={[400, 768, 1200]}
+            width={1200}
+            sizes="(max-width: 768px) 100vw, 50vw"
             loading="lazy"
-            class="absolute inset-0 w-full h-full"
-          ></iframe>
+            class="w-full h-auto rounded-lg"
+          />
         </div>
 
         <!-- RIGHT: Copy + items -->
@@ -316,22 +317,136 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
         {
-          interiorImages.map((img) => (
-            <div class="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 bg-white dark:bg-gray-800">
+          interiorImages.map((img, i) => (
+            <button
+              type="button"
+              class="lightbox-trigger rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-white dark:bg-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary"
+              data-lightbox-index={i}
+              aria-label={`Powiększ zdjęcie: ${img.alt}`}
+            >
               <Image
                 src={img.src}
                 alt={img.alt}
-                width={600}
-                height={400}
-                widths={[300, 600]}
+                width={800}
+                widths={[400, 800]}
                 sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
                 class="w-full h-auto"
                 loading="lazy"
               />
-            </div>
+            </button>
           ))
         }
       </div>
+
+      <!-- Lightbox overlay -->
+      <div
+        id="lightbox"
+        class="fixed inset-0 bg-black/90 z-50 hidden items-center justify-center p-4 cursor-zoom-out"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Powiększenie zdjęcia"
+      >
+        <button
+          id="lightbox-close"
+          type="button"
+          class="absolute top-4 right-4 text-white/80 hover:text-white transition-colors"
+          aria-label="Zamknij"
+        >
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+        <button
+          id="lightbox-prev"
+          type="button"
+          class="absolute left-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white transition-colors"
+          aria-label="Poprzednie"
+        >
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </button>
+        <button
+          id="lightbox-next"
+          type="button"
+          class="absolute right-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white transition-colors"
+          aria-label="Następne"
+        >
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
+        <img
+          id="lightbox-img"
+          src=""
+          alt=""
+          class="max-w-full max-h-full object-contain select-none"
+        />
+      </div>
+
+      <script is:inline>
+        (function() {
+          const triggers = document.querySelectorAll('.lightbox-trigger');
+          const lightbox = document.getElementById('lightbox');
+          const lbImg = document.getElementById('lightbox-img');
+          const lbClose = document.getElementById('lightbox-close');
+          const lbPrev = document.getElementById('lightbox-prev');
+          const lbNext = document.getElementById('lightbox-next');
+
+          let current = 0;
+          const items = [];
+
+          triggers.forEach((btn, i) => {
+            const img = btn.querySelector('img');
+            if (img) {
+              items.push({ src: img.src, srcset: img.srcset || '', alt: img.alt });
+            }
+            btn.addEventListener('click', () => open(i));
+          });
+
+          function open(i) {
+            current = i;
+            const item = items[current];
+            if (!item) return;
+            lbImg.src = item.src;
+            lbImg.srcset = item.srcset;
+            lbImg.alt = item.alt;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+          }
+
+          function close() {
+            lightbox.classList.add('hidden');
+            lightbox.classList.remove('flex');
+            document.body.style.overflow = '';
+          }
+
+          function prev(e) {
+            e && e.stopPropagation();
+            current = (current - 1 + items.length) % items.length;
+            open(current);
+          }
+
+          function next(e) {
+            e && e.stopPropagation();
+            current = (current + 1) % items.length;
+            open(current);
+          }
+
+          lbClose.addEventListener('click', (e) => { e.stopPropagation(); close(); });
+          lbPrev.addEventListener('click', prev);
+          lbNext.addEventListener('click', next);
+          lightbox.addEventListener('click', (e) => { if (e.target === lightbox || e.target === lbImg) close(); });
+
+          document.addEventListener('keydown', (e) => {
+            if (lightbox.classList.contains('hidden')) return;
+            if (e.key === 'Escape') close();
+            if (e.key === 'ArrowLeft') prev();
+            if (e.key === 'ArrowRight') next();
+          });
+        })();
+      </script>
     </div>
   </section>
 
