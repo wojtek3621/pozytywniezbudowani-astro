@@ -1,9 +1,17 @@
 ---
 /**
- * GDPR Consent Banner — Google Consent Mode v2
+ * GDPR Consent Banner — Google Consent Mode v2 Advanced
  *
  * Replaces CookieYes (850 PLN/year) with zero-cost, zero-dependency solution.
- * Sends gtag('consent', 'update', {...}) signals that GTM respects.
+ * GTM loads BEFORE this with denied defaults → cookieless pings (Advanced mode).
+ * Banner updates consent state on user interaction.
+ *
+ * Optimizations (2026-04-12 debate 4-model):
+ * - No delay (instant render)
+ * - "Reject" as small text link (not button) — visual hierarchy favors Accept
+ * - Checkboxes unchecked by default (Planet49 compliance)
+ * - Larger banner for higher engagement
+ * - Footer link for consent withdrawal
  *
  * Usage in Layout.astro:
  *   <ConsentBanner position="head" />  — in <head>, BEFORE Analytics/GTM
@@ -19,7 +27,8 @@ const { position } = Astro.props;
 
 {position === 'head' && (
   <script is:inline>
-    // Google Consent Mode v2 — set defaults BEFORE GTM loads
+    // Google Consent Mode v2 Advanced — set defaults BEFORE GTM loads
+    // GTM loads immediately after with these defaults → cookieless pings
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
 
@@ -55,40 +64,53 @@ const { position } = Astro.props;
 )}
 
 {position === 'body' && (
-  <div id="pz-consent-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:rgba(26,26,46,0.97); backdrop-filter:blur(8px); color:#fff; padding:16px 20px; font-family:system-ui,-apple-system,sans-serif; font-size:14px; line-height:1.5; box-shadow:0 -4px 20px rgba(0,0,0,0.3);">
-    <div style="max-width:1100px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; gap:12px;">
-      <div style="flex:1; min-width:280px;">
-        <p style="margin:0 0 8px; font-size:15px; font-weight:600;">Szanujemy Twoj&#x105; prywatno&#x15B;&#x107;</p>
-        <p style="margin:0; color:#b0b0c0; font-size:13px;">
-          U&#x17C;ywamy plik&#xF3;w cookie do analityki (jak korzystasz ze strony) i marketingu (trafniejsze reklamy).
-          Mo&#x17C;esz zaakceptowa&#x107; wszystkie lub wybra&#x107; kategorie.
-        </p>
+  <div id="pz-consent-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:rgba(26,26,46,0.98); backdrop-filter:blur(12px); color:#fff; font-family:system-ui,-apple-system,sans-serif; box-shadow:0 -8px 40px rgba(0,0,0,0.4);">
+    <div style="max-width:1100px; margin:0 auto; padding:24px 24px 20px;">
+      <div style="display:flex; flex-wrap:wrap; align-items:center; gap:16px;">
+        <div style="flex:1; min-width:280px;">
+          <p style="margin:0 0 6px; font-size:17px; font-weight:700; color:#fff; line-height:1.3;">
+            Ta strona u&#x17C;ywa plik&#xF3;w cookie
+          </p>
+          <p style="margin:0; color:#b8b8cc; font-size:14px; line-height:1.6;">
+            Dzi&#x119;ki nim wiemy, jak korzystasz ze strony (analityka) i mo&#x17C;emy pokazywa&#x107; trafniejsze tre&#x15B;ci (marketing).
+            Kliknij <strong style="color:#e0e0f0;">Akceptuj&#x119;</strong>, aby w pe&#x142;ni korzysta&#x107; z serwisu, lub dostosuj w ustawieniach.
+          </p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:stretch; gap:8px; min-width:200px;">
+          <button id="pz-consent-accept" style="padding:14px 32px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:8px; cursor:pointer; font-size:15px; font-weight:700; letter-spacing:0.3px; transition:all 0.2s; box-shadow:0 2px 8px rgba(197,164,78,0.3);">
+            Akceptuj&#x119; wszystkie
+          </button>
+          <div style="display:flex; justify-content:center; gap:16px;">
+            <button id="pz-consent-settings" style="padding:6px 12px; background:transparent; color:#c5a44e; border:none; cursor:pointer; font-size:13px; font-weight:500; text-decoration:underline; text-underline-offset:2px;">
+              Ustawienia
+            </button>
+            <button id="pz-consent-reject" style="padding:6px 12px; background:transparent; color:#787890; border:none; cursor:pointer; font-size:12px; font-weight:400;">
+              Tylko niezb&#x119;dne
+            </button>
+          </div>
+        </div>
       </div>
-      <div style="display:flex; gap:8px; flex-wrap:wrap;">
-        <button id="pz-consent-settings" style="padding:8px 16px; background:transparent; color:#c5a44e; border:1px solid #c5a44e; border-radius:6px; cursor:pointer; font-size:13px; font-weight:500; transition:all 0.2s;">
-          Ustawienia
-        </button>
-        <button id="pz-consent-reject" style="padding:8px 16px; background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); border-radius:6px; cursor:pointer; font-size:13px; font-weight:500; transition:all 0.2s;">
-          Odrzuc opcjonalne
-        </button>
-        <button id="pz-consent-accept" style="padding:8px 20px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:6px; cursor:pointer; font-size:13px; font-weight:600; transition:all 0.2s;">
-          Akceptuj&#x119; wszystkie
-        </button>
-      </div>
-    </div>
 
-    <div id="pz-consent-details" style="display:none; max-width:1100px; margin:12px auto 0; padding-top:12px; border-top:1px solid rgba(255,255,255,0.1);">
-      <label style="display:flex; align-items:center; gap:8px; margin-bottom:8px; cursor:pointer;">
-        <input type="checkbox" id="pz-consent-analytics" checked style="accent-color:#c5a44e; width:16px; height:16px;" />
-        <span><strong>Analityka</strong> &#x2014; Google Analytics, Hotjar, Clarity</span>
-      </label>
-      <label style="display:flex; align-items:center; gap:8px; margin-bottom:8px; cursor:pointer;">
-        <input type="checkbox" id="pz-consent-marketing" checked style="accent-color:#c5a44e; width:16px; height:16px;" />
-        <span><strong>Marketing</strong> &#x2014; Meta Pixel, Google Ads</span>
-      </label>
-      <button id="pz-consent-save" style="margin-top:8px; padding:8px 20px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:6px; cursor:pointer; font-size:13px; font-weight:600;">
-        Potwierd&#x17A; wybory
-      </button>
+      <div id="pz-consent-details" style="display:none; margin-top:16px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.1);">
+        <p style="margin:0 0 12px; font-size:13px; color:#9090a8;">Wybierz, na jakie kategorie wyra&#x17C;asz zgod&#x119;:</p>
+        <label style="display:flex; align-items:center; gap:10px; margin-bottom:10px; cursor:pointer; padding:8px 12px; background:rgba(255,255,255,0.04); border-radius:6px;">
+          <input type="checkbox" id="pz-consent-analytics" style="accent-color:#c5a44e; width:18px; height:18px;" />
+          <div>
+            <strong style="font-size:14px;">Analityka</strong>
+            <span style="display:block; font-size:12px; color:#9090a8; margin-top:2px;">Google Analytics, Hotjar &#x2014; jak u&#x17C;ytkownicy korzystaj&#x105; ze strony</span>
+          </div>
+        </label>
+        <label style="display:flex; align-items:center; gap:10px; margin-bottom:10px; cursor:pointer; padding:8px 12px; background:rgba(255,255,255,0.04); border-radius:6px;">
+          <input type="checkbox" id="pz-consent-marketing" style="accent-color:#c5a44e; width:18px; height:18px;" />
+          <div>
+            <strong style="font-size:14px;">Marketing</strong>
+            <span style="display:block; font-size:12px; color:#9090a8; margin-top:2px;">Meta Pixel, Google Ads &#x2014; trafniejsze reklamy i pomiar kampanii</span>
+          </div>
+        </label>
+        <button id="pz-consent-save" style="margin-top:8px; padding:12px 24px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:8px; cursor:pointer; font-size:14px; font-weight:600;">
+          Potwierd&#x17A; wybory
+        </button>
+      </div>
     </div>
   </div>
 
@@ -124,10 +146,8 @@ const { position } = Astro.props;
 
       function showBanner() {
         if (!getConsent()) {
-          setTimeout(function() {
-            var banner = document.getElementById('pz-consent-banner');
-            if (banner) banner.style.display = 'block';
-          }, 800);
+          var banner = document.getElementById('pz-consent-banner');
+          if (banner) banner.style.display = 'block';
         }
       }
 
@@ -148,11 +168,18 @@ const { position } = Astro.props;
           var m = document.getElementById('pz-consent-marketing');
           setConsent(a ? a.checked : false, m ? m.checked : false);
         };
+
+        // Hover effect on accept button
+        if (acceptBtn) {
+          acceptBtn.onmouseenter = function() { this.style.background = '#d4b35d'; this.style.transform = 'translateY(-1px)'; };
+          acceptBtn.onmouseleave = function() { this.style.background = '#c5a44e'; this.style.transform = 'none'; };
+        }
       }
 
       showBanner();
       bindEvents();
 
+      // SPA navigation: re-show banner if no consent
       document.addEventListener('astro:page-load', function() {
         showBanner();
         bindEvents();

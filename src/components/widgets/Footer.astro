@@ -99,6 +99,11 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       <div class="text-sm mr-4 dark:text-muted">
         <Fragment set:html={footNote} />
       </div>
+      <button
+        id="pz-consent-reopen"
+        class="text-xs text-muted hover:text-primary cursor-pointer underline underline-offset-2 ml-4"
+        onclick="document.cookie='pz_consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;'; location.reload();"
+      >Ustawienia prywatno&#x15B;ci</button>
     </div>
   </div>
 </footer>
