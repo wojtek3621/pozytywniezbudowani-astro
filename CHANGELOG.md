@@ -2,6 +2,24 @@
 
 Wszystkie istotne zmiany w projekcie pozytywniezbudowani.pl (Astro).
 
+## 2026-04-12
+
+### Dodane
+
+- Homepage: YouTube iframe embed w sekcji "Dla kogo" (qTDvpQbUg9c) — video Wojtka po lewej + lista 5 grup docelowych po prawej
+- /ksiazka/: spis treści → collapsible akordeon z 5 `<details>` (Części 1-4), domyślnie zwinięty
+- /ksiazka/: galeria przywrócona do rzeczywistych rozkładówek (interior-01..08), zastępuje stockowe product shots
+
+### Zmienione
+
+- Homepage (index.astro): merge /nowa/ → / — Split Hero z Wojtek + książka portret, Oswald H1, gold CTA "Kup książkę — 119 zł"; stary hero zachowany jako index.astro.bak-magazine-hero
+- Zdjęcie "O mnie": photo (6).jpg — jasna koszula, marmurowe schody; nadpisuje brązową koszulę (photo 9)
+- /ksiazka/ copy: "Ponad 600 stron" → "Aż 600 stron napisanych przystępnym językiem" (3 miejsca)
+
+### Naprawione
+
+- Usunięty `robots: { index: false, follow: false }` z nowego index.astro (był w /nowa/, niepotrzebny na homepage — noindex aplikowany przez `public/_headers` dla test domain)
+
 ## 2026-04-03
 
 ### Dokumentacja
