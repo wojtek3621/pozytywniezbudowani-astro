@@ -2,6 +2,41 @@
 
 Wszystkie istotne zmiany w projekcie pozytywniezbudowani.pl (Astro).
 
+## 2026-04-12 (sesja 3 — Round 4 landing redesign / Meta Ads)
+
+### Dodane
+
+- /ksiazka/: Hero Split dark bg (bg-slate-900) + portret Wojtka + 4 zawężone value props + CTA z data-fbq-event="AddToCart"
+- /ksiazka/: Pricing Card dedykowana sekcja (blue gradient, 119 zł, 5 bullets, BEZ value stacking)
+- /ksiazka/: Book schema JSON-LD minimal (@type:Book, Hardcover, InStock, 119 PLN, BEZ aggregateRating)
+- /ksiazka/: Meta Pixel base + ViewContent + AddToCart listeners (6 CTA) + UTM whitelist forwarding (8 params)
+- /ksiazka/: FAQ 7 pytań — natywne `<details>` (Kiedy zacząć / znajomy GW / darmowe art. / 608 stron / ebook / dostawa / zwrot)
+- /ksiazka/: Sticky mobile CTA bar (fixed bottom, amber, md:hidden)
+- /ksiazka/: Sekcja "Dla kogo" — portret Wojtka (wojtek-dla-kogo.jpg) zastępuje book spread
+- /ksiazka/: O autorze — dark bg (bg-slate-900) + portret (wojtek-o-autorze-ksiazka.jpg) + guarantee placeholder box
+- /ksiazka/: Recenzje — placeholder "Polecają nas / Extradom.pl" + TODO comment dla logo
+- Nowe assety: wojtek-dla-kogo.jpg (atelier 12, 1600×1064), wojtek-o-autorze-ksiazka.jpg (atelier 4, 1600×1064)
+
+### Zmienione
+
+- /ksiazka/ Hero: zastąpiony custom hero Split (dark bg) zamiast generycznego komponentu Hero
+- /ksiazka/ title: "Książka — Od Marzenia Do Wprowadzenia" → "Od Marzenia Do Wprowadzenia — Kompletny przewodnik budowy domu | Wojciech Tracichleb"
+- /ksiazka/ meta description: zaktualizowany z "600 stron" → "608 stron, 86 rozdziałów, 12 lat doświadczenia generalnego wykonawcy"
+- /ksiazka/ "Dla kogo": H2 zmieniony na "Dla kogo napisałem tę książkę"
+- /ksiazka/ footer CTA: copy "Kup książkę — 119 zł" → "Gotów zamówić? Kliknij tutaj — 119 zł"
+- widgets/Stats.astro, widgets/Testimonials.astro, widgets/Footer.astro, widgets/HeroText.astro (4x), widgets/Pricing.astro: usunięcie `motion-safe:md:opacity-0` — fix IntersectionObserver (Meta Pixel + SEO crawler widzi content)
+
+### Naprawione
+
+- IntersectionObserver opacity bug: 6 plików widgetów miało `motion-safe:md:opacity-0` → content invisible dla crawlerów i przy disabled motion
+
+### Uwagi
+
+- Meta Pixel: placeholder `TODO_META_PIXEL_ID` — Wojtek dostarczy real ID przed uruchomieniem kampanii
+- Guarantee: `<!-- WOJTEK DECISION: confirm guarantee terms (30d, buyer pays return shipping, opcja A) -->`
+- Extradom.pl logo: `<!-- TODO: Wojtek dostarczy plik logo -->` (placeholder text obecny)
+- opacity-0 w ui/ i blog/ (Timeline, ItemGrid, WidgetWrapper, SinglePost, GridItem, ListItem, RelatedPosts) — poza scope tej sesji, do decyzji Wojtka
+
 ## 2026-04-12 (sesja 2 — feedback po deploy)
 
 ### Dodane
