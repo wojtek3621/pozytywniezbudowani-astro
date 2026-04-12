@@ -74,7 +74,6 @@ export const footerData = {
       href: 'https://www.instagram.com/pozytywniezbudowani/',
     },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/wojciech-tracichleb/' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
     &copy; ${new Date().getFullYear()} Pozytywnie Zbudowani — Wojciech Tracichleb. Wszelkie prawa zastrzeżone.
