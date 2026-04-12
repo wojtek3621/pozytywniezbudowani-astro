@@ -2,7 +2,20 @@
 
 Wszystkie istotne zmiany w projekcie pozytywniezbudowani.pl (Astro).
 
-## 2026-04-12
+## 2026-04-12 (sesja 2 — feedback po deploy)
+
+### Dodane
+
+- /ksiazka/: lightbox galerii "Wnętrze książki" — vanilla JS, zero dependencies, keyboard nav (Escape/Arrow), aria-labels, prev/next buttons, scroll lock
+- /ksiazka/: nowy asset `niezaleznie-etapu-flatlay.jpg` — DALL-E 3 flat lay (book + blueprints + tools, 1600×914 JPEG)
+
+### Zmienione
+
+- Zdjęcie "O mnie": photo (20).jpg — granatowa koszula, hala showroom, brak rekwizytu (zastępuje photo(6) z zielonym placeholderem green screen)
+- /ksiazka/ sekcja "Niezależnie od etapu": YouTube iframe (qTDvpQbUg9c) → AI-generated flat lay image (spójny z brand construction magazine)
+- /ksiazka/ galeria: `<div>` thumbnails → `<button class="lightbox-trigger">` z data-lightbox-index, cursor-pointer
+
+## 2026-04-12 (sesja 1)
 
 ### Dodane
 
