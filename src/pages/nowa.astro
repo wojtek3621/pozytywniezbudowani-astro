@@ -8,9 +8,9 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Stats from '~/components/widgets/Stats.astro';
 
-import heroImg from '~/assets/images/site/wojtek-about.jpg';
+import heroImg from '~/assets/images/site/hero-wojtek-ksiazka-portrait.jpg';
 import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
-import wojtekImg from '~/assets/images/site/wojtek-portrait.jpg';
+import wojtekImg from '~/assets/images/site/wojtek-o-mnie.jpg';
 
 const metadata = {
   title: 'Budowa domu jednorodzinnego krok po kroku — Wojciech Tracichleb',
@@ -36,7 +36,7 @@ const metadata = {
             <p class="text-sm text-muted uppercase tracking-wider mb-4">Wojciech Tracichleb</p>
 
             <h1
-              class="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-6 font-heading dark:text-gray-200"
+              class="text-4xl md:text-5xl font-display font-bold leading-tight tracking-tight mb-6 dark:text-gray-200"
             >
               Budowa domu<br />bez chaosu i kosztownych błędów.
             </h1>
@@ -94,11 +94,11 @@ const metadata = {
               <Image
                 src={heroImg}
                 alt="Wojciech Tracichleb — budowa domu bez chaosu"
-                class="w-full h-auto md:h-[540px] object-cover rounded-lg"
-                widths={[400, 768, 1024]}
-                width={1024}
+                class="w-full h-auto md:h-[600px] object-cover rounded-lg"
+                widths={[400, 768, 1200]}
+                width={1200}
                 sizes="(max-width: 768px) 100vw, 50vw"
-                aspectRatio="4:5"
+                aspectRatio="2:3"
                 layout="cover"
                 loading="eager"
                 decoding="async"

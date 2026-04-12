@@ -11,18 +11,13 @@ import BookNavigation from '~/components/widgets/BookNavigation.astro';
 import ksiazkaImg from '~/assets/images/site/ksiazka-hero.jpg';
 import bookCoverCta from '~/assets/images/ksiazka/book-cover-cta.jpg';
 
-import interior01 from '~/assets/images/ksiazka/interior-01.jpg';
-import interior02 from '~/assets/images/ksiazka/interior-02.jpg';
-import interior03 from '~/assets/images/ksiazka/interior-03.jpg';
-import interior04 from '~/assets/images/ksiazka/interior-04.jpg';
-import interior05 from '~/assets/images/ksiazka/interior-05.jpg';
-import interior06 from '~/assets/images/ksiazka/interior-06.jpg';
-import interior07 from '~/assets/images/ksiazka/interior-07.jpg';
-import interior08 from '~/assets/images/ksiazka/interior-08.jpg';
-import interior09 from '~/assets/images/ksiazka/interior-09.jpg';
-import interior10 from '~/assets/images/ksiazka/interior-10.jpg';
-import interior11 from '~/assets/images/ksiazka/interior-11.jpg';
-import interior12 from '~/assets/images/ksiazka/interior-12.jpg';
+import product01 from '~/assets/images/ksiazka/product-01-stos.jpg';
+import product02 from '~/assets/images/ksiazka/product-02-dynamic.jpg';
+import product03 from '~/assets/images/ksiazka/product-03-otwarta.jpg';
+import product04 from '~/assets/images/ksiazka/product-04-interior.jpg';
+import product05 from '~/assets/images/ksiazka/product-05-tyl.jpg';
+import product06 from '~/assets/images/ksiazka/product-06-kat.jpg';
+import product07 from '~/assets/images/ksiazka/product-07-wojtek-czyta.jpg';
 
 const metadata = {
   title: 'Książka — Od Marzenia Do Wprowadzenia',
@@ -31,18 +26,13 @@ const metadata = {
 };
 
 const interiorImages = [
-  { src: interior01, alt: 'Wnętrze książki — rozkładówka 1' },
-  { src: interior02, alt: 'Wnętrze książki — rozkładówka 2' },
-  { src: interior03, alt: 'Wnętrze książki — rozkładówka 3' },
-  { src: interior04, alt: 'Wnętrze książki — rozkładówka 4' },
-  { src: interior05, alt: 'Wnętrze książki — rozkładówka 5' },
-  { src: interior06, alt: 'Wnętrze książki — rozkładówka 6' },
-  { src: interior07, alt: 'Wnętrze książki — rozkładówka 7' },
-  { src: interior08, alt: 'Wnętrze książki — rozkładówka 8' },
-  { src: interior09, alt: 'Wnętrze książki — rozkładówka 9' },
-  { src: interior10, alt: 'Wnętrze książki — rozkładówka 10' },
-  { src: interior11, alt: 'Wnętrze książki — rozkładówka 11' },
-  { src: interior12, alt: 'Wnętrze książki — rozkładówka 12' },
+  { src: product01, alt: 'Stos książek — Od Marzenia Do Wprowadzenia' },
+  { src: product02, alt: 'Rozłożone egzemplarze — widok dynamiczny' },
+  { src: product03, alt: 'Otwarta książka — rozkładówka' },
+  { src: product04, alt: 'Wnętrze — strony z ilustracjami' },
+  { src: product05, alt: 'Tył okładki książki' },
+  { src: product06, alt: 'Książka — widok z kąta' },
+  { src: product07, alt: 'Wojciech Tracichleb czyta swoją książkę' },
 ];
 
 const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603';
@@ -498,7 +488,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
 
         <!-- CTA content -->
         <div class="w-full md:w-3/5 text-center md:text-left">
-          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 font-heading tracking-tight">Gotowi na budowę?</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 font-display tracking-tight">Gotowi na budowę?</h2>
           <p class="text-lg text-slate-300 mb-3 leading-relaxed">
             Ponad 600 stron wiedzy, która zaoszczędzi Wam tysięcy złotych i miesięcy stresu. To nie kolejny poradnik z
             internetu — to kompletny przewodnik napisany przez człowieka, który buduje domy na co dzień.
