@@ -8,10 +8,13 @@
  *
  * Optimizations (2026-04-12 debate 4-model):
  * - No delay (instant render)
- * - "Reject" as small text link (not button) — visual hierarchy favors Accept
- * - Checkboxes unchecked by default (Planet49 compliance)
  * - Larger banner for higher engagement
  * - Footer link for consent withdrawal
+ *
+ * Update 2026-04-14 (owner directive):
+ * - Removed "Tylko niezbędne" reject button (accept + settings only)
+ * - Checkboxes pre-checked by default in settings panel
+ * - User can still uncheck in settings before confirming
  *
  * Usage in Layout.astro:
  *   <ConsentBanner position="head" />  — in <head>, BEFORE Analytics/GTM
@@ -80,12 +83,9 @@ const { position } = Astro.props;
           <button id="pz-consent-accept" style="padding:14px 32px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:8px; cursor:pointer; font-size:15px; font-weight:700; letter-spacing:0.3px; transition:all 0.2s; box-shadow:0 2px 8px rgba(197,164,78,0.3);">
             Akceptuj&#x119; wszystkie
           </button>
-          <div style="display:flex; justify-content:center; gap:16px;">
+          <div style="display:flex; justify-content:center;">
             <button id="pz-consent-settings" style="padding:6px 12px; background:transparent; color:#c5a44e; border:none; cursor:pointer; font-size:13px; font-weight:500; text-decoration:underline; text-underline-offset:2px;">
               Ustawienia
-            </button>
-            <button id="pz-consent-reject" style="padding:6px 12px; background:transparent; color:#787890; border:none; cursor:pointer; font-size:12px; font-weight:400;">
-              Tylko niezb&#x119;dne
             </button>
           </div>
         </div>
@@ -94,14 +94,14 @@ const { position } = Astro.props;
       <div id="pz-consent-details" style="display:none; margin-top:16px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.1);">
         <p style="margin:0 0 12px; font-size:13px; color:#9090a8;">Wybierz, na jakie kategorie wyra&#x17C;asz zgod&#x119;:</p>
         <label style="display:flex; align-items:center; gap:10px; margin-bottom:10px; cursor:pointer; padding:8px 12px; background:rgba(255,255,255,0.04); border-radius:6px;">
-          <input type="checkbox" id="pz-consent-analytics" style="accent-color:#c5a44e; width:18px; height:18px;" />
+          <input type="checkbox" id="pz-consent-analytics" checked style="accent-color:#c5a44e; width:18px; height:18px;" />
           <div>
             <strong style="font-size:14px;">Analityka</strong>
             <span style="display:block; font-size:12px; color:#9090a8; margin-top:2px;">Google Analytics, Hotjar &#x2014; jak u&#x17C;ytkownicy korzystaj&#x105; ze strony</span>
           </div>
         </label>
         <label style="display:flex; align-items:center; gap:10px; margin-bottom:10px; cursor:pointer; padding:8px 12px; background:rgba(255,255,255,0.04); border-radius:6px;">
-          <input type="checkbox" id="pz-consent-marketing" style="accent-color:#c5a44e; width:18px; height:18px;" />
+          <input type="checkbox" id="pz-consent-marketing" checked style="accent-color:#c5a44e; width:18px; height:18px;" />
           <div>
             <strong style="font-size:14px;">Marketing</strong>
             <span style="display:block; font-size:12px; color:#9090a8; margin-top:2px;">Meta Pixel, Google Ads &#x2014; trafniejsze reklamy i pomiar kampanii</span>
@@ -153,13 +153,11 @@ const { position } = Astro.props;
 
       function bindEvents() {
         var acceptBtn = document.getElementById('pz-consent-accept');
-        var rejectBtn = document.getElementById('pz-consent-reject');
         var settingsBtn = document.getElementById('pz-consent-settings');
         var saveBtn = document.getElementById('pz-consent-save');
         var details = document.getElementById('pz-consent-details');
 
         if (acceptBtn) acceptBtn.onclick = function() { setConsent(true, true); };
-        if (rejectBtn) rejectBtn.onclick = function() { setConsent(false, false); };
         if (settingsBtn) settingsBtn.onclick = function() {
           if (details) details.style.display = details.style.display === 'none' ? 'block' : 'none';
         };
