@@ -9,35 +9,41 @@ import {
   type ImageProps,
 } from '~/utils/images-optimization';
 
-type Props = ImageProps;
+// Priority prop — for LCP images. When true:
+// - loading defaults to "eager" (not lazy)
+// - fetchpriority="high" is added to <img>
+// Use for hero/above-the-fold images. Reference: plans/active/2026-04-15-pz-astro-performance-ksiazka.md
+type Props = ImageProps & { priority?: boolean };
 type ImageType = {
   src: string;
   attributes: HTMLAttributes<'img'>;
 };
 
 const props = Astro.props;
+const { priority, ...imageProps } = props;
 
-if (props.alt === undefined || props.alt === null) {
+if (imageProps.alt === undefined || imageProps.alt === null) {
   throw new Error();
 }
 
-if (typeof props.width === 'string') {
-  props.width = parseInt(props.width);
+if (typeof imageProps.width === 'string') {
+  imageProps.width = parseInt(imageProps.width);
 }
 
-if (typeof props.height === 'string') {
-  props.height = parseInt(props.height);
+if (typeof imageProps.height === 'string') {
+  imageProps.height = parseInt(imageProps.height);
 }
 
-if (!props.loading) {
-  props.loading = 'lazy';
+// Priority images load eager by default, non-priority lazy
+if (!imageProps.loading) {
+  imageProps.loading = priority ? 'eager' : 'lazy';
 }
 
-if (!props.decoding) {
-  props.decoding = 'async';
+if (!imageProps.decoding) {
+  imageProps.decoding = priority ? 'sync' : 'async';
 }
 
-const _image = await findImage(props.src);
+const _image = await findImage(imageProps.src);
 
 let image: ImageType | undefined = undefined;
 
@@ -46,15 +52,23 @@ if (
   (_image.startsWith('http://') || _image.startsWith('https://')) &&
   isUnpicCompatible(_image)
 ) {
-  image = await getImagesOptimized(_image, props, unpicOptimizer);
+  image = await getImagesOptimized(_image, imageProps, unpicOptimizer);
 } else if (_image) {
-  image = await getImagesOptimized(_image, props, astroAssetsOptimizer);
+  image = await getImagesOptimized(_image, imageProps, astroAssetsOptimizer);
 }
 ---
 
 {
   !image ? (
     <Fragment />
+  ) : priority ? (
+    <img
+      src={image.src}
+      fetchpriority="high"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      {...image.attributes}
+    />
   ) : (
     <img src={image.src} crossorigin="anonymous" referrerpolicy="no-referrer" {...image.attributes} />
   )

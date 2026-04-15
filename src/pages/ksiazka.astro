@@ -84,7 +84,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
             widths={[400, 768, 1200]}
             width={600}
             sizes="(max-width: 768px) 100vw, 50vw"
-            loading="eager"
+            priority={true}
             class="w-full h-auto rounded-lg shadow-2xl"
           />
         </div>
@@ -103,7 +103,13 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
           </p>
           <ul class="space-y-3 mb-8">
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <svg
+                class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
                 <path
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                 ></path>
@@ -111,7 +117,13 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
               <span class="text-slate-200">Zrozumiesz, co naprawdę decyduje o kosztach budowy</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <svg
+                class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
                 <path
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                 ></path>
@@ -119,7 +131,13 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
               <span class="text-slate-200">Zadasz wykonawcy właściwe pytania, zanim podpiszesz umowę</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <svg
+                class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
                 <path
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                 ></path>
@@ -127,7 +145,13 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
               <span class="text-slate-200">Poznasz każdy etap — od działki, przez stan surowy, po odbiór</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <svg
+                class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
                 <path
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                 ></path>
@@ -143,7 +167,15 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
               class="inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold text-lg px-8 py-4 rounded-full transition-all shadow-lg hover:shadow-xl"
               data-fbq-event="AddToCart"
             >
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <svg
+                class="w-5 h-5"
+                width="20"
+                height="20"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
                 <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
                 <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
                 <path d="M17 17h-11v-14h-2"></path>
@@ -1030,8 +1062,8 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
             >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-            Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. W praktyce:
-            zamawiasz dziś do południa — za kilka dni masz książkę w ręce.
+            Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. W praktyce: zamawiasz dziś do południa —
+            za kilka dni masz książkę w ręce.
           </p>
         </details>
 
@@ -1224,7 +1256,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
       });
     } else {
       // Fallback: wait for GTM to load fbq
-      window.addEventListener('load', function() {
+      window.addEventListener('load', function () {
         if (typeof fbq !== 'undefined') {
           fbq('track', 'ViewContent', {
             content_name: 'Od Marzenia Do Wprowadzenia',

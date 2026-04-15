@@ -61,7 +61,10 @@ export default defineConfig({
           removeAttributeQuotes: false,
         },
       },
-      Image: false,
+      // Phase 1 (2026-04-15): enable image compression
+      // Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 1.7)
+      // GO/NO-GO: verified via local build + GitHub Actions CI (Node 18/20/22)
+      Image: true,
       JavaScript: true,
       SVG: false,
       Logger: 1,
