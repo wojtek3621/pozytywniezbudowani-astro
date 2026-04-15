@@ -32,14 +32,35 @@ const { position } = Astro.props;
   <script is:inline>
     // Google Consent Mode v2 Advanced — set defaults BEFORE GTM loads
     // GTM loads immediately after with these defaults → cookieless pings
+    //
+    // Codex fixes (2026-04-15 triple review):
+    // - F7 HIGH: strict schema validation (prevents attacker consent injection)
+    // - F8 HIGH: robust cookie parse (URL-encoded = in JSON value)
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+
+    function isValidPzConsent(obj) {
+      return obj
+        && typeof obj === 'object'
+        && typeof obj.analytics === 'boolean'
+        && typeof obj.marketing === 'boolean';
+    }
 
     (function() {
       var consent = null;
       try {
-        var raw = document.cookie.split('; ').find(function(c){ return c.startsWith('pz_consent='); });
-        if (raw) consent = JSON.parse(decodeURIComponent(raw.split('=')[1]));
+        // F8 fix: iterate cookies manually, use substring/indexOf (handles = in value)
+        var parts = document.cookie ? document.cookie.split(';') : [];
+        for (var i = 0; i < parts.length; i++) {
+          var c = parts[i].trim();
+          if (c.indexOf('pz_consent=') === 0) {
+            var value = c.substring('pz_consent='.length);
+            var parsed = JSON.parse(decodeURIComponent(value));
+            // F7 fix: validate schema before trusting cookie
+            if (isValidPzConsent(parsed)) consent = parsed;
+            break;
+          }
+        }
       } catch(e) {}
 
       if (consent) {
@@ -261,12 +282,27 @@ const { position } = Astro.props;
 
   <script is:inline>
     (function () {
+      // F8 fix: robust cookie parse (URL-encoded = in JSON value, multiple cookies)
       function getConsent() {
         try {
-          var raw = document.cookie.split('; ').find(function (c) {
-            return c.startsWith('pz_consent=');
-          });
-          if (raw) return JSON.parse(decodeURIComponent(raw.split('=')[1]));
+          var parts = document.cookie ? document.cookie.split(';') : [];
+          for (var i = 0; i < parts.length; i++) {
+            var c = parts[i].trim();
+            if (c.indexOf('pz_consent=') === 0) {
+              var value = c.substring('pz_consent='.length);
+              var parsed = JSON.parse(decodeURIComponent(value));
+              // F7 fix: validate schema
+              if (
+                parsed &&
+                typeof parsed === 'object' &&
+                typeof parsed.analytics === 'boolean' &&
+                typeof parsed.marketing === 'boolean'
+              ) {
+                return parsed;
+              }
+              return null;
+            }
+          }
         } catch (e) {}
         return null;
       }
@@ -274,12 +310,14 @@ const { position } = Astro.props;
       function setConsent(analytics, marketing) {
         var consent = { analytics: analytics, marketing: marketing, ts: Date.now() };
         var expires = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toUTCString();
+        // F6 fix: add Secure flag (HTTPS-only cookie, prevents interception on plain HTTP)
+        // Site is HTTPS-only (HSTS enforces) — Secure flag safe to add unconditionally
         document.cookie =
           'pz_consent=' +
           encodeURIComponent(JSON.stringify(consent)) +
           '; expires=' +
           expires +
-          '; path=/; SameSite=Lax';
+          '; path=/; SameSite=Lax; Secure';
 
         window.dataLayer = window.dataLayer || [];
         function gtag() {
@@ -334,6 +372,13 @@ const { position } = Astro.props;
 
       showBanner();
       bindEvents();
+
+      // Expose global API for footer "withdraw consent" link (Gemini review finding)
+      // Usage: <a href="#" onclick="window.pzOpenConsent(); return false;">Zmień zgody</a>
+      window.pzOpenConsent = function () {
+        var banner = document.getElementById('pz-consent-banner');
+        if (banner) banner.classList.remove('pz-banner--hidden');
+      };
 
       // SPA navigation: re-show banner if no consent
       document.addEventListener('astro:page-load', function () {
