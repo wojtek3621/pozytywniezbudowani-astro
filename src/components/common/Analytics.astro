@@ -3,48 +3,56 @@ import { GoogleAnalytics } from '@astrolib/analytics';
 import { ANALYTICS } from 'astrowind:config';
 ---
 
-{/* Google Tag Manager */}
-<script>
-  (function (w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
-</script>
+{
+  /*
+  PHASE 1 REFACTOR (2026-04-15):
+  GTM + VisitorTracking wrapped in DOMContentLoaded listener.
+  - Reduces render-blocking time on first paint (scripts run after HTML parsed)
+  - dataLayer is pre-initialized in Layout.astro <head> before this
+  - Phase 2 will replace this with full lazy-load-on-interaction pattern
+  Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 1.5)
+*/
+}
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function () {
+    // GTM container
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
 
-{/* VisitorTracking */}
-<script async defer src="https://app.visitortracking.com/assets/js/tracer.js"></script>
-<script>
-  function init_tracer() {
-    var tracer = new Tracer({
-      websiteId: 'c23f4336-24d3-4730-933f-43d04963bf26',
-      async: true,
-    });
-  }
-  if (document.readyState === 'complete') {
-    init_tracer();
-  } else {
-    window.addEventListener('load', init_tracer);
-  }
+    // VisitorTracking — load after DOMContentLoaded
+    var vt = document.createElement('script');
+    vt.async = true;
+    vt.defer = true;
+    vt.src = 'https://app.visitortracking.com/assets/js/tracer.js';
+    vt.onload = function () {
+      if (typeof Tracer !== 'undefined') {
+        new Tracer({
+          websiteId: 'c23f4336-24d3-4730-933f-43d04963bf26',
+          async: true,
+        });
+      }
+    };
+    document.head.appendChild(vt);
+  });
 </script>
 
 {
   ANALYTICS?.vendors?.googleAnalytics?.id ? (
-    <GoogleAnalytics
-      id={String(ANALYTICS.vendors.googleAnalytics.id)}
-      partytown={false}
-    />
+    <GoogleAnalytics id={String(ANALYTICS.vendors.googleAnalytics.id)} partytown={false} />
   ) : null
 }
 
-<script>
+<script is:inline>
   // SPA navigation fix — fire GTM on Astro page transitions
-  document.addEventListener('astro:page-load', () => {
+  document.addEventListener('astro:page-load', function () {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: 'astro:page-load',

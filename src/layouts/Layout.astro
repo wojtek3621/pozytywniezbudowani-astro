@@ -37,6 +37,15 @@ const { language, textDirection } = I18N;
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://app.visitortracking.com" />
     <link rel="dns-prefetch" href="https://connect.mailerlite.com" />
+
+    <!-- dataLayer queue — MUST be initialized BEFORE ConsentBanner and Analytics -->
+    <!-- Reason: ConsentBanner head script pushes consent defaults; Analytics (lazy in Phase 2) -->
+    <!-- replays consent state. Without early init, early events could be lost. -->
+    <!-- Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 1, DB8) -->
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+    </script>
+
     <CustomStyles />
     <ApplyColorMode />
     <Metadata {...metadata} />
