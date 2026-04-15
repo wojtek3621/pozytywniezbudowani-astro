@@ -1,62 +1,159 @@
 ---
-import { GoogleAnalytics } from '@astrolib/analytics';
-import { ANALYTICS } from 'astrowind:config';
+// Analytics.astro — Phase 2 lazy-on-interaction pattern (2026-04-15)
+//
+// REFACTOR HISTORY:
+// - Phase 1 (2026-04-15 commit d825052): DOMContentLoaded wrapper (reduced render-blocking)
+// - Phase 2 (2026-04-15 this commit): lazy-load on first user interaction OR idle callback
+//
+// ARCHITECTURE:
+// 1. dataLayer pre-initialized in Layout.astro <head> BEFORE ConsentBanner (race condition fix — DB1)
+// 2. Consent Mode v2 defaults set by ConsentBanner position="head" BEFORE this runs
+// 3. GTM + VisitorTracking loaded only after:
+//    - First user interaction (scroll, pointerdown, keydown), OR
+//    - requestIdleCallback with 1500ms timeout (DB2 — iOS Safari fix: 1500ms not 3000ms), OR
+//    - visibilitychange to hidden (flush for bouncing users — DB2)
+// 4. On GTM load: replay current consent state from cookie (prevents race condition where
+//    user clicks "Akceptuję" before GTM loads — DB1 Gemini finding)
+// 5. GoogleAnalytics direct load via @astrolib/analytics — REMOVED (GTM container handles GA4
+//    via GA4 Configuration tag in workspace, direct load caused duplicate page_view events — OE2/DB audit)
+//
+// GTM WORKSPACE PRECONDITIONS (verified in Phase 0 audit):
+// - GA4 Configuration tag MUST be active in GTM workspace (otherwise GA4 not loaded)
+// - Meta Pixel base code MUST be configured in GTM
+// - History Change trigger: if ACTIVE → explicit gtag/fbq calls in astro:page-load handler
+//   will cause duplicate events. Audit result determines whether explicit calls stay (DB4).
+//
+// KNOWN TRADEOFF:
+// - Hard-bouncing users (<1.5s exit before any interaction) may not be tracked.
+//   Expected <1% of traffic. Acceptable compromise vs TBT/LCP gains.
+//   beforeunload/pagehide alternatives rejected (unreliable on iOS Safari).
+//
+// Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 2b)
+// Debate-api: builds/debate/2026-04-15-075230-debate-decision-*.md
 ---
 
-{
-  /*
-  PHASE 1 REFACTOR (2026-04-15):
-  GTM + VisitorTracking wrapped in DOMContentLoaded listener.
-  - Reduces render-blocking time on first paint (scripts run after HTML parsed)
-  - dataLayer is pre-initialized in Layout.astro <head> before this
-  - Phase 2 will replace this with full lazy-load-on-interaction pattern
-  Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 1.5)
-*/
-}
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // GTM container
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
+<script is:inline>
+  (function () {
+    var loaded = false;
 
-    // VisitorTracking — load after DOMContentLoaded
-    var vt = document.createElement('script');
-    vt.async = true;
-    vt.defer = true;
-    vt.src = 'https://app.visitortracking.com/assets/js/tracer.js';
-    vt.onload = function () {
-      if (typeof Tracer !== 'undefined') {
-        new Tracer({
-          websiteId: 'c23f4336-24d3-4730-933f-43d04963bf26',
-          async: true,
+    // Helper: read current consent state from cookie (DB1 race condition fix)
+    function getConsentFromCookie() {
+      try {
+        var raw = document.cookie.split('; ').find(function (c) {
+          return c.startsWith('pz_consent=');
         });
+        if (raw) return JSON.parse(decodeURIComponent(raw.split('=')[1]));
+      } catch (e) {}
+      return null;
+    }
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      // RACE CONDITION FIX (DB1 — Gemini finding from debate-api):
+      // Before GTM loads, replay current consent state from cookie.
+      // User may have clicked "Akceptuję" during lazy-delay window — that event went to
+      // dataLayer queue but GTM wasn't there to process. We re-assert state explicitly.
+      var consent = getConsentFromCookie();
+      if (consent) {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push([
+          'consent',
+          'update',
+          {
+            analytics_storage: consent.analytics ? 'granted' : 'denied',
+            ad_storage: consent.marketing ? 'granted' : 'denied',
+            ad_user_data: consent.marketing ? 'granted' : 'denied',
+            ad_personalization: consent.marketing ? 'granted' : 'denied',
+          },
+        ]);
       }
+
+      // GTM container (loads GA4 + Meta Pixel + any tags configured in workspace)
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
+
+      // VisitorTracking — async load after GTM
+      var vt = document.createElement('script');
+      vt.async = true;
+      vt.defer = true;
+      vt.src = 'https://app.visitortracking.com/assets/js/tracer.js';
+      vt.onload = function () {
+        if (typeof Tracer !== 'undefined') {
+          new Tracer({
+            websiteId: 'c23f4336-24d3-4730-933f-43d04963bf26',
+            async: true,
+          });
+        }
+      };
+      document.head.appendChild(vt);
+    }
+
+    // Trigger 1: first user interaction (3 event types — reduced from 5, OE3 from debate-api)
+    // - scroll: most common engagement signal
+    // - pointerdown: covers mouse click AND touch (unified across input types)
+    // - keydown: keyboard users / tab navigation
+    var events = ['scroll', 'pointerdown', 'keydown'];
+    events.forEach(function (e) {
+      window.addEventListener(e, loadAnalytics, { once: true, passive: true });
+    });
+
+    // Trigger 2: idle callback — 1500ms max (DB2 iOS Safari fix)
+    // iOS Safari DOES NOT support requestIdleCallback → falls through to setTimeout
+    // Timeout reduced from 3000ms to 1500ms because iOS is high-converting Meta Ads segment
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadAnalytics, { timeout: 1500 });
+    } else {
+      setTimeout(loadAnalytics, 1500);
+    }
+
+    // Trigger 3: visibilitychange to hidden (flush for bouncing users — DB2)
+    // User closing tab / switching apps → visibility hidden → load analytics before unmount
+    // More reliable than beforeunload/pagehide (especially on iOS Safari)
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'hidden') loadAnalytics();
+    });
+
+    // Expose flag for SPA navigation handler below
+    window.__pzAnalyticsLoaded = function () {
+      return loaded;
     };
-    document.head.appendChild(vt);
-  });
+  })();
 </script>
 
-{
-  ANALYTICS?.vendors?.googleAnalytics?.id ? (
-    <GoogleAnalytics id={String(ANALYTICS.vendors.googleAnalytics.id)} partytown={false} />
-  ) : null
-}
-
-<script>
-  // SPA navigation fix — fire GTM on Astro page transitions
-  document.addEventListener('astro:page-load', () => {
+<script is:inline>
+  // SPA navigation (Astro ClientRouter) — fire page_view on path change
+  // WARNING (DB4 — Opus45 finding from debate-api):
+  // If GTM workspace has active "History Change" trigger, explicit gtag/fbq calls below
+  // will cause DUPLICATE page_view events. Phase 0 GTM audit (Wojtek) MUST confirm
+  // absence of History Change trigger before this code is merged to main.
+  //
+  // IF History Change trigger EXISTS → remove the explicit gtag/fbq calls below,
+  // rely on GTM trigger alone. Keep only the dataLayer push.
+  document.addEventListener('astro:page-load', function () {
     window.dataLayer = window.dataLayer || [];
+    // Legacy event (SPA navigation notification — preserved from Phase 1)
     window.dataLayer.push({
       event: 'astro:page-load',
       page_path: window.location.pathname,
     });
+    // Explicit GA4 page_view for SPA navigation (only if analytics already loaded)
+    // Guard: gtag is defined only after GTM container GA4 Configuration tag fires
+    if (window.__pzAnalyticsLoaded && window.__pzAnalyticsLoaded() && typeof gtag !== 'undefined') {
+      gtag('event', 'page_view', { page_path: window.location.pathname });
+    }
+    // Explicit Meta Pixel PageView for SPA navigation
+    if (window.__pzAnalyticsLoaded && window.__pzAnalyticsLoaded() && typeof fbq !== 'undefined') {
+      fbq('track', 'PageView');
+    }
   });
 </script>

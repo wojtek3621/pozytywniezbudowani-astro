@@ -67,87 +67,243 @@ const { position } = Astro.props;
 )}
 
 {position === 'body' && (
-  <div id="pz-consent-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:rgba(26,26,46,0.98); backdrop-filter:blur(20px); color:#fff; font-family:system-ui,-apple-system,sans-serif; box-shadow:0 -12px 60px rgba(0,0,0,0.4);">
-    <div style="max-width:1400px; margin:0 auto; padding:32px 32px 28px;">
-      <div style="display:flex; flex-wrap:wrap; align-items:center; gap:16px;">
-        <div style="flex:1; min-width:280px;">
-          <p style="margin:0 0 6px; font-size:22px; font-weight:700; color:#fff; line-height:1.35;">
+  <div id="pz-consent-banner" class="pz-banner pz-banner--hidden">
+    <div class="pz-banner__inner">
+      <div class="pz-banner__row">
+        <div class="pz-banner__text">
+          <p class="pz-banner__title">
             Ta strona u&#x17C;ywa plik&#xF3;w cookie
           </p>
-          <p style="margin:0; color:#b8b8cc; font-size:18px; line-height:1.7;">
+          <p class="pz-banner__desc">
             Dzi&#x119;ki nim wiemy, jak korzystasz ze strony (analityka) i mo&#x17C;emy pokazywa&#x107; trafniejsze tre&#x15B;ci (marketing).
-            Kliknij <strong style="color:#e0e0f0;">Akceptuj&#x119;</strong>, aby w pe&#x142;ni korzysta&#x107; z serwisu, lub dostosuj w ustawieniach.
+            Kliknij <strong class="pz-banner__strong">Akceptuj&#x119;</strong>, aby w pe&#x142;ni korzysta&#x107; z serwisu, lub dostosuj w ustawieniach.
           </p>
         </div>
-        <div style="display:flex; flex-direction:column; align-items:stretch; gap:8px; min-width:200px;">
-          <button id="pz-consent-accept" style="padding:20px 44px; min-width:240px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:8px; cursor:pointer; font-size:19px; font-weight:700; letter-spacing:0.3px; transition:all 0.2s; box-shadow:0 2px 8px rgba(197,164,78,0.3);">
+        <div class="pz-banner__actions">
+          <button id="pz-consent-accept" class="pz-banner__btn-accept" type="button">
             Akceptuj&#x119; wszystkie
           </button>
-          <div style="display:flex; justify-content:center;">
-            <button id="pz-consent-settings" style="padding:6px 12px; background:transparent; color:#c5a44e; border:none; cursor:pointer; font-size:13px; font-weight:500; text-decoration:underline; text-underline-offset:2px;">
+          <div class="pz-banner__settings-wrap">
+            <button id="pz-consent-settings" class="pz-banner__btn-settings" type="button">
               Ustawienia
             </button>
           </div>
         </div>
       </div>
 
-      <div id="pz-consent-details" style="display:none; margin-top:16px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.1);">
-        <p style="margin:0 0 12px; font-size:13px; color:#9090a8;">Wybierz, na jakie kategorie wyra&#x17C;asz zgod&#x119;:</p>
-        <label style="display:flex; align-items:center; gap:10px; margin-bottom:10px; cursor:pointer; padding:8px 12px; background:rgba(255,255,255,0.04); border-radius:6px;">
-          <input type="checkbox" id="pz-consent-analytics" checked style="accent-color:#c5a44e; width:18px; height:18px;" />
+      <div id="pz-consent-details" class="pz-banner__details pz-banner__details--hidden">
+        <p class="pz-banner__details-intro">Wybierz, na jakie kategorie wyra&#x17C;asz zgod&#x119;:</p>
+        <label class="pz-banner__checkbox-row">
+          <input type="checkbox" id="pz-consent-analytics" class="pz-banner__checkbox" checked />
           <div>
-            <strong style="font-size:14px;">Analityka</strong>
-            <span style="display:block; font-size:12px; color:#9090a8; margin-top:2px;">Google Analytics, Hotjar &#x2014; jak u&#x17C;ytkownicy korzystaj&#x105; ze strony</span>
+            <strong class="pz-banner__category-title">Analityka</strong>
+            <span class="pz-banner__category-desc">Google Analytics &#x2014; jak u&#x17C;ytkownicy korzystaj&#x105; ze strony</span>
           </div>
         </label>
-        <label style="display:flex; align-items:center; gap:10px; margin-bottom:10px; cursor:pointer; padding:8px 12px; background:rgba(255,255,255,0.04); border-radius:6px;">
-          <input type="checkbox" id="pz-consent-marketing" checked style="accent-color:#c5a44e; width:18px; height:18px;" />
+        <label class="pz-banner__checkbox-row">
+          <input type="checkbox" id="pz-consent-marketing" class="pz-banner__checkbox" checked />
           <div>
-            <strong style="font-size:14px;">Marketing</strong>
-            <span style="display:block; font-size:12px; color:#9090a8; margin-top:2px;">Meta Pixel, Google Ads &#x2014; trafniejsze reklamy i pomiar kampanii</span>
+            <strong class="pz-banner__category-title">Marketing</strong>
+            <span class="pz-banner__category-desc">Meta Pixel, Google Ads &#x2014; trafniejsze reklamy i pomiar kampanii</span>
           </div>
         </label>
-        <button id="pz-consent-save" style="margin-top:8px; padding:12px 24px; background:#c5a44e; color:#1a1a2e; border:none; border-radius:8px; cursor:pointer; font-size:14px; font-weight:600;">
+        <button id="pz-consent-save" class="pz-banner__btn-save" type="button">
           Potwierd&#x17A; wybory
         </button>
       </div>
     </div>
   </div>
 
+  <style>
+    /*
+      PHASE 2 REFACTOR (2026-04-15):
+      Inline styles → scoped <style> block.
+      Static position:fixed + CSS class toggle (instead of style.display) eliminates forced reflow.
+      Class-based hidden state prevents CLS when banner appears (out-of-flow, does not shift layout).
+      Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 2.3)
+    */
+    .pz-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+      background: rgba(26, 26, 46, 0.98);
+      backdrop-filter: blur(20px);
+      color: #fff;
+      font-family: system-ui, -apple-system, sans-serif;
+      box-shadow: 0 -12px 60px rgba(0, 0, 0, 0.4);
+    }
+    .pz-banner--hidden {
+      display: none;
+    }
+    .pz-banner__inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 32px 32px 28px;
+    }
+    .pz-banner__row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 16px;
+    }
+    .pz-banner__text {
+      flex: 1;
+      min-width: 280px;
+    }
+    .pz-banner__title {
+      margin: 0 0 6px;
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.35;
+    }
+    .pz-banner__desc {
+      /* DB13 (Rounds 1) fix: #b8b8cc → #d4d4e0 for WCAG AA contrast on dark bg */
+      margin: 0;
+      color: #d4d4e0;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    .pz-banner__strong {
+      color: #fff;
+    }
+    .pz-banner__actions {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 8px;
+      min-width: 200px;
+    }
+    .pz-banner__btn-accept {
+      padding: 20px 44px;
+      min-width: 240px;
+      background: #c5a44e;
+      color: #1a1a2e;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      transition: all 0.2s;
+      box-shadow: 0 2px 8px rgba(197, 164, 78, 0.3);
+    }
+    .pz-banner__btn-accept:hover {
+      background: #d4b35d;
+      transform: translateY(-1px);
+    }
+    .pz-banner__settings-wrap {
+      display: flex;
+      justify-content: center;
+    }
+    .pz-banner__btn-settings {
+      padding: 6px 12px;
+      background: transparent;
+      color: #c5a44e;
+      border: none;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .pz-banner__details {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .pz-banner__details--hidden {
+      display: none;
+    }
+    .pz-banner__details-intro {
+      margin: 0 0 12px;
+      font-size: 13px;
+      color: #c4c4d8;
+    }
+    .pz-banner__checkbox-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      padding: 8px 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 6px;
+    }
+    .pz-banner__checkbox {
+      accent-color: #c5a44e;
+      width: 18px;
+      height: 18px;
+    }
+    .pz-banner__category-title {
+      font-size: 14px;
+    }
+    .pz-banner__category-desc {
+      display: block;
+      font-size: 12px;
+      color: #c4c4d8;
+      margin-top: 2px;
+    }
+    .pz-banner__btn-save {
+      margin-top: 8px;
+      padding: 12px 24px;
+      background: #c5a44e;
+      color: #1a1a2e;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  </style>
+
   <script is:inline>
-    (function() {
+    (function () {
       function getConsent() {
         try {
-          var raw = document.cookie.split('; ').find(function(c){ return c.startsWith('pz_consent='); });
+          var raw = document.cookie.split('; ').find(function (c) {
+            return c.startsWith('pz_consent=');
+          });
           if (raw) return JSON.parse(decodeURIComponent(raw.split('=')[1]));
-        } catch(e) {}
+        } catch (e) {}
         return null;
       }
 
       function setConsent(analytics, marketing) {
         var consent = { analytics: analytics, marketing: marketing, ts: Date.now() };
         var expires = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toUTCString();
-        document.cookie = 'pz_consent=' + encodeURIComponent(JSON.stringify(consent)) + '; expires=' + expires + '; path=/; SameSite=Lax';
+        document.cookie =
+          'pz_consent=' +
+          encodeURIComponent(JSON.stringify(consent)) +
+          '; expires=' +
+          expires +
+          '; path=/; SameSite=Lax';
 
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() {
+          dataLayer.push(arguments);
+        }
         gtag('consent', 'update', {
-          'analytics_storage': analytics ? 'granted' : 'denied',
-          'ad_storage': marketing ? 'granted' : 'denied',
-          'ad_user_data': marketing ? 'granted' : 'denied',
-          'ad_personalization': marketing ? 'granted' : 'denied'
+          analytics_storage: analytics ? 'granted' : 'denied',
+          ad_storage: marketing ? 'granted' : 'denied',
+          ad_user_data: marketing ? 'granted' : 'denied',
+          ad_personalization: marketing ? 'granted' : 'denied',
         });
 
         dataLayer.push({ event: 'cookie_consent_update' });
 
+        // Phase 2 refactor: use CSS class instead of style.display (no forced reflow)
         var banner = document.getElementById('pz-consent-banner');
-        if (banner) banner.style.display = 'none';
+        if (banner) banner.classList.add('pz-banner--hidden');
       }
 
       function showBanner() {
         if (!getConsent()) {
           var banner = document.getElementById('pz-consent-banner');
-          if (banner) banner.style.display = 'block';
+          // Phase 2 refactor: remove class instead of style.display='block'
+          if (banner) banner.classList.remove('pz-banner--hidden');
         }
       }
 
@@ -157,28 +313,30 @@ const { position } = Astro.props;
         var saveBtn = document.getElementById('pz-consent-save');
         var details = document.getElementById('pz-consent-details');
 
-        if (acceptBtn) acceptBtn.onclick = function() { setConsent(true, true); };
-        if (settingsBtn) settingsBtn.onclick = function() {
-          if (details) details.style.display = details.style.display === 'none' ? 'block' : 'none';
-        };
-        if (saveBtn) saveBtn.onclick = function() {
-          var a = document.getElementById('pz-consent-analytics');
-          var m = document.getElementById('pz-consent-marketing');
-          setConsent(a ? a.checked : false, m ? m.checked : false);
-        };
+        if (acceptBtn)
+          acceptBtn.onclick = function () {
+            setConsent(true, true);
+          };
+        if (settingsBtn)
+          settingsBtn.onclick = function () {
+            // Phase 2 refactor: use CSS class for details toggle
+            if (details) details.classList.toggle('pz-banner__details--hidden');
+          };
+        if (saveBtn)
+          saveBtn.onclick = function () {
+            var a = document.getElementById('pz-consent-analytics');
+            var m = document.getElementById('pz-consent-marketing');
+            setConsent(a ? a.checked : false, m ? m.checked : false);
+          };
 
-        // Hover effect on accept button
-        if (acceptBtn) {
-          acceptBtn.onmouseenter = function() { this.style.background = '#d4b35d'; this.style.transform = 'translateY(-1px)'; };
-          acceptBtn.onmouseleave = function() { this.style.background = '#c5a44e'; this.style.transform = 'none'; };
-        }
+        // Hover effect is now pure CSS (:hover), JS hover handlers removed
       }
 
       showBanner();
       bindEvents();
 
       // SPA navigation: re-show banner if no consent
-      document.addEventListener('astro:page-load', function() {
+      document.addEventListener('astro:page-load', function () {
         showBanner();
         bindEvents();
       });
