@@ -13,7 +13,7 @@ import { ANALYTICS } from 'astrowind:config';
   Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 1.5)
 */
 }
-<script>
+<script is:inline>
   document.addEventListener('DOMContentLoaded', function () {
     // GTM container
     (function (w, d, s, l, i) {
@@ -50,9 +50,9 @@ import { ANALYTICS } from 'astrowind:config';
   ) : null
 }
 
-<script>
+<script is:inline>
   // SPA navigation fix — fire GTM on Astro page transitions
-  document.addEventListener('astro:page-load', () => {
+  document.addEventListener('astro:page-load', function () {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: 'astro:page-load',
