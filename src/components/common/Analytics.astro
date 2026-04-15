@@ -144,25 +144,27 @@
 </script>
 
 <script is:inline>
-  // SPA navigation (Astro ClientRouter) — push event to dataLayer, let GTM handle tracking
+  // SPA navigation (Astro ClientRouter) — push event to dataLayer
   //
-  // F2 fix (CRITICAL from codex): REMOVED explicit gtag('event','page_view') and fbq('track','PageView').
-  // Rationale: GTM container does NOT expose window.gtag or window.fbq globally — these functions
-  // are encapsulated inside GTM tags. Our `typeof gtag !== 'undefined'` guard was always false,
-  // meaning SPA page views never fired from this code. Instead we push a dedicated event name
-  // (spa_page_view) to dataLayer, and Wojtek configures a GTM Custom Event Trigger to attach
-  // GA4 page_view + Meta Pixel PageView tags to this event.
+  // Event name: 'astro:page-load' (same as pre-Phase2 — zero regression against main).
   //
-  // GTM workspace action required post-merge:
-  // 1. GTM → Triggers → New → Custom Event → Event name: spa_page_view
-  // 2. Attach to GA4 Event tag (event_name=page_view) + Meta Pixel tag (track=PageView)
+  // F2 fix (CRITICAL from codex triple review): REMOVED explicit gtag('event','page_view')
+  // and fbq('track','PageView'). Rationale: GTM container does NOT expose window.gtag or
+  // window.fbq as globals — these functions are encapsulated inside GTM tags. Our
+  // `typeof gtag !== 'undefined'` guard was always false, so explicit SPA calls never fired.
   //
-  // Alternative: enable GTM's built-in History Change trigger instead — it auto-fires on URL change
-  // and needs no dataLayer push at all. If chosen, remove this script entirely.
+  // Alternative for proper SPA tracking (POST-MERGE Wojtek action, optional):
+  // 1. GTM → Triggers → New → Custom Event → Event name: astro:page-load
+  // 2. Attach to GA4 Event tag (event_name=page_view) + Meta Pixel tag (PageView)
+  // OR
+  // 1. Enable GTM's built-in History Change trigger (auto-fires on URL pushState)
+  //
+  // PZ site has low SPA ratio (~1.00-1.07 pageviews/sessions from GA4 baseline) —
+  // minimal impact if not configured.
   document.addEventListener('astro:page-load', function () {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-      event: 'spa_page_view',
+      event: 'astro:page-load',
       page_path: window.location.pathname,
     });
   });
