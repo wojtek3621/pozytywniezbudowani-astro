@@ -65,6 +65,9 @@ export default [
       'src/pages/regulamin-*.astro',
       // Third-party tracking scripts (VisitorTracking uses var, non-standard patterns)
       'src/components/common/Analytics.astro',
+      // Real-user telemetry instrumentation — intentionally ES5-compatible (old Safari, Chrome 50)
+      // to maximize browser coverage. Uses `var`, try/catch without binding name, pre-ES6 patterns.
+      'src/components/common/PerfTelemetry.astro',
     ],
   },
 ];

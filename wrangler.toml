@@ -1,0 +1,27 @@
+# Cloudflare Pages + D1 configuration for pozytywniezbudowani.pl
+#
+# This file is only used for Pages Functions that need bindings (D1, KV, R2, etc.).
+# The Astro build itself is deployed via CF Pages GitHub integration, not wrangler deploy.
+#
+# Setup (Artur, one-time):
+#   1. npx wrangler login
+#   2. npx wrangler d1 create pz-perf-telemetry
+#      → copy the returned database_id into the [[d1_databases]] block below
+#   3. git add wrangler.toml && git commit -m "chore: set D1 database_id"
+#   4. npx wrangler d1 execute pz-perf-telemetry --remote --file=functions/schema.sql
+#   5. Bind the database in CF Pages dashboard:
+#      Pages project → Settings → Functions → D1 database bindings
+#      Variable name: PERF_TELEMETRY
+#      D1 database: pz-perf-telemetry
+#      (Alternative: CF Pages autopilots from wrangler.toml on deploy — test first)
+#
+# Plan: plans/active/2026-04-15-pz-real-user-timing-telemetry.md
+
+name = "pozytywniezbudowani-pages-functions"
+compatibility_date = "2024-12-01"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "PERF_TELEMETRY"
+database_name = "pz-perf-telemetry"
+database_id = "REPLACE_WITH_DATABASE_ID_AFTER_WRANGLER_D1_CREATE"

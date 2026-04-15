@@ -9,6 +9,7 @@ import CustomStyles from '~/components/CustomStyles.astro';
 import ApplyColorMode from '~/components/common/ApplyColorMode.astro';
 import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
+import PerfTelemetry from '~/components/common/PerfTelemetry.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import ConsentBanner from '~/components/common/ConsentBanner.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
@@ -50,6 +51,10 @@ const { language, textDirection } = I18N;
     <ApplyColorMode />
     <Metadata {...metadata} />
     <SiteVerification />
+    <!-- TOR 2 RUM telemetry — scoped to /ksiazka*, MUST precede ConsentBanner + Analytics -->
+    <!-- Records 9 timestamps, sends beacon on visibilitychange→hidden -->
+    <!-- Plan: plans/active/2026-04-15-pz-real-user-timing-telemetry.md -->
+    <PerfTelemetry />
     <ConsentBanner position="head" />
     <Analytics />
 

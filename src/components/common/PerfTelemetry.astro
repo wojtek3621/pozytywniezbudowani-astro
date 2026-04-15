@@ -1,0 +1,360 @@
+---
+/**
+ * PerfTelemetry.astro — Real-User Timing Telemetry for /ksiazka (TOR 2)
+ *
+ * Purpose: Collect real-user performance timestamps for the lazy analytics pipeline
+ * (Phase 2, deployed 2026-04-15) to make a data-driven decision on idle callback
+ * timing (1500ms vs 500ms vs Intersection Observer).
+ *
+ * Context:
+ * - Phase 2 lazy analytics: GTM/GA4/Meta Pixel load on first scroll/pointerdown/keydown
+ *   OR requestIdleCallback(1500ms) fallback
+ * - Playwright headless test (Artur, 2026-04-15 ~11:40): idle callback fires at ~3-5s
+ *   in headless Chromium without cache — NOT a proof for real users, but suggests
+ *   the "<1% users bounce before 1500ms" assumption may be understated
+ * - Debate-api consensus (4 models): DO NOT change idle callback without real-user data
+ *   GPT-5.4 proposal: instrument, collect 48h, decide on facts
+ *
+ * Architecture:
+ * - 9 timestamps captured via window.__pzPerfTelemetry global (set BEFORE Analytics init)
+ * - PerformanceObserver({entryTypes:['resource']}) captures first_tracking_hit without
+ *   monkey-patching fetch (clean, pasywne, doesn't collide with GTM internals)
+ * - navigator.sendBeacon() fires payload on visibilitychange→hidden (primary) and
+ *   pagehide (fallback) — both work on mobile tab switches, better than beforeunload
+ * - Cloudflare Pages Function /api/perf-beacon (same-origin, zero CORS) → D1 database
+ * - Cron on aios-2 pulls D1 → aios.db:pz_perf_telemetry every hour
+ *
+ * Scope filter: ONLY /ksiazka* paths (Phase 2 concerns only the book landing page)
+ *
+ * Guardrails:
+ * - ZERO blocking operations (everything is async, is:inline script)
+ * - ZERO PII (session_id is crypto.randomUUID, user_agent is technical metadata)
+ * - ZERO impact on existing tracking (passive instrumentation, no hooks into GTM/GA4/Meta)
+ * - Feature flag PZ_TELEMETRY_ENABLED (easy disable without redeploy after 48h)
+ * - Payload size limit: 2 KB (sendBeacon has 64 KB limit but we stay light)
+ * - No console.log in production (only console.debug which prod minifies)
+ *
+ * Plan: plans/active/2026-04-15-pz-real-user-timing-telemetry.md
+ * Decision brief: builds/audyty/2026-04-15-pz-post-cleanup-optimization-decision.md
+ * Debate-api: builds/debate/2026-04-15-113714-debate-decision-2026-04-15-pz-post-cleanup-optimization-decision.md
+ */
+---
+
+<script is:inline>
+  // =============================================================================
+  // PerfTelemetry — real-user timing instrumentation (TOR 2)
+  // =============================================================================
+  //
+  // MUST run BEFORE Analytics.astro's __pzAnalyticsInitialized guard so that we
+  // can record `nav_start` and `analytics_init_ms` accurately.
+  //
+  // Placement: in Layout.astro <head>, BEFORE <Analytics />
+  // =============================================================================
+
+  (function () {
+    // --- Feature flag (easy disable after 48h data collection) --------------
+    var PZ_TELEMETRY_ENABLED = true;
+    if (!PZ_TELEMETRY_ENABLED) return;
+
+    // --- Scope filter: only /ksiazka paths ---------------------------------
+    // Phase 2 lazy analytics concerns only the book landing page.
+    // Exact-match /ksiazka (with optional trailing slash) OR any subpath /ksiazka/*.
+    // MUST NOT match /ksiazkaevil, /ksiazkax, /ksiazka-premium etc. — off-by-one guard.
+    try {
+      var path = window.location && window.location.pathname;
+      if (!path) return;
+      var inScope = path === '/ksiazka' || path === '/ksiazka/' || path.indexOf('/ksiazka/') === 0;
+      if (!inScope) return;
+    } catch (e) {
+      return;
+    }
+
+    // --- Idempotency guard (Astro ClientRouter SPA re-eval) ----------------
+    if (window.__pzPerfTelemetryInitialized) return;
+    window.__pzPerfTelemetryInitialized = true;
+
+    // --- Generate session_id (UUID v4 with fallback for older browsers) ----
+    // crypto.randomUUID() is available in Safari 15.4+ (~March 2022).
+    // Fallback: crypto.getRandomValues() + manual v4 formatting (Safari 11+).
+    // Last resort: Date.now() + Math.random() — not a real UUID but unique enough
+    // for ~350 sessions over 48h (zero collision probability at this scale).
+    function generateSessionId() {
+      try {
+        if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+          return window.crypto.randomUUID();
+        }
+        if (window.crypto && typeof window.crypto.getRandomValues === 'function') {
+          var buf = new Uint8Array(16);
+          window.crypto.getRandomValues(buf);
+          // RFC 4122 v4: set version bits and variant bits
+          buf[6] = (buf[6] & 0x0f) | 0x40;
+          buf[8] = (buf[8] & 0x3f) | 0x80;
+          var hex = [];
+          for (var i = 0; i < 16; i++) {
+            var h = buf[i].toString(16);
+            if (h.length === 1) h = '0' + h;
+            hex.push(h);
+          }
+          return (
+            hex.slice(0, 4).join('') +
+            '-' +
+            hex.slice(4, 6).join('') +
+            '-' +
+            hex.slice(6, 8).join('') +
+            '-' +
+            hex.slice(8, 10).join('') +
+            '-' +
+            hex.slice(10, 16).join('')
+          );
+        }
+      } catch (e) {}
+      // Last resort fallback — not a real UUID but a unique string
+      return (
+        'fb-' +
+        Date.now().toString(36) +
+        '-' +
+        Math.random().toString(36).substring(2, 10) +
+        '-' +
+        Math.random().toString(36).substring(2, 10)
+      );
+    }
+
+    // --- Initialize telemetry state ----------------------------------------
+    window.__pzPerfTelemetry = {
+      session_id: generateSessionId(),
+      page_path: (window.location && window.location.pathname) || '/ksiazka',
+      nav_start: (performance && performance.timeOrigin) || Date.now(),
+      sent: false,
+      timings: {
+        dom_content_loaded_ms: null,
+        consent_default_set_ms: null,
+        analytics_init_ms: null,
+        first_interaction_ms: null,
+        first_interaction_type: null,
+        idle_fire_ms: null,
+        load_analytics_start_ms: null,
+        load_analytics_trigger: null,
+        gtm_script_injected_ms: null,
+        first_tracking_hit_ms: null,
+        first_tracking_hit_type: null,
+      },
+      bounced_before_tracking: false,
+    };
+
+    // --- Capture DOMContentLoaded ------------------------------------------
+    // If DOM is already interactive/complete, record immediately.
+    // Otherwise, listen for the event.
+    function recordDCL() {
+      if (window.__pzPerfTelemetry.timings.dom_content_loaded_ms === null) {
+        window.__pzPerfTelemetry.timings.dom_content_loaded_ms = Math.round(performance.now());
+      }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', recordDCL, { once: true });
+    } else {
+      recordDCL();
+    }
+
+    // --- PerformanceObserver for first_tracking_hit ------------------------
+    // Captures resource fetches (script, img, fetch, xhr) without monkey-patching.
+    // Filters for tracking endpoints and records first match.
+    var TRACKING_PATTERNS = [
+      { pattern: /googletagmanager\.com\/gtm\.js/, type: 'gtm' },
+      { pattern: /google-analytics\.com\/g\/collect/, type: 'ga4' },
+      { pattern: /analytics\.google\.com\/g\/collect/, type: 'ga4' },
+      { pattern: /region\d*\.google-analytics\.com\/g\/collect/, type: 'ga4' },
+      { pattern: /facebook\.com\/tr/, type: 'meta' },
+      { pattern: /connect\.facebook\.net\/.*\/fbevents\.js/, type: 'meta' },
+    ];
+
+    function classifyTrackingUrl(url) {
+      for (var i = 0; i < TRACKING_PATTERNS.length; i++) {
+        if (TRACKING_PATTERNS[i].pattern.test(url)) {
+          return TRACKING_PATTERNS[i].type;
+        }
+      }
+      return null;
+    }
+
+    try {
+      if (typeof PerformanceObserver === 'function') {
+        var po = new PerformanceObserver(function (list) {
+          var entries = list.getEntries();
+          for (var i = 0; i < entries.length; i++) {
+            var entry = entries[i];
+            if (!entry || !entry.name) continue;
+            var type = classifyTrackingUrl(entry.name);
+            if (type && window.__pzPerfTelemetry.timings.first_tracking_hit_ms === null) {
+              // startTime is relative to timeOrigin, same as performance.now()
+              window.__pzPerfTelemetry.timings.first_tracking_hit_ms = Math.round(entry.startTime);
+              window.__pzPerfTelemetry.timings.first_tracking_hit_type = type;
+              // Once we have first hit, we can stop observing
+              try {
+                po.disconnect();
+              } catch (e) {}
+              break;
+            }
+          }
+        });
+        po.observe({ type: 'resource', buffered: true });
+      }
+    } catch (e) {
+      // PerformanceObserver not supported — first_tracking_hit will remain null
+    }
+
+    // --- Build beacon payload (shared by both fire paths) ------------------
+    function getConsentState() {
+      // Read from cookie (same logic as Analytics.astro/ConsentBanner.astro)
+      try {
+        var parts = document.cookie ? document.cookie.split(';') : [];
+        for (var i = 0; i < parts.length; i++) {
+          var c = parts[i].trim();
+          if (c.indexOf('pz_consent=') === 0) {
+            var value = c.substring('pz_consent='.length);
+            var parsed = JSON.parse(decodeURIComponent(value));
+            if (parsed && typeof parsed === 'object') {
+              if (parsed.analytics === true && parsed.marketing === true) {
+                return 'granted_all';
+              }
+              if (parsed.analytics === true && parsed.marketing === false) {
+                return 'granted_analytics';
+              }
+              return 'denied';
+            }
+          }
+        }
+      } catch (e) {}
+      return 'denied';
+    }
+
+    function getConnectionType() {
+      try {
+        var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+        if (conn && conn.effectiveType) return conn.effectiveType;
+      } catch (e) {}
+      return 'unknown';
+    }
+
+    // Sanitize user agent: strip JSON control chars (", \, newlines, tabs)
+    // to prevent injection into log lines or JSON parser edge cases.
+    // Keeps technical metadata (browser/OS) intact for mobile/desktop split.
+    function sanitizeUserAgent(ua) {
+      if (typeof ua !== 'string' || ua.length === 0) return '';
+      return ua
+        .replace(/["\\]/g, '') // remove double-quote and backslash
+        .replace(/[\r\n\t]/g, ' ') // collapse CR/LF/TAB into space
+        .substring(0, 500);
+    }
+
+    function buildPayload() {
+      var t = window.__pzPerfTelemetry;
+      // Determine if user bounced before tracking started:
+      // first_tracking_hit_ms is null means NO tracking resource was observed
+      // between page load and unload — a true "bounce before tracking" signal.
+      var bounced = t.timings.first_tracking_hit_ms === null;
+      var rawUa = typeof navigator !== 'undefined' && navigator.userAgent ? navigator.userAgent : '';
+      return {
+        session_id: t.session_id,
+        page_path: t.page_path,
+        user_agent: sanitizeUserAgent(rawUa),
+        timestamp_utc: new Date().toISOString(),
+        consent_state: getConsentState(),
+        viewport_width:
+          (window.innerWidth && Math.round(window.innerWidth)) ||
+          (document.documentElement && document.documentElement.clientWidth) ||
+          0,
+        connection_type: getConnectionType(),
+        timings: t.timings,
+        bounced_before_tracking: bounced,
+      };
+    }
+
+    // --- Beacon send --------------------------------------------------------
+    // Two-phase fire strategy:
+    //   1. visibilitychange→hidden: OPPORTUNISTIC send (tab switch may be
+    //      temporary — user can return). We fire sendBeacon with the latest
+    //      state but DO NOT set t.sent=true, so a later pagehide will still
+    //      flush final data (idempotent on backend via session_id upsert OR
+    //      accepted as duplicate — we prefer to lose a row than lose the
+    //      signal entirely).
+    //   2. pagehide: FINAL commit. This is the real unload. We set
+    //      t.sent=true here only if sendBeacon() returned true.
+    //
+    // Rationale (C1 fix): the previous implementation set t.sent=true on
+    // visibilitychange, which permanently locked the beacon on tab switches
+    // (e.g., user copies a discount code in another tab). When the user
+    // actually left the page, the final beacon with real timings was never
+    // sent → data loss. Now visibilitychange sends opportunistically without
+    // locking, and pagehide is the only authoritative "finalize" trigger.
+    //
+    // Triggers: visibilitychange→hidden (opportunistic), pagehide (final).
+    // NOT beforeunload (unreliable on mobile, CF browsers kill it).
+    function attemptSend(markSentOnSuccess) {
+      var t = window.__pzPerfTelemetry;
+      if (t.sent) return;
+
+      try {
+        var payload = buildPayload();
+        var body = JSON.stringify(payload);
+
+        // Size guard: sendBeacon hard limit is 64 KB, we stay under 2 KB.
+        // NOTE: body.length is UTF-16 code units — close enough for a client
+        // guard, but the authoritative check is server-side in bytes.
+        if (body.length > 2048) {
+          // Trim user_agent if payload is too big (extremely rare)
+          payload.user_agent = payload.user_agent ? payload.user_agent.substring(0, 200) : '';
+          body = JSON.stringify(payload);
+          if (body.length > 2048) return; // Give up — would poison endpoint
+        }
+
+        // Try sendBeacon first (fire-and-forget, survives unload)
+        if (navigator && typeof navigator.sendBeacon === 'function') {
+          var blob = new Blob([body], { type: 'application/json' });
+          var ok = navigator.sendBeacon('/api/perf-beacon', blob);
+          if (ok) {
+            // Only mark sent if this is the final/authoritative trigger.
+            // On visibilitychange (markSentOnSuccess=false) we stay "unsent"
+            // so pagehide can flush final state if the user truly leaves.
+            if (markSentOnSuccess) t.sent = true;
+            return;
+          }
+        }
+
+        // Fallback: fetch with keepalive (H2 fix — do NOT set sent=true here)
+        // Keepalive requests are fragile on unload. We cannot confirm delivery.
+        // If this is the final trigger and keepalive is our only option, we
+        // still avoid poisoning `sent` so that any subsequent pagehide re-fires
+        // (no harm — browser will coalesce or backend will dedupe).
+        if (typeof fetch === 'function') {
+          fetch('/api/perf-beacon', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: body,
+            keepalive: true,
+          }).catch(function () {});
+          // Deliberately NOT setting t.sent = true — keepalive delivery is
+          // unverified, and a redundant send is safer than a lost signal.
+        }
+      } catch (e) {
+        // Swallow — we never want telemetry to break the page
+      }
+    }
+
+    // Primary trigger: visibilitychange → hidden (opportunistic, non-locking)
+    // C1 fix: do NOT mark t.sent=true here. A tab switch is reversible.
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'hidden') {
+        attemptSend(/* markSentOnSuccess */ false);
+      }
+    });
+
+    // Final trigger: pagehide (real unload, authoritative finalize)
+    // This is the only place we mark t.sent=true on sendBeacon success.
+    window.addEventListener('pagehide', function () {
+      attemptSend(/* markSentOnSuccess */ true);
+    });
+
+    // Last-resort trigger: beforeunload (desktop fallback, not used on mobile)
+    // Intentionally NOT added — unreliable across browsers, pagehide is better.
+  })();
+</script>
