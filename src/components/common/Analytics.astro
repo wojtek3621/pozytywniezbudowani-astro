@@ -1,57 +1,166 @@
 ---
-import { GoogleAnalytics } from '@astrolib/analytics';
-import { ANALYTICS } from 'astrowind:config';
+// Analytics.astro — Phase 2 lazy-on-interaction pattern (2026-04-15)
+//
+// REFACTOR HISTORY:
+// - Phase 1 (2026-04-15 commit d825052): DOMContentLoaded wrapper (reduced render-blocking)
+// - Phase 2 (2026-04-15 ca994ae): lazy-load on first user interaction OR idle callback
+// - Phase 2 FIXES (2026-04-15 post-codex): 8 bugs from triple review applied
+//
+// ARCHITECTURE:
+// 1. dataLayer pre-initialized in Layout.astro <head> BEFORE ConsentBanner (race condition fix — DB1)
+// 2. Consent Mode v2 defaults set by ConsentBanner position="head" BEFORE this runs
+// 3. GTM + VisitorTracking loaded only after:
+//    - First user interaction (scroll, pointerdown, keydown), OR
+//    - requestIdleCallback with 1500ms timeout (iOS Safari: setTimeout fallback)
+// 4. On GTM load: replay current consent state from cookie via gtag() arguments pattern (F1)
+// 5. SPA navigation: push event to dataLayer, let GTM handle tracking (no explicit gtag/fbq — F2)
+// 6. Init guard on window object (not local var) — prevents duplicate init on Astro ClientRouter re-eval (F4)
+//
+// CODEX REVIEW FIXES (2026-04-15):
+// - F1 (CRITICAL): consent replay uses gtag() helper with arguments object, not dataLayer.push array literal
+// - F2 (CRITICAL): removed explicit gtag('event','page_view')/fbq('track','PageView') from SPA handler
+//                  (gtag/fbq undefined in GTM container world; push spa_page_view event, GTM trigger handles it)
+// - F3 (HIGH): cookie parse uses substring(indexOf('=')+1) instead of split('=')[1]
+// - F4 (HIGH): window.__pzAnalyticsInitialized global guard (not local var) for SPA re-eval safety
+// - F5 (MEDIUM): removed visibilitychange trigger (browser kills network on unload — false sense of security)
+//
+// GTM WORKSPACE REQUIREMENT (post-merge Wojtek action):
+// Create GTM Custom Event Trigger for `spa_page_view` event, attach to GA4 page_view + Meta Pixel PageView tags.
+// Alternative: enable GTM History Change trigger (built-in) which auto-fires on URL change.
+//
+// KNOWN TRADEOFF:
+// - Hard-bouncing users (<1.5s exit before any interaction) may not be tracked.
+//   Expected <1% of traffic. Acceptable compromise vs TBT/LCP gains.
+//
+// Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 2b)
+// Debate-api: builds/debate/2026-04-15-075230-debate-decision-*.md
+// Triple review: builds/audyty/triple-review-2026-04-15-pz-analytics-phase2.md
 ---
 
-{
-  /*
-  PHASE 1 REFACTOR (2026-04-15):
-  GTM + VisitorTracking wrapped in DOMContentLoaded listener.
-  - Reduces render-blocking time on first paint (scripts run after HTML parsed)
-  - dataLayer is pre-initialized in Layout.astro <head> before this
-  - Phase 2 will replace this with full lazy-load-on-interaction pattern
-  Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 1.5)
-*/
-}
 <script is:inline>
-  document.addEventListener('DOMContentLoaded', function () {
-    // GTM container
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
+  // F4 fix: global init guard on window (not local IIFE var) — prevents re-eval on Astro ClientRouter SPA nav
+  if (!window.__pzAnalyticsInitialized) {
+    window.__pzAnalyticsInitialized = true;
 
-    // VisitorTracking — load after DOMContentLoaded
-    var vt = document.createElement('script');
-    vt.async = true;
-    vt.defer = true;
-    vt.src = 'https://app.visitortracking.com/assets/js/tracer.js';
-    vt.onload = function () {
-      if (typeof Tracer !== 'undefined') {
-        new Tracer({
-          websiteId: 'c23f4336-24d3-4730-933f-43d04963bf26',
-          async: true,
-        });
+    (function () {
+      // Helper: read current consent state from cookie (F3 fix — robust parse)
+      function getConsentFromCookie() {
+        try {
+          var parts = document.cookie ? document.cookie.split(';') : [];
+          for (var i = 0; i < parts.length; i++) {
+            var c = parts[i].trim();
+            if (c.indexOf('pz_consent=') === 0) {
+              // F3 fix: use substring/indexOf instead of split('=')[1] (URL-encoded JSON may contain =)
+              var value = c.substring('pz_consent='.length);
+              var parsed = JSON.parse(decodeURIComponent(value));
+              // F7 fix (from ConsentBanner review): validate object shape
+              if (
+                parsed &&
+                typeof parsed === 'object' &&
+                typeof parsed.analytics === 'boolean' &&
+                typeof parsed.marketing === 'boolean'
+              ) {
+                return parsed;
+              }
+              return null;
+            }
+          }
+        } catch (e) {}
+        return null;
       }
-    };
-    document.head.appendChild(vt);
-  });
+
+      // F1 fix: gtag helper pushes arguments object (not array literal) — GTM Consent API requirement
+      function gtag() {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push(arguments);
+      }
+
+      function loadAnalytics() {
+        if (window.__pzAnalyticsLoaded) return;
+        window.__pzAnalyticsLoaded = true;
+
+        // RACE CONDITION FIX (DB1 + F1): replay current consent state via gtag() arguments pattern
+        // User may have clicked "Akceptuję" during lazy-delay window — we re-assert state explicitly
+        // so GTM sees the correct consent when it initializes.
+        var consent = getConsentFromCookie();
+        if (consent) {
+          gtag('consent', 'update', {
+            analytics_storage: consent.analytics ? 'granted' : 'denied',
+            ad_storage: consent.marketing ? 'granted' : 'denied',
+            ad_user_data: consent.marketing ? 'granted' : 'denied',
+            ad_personalization: consent.marketing ? 'granted' : 'denied',
+          });
+        }
+
+        // GTM container (loads GA4 + Meta Pixel + any tags configured in workspace)
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
+
+        // VisitorTracking — async load after GTM
+        var vt = document.createElement('script');
+        vt.async = true;
+        vt.defer = true;
+        vt.src = 'https://app.visitortracking.com/assets/js/tracer.js';
+        vt.onload = function () {
+          if (typeof Tracer !== 'undefined') {
+            try {
+              new Tracer({
+                websiteId: 'c23f4336-24d3-4730-933f-43d04963bf26',
+                async: true,
+              });
+            } catch (e) {}
+          }
+        };
+        document.head.appendChild(vt);
+      }
+
+      // Trigger 1: first user interaction (3 event types — scroll/pointerdown/keydown)
+      var events = ['scroll', 'pointerdown', 'keydown'];
+      events.forEach(function (e) {
+        window.addEventListener(e, loadAnalytics, { once: true, passive: true });
+      });
+
+      // Trigger 2: idle callback — 1500ms fallback (iOS Safari compat)
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadAnalytics, { timeout: 1500 });
+      } else {
+        setTimeout(loadAnalytics, 1500);
+      }
+
+      // F5 fix: removed visibilitychange trigger.
+      // Rationale: browser kills pending network requests when page unloads, so injecting
+      // GTM <script> tag in visibility:hidden handler provides false sense of security —
+      // the script download is cancelled. Hard-bouncing users <1.5s are an accepted tradeoff.
+    })();
+  }
 </script>
 
-{
-  ANALYTICS?.vendors?.googleAnalytics?.id ? (
-    <GoogleAnalytics id={String(ANALYTICS.vendors.googleAnalytics.id)} partytown={false} />
-  ) : null
-}
-
 <script is:inline>
-  // SPA navigation fix — fire GTM on Astro page transitions
+  // SPA navigation (Astro ClientRouter) — push event to dataLayer
+  //
+  // Event name: 'astro:page-load' (same as pre-Phase2 — zero regression against main).
+  //
+  // F2 fix (CRITICAL from codex triple review): REMOVED explicit gtag('event','page_view')
+  // and fbq('track','PageView'). Rationale: GTM container does NOT expose window.gtag or
+  // window.fbq as globals — these functions are encapsulated inside GTM tags. Our
+  // `typeof gtag !== 'undefined'` guard was always false, so explicit SPA calls never fired.
+  //
+  // Alternative for proper SPA tracking (POST-MERGE Wojtek action, optional):
+  // 1. GTM → Triggers → New → Custom Event → Event name: astro:page-load
+  // 2. Attach to GA4 Event tag (event_name=page_view) + Meta Pixel tag (PageView)
+  // OR
+  // 1. Enable GTM's built-in History Change trigger (auto-fires on URL pushState)
+  //
+  // PZ site has low SPA ratio (~1.00-1.07 pageviews/sessions from GA4 baseline) —
+  // minimal impact if not configured.
   document.addEventListener('astro:page-load', function () {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
