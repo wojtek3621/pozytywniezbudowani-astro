@@ -42,6 +42,13 @@
   if (!window.__pzAnalyticsInitialized) {
     window.__pzAnalyticsInitialized = true;
 
+    // TOR 2 telemetry hook — record analytics_init_ms (pasywne, zero behavior change)
+    // Guarded by existence check so non-/ksiazka paths (where PerfTelemetry is scoped out)
+    // don't throw. See src/components/common/PerfTelemetry.astro.
+    if (window.__pzPerfTelemetry && window.__pzPerfTelemetry.timings) {
+      window.__pzPerfTelemetry.timings.analytics_init_ms = Math.round(performance.now());
+    }
+
     (function () {
       // Helper: read current consent state from cookie (F3 fix — robust parse)
       function getConsentFromCookie() {
@@ -75,9 +82,16 @@
         window.dataLayer.push(arguments);
       }
 
-      function loadAnalytics() {
+      function loadAnalytics(triggerType) {
         if (window.__pzAnalyticsLoaded) return;
         window.__pzAnalyticsLoaded = true;
+
+        // TOR 2 telemetry hook — record load_analytics_start_ms + trigger source
+        if (window.__pzPerfTelemetry && window.__pzPerfTelemetry.timings) {
+          window.__pzPerfTelemetry.timings.load_analytics_start_ms = Math.round(performance.now());
+          window.__pzPerfTelemetry.timings.load_analytics_trigger =
+            typeof triggerType === 'string' ? triggerType : 'unknown';
+        }
 
         // RACE CONDITION FIX (DB1 + F1): replay current consent state via gtag() arguments pattern
         // User may have clicked "Akceptuję" during lazy-delay window — we re-assert state explicitly
@@ -102,6 +116,11 @@
           j.async = true;
           j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
           f.parentNode.insertBefore(j, f);
+
+          // TOR 2 telemetry hook — record gtm_script_injected_ms
+          if (window.__pzPerfTelemetry && window.__pzPerfTelemetry.timings) {
+            window.__pzPerfTelemetry.timings.gtm_script_injected_ms = Math.round(performance.now());
+          }
         })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
 
         // VisitorTracking — async load after GTM
@@ -123,16 +142,52 @@
       }
 
       // Trigger 1: first user interaction (3 event types — scroll/pointerdown/keydown)
+      // Wrapped handler records which interaction type won the race + timestamp,
+      // then calls loadAnalytics('interaction').
       var events = ['scroll', 'pointerdown', 'keydown'];
+      function onFirstInteraction(ev) {
+        // TOR 2 telemetry hook — record first_interaction_ms + type (only the winner)
+        if (
+          window.__pzPerfTelemetry &&
+          window.__pzPerfTelemetry.timings &&
+          window.__pzPerfTelemetry.timings.first_interaction_ms === null
+        ) {
+          window.__pzPerfTelemetry.timings.first_interaction_ms = Math.round(performance.now());
+          window.__pzPerfTelemetry.timings.first_interaction_type = ev && ev.type ? ev.type : 'unknown';
+        }
+        loadAnalytics('interaction');
+      }
       events.forEach(function (e) {
-        window.addEventListener(e, loadAnalytics, { once: true, passive: true });
+        window.addEventListener(e, onFirstInteraction, { once: true, passive: true });
       });
 
       // Trigger 2: idle callback — 1500ms fallback (iOS Safari compat)
+      // Wrapped callbacks record idle_fire_ms and pass trigger='idle' or 'setTimeout'.
+      function onIdleFire() {
+        // TOR 2 telemetry hook — record idle_fire_ms (even if interaction already won)
+        if (
+          window.__pzPerfTelemetry &&
+          window.__pzPerfTelemetry.timings &&
+          window.__pzPerfTelemetry.timings.idle_fire_ms === null
+        ) {
+          window.__pzPerfTelemetry.timings.idle_fire_ms = Math.round(performance.now());
+        }
+        loadAnalytics('idle');
+      }
+      function onSetTimeoutFire() {
+        if (
+          window.__pzPerfTelemetry &&
+          window.__pzPerfTelemetry.timings &&
+          window.__pzPerfTelemetry.timings.idle_fire_ms === null
+        ) {
+          window.__pzPerfTelemetry.timings.idle_fire_ms = Math.round(performance.now());
+        }
+        loadAnalytics('setTimeout');
+      }
       if ('requestIdleCallback' in window) {
-        requestIdleCallback(loadAnalytics, { timeout: 1500 });
+        requestIdleCallback(onIdleFire, { timeout: 1500 });
       } else {
-        setTimeout(loadAnalytics, 1500);
+        setTimeout(onSetTimeoutFire, 1500);
       }
 
       // F5 fix: removed visibilitychange trigger.

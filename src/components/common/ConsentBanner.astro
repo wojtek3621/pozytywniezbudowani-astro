@@ -83,6 +83,13 @@ const { position } = Astro.props;
           'wait_for_update': 500
         });
       }
+
+      // TOR 2 telemetry hook — record consent_default_set_ms
+      // Pasywne: tylko zapis, zero behavior change. Guard na existence of telemetry object
+      // (scoped to /ksiazka* paths in PerfTelemetry.astro).
+      if (window.__pzPerfTelemetry && window.__pzPerfTelemetry.timings) {
+        window.__pzPerfTelemetry.timings.consent_default_set_ms = Math.round(performance.now());
+      }
     })();
   </script>
 )}
