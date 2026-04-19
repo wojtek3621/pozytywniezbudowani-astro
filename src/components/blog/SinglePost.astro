@@ -6,7 +6,6 @@ import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 
 import { getPermalink } from '~/utils/permalinks';
-import { getFormattedDate } from '~/utils/utils';
 
 import type { Post } from '~/types';
 
@@ -27,13 +26,10 @@ const { post, url } = Astro.props;
     >
       <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
         <p>
-          <Icon name="tabler:clock" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
-          <time datetime={String(post.publishDate)} class="inline-block">{getFormattedDate(post.publishDate)}</time>
           {
             post.author && (
               <>
-                {' '}
-                · <Icon name="tabler:user" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
+                <Icon name="tabler:user" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
                 <span class="inline-block">{post.author}</span>
               </>
             )
@@ -101,3 +97,21 @@ const { post, url } = Astro.props;
     </div>
   </article>
 </section>
+
+<style is:global>
+  /*
+   * Ukrycie pierwszego inline responsive-image w body artykulu — jest duplikatem hero z frontmatter
+   * (artefakt migracji z CMS Miro, gdzie featured image byl jednoczesnie inlinem w tresci).
+   * Dotyka wylacznie artykulow blog (scope: article .prose > p:first-child) — nie modyfikuje zadnego md file.
+   */
+  article .prose > p:first-child:has(> img.responsive-image:only-child) {
+    display: none;
+  }
+
+  /* Fallback dla przegladarek bez :has() (Firefox < 121). Szerszy zakres — ukrywa sam img. */
+  @supports not selector(:has(*)) {
+    article .prose > p:first-child > img.responsive-image:only-child {
+      display: none;
+    }
+  }
+</style>
