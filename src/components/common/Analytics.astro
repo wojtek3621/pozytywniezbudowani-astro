@@ -169,3 +169,11 @@
     });
   });
 </script>
+
+<script>
+  // Cross-domain Meta attribution bridge.
+  // Click handler appends _fbp/_fbc/fbclid to salescrm.pl links so SalesCRM
+  // subdomain can restore Meta attribution via GTM `FB - fbp restore from URL` tag.
+  // Plan: builds/audyty/2026-04-22-purchase-pipeline-forensics.md (Faza 8, P0.3)
+  import '~/scripts/cross-domain-fbp';
+</script>
