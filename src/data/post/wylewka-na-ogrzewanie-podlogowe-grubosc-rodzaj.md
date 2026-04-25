@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-25T21:06:45
-updateDate: 2026-04-25T21:06:45
+updateDate: 2026-04-25T21:06:54
 title: 'Wylewka na ogrzewanie podłogowe – grubość i rodzaj | Pozytywnie Zbudowani'
 excerpt: 'Anhydryt czy cementowo-piaskowa? 5 czy 6 cm? Tłumaczę praktycznie, czym te wylewki różnią się w domu z podłogówką.'
 image: '~/assets/images/blog/wylewka-na-ogrzewanie-podlogowe-grubosc-rodzaj.jpeg'
