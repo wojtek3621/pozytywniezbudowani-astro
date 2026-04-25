@@ -1,150 +1,257 @@
 ---
 publishDate: 2026-02-14T17:59:09
-updateDate: 2026-02-14T22:28:34
-title: 'Tynki cementowo-wapienne czy gipsowe'
-excerpt: 'Wybór tynku to nie kwestia gustu. Sprawdźcie, który tynk gdzie stosować i jak uniknąć kosztownych błędów.'
-image: '~/assets/images/blog/tynki-cementowo-wapienne-czy-gipsowe.jpeg'
+updateDate: 2026-04-25T09:37:42
+title: 'Tynki cementowo-wapienne czy gipsowe — praktyczny przewodnik'
+excerpt: 'Decyzja o tynku przesadza o gladzi, malowaniu, plytkach i tym, czy w lazience zacznie rosnac plesn. Tlumacze co po kolei wybrac.'
+image: '~/assets/images/blog/tynki-cementowo-wapienne-czy-gipsowe.png'
 category: 'Blog'
 tags:
-  - 'tynki cementowo-wapienne czy gipsowe'
-  - 'tynki maszynowe'
-  - 'wylewki podłogowe'
+  - 'tynki gipsowe'
+  - 'tynki cementowo-wapienne'
+  - 'tynk maszynowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/tynki-cementowo-wapienne-czy-gipsowe/'
-  title: 'Tynki cementowo-wapienne czy gipsowe – co wybrać?'
-  description: 'Tynki gipsowe czy cementowo-wapienne? Który tynk gdzie stosować, jak odebrać tynki, dlaczego tynkować przed wylewkami i jak dobrać wylewkę pod ogrzewanie.'
+  title: 'Tynki cementowo-wapienne czy gipsowe — praktyczny przewodnik'
+  description: 'Jak wybrac tynk wewnetrzny: gipsowy czy cementowo-wapienny? Normy, parametry, pomieszczenia mokre, odbior i bledy. Pillar Klaster 15.'
   robots:
     index: true
     follow: true
 ---
 
-<p style="text-align: center;"><img loading="lazy" alt="Świeżo nałożony tynk gipsowy maszynowy na ścianach wnętrza domu jednorodzinnego z widocznym agregatem tynkarskim" class="responsive-image" src="/images/content/tynkowanie-scian-tynk-maszynowy-wnetrze.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Nakładanie tynku maszynowego na ściany wewnętrzne domu" /></p>
+<p>Dotarliscie do etapu, na ktorym dom ma juz dach, okna, instalacje wewnatrz scian i czeka na pierwsza warstwe wykonczenia. Tynk wydaje sie czyms drugorzednym — przeciez i tak go potem zagladzimy, zamalujemy, polozymy plytki. A jednak to wlasnie tynk decyduje o tym, ile nerwow Was kosztuje malowanie, czy w lazience pojawi sie plesn za dwa lata i czy gladz mozna zrobic za 30 zl/m² czy 90 zl/m². Wybor — gipsowy czy cementowo-wapienny — robi sie raz, a zyje sie z nim przez kolejne 30 lat.</p>
 
-<p style="text-align: justify;">Wchodzicie na budowę, która wygląda już jak dom. Ściany stoją, dach jest zamknięty, okna zamontowane. Przed Wami etap, który nieodwracalnie kształtuje to, jak Wasz dom będzie wyglądał i funkcjonował od środka – tynkowanie ścian i wykonanie wylewek podłogowych. Na pierwszy rzut oka to proste decyzje: „jakiś tynk” na ściany i „jakaś wylewka” na podłogę. Tymczasem wybory, które teraz podejmiecie, będą z Wami przez dekady. Źle dobrany tynk w łazience? Za kilka lat odpadnie razem z płytkami. Wylewka bez dylatacji w dużym salonie? Pęknięcie przeniesie się na gotową posadzkę.</p><h2>Dlaczego wybór tynku to więcej niż estetyka</h2>
+<p>Rozkladam temat na czynniki pierwsze. Sklad obu materialow, normy ktore reguluja ich produkcje i odbior, gdzie ktory ma sens, a w ktorym pomieszczeniu nie ma racji bytu. Daje Wam tez praktyczna checkliste odbiorowa — dokladnie te punkty, ktore sam sprawdzam u klientow przed podpisaniem protokolu z tynkarzami.</p>
 
-<p style="text-align: justify;">Tynk wewnętrzny pełni w domu kilka funkcji jednocześnie. Wyrównuje ściany, tworzy podłoże pod dalsze prace wykończeniowe – malowanie, tapetowanie, klejenie płytek – a jednocześnie wpływa na mikroklimat pomieszczeń. Tynk gipsowy reguluje wilgotność powietrza, pochłaniając nadmiar wilgoci i oddając ją, gdy powietrze staje się zbyt suche. Tynk cementowo-wapienny jest z kolei znacznie bardziej odporny na bezpośredni kontakt z wodą i na uszkodzenia mechaniczne. Każdy z nich ma swoje miejsce w domu i każdy sprawdzi się dobrze – pod warunkiem że trafi tam, gdzie powinien.</p>
+<p style="text-align: center;"><img alt="Worki tynku gipsowego i cementowo-wapiennego stojące obok siebie na placu budowy domu" class="responsive-image" src="/files/userfiles/tynki-gipsowe-cementowo-wapienne-porownanie-worki.jpeg" style="width: 525px; height: 350px;" title="Tynki gipsowe i cementowo-wapienne – porównanie materiałów na ścianę wewnętrzną" /></p>
 
-<p style="text-align: justify;">Zdarza mi się słyszeć, że ktoś chce mieć „wszędzie ten sam tynk, żeby było prościej”. Rozumiem tę potrzebę, ale prostota w tym przypadku może się zemścić. Tynk gipsowy w łazience to ryzyko, którego nie warto podejmować. Tynk cementowo-wapienny w sypialni to z kolei niepotrzebny koszt i dłuższy czas schnięcia. Dlatego warto poświęcić chwilę, żeby zrozumieć, czym te dwa materiały się różnią i gdzie każdy z nich powinien pracować.</p>
+<h2>Tynk — czym wlasciwie jest i po co go robimy</h2>
 
-<h2>Tynk gipsowy – szybszy, lżejszy, ale nie wszędzie</h2>
+<p>Tynk to warstwa wyrownujaca i przygotowujaca podloze pod gladz, malowanie, tapete albo plytki. Pelni trzy funkcje jednoczesnie. Po pierwsze niweluje nierownosci sciany murowanej — pustak ceramiczny, gazobeton czy silika nigdy nie sa idealne, a zaprawa miedzy nimi tym bardziej. Po drugie tworzy spojna estetyczna powierzchnie — bez tego widzielibyscie kazda zaprawe i kazdy mostek termiczny. Po trzecie poprawia parametry sciany: izolacyjnosc cieplna, paroprzepuszczalnosc, wytrzymalosc na uderzenia.</p>
 
-<p style="text-align: justify;">Tynki gipsowe to zdecydowanie najpopularniejszy wybór w pomieszczeniach mieszkalnych. Są nakładane maszynowo, w jednej warstwie o grubości 8–15 mm, i schną znacznie szybciej niż tynki cementowo-wapienne. Pełne wyschnięcie to zazwyczaj 10–14 dni, choć wiele zależy od temperatury, wentylacji i grubości nałożonej warstwy. Dla porównania – tynk cementowo-wapienny potrzebuje na to kilku tygodni.</p>
+<p>Polski rynek dzieli tynki wewnetrzne na dwie wielkie rodziny: <strong>tynki gipsowe</strong> (spoiwo: gips budowlany) i <strong>tynki cementowo-wapienne</strong> (spoiwo: cement + wapno). Sa jeszcze inne (silikatowe, glinowe, magnezowe, mineralno-zywiczne), ale w domach jednorodzinnych w Polsce ponad 90% tynkow wewnetrznych to wlasnie te dwie kategorie. Reszte traktuje jako nisze.</p>
 
-<p style="text-align: justify;">Gips ma jeszcze jedną cechę, o której rzadko się mówi – jest dobrym izolatorem termicznym. Jego współczynnik przewodzenia ciepła (λ) wynosi około 0,28 W/(m·K), podczas gdy tynk cementowo-wapienny osiąga wartości rzędu 0,45–0,90 W/(m·K). W praktyce różnica nie jest ogromna – mówimy o warstwie kilkunastu milimetrów – ale w domu energooszczędnym każdy detal ma znaczenie.</p>
+<p>Decyzja, ktora z tych rodzin wybrac, nie jest binarna na cala budowe. W wiekszosci moich realizacji w jednym domu znajduja sie obie — gipsowy w pomieszczeniach mieszkalnych, cementowo-wapienny w tych mokrych i obciazonych. Pokaze Wam dokladnie, gdzie przebiega granica.</p>
 
-<p style="text-align: justify;">Tynki gipsowe są też lekkie, co ma znaczenie przy sufitach. Norma mówi jasno – grubość tynku na suficie nie powinna przekraczać 15 mm, żeby nie był za ciężki i nie groził odpadnięciem. Gips świetnie się w tym mieści.</p>
+<h2>Tynki gipsowe — sklad, wlasciwosci, normy</h2>
 
-<p style="text-align: justify;">Jest jednak coś, o czym trzeba pamiętać. Gips powoduje korozję stali. Jeśli w ścianach macie elementy metalowe – puszki elektryczne, kątowniki, kotwy – powinny być galwanizowane lub wykonane ze stali nierdzewnej. Czarne, fosforowane wkręty w kontakcie z gipsem z czasem zaczną rdzewieć. To nie jest problem widoczny od razu, ale po latach może dać o sobie znać przebarwieniami na ścianie.</p>
+<p data-source-id="C001">Tynki gipsowe wewnetrzne reguluje europejska norma <strong>PN-EN 13279-1</strong>, ktora definiuje wymagania dla spoiw gipsowych i suchych mieszanek tynkarskich. Glownym skladnikiem jest siarczan wapnia w postaci gipsu (CaSO₄·2H₂O), uzupelniony wypelniaczami mineralnymi i niewielkim dodatkiem polimerow modyfikujacych przyczepnosc oraz reologie.</p>
 
-<h2>Tynk cementowo-wapienny – tam, gdzie jest ciężko</h2>
+<p data-source-id="C003">Z parametrow technicznych dla Was najwazniejsze jest to, ze tynk gipsowy ma wspolczynnik przewodzenia ciepla λ na poziomie okolo <strong>0,28 W/(m·K)</strong>. To istotnie mniej niz w przypadku tynkow cementowo-wapiennych. W praktyce oznacza to, ze sciana z tynkiem gipsowym jest "ciepla w dotyku" — nie odbiera ciepla z dloni tak agresywnie jak sciana z tynkiem cementowym. Dla codziennego komfortu w sypialni czy salonie to roznica wyczuwalna.</p>
 
-<p style="text-align: justify;">Tynk cementowo-wapienny to materiał starszej generacji, ale wciąż niezastąpiony w określonych miejscach. Składa się z cementu, wapna, piasku i wody, a w gotowych mieszankach dodaje się do niego domieszki poprawiające przyczepność i odporność na wilgoć. Tradycyjnie nakłada się go w trzech warstwach – obrzutka, narzut i warstwa wykończeniowa – choć nowoczesne gotowe mieszanki cementowo-wapienne upraszczają ten proces.</p>
+<p data-source-id="C025">Drugi parametr to paroprzepuszczalnosc — wspolczynnik oporu dyfuzyjnego μ, ktory dla tynkow gipsowych wynosi okolo <strong>10-20</strong>. To wartosc srednia. Tynk gipsowy oddycha — pochlania nadmiar pary wodnej z powietrza, gdy wilgotnosc rosnie, i oddaje ja z powrotem, gdy powietrze jest suche. <span data-source-id="C041">Dzieki strukturze makroporow gips dziala jak naturalny regulator mikroklimatu pomieszczenia.</span></p>
 
-<p style="text-align: justify;">Jego największa zaleta to wytrzymałość i odporność na wilgoć. Tynk cementowo-wapienny znosi warunki, w których gips po prostu by nie wytrzymał – bezpośredni kontakt z wodą, para wodna w dużych ilościach, mechaniczne obciążenia. Właśnie dlatego jest jedynym rozsądnym wyborem w łazienkach, pralniach, pomieszczeniach technicznych i garażu.</p>
+<p data-source-id="C005">Z punktu widzenia wykonawczego liczy sie grubosc warstwy. <strong>Wedle zalecen producentow tynk gipsowy powinien miec grubosc od 8 do 15 mm</strong> <em>[book: czesc-09, lines 125-134]</em>. Im cienszy tynk, tym bardziej widac wszelkie nierownosci podloza. Im grubszy, tym ciezej go utrzymac na scianie i tym dluzej schnie.</p>
 
-<p style="text-align: justify;">Ma też swoje wady. Schnie znacznie dłużej, jest cięższy i wymaga bardziej starannego podłoża. Jego powierzchnia po wyschnięciu jest bardziej chropowata niż w przypadku gipsu, choć drobne uziarnienie (do 0,5 mm) pozwala przy odpowiednim zatarciu uzyskać stosunkowo gładką fakturę. W pomieszczeniach, gdzie planujecie klejenie płytek, chropowatość jest wręcz zaletą – klej lepiej się trzyma.</p>
+<p data-source-id="C007">Tynki gipsowe powinny byc nakladane <strong>jednowarstwowo</strong>, w jednym przejsciu agregatem. To zasadnicza roznica wzgledem cementowo-wapiennego, ktory mozna nakladac warstwowo (obrzutka, narzut, gladzina). Jednowarstwowosc gipsu to cecha techniczna, nie zaleta ani wada sama w sobie — w gipsie przyspiesza prace i skraca liczbe przerw, ale rowniez obciaza odpowiedzialnoscia ekipe: jak zle ustawi grubosc, nie ma juz potem latwego sposobu na korekte. W cem-wap mozliwosc nakladania warstwami daje z kolei wieksza elastycznosc wykonawcza.</p>
 
-<h2>Który tynk gdzie – zasada jest prosta</h2>
+<h3>Zalety tynkow gipsowych</h3>
 
-<p style="text-align: justify;">Podział jest logiczny i wynika bezpośrednio z właściwości obu materiałów. Tynki gipsowe stosujecie w pomieszczeniach mieszkalnych – salon, sypialnie, pokoje dziecięce, korytarz, klatka schodowa. Tynki cementowo-wapienne stosujecie w pomieszczeniach mokrych – łazienka, WC, pralnia – oraz tam, gdzie ściany narażone są na uszkodzenia mechaniczne, czyli przede wszystkim w garażu.</p>
+<p>W pomieszczeniach mieszkalnych gipsowe wygrywa na szesciu frontach: szybsze schniecie niz cementowe, lepsza izolacyjnosc cieplna, wieksza paroprzepuszczalnosc w ujeciu praktycznym, gladsza struktura po wykonaniu, latwiejsze szpachlowanie pod gladz, mniejsze wymagania wobec ekipy (jeden agregat zamiast brygady murarskiej).</p>
 
-<p style="text-align: justify;">Granicą wilgotności, powyżej której tynk gipsowy traci sens, jest około 70% wilgotności względnej powietrza. Łazienka po gorącej kąpieli przekracza tę wartość bez trudu. Garaż z kolei to miejsce, gdzie o ścianę łatwo uderzyć kierownicą roweru, narożnikiem walizki albo narzędziem – i tu cementowo-wapienny okaże się znacznie bardziej wytrzymały.</p>
+<h3>Wady tynkow gipsowych</h3>
 
-<p style="text-align: justify;">Jest jeszcze jedna kwestia, o której warto wspomnieć. Niektórzy inwestorzy pytają, czy w kuchni powinien być tynk cementowo-wapienny, skoro „jest tam woda”. Kuchnia to pomieszczenie mieszkalne – para wodna z gotowania nie jest porównywalna z warunkami panującymi w łazience. Tynk gipsowy w kuchni sprawdzi się doskonale. Jedynym wyjątkiem mogłaby być kuchnia gastronomiczna z intensywnym parowaniem, ale to zupełnie inna skala.</p>
+<p data-source-id="C031">Gips ma trzy slabe punkty. Pierwszy to <strong>nizsza odpornosc mechaniczna niz tynki na bazie cementu</strong> — uderzenie wozka, krawedz mebla, krzeslo zlapane przez dziecko za oparcie zostawiaja na gipsie wglebienie wyrazne i wymagajace szpachlowania. Po cementowo-wapiennym tylko otarcie, ktore zniknie przy najblizszym malowaniu.</p>
 
-<h2>Mit tynku „pod malowanie”</h2>
+<p data-source-id="C032">Drugi punkt: <strong>tynk gipsowy nie jest odporny na wode i trwale zawilgocenie</strong>. Dlugotrwala wilgoc rozmiekcza siarczan wapnia, a wraz z nia — caly tynk. To dlatego w lazience z prysznicem trzy razy dziennie i bez odpowiedniej wentylacji gipsowy moze zaczac sie sypac juz po dwoch sezonach.</p>
 
-<p style="text-align: justify;">To temat, przy którym warto się zatrzymać, bo wokół niego narosło sporo nieporozumień. Na budowach i forach internetowych można spotkać twierdzenie, że tynk gipsowy jest „tynkiem pod malowanie” – że wystarczy go nałożyć, zagruntować i można malować. Otóż to nieprawda, a przynajmniej – niepełna prawda.</p>
+<p>Trzeci punkt to ograniczona przyczepnosc do podloza zaolejonego, zatluszczonego lub bardzo gladkiego. To rzadko problem w nowym budownictwie, ale przy renowacjach trzeba o tym pamietac.</p>
 
-<p style="text-align: justify;">Tynk gipsowy nigdy nie będzie tak gładki jak <a href="https://pozytywniezbudowani.pl/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic/">gładź gipsowa</a>. To kwestia fizyki materiału. Uziarnienie tynku jest znacznie grubsze niż uziarnienie gładzi. Gładź przed wymieszaniem z wodą to bardzo drobny proszek, podczas gdy tynk składa się z grubszych ziaren. Do tego dochodzi różnica grubości warstwy – tynk nakłada się w grubości 8–15 mm, a gładź w warstwach maksymalnie 2–3 mm. Nawet najlepszy tynkarz, pracując najdroższym tynkiem gipsowym, nie uzyska efektu porównywalnego z gładko położoną gładzią.</p>
+<h2>Tynki cementowo-wapienne — sklad, wlasciwosci, normy</h2>
 
-<p style="text-align: justify;">Czy to oznacza, że tynk gipsowy zawsze wymaga gładzi? Niekoniecznie. Istnieją brygady tynkarskie, które potrafią wykonać naprawdę ładne, starannie zatarte tynki. Dla wielu osób taki efekt jest wystarczający – nie każdy oczekuje idealnie lustrzanych ścian. Warto jednak podejść do tego uczciwie: jeśli wymagacie perfekcyjnie gładkiej powierzchni, zaplanujcie od razu gładź gipsową jako osobny etap prac wykończeniowych. Wymaganie od tynkarzy, żeby ściana po samym tynkowaniu wyglądała jak po gładzeniu, jest po prostu nierealistyczne.</p>
+<p data-source-id="C002">Tynki cementowo-wapienne sa regulowane przez norme <strong>PN-EN 998-1</strong> dotyczaca zapraw do murow, czesc 1: zaprawa do tynkowania zewnetrznego i wewnetrznego. Jako spoiwo wystepuje cement portlandzki (najczesciej CEM I lub CEM II) w polaczeniu z wapnem hydratyzowanym. Wypelniaczem jest piasek kwarcowy lub mieszanka piasku z mineralnym pigmentem.</p>
 
-<p style="text-align: justify;">Na rynku dostępne są też tynki gipsowe „twarde”, reklamowane jako bardziej odporne mechanicznie. To prawda – są twardsze i mniej podatne na zarysowania. Jednak nawet po starannym zeszlifowaniu ich struktura nie dorównuje gładzi. Powód jest ten sam – grubsze ziarno.</p>
+<p data-source-id="C023">Norma PN-EN 998-1 klasyfikuje tynki cementowo-wapienne wg klas wytrzymalosciowych — od <strong>CS I (0,4-2,5 N/mm²)</strong>, czyli najmiekszego, przez CS II (1,5-5,0 N/mm²), CS III (3,5-7,5 N/mm²), do <strong>CS IV (≥6 N/mm²)</strong>, najtwardszego. W domach jednorodzinnych standardem jest CS II lub CS III. CS IV stosujemy tylko tam, gdzie sciana ma byc naprawde uderzeniowo wytrzymala — garaz, kotlownia, hala warsztatu.</p>
 
-<h2>Jak odebrać tynki – na co patrzeć i czym mierzyć</h2>
+<p data-source-id="C004">Wspolczynnik przewodzenia ciepla λ tynku cementowo-wapiennego wynosi wg katalogowych tabel materialowych okolo <strong>0,82 W/(m·K)</strong>, czyli prawie trzykrotnie wiecej niz gipsowego. Sciana z tynkiem cementowym jest wyraznie "chlodniejsza w dotyku". Dla pomieszczenia uzytkowego to wada (komfort), dla pomieszczenia gospodarczego to bez znaczenia.</p>
 
-<p style="text-align: justify;">Odbiór tynków to moment, którego nie wolno zlekceważyć. Polskie normy dają nam konkretne narzędzia i wartości, na podstawie których możemy ocenić, czy praca została wykonana prawidłowo. Do odbioru potrzebujecie trzech rzeczy: łaty kontrolnej (poziomica) o długości 2 metrów, kątownika o długości ramienia 1 metra i szczelinomierza klinowego. To nie są egzotyczne urządzenia – łatę kontrolną za kilkadziesiąt złotych kupicie w każdym markecie budowlanym.</p>
+<p data-source-id="C026">Paroprzepuszczalnosc tynkow cementowo-wapiennych mierzy sie wspolczynnikiem oporu dyfuzyjnego μ na poziomie <strong>15-25</strong>. To wartosc nieco wyzsza od gipsowego, co oznacza troche gorsza paroprzepuszczalnosc — ale cem-wap wciaz nalezy do grupy "oddychajacych" tynkow i w praktyce dobrze reguluje wilgoc pomieszczenia. Dla porownania: typowy tynk akrylowy ma μ rzędu 100-300, czyli faktycznie "zamyka" sciane.</p>
 
-<p style="text-align: justify;">Norma mówi o czterech kluczowych parametrach. Po pierwsze – odchylenia od płaszczyzny mierzone dwumetrową łatą nie powinny przekraczać 5 mm, a na całej długości łaty nie powinno być ich więcej niż 3. Po drugie – odchylenie od pionu nie może wynosić więcej niż 3 mm na metr bieżący, a w pomieszczeniach o wysokości do 3,5 metra – nie więcej niż 6 mm łącznie. Po trzecie – grubość tynku na suficie nie powinna przekraczać 15 mm. Po czwarte – szczelina po przyłożeniu kątownika o ramieniu 1 metra nie powinna być większa niż 4 mm, choć tu trzeba być sprawiedliwym – jeśli kąt prosty w narożniku jest mocno zaburzony, to często nie jest wina tynkarzy, tylko murarzy. Tynkarze nie są w stanie naprawić dużych odchyleń ścian od kąta prostego.</p>
+<p data-source-id="C033">Z badan branzowych wynika, ze <strong>tynki cementowo-wapienne sa relatywnie odporne na wilgoc oraz na dlugotrwale zawilgocenie</strong>. To dlatego stanowia podstawowy material do tynkowania scian obciazonych wilgocia — garazy, kotlowni, lazienek i pralni.</p>
 
-<p style="text-align: justify;">Bardzo ważne jest, w jakim świetle przeprowadzacie odbiór. Norma mówi wyraźnie – odbiór tynków należy przeprowadzać przy świetle naturalnym, nie przy lampie smugowej ani przy ostrym świetle LED ustawionym tuż przy ścianie. Mocne boczne światło potrafi wyeksponować nierówności, które w normalnych warunkach użytkowania są zupełnie niewidoczne i mieszczą się w standardach.</p>
+<h3>Zalety tynkow cementowo-wapiennych</h3>
 
-<p style="text-align: justify;">Są dwa miejsca, które musicie sprawdzić szczególnie dokładnie. Pierwsze to okolice otworów drzwiowych. Duże nierówności w tych miejscach będą bardzo dobrze widoczne po zamontowaniu opasek drzwiowych – drewno czy MDF bezlitośnie obnażą każdą falę na ścianie. Drugie newralgiczne miejsce to okolica poziomu zero, czyli wysokość, na której zostaną zamontowane listwy przypodłogowe. Odchyłki i fale na tej wysokości też będą rzucać się w oczy, bo listwa przypodłogowa tworzy wyraźną linię odniesienia dla oka.</p>
+<p data-source-id="C024">Najwazniejsza praktyczna zaleta to <strong>wapno, ktore zachowuje sie antyseptycznie</strong>. Alkalicznosc swiezej zaprawy (pH okolo 12) i obecnosc wodorotlenku wapnia ograniczaja rozwoj plesni i grzybow. To nie znaczy ze cementowo-wapienny jest "samoczyszczacy" — w lazience bez wentylacji plesn i tak pojawi sie na fugach albo silikonie. Ale sam tynk jako podloze jest wyraznie mniej podatny niz gipsowy.</p>
 
-<h2>Najpierw tynki czy wylewki</h2>
+<p>Dalsze zalety to wieksza wytrzymalosc mechaniczna (wglebienie po uderzeniu wozkiem zatrzyma sie na warstwie wapna), odpornosc na wilgoc dlugotrwala, mozliwosc nakladania warstwami dajaca wieksza elastycznosc wykonawcza, kompatybilnosc z cementowymi systemami hydroizolacji.</p>
 
-<p style="text-align: justify;">To pytanie słyszę bardzo często i mam na nie jednoznaczną odpowiedź – najpierw tynki. Nie dlatego, że „tak się robi”, ale dlatego, że istnieją konkretne powody technologiczne, dla których odwrotna kolejność jest gorsza.</p>
+<h3>Wady tynkow cementowo-wapiennych</h3>
 
-<p style="text-align: justify;">Zacznijmy od tego, czym jest wylewka. To już gotowa warstwa pod montaż paneli, płytek lub innej okładziny podłogowej. Powinna w miarę możliwości pozostać czysta i nieuszkodzona aż do momentu kładzenia podłogi. Tynkowanie natomiast to praca brudna – polega na narzucaniu płynnej, gęstej masy na ściany, a ta masa pod wpływem grawitacji spływa na dół. Nawet jeśli tynkarze będą starali się zabezpieczać podłogę, wylewka ulegnie zabrudzeniu. Sprzątanie zaschniętych placków gipsu z gotowej wylewki ostrym skrobakiem może ją uszkodzić.</p>
+<p data-source-id="C021">Po pierwsze — czas. <strong>Tynk cementowo-wapienny osiaga pelna wytrzymalosc po 28 dniach od nalozenia</strong>, a wstepne schniecie zajmuje okolo tygodnia na kazdy centymetr grubosci. Dla porownania gipsowy schnie 10-14 dni i jest gotowy. Roznica dwoch-trzech tygodni potrafi rozsadzic harmonogram.</p>
 
-<p style="text-align: justify;">Jest jeszcze kwestia przestrzeni roboczej. Gdy tynki wykonujecie przed wylewkami, pomiędzy poziomem zero (przyszła gotowa podłoga) a chudziakiem lub płytą fundamentową jest spora przestrzeń – kilkanaście centymetrów styropianu plus grubość samej wylewki. Tynkarze mogą wygodnie operować narzędziami, a jeśli masa spłynie zbyt nisko, nie stanowi to żadnego problemu. Natomiast jeśli wylewki zostałyby wykonane jako pierwsze, dolna krawędź tynku znajdowałaby się dokładnie w miejscu, gdzie zamontowane zostaną listwy przypodłogowe. To trudne miejsce do obróbki, a jednocześnie – jak już pisałem – newralgiczny obszar, w którym każda nierówność będzie widoczna.</p>
+<p>Po drugie — gorsze parametry termiczne i akustyczne. Sciana z cementowo-wapiennym chlodniejsza, mniej "miekka" akustycznie. W salonie roznica nie jest dramatyczna, ale wyczuwalna. W pomieszczeniach gospodarczych nie ma znaczenia.</p>
 
-<p style="text-align: justify;">Krótko mówiąc – wykonywanie wylewek przed tynkami przysparza tynkarzom wielu utrudnień, a jednocześnie nie ma żadnych zalet takiej kolejności prac. Podobna zasada dotyczy parapetów wewnętrznych – montujcie je po tynkowaniu. Jeśli chcecie, żeby ściany były równe, ułatwijcie pracę tynkarzom.</p>
+<p>Po trzecie — trudniejsze szpachlowanie pod gladz. Cementowo-wapienny ma wieksza naturalna chropowatosc, wymaga grubszej warstwy gladzi do uzyskania perfekcyjnej powierzchni. Pod plytki to bez znaczenia. Pod malowanie — koszt gladzi rosnie.</p>
 
-<h2>Co pod wylewką – izolacja i styropian</h2>
+<h2>Pomieszczenia mokre — gdzie gips zawodzi</h2>
 
-<p style="text-align: justify;">Zanim przejdziemy do samych wylewek, trzeba powiedzieć o tym, co znajduje się pod nimi, bo to warstwy, które decydują o trwałości i komforcie użytkowania posadzki na lata.</p>
+<p data-source-id="C017">W kwestii lazienek, pralni, kotlowni i garazy — odpowiedz w mojej ksiazce jest jednoznaczna. <strong>W pomieszczeniach mokrych — takich jak lazienka, pralnia — oraz tam, gdzie sciany narazone sa na uszkodzenia, czyli np. w garazu, stosuje sie tynki cementowo-wapienne</strong> <em>[book: czesc-09, lines 138-138]</em>. To nie jest opinia, to jest standard branzowy potwierdzony w kazdej karcie technicznej kazdego producenta tynkow.</p>
 
-<p style="text-align: justify;">Pierwszą warstwą jest izolacja pozioma. Jej zadaniem jest odcięcie wilgoci gruntowej od warstw podłogi. Najczęściej stosuje się czarną folię PE z odpowiednim atestem lub specjalne masy izolacyjne. I tu chcę Was uczulić na jeden konkretny błąd, który nadal zdarza się na budowach – stosowanie papy pod posadzką. Papa, szczególnie podgrzewana, może uwalniać związki szkodliwe dla zdrowia. Pod posadzką, w zamkniętym układzie warstw, nie jest to materiał, którego chcielibyście użyć. Czarna folia budowlana z atestem to rozwiązanie tanie, sprawdzone i bezpieczne.</p>
+<p data-source-id="C009">Producenci tynkow gipsowych w swoich kartach technicznych <strong>zalecaja stosowanie tynku w pomieszczeniach suchych, gdzie wilgotnosc wzgledna nie przekracza 70%</strong>. To jest informacja z deklaracji wlasciwosci uzytkowych, nie z marketingu — i to jest informacja wiazaca dla gwarancji.</p>
 
-<p style="text-align: justify;">Na izolacji kładziecie styropian. Standard to EPS 100, czyli o wytrzymałości na ściskanie minimum 100 kPa. W garażu – bezwzględnie minimum EPS 150, najczęściej oznaczany dopiskiem „parking”. Nic nie stoi na przeszkodzie, żeby zastosować twardszy styropian (EPS 200 czy nawet XPS o wytrzymałości 300–700 kPa), ale o ile nie parkujecie w garażu ciężarówki, EPS 150 w zupełności wystarczy. Natomiast widzę jeszcze na budowach sytuacje, w których w garażu układany jest ten sam styropian EPS 100 co w reszcie domu – to błąd, bo samochód i ruch w garażu to zupełnie inna skala obciążeń.</p>
+<p data-source-id="C008">Istnieje kategoria tynkow gipsowych modyfikowanych — tzw. <strong>tynki hydrofobowe</strong>. Te mozna stosowac w pomieszczeniach o wilgotnosci powietrza do 80-85%, ale wylacznie przez maksymalnie 10 godzin na dobe i pod warunkiem prawidlowo dzialajacej wentylacji (mechanicznej lub grawitacyjnej). To znaczy: lazienka uzywana 2-3 razy dziennie po 20 minut, z pracujacym wentylatorem mechanicznym albo dobrym kominem grawitacyjnym, miesci sie w tej granicy. Lazienka bez wentylacji, z dluga kapiela trzy razy w tygodniu — nie miesci sie.</p>
 
-<p style="text-align: justify;">Styropian układa się warstwowo, na zakładkę – to znaczy, że spoiny kolejnych warstw nie pokrywają się, tylko są przesunięte względem siebie. Dzięki temu nie powstają mostki termiczne na łączeniach. Warstwa musi być stabilna – nie może „klawiszować”, czyli uginać się punktowo po nadepnięciu. Jeśli tak się dzieje, to znaczy, że pod styropianem jest nierówność, pustka albo gruz, który trzeba usunąć przed kontynuowaniem prac.</p>
+<p data-source-id="C038">Niezaleznie od rodzaju tynku gipsowego (standardowy czy hydrofobowy), <strong>tynk gipsowy nie powinien byc stosowany jako podloze pod plytki w strefach pelnego zalewania</strong> — wnetrze kabiny prysznicowej, sciana wanny z natryskiem, sciana za zlewozmywakiem w kuchni przemyslowej. W tych miejscach standardem jest podloze cementowe + hydroizolacja w plynie + plytki na kleju cementowym. Trojwarstwowy uklad bez gipsu w lancuchu materialowym.</p>
 
-<h2>Wylewki podłogowe – cementowo-piaskowa czy anhydryt</h2>
+<p>Najczestszy blad wykonawczy, jaki widze, to tynkowanie calej lazienki gipsem „bo szybciej". Po dwoch latach pojawiaja sie pierwsze odbarwienia na gornej krawedzi plytek, czyli tam gdzie konczy sie hydroizolacja. Po trzech latach plytki w okolicy prysznica zaczynaja „puszczac" przez rozmiekly tynk. Naprawa to skucie do muru i tynkowanie od nowa cementowo-wapiennym. Koszt nieporownywalnie wyzszy niz prawidlowe wykonanie za pierwszym razem. Cala kolejnosc prac w strefie mokrej — od hydroizolacji, przez tynk, po plytki — omawiam szerzej w artykule o <a href="https://pozytywniezbudowani.pl/blog/wykonczenie-lazienki-krok-po-kroku/">wykonczeniu lazienki krok po kroku</a>.</p>
 
-<p style="text-align: justify;">Dotarliśmy do jednej z najczęściej dyskutowanych decyzji na etapie wykończeniówki. Na rynku dostępne są dwa główne typy wylewek – cementowo-piaskowa (tak zwana wylewka z miksokreta) i anhydrytowa. Marketing przemysłu budowlanego mocno promuje anhydryt jako materiał nowoczesny, który w połączeniu z ogrzewaniem podłogowym ma przynosić oszczędności energetyczne. Niestety, fizyka tego nie potwierdza. Aby utrzymać pożądaną temperaturę wewnątrz pomieszczeń, musimy dostarczyć dokładnie tyle samo energii, ile z domu ucieka – niezależnie od rodzaju wylewki. Fakt, że anhydryt ma niską pojemność cieplną, a więc szybko się nagrzewa i szybko wychładza, nie zmniejsza zapotrzebowania domu na ciepło.</p>
+<h2>Pomieszczenia mieszkalne — gdzie gips wygrywa</h2>
 
-<p style="text-align: justify;">To dlaczego ktoś miałby wybrać anhydryt, skoro jest droższy? Z mojej perspektywy jest dokładnie jeden powód, który może to uzasadniać. W wielu przypadkach – choć nie zawsze, bo zależy to od konkretnej budowy i kształtu pomieszczeń – wylewka anhydrytowa pozwala uniknąć dylatacji w dużych wnętrzach, na przykład w przestronnym salonie. W przypadku wylewek cementowo-piaskowych konieczność wykonania dylatacji jest zdecydowanie częstsza. Jeśli perspektywa dylatacji biegnącej przez środek salonu jest dla Was nie do zaakceptowania, anhydryt może być rozwiązaniem.</p>
+<p data-source-id="C018">W salonie, sypialniach, gabinetach, pokojach dzieci, korytarzu i jadalni odpowiedz mojej ksiazki jest rownie jednoznaczna: <strong>w pomieszczeniach mieszkalnych dobrym wyborem sa tynki gipsowe</strong> <em>[book: czesc-09, lines 138-138]</em>.</p>
 
-<p style="text-align: justify;">Zanim jednak podejmiecie decyzję, weźcie pod uwagę trzy dodatkowe kwestie. Po pierwsze – grubość wylewki. Przy anhydrycie celujemy w minimum 5 cm, podczas gdy standardowa wylewka cementowo-piaskowa ma 6 cm, ale przy odpowiednio mniejszej warstwie styropianu pod spodem proporcje się wyrównują. Po drugie – niektórzy producenci anhydrytu wymagają szlifowania wylewki po wyschnięciu w celu usunięcia wierzchniej warstwy tak zwanego mleczka. To dodatkowy koszt i dodatkowy etap prac. Po trzecie, i to jest kluczowe – anhydryt jest wrażliwy na wilgoć. Nie powinniście go stosować w łazienkach, kuchniach, pralniach ani kotłowniach. Jeśli decydujecie się na anhydryt w pozostałych pomieszczeniach, wymaga on bardzo starannego uszczelnienia – folia, taśmy dylatacyjne z tak zwanym fartuchem – żeby wilgoć z betonu styropianu czy gruntu nie miała do niego dostępu.</p>
+<p>Powodow jest piec. Po pierwsze — szybkosc. Gipsowy schnie 10-14 dni, cementowo-wapienny 28. Roznica wplywa na harmonogram calej budowy. Po drugie — komfort cieplny. Nizszy wspolczynnik przewodzenia ciepla oznacza ze sciana nie wyciaga ciepla z pomieszczenia, latwiej utrzymac stabilna temperature, koszty ogrzewania nieznacznie nizsze. Po trzecie — komfort akustyczny. Gips jako material miekszy nieznacznie tlumi dzwiek wewnatrz pomieszczenia. Po czwarte — regulacja wilgotnosci. Gips pochlania nadmiar pary wodnej z powietrza, oddaje ja gdy powietrze suche. To istotne zwlaszcza zima, gdy ogrzewanie wysusza pomieszczenia.</p>
 
-<p style="text-align: justify;">Wylewka cementowo-piaskowa to rozwiązanie, które polecam zdecydowanej większości inwestorów. Jest tańsza, sprawdzona, uniwersalna i nie boi się wilgoci. Standardowa grubość to 6 cm w pomieszczeniach mieszkalnych. W garażu, domowej siłowni czy kotłowni (jeśli na podłodze stanie zasobnik ciepłej wody) warto zwiększyć grubość do 8–10 cm. Pamiętajcie, że w miejscach z grubszą wylewką automatycznie odejmujecie centymetry z warstwy styropianu – trzeba to uwzględnić przy pomiarach.</p>
+<p>Po piate — lepsze podloze pod gladz i farbe. Gips jest gladszy z natury, wymaga cienszej warstwy gladzi, latwiej osiaga klase wykonczeniowa Q3 (idealna pod farby matowe) i Q4 (idealna pod farby satynowe i podswietlenie LED).</p>
 
-<h2>Dylatacje – konieczność, nie opcja</h2>
+<p>W standardowym domu jednorodzinnym 70-80% powierzchni tynkowanej to pomieszczenia mieszkalne, 20-30% to mokre. Dlatego wlasnie tak czesto domy konczy sie tynkujac w "miksie" — gipsowy w glownej czesci, cementowo-wapienny w lazienkach.</p>
 
-<p style="text-align: justify;">Dylatacje to szczeliny w posadzce, które chronią ją przed pękaniem. Beton pracuje – kurczy się, rozszerza pod wpływem temperatury, reaguje na naprężenia. Dylatacja daje mu przestrzeń do tej „pracy”, dzięki czemu naprężenia rozładowują się w kontrolowany sposób, zamiast prowadzić do nieregularnych pęknięć.</p>
+<h2>Garaz, kotlownia, pomieszczenia gospodarcze — twardy material</h2>
 
-<p style="text-align: justify;">Dylatacje są obowiązkowe w kilku miejscach: w otworach drzwiowych pomiędzy pomieszczeniami, przy nieregularnych kształtach posadzki i w dużych pomieszczeniach. Dokładne rozmieszczenie powinno być naniesione na rysunek, który przygotowujecie wspólnie z kierownikiem budowy i przekazujecie ekipie wylewkarskiej. Nie zostawiajcie tej decyzji wylewkarzom – to Wy będziecie z efektem żyć przez następne dziesięciolecia.</p>
+<p>Tutaj decyzja jest najprostsza. <strong>Cementowo-wapienny w klasie CS III lub CS IV.</strong> Powodow jest kilka i zaden z nich nie dotyczy tylko wilgoci.</p>
 
-<p style="text-align: justify;">I tu najważniejsza zasada, od której nie ma odstępstw: dylatację z wylewki trzeba „przenieść” na gotową okładzinę podłogową. Jeśli na podłodze macie dylatację, to dokładnie w tym samym miejscu musi ona być na gotowej posadzce z płytek. Czasem wiąże się to z przecięciem płytki w miejscu dylatacji, żeby znalazła się tam fuga. Zalepienie dylatacji i udawanie, że jej nie ma, to proszenie się o pęknięcia płytek.</p>
+<p>Po pierwsze: garaz. Drzwi samochodowe trzaskane delikatnie zostawiaja slad na cementowo-wapiennym, ale na gipsie zrobia wglebienie. Wozek dziecka, narzedzia rzucone na sciane, rower oparty kierownica — wszystko to gips zniszczy w ciagu dwoch lat. Cementowo-wapienny przezyje 30 lat bez sladow.</p>
 
-<p style="text-align: justify;">Jeśli macie ogrzewanie podłogowe, w miejscach dylatacji rurki grzewcze powinny przechodzić w peszlach – rurkach ochronnych z tworzywa. Peszle chronią rury przed uszkodzeniem na krawędzi dylatacji, która pracuje i przesuwa się w trakcie użytkowania.</p>
+<p>Po drugie: kotlownia. Wbrew pozorom kotlownia z pompa ciepla powietrze-woda lub kotlem gazowym ma okresowo podwyzszona wilgotnosc — przy serwisie, przy wymianie zasobnika CWU, przy wycieku. Cementowo-wapienny radzi sobie z tym bez problemu.</p>
 
-<p style="text-align: justify;">Rozumiem, że dylatacja biegnąca przez salon czy przedpokój nie jest estetyczna. Jeśli bardzo chcecie jej uniknąć, macie dwa wyjścia. Pierwsze to zastosowanie wylewki anhydrytowej, o czym pisałem wyżej – pozwala na wykonanie bez dylatacji znacznie większych powierzchni. Drugie to specjalne maty kompensacyjne, które układa się na całej powierzchni pod płytkami. Maty te „odcinają” płytki od pracującej posadzki. Są jednak kosztowne, bo muszą pokrywać całą powierzchnię pomieszczenia, nie tylko linię dylatacji. Obie metody mają swoje ograniczenia i koszty, więc warto dobrze się zastanowić, zanim zdecydujecie.</p>
+<p>Po trzecie: pomieszczenia gospodarcze, spizarnie, "pakamery" pod schodami. Tu czesto wieszane sa polki, regaly, narzedzia. Sruba w gipsie po roku przy obciazeniu zaczyna sie luzowac. Sruba w cementowo-wapiennym z kolkiem rozporowym trzyma jak nalezy.</p>
 
-<h2>Pielęgnacja wylewki – cierpliwość się opłaci</h2>
+<p>Po czwarte: piwnica (jesli budujecie z piwnica). Zawsze cementowo-wapienny z odpowiednia hydroizolacja od strony gruntu. Gips w piwnicy to w 99% przypadkow recepta na grzyba w okolicy poziomu zero.</p>
 
-<p style="text-align: justify;">Wylewka cementowo-piaskowa, jak każdy beton, teoretycznie wiąże przez 28 dni. Przed upływem tego czasu nie wolno uruchamiać ogrzewania podłogowego, bo wylewka wyschnie, zanim w pełni się zwiąże – a w efekcie będzie zbyt słaba.</p>
+<h2>Tynk maszynowy — co to dokladnie znaczy i jak wybrac wykonawce</h2>
 
-<p style="text-align: justify;">Jeśli wykonujecie wylewki latem, zwróćcie szczególną uwagę, żeby nie wyschły zbyt szybko. Paradoks betonu polega na tym, że potrzebuje wilgoci do prawidłowego wiązania – zbyt szybkie wyschnięcie osłabia go zamiast wzmacniać. Najłatwiej temu zapobiec, rozkładając na całej podłodze czarną folię budowlaną lub folię malarską. Zazwyczaj już na drugi dzień po wykonaniu wylewek można ostrożnie po nich chodzić, żeby rozłożyć folię. Warto, żeby folia została na wylewkach przynajmniej tydzień, a jeśli trwa fala upałów – nawet dłużej.</p>
+<p>Pojecie "tynk maszynowy" w polskiej praktyce budowlanej jest niemal synonimem tynku gipsowego. To dlatego ze gipsowe tynki maszynowe sa od 15 lat absolutnie dominujacym rozwiazaniem dla pomieszczen mieszkalnych. Cementowo-wapienne maszynowe tez istnieja, ale ekipy specjalizujace sie w nich sa rzadsze i drozsze.</p>
 
-<p style="text-align: justify;">Co się stanie, jeśli zignorujecie te zalecenia i zamiast folii otworzycie okna na oścież, tworząc przeciąg? Wylewka może popękać albo nawet się odkształcić – w narożnikach beton potrafi się unieść, bo wierzchnia warstwa kurczy się szybciej niż spód. Naprawa takiej wylewki to poważny koszt i duże opóźnienie.</p>
+<p data-source-id="C034">Standardem rynkowym dla tynkow maszynowych jest agregat typu <strong>PFT</strong> (najczesciej w wersjach G4 lub G5). To duza maszyna stojaca w pomieszczeniu albo na zewnatrz, do ktorej wsypuje sie suchy worek tynku, woda dolacza sie z weza, a na koncu drugiego weza znajduje sie lanca z dysza, przez ktora tynkarz "natryskuje" mieszanke na sciane. Ekipa to zwykle dwie-trzy osoby: jeden obsluguje agregat, drugi natryskuje, trzeci szpachluje swiezy tynk lata.</p>
 
-<h2>Wygrzewanie wylewek – protokół, którego nie wolno pominąć</h2>
+<p>Jakie pytania zadac wybierajac wykonawce? Te:</p>
 
-<p style="text-align: justify;">Jeśli w Waszym domu jest ogrzewanie podłogowe, to po upływie minimum 28 dni od wykonania wylewek musicie je wygrzać. Można to zrobić później, ale zawsze przed ułożeniem gotowych podłóg. Ten etap jest obowiązkowy i ma dwa cele.</p>
+<ul>
+<li>Jakim systemem tynku pracujecie? (Knauf, Atlas, Baumit, Cekol, Dolina Nidy — kazdy ma inne karty techniczne, inne czasy schniecia, inne wymagania)</li>
+<li>Czy zapewniacie material, czy ja go organizuje? (Ekipa "swoje" rozwiazanie ma najczesciej najtansze, ale uwazajcie na nieznane marki)</li>
+<li>Ile zalogi pracuje? Jak dlugo dziala firma? Czy mozecie pokazac trzy zrealizowane budowy z ostatniego roku?</li>
+<li>Jak wygladaja Wasze naroznikow? (Aluminiowe siatkowe? Pcv? Tylko ostry naroznik bez wzmocnienia?)</li>
+<li>Czy w cenie jest tynkowanie narozy okiennych, drzwiowych, parapetow?</li>
+<li>Czy w cenie sa pasy podsufitowe wymagajace rusztowania? (Niektorzy doliczaja)</li>
+<li>Jak rozwiazujecie kwestie wilgotnosci podloza i temperatury w pomieszczeniach? (Pytanie kontrolne — sprawdzicie czy ekipa zna karty techniczne)</li>
+</ul>
 
-<p style="text-align: justify;">Pierwszy – dosuszenie wylewki. Nawet po czterech tygodniach w posadzce pozostaje nadmiar wilgoci, który trzeba usunąć przed kładzeniem podłogi. Wilgoć zamknięta pod płytkami czy panelami to recepta na pleśń i odpadające okładziny.</p>
+<h2>Co po tynku? Decyzja o gladzi gipsowej</h2>
 
-<p style="text-align: justify;">Drugi cel jest mniej oczywisty, ale równie ważny – kontrolowane pękanie. Każdy beton ma w sobie naprężenia. Niektóre z nich są silniejsze niż wytrzymałość samego betonu i w efekcie na wylewce pojawiają się rysy skurczowe. To zjawisko zupełnie naturalne. Chcemy, żeby te pęknięcia pojawiły się teraz – podczas wygrzewania – a nie po położeniu płytek. Rysa skurczowa powstająca pod gotową posadzką może spowodować pęknięcie nie tylko betonu, ale też przyklejonej do niego płytki.</p>
+<p data-source-id="C035">Najczestszy mit, jaki slysze od inwestorow, to „tynk pod malowanie". W ksiazce pisze wprost — to mit <em>[book: czesc-09, lines 126-127]</em>. <strong>Aby uzyskac efekt idealnie gladkiej sciany pod malowanie, na tynku nalezy dodatkowo wykonac <a href="https://pozytywniezbudowani.pl/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic/">gladz gipsowa</a>.</strong></p>
 
-<p style="text-align: justify;">Jak przeprowadzić wygrzewanie? Procedura jest prosta, ale wymaga systematyczności. Zaczynamy od uruchomienia ogrzewania z temperaturą wody o 5–10 stopni wyższą niż temperatura wewnątrz budynku. Latem może się okazać, że startujecie od 35–40°C, zimą – od minimalnej wartości, jaką daje Wasze urządzenie grzewcze. Tę temperaturę utrzymujecie przez dwa dni, żeby cała wylewka równomiernie się nagrzała. Następnie co dwa dni zwiększacie temperaturę o 5 stopni, aż dojdziecie przynajmniej do 45°C.</p>
+<p data-source-id="C027">Powod jest fizyczny i nie ma od niego ucieczki. <strong>Tynki gipsowe nigdy nie beda tak gladkie jak gladzie gipsowe — wynika to z wiekszego uziarnienia tynku</strong>. Drobinki tynku to grubsze ziarna; drobinki gladzi to bardzo drobny proszek. Nawet gdy zeszlifujemy tynk gipsowy do polyski, ma on wciaz strukture porowata.</p>
 
-<p style="text-align: justify;">W trakcie wygrzewania na podłodze nie powinny leżeć przedmioty ograniczające odparowywanie – płyty gipsowe ułożone płasko, folie, palety z materiałami. Wietrzcie pomieszczenia, ale unikajcie przeciągów. Chodzi o to, żeby wilgoć mogła spokojnie odparować, nie o to, żeby ją „wydmuchać”.</p>
+<p data-source-id="C006">Kolejna roznica to grubosc warstwy. <strong>Gladz wiekszosci producentow naklada sie w warstwach maksymalnie 2-3 mm</strong>. Tynk to 8-15 mm. Te warstwy maja inne zadanie — tynk wyrownuje sciane, gladz nadaje powierzchni perfekcje pod farbe.</p>
 
-<p style="text-align: justify;">O ile rysy skurczowe nie są duże, nie trzeba ich naprawiać. Jeśli jednak wylewka pęknie w nietypowy sposób – pęknięcie jest wyraźnie większe od pozostałych – warto skonsultować się z kierownikiem budowy. Poważniejsze rysy można naprawić przez „zszycie” żywicą, a taką naprawę najczęściej wykonuje w ramach reklamacji firma, która robiła wylewki.</p>
+<p>W praktyce wykonawczej oznacza to ze pelne wykonczenie sciany pod malowanie sklada sie z: muru, tynku (8-15 mm), gruntu, gladzi (1-3 mm w dwoch przejsciach), gruntu, farby (2 warstwy). To szesc warstw materialowych, kazda z innym przeznaczeniem. Pomijanie ktoregokolwiek etapu zostawia slady na gotowej scianie.</p>
 
-<p style="text-align: justify;">Jeszcze jedno – zanim zaczniecie klejenie płytek na wylewce z ogrzewaniem podłogowym, ogrzewanie w danym pomieszczeniu musi być wyłączone przez minimum 48 godzin. Klejenie na ciepłej posadzce to ryzyko, że klej zwiąże zbyt szybko i nie uzyska pełnej przyczepności.</p>
+<p>Dla porownania pod plytki (lazienka, kuchnia) wystarcza tynk + grunt + klej + plytka. Cztery warstwy, pomijamy gladz. Pod tapete papierowa potrzebujemy gladzi (tapeta uwidoczni kazdy mostek tynku). Pod tapete winylowa grubsza moze starczyc dobrze wyszpachlowany tynk — ale lepiej i tu zrobic gladz.</p>
 
-<h2>O czym jeszcze warto pamiętać</h2>
+<h2>Najpierw tynki czy najpierw wylewki — jednoznaczna odpowiedz</h2>
 
-<p style="text-align: justify;">Na etapie wylewek warto już wiedzieć, czym wykończone będą podłogi w poszczególnych pomieszczeniach. Różne materiały mają różne grubości – płytki z klejem to zupełnie co innego niż panele winylowe czy posadzka żywiczna. Największe różnice dotyczą właśnie paneli winylowych i posadzek żywicznych, które są na tyle cienkie, że pomiędzy nimi a płytkami w sąsiednim pomieszczeniu może powstać próg rzędu 1,5 cm. Jeśli to dotyczy Waszego domu, wylewkarz powinien wykonać wylewkę o różnych wysokościach, żeby gotowe podłogi wyszły na jeden poziom.</p>
+<p data-source-id="C015">To pytanie slysze najczesciej w trakcie planowania harmonogramu wykonczeniowego. Moja odpowiedz, opisana w ksiazce, jest jednoznaczna: <strong>jako pierwsze nalezy wykonac tynki. Pod wzgledem technologicznym robienie najpierw wylewek nie ma sensu</strong> <em>[book: czesc-09, lines 139-145]</em>. Pelna argumentacja techniczna (cztery powody po kolei — zabrudzenie wylewki, newralgiczna krawedz przy listwach, uszkodzenia przy sprzataniu, trudnosc manewrowania lata) rozpisuje szerzej w artykule o <a href="https://pozytywniezbudowani.pl/blog/tynki-maszynowe-gipsowe-jak-wykonac/">tynkach maszynowych gipsowych</a> — tutaj zostawiam sama zasade.</p>
 
-<p style="text-align: justify;">W przypadku standardowego połączenia płytki–panele (zwykłe, na podkładzie) lub płytki–deska podłogowa różnice grubości są na tyle niewielkie, że zwykła listwa progowa je zniweluje bez problemu. Ale jeśli planujecie panele winylowe SPC w salonie obok płytek w przedpokoju – porozmawiajcie z wylewkarzem o kompensacji grubości, zanim zacznie pracę.</p>
+<p>Po tynkach przyjdzie czas na wylewki podlogowe — i tu tez decyduje sie harmonogram calej wykonczeniowki. Sam wybor technologii omawiam w artykule o <a href="https://pozytywniezbudowani.pl/blog/wylewki-podlogowe-anhydrytowe-czy-cementowe/">wylewkach anhydrytowych i cementowych</a>, a zasady doboru grubosci i warstw pod podlogowke — w tekscie o <a href="https://pozytywniezbudowani.pl/blog/wylewka-na-ogrzewanie-podlogowe-grubosc-i-rodzaj/">wylewce pod ogrzewanie podlogowe</a>.</p>
 
-<h2>Tynki i wylewki – fundament pod wszystko, co zobaczycie</h2>
+<p>Trzeba tez pamietac o dwoch newralgicznych aspektach wylewki, ktore beda miec konsekwencje na dekady uzytkowania domu. Pierwszy to <a href="https://pozytywniezbudowani.pl/blog/dylatacje-w-wylewkach-kiedy-i-jak-wykonac/">dylatacje w wylewkach</a> — bez nich posadzka peknie w losowym miejscu, zamiast w zaplanowanym. Drugi to cierpliwosc podczas <a href="https://pozytywniezbudowani.pl/blog/schniecie-wylewki-kiedy-mozna-klasc-podloge/">schniecia wylewki</a> — prog wilgotnosci przed ulozeniem paneli czy plytek to nie ta sama granica co przy tynku.</p>
 
-<p style="text-align: justify;">Tynki i wylewki to etap, na którym nie widać efektownych zmian – dom nie rośnie w górę, nie pokrywa się dachem, nie zyskuje okien. Ale to właśnie teraz powstaje fundament dla wszystkiego, co będziecie widzieć i czuć pod stopami przez następne kilkadziesiąt lat. Tynk gipsowy w pomieszczeniach mieszkalnych, cementowo-wapienny tam, gdzie jest wilgotno i narażono na uszkodzenia. Tynki przed wylewkami, nie odwrotnie. Wylewka cementowo-piaskowa jako bezpieczny standard, anhydryt jako świadomy wybór dla tych, którzy chcą uniknąć dylatacji w dużych otwartych przestrzeniach. Cierpliwe wygrzewanie po 28 dniach, bez skrótów i pośpiechu. Każdy z tych elementów to osobny temat, który szczegółowo rozwijam w kolejnych artykułach tego cyklu. Tu chciałem dać Wam pełny obraz – żebyście wiedzieli, co Was czeka, i mogli podejmować decyzje ze zrozumieniem konsekwencji.</p>
+<p data-source-id="C016">Podobna zasada dotyczy <strong>parapetow — osadzac je nalezy po tynkowaniu, nie przed</strong>. Kazdy wystajacy ze sciany element powoduje, ze tynkarzom trudniej obrabiac sciane lata. Plaska powierzchnia bez przeszkod = ladnie wytynkowana sciana. Parapet pod oknem zamontowany przed tynkowaniem = zgrubienia po obu stronach okna, fale, niemozliwosc precyzyjnego wyrownania.</p>
+
+<h2>Odbior tynku — kryteria z normy PN-B-10110:2024-11</h2>
+
+<p data-source-id="C010">Dla tynkow gipsowych wykonywanych mechanicznie — a to jest dzis dominujace rozwiazanie w pomieszczeniach mieszkalnych — obowiazuje norma <strong>PN-B-10110:2024-11 "Tynki gipsowe wykonywane mechanicznie — Zasady wykonywania i wymagania techniczne"</strong>. Zastapila ona starsza wersje PN-B-10110:2005 (wycofana 26.11.2024), ktora obowiazywala przez prawie 20 lat. Aktualizacja z 2024 roku doprecyzowala kryteria odbiorowe, uwzglednila klasyfikacje warunkow wilgotnosciowych i dokladniej opisala metody pomiaru.</p>
+
+<p>Dla tynkow cementowo-wapiennych wymagania materialowe okresla PN-EN 998-1, a uzupelniajaco w zakresie odbioru stosuje sie PN-B-10100. W praktyce kryteria odbiorowe (odchylki od plaszczyzny, pionu, kata) sa bardzo zblizone — ponizej opisuje te z PN-B-10110, bo to one najczesciej pojawiaja sie w protokolach odbiorczych domow jednorodzinnych.</p>
+
+<p data-source-id="C028">Cytuje z ksiazki wprost: <strong>odbior nalezy przeprowadzac przy naturalnym swietle, z uzyciem poziomicy lub laty o dlugosci 2 m</strong> <em>[book: czesc-09, lines 129-129]</em>. Naturalne swiatlo, nie smugowa lampa LED. Zaden tynk na swiecie nie wytrzyma odbiore lampa pod katem 5° — bo widac wtedy kazda mikronierownosc, ktorej nikt nigdy nie zobaczy w normalnych warunkach uzytkowania domu.</p>
+
+<p>Konieczne narzedzia odbiorowe to: lata aluminiowa 2 m (mozecie kupic za kilkadziesiat zlotych), katownik o dlugosci ramienia 1 m, szczelinomierz klinowy do mierzenia odchylek, poziomica wodna albo laser krzyzowy. Laser znacznie ulatwia kontrole pionu w pomieszczeniach o wysokosci powyzej 3 m.</p>
+
+<h3>Cztery pomiary odbiorowe z normy</h3>
+
+<p data-source-id="C011">Po pierwsze — <strong>odchylenia od plaszczyzny</strong>. Po przylozeniu dwumetrowej laty do sciany szczelina miedzy lata a tynkiem nie powinna przekraczac <strong>5 mm</strong>, a takich odchylen na dlugosci laty nie powinno byc wiecej niz <strong>3</strong>.</p>
+
+<p data-source-id="C012">Po drugie — <strong>odchylenie od pionu</strong>. Nie moze wynosic wiecej niz <strong>3 mm na 1 m</strong>, a lacznie: <strong>6 mm w pomieszczeniach o wysokosci do 3,5 m</strong> oraz <strong>8 mm w pomieszczeniach powyzej 3,5 m</strong>.</p>
+
+<p data-source-id="C013">Po trzecie — <strong>grubosc tynku na suficie nie powinna byc wieksza niz 15 mm</strong>. Powod jest fizyczny: ciezki tynk w gornej czesci pomieszczenia tworzy ryzyko, ze "kiedys spadnie".</p>
+
+<p data-source-id="C014">Po czwarte — <strong>kat prosty</strong>. Szczelina miedzy katownikiem o dlugosci ramienia 1 m a powierzchnia tynku nie powinna przekraczac <strong>4 mm</strong>.</p>
+
+<p data-source-id="C030">Gdy odchylenie od kata prostego jest istotne, czesto nie jest to wina tynkarzy. <strong>Krzywe sciany murowane nie zawsze daja sie naprawic na etapie tynkowania — tynkarze nie sa w stanie naprawic odchylen scian od kata prostego</strong>. To zadanie murarzy. Jesli przy odbiorze macie 8-10 mm szczeliny w katowniku, zrobcie zdjecia i sprawdzcie, czy problem nie jest w warstwie pod tynkiem.</p>
+
+<p data-source-id="C029">Podczas odbioru zwracajcie szczegolna uwage na newralgiczne miejsca: <strong>obszary wokol otworow drzwiowych oraz okolice poziomu zero</strong>. Po zamontowaniu opasek drzwiowych kazda krzywizna w okolicy futryny bedzie widoczna jak na dloni. Po zamontowaniu listew przypodlogowych falowanie tynku przy posadzce bedzie pierwsza rzecza, ktora rzuci sie w oczy. To wlasnie te dwa obszary najczesciej wymagaja korekty.</p>
+
+<h2>Wilgotnosc tynku przed kolejnymi pracami — czego NIE robic</h2>
+
+<p data-source-id="C019">Po wykonaniu tynku trzeba mu dac czas na schniecie. <strong>Tynk gipsowy uznawany jest za suchy gdy wilgotnosc spadnie do 2,5%; przed malowaniem nie powinna przekraczac 1%</strong>. Powyzej tej granicy farba "nie chwyci" — bedzie sie luszczyc, pojawia sie wykwity solne, w skrajnych przypadkach grzyb pod warstwa farby.</p>
+
+<p data-source-id="C020">Standardowo to zajmuje <strong>10-14 dni przy temperaturze okolo 18°C i wilgotnosci powietrza 60-70%</strong>. Latem przy +25°C i niskiej wilgotnosci szybciej (7-10 dni). Zima w zimnym pomieszczeniu, gdy budowa nie jest ogrzana — moze byc 21 dni i wiecej. Zlecenie pomiaru wilgotnosci tynku przed gladzia, malowaniem albo plytkami warto rozwazyc — to jedno z tanszych zabezpieczen jakosciowych.</p>
+
+<p data-source-id="C022">Profesjonalny pomiar wilgotnosci wykonuje sie albo metoda karbidowa (CM) — najdokladniejsza polowa, gdzie kawalek tynku miesza sie z karbidem wapnia i mierzy cisnienie powstajacego acetylenu — albo wilgotnosciomierzem pojemnosciowym, ktory jest bezinwazyjny. Pomiar wykonuje sie na wysokosci okolo 50 cm od posadzki, pobierajac 6-10 probek z roznych miejsc. Pelny opis procedury z krokami i porownaniem metod omawiam w osobnym artykule o <a href="https://pozytywniezbudowani.pl/blog/schniecie-tynkow-ile-trwa-naprawde/">schnieciu tynkow</a>.</p>
+
+<p data-source-id="C037">Bardzo czesty blad inwestorow to proba przyspieszenia schniecia. <strong>Nigdy nie wolno przyspieszac suszenia tynku nagrzewnicami spalinowymi bez odprowadzenia spalin (typu gazowe propan-butan) — gazy spalinowe (CO2, NOx) i para wodna z procesu spalania wracaja na sciane powodujac wykwity, plamy i opozniajac schniecie zamiast je przyspieszyc.</strong> Dopuszczalne sa nagrzewnice elektryczne lub olejowe z prawidlowym odprowadzeniem spalin przez komin, a takze naturalne suszenie z prawidlowa wentylacja. Szczegolowe porownanie rodzajow nagrzewnic rozpisuje w artykule o schniecu tynkow.</p>
+
+<p>Pamietajcie tez ze schniecie nie polega na "wyprowadzeniu wody" w sensie czysto fizycznym. W tynku zachodza reakcje chemiczne wiazania spoiwa — gips wiaze przez krystalizacje, cement przez hydratacje. Zbyt szybkie odparowanie wody na tym etapie powoduje, ze reakcje nie zaszly do konca i tynk pozostaje slabszy niz powinien.</p>
+
+<h2>Najczestsze bledy wykonawcze — czerwone flagi na odbiorze</h2>
+
+<p>To najczestsze bledy, ktore widze na budowach klientow. Spisuje je razem z kontrolami, ktore powinniscie zrobic.</p>
+
+<p><strong>1. Tynk nakladany w zlej temperaturze.</strong> Producenci wymagaja temperatury w pomieszczeniu od +5°C do +30°C podczas tynkowania i przez minimum 3 dni po. Jesli na budowie mrozno (zima bez ogrzewania) — tynk nie zwiaze prawidlowo. Jesli upal +35°C — tynk wyschnie zanim zwiaze. Sprawdzcie termometr w pomieszczeniu, nie ustnie informacje od ekipy.</p>
+
+<p data-source-id="C036"><strong>2. Brak naroznikow aluminiowych.</strong> Naroznikow aluminiowych z siatka <strong>nie wolno pomijac na narozach wypuklych — bez nich krawedzie sa nieostre, falowane i podatne na uszkodzenia mechaniczne</strong>. Standard branzowy to naroznik aluminiowy z siatka wtopiona w tynk na obu skrzydlach. Niektorzy stosuja naroznik PCV — to gorsze rozwiazanie ale jeszcze akceptowalne. Brak naroznika to dyskwalifikacja jakosciowa.</p>
+
+<p data-source-id="C039"><strong>3. Tynkowanie przed zakonczeniem instalacji.</strong> Zasada jest prosta: <strong>najpierw instalacje na scianach (kable elektryczne w bruzdach, rury podtynkowe wodne i kanalizacyjne, rury centralnego odkurzacza), potem tynk.</strong> Kucie po tynku to katastrofa estetyczna — kazda bruzda widoczna pod farba, kazda lata gipsu inna niz oryginalna. Sprawdzcie czy elektryk i hydraulik zakonczyli swoje prace ZANIM tynkarze przyjada.</p>
+
+<p data-source-id="C040"><strong>4. Otwory na puszki elektryczne wykonane mlotkiem.</strong> Standardem wykonawczym jest <strong>koronowka diamentowa o srednicy 67 mm (puszki standardowe) lub 82 mm (puszki gleboksze) na wiertarce udarowej. Nigdy mlotkiem.</strong> Kucie psuje strukture wokol otworu, puszka nie pasuje precyzyjnie, wokol pojawiaja sie pekniecia. Otwory wykonuje sie po tynkowaniu, przed bialym montazem.</p>
+
+<p><strong>5. Zbyt cienka warstwa tynku w okolicy poziomu zero.</strong> Jesli tynk konczy sie 2 cm nad chudziakiem, listwa przypodlogowa zostawi widoczna szpare. Standard to tynk az do poziomu posadzki gotowej, czyli przewidywanej grubosci wylewki + okladziny.</p>
+
+<p><strong>6. Tynkowanie wokol zamontowanych parapetow.</strong> Wracam do tej zasady — parapety osadza sie po. Ekipa, ktora "tynkuje wokol", oszczedza sobie etapu, ale Wam zostawia obrobione zgrubienia.</p>
+
+<p><strong>7. Brak dylatacji w miejscach zmiany materialu podloza.</strong> Jesli sciana jest czesciowo z pustaka ceramicznego, czesciowo z gazobetonu, na styku materialow trzeba zastosowac siatke wzmacniajaca i dylatacje. Bez tego pekniecie pojawi sie po pierwszym sezonie grzewczym.</p>
+
+<p><strong>8. Zbyt mocne szlifowanie psujace strukture.</strong> Tynk gipsowy mozna delikatnie szlifowac papierem 120-150, zeby usunac drobne nierownosci. Szlifowanie agresywne grubym papierem 60-80 zniszczy spojnosc warstwy zewnetrznej. Sprawdzcie czy ekipa szlifuje papierem o odpowiedniej gradacji.</p>
+
+<h2>Cena tynku — czego NIE bede podawac i dlaczego</h2>
+
+<p>Konsekwentnie nie podaje na blogu konkretnych cen rynkowych za m² tynku. Przyczyny sa trzy. Po pierwsze — ceny zmieniaja sie z miesiaca na miesiac w zaleznosci od cen surowcow (cement, gips, energia), a artykul musi byc aktualny przez lata. Po drugie — ceny roznia sie regionalnie nawet trzykrotnie miedzy wiekszymi miastami a peryferiami. Po trzecie — kazda budowa jest inna i konkretna wycena zalezy od dziesiatek czynnikow.</p>
+
+<p>Co wplywa na cene tynku za m² w Waszej wycenie? Przede wszystkim laczna powierzchnia do tynkowania (im wieksza, tym cena jednostkowa nizsza) oraz zlozonosc geometryczna — duzo malych pomieszczen zawsze jest drozsze niz jeden duzy salon o tej samej powierzchni. Wysokosc pomieszczen powyzej 3 m wymusza rusztowania, co wplywa na cene. Liczba narozników, parapetow i okien tez zwieksza obmiar (wokol kazdego okna obrobka tynkarska). Klasa CS przy cementowo-wapiennych, wybor producenta przy gipsowych, dostepnosc dzialki dla agregatu, lokalizacja ekipy i sezon (zima i lato wakacyjne drozej niz wiosna i wczesna jesien) — to wszystko moduluje wycene. Istotne jest tez, czy ekipa zapewnia material, czy Wy go organizujecie.</p>
+
+<p>Sygnaly ostrzegawcze przy bardzo niskich ofertach: brak deklaracji systemu (jaki konkretnie tynk?), brak narozników aluminiowych w cenie, brak ubezpieczenia ekipy, niejasne rozliczenie m² (z naroznikami czy bez), brak gwarancji. Tania oferta na poczatku potrafi sie skonczyc dwukrotnie wyzszym kosztem ostatecznym przez doplaty i poprawki.</p>
+
+<h2>Mieszanka rozwiazan — gips i cementowo-wapienny w jednym domu</h2>
+
+<p>To najczestszy scenariusz w polskich domach jednorodzinnych — i najbardziej rozsadny. W jednej budowie spotykaja sie obie rodziny tynkow. W pomieszczeniach mieszkalnych (salon, kuchnia poza pasem roboczym za blatem, jadalnia, sypialnie, gabinety, korytarze, garderoby, pokoje dzieci, przedpokoj) stosujemy gipsowy. W pomieszczeniach mokrych i obciazonych (wszystkie lazienki, pralnia, kotlownia, garaz, spizarnia, pomieszczenia gospodarcze, piwnica) — cementowo-wapienny. W strefach pelnego zalewania (pas roboczy w kuchni za zlewem, sciany kabiny prysznicowej, sciana wanny) — cementowo-wapienny razem z hydroizolacja w plynie.</p>
+
+<p>Jak skoordynowac dwie ekipy? Sa dwa podejscia. Pierwsze — jedna ekipa, ktora pracuje w obu systemach. Sa takie firmy, zwykle wieksze, z dwoma oddzielnymi brygadami. Tansze logistycznie, ale sprawdzcie czy obie brygady maja takie same standardy jakosciowe. Drugie podejscie — dwie ekipy, jedna od gipsu (najpierw, bo dluzej schnie kompletny dom), druga od cementowo-wapiennego. Drozsze logistycznie (mobilizacja dwoch ekip) ale czesto wyzsza jakosc per kategoria.</p>
+
+<p>U moich klientow czesciej widze pierwsze rozwiazanie (jedna firma, dwie brygady). Wymaga to jasnego zapisania w umowie, ktore pomieszczenia sa w jakim systemie. Bez takiego zapisania ekipa „z lenistwa" zrobi wszystko gipsem (bo szybciej i tansiej z perspektywy materialu) — i potem pretensje moga isc dopiero gdy w lazience pojawi sie wilgoc.</p>
+
+<h2>Podsumowanie — checklist przed odbiorem etapu tynkow</h2>
+
+<p>Inwestorzy najczesciej oddaja tynki za szybko, bo tynkarze ich pospieszaja („podpiszcie i zostawcie nas dalej pracowac"). To jeden z waznych odbiorow w calej budowie — wszystko, co przeoczycie, bedzie z Wami przez nastepne lata.</p>
+
+<p>Przygotowalem dla Was 12-punktowa liste kontrolna, do wziecia na odbior:</p>
+
+<ul>
+<li><strong>1.</strong> Czy w pomieszczeniach mokrych (lazienki, pralnia, kotlownia) tynk jest cementowo-wapienny? Sprawdzcie karte materialowa.</li>
+<li><strong>2.</strong> Czy w garazu zastosowano tynk klasy minimum CS III?</li>
+<li><strong>3.</strong> Czy grubosc tynku na suficie nie przekracza 15 mm? (Mozna sprawdzic w okolicy puszki sufitowej)</li>
+<li><strong>4.</strong> Czy odchylenie od plaszczyzny przy lacie 2 m nie przekracza 5 mm i nie wiecej niz 3 odchylenia na jednej lacie?</li>
+<li><strong>5.</strong> Czy odchylenie od pionu nie przekracza 3 mm/m i 6 mm lacznie w pomieszczeniach do 3,5 m (lub 8 mm lacznie powyzej 3,5 m)?</li>
+<li><strong>6.</strong> Czy wszystkie naroznikow wypuklych maja naroznik aluminiowy z siatka?</li>
+<li><strong>7.</strong> Czy okolice drzwi i poziomu zero sa rowne? (To najwidoczniejsze miejsca po wykonczeniu)</li>
+<li><strong>8.</strong> Czy wykonano dylatacje na styku roznych materialow podloza?</li>
+<li><strong>9.</strong> Czy parapety zostaly osadzone PO tynkowaniu, nie przed?</li>
+<li><strong>10.</strong> Czy wilgotnosc tynku jest pomierzona przed gladziami/malowaniem? (Gips: max 1% przed malowaniem, max 2,5% jako "suchy")</li>
+<li><strong>11.</strong> Czy ekipa udokumentowala odbior protokolem podpisanym wraz z kierownikiem budowy?</li>
+<li><strong>12.</strong> Czy macie zapisane w protokole gwarancje na tynk i na czas — a co najwazniejsze, jaka procedure reklamacyjna stosuje wykonawca?</li>
+</ul>
+
+<p>Tynk to nie etap „przejsciowy". To pierwsza warstwa, ktora widzicie codziennie przez nastepne 30 lat (pod farba albo pod plytkami, ale wciaz pod nimi). Decyzja o tym, czy w lazience zacznie kiedys rosnac plesn, czy w salonie sciana bedzie idealnie gladka pod farbe matowa, jest podejmowana wlasnie teraz, na tym etapie.</p>
+
+<p>Z tego pillara zapamietajcie najwazniejsze: <strong>gips w mieszkalnych, cementowo-wapienny w mokrych i obciazonych. Tynki przed wylewkami. Odbior z lata, normami i protokolem.</strong> Po tynku przyjdzie czas na gladzie, malowanie, plytki, bialy montaz w lazience — kazdy z tych etapow bedzie przedmiotem osobnych artykulow w klastrze „Tynki i wylewki" oraz „Wykonczenie scian". Ogolna mapa decyzji wykonczeniowych w domu jednorodzinnym — jak po sobie ukladac etapy, zeby jedna ekipa nie niszczyla roboty drugiej — znajduje sie w <a href="https://pozytywniezbudowani.pl/blog/kolejnosc-prac-wykonczeniowych-w-domu/">artykule o kolejnosci prac wykonczeniowych</a>.</p>
+
+<p>Jesli temat budowy domu jednorodzinnego od poczatku do konca interesuje Was szerzej, znajdziecie pelne uporzadkowanie procesu w mojej ksiazce „Od marzenia do wprowadzenia" — przewodniku po 600 stronach, gdzie kazdy etap budowy jest omowiony tak samo dokladnie jak ten artykul.</p>
