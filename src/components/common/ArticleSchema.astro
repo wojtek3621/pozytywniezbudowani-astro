@@ -38,6 +38,16 @@ const schema = {
     '@type': 'WebPage',
     '@id': url,
   },
+  mentions: [
+    {
+      '@type': 'Book',
+      name: 'Od Marzenia Do Wprowadzenia — Budowa domu jednorodzinnego',
+      author: { '@type': 'Person', name: 'Wojciech Tracichleb' },
+      url: 'https://pozytywniezbudowani.pl/ksiazka/',
+      publisher: { '@type': 'Organization', name: 'Vultima sp. z o.o.' },
+      isbn: '9788397505506',
+    },
+  ],
   ...(image ? { image } : {}),
 };
 ---
