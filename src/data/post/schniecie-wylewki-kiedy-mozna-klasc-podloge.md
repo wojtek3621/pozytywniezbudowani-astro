@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-25T21:06:45
-updateDate: 2026-04-25T21:06:54
+updateDate: 2026-04-25T21:06:45
 title: 'Schnięcie wylewki – kiedy można kłaść podłogę | Pozytywnie Zbudowani'
 excerpt: '28 dni to dopiero początek. Wyjaśniam kiedy naprawdę można kłaść panele, deskę i płytki – bez ryzyka.'
 image: '~/assets/images/blog/schniecie-wylewki-kiedy-mozna-klasc-podloge.jpeg'

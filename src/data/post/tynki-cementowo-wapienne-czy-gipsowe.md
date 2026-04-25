@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T17:59:09
-updateDate: 2026-04-25T21:06:54
+updateDate: 2026-04-25T21:06:45
 title: 'Tynki cementowo-wapienne czy gipsowe – co wybrać do domu'
 excerpt: 'Decyzja, która wpływa na harmonogram, koszt i komfort domu przez kolejne dziesięciolecia. Tłumaczę różnice bez ściemy.'
 image: '~/assets/images/blog/tynki-cementowo-wapienne-czy-gipsowe.jpeg'

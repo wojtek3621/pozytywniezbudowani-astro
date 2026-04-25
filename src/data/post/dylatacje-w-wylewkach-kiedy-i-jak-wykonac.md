@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-25T21:06:45
-updateDate: 2026-04-25T21:06:54
+updateDate: 2026-04-25T21:06:45
 title: 'Dylatacje w wylewkach – kiedy i jak je wykonać | Poradnik'
 excerpt: 'Dylatacja w złym miejscu albo jej brak to pęknięta wylewka i pęknięte płytki. Pokazuję, jak to zaplanować zanim przyjedzie miksokret.'
 image: '~/assets/images/blog/dylatacje-w-wylewkach-kiedy-i-jak-wykonac.jpeg'

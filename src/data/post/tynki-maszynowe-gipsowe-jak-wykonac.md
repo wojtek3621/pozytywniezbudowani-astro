@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-25T21:06:45
-updateDate: 2026-04-25T21:06:54
+updateDate: 2026-04-25T21:06:45
 title: 'Tynki maszynowe gipsowe – jak wykonać krok po kroku'
 excerpt: 'Tynki gipsowe to szybka, czysta i tania robota – ale tylko wtedy, gdy budowa jest do nich przygotowana. Pokazuję jak.'
 image: '~/assets/images/blog/tynki-maszynowe-gipsowe-jak-wykonac.jpeg'

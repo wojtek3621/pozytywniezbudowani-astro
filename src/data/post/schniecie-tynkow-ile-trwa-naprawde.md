@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-25T21:06:45
-updateDate: 2026-04-25T21:06:54
+updateDate: 2026-04-25T21:06:45
 title: 'Schnięcie tynków – ile trwa naprawdę i co realnie blokuje?'
 excerpt: 'Tynki schną 4–8 tygodni, ale blokują tylko trzy konkretne prace. Reszta budowy ma iść dalej.'
 image: '~/assets/images/blog/schniecie-tynkow-ile-trwa-naprawde.jpeg'

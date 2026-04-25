@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-25T21:06:45
-updateDate: 2026-04-25T21:06:54
+updateDate: 2026-04-25T21:06:45
 title: 'Wylewki anhydrytowe czy cementowe – co wybrać do domu'
 excerpt: 'Anhydryt droższy, ale rzadziej wymaga dylatacji. Wylewka cementowa tańsza i odporna na wilgoć. Co realnie wybrać?'
 image: '~/assets/images/blog/wylewki-podlogowe-anhydrytowe-czy-cementowe.jpeg'
