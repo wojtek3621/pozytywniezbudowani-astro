@@ -72,6 +72,73 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
     })}
   />
 
+  <!-- FAQPage JSON-LD — 7 Q/A 1:1 z sekcji #faq (linie 939-1090). Risk note: Google od sierpnia 2023 ograniczył rich results dla FAQ — schema zostaje dla semantic value, AI Overviews, Bing/Yandex/DDG. Re-add po debate I7 (P2 list, "inne sesje"). Audit: builds/audyty/2026-04-25-pz-tech-seo-deep-audit-rafal.md -->
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'Kiedy zacząć czytać tę książkę?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Im wcześniej, tym lepiej. Ta książka jest najcenniejsza ZANIM zaczniesz budowę — kiedy jeszcze masz wybór działki, projektu, technologii. Po pierwszym etapie wybory się zamykają. Jeśli planujesz budowę za rok lub dwa — to idealny moment na zakup.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Mam znajomego wykonawcę, on mi powie wszystko. Po co mi ta książka?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Wykonawca powie Ci jak zbudować to, co on zbuduje. Ja piszę z perspektywy INWESTORA — co kontrolować, o co pytać, czego nie robić. To dwie różne perspektywy. Nawet najlepszy GW jest stroną w umowie — Ty jesteś drugą. Musisz wiedzieć co podpisujesz.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Są darmowe artykuły w internecie. Dlaczego mam płacić?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Tak, są. Napisałem ich ponad 100 na moim blogu pozytywniezbudowani.pl — zapraszam do czytania za darmo. Ale budowa domu to nie pięć porad — to 608 stron powiązanych decyzji. Książka porządkuje to w jeden spójny przewodnik, od działki do wprowadzenia. Tego nie zrobisz składając artykuły ze 100 różnych źródeł.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: '608 stron to dużo. Przeczytam?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Nie musisz czytać od deski do deski. Książka jest podzielona na 86 krótkich rozdziałów — każdy to jedna konkretna decyzja (fundamenty? instalacja elektryczna? kredyt hipoteczny?). Otwierasz dokładnie to, czego potrzebujesz w danym tygodniu budowy. Używasz jak encyklopedii.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Czy jest wersja elektroniczna (ebook, PDF)?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Na ten moment dostępna jest tylko wersja papierowa. Fizyczna książka ma przewagi: można ją zabrać na budowę, robić notatki ołówkiem, wracać bez otwierania laptopa w błocie i pyle. Twarda oprawa jest zaprojektowana do pracy na placu.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Jak szybko dostanę książkę?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. W praktyce: zamawiasz dziś do południa — za kilka dni masz książkę w ręce.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Ile egzemplarzy sprzedaliście?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Ponad 2000 egzemplarzy od premiery. Książka jest też polecana przez portal Extradom.pl — największy serwis z projektami domów w Polsce. To nie jest kolejny e-book z internetu — to 608 stron drukowanych, twardych faktów zebranych przez 17 miesięcy pisania.',
+          },
+        },
+      ],
+    })}
+  />
+
   <!-- HERO SPLIT — dark bg, portret Wojtka, 4 value props, CTA -->
   <section class="bg-slate-900 py-16 md:py-24">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
@@ -928,7 +995,7 @@ const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/1560
     </div>
   </section>
 
-  <!-- FAQ — 7 pytań (P1, natywne details, BEZ FAQPage schema — debate I7) -->
+  <!-- FAQ — 7 pytań (P1, natywne details, FAQPage schema dodany w head — re-add po debate I7 P2, audit Rafała 2026-04-25) -->
   <section class="py-16 md:py-20" id="faq">
     <div class="max-w-3xl mx-auto px-4 sm:px-6">
       <div class="text-center mb-10">
