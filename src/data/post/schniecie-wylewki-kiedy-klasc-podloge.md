@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-17T21:27:16
-updateDate: 2026-05-17T21:27:16
-title: 'Schnięcie wylewki – kiedy można kłaść podłogę | PZ'
+updateDate: 2026-05-18T03:25:58
+title: 'Schnięcie wylewki – kiedy można kłaść podłogę'
 excerpt: 'Wylewka schnie inaczej niż się Wam wydaje. Wiązanie, wygrzewanie, pomiar CM – pokażę pełny harmonogram, nie tylko „28 dni".'
 image: '~/assets/images/blog/schniecie-wylewki-kiedy-klasc-podloge.jpeg'
 category: 'Blog'
@@ -12,7 +12,7 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/schniecie-wylewki-kiedy-klasc-podloge/'
-  title: 'Schnięcie wylewki – kiedy można kłaść podłogę | PZ'
+  title: 'Schnięcie wylewki – kiedy można kłaść podłogę'
   description: 'Ile naprawdę schnie wylewka? 28 dni wiązania, wygrzewanie, pomiar wilgotności CM. Praktyczny harmonogram z budowy bez upraszczania.'
   robots:
     index: true
