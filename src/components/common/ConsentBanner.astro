@@ -37,7 +37,9 @@ const { position } = Astro.props;
     // - F7 HIGH: strict schema validation (prevents attacker consent injection)
     // - F8 HIGH: robust cookie parse (URL-encoded = in JSON value)
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(...args) {
+      dataLayer.push(args);
+    }
 
     function isValidPzConsent(obj) {
       return obj
@@ -47,21 +49,21 @@ const { position } = Astro.props;
     }
 
     (function() {
-      var consent = null;
+      let consent = null;
       try {
         // F8 fix: iterate cookies manually, use substring/indexOf (handles = in value)
-        var parts = document.cookie ? document.cookie.split(';') : [];
-        for (var i = 0; i < parts.length; i++) {
-          var c = parts[i].trim();
+        const parts = document.cookie ? document.cookie.split(';') : [];
+        for (let i = 0; i < parts.length; i++) {
+          const c = parts[i].trim();
           if (c.indexOf('pz_consent=') === 0) {
-            var value = c.substring('pz_consent='.length);
-            var parsed = JSON.parse(decodeURIComponent(value));
+            const value = c.substring('pz_consent='.length);
+            const parsed = JSON.parse(decodeURIComponent(value));
             // F7 fix: validate schema before trusting cookie
             if (isValidPzConsent(parsed)) consent = parsed;
             break;
           }
         }
-      } catch(e) {}
+      } catch { /* ignore cookie parse errors — treat as no consent */ }
 
       if (consent) {
         gtag('consent', 'default', {
@@ -285,12 +287,12 @@ const { position } = Astro.props;
       // F8 fix: robust cookie parse (URL-encoded = in JSON value, multiple cookies)
       function getConsent() {
         try {
-          var parts = document.cookie ? document.cookie.split(';') : [];
-          for (var i = 0; i < parts.length; i++) {
-            var c = parts[i].trim();
+          const parts = document.cookie ? document.cookie.split(';') : [];
+          for (let i = 0; i < parts.length; i++) {
+            const c = parts[i].trim();
             if (c.indexOf('pz_consent=') === 0) {
-              var value = c.substring('pz_consent='.length);
-              var parsed = JSON.parse(decodeURIComponent(value));
+              const value = c.substring('pz_consent='.length);
+              const parsed = JSON.parse(decodeURIComponent(value));
               // F7 fix: validate schema
               if (
                 parsed &&
@@ -303,13 +305,13 @@ const { position } = Astro.props;
               return null;
             }
           }
-        } catch (e) {}
+        } catch { /* ignore cookie parse errors */ }
         return null;
       }
 
       function setConsent(analytics, marketing) {
-        var consent = { analytics: analytics, marketing: marketing, ts: Date.now() };
-        var expires = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toUTCString();
+        const consent = { analytics: analytics, marketing: marketing, ts: Date.now() };
+        const expires = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toUTCString();
         // F6 fix: add Secure flag (HTTPS-only cookie, prevents interception on plain HTTP)
         // Site is HTTPS-only (HSTS enforces) — Secure flag safe to add unconditionally
         document.cookie =
@@ -320,8 +322,8 @@ const { position } = Astro.props;
           '; path=/; SameSite=Lax; Secure';
 
         window.dataLayer = window.dataLayer || [];
-        function gtag() {
-          dataLayer.push(arguments);
+        function gtag(...args) {
+          dataLayer.push(args);
         }
         gtag('consent', 'update', {
           analytics_storage: analytics ? 'granted' : 'denied',
@@ -333,23 +335,23 @@ const { position } = Astro.props;
         dataLayer.push({ event: 'cookie_consent_update' });
 
         // Phase 2 refactor: use CSS class instead of style.display (no forced reflow)
-        var banner = document.getElementById('pz-consent-banner');
+        const banner = document.getElementById('pz-consent-banner');
         if (banner) banner.classList.add('pz-banner--hidden');
       }
 
       function showBanner() {
         if (!getConsent()) {
-          var banner = document.getElementById('pz-consent-banner');
+          const banner = document.getElementById('pz-consent-banner');
           // Phase 2 refactor: remove class instead of style.display='block'
           if (banner) banner.classList.remove('pz-banner--hidden');
         }
       }
 
       function bindEvents() {
-        var acceptBtn = document.getElementById('pz-consent-accept');
-        var settingsBtn = document.getElementById('pz-consent-settings');
-        var saveBtn = document.getElementById('pz-consent-save');
-        var details = document.getElementById('pz-consent-details');
+        const acceptBtn = document.getElementById('pz-consent-accept');
+        const settingsBtn = document.getElementById('pz-consent-settings');
+        const saveBtn = document.getElementById('pz-consent-save');
+        const details = document.getElementById('pz-consent-details');
 
         if (acceptBtn)
           acceptBtn.onclick = function () {
@@ -362,8 +364,8 @@ const { position } = Astro.props;
           };
         if (saveBtn)
           saveBtn.onclick = function () {
-            var a = document.getElementById('pz-consent-analytics');
-            var m = document.getElementById('pz-consent-marketing');
+            const a = document.getElementById('pz-consent-analytics');
+            const m = document.getElementById('pz-consent-marketing');
             setConsent(a ? a.checked : false, m ? m.checked : false);
           };
 
@@ -376,7 +378,7 @@ const { position } = Astro.props;
       // Expose global API for footer "withdraw consent" link (Gemini review finding)
       // Usage: <a href="#" onclick="window.pzOpenConsent(); return false;">Zmień zgody</a>
       window.pzOpenConsent = function () {
-        var banner = document.getElementById('pz-consent-banner');
+        const banner = document.getElementById('pz-consent-banner');
         if (banner) banner.classList.remove('pz-banner--hidden');
       };
 
