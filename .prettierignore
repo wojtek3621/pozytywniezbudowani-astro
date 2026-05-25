@@ -2,3 +2,5 @@ dist
 node_modules
 .github
 .changeset
+src/components/common/ConsentBanner.astro
+src/components/widgets/Footer.astro
