@@ -13,6 +13,8 @@ import astrowind from './vendor/integration';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
 
+import cloudflare from "@astrojs/cloudflare";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Note: whenExternalScripts helper removed (was used for Partytown, which is disabled — breaks GTM/Meta Pixel)
@@ -87,4 +89,6 @@ export default defineConfig({
       },
     },
   },
+
+  adapter: cloudflare()
 });
