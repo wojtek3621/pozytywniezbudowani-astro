@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Przelotki mediów przez fundament – woda, prąd, internet'
 excerpt: 'Zapomniana przelotka pod fundamentem to jeden z błędów, który najboleśniej uderza po miesiącach. Pokazuję, jak zrobić to raz a dobrze.'
 image: '~/assets/images/blog/przelotki-mediow-przez-fundament-woda-prad-internet.jpeg'

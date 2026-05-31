@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Ściany fundamentowe z bloczków betonowych – jak murować poprawnie'
 excerpt: 'Ściany fundamentowe z bloczków to element, który łatwo zlekceważyć – a każdy błąd na tym etapie wraca do Was przez całe życie domu.'
 image: '~/assets/images/blog/sciany-fundamentowe-z-bloczkow-jak-murowac.jpeg'

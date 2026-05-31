@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Folia pod fundamenty – kiedy i jaka? Praktyczny poradnik'
 excerpt: 'Folia pod fundamenty wygląda banalnie – aż do momentu, gdy okaże się, że ta z marketu nie spełnia żadnej funkcji. Wyjaśniam, co naprawdę warto kłaść.'
 image: '~/assets/images/blog/folia-pod-fundamenty-kiedy-i-jaka.jpeg'

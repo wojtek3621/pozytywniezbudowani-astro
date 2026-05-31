@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Wymiana gruntu pod fundamenty – kiedy konieczna'
 excerpt: 'Wymiana gruntu to często największa pozycja w budżecie fundamentów. Nie zawsze konieczna pod całym domem – pokazuję, kiedy wystarczy zrobić ją obwodowo.'
 image: '~/assets/images/blog/wymiana-gruntu-pod-fundamenty-kiedy-konieczna.jpeg'

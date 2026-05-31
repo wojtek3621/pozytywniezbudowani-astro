@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Styrodur pod płytę fundamentową – czy warto stosować?'
 excerpt: 'Pytanie o styrodur pod płytą wraca na każdej drugiej budowie. Pokazuję, kiedy faktycznie warto, a kiedy lepiej te pieniądze wydać mądrzej.'
 image: '~/assets/images/blog/styrodur-pod-plyte-fundamentowa-czy-stosowac.jpeg'

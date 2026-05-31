@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Odbiór fundamentów przez kierownika – co sprawdzić'
 excerpt: 'Fundament zalewacie raz. Jeżeli kierownik nie sprawdzi tego, co trzeba przed betonowaniem, błędy zostaną pod ziemią na zawsze.'
 image: '~/assets/images/blog/odbior-fundamentow-przez-kierownika-co-sprawdzic.jpeg'

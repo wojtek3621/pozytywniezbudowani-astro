@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Ławy fundamentowe – kiedy stosować i jak wykonać'
 excerpt: 'Ławy czy płyta? Pokazuję, kiedy ławy fundamentowe są dobrym wyborem i jak je wykonać tak, żeby nie wracać do tego po latach.'
 image: '~/assets/images/blog/lawy-fundamentowe-kiedy-stosowac-jak-wykonac.jpeg'

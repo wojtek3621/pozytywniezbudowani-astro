@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Zagęszczanie gruntu pod fundamenty – dlaczego jest krytyczne'
 excerpt: 'Zagęszczanie gruntu to etap, którego nie zobaczycie po skończonej budowie. Ale jeśli ktoś go zlekceważy, zobaczycie skutki na ścianach.'
 image: '~/assets/images/blog/zageszczanie-gruntu-dlaczego-jest-krytyczne.jpeg'

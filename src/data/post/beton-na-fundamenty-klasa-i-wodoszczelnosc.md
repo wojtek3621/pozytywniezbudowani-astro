@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Beton na fundamenty – klasa C20/25 i wodoszczelność W8'
 excerpt: 'Beton zostaje pod Waszym domem na całe jego życie. Jakie parametry zamówić, żeby fundament pracował dekady bez problemów?'
 image: '~/assets/images/blog/beton-na-fundamenty-klasa-i-wodoszczelnosc.jpeg'

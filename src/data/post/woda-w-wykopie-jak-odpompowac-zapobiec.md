@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Woda w wykopie – jak odpompować i zapobiec zalaniu fundamentów'
 excerpt: 'Woda w wykopie potrafi zatrzymać budowę na tygodnie. Pokażę Wam, jak ją odpompować i – co ważniejsze – jak nie dopuścić do tego problemu.'
 image: '~/assets/images/blog/woda-w-wykopie-jak-odpompowac-zapobiec.jpeg'

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Budowa fundamentów zimą – czy to bezpieczne? Praktyka wykonawcy'
 excerpt: 'Czy fundament wylany w grudniu jest tak samo trwały jak ten z czerwca? Mówię wprost – pod jakimi warunkami zima nie jest wrogiem, a kiedy lepiej odpuścić.'
 image: '~/assets/images/blog/budowa-fundamentow-zima-czy-bezpieczne.jpeg'

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Zasypywanie fundamentów – czym zasypać i jak zagęścić'
 excerpt: 'Zasypywanie fundamentów wygląda na prostą robotę. W praktyce to etap, na którym łatwiej popełnić błąd niż przy samym betonowaniu. Pokażę dlaczego.'
 image: '~/assets/images/blog/zasypywanie-fundamentow-czym-i-jak.jpeg'

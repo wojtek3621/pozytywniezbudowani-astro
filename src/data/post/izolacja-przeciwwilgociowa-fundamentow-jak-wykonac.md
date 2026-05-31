@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Izolacja przeciwwilgociowa fundamentów – jak wykonać krok po kroku'
 excerpt: 'Fundament zalany wodą gruntową to problem, którego naprawa po latach kosztuje wielokrotnie więcej niż solidna izolacja na etapie stanu zero.'
 image: '~/assets/images/blog/izolacja-przeciwwilgociowa-fundamentow-jak-wykonac.jpeg'

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Płyta fundamentowa krok po kroku – jak powstaje'
 excerpt: 'Płyta fundamentowa to nie jeden dzień betonowania. To kilka tygodni precyzyjnych prac, w których kolejność i jakość wykonania decydują o trwałości całego domu.'
 image: '~/assets/images/blog/plyta-fundamentowa-krok-po-kroku-jak-powstaje.jpeg'

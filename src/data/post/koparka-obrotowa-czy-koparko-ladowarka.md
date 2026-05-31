@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Koparka obrotowa czy koparko-ładowarka? Wybór sprzętu na budowę'
 excerpt: 'Koparka obrotowa czy koparko-ładowarka pod fundamenty? Wybór wpływa na precyzję wykopu, koszty kruszywa i nośność gruntu pod Waszym domem.'
 image: '~/assets/images/blog/koparka-obrotowa-czy-koparko-ladowarka.jpeg'

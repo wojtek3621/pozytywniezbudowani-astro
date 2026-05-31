@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Chudiak pod fundamentem – czy jest potrzebny?'
 excerpt: 'Chudiak pod każdym fundamentem? Niekoniecznie. Wyjaśniam, kiedy ta warstwa jest niezbędna, a kiedy spokojnie można z niej zrezygnować.'
 image: '~/assets/images/blog/chudiak-czy-jest-potrzebny.jpeg'

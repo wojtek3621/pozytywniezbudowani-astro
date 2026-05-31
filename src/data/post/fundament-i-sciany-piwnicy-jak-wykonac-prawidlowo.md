@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Fundament i ściany piwnicy – jak wykonać prawidłowo'
 excerpt: 'Piwnica to najtrudniejszy element domu. Pokażę Wam, jak ją wykonać tak, żebyście przez następne 30 lat nie martwili się wilgocią.'
 image: '~/assets/images/blog/fundament-i-sciany-piwnicy-jak-wykonac-prawidlowo.jpeg'

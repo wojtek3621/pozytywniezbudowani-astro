@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Kontrola jakości betonu na budowie – co sprawdzić'
 excerpt: 'Beton, który dziś trafi na Wasze fundamenty, będzie dźwigał ten dom przez dziesięciolecia. Pokażę, co sprawdzić, zanim mikser odjedzie.'
 image: '~/assets/images/blog/kontrola-jakosci-betonu-na-budowie.jpeg'

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Drenaż przy fundamentach – kiedy jest konieczny | Pozytywnie Zbudowani'
 excerpt: 'Drenaż przy fundamentach to decyzja, którą trzeba podjąć przed zasypaniem wykopów – później korekta kosztuje wielokrotnie więcej niż wykonanie od razu.'
 image: '~/assets/images/blog/drenaz-przy-fundamentach-kiedy-konieczny.jpeg'

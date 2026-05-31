@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Zbrojenie fundamentów – na co zwrócić uwagę przy odbiorze'
 excerpt: 'Zbrojenie zatopione w betonie zostaje tam na zawsze. Pokażę Wam, na co patrzeć podczas odbioru, zanim przyjedzie betoniarka.'
 image: '~/assets/images/blog/zbrojenie-fundamentow-na-co-zwrocic-uwage.jpeg'

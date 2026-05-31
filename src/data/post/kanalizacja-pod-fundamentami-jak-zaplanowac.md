@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-updateDate: 2026-05-31T11:00:17
+updateDate: 2026-05-31T11:00:23
 title: 'Kanalizacja pod fundamentami – jak zaplanować krok po kroku'
 excerpt: 'Kanalizacja pod płytą fundamentową to instalacja, do której już nie wrócicie. Pokażę Wam jak ją zaplanować, żeby spać spokojnie przez 50 lat.'
 image: '~/assets/images/blog/kanalizacja-pod-fundamentami-jak-zaplanowac.jpeg'
