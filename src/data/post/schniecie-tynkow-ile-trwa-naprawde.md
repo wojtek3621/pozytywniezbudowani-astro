@@ -71,7 +71,7 @@ metadata:
 
 <h3>Faza 4: schnięcie wylewek (4 tygodnie cement, ok. 3 tygodnie anhydryt)</h3>
 
-<p>Wylewka cementowo-piaskowa wiąże minimum 28 dni i przed upływem tego czasu nie wolno uruchamiać ogrzewania podłogowego. Latem przez pierwszy tydzień przykrywamy wylewkę folią, żeby nie wyschła zbyt szybko – inaczej grozi pękanie i wykrzywianie się posadzki w narożnikach. Po 28 dniach wykonuje się procedurę <strong><a href="/blog/schniecie-wylewki-kiedy-mozna-klasc-podloge/">wygrzewania wylewek</a></strong>: zaczynamy od temperatury wody o 5–10 stopni wyższej niż temperatura pomieszczenia, utrzymujemy 2 dni, potem co 2 dni podnosimy o 5 stopni, aż dojdziemy do 45 stopni. Cel jest podwójny – dosuszyć wylewkę i wymusić rysy skurczowe, żeby pojawiły się teraz, a nie później pod płytkami.</p>
+<p>Wylewka cementowo-piaskowa wiąże minimum 28 dni i przed upływem tego czasu nie wolno uruchamiać ogrzewania podłogowego. Latem przez pierwszy tydzień przykrywamy wylewkę folią, żeby nie wyschła zbyt szybko – inaczej grozi pękanie i wykrzywianie się posadzki w narożnikach. Po 28 dniach wykonuje się procedurę <strong><a href="/blog/schniecie-wylewki-kiedy-klasc-podloge/">wygrzewania wylewek</a></strong>: zaczynamy od temperatury wody o 5–10 stopni wyższej niż temperatura pomieszczenia, utrzymujemy 2 dni, potem co 2 dni podnosimy o 5 stopni, aż dojdziemy do 45 stopni. Cel jest podwójny – dosuszyć wylewkę i wymusić rysy skurczowe, żeby pojawiły się teraz, a nie później pod płytkami.</p>
 
 <p>Cały ten czas tynki na ścianach też dosychają – i to jest klucz do zrozumienia całego harmonogramu. Schnięcie tynków i schnięcie wylewek dzieją się równolegle.</p>
 

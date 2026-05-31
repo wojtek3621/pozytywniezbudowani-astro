@@ -130,8 +130,8 @@ metadata:
 <li><strong>Obcięcie taśmy dylatacyjnej zbyt wcześnie</strong> – dopiero po wykończeniu okładziny i zamontowaniu listew przypodłogowych. Wcześniejsze obcięcie ryzykuje, że klej do płytek albo masa wyrównująca wypełni szczelinę i zwiąże posadzkę ze ścianą.</li>
 <li><strong>Brak peszli na rurach ogrzewania podłogowego w miejscach dylatacji</strong> – inwestycja kilku metrów peszli i kilkunastu minut pracy. Brak – ryzyko poważnej awarii w przyszłości.</li>
 <li><strong>Dylatacje wykonane „na oko" przez wykonawcę bez rysunku</strong> – efekt: dylatacja w drzwiach po niewłaściwej stronie ściany, brak dylatacji w długim korytarzu, dylatacja w środku salonu zamiast pod planowaną wnęką regału.</li>
-<li><strong>Brak dylatacji przy zmianie wysokości wylewki</strong> – jeżeli w garażu macie <a href="/blog/wylewka-na-ogrzewanie-podlogowe-grubosc-i-rodzaj/">wylewkę 8–10 cm</a>, a w przyległym pomieszczeniu 6 cm, to w przejściu między nimi i tak idzie dylatacja, niezależnie od wszystkich poprzednich punktów.</li>
-<li><strong>Niezachowanie dylatacji przy wygrzewaniu wylewek</strong> – <a href="/blog/schniecie-wylewki-kiedy-mozna-klasc-podloge/">wygrzewanie wylewek</a> to osobny temat, ale warto pamiętać, że pęknięcia, które pojawią się w trakcie wygrzewania, najczęściej pójdą wzdłuż dylatacji. Jeżeli ich nie ma, materiał znajdzie sobie własną drogę.</li>
+<li><strong>Brak dylatacji przy zmianie wysokości wylewki</strong> – jeżeli w garażu macie <a href="/blog/wylewka-na-ogrzewanie-podlogowe-grubosc-rodzaj/">wylewkę 8–10 cm</a>, a w przyległym pomieszczeniu 6 cm, to w przejściu między nimi i tak idzie dylatacja, niezależnie od wszystkich poprzednich punktów.</li>
+<li><strong>Niezachowanie dylatacji przy wygrzewaniu wylewek</strong> – <a href="/blog/schniecie-wylewki-kiedy-klasc-podloge/">wygrzewanie wylewek</a> to osobny temat, ale warto pamiętać, że pęknięcia, które pojawią się w trakcie wygrzewania, najczęściej pójdą wzdłuż dylatacji. Jeżeli ich nie ma, materiał znajdzie sobie własną drogę.</li>
 </ul>
 
 <h2>Co zapamiętać</h2>

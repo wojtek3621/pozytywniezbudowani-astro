@@ -33,7 +33,7 @@ metadata:
 
 <p>Druga droga – generalny wykonawca. Jedna firma odpowiedzialna za całość prac, od wykopów po klucze. Wy macie jedną osobę kontaktową, jedną umowę, jeden harmonogram. To droga, którą polecam większości inwestorów, bo zdejmuje z barków koordynację dziesiątek ekip.</p>
 
-<p>Trzecia droga – system gospodarczy. Sami organizujecie ekipy do każdego etapu: jedna firma do fundamentów, druga do murowania, trzecia do dachu, czwarta do okien. Plus elektryk, hydraulik, tynkarz, wylewkarz, dachowiec, glazurnik, malarz. To minimum 15–20 wykonawców, których trzeba znaleźć, sprawdzić, ułożyć w czasie i rozliczyć. Daje większą kontrolę nad kosztami, ale wymaga sporo czasu, wiedzy i nerwów. Tej decyzji poświęciłem osobny tekst <a href="/blog/generalny-wykonawca-czy-system-gospodarczy-co-wybrac/">o wyborze między generalnym wykonawcą a systemem gospodarczym</a>, bo różnica jest większa niż się wydaje na pierwszy rzut oka.</p>
+<p>Trzecia droga – system gospodarczy. Sami organizujecie ekipy do każdego etapu: jedna firma do fundamentów, druga do murowania, trzecia do dachu, czwarta do okien. Plus elektryk, hydraulik, tynkarz, wylewkarz, dachowiec, glazurnik, malarz. To minimum 15–20 wykonawców, których trzeba znaleźć, sprawdzić, ułożyć w czasie i rozliczyć. Daje większą kontrolę nad kosztami, ale wymaga sporo czasu, wiedzy i nerwów. Tej decyzji poświęciłem osobny tekst <a href="/blog/generalny-wykonawca-czy-system-gospodarczy/">o wyborze między generalnym wykonawcą a systemem gospodarczym</a>, bo różnica jest większa niż się wydaje na pierwszy rzut oka.</p>
 
 <p>Niezależnie od ścieżki, zasady wyboru poszczególnych firm są bardzo podobne. Jeśli budujecie systemem gospodarczym, po prostu zastosujcie te zasady kilkanaście razy – do każdej ekipy z osobna.</p>
 
@@ -117,7 +117,7 @@ metadata:
 
 <h2>Zasada 7: Sprawdźcie ubezpieczenie OC wykonawcy – i każdej podekipy</h2>
 
-<p><a href="/blog/polisa-oc-wykonawcy-dlaczego-jest-wazna/">Polisa OC wykonawcy</a> to dokument, którego inwestorzy nie sprawdzają, a który ratuje skórę w wielu sytuacjach. Wykonawca w trakcie pracy może uszkodzić Wasze materiały, sąsiedzki samochód, kabel energetyczny, rurę gazową. Może też wyrządzić szkody osobowe. Jeśli ma aktywną polisę OC z odpowiednią sumą gwarancyjną, ubezpieczyciel pokrywa szkodę. Jeśli nie ma – odpowiedzialność spada na firmę, a jeśli firma jest niewypłacalna, to praktycznie na Was, jeśli okaże się, że wynajęliście niewłaściwego.</p>
+<p><a href="/blog/polisa-oc-wykonawcy-dlaczego-wazna/">Polisa OC wykonawcy</a> to dokument, którego inwestorzy nie sprawdzają, a który ratuje skórę w wielu sytuacjach. Wykonawca w trakcie pracy może uszkodzić Wasze materiały, sąsiedzki samochód, kabel energetyczny, rurę gazową. Może też wyrządzić szkody osobowe. Jeśli ma aktywną polisę OC z odpowiednią sumą gwarancyjną, ubezpieczyciel pokrywa szkodę. Jeśli nie ma – odpowiedzialność spada na firmę, a jeśli firma jest niewypłacalna, to praktycznie na Was, jeśli okaże się, że wynajęliście niewłaściwego.</p>
 
 <p>Zażądajcie kserokopii polisy OC z aktualnym potwierdzeniem opłacenia składki. Sprawdźcie sumę gwarancyjną – dla budowy domu jednorodzinnego rozsądne minimum to 500 tysięcy złotych, a komfortowy poziom to milion. Sprawdźcie zakres – czy polisa obejmuje prace budowlane, czy tylko działalność biurową.</p>
 
@@ -134,7 +134,7 @@ metadata:
 <p>Niezależnie od modelu, harmonogram płatności powinien być powiązany z postępem prac, a nie z kalendarzem. Płatność „co miesiąc 50 tysięcy" jest absurdem, jeśli wykonawca w ciągu miesiąca zrobił prace warte 20 tysięcy. Zdrowy harmonogram wygląda tak:</p>
 
 <ul>
-<li><a href="/blog/zaliczka-dla-wykonawcy-ile-i-jak-bezpiecznie-placic/">Zaliczka na start prac</a> – maksymalnie 10–15% wartości umowy. Większe zaliczki to znak, że wykonawca nie ma kapitału obrotowego, a to czerwona flaga.</li>
+<li><a href="/blog/zaliczka-dla-wykonawcy-jak-bezpiecznie-placic/">Zaliczka na start prac</a> – maksymalnie 10–15% wartości umowy. Większe zaliczki to znak, że wykonawca nie ma kapitału obrotowego, a to czerwona flaga.</li>
 <li>Płatności po odbiorze etapów – fundamenty, ściany parteru, strop, ściany piętra, więźba, pokrycie, tynki, wylewki itd.</li>
 <li>Każda płatność zwolniona po podpisaniu protokołu odbioru przez Was lub kierownika.</li>
 <li>Zatrzymanie kaucji gwarancyjnej – 5–10% wartości umowy, zwalniane po okresie gwarancyjnym (typowo rok od odbioru końcowego), albo zastąpione gwarancją bankową lub ubezpieczeniową.</li>

@@ -109,13 +109,13 @@ metadata:
 
 <p><strong>Klauzula o karach umownych.</strong> Procent od wartości umowy za każdy dzień zwłoki, oddzielnie dla zwłoki w realizacji etapu i dla zwłoki w zakończeniu całości. Limit górny kar (na przykład 20% wartości umowy) – żeby kara nie urosła do nieskończoności i wykonawca miał motywację, żeby skończyć.</p>
 
-<p><strong>Etapowanie płatności powiązane z postępem prac.</strong> Zasada jest prosta: nigdy nie płacicie więcej, niż wykonawca zdążył zrobić. Każda transza wypłacana po protokole odbioru danego etapu, podpisanym przez kierownika budowy. Wstrzymanie kolejnej transzy w razie zwłoki – wpisane wprost. Praktyczne reguły bezpiecznych <a href="/blog/zaliczka-dla-wykonawcy-ile-i-jak-bezpiecznie-placic/">zaliczek dla wykonawcy</a> opisuję osobno.</p>
+<p><strong>Etapowanie płatności powiązane z postępem prac.</strong> Zasada jest prosta: nigdy nie płacicie więcej, niż wykonawca zdążył zrobić. Każda transza wypłacana po protokole odbioru danego etapu, podpisanym przez kierownika budowy. Wstrzymanie kolejnej transzy w razie zwłoki – wpisane wprost. Praktyczne reguły bezpiecznych <a href="/blog/zaliczka-dla-wykonawcy-jak-bezpiecznie-placic/">zaliczek dla wykonawcy</a> opisuję osobno.</p>
 
 <p><strong>Klauzula odstąpienia bez dodatkowego wezwania.</strong> Możecie zapisać, że jeśli zwłoka przekroczy określony okres (na przykład 30 dni), macie prawo odstąpić od umowy bez dodatkowego wezwania, z prawem do kar umownych za cały okres zwłoki. To zapis, który wielu wykonawców próbuje wycinać – warto go bronić.</p>
 
 <p><strong>Obowiązek prowadzenia dziennika budowy i regularnych narad koordynacyjnych.</strong> Brzmi banalnie, ale w wielu umowach tego nie ma. A to właśnie <a href="/blog/dziennik-budowy-jak-prowadzic-poprawnie/">dziennik budowy</a> i protokoły z narad są dowodami, na których oprzecie się w razie sporu.</p>
 
-<p><strong>Polisa OC wykonawcy</strong> – nie chroni Was przed zwłoką, ale chroni przed szkodami w trakcie prac. To <a href="/blog/polisa-oc-wykonawcy-dlaczego-jest-wazna/">osobny temat</a>, ale wartość minimalnej sumy gwarancyjnej powinna być w umowie zapisana.</p>
+<p><strong>Polisa OC wykonawcy</strong> – nie chroni Was przed zwłoką, ale chroni przed szkodami w trakcie prac. To <a href="/blog/polisa-oc-wykonawcy-dlaczego-wazna/">osobny temat</a>, ale wartość minimalnej sumy gwarancyjnej powinna być w umowie zapisana.</p>
 
 <h2>Rola kierownika budowy w sporach o terminy</h2>
 

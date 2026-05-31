@@ -77,7 +77,7 @@ metadata:
 
 <p>Po czwarte – zasady odbiorów. Kto, kiedy i w jaki sposób potwierdza wykonanie etapu. Najlepiej, żeby było to spisanie <a href="/blog/protokol-odbioru-prac-budowlanych-jak-sporzadzic/">protokołu odbioru</a> z udziałem kierownika budowy. Bez podpisanego protokołu kolejna transza nie wychodzi.</p>
 
-<p>Po piąte – kary umowne za opóźnienia i zasady odstąpienia od umowy. To nie są zapisy, których celem jest skłócenie stron, tylko ramy postępowania, gdy coś idzie nie po planie. Dobrze sformułowane kary umowne realnie motywują do dotrzymywania terminów. Jeśli mimo wszystko <a href="/blog/co-robic-gdy-wykonawca-nie-dotrzymuje-terminow/">wykonawca nie dotrzymuje terminów</a>, krok po kroku pokazuję, jakie macie narzędzia – od pierwszej rozmowy po sąd.</p>
+<p>Po piąte – kary umowne za opóźnienia i zasady odstąpienia od umowy. To nie są zapisy, których celem jest skłócenie stron, tylko ramy postępowania, gdy coś idzie nie po planie. Dobrze sformułowane kary umowne realnie motywują do dotrzymywania terminów. Jeśli mimo wszystko <a href="/blog/wykonawca-nie-dotrzymuje-terminow/">wykonawca nie dotrzymuje terminów</a>, krok po kroku pokazuję, jakie macie narzędzia – od pierwszej rozmowy po sąd.</p>
 
 <p>Po szóste – jeśli zaliczka ma mieć charakter zadatku, wpiszcie to wprost. „Strony zgodnie postanawiają, że kwota X zł stanowi zadatek w rozumieniu art. 394 Kodeksu cywilnego". Bez tego zapisu, niezależnie od kwoty, sąd potraktuje wpłatę jako zaliczkę i mechanizm zwrotu w podwójnej wysokości nie zadziała.</p>
 

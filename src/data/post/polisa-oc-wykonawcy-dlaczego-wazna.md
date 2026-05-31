@@ -81,7 +81,7 @@ metadata:
 
 <p>To rozróżnienie warto sobie poukładać, bo większość inwestorów te trzy mechanizmy miesza. Mamy trzy odrębne ścieżki ochrony, które działają równolegle.</p>
 
-<p><strong>Rękojmia za wady</strong> (art. 556 i nast. KC, dla umów o roboty budowlane przez odesłanie z art. 656 § 1 KC) – to ustawowa odpowiedzialność wykonawcy za wady wykonanych prac. Dla nieruchomości okres rękojmi to <strong>5 lat</strong> od dnia wydania (art. 568 § 1 KC). To jest właśnie ta podstawa prawna, na której opieracie się, gdy po dwóch latach pęka strop albo cieknie dach. Rękojmia nie wymaga winy wykonawcy – wystarczy, że wada istnieje. Procedurę zgłoszenia wady opisuję w tekście o tym, <a href="/blog/usterki-budowlane-jak-reklamowac-i-egzekwowac/">jak reklamować i egzekwować usterki budowlane</a>.</p>
+<p><strong>Rękojmia za wady</strong> (art. 556 i nast. KC, dla umów o roboty budowlane przez odesłanie z art. 656 § 1 KC) – to ustawowa odpowiedzialność wykonawcy za wady wykonanych prac. Dla nieruchomości okres rękojmi to <strong>5 lat</strong> od dnia wydania (art. 568 § 1 KC). To jest właśnie ta podstawa prawna, na której opieracie się, gdy po dwóch latach pęka strop albo cieknie dach. Rękojmia nie wymaga winy wykonawcy – wystarczy, że wada istnieje. Procedurę zgłoszenia wady opisuję w tekście o tym, <a href="/blog/usterki-budowlane-jak-reklamowac-egzekwowac/">jak reklamować i egzekwować usterki budowlane</a>.</p>
 
 <p><strong>Gwarancja</strong> (art. 577 i nast. KC) – to dobrowolne zobowiązanie wykonawcy lub producenta. Domyślny okres, jeśli strony nie ustaliły inaczej, to 2 lata od dnia wydania rzeczy (art. 577 § 4 KC). Gwarancja działa równolegle do rękojmi, nie zamiast niej.</p>
 
@@ -131,7 +131,7 @@ metadata:
 
 <p>Na typowej budowie domu jednorodzinnego pracuje od kilkunastu do kilkudziesięciu różnych ekip – od tyczenia, przez zbrojenie, betoniarnię, dekarzy, hydraulików, elektryków, tynkarzy, do glazurników i meblarzy. Każda z tych ekip może wyrządzić szkodę. Idealny scenariusz to: generalny wykonawca z polisą OC obejmującą podwykonawców, plus każdy z większych podwykonawców (dekarze, hydraulicy, elektrycy, tynkarze) ze swoją własną polisą.</p>
 
-<p>Jeśli budujecie <a href="/blog/generalny-wykonawca-czy-system-gospodarczy-co-wybrac/">systemem gospodarczym</a>, w którym sami koordynujecie ekipy, wymagajcie polisy OC od każdej z nich osobno. Tu nie ma generalnego wykonawcy, który odpowiadałby za wszystkich – odpowiada każda firma osobno za swoje prace.</p>
+<p>Jeśli budujecie <a href="/blog/generalny-wykonawca-czy-system-gospodarczy/">systemem gospodarczym</a>, w którym sami koordynujecie ekipy, wymagajcie polisy OC od każdej z nich osobno. Tu nie ma generalnego wykonawcy, który odpowiadałby za wszystkich – odpowiada każda firma osobno za swoje prace.</p>
 
 <h2>Praktyczne wskazówki przy zawieraniu umowy</h2>
 

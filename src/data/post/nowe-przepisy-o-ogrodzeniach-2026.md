@@ -46,7 +46,7 @@ metadata:
 
 <h2>Reforma planowania przestrzennego – co zmienia się w 2026</h2>
 
-<p>Nowelizacja ustawy o planowaniu i zagospodarowaniu przestrzennym z 2023 r. wprowadza istotną zmianę – studium uwarunkowań i kierunków zagospodarowania przestrzennego zostaje zastąpione tzw. planem ogólnym gminy. Pierwotnie ustawodawca wyznaczył gminom termin uchwalenia planów ogólnych do końca 2025 r., ale kolejna nowelizacja przesunęła go na 30 czerwca 2026 r. Plan ogólny ma być dokumentem prawa miejscowego, na którego podstawie wydawane będą warunki zabudowy oraz uchwalane miejscowe plany zagospodarowania przestrzennego. To jeden z elementów <a href="/blog/nowe-przepisy-budowlane-2026-co-sie-zmienia-dla-inwestora/">szerszej reformy przepisów budowlanych w 2026 roku</a>, o której piszę osobno.</p>
+<p>Nowelizacja ustawy o planowaniu i zagospodarowaniu przestrzennym z 2023 r. wprowadza istotną zmianę – studium uwarunkowań i kierunków zagospodarowania przestrzennego zostaje zastąpione tzw. planem ogólnym gminy. Pierwotnie ustawodawca wyznaczył gminom termin uchwalenia planów ogólnych do końca 2025 r., ale kolejna nowelizacja przesunęła go na 30 czerwca 2026 r. Plan ogólny ma być dokumentem prawa miejscowego, na którego podstawie wydawane będą warunki zabudowy oraz uchwalane miejscowe plany zagospodarowania przestrzennego. To jeden z elementów <a href="/blog/nowe-przepisy-budowlane-2026/">szerszej reformy przepisów budowlanych w 2026 roku</a>, o której piszę osobno.</p>
 
 <p>Dla was w praktyce oznacza to dwie rzeczy. Po pierwsze – w okresie przejściowym może panować pewna niepewność co do procedur w gminach, które jeszcze nie uchwaliły planu ogólnego, a sytuacja ta zmienia się dosłownie z miesiąca na miesiąc. Po drugie – po wejściu nowych planów warunki zabudowy mogą być wydawane tylko na obszarach, które plan ogólny dopuszcza pod zabudowę. To zmiana, która dotyczy raczej budynków niż ogrodzeń, ale dobrze o niej wiedzieć, bo wpływa na całość waszej procedury formalnej. Sam zakres przepisów dotyczących ogrodzeń – wysokość 2,2 m i obowiązek zgłoszenia powyżej – pozostaje w 2026 r. bez zmian.</p>
 
@@ -56,7 +56,7 @@ metadata:
 
 <p>Najważniejsze zasady: ogrodzenie nie może stwarzać zagrożenia dla bezpieczeństwa ludzi i zwierząt. Konkretnie zabronione jest umieszczanie na wysokości mniejszej niż 1,8 m od poziomu terenu ostro zakończonych elementów, drutu kolczastego, tłuczonego szkła oraz innych podobnych wyrobów i materiałów. Ten zakaz dotyczy zwłaszcza ogrodzeń od strony dróg, ulic, placów i innych miejsc publicznych. Jeśli marzą wam się efektowne kolce na słupkach, to muszą być one albo dekoracyjne (zaokrąglone), albo umieszczone wystarczająco wysoko.</p>
 
-<p>Druga ważna zasada dotyczy bramy i furtki. Skrzydła <a href="/blog/brama-wjazdowa-i-furtka-automatyka/">bramy oraz furtki</a> nie mogą otwierać się na zewnątrz działki – czyli nie mogą wkraczać w pas drogowy, chodnik czy działkę sąsiada. To częsta pułapka przy bramach dwuskrzydłowych otwieranych ręcznie. Bramy przesuwne lub otwierane do wewnątrz nie mają z tym problemu. Furtka też musi otwierać się do wewnątrz.</p>
+<p>Druga ważna zasada dotyczy bramy i furtki. Skrzydła <a href="/blog/brama-wjazdowa-furtka-automatyka/">bramy oraz furtki</a> nie mogą otwierać się na zewnątrz działki – czyli nie mogą wkraczać w pas drogowy, chodnik czy działkę sąsiada. To częsta pułapka przy bramach dwuskrzydłowych otwieranych ręcznie. Bramy przesuwne lub otwierane do wewnątrz nie mają z tym problemu. Furtka też musi otwierać się do wewnątrz.</p>
 
 <h2>Granica z sąsiadem – Kodeks cywilny</h2>
 

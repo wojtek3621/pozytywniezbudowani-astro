@@ -19,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p>Wielu inwestorów, z którymi rozmawiam, dochodzi do stanu deweloperskiego w zaplanowanym budżecie, a dopiero etap wykończenia wymyka im się z rąk. Po latach na budowach widzę, że to nie jest przypadek ani wyjątek – to systemowa cecha tego etapu budowy. Płytki, gładzie, drzwi, schody, meble, oświetlenie, biały montaż, lampy, klimatyzacja – każdy z tych elementów osobno wygląda niewinnie, a zsumowane potrafią rozbić nawet ostrożnie <a href="/blog/prawdziwy-koszt-budowy-domu-od-dzialki-po-ostatnia-rate/">skalkulowany kosztorys</a>.</p>
+<p>Wielu inwestorów, z którymi rozmawiam, dochodzi do stanu deweloperskiego w zaplanowanym budżecie, a dopiero etap wykończenia wymyka im się z rąk. Po latach na budowach widzę, że to nie jest przypadek ani wyjątek – to systemowa cecha tego etapu budowy. Płytki, gładzie, drzwi, schody, meble, oświetlenie, biały montaż, lampy, klimatyzacja – każdy z tych elementów osobno wygląda niewinnie, a zsumowane potrafią rozbić nawet ostrożnie <a href="/blog/prawdziwy-koszt-budowy-domu/">skalkulowany kosztorys</a>.</p>
 
 <p>W tym artykule nie znajdziecie tabeli z cenami w złotówkach. Z dwóch powodów. Po pierwsze – ceny robocizny i materiałów zmieniają się w Polsce z miesiąca na miesiąc i każda konkretna kwota podana dziś za rok będzie wprowadzać Was w błąd. Po drugie – sumy, które zobaczycie w internecie, zawsze są wyrwane z kontekstu konkretnej budowy. Liczy się to, co realnie kształtuje Wasz budżet, a nie cudza średnia z forum.</p>
 
@@ -97,7 +97,7 @@ metadata:
 
 <h2>Ukryte koszty, o których trzeba pamiętać</h2>
 
-<p>To są pozycje, które <a href="/blog/ukryte-koszty-budowy-domu-o-czym-zapominasz/">rzadko trafiają do pierwszych szacunków</a>, a potem składają się na zauważalną część budżetu wykończenia.</p>
+<p>To są pozycje, które <a href="/blog/ukryte-koszty-budowy-domu/">rzadko trafiają do pierwszych szacunków</a>, a potem składają się na zauważalną część budżetu wykończenia.</p>
 
 <p>Ubezpieczenie domu – polisa od pożaru, zalania, kradzieży i odpowiedzialności cywilnej. Im bardziej zaawansowane prace wewnątrz, tym wyższa wartość, na którą ubezpieczacie budynek. Domu w stanie surowym otwartym nie da się ubezpieczyć od kradzieży bez stanu surowego zamkniętego z alarmem – ale dom w trakcie wykończenia warto chronić, bo wartości zgromadzone w środku rosną z miesiąca na miesiąc.</p>
 

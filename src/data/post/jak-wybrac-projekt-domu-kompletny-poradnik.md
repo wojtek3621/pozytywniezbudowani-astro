@@ -45,7 +45,7 @@ metadata:
 
 <p>Zanim w ogóle otworzycie katalog projektów, usiądźcie i odpowiedzcie sobie szczerze na poniższe pytania. To one zawężą Wam pole wyboru z tysięcy projektów do kilkudziesięciu, a potem do kilku konkretnych.</p>
 
-<p><strong><a href="/blog/dom-parterowy-czy-pietrowy-co-wybrac-i-dlaczego/">Dom parterowy czy piętrowy?</a></strong> Parter to wygoda na lata – brak schodów, łatwiejsze sprzątanie, lepsze starzenie się w domu. Piętrowy zazwyczaj wychodzi tańszy w przeliczeniu na metr kwadratowy (mniejsza powierzchnia zabudowy, mniej fundamentu, mniej dachu) i lepiej wpisuje się w mniejszą działkę. Decyzja zależy od wieku, planów rodzinnych i wielkości działki.</p>
+<p><strong><a href="/blog/dom-parterowy-czy-pietrowy-co-wybrac/">Dom parterowy czy piętrowy?</a></strong> Parter to wygoda na lata – brak schodów, łatwiejsze sprzątanie, lepsze starzenie się w domu. Piętrowy zazwyczaj wychodzi tańszy w przeliczeniu na metr kwadratowy (mniejsza powierzchnia zabudowy, mniej fundamentu, mniej dachu) i lepiej wpisuje się w mniejszą działkę. Decyzja zależy od wieku, planów rodzinnych i wielkości działki.</p>
 
 <p><strong>Styl tradycyjny czy nowoczesny?</strong> Stromy dach z dachówką to ciepło, klasyka, dobrze starzejący się estetycznie wybór. Płaski dach to nowoczesność, większa powierzchnia użytkowa pod nim, ale też wyższe wymagania dla pokrycia (membrana EPDM, PVC lub papa termozgrzewalna).</p>
 
@@ -115,7 +115,7 @@ metadata:
 
 <h2>Budżet – jak realnie oszacować koszt budowy z konkretnego projektu</h2>
 
-<p>Wybór projektu zaczyna się rzeczywiście dopiero wtedy, gdy potraficie odpowiedzieć na pytanie: <a href="/blog/ile-kosztuje-budowa-domu-w-2026-roku-realne-koszty/">ile będzie kosztowało wybudowanie tego konkretnego domu</a> na mojej konkretnej działce w mojej konkretnej okolicy? Niestety, wszystkie estymatory dostępne w internecie i większość kalkulatorów na stronach pracowni architektonicznych dają wartości bardzo orientacyjne – często zaniżone o kilkadziesiąt procent.</p>
+<p>Wybór projektu zaczyna się rzeczywiście dopiero wtedy, gdy potraficie odpowiedzieć na pytanie: <a href="/blog/ile-kosztuje-budowa-domu-w-2026-roku/">ile będzie kosztowało wybudowanie tego konkretnego domu</a> na mojej konkretnej działce w mojej konkretnej okolicy? Niestety, wszystkie estymatory dostępne w internecie i większość kalkulatorów na stronach pracowni architektonicznych dają wartości bardzo orientacyjne – często zaniżone o kilkadziesiąt procent.</p>
 
 <p>Realny koszt poznajecie tylko jednym sposobem: prosząc konkretne firmy wykonawcze i hurtownie z Waszej okolicy o wyceny do konkretnego projektu. Im więcej wycen, tym lepiej. Gdy zbieracie oferty od generalnych wykonawców na stan deweloperski, łatwo porównać ze sobą cztery–pięć ofert. Jeśli budujecie systemem gospodarczym, to i tak musicie zebrać wyceny na poszczególne etapy: fundament, mury, dach, stolarka, instalacje, tynki, wylewki, docieplenie elewacji – plus orientacyjne kwoty na wykończeniówkę.</p>
 

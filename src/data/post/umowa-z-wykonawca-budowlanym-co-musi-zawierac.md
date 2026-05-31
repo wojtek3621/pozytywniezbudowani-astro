@@ -27,7 +27,7 @@ metadata:
 
 <p><strong>Umowa o roboty budowlane</strong> regulowana jest przez art. 647–658 Kodeksu cywilnego. Zgodnie z art. 647 KC wykonawca zobowiązuje się do oddania przewidzianego w umowie obiektu wykonanego zgodnie z projektem i zasadami wiedzy technicznej, a inwestor zobowiązuje się do dokonania wymaganych przez właściwe przepisy czynności (np. przygotowania placu budowy) oraz do odebrania obiektu i zapłaty wynagrodzenia. Co istotne – art. 648 § 1 KC wymaga formy pisemnej dla celów dowodowych. Bez tego, w razie sporu, ciężko będzie cokolwiek udowodnić.</p>
 
-<p><strong>Umowa o dzieło</strong> (art. 627–646 KC) jest formą prostszą i stosuje się ją zwykle przy mniejszych zakresach prac – wymianie pokrycia dachowego, montażu okien, wykończeniu jednego pomieszczenia. Przy <a href="/blog/generalny-wykonawca-czy-system-gospodarczy-co-wybrac/">generalnym wykonawstwie domu jednorodzinnego</a> standardem jest umowa o roboty budowlane.</p>
+<p><strong>Umowa o dzieło</strong> (art. 627–646 KC) jest formą prostszą i stosuje się ją zwykle przy mniejszych zakresach prac – wymianie pokrycia dachowego, montażu okien, wykończeniu jednego pomieszczenia. Przy <a href="/blog/generalny-wykonawca-czy-system-gospodarczy/">generalnym wykonawstwie domu jednorodzinnego</a> standardem jest umowa o roboty budowlane.</p>
 
 <p>Co ważne – art. 656 § 1 KC mówi, że do skutków opóźnienia, do rękojmi za wady oraz do uprawnień inwestora przy wykonaniu zastępczym stosuje się odpowiednio przepisy o umowie o dzieło. To oznacza, że najważniejsze mechanizmy ochronne z umowy o dzieło działają również przy umowie o roboty budowlane.</p>
 
@@ -53,7 +53,7 @@ metadata:
 
 <p>W umowie powinny też znaleźć się postanowienia o tym, kiedy bieg terminu może zostać zawieszony – typowo w przypadku siły wyższej (mrozy poniżej określonej temperatury, intensywne opady), zmian projektowych zleconych przez inwestora albo opóźnienia w dostarczeniu przez Was elementów, do których byliście zobowiązani (np. okien, jeśli to Wy zlecacie ich produkcję).</p>
 
-<p>Sama deklaracja terminu bez sankcji za jego niedotrzymanie ma w praktyce niewielką wartość. Dlatego w parze z harmonogramem idą kary umowne, o których piszę dalej. Co konkretnie zrobić, jeśli mimo wszystko <a href="/blog/co-robic-gdy-wykonawca-nie-dotrzymuje-terminow/">wykonawca nie dotrzymuje terminów</a>, opisuję krok po kroku osobno – to gotowy schemat działania od pierwszej rozmowy po sąd.</p>
+<p>Sama deklaracja terminu bez sankcji za jego niedotrzymanie ma w praktyce niewielką wartość. Dlatego w parze z harmonogramem idą kary umowne, o których piszę dalej. Co konkretnie zrobić, jeśli mimo wszystko <a href="/blog/wykonawca-nie-dotrzymuje-terminow/">wykonawca nie dotrzymuje terminów</a>, opisuję krok po kroku osobno – to gotowy schemat działania od pierwszej rozmowy po sąd.</p>
 
 <h2>Wynagrodzenie i zasady rozliczeń</h2>
 
@@ -63,7 +63,7 @@ metadata:
 
 <p><strong>Charakter wynagrodzenia</strong> – ryczałtowe (kwota stała, niezależna od rzeczywistego nakładu) czy kosztorysowe (rozliczane według obmiarów i cen jednostkowych). Każde z tych rozwiązań ma swoje zalety i pułapki. Ryczałt daje przewidywalność budżetu, ale wykonawca może próbować obciąć zakres, gdy się przelicza. Kosztorys jest uczciwszy w długiej perspektywie, ale wymaga dyscypliny w obmiarach.</p>
 
-<p><strong>Harmonogram płatności</strong> – najczęściej w transzach powiązanych z odbiorem etapów. Standard rynkowy to płatność po wykonaniu i odbiorze danego etapu, nie z góry. Płatność „na fakturę zaliczkową" przed jakimkolwiek wykonaniem to czerwone światło. Szczegółowo o tym, <a href="/blog/zaliczka-dla-wykonawcy-ile-i-jak-bezpiecznie-placic/">ile zaliczki dać i jak bezpiecznie płacić</a>, piszę osobno.</p>
+<p><strong>Harmonogram płatności</strong> – najczęściej w transzach powiązanych z odbiorem etapów. Standard rynkowy to płatność po wykonaniu i odbiorze danego etapu, nie z góry. Płatność „na fakturę zaliczkową" przed jakimkolwiek wykonaniem to czerwone światło. Szczegółowo o tym, <a href="/blog/zaliczka-dla-wykonawcy-jak-bezpiecznie-placic/">ile zaliczki dać i jak bezpiecznie płacić</a>, piszę osobno.</p>
 
 <p><strong>Zadatek czy zaliczka</strong> – to nie to samo, choć w mowie potocznej używane wymiennie. Zadatek (art. 394 KC) ma funkcję zabezpieczającą: jeżeli druga strona nie wykona zobowiązania, można od umowy odstąpić bez wyznaczania dodatkowego terminu i zachować zadatek (jeśli odstępuje strona, która go dała, lub żądać zwrotu w podwójnej wysokości, jeśli odstępuje strona, która go otrzymała). Zaliczka to po prostu część wynagrodzenia płacona z góry – w razie niewykonania umowy podlega zwrotowi w pojedynczej wysokości. Z perspektywy inwestora zadatek daje silniejszą pozycję negocjacyjną. Trzeba to jednak nazwać po imieniu w umowie, bo bez wyraźnego wskazania „zadatek" sąd potraktuje wpłatę jako zaliczkę.</p>
 
@@ -71,7 +71,7 @@ metadata:
 
 <p>To punkt, w którym najwięcej osób się myli. Krąży mit, że wykonawca odpowiada za wady przez 2 lata. To nieprawda. Po nowelizacji z 2014 roku, zgodnie z art. 568 § 1 Kodeksu cywilnego, rękojmia za wady nieruchomości – w tym konstrukcyjnych elementów budynku – wynosi <strong>5 lat od dnia wydania rzeczy kupującemu</strong>. Skoro art. 656 § 1 KC odsyła w zakresie rękojmi przy umowie o roboty budowlane do przepisów o umowie o dzieło, a te z kolei (art. 638 KC) do przepisów o sprzedaży – to przy budowie domu mamy zastosowanie tej pięcioletniej rękojmi.</p>
 
-<p>Mit dwóch lat bierze się stąd, że <strong>gwarancja</strong> – czyli dobrowolne zobowiązanie wykonawcy lub producenta wykraczające poza ustawową rękojmię – domyślnie wynosi 2 lata (art. 577 § 4 KC), o ile w dokumencie gwarancyjnym nie zapisano inaczej. To są dwie różne instytucje prawne, działające równolegle. Możecie z nich korzystać niezależnie. Procedurę zgłaszania wad z tytułu rękojmi pokazuję w osobnym tekście o tym, <a href="/blog/usterki-budowlane-jak-reklamowac-i-egzekwowac/">jak reklamować i egzekwować usterki budowlane</a>.</p>
+<p>Mit dwóch lat bierze się stąd, że <strong>gwarancja</strong> – czyli dobrowolne zobowiązanie wykonawcy lub producenta wykraczające poza ustawową rękojmię – domyślnie wynosi 2 lata (art. 577 § 4 KC), o ile w dokumencie gwarancyjnym nie zapisano inaczej. To są dwie różne instytucje prawne, działające równolegle. Możecie z nich korzystać niezależnie. Procedurę zgłaszania wad z tytułu rękojmi pokazuję w osobnym tekście o tym, <a href="/blog/usterki-budowlane-jak-reklamowac-egzekwowac/">jak reklamować i egzekwować usterki budowlane</a>.</p>
 
 <p>W umowie warto wyraźnie zapisać, że strony potwierdzają obowiązywanie ustawowej rękojmi w pełnym wymiarze 5 lat oraz określić procedurę zgłaszania wad: forma (najlepiej pisemna, z dowodem nadania), termin reakcji wykonawcy, sposób ustalania trybu naprawy. Jeżeli wykonawca oferuje dodatkowo gwarancję – niech będzie ona udzielona w formie pisemnego dokumentu gwarancyjnego, z jasno określonym okresem i zakresem.</p>
 
@@ -95,7 +95,7 @@ metadata:
 
 <h2>Polisa OC wykonawcy i ubezpieczenie budowy</h2>
 
-<p>To element, który często bywa pomijany, a stanowi istotny mechanizm ochronny. W umowie warto zapisać obowiązek wykonawcy posiadania <a href="/blog/polisa-oc-wykonawcy-dlaczego-jest-wazna/">ubezpieczenia odpowiedzialności cywilnej (OC)</a> z tytułu prowadzonej działalności, z minimalną sumą gwarancyjną (typowo 500 000 – 1 000 000 zł) oraz obowiązek przedstawienia kopii polisy przed rozpoczęciem prac. Polisa OC wykonawcy chroni Was w razie szkód spowodowanych przez jego ekipę – zarówno na Waszej budowie, jak i u sąsiadów. Konflikty z sąsiadami, których w trakcie budowy nigdy nie brakuje, opisałem w osobnym tekście o <a href="/blog/budowa-domu-a-sasiedzi-jak-unikac-konfliktow/">budowie a sąsiadach</a>.</p>
+<p>To element, który często bywa pomijany, a stanowi istotny mechanizm ochronny. W umowie warto zapisać obowiązek wykonawcy posiadania <a href="/blog/polisa-oc-wykonawcy-dlaczego-wazna/">ubezpieczenia odpowiedzialności cywilnej (OC)</a> z tytułu prowadzonej działalności, z minimalną sumą gwarancyjną (typowo 500 000 – 1 000 000 zł) oraz obowiązek przedstawienia kopii polisy przed rozpoczęciem prac. Polisa OC wykonawcy chroni Was w razie szkód spowodowanych przez jego ekipę – zarówno na Waszej budowie, jak i u sąsiadów. Konflikty z sąsiadami, których w trakcie budowy nigdy nie brakuje, opisałem w osobnym tekście o <a href="/blog/budowa-domu-a-sasiedzi-jak-unikac-konfliktow/">budowie a sąsiadach</a>.</p>
 
 <p>Niezależnie od polisy wykonawcy, Wy jako inwestor powinniście ubezpieczyć dom w budowie. Zwracam uwagę: dom w budowie nie może być ubezpieczony od kradzieży, dopóki nie osiągnie stanu surowego zamkniętego i nie zostanie wyposażony w alarm. Polisa od ognia, zalania, wiatru, dewastacji jest jednak dostępna od pierwszego dnia.</p>
 

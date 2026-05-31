@@ -33,7 +33,7 @@ metadata:
 
 <h2>Etap pierwszy: wniosek o określenie warunków przyłączenia</h2>
 
-<p>Cała procedura zaczyna się od złożenia w PSG (lub u innego operatora dystrybucyjnego działającego w Waszym regionie) wniosku o <a href="/blog/warunki-techniczne-przylacza-mediow-jak-uzyskac/">określenie warunków przyłączenia do sieci gazowej</a>. To nie jest jeszcze umowa – to jedynie pytanie do dystrybutora: „Czy mogę się przyłączyć, na jakich warunkach i jakim kosztem?".</p>
+<p>Cała procedura zaczyna się od złożenia w PSG (lub u innego operatora dystrybucyjnego działającego w Waszym regionie) wniosku o <a href="/blog/warunki-techniczne-przylaczy-mediow-jak-uzyskac/">określenie warunków przyłączenia do sieci gazowej</a>. To nie jest jeszcze umowa – to jedynie pytanie do dystrybutora: „Czy mogę się przyłączyć, na jakich warunkach i jakim kosztem?".</p>
 
 <p>Czego potrzebujecie do złożenia wniosku? Standardowo: dane wnioskodawcy (czyli Wasze), dane techniczne nieruchomości (numer działki, obręb), planowane zapotrzebowanie na paliwo gazowe (w metrach sześciennych na godzinę – to wartość, którą można oszacować na podstawie planowanej mocy kotła i ewentualnej kuchenki gazowej) oraz mapę sytuacyjną z zaznaczoną lokalizacją projektowanego przyłącza i punktu poboru. Mapę najczęściej dostarcza Wam geodeta przy okazji innych prac na działce – jeżeli macie już zlecone mapy do celów projektowych, ten sam geodeta wykona Wam taką mapkę za niewielką dopłatą.</p>
 
@@ -65,7 +65,7 @@ metadata:
 
 <p>Co zawiera projekt instalacji gazowej? Przede wszystkim: trasę rur od skrzynki gazowej do każdego odbiornika gazu (kotła, kuchenki), średnice rur dobrane na podstawie obliczeń strat ciśnienia, lokalizację gazomierza (jeżeli ma być wewnątrz budynku, a nie w skrzynce zewnętrznej), specyfikację armatury (zawory odcinające, filtr, ewentualne dodatkowe reduktory) oraz analizę wentylacji pomieszczenia kotłowni i pomieszczeń, w których będą znajdować się odbiorniki gazu.</p>
 
-<p>Ten ostatni punkt to miejsce, w którym najczęściej widzę problemy na budowach – <a href="/blog/kotlownia-w-domu-gdzie-zaplanowac-i-jak-duza/">kotłownia gazowa</a> musi spełniać wymagania określone w rozporządzeniu Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie. W szczególności § 172 i kolejne tego rozporządzenia regulują wymagania dotyczące pomieszczeń, w których instalowane są urządzenia gazowe: minimalna kubatura, wysokość, wentylacja nawiewna i wywiewna, odprowadzenie spalin. Bez spełnienia tych wymagań kominiarz nie wyda pozytywnej opinii kominiarskiej, a bez niej nie odbierzecie instalacji.</p>
+<p>Ten ostatni punkt to miejsce, w którym najczęściej widzę problemy na budowach – <a href="/blog/kotlownia-w-domu-gdzie-zaplanowac-jak-duza/">kotłownia gazowa</a> musi spełniać wymagania określone w rozporządzeniu Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie. W szczególności § 172 i kolejne tego rozporządzenia regulują wymagania dotyczące pomieszczeń, w których instalowane są urządzenia gazowe: minimalna kubatura, wysokość, wentylacja nawiewna i wywiewna, odprowadzenie spalin. Bez spełnienia tych wymagań kominiarz nie wyda pozytywnej opinii kominiarskiej, a bez niej nie odbierzecie instalacji.</p>
 
 <h2>Etap piąty: wykonanie instalacji wewnętrznej</h2>
 

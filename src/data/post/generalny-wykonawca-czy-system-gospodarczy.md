@@ -87,7 +87,7 @@ metadata:
 
 <p>Polisa OC generalnego wykonawcy chroni Was też w przypadkach, w których w systemie gospodarczym musielibyście dochodzić odszkodowania od konkretnego podwykonawcy z osobna – co bywa nieproste, kosztowne i często kończy się połowicznym kompromisem zamiast pełnego pokrycia szkody.</p>
 
-<p>Co istotne – sama umowa nigdy nie chroni Was w stu procentach. Sądy działają wolno, a wykonawca, który nie chce zapłacić, znajdzie sposób, żeby przeciągnąć sprawę. Dlatego ważniejsza od umowy jest profilaktyka i <a href="/blog/jak-wybrac-wykonawce-budowy-domu-10-zasad/">staranny wybór wykonawcy</a>. Ale w razie sporu lepiej mieć jedną umowę z firmą o ugruntowanej pozycji niż dziesięć umów z różnymi ekipami, z których część po dwóch latach może już nie istnieć. Co robić, gdy <a href="/blog/co-robic-gdy-wykonawca-nie-dotrzymuje-terminow/">wykonawca nie dotrzymuje terminów</a>, opisuję krok po kroku w osobnym tekście.</p>
+<p>Co istotne – sama umowa nigdy nie chroni Was w stu procentach. Sądy działają wolno, a wykonawca, który nie chce zapłacić, znajdzie sposób, żeby przeciągnąć sprawę. Dlatego ważniejsza od umowy jest profilaktyka i <a href="/blog/jak-wybrac-wykonawce-budowy-domu-10-zasad/">staranny wybór wykonawcy</a>. Ale w razie sporu lepiej mieć jedną umowę z firmą o ugruntowanej pozycji niż dziesięć umów z różnymi ekipami, z których część po dwóch latach może już nie istnieć. Co robić, gdy <a href="/blog/wykonawca-nie-dotrzymuje-terminow/">wykonawca nie dotrzymuje terminów</a>, opisuję krok po kroku w osobnym tekście.</p>
 
 <h2>Hybrydowe podejście – złoty środek dla wielu</h2>
 

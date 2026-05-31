@@ -35,7 +35,7 @@ metadata:
 
 <p>Cztery tygodnie od wylania to absolutne minimum. Przez ten czas wylewka osiąga wytrzymałość, która pozwala na większe obciążenia i kontakt z ciepłem. Co konkretnie jest zabronione przed upływem 28 dni?</p>
 
-<p>Po pierwsze – <strong><a href="/blog/wylewka-na-ogrzewanie-podlogowe-grubosc-i-rodzaj/">uruchomienie ogrzewania podłogowego</a></strong>. Wcześniejsze podgrzanie <a href="/blog/ogrzewanie-podlogowe-jak-ukladac-rurki/">wody w rurach</a> przyspieszy odparowywanie wilgoci, ale jednocześnie zatrzyma reakcję wiązania. Wylewka wyschnie, zanim w pełni się zwiąże, i zostanie ze słabą strukturą – pęka pod stopami, kruszy się pod butami, w skrajnym przypadku trzeba ją skuć i wylać ponownie.</p>
+<p>Po pierwsze – <strong><a href="/blog/wylewka-na-ogrzewanie-podlogowe-grubosc-rodzaj/">uruchomienie ogrzewania podłogowego</a></strong>. Wcześniejsze podgrzanie <a href="/blog/ogrzewanie-podlogowe-jak-ukladac-rurki/">wody w rurach</a> przyspieszy odparowywanie wilgoci, ale jednocześnie zatrzyma reakcję wiązania. Wylewka wyschnie, zanim w pełni się zwiąże, i zostanie ze słabą strukturą – pęka pod stopami, kruszy się pod butami, w skrajnym przypadku trzeba ją skuć i wylać ponownie.</p>
 
 <p>Po drugie – <strong>kładzenie jakiegokolwiek wykończenia podłogi</strong>. Płytki, panele, deski, żywice. Wszystko, co zamknęłoby wylewkę i zatrzymało dalsze schnięcie. Wilgoć, która nie ma jak odparować, znajdzie sobie ujście – najczęściej w postaci wykwitów, pleśni, pęcznienia desek lub odspajania się płytek.</p>
 

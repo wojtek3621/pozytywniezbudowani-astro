@@ -97,7 +97,7 @@ metadata:
 
 <p style="text-align: justify;">Przed rozpoczęciem robót kierownik budowy musi też założyć <a href="/blog/dziennik-budowy-jak-prowadzic-poprawnie">dziennik budowy</a>. To oficjalny dokument, w którym rejestruje się cały przebieg prac budowlanych. Dziennik można kupić w urzędzie lub przez internet, a w niektórych urzędach trzeba dodatkowo zapłacić za jego rejestrację.</p>
 
-<p style="text-align: justify;">Na terenie budowy musi też pojawić się <a href="/blog/tablica-budowy-co-musi-zawierac-gdzie-powiesic">tablica informacyjna</a>. To żółta tablica, którą widzicie na każdej budowie, z nazwą inwestora, kierownika budowy, numerem pozwolenia, adresem i innymi danymi określonymi w przepisach. Tablica musi być umieszczona w widocznym miejscu i pozostawać tam przez cały czas trwania budowy.</p>
+<p style="text-align: justify;">Na terenie budowy musi też pojawić się <a href="/blog/tablica-budowy-co-musi-zawierac-i-gdzie-powiesic">tablica informacyjna</a>. To żółta tablica, którą widzicie na każdej budowie, z nazwą inwestora, kierownika budowy, numerem pozwolenia, adresem i innymi danymi określonymi w przepisach. Tablica musi być umieszczona w widocznym miejscu i pozostawać tam przez cały czas trwania budowy.</p>
 
 <h2 style="text-align: justify;">Kiedy pozwolenie nie jest potrzebne</h2>
 

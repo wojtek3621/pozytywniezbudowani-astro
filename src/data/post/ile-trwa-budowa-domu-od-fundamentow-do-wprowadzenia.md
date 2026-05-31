@@ -77,7 +77,7 @@ metadata:
 
 <h2>Czynniki, które najczęściej wydłużają budowę</h2>
 
-<p>Z perspektywy ponad dekady na budowach widzę kilka powtarzających się powodów opóźnień. Po pierwsze – <a href="/blog/prawdziwy-koszt-budowy-domu-od-dzialki-po-ostatnia-rate/">niedoszacowany budżet</a>. Inwestor kończy stan deweloperski, środki się skończyły, czeka, aż uzbiera resztę. Po drugie – brak projektu wnętrz. Etap elektryki zatrzymuje się, bo nie wiadomo, gdzie ma być gniazdko. Po trzecie – pogoda. Wczesnowiosenny start vs. jesienny start to różnica wielu tygodni. Po czwarte – niedostępność dobrych ekip. Po piąte – pozwolenie i procedury urzędowe, które trwają tyle, ile trwają.</p>
+<p>Z perspektywy ponad dekady na budowach widzę kilka powtarzających się powodów opóźnień. Po pierwsze – <a href="/blog/prawdziwy-koszt-budowy-domu/">niedoszacowany budżet</a>. Inwestor kończy stan deweloperski, środki się skończyły, czeka, aż uzbiera resztę. Po drugie – brak projektu wnętrz. Etap elektryki zatrzymuje się, bo nie wiadomo, gdzie ma być gniazdko. Po trzecie – pogoda. Wczesnowiosenny start vs. jesienny start to różnica wielu tygodni. Po czwarte – niedostępność dobrych ekip. Po piąte – pozwolenie i procedury urzędowe, które trwają tyle, ile trwają.</p>
 
 <p>Jeszcze jeden czynnik, o którym nikt głośno nie mówi: zmęczenie inwestora. Po roku codziennego podejmowania decyzji, jeżdżenia na budowę, dzwonienia do hydraulika, sprawdzania, czy płytkarz ułożył tak, jak miało być – przychodzi moment, w którym po prostu nie ma już siły. Tempo prac zwalnia, bo zwalnia tempo decyzji. To realny czynnik, na który warto się przygotować psychicznie. Druga połowa budowy jest trudniejsza niż pierwsza – nie z przyczyn technicznych, tylko ludzkich.</p>
 

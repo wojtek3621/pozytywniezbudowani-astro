@@ -109,7 +109,7 @@ metadata:
 
 <p>Trzecia rzecz: porozmawiajcie z poprzednimi klientami o szczegółach umowy i jej realizacji. Czy terminy zostały dotrzymane? Czy budżet się utrzymał, czy były dopłaty? Jak wykonawca reagował na uwagi i poprawki? Jak wyglądała komunikacja w sytuacjach trudnych? Dobre ekipy nie boją się takich pytań, bo wiedzą, że klient powie prawdę i ta prawda będzie pozytywna.</p>
 
-<p>Czwarta rzecz: sprawdźcie <a href="/blog/polisa-oc-wykonawcy-dlaczego-jest-wazna/">polisę OC wykonawcy</a>. Każda solidna firma budowlana powinna mieć polisę odpowiedzialności cywilnej z odpowiednio wysoką sumą gwarancyjną. Brak polisy albo jej rażąco niska kwota to sygnał ostrzegawczy. Poproście o kopię polisy do wglądu – wykonawca, który odmawia, ma coś do ukrycia.</p>
+<p>Czwarta rzecz: sprawdźcie <a href="/blog/polisa-oc-wykonawcy-dlaczego-wazna/">polisę OC wykonawcy</a>. Każda solidna firma budowlana powinna mieć polisę odpowiedzialności cywilnej z odpowiednio wysoką sumą gwarancyjną. Brak polisy albo jej rażąco niska kwota to sygnał ostrzegawczy. Poproście o kopię polisy do wglądu – wykonawca, który odmawia, ma coś do ukrycia.</p>
 
 <p>Piąta rzecz: spotkajcie się osobiście, najlepiej na działce albo w siedzibie firmy. Bezpośredni kontakt mówi więcej niż kilkanaście maili. Czy wykonawca przychodzi punktualnie? Czy słucha Was, czy mówi tylko o sobie? Czy zadaje pytania techniczne wskazujące na zrozumienie projektu, czy po prostu kiwa głową na wszystko? Zaufajcie intuicji – jeśli czujecie dyskomfort już na etapie rozmowy, to ten dyskomfort będzie tylko narastał na budowie.</p>
 

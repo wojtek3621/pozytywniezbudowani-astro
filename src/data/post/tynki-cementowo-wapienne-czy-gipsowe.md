@@ -163,7 +163,7 @@ metadata:
 
 <p>Co NIE jest blokowane przez schnący tynk?</p>
 
-<p><a href="/blog/wylewki-podlogowe-anhydrytowe-czy-cementowe/">Wylewki podłogowe</a> – wręcz przeciwnie, wylewki najczęściej wykonuje się PO tynkach. Powodów jest kilka. Po pierwsze, tynkowanie to brudna robota – łatwiej operować maszynami i nogami po surowej posadzce niż po świeżej wylewce, którą można uszkodzić. Po drugie, wylewka kładziona po tynkach automatycznie wyrównuje styk ściany z podłogą. Po trzecie, wylewki same potrzebują wielu dni na <a href="/blog/schniecie-wylewki-kiedy-mozna-klasc-podloge/">dojrzewanie i wygrzewanie</a>, więc nie ma co się spieszyć z ich wykonaniem przed tynkami.</p>
+<p><a href="/blog/wylewki-podlogowe-anhydrytowe-czy-cementowe/">Wylewki podłogowe</a> – wręcz przeciwnie, wylewki najczęściej wykonuje się PO tynkach. Powodów jest kilka. Po pierwsze, tynkowanie to brudna robota – łatwiej operować maszynami i nogami po surowej posadzce niż po świeżej wylewce, którą można uszkodzić. Po drugie, wylewka kładziona po tynkach automatycznie wyrównuje styk ściany z podłogą. Po trzecie, wylewki same potrzebują wielu dni na <a href="/blog/schniecie-wylewki-kiedy-klasc-podloge/">dojrzewanie i wygrzewanie</a>, więc nie ma co się spieszyć z ich wykonaniem przed tynkami.</p>
 
 <p>Instalacje wewnętrzne – hydraulika do końcowego podłączenia, elektryka do podłączenia osprzętu, klimatyzacja, rekuperacja w zakresie końcowych prac. Wszystko to może iść równolegle z dosychaniem tynków albo zaraz po wyjściu tynkarzy.</p>
 

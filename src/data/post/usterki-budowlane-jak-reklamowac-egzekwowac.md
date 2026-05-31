@@ -83,7 +83,7 @@ metadata:
 
 <h2>Co zrobić, gdy wykonawca nie reaguje</h2>
 
-<p>Jeżeli pierwsze pismo zostało zignorowane, eskaluje się sprawę stopniowo. Skok od zgłoszenia bezpośrednio do sądu jest błędem proceduralnym i kosztowym. Tu sprawdzają się te same kroki, które opisałem dla sytuacji, gdy <a href="/blog/co-robic-gdy-wykonawca-nie-dotrzymuje-terminow/">wykonawca nie dotrzymuje terminów</a> – mechanika eskalacji jest niemal identyczna.</p>
+<p>Jeżeli pierwsze pismo zostało zignorowane, eskaluje się sprawę stopniowo. Skok od zgłoszenia bezpośrednio do sądu jest błędem proceduralnym i kosztowym. Tu sprawdzają się te same kroki, które opisałem dla sytuacji, gdy <a href="/blog/wykonawca-nie-dotrzymuje-terminow/">wykonawca nie dotrzymuje terminów</a> – mechanika eskalacji jest niemal identyczna.</p>
 
 <p><strong>Krok pierwszy: ponaglenie.</strong> Po upływie pierwszych 14 dni wysyłacie kolejne pismo. Tym razem listem poleconym za zwrotnym potwierdzeniem odbioru. W treści powołujecie się na pierwsze zgłoszenie, ponawiacie żądanie i wskazujecie kolejny termin – 7 do 14 dni. Wspominacie o dalszych konsekwencjach prawnych w razie braku reakcji.</p>
 
@@ -127,7 +127,7 @@ metadata:
 
 <p>Po drugie, kary umowne za zwłokę w usuwaniu wad. Najczęściej w formie procentu wynagrodzenia za każdy dzień zwłoki. Kara umowna nie zwalnia z roszczeń odszkodowawczych w pełnej wysokości – uzupełnia je do limitu, który ustalicie.</p>
 
-<p>Po trzecie, zatrzymanie części wynagrodzenia jako zabezpieczenie należytego wykonania. Standardowa praktyka rynkowa to 5% wynagrodzenia zatrzymywane na okres rękojmi (lub jej części), wypłacane po jego upływie albo wcześniej na podstawie gwarancji bankowej dostarczonej przez wykonawcę. To rozwiązanie chroni Was przed sytuacją, w której wykonawca dostał całość wynagrodzenia i przestał interesować się wadami. Jak chronić <a href="/blog/polisa-oc-wykonawcy-dlaczego-jest-wazna/">polisą OC wykonawcy</a> sytuacje wykraczające poza naprawę samych prac, opisuję w osobnym tekście.</p>
+<p>Po trzecie, zatrzymanie części wynagrodzenia jako zabezpieczenie należytego wykonania. Standardowa praktyka rynkowa to 5% wynagrodzenia zatrzymywane na okres rękojmi (lub jej części), wypłacane po jego upływie albo wcześniej na podstawie gwarancji bankowej dostarczonej przez wykonawcę. To rozwiązanie chroni Was przed sytuacją, w której wykonawca dostał całość wynagrodzenia i przestał interesować się wadami. Jak chronić <a href="/blog/polisa-oc-wykonawcy-dlaczego-wazna/">polisą OC wykonawcy</a> sytuacje wykraczające poza naprawę samych prac, opisuję w osobnym tekście.</p>
 
 <p>Po czwarte, przedłużona umowna gwarancja jakości. Możecie zapisać w umowie pięcioletnią lub siedmioletnią gwarancję wykonawcy, niezależną od ustawowej rękojmi. Daje to dodatkowy mechanizm dochodzenia, często prostszy proceduralnie.</p>
 
