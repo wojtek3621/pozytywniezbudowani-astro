@@ -24,7 +24,17 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    sitemap(),
+    sitemap({
+      // SEO: sitemap zawiera TYLKO strony indeksowalne i kanoniczne.
+      // Wyklucz strony tagów (noindex), kategorii (noindex, duplikat /blog/)
+      // oraz paginację (noindex). Źródło: audyt 2026-06-01 (1212 URL → ~313).
+      // P2 (huby tematyczne): gdy /tag/ stanie się indeksowalne, usuń regułę
+      // /tag/ poniżej (zostaw wykluczenie paginacji /tag/x/N/ przez \d+).
+      filter: (page) =>
+        !/\/tag\//.test(page) &&
+        !/\/category\//.test(page) &&
+        !/\/blog\/\d+\/?$/.test(page),
+    }),
     mdx(),
     icon({
       include: {
