@@ -6,9 +6,7 @@ excerpt: 'Tysiące projektów w katalogach, a Ty nie wiesz, który wybrać? Jest
 image: '~/assets/images/blog/projekt-gotowy-czy-indywidualny-co-wybrac.jpeg'
 category: 'Blog'
 tags:
-  - 'projekt gotowy czy indywidualny'
-  - 'projekt domu'
-  - 'adaptacja projektu'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/projekt-gotowy-czy-indywidualny-co-wybrac/'

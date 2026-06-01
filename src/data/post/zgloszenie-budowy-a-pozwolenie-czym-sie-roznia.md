@@ -6,9 +6,7 @@ excerpt: 'Zgłoszenie czy pozwolenie? To nie tylko kwestia formalności – ta d
 image: '~/assets/images/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia.jpeg'
 category: 'Blog'
 tags:
-  - 'zgłoszenie budowy'
-  - 'pozwolenie na budowę'
-  - 'różnice zgłoszenie pozwolenie'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia/'

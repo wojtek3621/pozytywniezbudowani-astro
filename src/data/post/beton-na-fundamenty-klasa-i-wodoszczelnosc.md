@@ -6,9 +6,7 @@ excerpt: 'Beton zostaje pod Waszym domem na całe jego życie. Jakie parametry z
 image: '~/assets/images/blog/beton-na-fundamenty-klasa-i-wodoszczelnosc.jpeg'
 category: 'Blog'
 tags:
-  - 'beton na fundamenty'
-  - 'klasa betonu C20/25'
-  - 'wodoszczelność W8'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/beton-na-fundamenty-klasa-i-wodoszczelnosc/'

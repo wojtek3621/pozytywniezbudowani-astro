@@ -6,9 +6,7 @@ excerpt: 'Wielu inwestorów wybiera więźbę "bo tak się robi". Zanim podejmie
 image: '~/assets/images/blog/wiezba-dachowa-tradycyjna-czy-wiazary-prefabrykowane.jpeg'
 category: 'Blog'
 tags:
-  - 'więźba dachowa tradycyjna'
-  - 'wiązary prefabrykowane'
-  - 'konstrukcja dachu'
+  - 'Stan surowy i konstrukcja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wiezba-dachowa-tradycyjna-czy-wiazary-prefabrykowane/'

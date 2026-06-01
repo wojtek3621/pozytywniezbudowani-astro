@@ -6,9 +6,7 @@ excerpt: 'Ściana, na której piszecie kredą, albo do której przyklejacie magn
 image: '~/assets/images/blog/farba-tablicowa-i-magnetyczna-gdzie-ma-sens.jpeg'
 category: 'Blog'
 tags:
-  - 'farba tablicowa'
-  - 'farba magnetyczna'
-  - 'ściana magnetyczna'
+  - 'Ściany i dekoracje'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/farba-tablicowa-i-magnetyczna-gdzie-ma-sens/'

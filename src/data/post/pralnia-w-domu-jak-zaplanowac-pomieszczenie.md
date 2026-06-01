@@ -6,9 +6,8 @@ excerpt: 'Pralnia, której nie zaplanujecie na etapie projektu, zemści się prz
 image: '~/assets/images/blog/pralnia-w-domu-jak-zaplanowac-pomieszczenie.jpeg'
 category: 'Blog'
 tags:
-  - 'pralnia w domu'
-  - 'projekt pralni'
-  - 'pomieszczenie gospodarcze'
+  - 'Pomieszczenia w domu'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/pralnia-w-domu-jak-zaplanowac-pomieszczenie/'

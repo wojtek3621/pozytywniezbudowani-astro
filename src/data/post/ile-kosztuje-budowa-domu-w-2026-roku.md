@@ -6,9 +6,7 @@ excerpt: 'Konkretna kwota za metr kwadratowy? To nie takie proste. Pokażę Ci, 
 image: '~/assets/images/blog/ile-kosztuje-budowa-domu-w-2026-roku.jpeg'
 category: 'Blog'
 tags:
-  - 'koszty budowy domu 2026'
-  - 'ile kosztuje budowa domu'
-  - 'budżet na budowę'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ile-kosztuje-budowa-domu-w-2026-roku/'

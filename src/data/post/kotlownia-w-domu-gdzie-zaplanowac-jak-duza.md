@@ -6,9 +6,7 @@ excerpt: 'Kotłownia to nie szafa na rzeczy techniczne. To pomieszczenie, które
 image: '~/assets/images/blog/kotlownia-w-domu-gdzie-zaplanowac-jak-duza.jpeg'
 category: 'Blog'
 tags:
-  - 'kotłownia w domu'
-  - 'lokalizacja kotłowni'
-  - 'wielkość kotłowni'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kotlownia-w-domu-gdzie-zaplanowac-jak-duza/'

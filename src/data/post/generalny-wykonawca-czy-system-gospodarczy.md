@@ -6,9 +6,9 @@ excerpt: 'To jedna z najważniejszych decyzji przed pierwszą łopatą. Pokazuj�
 image: '~/assets/images/blog/generalny-wykonawca-czy-system-gospodarczy.jpeg'
 category: 'Blog'
 tags:
-  - 'generalny wykonawca'
-  - 'system gospodarczy'
-  - 'organizacja budowy domu'
+  - 'Pomieszczenia w domu'
+  - 'Wykonawcy i umowy'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/generalny-wykonawca-czy-system-gospodarczy/'

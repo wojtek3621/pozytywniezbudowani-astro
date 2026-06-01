@@ -6,10 +6,8 @@ excerpt: 'Beton, który dziś trafi na Wasze fundamenty, będzie dźwigał ten d
 image: '~/assets/images/blog/kontrola-jakosci-betonu-na-budowie.jpeg'
 category: 'Blog'
 tags:
-  - 'kontrola jakości betonu'
-  - 'klasa betonu C20/25'
-  - 'beton wodoszczelny W8'
-  - 'pielęgnacja betonu'
+  - 'Odbiory i kontrola jakości'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kontrola-jakosci-betonu-na-budowie/'

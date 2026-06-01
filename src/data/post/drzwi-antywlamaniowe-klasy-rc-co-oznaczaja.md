@@ -6,11 +6,8 @@ excerpt: 'RC2 czy RC3? Co realnie wytrzymują drzwi w danej klasie i dlaczego sa
 image: '~/assets/images/blog/drzwi-antywlamaniowe-klasy-rc-co-oznaczaja.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi antywłamaniowe'
-  - 'klasy RC'
-  - 'klasa RC2'
-  - 'klasa RC3'
-  - 'norma PN-EN 1627'
+  - 'Okna i drzwi'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-antywlamaniowe-klasy-rc-co-oznaczaja/'

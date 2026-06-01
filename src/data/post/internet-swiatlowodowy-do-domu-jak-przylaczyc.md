@@ -6,9 +6,7 @@ excerpt: 'Światłowód podłączacie raz, ale bałagan po nieprzemyślanej decy
 image: '~/assets/images/blog/internet-swiatlowodowy-do-domu-jak-przylaczyc.jpeg'
 category: 'Blog'
 tags:
-  - 'światłowód do domu'
-  - 'przyłącze internetowe'
-  - 'rura osłonowa internet'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/internet-swiatlowodowy-do-domu-jak-przylaczyc/'

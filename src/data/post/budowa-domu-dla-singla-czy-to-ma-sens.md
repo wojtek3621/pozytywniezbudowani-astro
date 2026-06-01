@@ -6,9 +6,8 @@ excerpt: 'Singiel pyta mnie o budowę domu częściej, niż się Wam wydaje. Dru
 image: '~/assets/images/blog/budowa-domu-dla-singla-czy-to-ma-sens.jpeg'
 category: 'Blog'
 tags:
-  - 'budowa domu dla singla'
-  - 'mały dom dla jednej osoby'
-  - 'koszt budowy domu singiel'
+  - 'Projekt domu'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-dla-singla-czy-to-ma-sens/'

@@ -6,9 +6,7 @@ excerpt: 'Drzwi bezprogowe wyglądają minimalistycznie i czysto, ale wymagają 
 image: '~/assets/images/blog/drzwi-bezprogowe-montaz-zastosowanie.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi bezprogowe'
-  - 'montaż drzwi bezprogowych'
-  - 'drzwi bez progu'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-bezprogowe-montaz-zastosowanie/'

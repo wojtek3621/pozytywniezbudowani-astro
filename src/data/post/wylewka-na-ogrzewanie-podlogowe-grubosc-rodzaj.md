@@ -6,9 +6,9 @@ excerpt: 'Anhydryt szybciej się nagrzewa, ale nie zmniejsza zapotrzebowania na 
 image: '~/assets/images/blog/wylewka-na-ogrzewanie-podlogowe-grubosc-rodzaj.jpeg'
 category: 'Blog'
 tags:
-  - 'wylewka na ogrzewanie podłogowe'
-  - 'wylewka anhydrytowa'
-  - 'wylewka cementowo-piaskowa'
+  - 'Tynki i wylewki'
+  - 'Podłogi i wykończenie'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wylewka-na-ogrzewanie-podlogowe-grubosc-rodzaj/'

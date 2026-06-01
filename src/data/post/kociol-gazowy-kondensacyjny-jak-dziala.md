@@ -6,9 +6,7 @@ excerpt: 'Sprawność 109% wygląda jak chwyt marketingowy. W kotle kondensacyjn
 image: '~/assets/images/blog/kociol-gazowy-kondensacyjny-jak-dziala.jpeg'
 category: 'Blog'
 tags:
-  - 'kocioł kondensacyjny'
-  - 'kocioł gazowy kondensacyjny'
-  - 'jak działa kocioł kondensacyjny'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kociol-gazowy-kondensacyjny-jak-dziala/'

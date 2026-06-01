@@ -6,9 +6,8 @@ excerpt: 'Ściany fundamentowe z bloczków to element, który łatwo zlekceważy
 image: '~/assets/images/blog/sciany-fundamentowe-z-bloczkow-jak-murowac.jpeg'
 category: 'Blog'
 tags:
-  - 'ściany fundamentowe'
-  - 'bloczki betonowe'
-  - 'murowanie fundamentu'
+  - 'Fundamenty'
+  - 'Stan surowy i konstrukcja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sciany-fundamentowe-z-bloczkow-jak-murowac/'

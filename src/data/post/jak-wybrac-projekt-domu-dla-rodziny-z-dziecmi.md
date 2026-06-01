@@ -6,9 +6,7 @@ excerpt: 'Dzieci rosną szybciej niż myślicie. Jak wybrać projekt, który spr
 image: '~/assets/images/blog/jak-wybrac-projekt-domu-dla-rodziny-z-dziecmi.jpeg'
 category: 'Blog'
 tags:
-  - 'projekt domu dla rodziny'
-  - 'dom dla dzieci'
-  - 'projekt domu z pokojem dziecięcym'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-wybrac-projekt-domu-dla-rodziny-z-dziecmi/'

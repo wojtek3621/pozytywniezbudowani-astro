@@ -6,9 +6,7 @@ excerpt: 'Wykonawca prosi o zaliczkę 50% przed wejściem na budowę. Płacić, 
 image: '~/assets/images/blog/zaliczka-dla-wykonawcy-jak-bezpiecznie-placic.jpeg'
 category: 'Blog'
 tags:
-  - 'zaliczka dla wykonawcy'
-  - 'zadatek a zaliczka'
-  - 'harmonogram płatności budowa'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zaliczka-dla-wykonawcy-jak-bezpiecznie-placic/'

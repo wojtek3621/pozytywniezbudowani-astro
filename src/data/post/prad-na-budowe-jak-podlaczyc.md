@@ -6,9 +6,9 @@ excerpt: 'Bez prądu nie ruszy ani koparka, ani mieszarka. Pokazuję krok po kro
 image: '~/assets/images/blog/prad-na-budowe-jak-podlaczyc.jpeg'
 category: 'Blog'
 tags:
-  - 'prąd na budowę'
-  - 'przyłącze tymczasowe'
-  - 'opłata przyłączeniowa'
+  - 'Finanse i kredyt'
+  - 'Organizacja budowy'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/prad-na-budowe-jak-podlaczyc/'

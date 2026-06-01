@@ -6,9 +6,7 @@ excerpt: 'Dziennik budowy to oficjalna biografia Waszego domu. Pokażę Wam, jak
 image: '~/assets/images/blog/dziennik-budowy-jak-prowadzic-poprawnie.jpeg'
 category: 'Blog'
 tags:
-  - 'dziennik budowy'
-  - 'wpisy w dzienniku budowy'
-  - 'elektroniczny dziennik budowy EDB'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dziennik-budowy-jak-prowadzic-poprawnie/'

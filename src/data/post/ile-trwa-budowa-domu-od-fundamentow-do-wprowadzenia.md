@@ -6,9 +6,8 @@ excerpt: 'Budowa domu to nie 8 miesięcy z folderu reklamowego. Pokazuję Wam re
 image: '~/assets/images/blog/ile-trwa-budowa-domu-od-fundamentow-do-wprowadzenia.jpeg'
 category: 'Blog'
 tags:
-  - 'czas budowy domu'
-  - 'harmonogram budowy'
-  - 'ile trwa budowa domu jednorodzinnego'
+  - 'Fundamenty'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ile-trwa-budowa-domu-od-fundamentow-do-wprowadzenia/'

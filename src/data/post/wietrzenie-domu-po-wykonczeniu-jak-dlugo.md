@@ -6,9 +6,8 @@ excerpt: 'Tysiące litrów wody w ścianach, wylewkach i tynkach. Bez wietrzenia
 image: '~/assets/images/blog/wietrzenie-domu-po-wykonczeniu-jak-dlugo.jpeg'
 category: 'Blog'
 tags:
-  - 'wietrzenie domu po wykończeniu'
-  - 'schnięcie tynków'
-  - 'wilgoć po budowie'
+  - 'Ściany i dekoracje'
+  - 'Tynki i wylewki'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wietrzenie-domu-po-wykonczeniu-jak-dlugo/'

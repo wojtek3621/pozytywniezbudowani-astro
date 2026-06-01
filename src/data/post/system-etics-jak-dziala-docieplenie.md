@@ -6,9 +6,7 @@ excerpt: 'ETICS wygląda jak siedem prostych warstw na ścianie, a w rzeczywisto
 image: '~/assets/images/blog/system-etics-jak-dziala-docieplenie.jpeg'
 category: 'Blog'
 tags:
-  - 'ETICS'
-  - 'system ociepleń'
-  - 'docieplenie elewacji'
+  - 'Ocieplenie i elewacja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/system-etics-jak-dziala-docieplenie/'

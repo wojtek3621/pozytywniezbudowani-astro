@@ -6,9 +6,7 @@ excerpt: 'Drzwi przesuwne wyglądają podobnie na renderach, ale wybór między 
 image: '~/assets/images/blog/drzwi-przesuwne-nascienne-czy-w-sciane.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi przesuwne'
-  - 'drzwi chowane w ścianę'
-  - 'kaseta drzwi przesuwnych'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-przesuwne-nascienne-czy-w-sciane/'

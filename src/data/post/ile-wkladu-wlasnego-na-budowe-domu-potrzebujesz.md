@@ -6,9 +6,8 @@ excerpt: 'Bank wymaga minimum 10% wkładu własnego, ale czy to naprawdę wystar
 image: '~/assets/images/blog/ile-wkladu-wlasnego-na-budowe-domu-potrzebujesz.jpeg'
 category: 'Blog'
 tags:
-  - 'wkład własny kredyt hipoteczny'
-  - 'wkład własny budowa domu'
-  - 'działka jako wkład własny'
+  - 'Działka i grunt'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ile-wkladu-wlasnego-na-budowe-domu-potrzebujesz/'

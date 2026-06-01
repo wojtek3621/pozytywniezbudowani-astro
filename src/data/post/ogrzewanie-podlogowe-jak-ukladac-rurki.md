@@ -6,9 +6,8 @@ excerpt: 'Pokażę Wam, jak zaplanować pętle, jaki dać rozstaw rur i dlaczego
 image: '~/assets/images/blog/ogrzewanie-podlogowe-jak-ukladac-rurki.jpeg'
 category: 'Blog'
 tags:
-  - 'ogrzewanie podłogowe'
-  - 'układanie rurek'
-  - 'pętle ogrzewania podłogowego'
+  - 'Podłogi i wykończenie'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ogrzewanie-podlogowe-jak-ukladac-rurki/'

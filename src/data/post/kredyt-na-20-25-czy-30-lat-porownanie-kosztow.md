@@ -6,10 +6,7 @@ excerpt: 'Niska rata czy mniej odsetek? Jest trzecia droga, która daje Wam obie
 image: '~/assets/images/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow.jpeg'
 category: 'Blog'
 tags:
-  - 'kredyt hipoteczny 25 czy 30 lat'
-  - 'porównanie okresów kredytowania'
-  - 'koszt kredytu hipotecznego'
-  - 'kalkulator kredytu hipotecznego'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow/'

@@ -6,9 +6,7 @@ excerpt: 'Rolety antywłamaniowe to nie magiczna tarcza. Wyjaśniam, kiedy realn
 image: '~/assets/images/blog/rolety-antywlamaniowe-czy-daja-realne-bezpieczenstwo.jpeg'
 category: 'Blog'
 tags:
-  - 'rolety antywłamaniowe'
-  - 'klasa RC'
-  - 'zabezpieczenie domu jednorodzinnego'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/rolety-antywlamaniowe-czy-daja-realne-bezpieczenstwo/'

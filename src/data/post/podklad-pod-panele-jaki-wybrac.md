@@ -6,9 +6,8 @@ excerpt: 'Pianka za kilka złotych czy mata za kilkadziesiąt? Decyzja o podkła
 image: '~/assets/images/blog/podklad-pod-panele-jaki-wybrac.jpeg'
 category: 'Blog'
 tags:
-  - 'podkład pod panele'
-  - 'podkład pod panele podłogowe'
-  - 'jaki podkład pod panele'
+  - 'Podłogi i wykończenie'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/podklad-pod-panele-jaki-wybrac/'

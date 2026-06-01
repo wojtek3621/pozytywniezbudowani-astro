@@ -6,9 +6,9 @@ excerpt: 'Pytanie „gips czy cement-wapno" jest źle zadane. Na większości bu
 image: '~/assets/images/blog/tynki-cementowo-wapienne-czy-gipsowe.jpeg'
 category: 'Blog'
 tags:
-  - 'tynki gipsowe'
-  - 'tynki cementowo-wapienne'
-  - 'tynki maszynowe'
+  - 'Sucha zabudowa'
+  - 'Tynki i wylewki'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/tynki-cementowo-wapienne-czy-gipsowe/'

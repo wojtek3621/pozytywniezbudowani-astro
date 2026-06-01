@@ -6,9 +6,7 @@ excerpt: 'Pozwolenie na budowę w kieszeni, a łopata wciąż stoi? Jest jeszcze
 image: '~/assets/images/blog/zgloszenie-rozpoczecia-budowy-gdzie-i-jak.jpeg'
 category: 'Blog'
 tags:
-  - 'zgłoszenie rozpoczęcia budowy'
-  - 'zawiadomienie o rozpoczęciu robót budowlanych'
-  - 'PINB'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zgloszenie-rozpoczecia-budowy-gdzie-i-jak/'

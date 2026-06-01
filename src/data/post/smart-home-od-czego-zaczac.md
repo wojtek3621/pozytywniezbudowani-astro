@@ -6,9 +6,7 @@ excerpt: 'Zanim wydacie fortunę na smart home, przeczytajcie co naprawdę warto
 image: '~/assets/images/blog/smart-home-od-czego-zaczac.jpeg'
 category: 'Blog'
 tags:
-  - 'smart home od czego zacząć'
-  - 'inteligentny dom budowa'
-  - 'automatyka domowa'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/smart-home-od-czego-zaczac/'

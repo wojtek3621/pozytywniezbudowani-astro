@@ -6,9 +6,7 @@ excerpt: 'Kilkanaście wycen, dziesiątki telefonów, setki pozycji w arkuszu. C
 image: '~/assets/images/blog/kosztorys-budowy-domu-jak-przygotowac.jpeg'
 category: 'Blog'
 tags:
-  - 'kosztorys budowy domu'
-  - 'wycena budowy domu'
-  - 'budżet na budowę'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kosztorys-budowy-domu-jak-przygotowac/'

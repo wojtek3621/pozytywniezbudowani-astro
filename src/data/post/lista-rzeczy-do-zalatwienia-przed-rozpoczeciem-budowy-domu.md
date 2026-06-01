@@ -6,9 +6,8 @@ excerpt: 'Koparka za 3 tygodnie, a Wy nie wiecie, czy wszystko jest ogarnięte? 
 image: '~/assets/images/blog/lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'lista rzeczy przed budową domu'
-  - 'co załatwić przed budową'
-  - 'przygotowanie do budowy domu'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy-domu/'

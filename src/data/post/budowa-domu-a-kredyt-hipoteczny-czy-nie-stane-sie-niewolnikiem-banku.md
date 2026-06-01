@@ -6,9 +6,7 @@ excerpt: '30 lat spłacania kredytu brzmi przerażająco. Ale czy na pewno musi 
 image: '~/assets/images/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku.jpeg'
 category: 'Blog'
 tags:
-  - 'kredyt hipoteczny budowa domu'
-  - 'niewolnik banku'
-  - 'kredyt na dom 30 lat'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku/'

@@ -6,9 +6,8 @@ excerpt: 'Wykończenie domu to maraton decyzji w parze. Pokażę Wam, jak zorgan
 image: '~/assets/images/blog/decyzje-wykonczeniowe-we-dwoje.jpeg'
 category: 'Blog'
 tags:
-  - 'wykończenie domu'
-  - 'decyzje wykończeniowe'
-  - 'projekt wnętrz'
+  - 'Podłogi i wykończenie'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/decyzje-wykonczeniowe-we-dwoje/'

@@ -6,9 +6,10 @@ excerpt: 'Przyłącze gazowe to jedna z tych formalności, gdzie samo PSG to dop
 image: '~/assets/images/blog/przylacze-gazowe-procedura-i-koszty.jpeg'
 category: 'Blog'
 tags:
-  - 'przyłącze gazowe'
-  - 'procedura przyłączenia gazu'
-  - 'warunki przyłączenia PSG'
+  - 'Instalacje i przyłącza'
+  - 'Ogrzewanie i chłodzenie'
+  - 'Finanse i kredyt'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/przylacze-gazowe-procedura-i-koszty/'

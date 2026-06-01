@@ -6,9 +6,8 @@ excerpt: 'Jedni uważają skosy za przytulny element wnętrza, inni za stratę p
 image: '~/assets/images/blog/dom-z-poddaszem-uzytkowym-plusy-i-minusy.jpeg'
 category: 'Blog'
 tags:
-  - 'dom z poddaszem użytkowym'
-  - 'poddasze użytkowe plusy minusy'
-  - 'skosy na piętrze'
+  - 'Projekt domu'
+  - 'Stan surowy i konstrukcja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dom-z-poddaszem-uzytkowym-plusy-i-minusy/'

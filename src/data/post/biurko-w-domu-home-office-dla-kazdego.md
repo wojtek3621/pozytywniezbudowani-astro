@@ -6,9 +6,7 @@ excerpt: 'Większość biurek w domach to improwizacja po wprowadzeniu. Pokażę
 image: '~/assets/images/blog/biurko-w-domu-home-office-dla-kazdego.jpeg'
 category: 'Blog'
 tags:
-  - 'home office w domu'
-  - 'biurko domowe'
-  - 'gabinet domowy'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/biurko-w-domu-home-office-dla-kazdego/'

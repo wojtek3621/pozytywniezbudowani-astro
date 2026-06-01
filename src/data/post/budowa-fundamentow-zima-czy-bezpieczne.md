@@ -6,9 +6,8 @@ excerpt: 'Czy fundament wylany w grudniu jest tak samo trwały jak ten z czerwca
 image: '~/assets/images/blog/budowa-fundamentow-zima-czy-bezpieczne.jpeg'
 category: 'Blog'
 tags:
-  - 'fundamenty zimą'
-  - 'betonowanie zimą'
-  - 'budowa domu zimą'
+  - 'Fundamenty'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-fundamentow-zima-czy-bezpieczne/'

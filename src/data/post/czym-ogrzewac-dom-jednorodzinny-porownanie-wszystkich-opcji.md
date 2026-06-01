@@ -6,9 +6,7 @@ excerpt: 'Gaz, pompa ciepła, prąd – każdy doradzi co innego. Sprawdźcie, c
 image: '~/assets/images/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji.jpeg'
 category: 'Blog'
 tags:
-  - 'czym ogrzewać dom jednorodzinny'
-  - 'pompa ciepła czy gaz'
-  - 'ogrzewanie domu porównanie'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji/'

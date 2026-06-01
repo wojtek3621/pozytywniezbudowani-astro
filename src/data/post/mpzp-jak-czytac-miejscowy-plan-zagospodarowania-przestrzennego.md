@@ -6,9 +6,7 @@ excerpt: 'Kolorowa mapa z tajemniczymi symbolami może zadecydować o losach Was
 image: '~/assets/images/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego.jpeg'
 category: 'Blog'
 tags:
-  - 'MPZP'
-  - 'miejscowy plan zagospodarowania przestrzennego'
-  - 'jak czytać MPZP'
+  - 'Plan miejscowy i WZ'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego/'

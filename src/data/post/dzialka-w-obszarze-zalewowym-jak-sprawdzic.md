@@ -6,9 +6,7 @@ excerpt: 'Atrakcyjna cena działki nad rzeką może oznaczać zakaz budowy. Spra
 image: '~/assets/images/blog/dzialka-w-obszarze-zalewowym-jak-sprawdzic.jpeg'
 category: 'Blog'
 tags:
-  - 'działka w obszarze zalewowym'
-  - 'mapy zagrożenia powodziowego'
-  - 'Hydroportal'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-w-obszarze-zalewowym-jak-sprawdzic/'

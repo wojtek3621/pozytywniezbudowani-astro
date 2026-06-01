@@ -6,10 +6,8 @@ excerpt: 'Kanalizacja pod płytą fundamentową to instalacja, do której już n
 image: '~/assets/images/blog/kanalizacja-pod-fundamentami-jak-zaplanowac.jpeg'
 category: 'Blog'
 tags:
-  - 'kanalizacja pod fundamentami'
-  - 'kanalizacja pod płytą fundamentową'
-  - 'schemat kanalizacji'
-  - 'spadki kanalizacji'
+  - 'Fundamenty'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kanalizacja-pod-fundamentami-jak-zaplanowac/'

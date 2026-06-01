@@ -6,9 +6,8 @@ excerpt: 'Pięć lat rękojmi za wady nieruchomości to podstawa ochrony inwesto
 image: '~/assets/images/blog/usterki-budowlane-jak-reklamowac-egzekwowac.jpeg'
 category: 'Blog'
 tags:
-  - 'usterki budowlane'
-  - 'rękojmia za wady'
-  - 'reklamacja wykonawcy'
+  - 'Odbiory i kontrola jakości'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/usterki-budowlane-jak-reklamowac-egzekwowac/'

@@ -6,9 +6,7 @@ excerpt: 'Pytanie o styrodur pod płytą wraca na każdej drugiej budowie. Pokaz
 image: '~/assets/images/blog/styrodur-pod-plyte-fundamentowa-czy-stosowac.jpeg'
 category: 'Blog'
 tags:
-  - 'styrodur pod płytę fundamentową'
-  - 'XPS pod płytą'
-  - 'izolacja płyty fundamentowej'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/styrodur-pod-plyte-fundamentowa-czy-stosowac/'

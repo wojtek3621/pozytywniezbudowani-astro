@@ -6,9 +6,9 @@ excerpt: 'Oszczędzisz dziesiątki tysięcy czy wpadniesz w pułapkę opóźnie�
 image: '~/assets/images/blog/kredyt-a-budowa-systemem-gospodarczym-czy-sie-oplaca.jpeg'
 category: 'Blog'
 tags:
-  - 'kredyt budowa domu'
-  - 'system gospodarczy'
-  - 'budowa domu systemem gospodarczym kredyt'
+  - 'Pomieszczenia w domu'
+  - 'Finanse i kredyt'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kredyt-a-budowa-systemem-gospodarczym-czy-sie-oplaca/'

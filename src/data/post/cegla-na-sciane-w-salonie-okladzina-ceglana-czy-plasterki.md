@@ -6,9 +6,7 @@ excerpt: 'Pełna cegła czy plasterki na ścianie w salonie? Różnica w obcią�
 image: '~/assets/images/blog/cegla-na-sciane-w-salonie-okladzina-ceglana-czy-plasterki.jpeg'
 category: 'Blog'
 tags:
-  - 'cegła na ścianę'
-  - 'plasterki ceglane'
-  - 'okładzina ceglana'
+  - 'Ściany i dekoracje'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/cegla-na-sciane-w-salonie-okladzina-ceglana-czy-plasterki/'

@@ -6,9 +6,10 @@ excerpt: 'Strych nieużytkowy potrafi narobić więcej kłopotu niż użytkowy. 
 image: '~/assets/images/blog/strych-nieuzytkowy-co-z-nim-zrobic.jpeg'
 category: 'Blog'
 tags:
-  - 'strych nieużytkowy'
-  - 'ocieplenie stropu'
-  - 'wentylacja strychu'
+  - 'Pomieszczenia w domu'
+  - 'Stan surowy i konstrukcja'
+  - 'Ocieplenie i elewacja'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/strych-nieuzytkowy-co-z-nim-zrobic/'

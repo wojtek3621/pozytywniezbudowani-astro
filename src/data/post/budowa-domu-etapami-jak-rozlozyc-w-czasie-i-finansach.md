@@ -6,9 +6,9 @@ excerpt: 'Budowa domu to maraton, nie sprint. Pokażę Wam, jak rozłożyć ją 
 image: '~/assets/images/blog/budowa-domu-etapami-jak-rozlozyc-w-czasie-i-finansach.jpeg'
 category: 'Blog'
 tags:
-  - 'budowa domu etapami'
-  - 'harmonogram budowy'
-  - 'transze kredytu'
+  - 'Finanse i kredyt'
+  - 'Decyzja o budowie i przygotowania'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-etapami-jak-rozlozyc-w-czasie-i-finansach/'

@@ -6,11 +6,8 @@ excerpt: 'Zanim wpłacicie pieniądze za wymarzoną działkę, przeczytajcie, ja
 image: '~/assets/images/blog/umowa-przedwstepna-na-dzialke-na-co-uwazac.jpeg'
 category: 'Blog'
 tags:
-  - 'Zadatek'
-  - 'zaliczka'
-  - 'forma notarialna – wszystko'
-  - 'co musicie wiedzieć'
-  - 'zanim podpiszecie'
+  - 'Działka i grunt'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/umowa-przedwstepna-na-dzialke-na-co-uwazac/'

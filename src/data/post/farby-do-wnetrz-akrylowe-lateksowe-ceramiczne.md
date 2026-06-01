@@ -6,11 +6,7 @@ excerpt: 'Akrylowa, lateksowa, ceramiczna – nazwy brzmią jak trzy światy, al
 image: '~/assets/images/blog/farby-do-wnetrz-akrylowe-lateksowe-ceramiczne.jpeg'
 category: 'Blog'
 tags:
-  - 'farby do wnętrz'
-  - 'farby akrylowe'
-  - 'farby lateksowe'
-  - 'farby ceramiczne'
-  - 'PN-EN 13300'
+  - 'Ściany i dekoracje'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/farby-do-wnetrz-akrylowe-lateksowe-ceramiczne/'

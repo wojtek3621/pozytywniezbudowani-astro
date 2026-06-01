@@ -6,9 +6,7 @@ excerpt: 'Bezprzewodowy jest wygodny, przewodowy bardziej niezawodny. Pokazuję,
 image: '~/assets/images/blog/alarm-bezprzewodowy-vs-przewodowy-nowy-dom.jpeg'
 category: 'Blog'
 tags:
-  - 'alarm przewodowy'
-  - 'alarm bezprzewodowy'
-  - 'alarm w domu jednorodzinnym'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/alarm-bezprzewodowy-vs-przewodowy-nowy-dom/'

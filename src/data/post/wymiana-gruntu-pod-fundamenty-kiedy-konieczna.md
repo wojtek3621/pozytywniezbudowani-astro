@@ -6,9 +6,8 @@ excerpt: 'Wymiana gruntu to często największa pozycja w budżecie fundamentów
 image: '~/assets/images/blog/wymiana-gruntu-pod-fundamenty-kiedy-konieczna.jpeg'
 category: 'Blog'
 tags:
-  - 'wymiana gruntu pod fundamenty'
-  - 'grunt wysadzinowy'
-  - 'zagęszczanie warstwowe'
+  - 'Działka i grunt'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wymiana-gruntu-pod-fundamenty-kiedy-konieczna/'

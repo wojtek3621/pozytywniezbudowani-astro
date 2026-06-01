@@ -6,9 +6,7 @@ excerpt: 'Sama umowa z wykonawcą Was nie ochroni, gdy ten zaleje sąsiadowi piw
 image: '~/assets/images/blog/polisa-oc-wykonawcy-dlaczego-wazna.jpeg'
 category: 'Blog'
 tags:
-  - 'polisa OC wykonawcy'
-  - 'ubezpieczenie wykonawcy budowlanego'
-  - 'OC budowlane'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/polisa-oc-wykonawcy-dlaczego-wazna/'

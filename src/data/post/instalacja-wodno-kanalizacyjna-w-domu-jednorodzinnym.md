@@ -6,9 +6,7 @@ excerpt: 'Błędy w instalacji wod-kan wychodzą po latach – i kosztują fortu
 image: '~/assets/images/blog/instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym.jpeg'
 category: 'Blog'
 tags:
-  - 'instalacja wodno-kanalizacyjna dom'
-  - 'instalacja wodna PEX'
-  - 'kanalizacja w domu'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym/'

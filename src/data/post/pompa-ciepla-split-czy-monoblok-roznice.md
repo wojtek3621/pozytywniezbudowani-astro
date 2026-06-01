@@ -6,9 +6,7 @@ excerpt: 'Split czy monoblok? Obie wersje grzeją tak samo, ale różnie się mo
 image: '~/assets/images/blog/pompa-ciepla-split-czy-monoblok-roznice.jpeg'
 category: 'Blog'
 tags:
-  - 'pompa ciepła split czy monoblok'
-  - 'monoblok pompa ciepła'
-  - 'split pompa ciepła'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/pompa-ciepla-split-czy-monoblok-roznice/'

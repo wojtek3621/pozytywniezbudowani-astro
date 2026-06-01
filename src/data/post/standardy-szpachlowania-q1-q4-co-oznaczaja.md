@@ -6,9 +6,8 @@ excerpt: 'Q1, Q2, Q3, Q4 – bez tych oznaczeń w umowie trafiacie na minę. Wyj
 image: '~/assets/images/blog/standardy-szpachlowania-q1-q4-co-oznaczaja.jpeg'
 category: 'Blog'
 tags:
-  - 'standardy szpachlowania Q1-Q4'
-  - 'szpachlowanie płyt gipsowo-kartonowych'
-  - 'jakość wykończenia ścian'
+  - 'Sucha zabudowa'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/standardy-szpachlowania-q1-q4-co-oznaczaja/'

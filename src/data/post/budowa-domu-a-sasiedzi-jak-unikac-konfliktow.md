@@ -6,9 +6,8 @@ excerpt: 'Z sąsiadem mieszkacie po sąsiedzku przez dziesięciolecia. Pokazuję
 image: '~/assets/images/blog/budowa-domu-a-sasiedzi-jak-unikac-konfliktow.jpeg'
 category: 'Blog'
 tags:
-  - 'konflikt z sąsiadem'
-  - 'odległości od granic działki'
-  - 'prawo sąsiedzkie budowa'
+  - 'Działka i grunt'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-a-sasiedzi-jak-unikac-konfliktow/'

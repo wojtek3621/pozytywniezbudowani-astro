@@ -6,9 +6,7 @@ excerpt: 'Garaż to nie tylko miejsce na auto. Ta decyzja wpływa na projekt, dz
 image: '~/assets/images/blog/garaz-w-bryle-budynku-czy-wolnostojacy.jpeg'
 category: 'Blog'
 tags:
-  - 'garaż w bryle budynku'
-  - 'garaż wolnostojący'
-  - 'garaż przy domu'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/garaz-w-bryle-budynku-czy-wolnostojacy/'

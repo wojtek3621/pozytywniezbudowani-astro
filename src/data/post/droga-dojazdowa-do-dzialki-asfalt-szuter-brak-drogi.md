@@ -6,9 +6,7 @@ excerpt: 'Tumany kurzu latem, błoto po kostki zimą – czy na pewno wiecie, na
 image: '~/assets/images/blog/droga-dojazdowa-do-dzialki-asfalt-szuter-brak-drogi.jpeg'
 category: 'Blog'
 tags:
-  - 'droga dojazdowa do działki'
-  - 'droga szutrowa'
-  - 'działka bez asfaltu'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/droga-dojazdowa-do-dzialki-asfalt-szuter-brak-drogi/'

@@ -6,9 +6,7 @@ excerpt: 'Pojęcie stanu deweloperskiego jest jedno, a praktyka różnych firm �
 image: '~/assets/images/blog/stan-deweloperski-co-obejmuje.jpeg'
 category: 'Blog'
 tags:
-  - 'stan deweloperski'
-  - 'etapy budowy domu'
-  - 'zakres prac'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/stan-deweloperski-co-obejmuje/'

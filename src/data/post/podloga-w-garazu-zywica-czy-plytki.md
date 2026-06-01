@@ -6,9 +6,8 @@ excerpt: 'Żywica wygląda spektakularnie, płytki są tańsze i łatwiejsze w n
 image: '~/assets/images/blog/podloga-w-garazu-zywica-czy-plytki.jpeg'
 category: 'Blog'
 tags:
-  - 'podłoga w garażu'
-  - 'żywica epoksydowa garaż'
-  - 'płytki gres do garażu'
+  - 'Pomieszczenia w domu'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/podloga-w-garazu-zywica-czy-plytki/'

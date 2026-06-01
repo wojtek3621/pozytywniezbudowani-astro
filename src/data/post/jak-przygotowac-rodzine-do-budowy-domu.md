@@ -6,9 +6,9 @@ excerpt: 'Budowa domu to maraton dla całej rodziny. Pokażę, jak przygotować 
 image: '~/assets/images/blog/jak-przygotowac-rodzine-do-budowy-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'przygotowanie do budowy domu'
-  - 'budowa domu a rodzina'
-  - 'organizacja budowy'
+  - 'Instalacje i przyłącza'
+  - 'Organizacja budowy'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-przygotowac-rodzine-do-budowy-domu/'

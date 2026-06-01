@@ -6,9 +6,7 @@ excerpt: 'Drzwi ukryte wyglądają obłędnie – ale tylko wtedy, gdy ekipa wie
 image: '~/assets/images/blog/drzwi-ukryte-montaz-i-efekt.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi ukryte'
-  - 'montaż drzwi ukrytych'
-  - 'drzwi bezościeżnicowe'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-ukryte-montaz-i-efekt/'

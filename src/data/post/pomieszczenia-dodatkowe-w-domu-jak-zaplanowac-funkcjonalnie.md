@@ -6,9 +6,7 @@ excerpt: 'O wielkości domu decyduje salon i sypialnie. O tym, czy będzie się 
 image: '~/assets/images/blog/pomieszczenia-dodatkowe-w-domu-jak-zaplanowac-funkcjonalnie.jpeg'
 category: 'Blog'
 tags:
-  - 'pomieszczenia dodatkowe w domu'
-  - 'planowanie domu funkcjonalnie'
-  - 'spiżarnia pralnia garderoba'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/pomieszczenia-dodatkowe-w-domu-jak-zaplanowac-funkcjonalnie/'

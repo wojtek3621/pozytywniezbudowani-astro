@@ -6,9 +6,7 @@ excerpt: 'Kilkadziesiąt stron rysunków technicznych. Linie, symbole, wymiary. 
 image: '~/assets/images/blog/jak-czytac-projekt-domu-poradnik-dla-laika.jpeg'
 category: 'Blog'
 tags:
-  - 'jak czytać projekt domu'
-  - 'dokumentacja projektowa'
-  - 'rzuty domu'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-czytac-projekt-domu-poradnik-dla-laika/'

@@ -6,9 +6,7 @@ excerpt: 'Kredyt na budowę domu to nie jednorazowy przelew. To seria wypłat, k
 image: '~/assets/images/blog/rozliczanie-budowy-z-bankiem-jak-dzialaja-transze.jpeg'
 category: 'Blog'
 tags:
-  - 'transze kredytu budowlanego'
-  - 'rozliczanie budowy z bankiem'
-  - 'harmonogram wypłat kredytu'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/rozliczanie-budowy-z-bankiem-jak-dzialaja-transze/'

@@ -6,9 +6,7 @@ excerpt: 'Wylewka bez dylatacji popęka tam, gdzie tego nie chcecie. Pokażę Wa
 image: '~/assets/images/blog/dylatacje-w-wylewkach-kiedy-i-jak-wykonac.jpeg'
 category: 'Blog'
 tags:
-  - 'dylatacje wylewki'
-  - 'taśma dylatacyjna'
-  - 'dylatacje posadzki'
+  - 'Tynki i wylewki'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dylatacje-w-wylewkach-kiedy-i-jak-wykonac/'

@@ -6,9 +6,8 @@ excerpt: 'Panele to jeden z najprostszych etapów wykończenia – pod warunkiem
 image: '~/assets/images/blog/panele-podlogowe-jak-wybrac-i-ulozyc.jpeg'
 category: 'Blog'
 tags:
-  - 'panele podłogowe'
-  - 'układanie paneli'
-  - 'wybór paneli laminowanych'
+  - 'Podłogi i wykończenie'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/panele-podlogowe-jak-wybrac-i-ulozyc/'

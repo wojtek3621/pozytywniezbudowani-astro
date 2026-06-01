@@ -6,9 +6,7 @@ excerpt: 'Grosz do grosza, a będzie kokosza. Sprawdź, które koszty budowy wym
 image: '~/assets/images/blog/ukryte-koszty-budowy-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'ukryte koszty budowy domu'
-  - 'budżet budowy'
-  - 'dodatkowe wydatki budowa'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ukryte-koszty-budowy-domu/'

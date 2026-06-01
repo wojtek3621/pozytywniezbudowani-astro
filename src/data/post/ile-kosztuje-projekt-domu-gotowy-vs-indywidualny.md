@@ -6,9 +6,8 @@ excerpt: 'Różnica w cenie katalogowej to dopiero początek historii. Rzeczywis
 image: '~/assets/images/blog/ile-kosztuje-projekt-domu-gotowy-vs-indywidualny.jpeg'
 category: 'Blog'
 tags:
-  - 'koszt projektu domu'
-  - 'projekt gotowy vs indywidualny'
-  - 'cena projektu domu'
+  - 'Projekt domu'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ile-kosztuje-projekt-domu-gotowy-vs-indywidualny/'

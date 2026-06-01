@@ -6,9 +6,7 @@ excerpt: 'Garaż w bryle domu to świetne miejsce na przechowywanie – pod waru
 image: '~/assets/images/blog/garaz-jako-miejsce-przechowywania-organizacja.jpeg'
 category: 'Blog'
 tags:
-  - 'garaż przechowywanie'
-  - 'organizacja garażu'
-  - 'garaż w domu jednorodzinnym'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/garaz-jako-miejsce-przechowywania-organizacja/'

@@ -6,9 +6,7 @@ excerpt: 'Zła dostawa potrafi zatrzymać budowę na tydzień. Pokażę Wam, jak
 image: '~/assets/images/blog/transport-materialow-budowlanych-jak-zorganizowac.jpeg'
 category: 'Blog'
 tags:
-  - 'transport materiałów budowlanych'
-  - 'dostawa na budowę'
-  - 'HDS budowa'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/transport-materialow-budowlanych-jak-zorganizowac/'

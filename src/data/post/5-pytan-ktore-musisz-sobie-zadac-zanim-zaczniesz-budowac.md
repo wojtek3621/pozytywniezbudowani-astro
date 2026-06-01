@@ -6,9 +6,7 @@ excerpt: 'Zanim weźmiesz kredyt, zanim kupisz działkę – usiądź i odpowied
 image: '~/assets/images/blog/5-pytan-ktore-musisz-sobie-zadac-zanim-zaczniesz-budowac.jpeg'
 category: 'Blog'
 tags:
-  - 'pytania przed budową domu'
-  - 'przygotowanie do budowy'
-  - 'czy budować dom'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/5-pytan-ktore-musisz-sobie-zadac-zanim-zaczniesz-budowac/'

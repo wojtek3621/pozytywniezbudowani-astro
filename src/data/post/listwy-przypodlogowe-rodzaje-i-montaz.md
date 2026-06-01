@@ -6,10 +6,7 @@ excerpt: 'Listwa spina całe wnętrze i decyduje o tym, czy efekt wygląda na sk
 image: '~/assets/images/blog/listwy-przypodlogowe-rodzaje-i-montaz.jpeg'
 category: 'Blog'
 tags:
-  - 'listwy przypodłogowe'
-  - 'montaż listew'
-  - 'listwy MDF'
-  - 'listwy drewniane'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/listwy-przypodlogowe-rodzaje-i-montaz/'

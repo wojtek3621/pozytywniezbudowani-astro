@@ -6,9 +6,8 @@ excerpt: 'Kominek to nie mebel, który wstawicie po remoncie. Decyzja zapada na 
 image: '~/assets/images/blog/otwor-na-kominek-jak-przygotowac.jpeg'
 category: 'Blog'
 tags:
-  - 'otwór na kominek'
-  - 'przygotowanie pod kominek'
-  - 'dolot powietrza do kominka'
+  - 'Pomieszczenia w domu'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/otwor-na-kominek-jak-przygotowac/'

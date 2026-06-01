@@ -6,9 +6,8 @@ excerpt: 'Ta decyzja wpłynie na wszystko – od wyboru działki po codzienne ż
 image: '~/assets/images/blog/dom-parterowy-czy-pietrowy-co-wybrac.jpeg'
 category: 'Blog'
 tags:
-  - 'dom parterowy czy piętrowy'
-  - 'projekt domu parterowego'
-  - 'dom z poddaszem użytkowym'
+  - 'Projekt domu'
+  - 'Stan surowy i konstrukcja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dom-parterowy-czy-pietrowy-co-wybrac/'

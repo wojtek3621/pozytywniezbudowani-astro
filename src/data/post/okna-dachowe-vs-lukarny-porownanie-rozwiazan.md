@@ -6,9 +6,8 @@ excerpt: 'Ciemne poddasze to zmarnowana przestrzeń. Okna dachowe czy lukarny �
 image: '~/assets/images/blog/okna-dachowe-vs-lukarny-porownanie-rozwiazan.jpeg'
 category: 'Blog'
 tags:
-  - 'okna dachowe vs lukarny'
-  - 'doświetlenie poddasza'
-  - 'lukarny w domu'
+  - 'Stan surowy i konstrukcja'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/okna-dachowe-vs-lukarny-porownanie-rozwiazan/'

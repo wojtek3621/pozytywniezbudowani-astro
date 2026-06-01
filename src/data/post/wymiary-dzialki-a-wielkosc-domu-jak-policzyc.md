@@ -6,9 +6,8 @@ excerpt: 'Znalazłeś działkę i projekt, ale czy na pewno do siebie pasują? P
 image: '~/assets/images/blog/wymiary-dzialki-a-wielkosc-domu-jak-policzyc.jpeg'
 category: 'Blog'
 tags:
-  - 'wymiary działki'
-  - 'wielkość domu'
-  - 'odległość od granicy działki'
+  - 'Działka i grunt'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wymiary-dzialki-a-wielkosc-domu-jak-policzyc/'

@@ -6,9 +6,7 @@ excerpt: 'Ścianka z karton-gipsu robiona w jeden dzień, a problemy zostają na
 image: '~/assets/images/blog/scianki-dzialowe-karton-gips-krok-po-kroku.jpeg'
 category: 'Blog'
 tags:
-  - 'ścianki działowe karton-gips'
-  - 'sucha zabudowa'
-  - 'montaż ścianki gipsowo-kartonowej'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/scianki-dzialowe-karton-gips-krok-po-kroku/'

@@ -6,9 +6,7 @@ excerpt: 'Świeżo pomalowana ściana wygląda OK, ale po wyschnięciu wychodzą
 image: '~/assets/images/blog/malowanie-scian-jak-uniknac-smug-i-zaciekow.jpeg'
 category: 'Blog'
 tags:
-  - 'malowanie ścian'
-  - 'smugi po malowaniu'
-  - 'zacieki na ścianach'
+  - 'Ściany i dekoracje'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/malowanie-scian-jak-uniknac-smug-i-zaciekow/'

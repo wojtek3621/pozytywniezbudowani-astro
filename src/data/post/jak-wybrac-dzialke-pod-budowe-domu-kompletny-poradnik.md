@@ -6,9 +6,7 @@ excerpt: 'Ładna działka i dobra działka to często dwie różne rzeczy. Spraw
 image: '~/assets/images/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik.jpeg'
 category: 'Blog'
 tags:
-  - 'jak wybrać działkę pod budowę domu'
-  - 'zakup działki budowlanej'
-  - 'na co zwrócić uwagę przy zakupie działki'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/'

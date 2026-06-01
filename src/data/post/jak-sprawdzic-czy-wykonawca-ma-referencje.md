@@ -6,9 +6,8 @@ excerpt: 'Logo na stronie i zdjęcia z budów to nie referencje. Pokazuję, jak 
 image: '~/assets/images/blog/jak-sprawdzic-czy-wykonawca-ma-referencje.jpeg'
 category: 'Blog'
 tags:
-  - 'referencje wykonawcy'
-  - 'weryfikacja firmy budowlanej'
-  - 'jak sprawdzić wykonawcę'
+  - 'Instalacje i przyłącza'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-sprawdzic-czy-wykonawca-ma-referencje/'

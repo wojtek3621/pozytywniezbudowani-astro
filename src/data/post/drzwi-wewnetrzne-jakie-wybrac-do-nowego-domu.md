@@ -6,9 +6,7 @@ excerpt: 'Drzwi wewnętrzne to decyzja, z którą będziecie żyć codziennie pr
 image: '~/assets/images/blog/drzwi-wewnetrzne-jakie-wybrac-do-nowego-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi wewnętrzne'
-  - 'wybór drzwi do domu'
-  - 'drzwi przylgowe i bezprzylgowe'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-wewnetrzne-jakie-wybrac-do-nowego-domu/'

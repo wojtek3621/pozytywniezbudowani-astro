@@ -6,9 +6,8 @@ excerpt: 'Ta działka wydaje się okazją? Sprawdź, co może ukrywać jej cena.
 image: '~/assets/images/blog/koszty-ukryte-dzialki-na-co-uwazac.jpeg'
 category: 'Blog'
 tags:
-  - 'koszty ukryte działki'
-  - 'na co uważać przy zakupie działki'
-  - 'pułapki finansowe działka'
+  - 'Działka i grunt'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/koszty-ukryte-dzialki-na-co-uwazac/'

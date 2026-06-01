@@ -6,9 +6,8 @@ excerpt: 'Zanim wbijecie łopatę, kilka rzeczy warto kupić wcześniej. Nie zes
 image: '~/assets/images/blog/co-kupic-przed-rozpoczeciem-budowy.jpeg'
 category: 'Blog'
 tags:
-  - 'co kupić przed budową'
-  - 'lista zakupów budowa'
-  - 'narzędzia inwestora'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/co-kupic-przed-rozpoczeciem-budowy/'

@@ -6,9 +6,7 @@ excerpt: 'Dziwne literki i kolorowe kreski na mapie? Po tym artykule będziecie 
 image: '~/assets/images/blog/mapa-zasadnicza-jak-ja-czytac.jpeg'
 category: 'Blog'
 tags:
-  - 'mapa zasadnicza'
-  - 'oznaczenia na mapie zasadniczej'
-  - 'jak czytać mapę działki'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/mapa-zasadnicza-jak-ja-czytac/'

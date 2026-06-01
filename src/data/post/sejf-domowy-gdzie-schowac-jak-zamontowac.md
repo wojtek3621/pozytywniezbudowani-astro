@@ -6,10 +6,7 @@ excerpt: 'Sejf, którego nikt nie znajdzie i którego nie da się wyrwać razem 
 image: '~/assets/images/blog/sejf-domowy-gdzie-schowac-jak-zamontowac.jpeg'
 category: 'Blog'
 tags:
-  - 'sejf domowy'
-  - 'montaż sejfu'
-  - 'klasa sejfu'
-  - 'gdzie schować sejf'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sejf-domowy-gdzie-schowac-jak-zamontowac/'

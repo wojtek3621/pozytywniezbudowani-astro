@@ -6,9 +6,7 @@ excerpt: 'Źle zorganizowany plac budowy potrafi zatrzymać ekipę na pół dnia
 image: '~/assets/images/blog/gdzie-skladowac-materialy-na-budowie.jpeg'
 category: 'Blog'
 tags:
-  - 'składowanie materiałów budowlanych'
-  - 'organizacja placu budowy'
-  - 'plac budowy'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/gdzie-skladowac-materialy-na-budowie/'

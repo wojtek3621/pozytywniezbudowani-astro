@@ -6,9 +6,10 @@ excerpt: 'Zakochaliście się w projekcie, kupiliście działkę – a potem oka
 image: '~/assets/images/blog/kat-nachylenia-dachu-jak-wplywa-na-projekt-i-koszty.jpeg'
 category: 'Blog'
 tags:
-  - 'kąt nachylenia dachu'
-  - 'projekt domu'
-  - 'MPZP dach'
+  - 'Projekt domu'
+  - 'Stan surowy i konstrukcja'
+  - 'Finanse i kredyt'
+  - 'Plan miejscowy i WZ'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kat-nachylenia-dachu-jak-wplywa-na-projekt-i-koszty/'

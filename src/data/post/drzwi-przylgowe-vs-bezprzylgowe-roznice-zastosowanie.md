@@ -6,9 +6,7 @@ excerpt: 'Bezprzylgowe wyglądają nowocześnie, przylgowe wybaczają błędy ek
 image: '~/assets/images/blog/drzwi-przylgowe-vs-bezprzylgowe-roznice-zastosowanie.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi przylgowe'
-  - 'drzwi bezprzylgowe'
-  - 'ościeżnica regulowana'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-przylgowe-vs-bezprzylgowe-roznice-zastosowanie/'

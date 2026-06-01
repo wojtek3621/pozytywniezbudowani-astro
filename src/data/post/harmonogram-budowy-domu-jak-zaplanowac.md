@@ -6,9 +6,8 @@ excerpt: 'Harmonogram budowy to nie prosta linia od fundamentu do dachu. To siat
 image: '~/assets/images/blog/harmonogram-budowy-domu-jak-zaplanowac.jpeg'
 category: 'Blog'
 tags:
-  - 'harmonogram budowy'
-  - 'planowanie budowy domu'
-  - 'etapy budowy'
+  - 'Organizacja budowy'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/harmonogram-budowy-domu-jak-zaplanowac/'

@@ -6,9 +6,7 @@ excerpt: 'Stan surowy zamknięty, czas na ocieplenie. Styropian czy wełna? Decy
 image: '~/assets/images/blog/styropian-czy-welna-na-elewacje-co-wybrac.jpeg'
 category: 'Blog'
 tags:
-  - 'styropian na elewację'
-  - 'wełna mineralna na elewację'
-  - 'ocieplenie ścian zewnętrznych'
+  - 'Ocieplenie i elewacja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/styropian-czy-welna-na-elewacje-co-wybrac/'

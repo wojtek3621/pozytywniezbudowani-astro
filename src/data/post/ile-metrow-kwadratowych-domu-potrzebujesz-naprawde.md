@@ -6,9 +6,7 @@ excerpt: 'Wiele razy słyszałem, że ktoś wybudował za duży dom. Że dom jes
 image: '~/assets/images/blog/ile-metrow-kwadratowych-domu-potrzebujesz-naprawde.jpeg'
 category: 'Blog'
 tags:
-  - 'ile metrów kwadratowych domu'
-  - 'wielkość domu dla rodziny'
-  - 'metraż domu jednorodzinnego'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ile-metrow-kwadratowych-domu-potrzebujesz-naprawde/'

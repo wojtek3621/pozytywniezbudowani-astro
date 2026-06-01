@@ -6,9 +6,8 @@ excerpt: 'Rata kredytu hipotecznego nigdy nie przestaje robić wrażenia. Sprawd
 image: '~/assets/images/blog/czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet.jpeg'
 category: 'Blog'
 tags:
-  - 'budżet budowy domu'
-  - 'czy stać mnie na dom'
-  - 'koszty budowy domu'
+  - 'Finanse i kredyt'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet/'

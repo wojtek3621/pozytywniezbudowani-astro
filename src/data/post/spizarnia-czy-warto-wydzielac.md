@@ -6,9 +6,8 @@ excerpt: 'Spiżarnia w projekcie wygląda atrakcyjnie, ale czy każdy dom jej po
 image: '~/assets/images/blog/spizarnia-czy-warto-wydzielac.jpeg'
 category: 'Blog'
 tags:
-  - 'spiżarnia w domu'
-  - 'projekt domu spiżarnia'
-  - 'czy warto wydzielać spiżarnię'
+  - 'Pomieszczenia w domu'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/spizarnia-czy-warto-wydzielac/'

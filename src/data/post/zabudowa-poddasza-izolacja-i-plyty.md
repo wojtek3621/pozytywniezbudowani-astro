@@ -6,10 +6,8 @@ excerpt: 'Zabudowa skosów to nie tylko płyty G-K i wełna. Pokażę Wam, co de
 image: '~/assets/images/blog/zabudowa-poddasza-izolacja-i-plyty.jpeg'
 category: 'Blog'
 tags:
-  - 'zabudowa poddasza'
-  - 'izolacja poddasza'
-  - 'płyty kartonowo-gipsowe'
-  - 'paroizolacja'
+  - 'Stan surowy i konstrukcja'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zabudowa-poddasza-izolacja-i-plyty/'

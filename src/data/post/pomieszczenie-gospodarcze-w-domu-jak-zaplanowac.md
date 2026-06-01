@@ -6,10 +6,7 @@ excerpt: 'Pomieszczenie gospodarcze to nie zbędny metraż. To przestrzeń, któ
 image: '~/assets/images/blog/pomieszczenie-gospodarcze-w-domu-jak-zaplanowac.jpeg'
 category: 'Blog'
 tags:
-  - 'pomieszczenie gospodarcze'
-  - 'pralnia w domu'
-  - 'kotłownia'
-  - 'planowanie domu'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/pomieszczenie-gospodarcze-w-domu-jak-zaplanowac/'

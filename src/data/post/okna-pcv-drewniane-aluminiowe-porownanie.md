@@ -6,9 +6,7 @@ excerpt: 'PCV, drewno czy aluminium? Sprawdźcie, który materiał pasuje do Was
 image: '~/assets/images/blog/okna-pcv-drewniane-aluminiowe-porownanie.jpeg'
 category: 'Blog'
 tags:
-  - 'okna PCV drewniane aluminiowe porównanie'
-  - 'jaki materiał okien wybrać'
-  - 'okna do domu jednorodzinnego'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/okna-pcv-drewniane-aluminiowe-porownanie/'

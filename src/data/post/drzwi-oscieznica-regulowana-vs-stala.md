@@ -6,9 +6,7 @@ excerpt: 'Ościeżnica regulowana czy stała? Decyzja zapada w głowie inwestora
 image: '~/assets/images/blog/drzwi-oscieznica-regulowana-vs-stala.jpeg'
 category: 'Blog'
 tags:
-  - 'ościeżnica regulowana'
-  - 'ościeżnica stała'
-  - 'drzwi wewnętrzne'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-oscieznica-regulowana-vs-stala/'

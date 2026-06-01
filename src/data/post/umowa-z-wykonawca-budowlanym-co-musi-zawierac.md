@@ -6,9 +6,8 @@ excerpt: 'Umowa nie ochroni Was w 100%, ale dobrze napisana zamyka większość 
 image: '~/assets/images/blog/umowa-z-wykonawca-budowlanym-co-musi-zawierac.jpeg'
 category: 'Blog'
 tags:
-  - 'umowa z wykonawcą budowlanym'
-  - 'umowa o roboty budowlane'
-  - 'rękojmia za wady budowy'
+  - 'Wykonawcy i umowy'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/umowa-z-wykonawca-budowlanym-co-musi-zawierac/'

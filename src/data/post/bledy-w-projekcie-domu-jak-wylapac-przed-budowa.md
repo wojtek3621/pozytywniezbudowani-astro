@@ -6,9 +6,8 @@ excerpt: 'Projekt kosztował tysiące złotych, ale czy jest bezbłędny? Sprawd
 image: '~/assets/images/blog/bledy-w-projekcie-domu-jak-wylapac-przed-budowa.jpeg'
 category: 'Blog'
 tags:
-  - 'błędy w projekcie domu'
-  - 'weryfikacja projektu budowlanego'
-  - 'adaptacja projektu'
+  - 'Odbiory i kontrola jakości'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/bledy-w-projekcie-domu-jak-wylapac-przed-budowa/'

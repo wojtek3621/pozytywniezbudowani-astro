@@ -6,9 +6,8 @@ excerpt: 'Piękna działka ze starymi drzewami może okazać się skomplikowana.
 image: '~/assets/images/blog/dzialka-z-drzewami-wycinka-i-formalnosci.jpeg'
 category: 'Blog'
 tags:
-  - 'wycinka drzew na działce'
-  - 'zezwolenie na wycinkę'
-  - 'działka z drzewami'
+  - 'Działka i grunt'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-z-drzewami-wycinka-i-formalnosci/'

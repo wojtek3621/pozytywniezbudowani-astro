@@ -6,10 +6,7 @@ excerpt: 'Cokół to pas wysokości pół metra, w którym dom dostaje najwięce
 image: '~/assets/images/blog/cokol-budynku-izolacja-i-wykonczenie.jpeg'
 category: 'Blog'
 tags:
-  - 'cokół budynku'
-  - 'izolacja cokołu'
-  - 'wykończenie cokołu'
-  - 'XPS cokół'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/cokol-budynku-izolacja-i-wykonczenie/'

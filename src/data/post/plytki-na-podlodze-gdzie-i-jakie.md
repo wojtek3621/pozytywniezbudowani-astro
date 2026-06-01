@@ -6,9 +6,7 @@ excerpt: 'Płytki na całym parterze czy tylko w łazience? Gres szkliwiony czy 
 image: '~/assets/images/blog/plytki-na-podlodze-gdzie-i-jakie.jpeg'
 category: 'Blog'
 tags:
-  - 'płytki na podłodze'
-  - 'gres na podłogę'
-  - 'jakie płytki do domu'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/plytki-na-podlodze-gdzie-i-jakie/'

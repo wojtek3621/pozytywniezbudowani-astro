@@ -6,9 +6,7 @@ excerpt: 'Tapeta nie wybacza błędów na ścianie. Pokażę, jak ją wybrać i 
 image: '~/assets/images/blog/tapety-w-domu-jak-wybrac-i-kleic.jpeg'
 category: 'Blog'
 tags:
-  - 'tapety'
-  - 'klejenie tapet'
-  - 'jak wybrać tapetę'
+  - 'Ściany i dekoracje'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/tapety-w-domu-jak-wybrac-i-kleic/'

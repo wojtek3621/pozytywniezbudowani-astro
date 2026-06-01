@@ -6,9 +6,7 @@ excerpt: 'Polisa na budowę to nie formalność do odhaczenia. To Wasza siatka b
 image: '~/assets/images/blog/ubezpieczenie-budowy-jakie-i-czy-obowiazkowe.jpeg'
 category: 'Blog'
 tags:
-  - 'ubezpieczenie budowy domu'
-  - 'polisa budowlana'
-  - 'ubezpieczenie nieruchomości w budowie'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ubezpieczenie-budowy-jakie-i-czy-obowiazkowe/'

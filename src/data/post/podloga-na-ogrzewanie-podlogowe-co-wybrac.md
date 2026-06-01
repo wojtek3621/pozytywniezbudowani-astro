@@ -6,10 +6,8 @@ excerpt: 'Wybór podłogi nad ogrzewaniem podłogowym to nie kwestia gustu, tylk
 image: '~/assets/images/blog/podloga-na-ogrzewanie-podlogowe-co-wybrac.jpeg'
 category: 'Blog'
 tags:
-  - 'podłoga na ogrzewanie podłogowe'
-  - 'panele winylowe na ogrzewanie podłogowe'
-  - 'drewno na ogrzewanie podłogowe'
-  - 'opór cieplny podłogi'
+  - 'Podłogi i wykończenie'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/podloga-na-ogrzewanie-podlogowe-co-wybrac/'

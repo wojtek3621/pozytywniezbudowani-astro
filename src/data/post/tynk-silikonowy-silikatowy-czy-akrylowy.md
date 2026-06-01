@@ -6,10 +6,7 @@ excerpt: 'Tynk silikonowy, silikatowy czy akrylowy? Pokażę Wam różnice w sk�
 image: '~/assets/images/blog/tynk-silikonowy-silikatowy-czy-akrylowy.jpeg'
 category: 'Blog'
 tags:
-  - 'tynk silikonowy'
-  - 'tynk silikatowy'
-  - 'tynk akrylowy'
-  - 'tynk elewacyjny'
+  - 'Ocieplenie i elewacja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/tynk-silikonowy-silikatowy-czy-akrylowy/'

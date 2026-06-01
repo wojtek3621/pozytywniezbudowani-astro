@@ -6,9 +6,8 @@ excerpt: 'Mróz, woda i wiatr potrafią w jeden sezon cofnąć Waszą budowę o 
 image: '~/assets/images/blog/jak-zabezpieczyc-budowe-przed-zima.jpeg'
 category: 'Blog'
 tags:
-  - 'zabezpieczenie budowy przed zimą'
-  - 'przerwa zimowa na budowie'
-  - 'zimowanie budowy'
+  - 'Instalacje i przyłącza'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-zabezpieczyc-budowe-przed-zima/'

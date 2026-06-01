@@ -6,9 +6,7 @@ excerpt: 'Rata kredytu może wzrosnąć o kilkaset złotych w ciągu kilku miesi
 image: '~/assets/images/blog/co-jesli-wibor-wzrosnie-jak-zmieni-sie-twoja-rata.jpeg'
 category: 'Blog'
 tags:
-  - 'wpływ WIBOR na ratę kredytu'
-  - 'wzrost WIBOR rata'
-  - 'symulacja wzrostu stóp procentowych'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/co-jesli-wibor-wzrosnie-jak-zmieni-sie-twoja-rata/'

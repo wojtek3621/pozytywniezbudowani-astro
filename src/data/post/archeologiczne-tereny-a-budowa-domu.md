@@ -6,9 +6,8 @@ excerpt: 'W Polsce jest pół miliona stanowisk archeologicznych. Czy Wasza dzia
 image: '~/assets/images/blog/archeologiczne-tereny-a-budowa-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'stanowisko archeologiczne działka'
-  - 'nadzór archeologiczny budowa'
-  - 'badania archeologiczne przed budową'
+  - 'Działka i grunt'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/archeologiczne-tereny-a-budowa-domu/'

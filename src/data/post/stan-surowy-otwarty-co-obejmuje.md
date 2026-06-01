@@ -6,9 +6,9 @@ excerpt: 'Stan surowy otwarty kończy pierwszą wielką fazę budowy. Sprawdźci
 image: '~/assets/images/blog/stan-surowy-otwarty-co-obejmuje.jpeg'
 category: 'Blog'
 tags:
-  - 'stan surowy otwarty'
-  - 'etapy budowy domu'
-  - 'organizacja budowy'
+  - 'Stan surowy i konstrukcja'
+  - 'Instalacje i przyłącza'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/stan-surowy-otwarty-co-obejmuje/'

@@ -6,9 +6,7 @@ excerpt: 'Chudiak pod każdym fundamentem? Niekoniecznie. Wyjaśniam, kiedy ta w
 image: '~/assets/images/blog/chudiak-czy-jest-potrzebny.jpeg'
 category: 'Blog'
 tags:
-  - 'chudiak'
-  - 'chudy beton'
-  - 'fundament'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/chudiak-czy-jest-potrzebny/'

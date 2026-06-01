@@ -6,9 +6,7 @@ excerpt: 'Wielu inwestorów dochodzi do stanu deweloperskiego w budżecie, a pot
 image: '~/assets/images/blog/ile-kosztuje-wykonczenie-domu-pod-klucz.jpeg'
 category: 'Blog'
 tags:
-  - 'wykończenie domu pod klucz'
-  - 'koszty wykończenia domu'
-  - 'budżet wykończenia'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ile-kosztuje-wykonczenie-domu-pod-klucz/'

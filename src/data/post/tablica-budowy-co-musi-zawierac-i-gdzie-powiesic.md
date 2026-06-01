@@ -6,7 +6,8 @@ excerpt: 'Zanim wbijecie pierwszą łopatę, musicie powiesić tablicę budowy. 
 image: '~/assets/images/blog/tablica-budowy-co-musi-zawierac-i-gdzie-powiesic.jpeg'
 category: 'Blog'
 tags:
-  - 'tablica-budowy-co-musi-zawierac-gdzie-powiesic'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/tablica-budowy-co-musi-zawierac-i-gdzie-powiesic/'

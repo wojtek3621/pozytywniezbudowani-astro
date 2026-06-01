@@ -6,9 +6,7 @@ excerpt: 'Balkon w domu jednorodzinnym wygląda pięknie na wizualizacji. Ale cz
 image: '~/assets/images/blog/taras-czy-balkon-co-wybrac-przy-budowie-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'taras czy balkon'
-  - 'taras przy domu'
-  - 'balkon w domu jednorodzinnym'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/taras-czy-balkon-co-wybrac-przy-budowie-domu/'

@@ -6,9 +6,8 @@ excerpt: 'Ceny rosną, więc kupię teraz, niech postoi w garażu? Brzmi sensown
 image: '~/assets/images/blog/zakup-materialow-przed-rozpoczeciem-budowy.jpeg'
 category: 'Blog'
 tags:
-  - 'zakup materiałów przed budową'
-  - 'kupowanie materiałów z wyprzedzeniem'
-  - 'magazynowanie materiałów budowlanych'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zakup-materialow-przed-rozpoczeciem-budowy/'

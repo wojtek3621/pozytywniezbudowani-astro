@@ -6,9 +6,7 @@ excerpt: 'Złote czasy fotowoltaiki minęły. Ale czy to znaczy, że nie warto? 
 image: '~/assets/images/blog/fotowoltaika-w-2026-czy-warto-inwestowac.jpeg'
 category: 'Blog'
 tags:
-  - 'fotowoltaika 2026'
-  - 'net-billing'
-  - 'czy warto fotowoltaikę'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/fotowoltaika-w-2026-czy-warto-inwestowac/'

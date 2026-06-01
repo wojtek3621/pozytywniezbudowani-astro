@@ -5,6 +5,8 @@ title: 'Na co zwracać uwagę przy wyborze projektu domu?'
 excerpt: 'Marzenie o własnym domu i jego budowa są jednymi z najdonioślejszych wydarzeń w życiu. Nic dziwnego, że wybór odpowiedniego projektu jest…'
 image: '~/assets/images/blog/na-co-zwracac-uwage-przy-wyborze-projektu-domu.jpg'
 category: 'Blog'
+tags:
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/na-co-zwracac-uwage-przy-wyborze-projektu-domu/'

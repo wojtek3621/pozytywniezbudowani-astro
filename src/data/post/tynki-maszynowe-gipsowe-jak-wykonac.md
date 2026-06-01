@@ -6,9 +6,9 @@ excerpt: 'Tynk gipsowy maszynowy nakłada się szybko, ale konsekwencje błędó
 image: '~/assets/images/blog/tynki-maszynowe-gipsowe-jak-wykonac.jpeg'
 category: 'Blog'
 tags:
-  - 'tynki maszynowe gipsowe'
-  - 'jak wykonać tynki'
-  - 'odbiór tynków gipsowych'
+  - 'Sucha zabudowa'
+  - 'Tynki i wylewki'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/tynki-maszynowe-gipsowe-jak-wykonac/'

@@ -6,9 +6,8 @@ excerpt: 'Zbrojenie zatopione w betonie zostaje tam na zawsze. Pokażę Wam, na 
 image: '~/assets/images/blog/zbrojenie-fundamentow-na-co-zwrocic-uwage.jpeg'
 category: 'Blog'
 tags:
-  - 'zbrojenie fundamentów'
-  - 'zbrojenie płyty fundamentowej'
-  - 'odbiór zbrojenia'
+  - 'Fundamenty'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zbrojenie-fundamentow-na-co-zwrocic-uwage/'

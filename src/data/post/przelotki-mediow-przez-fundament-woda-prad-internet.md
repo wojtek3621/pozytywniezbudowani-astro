@@ -6,10 +6,8 @@ excerpt: 'Zapomniana przelotka pod fundamentem to jeden z błędów, który najb
 image: '~/assets/images/blog/przelotki-mediow-przez-fundament-woda-prad-internet.jpeg'
 category: 'Blog'
 tags:
-  - 'przelotki mediów fundament'
-  - 'przepust pod fundamentem'
-  - 'rura osłonowa do wody'
-  - 'przepust elektryczny fundament'
+  - 'Fundamenty'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/przelotki-mediow-przez-fundament-woda-prad-internet/'

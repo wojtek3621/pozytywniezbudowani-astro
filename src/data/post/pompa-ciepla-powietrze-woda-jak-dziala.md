@@ -6,9 +6,7 @@ excerpt: 'Pompa ciepła to nie magia ani wynalazek ostatnich pięciu lat. To po 
 image: '~/assets/images/blog/pompa-ciepla-powietrze-woda-jak-dziala.jpeg'
 category: 'Blog'
 tags:
-  - 'pompa ciepła powietrze-woda'
-  - 'jak działa pompa ciepła'
-  - 'COP pompy ciepła'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/pompa-ciepla-powietrze-woda-jak-dziala/'

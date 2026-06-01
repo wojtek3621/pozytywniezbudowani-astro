@@ -6,9 +6,7 @@ excerpt: 'Kredyt na budowę to zupełnie inna historia niż kredyt na gotowe mie
 image: '~/assets/images/blog/kredyt-na-budowe-domu-jak-dziala.jpeg'
 category: 'Blog'
 tags:
-  - 'kredyt na budowę domu'
-  - 'kredyt budowlany'
-  - 'transze kredytu hipotecznego'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kredyt-na-budowe-domu-jak-dziala/'

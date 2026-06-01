@@ -6,9 +6,7 @@ excerpt: 'Po wyjściu ostatniej ekipy zostaje warstwa pyłu na każdej powierzch
 image: '~/assets/images/blog/sprzatanie-po-budowie-profesjonalne-czy-samodzielne.jpeg'
 category: 'Blog'
 tags:
-  - 'sprzątanie po budowie'
-  - 'sprzątanie pobudowlane'
-  - 'czyszczenie po remoncie'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sprzatanie-po-budowie-profesjonalne-czy-samodzielne/'

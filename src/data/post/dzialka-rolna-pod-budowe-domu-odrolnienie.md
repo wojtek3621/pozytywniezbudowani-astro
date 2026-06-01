@@ -6,9 +6,7 @@ excerpt: 'Kusząca cena działki rolnej może skrywać formalności, o których 
 image: '~/assets/images/blog/dzialka-rolna-pod-budowe-domu-odrolnienie.jpeg'
 category: 'Blog'
 tags:
-  - 'odrolnienie działki'
-  - 'działka rolna budowa domu'
-  - 'przekształcenie działki rolnej'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-rolna-pod-budowe-domu-odrolnienie/'

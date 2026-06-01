@@ -6,9 +6,7 @@ excerpt: 'Profile do suchej zabudowy wyglądają identycznie. W rzeczywistości 
 image: '~/assets/images/blog/profile-i-stelaze-do-suchej-zabudowy.jpeg'
 category: 'Blog'
 tags:
-  - 'profile do suchej zabudowy'
-  - 'stelaż sufit podwieszany'
-  - 'profile CD 60 UD 30'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/profile-i-stelaze-do-suchej-zabudowy/'

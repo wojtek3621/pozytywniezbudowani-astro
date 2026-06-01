@@ -6,9 +6,8 @@ excerpt: 'Zasypywanie fundamentów wygląda na prostą robotę. W praktyce to et
 image: '~/assets/images/blog/zasypywanie-fundamentow-czym-i-jak.jpeg'
 category: 'Blog'
 tags:
-  - 'zasypywanie fundamentów'
-  - 'zagęszczanie gruntu'
-  - 'izolacja pionowa fundamentów'
+  - 'Fundamenty'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zasypywanie-fundamentow-czym-i-jak/'

@@ -6,9 +6,7 @@ excerpt: 'Jedna kreska na projekcie, a potrafi zdecydować o walce z wilgocią p
 image: '~/assets/images/blog/poziom-zero-budynku-co-to-jest-jak-ustalic.jpeg'
 category: 'Blog'
 tags:
-  - 'poziom zero budynku'
-  - 'rzędna terenu'
-  - 'ustalenie poziomu zero'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/poziom-zero-budynku-co-to-jest-i-jak-ustalic/'

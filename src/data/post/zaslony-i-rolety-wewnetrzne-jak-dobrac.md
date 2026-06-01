@@ -6,9 +6,7 @@ excerpt: 'Karnisz, roleta, plisa czy żaluzja wewnętrzna? Pokażę Wam, jak to 
 image: '~/assets/images/blog/zaslony-i-rolety-wewnetrzne-jak-dobrac.jpeg'
 category: 'Blog'
 tags:
-  - 'rolety wewnętrzne'
-  - 'zasłony do domu'
-  - 'karnisze sufitowe'
+  - 'Ściany i dekoracje'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zaslony-i-rolety-wewnetrzne-jak-dobrac/'

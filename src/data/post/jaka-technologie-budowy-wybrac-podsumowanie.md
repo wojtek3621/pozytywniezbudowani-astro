@@ -6,9 +6,10 @@ excerpt: 'Nie ma jednej najlepszej technologii budowy. Jest za to sposób, żeby
 image: '~/assets/images/blog/jaka-technologie-budowy-wybrac-podsumowanie.jpeg'
 category: 'Blog'
 tags:
-  - 'technologia budowy domu'
-  - 'dom murowany czy szkieletowy'
-  - 'pustak ceramiczny czy gazobeton'
+  - 'Wykonawcy i umowy'
+  - 'Projekt domu'
+  - 'Stan surowy i konstrukcja'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jaka-technologie-budowy-wybrac-podsumowanie/'

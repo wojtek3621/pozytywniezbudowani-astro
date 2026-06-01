@@ -6,9 +6,7 @@ excerpt: 'Czy XPS pod płytą fundamentową to dobra inwestycja? Zanim się zgod
 image: '~/assets/images/blog/xps-pod-plyta-fundamentowa-czy-sie-oplaca.jpeg'
 category: 'Blog'
 tags:
-  - 'XPS pod płytą fundamentową'
-  - 'styrodur pod płytę'
-  - 'izolacja płyty fundamentowej'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/xps-pod-plyta-fundamentowa-czy-sie-oplaca/'

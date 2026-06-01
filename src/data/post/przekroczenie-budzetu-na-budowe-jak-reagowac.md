@@ -6,9 +6,7 @@ excerpt: 'Budżet pęka w szwach, a dom wciąż nie jest gotowy? Spokojnie – m
 image: '~/assets/images/blog/przekroczenie-budzetu-na-budowe-jak-reagowac.jpeg'
 category: 'Blog'
 tags:
-  - 'przekroczenie budżetu budowa'
-  - 'koszty budowy domu'
-  - 'budżet na budowę'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/przekroczenie-budzetu-na-budowe-jak-reagowac/'

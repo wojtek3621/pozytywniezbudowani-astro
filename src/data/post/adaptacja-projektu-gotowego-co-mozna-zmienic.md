@@ -6,9 +6,8 @@ excerpt: 'Projekt gotowy to dopiero punkt wyjścia. Możecie zmienić więcej, n
 image: '~/assets/images/blog/adaptacja-projektu-gotowego-co-mozna-zmienic.jpeg'
 category: 'Blog'
 tags:
-  - 'adaptacja projektu gotowego'
-  - 'zmiany w projekcie domu'
-  - 'architekt adaptujący'
+  - 'Projekt domu'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/adaptacja-projektu-gotowego-co-mozna-zmienic/'

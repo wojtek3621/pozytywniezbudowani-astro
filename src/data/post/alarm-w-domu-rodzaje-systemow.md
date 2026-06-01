@@ -6,9 +6,7 @@ excerpt: 'Budujecie dom i zastanawiacie się nad alarmem? Wyjaśniam, czym róż
 image: '~/assets/images/blog/alarm-w-domu-rodzaje-systemow.jpeg'
 category: 'Blog'
 tags:
-  - 'alarm w domu'
-  - 'system alarmowy dom'
-  - 'rodzaje alarmów'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/alarm-w-domu-rodzaje-systemow/'

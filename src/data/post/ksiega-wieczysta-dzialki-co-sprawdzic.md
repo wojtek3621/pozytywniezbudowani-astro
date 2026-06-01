@@ -6,9 +6,7 @@ excerpt: 'Zanim podpiszesz umowę, zajrzyj do jednego dokumentu. Może oszczędz
 image: '~/assets/images/blog/ksiega-wieczysta-dzialki-co-sprawdzic.jpeg'
 category: 'Blog'
 tags:
-  - 'księga wieczysta działki'
-  - 'jak sprawdzić księgę wieczystą'
-  - 'działy księgi wieczystej'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ksiega-wieczysta-dzialki-co-sprawdzic/'

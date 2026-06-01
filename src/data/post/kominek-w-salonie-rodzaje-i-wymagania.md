@@ -6,10 +6,8 @@ excerpt: 'Kominek to nie mebel, tylko instalacja, którą trzeba przewidzieć ju
 image: '~/assets/images/blog/kominek-w-salonie-rodzaje-i-wymagania.jpeg'
 category: 'Blog'
 tags:
-  - 'kominek w salonie'
-  - 'rodzaje kominków'
-  - 'wymagania kominka'
-  - 'dolot powietrza'
+  - 'Pomieszczenia w domu'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kominek-w-salonie-rodzaje-i-wymagania/'

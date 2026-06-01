@@ -6,9 +6,8 @@ excerpt: 'Listwa startowa to pierwszy element docieplenia – błąd popełniony
 image: '~/assets/images/blog/listwa-startowa-pod-ocieplenie.jpeg'
 category: 'Blog'
 tags:
-  - 'listwa startowa'
-  - 'ocieplenie elewacji'
-  - 'system ETICS'
+  - 'Ocieplenie i elewacja'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/listwa-startowa-pod-ocieplenie/'

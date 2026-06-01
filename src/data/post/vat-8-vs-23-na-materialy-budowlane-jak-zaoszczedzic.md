@@ -6,9 +6,7 @@ excerpt: 'Ta różnica w stawce VAT może oznaczać kilkadziesiąt tysięcy zło
 image: '~/assets/images/blog/vat-8-vs-23-na-materialy-budowlane-jak-zaoszczedzic.jpeg'
 category: 'Blog'
 tags:
-  - 'VAT materiały budowlane'
-  - 'stawka VAT budowa domu'
-  - 'oszczędności na budowie'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/vat-8-vs-23-na-materialy-budowlane-jak-zaoszczedzic/'

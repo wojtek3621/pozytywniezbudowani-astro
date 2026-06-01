@@ -6,9 +6,7 @@ excerpt: 'Budżet to nie liczba w głowie. To arkusz z dziesiątkami pozycji, kt
 image: '~/assets/images/blog/jak-oszacowac-budzet-na-budowe-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'budżet na budowę domu'
-  - 'szacowanie kosztów budowy'
-  - 'kosztorys budowy'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-oszacowac-budzet-na-budowe-domu/'

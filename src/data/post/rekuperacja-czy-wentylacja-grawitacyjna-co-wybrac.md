@@ -6,9 +6,7 @@ excerpt: 'Rekuperacja to przede wszystkim komfort. I dopóki tego nie zrozumieci
 image: '~/assets/images/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac.jpeg'
 category: 'Blog'
 tags:
-  - 'rekuperacja czy wentylacja grawitacyjna'
-  - 'wentylacja w domu jednorodzinnym'
-  - 'rekuperacja w domu'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac/'

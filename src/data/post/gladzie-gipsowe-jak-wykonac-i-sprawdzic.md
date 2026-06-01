@@ -6,9 +6,7 @@ excerpt: 'Gładź to nie to samo co tynk. Pokażę Wam, jak ją wykonać, sprawd
 image: '~/assets/images/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic.jpeg'
 category: 'Blog'
 tags:
-  - 'gładzie gipsowe'
-  - 'standardy Q1-Q4'
-  - 'szpachlowanie ścian'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/gladzie-gipsowe-jak-wykonac-i-sprawdzic/'

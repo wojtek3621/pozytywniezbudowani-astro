@@ -6,9 +6,7 @@ excerpt: 'Próg między pokojami to nie jest decyzja estetyczna. To kilka różn
 image: '~/assets/images/blog/prog-miedzy-pokojami-kiedy-potrzebny.jpeg'
 category: 'Blog'
 tags:
-  - 'próg między pokojami'
-  - 'próg drzwi wewnętrznych'
-  - 'drzwi bezprogowe'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/prog-miedzy-pokojami-kiedy-potrzebny/'

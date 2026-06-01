@@ -6,9 +6,7 @@ excerpt: 'Deska barlinecka i panele SPC to dwa zupełnie różne światy. Pokazu
 image: '~/assets/images/blog/deska-barlinecka-vs-panele-winylowe-spc.jpeg'
 category: 'Blog'
 tags:
-  - 'deska barlinecka'
-  - 'panele winylowe SPC'
-  - 'podłogi w domu'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/deska-barlinecka-vs-panele-winylowe-spc/'

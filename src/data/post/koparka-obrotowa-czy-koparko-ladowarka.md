@@ -6,9 +6,7 @@ excerpt: 'Koparka obrotowa czy koparko-ładowarka pod fundamenty? Wybór wpływa
 image: '~/assets/images/blog/koparka-obrotowa-czy-koparko-ladowarka.jpeg'
 category: 'Blog'
 tags:
-  - 'koparka na budowie'
-  - 'koparka obrotowa'
-  - 'koparko-ładowarka'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/koparka-obrotowa-czy-koparko-ladowarka/'

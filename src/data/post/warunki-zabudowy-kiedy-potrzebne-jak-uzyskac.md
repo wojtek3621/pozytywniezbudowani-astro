@@ -6,9 +6,7 @@ excerpt: 'Działka bez planu miejscowego? Sprawdź, czy potrzebujesz "wuzetki" i
 image: '~/assets/images/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac.jpeg'
 category: 'Blog'
 tags:
-  - 'warunki zabudowy'
-  - 'decyzja WZ'
-  - 'plan ogólny gminy'
+  - 'Plan miejscowy i WZ'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/'

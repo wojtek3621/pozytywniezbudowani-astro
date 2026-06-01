@@ -6,9 +6,8 @@ excerpt: 'Fundament to ten element domu, którego nie poprawicie po latach. Poka
 image: '~/assets/images/blog/bledy-na-fundamentach-jak-rozpoznac.jpeg'
 category: 'Blog'
 tags:
-  - 'błędy fundamentów'
-  - 'kontrola fundamentów'
-  - 'wady fundamentu domu'
+  - 'Fundamenty'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/bledy-na-fundamentach-jak-rozpoznac/'

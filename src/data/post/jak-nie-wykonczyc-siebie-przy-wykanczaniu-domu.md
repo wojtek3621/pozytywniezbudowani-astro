@@ -6,9 +6,7 @@ excerpt: 'Stan deweloperski daje fałszywe poczucie, że już prawie koniec. A d
 image: '~/assets/images/blog/jak-nie-wykonczyc-siebie-przy-wykanczaniu-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'wykańczanie domu'
-  - 'organizacja budowy'
-  - 'zmęczenie wykończeniówką'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-nie-wykonczyc-siebie-przy-wykanczaniu-domu/'

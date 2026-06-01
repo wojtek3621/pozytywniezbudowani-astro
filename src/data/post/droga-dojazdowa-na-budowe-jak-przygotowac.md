@@ -6,9 +6,8 @@ excerpt: 'Betonomieszarka utopiona w błocie potrafi zatrzymać budowę na tygod
 image: '~/assets/images/blog/droga-dojazdowa-na-budowe-jak-przygotowac.jpeg'
 category: 'Blog'
 tags:
-  - 'droga dojazdowa na budowę'
-  - 'droga technologiczna'
-  - 'dojazd dla koparki'
+  - 'Działka i grunt'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/droga-dojazdowa-na-budowe-jak-przygotowac/'

@@ -6,9 +6,8 @@ excerpt: '20% wartości nieruchomości. Tyle mówi teoria. A jak to wygląda w p
 image: '~/assets/images/blog/wklad-wlasny-przy-kredycie-na-budowe-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'wkład własny kredyt hipoteczny'
-  - 'kredyt na budowę domu'
-  - 'działka jako wkład własny'
+  - 'Finanse i kredyt'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wklad-wlasny-przy-kredycie-na-budowe-domu-ile-i-jak-zebrac/'

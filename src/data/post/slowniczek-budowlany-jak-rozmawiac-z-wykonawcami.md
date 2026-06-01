@@ -6,9 +6,7 @@ excerpt: 'Wykonawca mówi „dorobić strzępie przy trzpieniach". Co z tego roz
 image: '~/assets/images/blog/slowniczek-budowlany-jak-rozmawiac-z-wykonawcami.jpeg'
 category: 'Blog'
 tags:
-  - 'słowniczek budowlany'
-  - 'terminologia budowlana'
-  - 'jak rozmawiać z wykonawcą'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/slowniczek-budowlany-jak-rozmawiac-z-wykonawcami/'

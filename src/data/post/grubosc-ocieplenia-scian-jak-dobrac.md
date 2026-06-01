@@ -6,9 +6,7 @@ excerpt: '15 czy 20 cm styropianu? Szary czy biały? Pokażę jak dobrać grubo�
 image: '~/assets/images/blog/grubosc-ocieplenia-scian-jak-dobrac.jpeg'
 category: 'Blog'
 tags:
-  - 'grubość ocieplenia ścian'
-  - 'ocieplenie elewacji WT2021'
-  - 'lambda styropianu'
+  - 'Ocieplenie i elewacja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/grubosc-ocieplenia-scian-jak-dobrac/'

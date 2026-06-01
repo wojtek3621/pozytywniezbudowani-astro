@@ -6,9 +6,7 @@ excerpt: 'Bez dostępu do drogi publicznej nie wybudujesz domu. Sprawdź, czym j
 image: '~/assets/images/blog/dzialka-z-dostepem-do-drogi-sluzebnosc-przejazdu.jpeg'
 category: 'Blog'
 tags:
-  - 'służebność drogi koniecznej'
-  - 'dostęp do drogi publicznej'
-  - 'służebność przejazdu'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-z-dostepem-do-drogi-sluzebnosc-przejazdu/'

@@ -6,9 +6,7 @@ excerpt: 'O kominie do kominka decydujecie na etapie projektu, nie po wybudowani
 image: '~/assets/images/blog/komin-do-kominka-wymagania-i-montaz.jpeg'
 category: 'Blog'
 tags:
-  - 'komin do kominka'
-  - 'montaż komina'
-  - 'wymagania komina kominka'
+  - 'Stan surowy i konstrukcja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/komin-do-kominka-wymagania-i-montaz/'

@@ -6,9 +6,8 @@ excerpt: 'Większość inwestorów oddaje państwu kilkadziesiąt tysięcy złot
 image: '~/assets/images/blog/materialy-budowlane-skad-kupowac-najtaniej.jpeg'
 category: 'Blog'
 tags:
-  - 'materiały budowlane tanio'
-  - 'VAT 8% materiały budowlane'
-  - 'gdzie kupować materiały na dom'
+  - 'Finanse i kredyt'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/materialy-budowlane-skad-kupowac-najtaniej/'

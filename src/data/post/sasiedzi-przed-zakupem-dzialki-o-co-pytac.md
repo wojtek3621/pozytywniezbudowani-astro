@@ -6,9 +6,8 @@ excerpt: 'Sąsiedzi wiedzą o okolicy rzeczy, których nie znajdziecie w żadnyc
 image: '~/assets/images/blog/sasiedzi-przed-zakupem-dzialki-o-co-pytac.jpeg'
 category: 'Blog'
 tags:
-  - 'sąsiedzi przed zakupem działki'
-  - 'o co pytać sąsiadów'
-  - 'weryfikacja działki'
+  - 'Działka i grunt'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sasiedzi-przed-zakupem-dzialki-o-co-pytac/'

@@ -6,9 +6,8 @@ excerpt: 'Zagęszczanie gruntu to etap, którego nie zobaczycie po skończonej b
 image: '~/assets/images/blog/zageszczanie-gruntu-dlaczego-jest-krytyczne.jpeg'
 category: 'Blog'
 tags:
-  - 'zagęszczanie gruntu'
-  - 'wymiana gruntu'
-  - 'posadowienie domu'
+  - 'Działka i grunt'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zageszczanie-gruntu-dlaczego-jest-krytyczne/'

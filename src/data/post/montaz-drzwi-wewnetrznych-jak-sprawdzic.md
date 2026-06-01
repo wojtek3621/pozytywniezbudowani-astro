@@ -6,9 +6,8 @@ excerpt: 'Drzwi wewnętrzne to jeden z ostatnich etapów wykończenia. Pokażę 
 image: '~/assets/images/blog/montaz-drzwi-wewnetrznych-jak-sprawdzic.jpeg'
 category: 'Blog'
 tags:
-  - 'montaż drzwi wewnętrznych'
-  - 'odbiór drzwi'
-  - 'kontrola montażu drzwi'
+  - 'Okna i drzwi'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/montaz-drzwi-wewnetrznych-jak-sprawdzic/'

@@ -6,9 +6,8 @@ excerpt: 'Drzwi z garażu do domu to nie zwykłe drzwi wewnętrzne. Sprawdźcie,
 image: '~/assets/images/blog/drzwi-z-garazu-do-domu-wymagania.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi z garażu do domu'
-  - 'drzwi EI 30'
-  - 'drzwi przeciwpożarowe garaż'
+  - 'Pomieszczenia w domu'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-z-garazu-do-domu-wymagania/'

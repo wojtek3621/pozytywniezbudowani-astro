@@ -6,9 +6,8 @@ excerpt: 'Umowa nie chroni w stu procentach. Sądy działają wolno. Dlatego naj
 image: '~/assets/images/blog/jak-zabezpieczyc-sie-przed-nieuczciwym-wykonawca.jpeg'
 category: 'Blog'
 tags:
-  - 'nieuczciwy wykonawca'
-  - 'umowa z wykonawcą'
-  - 'weryfikacja firmy budowlanej'
+  - 'Instalacje i przyłącza'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-zabezpieczyc-sie-przed-nieuczciwym-wykonawca/'

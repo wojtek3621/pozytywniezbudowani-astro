@@ -6,9 +6,7 @@ excerpt: 'Nagłe światło o północy potrafi zrobić więcej niż drogi alarm.
 image: '~/assets/images/blog/oswietlenie-z-czujnikiem-ruchu-odstraszanie-wlamywaczy.jpeg'
 category: 'Blog'
 tags:
-  - 'oświetlenie z czujnikiem ruchu'
-  - 'odstraszanie włamywaczy'
-  - 'czujnik PIR'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/oswietlenie-z-czujnikiem-ruchu-odstraszanie-wlamywaczy/'

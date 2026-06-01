@@ -6,9 +6,7 @@ excerpt: 'Fundament zalany wodą gruntową to problem, którego naprawa po latac
 image: '~/assets/images/blog/izolacja-przeciwwilgociowa-fundamentow-jak-wykonac.jpeg'
 category: 'Blog'
 tags:
-  - 'izolacja przeciwwilgociowa fundamentów'
-  - 'hydroizolacja fundamentów'
-  - 'izolacja pozioma fundamentów'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/izolacja-przeciwwilgociowa-fundamentow-jak-wykonac/'

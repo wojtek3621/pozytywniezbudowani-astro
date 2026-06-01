@@ -6,9 +6,8 @@ excerpt: 'Kierownik budowy to nie wszystko. Sprawdźcie, czy Wasz dom potrzebuje
 image: '~/assets/images/blog/inspektor-nadzoru-inwestorskiego-czy-potrzebny.jpeg'
 category: 'Blog'
 tags:
-  - 'inspektor nadzoru inwestorskiego'
-  - 'nadzór inwestorski budowa domu'
-  - 'kontrola budowy'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/inspektor-nadzoru-inwestorskiego-czy-potrzebny/'

@@ -6,9 +6,7 @@ excerpt: 'Zanim wsiądziecie w auto i pojedziecie oglądać działkę – sprawd
 image: '~/assets/images/blog/jak-znalezc-dzialke-metoda-street-view.jpeg'
 category: 'Blog'
 tags:
-  - 'działka budowlana'
-  - 'Street View'
-  - 'szukanie działki'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-znalezc-dzialke-metoda-street-view/'

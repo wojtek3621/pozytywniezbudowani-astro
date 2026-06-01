@@ -6,9 +6,7 @@ excerpt: 'Wybór źródła ciepła to decyzja na 20 lat. Pokazuję Wam, co napra
 image: '~/assets/images/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-opcji.jpeg'
 category: 'Blog'
 tags:
-  - 'ogrzewanie domu jednorodzinnego'
-  - 'pompa ciepła vs kocioł gazowy'
-  - 'czym ogrzewać dom'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-opcji/'

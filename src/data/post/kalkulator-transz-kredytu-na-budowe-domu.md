@@ -6,9 +6,7 @@ excerpt: 'Przez całą budowę płacisz tylko odsetki. A kapitał? Ani złotówk
 image: '~/assets/images/blog/kalkulator-transz-kredytu-na-budowe-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'transze kredytu na budowę domu'
-  - 'karencja kredyt budowlany'
-  - 'koszty odsetek budowa'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kalkulator-transz-kredytu-na-budowe-domu/'

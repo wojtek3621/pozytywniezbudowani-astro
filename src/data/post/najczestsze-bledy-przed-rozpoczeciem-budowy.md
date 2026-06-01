@@ -6,9 +6,9 @@ excerpt: 'Większość kosztownych błędów na budowie powstaje zanim wjedzie k
 image: '~/assets/images/blog/najczestsze-bledy-przed-rozpoczeciem-budowy.jpeg'
 category: 'Blog'
 tags:
-  - 'błędy przed budową'
-  - 'przygotowanie do budowy domu'
-  - 'formalności budowlane'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Odbiory i kontrola jakości'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/najczestsze-bledy-przed-rozpoczeciem-budowy/'

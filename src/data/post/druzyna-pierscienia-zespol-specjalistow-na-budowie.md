@@ -6,9 +6,10 @@ excerpt: 'Bez geologa nie kupujcie działki. Bez architekta nie wybierajcie proj
 image: '~/assets/images/blog/druzyna-pierscienia-zespol-specjalistow-na-budowie.jpeg'
 category: 'Blog'
 tags:
-  - 'zespół specjalistów budowa domu'
-  - 'drużyna pierścienia'
-  - 'architekt geodeta geolog kierownik budowy'
+  - 'Organizacja budowy'
+  - 'Działka i grunt'
+  - 'Projekt domu'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/druzyna-pierscienia-zespol-specjalistow-na-budowie/'

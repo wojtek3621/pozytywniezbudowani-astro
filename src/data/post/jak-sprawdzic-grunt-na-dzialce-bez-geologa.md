@@ -6,9 +6,7 @@ excerpt: 'Zanim wydacie pieniądze na badania geotechniczne, możecie sami wiele
 image: '~/assets/images/blog/jak-sprawdzic-grunt-na-dzialce-bez-geologa.jpeg'
 category: 'Blog'
 tags:
-  - 'sprawdzenie gruntu działka'
-  - 'rodzaj gleby działka'
-  - 'wody gruntowe działka'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-sprawdzic-grunt-na-dzialce-bez-geologa/'

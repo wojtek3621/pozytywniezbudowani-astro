@@ -6,9 +6,7 @@ excerpt: 'Piwniczka na wino to nie szafka z butelkami. To pomieszczenie, w któr
 image: '~/assets/images/blog/piwniczka-na-wino-w-domu-jak-urzadzic.jpeg'
 category: 'Blog'
 tags:
-  - 'piwniczka na wino'
-  - 'winiarnia w domu'
-  - 'przechowywanie wina'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/piwniczka-na-wino-w-domu-jak-urzadzic/'

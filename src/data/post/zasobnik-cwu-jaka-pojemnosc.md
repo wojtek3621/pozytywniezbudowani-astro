@@ -6,9 +6,7 @@ excerpt: '100, 140, 200, a może 300 litrów? Tłumaczę, od czego naprawdę zal
 image: '~/assets/images/blog/zasobnik-cwu-jaka-pojemnosc.jpeg'
 category: 'Blog'
 tags:
-  - 'zasobnik CWU'
-  - 'pojemność zasobnika ciepłej wody'
-  - 'dobór zasobnika'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zasobnik-cwu-jaka-pojemnosc/'

@@ -6,11 +6,8 @@ excerpt: 'Gdy pada hasło "smart home", większość osób wyobraża sobie włą
 image: '~/assets/images/blog/inteligentny-dom-wszystkie-funkcje-ktore-mozesz-miec-i-jak-zdecydowac-ktore-sa-dla-ciebie.jpeg'
 category: 'Blog'
 tags:
-  - 'inteligentny dom'
-  - 'smart home funkcje'
-  - 'automatyka domowa'
-  - 'ile kosztuje smart home'
-  - 'smart home w domu jednorodzinnym'
+  - 'Bezpieczeństwo i smart home'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/inteligentny-dom-wszystkie-funkcje-ktore-mozesz-miec-i-jak-zdecydowac-ktore-sa-dla-ciebie/'

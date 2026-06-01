@@ -6,9 +6,7 @@ excerpt: 'Elektryk pyta, gdzie mają być gniazdka, a Wy nie wiecie, gdzie stani
 image: '~/assets/images/blog/projekt-wnetrz-na-etapie-budowy-kiedy-zamowic.jpeg'
 category: 'Blog'
 tags:
-  - 'projekt wnętrz kiedy zamówić'
-  - 'architekt wnętrz budowa domu'
-  - 'projekt wnętrz etap budowy'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/projekt-wnetrz-na-etapie-budowy-kiedy-zamowic/'

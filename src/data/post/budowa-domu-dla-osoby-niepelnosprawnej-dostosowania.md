@@ -6,9 +6,7 @@ excerpt: 'Dom dostępny to nie szerokie drzwi i podjazd. To kilkadziesiąt decyz
 image: '~/assets/images/blog/budowa-domu-dla-osoby-niepelnosprawnej-dostosowania.jpeg'
 category: 'Blog'
 tags:
-  - 'dom dostępny'
-  - 'dom bez barier'
-  - 'projekt dla niepełnosprawnych'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-dla-osoby-niepelnosprawnej-dostosowania/'

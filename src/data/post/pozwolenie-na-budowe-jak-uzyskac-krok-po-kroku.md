@@ -6,9 +6,7 @@ excerpt: 'Pozwolenie na budowę to pierwszy poważny egzamin przed Waszą budow�
 image: '~/assets/images/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku.jpeg'
 category: 'Blog'
 tags:
-  - 'pozwolenie na budowę'
-  - 'jak uzyskać pozwolenie na budowę'
-  - 'dokumenty do pozwolenia na budowę'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku/'

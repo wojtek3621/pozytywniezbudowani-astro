@@ -6,9 +6,7 @@ excerpt: 'Ten dokument określi, jak będziecie żyć na działce przez kolejne 
 image: '~/assets/images/blog/projekt-zagospodarowania-terenu-co-zawiera.jpeg'
 category: 'Blog'
 tags:
-  - 'projekt zagospodarowania terenu'
-  - 'PZT'
-  - 'adaptacja projektu domu'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/projekt-zagospodarowania-terenu-co-zawiera/'

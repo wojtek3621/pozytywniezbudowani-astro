@@ -6,9 +6,7 @@ excerpt: 'Malowanie, panele, listwy, drobny montaż – tak. Hydroizolacja łazi
 image: '~/assets/images/blog/wykonczenie-domu-samodzielnie-co-mozna.jpeg'
 category: 'Blog'
 tags:
-  - 'wykończenie domu samodzielnie'
-  - 'prace wykończeniowe DIY'
-  - 'system gospodarczy wykończenie'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wykonczenie-domu-samodzielnie-co-mozna/'

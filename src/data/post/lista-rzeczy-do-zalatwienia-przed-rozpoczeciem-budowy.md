@@ -6,9 +6,8 @@ excerpt: 'Większość problemów na budowie nie bierze się z pracy ekip, tylko
 image: '~/assets/images/blog/lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy.jpeg'
 category: 'Blog'
 tags:
-  - 'przygotowanie do budowy domu'
-  - 'formalności przed budową'
-  - 'checklist przed budową'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/lista-rzeczy-do-zalatwienia-przed-rozpoczeciem-budowy/'

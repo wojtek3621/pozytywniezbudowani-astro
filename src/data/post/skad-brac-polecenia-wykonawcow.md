@@ -6,9 +6,7 @@ excerpt: 'Polecenie znajomego to zaledwie pierwszy krok. Pokażę Wam, gdzie nap
 image: '~/assets/images/blog/skad-brac-polecenia-wykonawcow.jpeg'
 category: 'Blog'
 tags:
-  - 'polecenia wykonawców'
-  - 'jak znaleźć ekipę budowlaną'
-  - 'weryfikacja wykonawcy'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/skad-brac-polecenia-wykonawcow/'

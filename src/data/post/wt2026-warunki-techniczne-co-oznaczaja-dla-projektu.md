@@ -6,10 +6,9 @@ excerpt: 'Każda kolejna odsłona warunków technicznych podnosi poprzeczkę. Po
 image: '~/assets/images/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu.jpeg'
 category: 'Blog'
 tags:
-  - 'WT2026'
-  - 'warunki techniczne 2026'
-  - 'EP budynku'
-  - 'dom jednorodzinny przepisy'
+  - 'Projekt domu'
+  - 'Stan surowy i konstrukcja'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/'

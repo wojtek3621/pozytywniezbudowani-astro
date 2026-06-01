@@ -6,9 +6,8 @@ excerpt: 'Piwnica bez naturalnego światła to magazyn. Z dobrze zaprojektowanym
 image: '~/assets/images/blog/doswietlacze-piwnicy-naturalne-swiatlo.jpeg'
 category: 'Blog'
 tags:
-  - 'doświetlacze piwnicy'
-  - 'okna piwniczne'
-  - 'doświetlenie piwnicy'
+  - 'Pomieszczenia w domu'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/doswietlacze-piwnicy-naturalne-swiatlo/'

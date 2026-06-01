@@ -6,10 +6,9 @@ excerpt: 'Ogrodzenie wydaje się proste, dopóki nie pojawi się urzędnik, sąs
 image: '~/assets/images/blog/nowe-przepisy-o-ogrodzeniach-2026.jpeg'
 category: 'Blog'
 tags:
-  - 'przepisy o ogrodzeniach 2026'
-  - 'zgłoszenie ogrodzenia'
-  - 'ogrodzenie powyżej 2'
-  - '2 m'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Działka i grunt'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/nowe-przepisy-o-ogrodzeniach-2026/'

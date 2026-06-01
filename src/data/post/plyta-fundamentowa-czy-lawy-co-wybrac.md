@@ -6,9 +6,7 @@ excerpt: 'Płyta czy ławy? Zanim podejmiecie decyzję, sprawdźcie co naprawdę
 image: '~/assets/images/blog/plyta-fundamentowa-czy-lawy-co-wybrac.jpeg'
 category: 'Blog'
 tags:
-  - 'płyta fundamentowa czy ławy'
-  - 'rodzaje fundamentów'
-  - 'fundamenty dom jednorodzinny'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/plyta-fundamentowa-czy-lawy-co-wybrac/'

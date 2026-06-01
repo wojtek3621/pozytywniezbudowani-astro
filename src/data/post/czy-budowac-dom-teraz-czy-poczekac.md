@@ -6,9 +6,8 @@ excerpt: 'Stopy procentowe spadną. Ceny się ustabilizują. Materiały staniej�
 image: '~/assets/images/blog/czy-budowac-dom-teraz-czy-poczekac.jpeg'
 category: 'Blog'
 tags:
-  - 'kiedy budować dom'
-  - 'czy budować teraz'
-  - 'decyzja o budowie domu'
+  - 'Decyzja o budowie i przygotowania'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/czy-budowac-dom-teraz-czy-poczekac/'

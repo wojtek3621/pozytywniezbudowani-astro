@@ -6,9 +6,7 @@ excerpt: 'Zostało Ci 10 000 zł – nadpłacić kredyt czy nie? A jeśli tak, t
 image: '~/assets/images/blog/nadplata-kredytu-hipotecznego-skrocenie-okresu-czy-nizsza-rata.jpeg'
 category: 'Blog'
 tags:
-  - 'nadpłata kredytu hipotecznego kalkulator'
-  - 'nadpłata kredytu skrócenie okresu'
-  - 'nadpłata kredytu niższa rata'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/nadplata-kredytu-hipotecznego-skrocenie-okresu-czy-nizsza-rata/'

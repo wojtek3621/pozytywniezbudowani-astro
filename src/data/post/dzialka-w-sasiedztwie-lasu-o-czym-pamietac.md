@@ -6,9 +6,7 @@ excerpt: 'Las za płotem brzmi jak spełnienie marzeń. Ale zanim podpiszecie ak
 image: '~/assets/images/blog/dzialka-w-sasiedztwie-lasu-o-czym-pamietac.jpeg'
 category: 'Blog'
 tags:
-  - 'działka przy lesie'
-  - 'budowa domu przy lesie'
-  - 'odległość budynku od lasu'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-w-sasiedztwie-lasu-o-czym-pamietac/'

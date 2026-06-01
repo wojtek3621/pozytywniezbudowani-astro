@@ -6,9 +6,7 @@ excerpt: 'Kierownik budowy może załatwiać za Was sprawy w urzędach. Ale tylk
 image: '~/assets/images/blog/pelnomocnictwo-dla-kierownika-budowy-zakres.jpeg'
 category: 'Blog'
 tags:
-  - 'pełnomocnictwo kierownik budowy'
-  - 'upoważnienie kierownika budowy'
-  - 'zakres pełnomocnictwa budowa'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/pelnomocnictwo-dla-kierownika-budowy-zakres/'

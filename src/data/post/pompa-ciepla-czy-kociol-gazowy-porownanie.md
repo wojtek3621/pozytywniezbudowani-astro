@@ -6,9 +6,7 @@ excerpt: 'Pompa ciepła czy gaz? Pytanie, które pada na każdej budowie. Pokaż
 image: '~/assets/images/blog/pompa-ciepla-czy-kociol-gazowy-porownanie.jpeg'
 category: 'Blog'
 tags:
-  - 'pompa ciepła'
-  - 'kocioł gazowy'
-  - 'porównanie systemów grzewczych'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/pompa-ciepla-czy-kociol-gazowy-porownanie/'

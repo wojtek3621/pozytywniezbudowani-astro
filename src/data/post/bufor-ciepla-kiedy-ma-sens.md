@@ -6,9 +6,8 @@ excerpt: 'Sprzedawcy często mówią, że bufor ciepła jest niezbędny. W rzecz
 image: '~/assets/images/blog/bufor-ciepla-kiedy-ma-sens.jpeg'
 category: 'Blog'
 tags:
-  - 'bufor ciepła'
-  - 'pompa ciepła bufor'
-  - 'zbiornik buforowy'
+  - 'Instalacje i przyłącza'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/bufor-ciepla-kiedy-ma-sens/'

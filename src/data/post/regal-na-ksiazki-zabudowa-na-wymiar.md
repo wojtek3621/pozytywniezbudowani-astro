@@ -6,9 +6,7 @@ excerpt: 'Regał na książki to nie mebel, który się dokupuje na końcu. To e
 image: '~/assets/images/blog/regal-na-ksiazki-zabudowa-na-wymiar.jpeg'
 category: 'Blog'
 tags:
-  - 'regał na książki na wymiar'
-  - 'zabudowa biblioteczna'
-  - 'meble na wymiar'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/regal-na-ksiazki-zabudowa-na-wymiar/'

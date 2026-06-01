@@ -6,9 +6,9 @@ excerpt: 'Budowa za Wami, ale bez tych 7 dokumentów nie możecie legalnie miesz
 image: '~/assets/images/blog/dokumentacja-powykonawcza-co-zawiera-i-po-co.jpeg'
 category: 'Blog'
 tags:
-  - 'dokumentacja powykonawcza'
-  - 'odbiór domu'
-  - 'zgłoszenie zakończenia budowy'
+  - 'Wykonawcy i umowy'
+  - 'Odbiory i kontrola jakości'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dokumentacja-powykonawcza-co-zawiera-i-po-co/'

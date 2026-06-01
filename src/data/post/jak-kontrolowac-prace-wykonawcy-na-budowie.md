@@ -6,9 +6,10 @@ excerpt: 'Kontrola wykonawcy nie polega na zaglądaniu mu przez ramię. Polega n
 image: '~/assets/images/blog/jak-kontrolowac-prace-wykonawcy-na-budowie.jpeg'
 category: 'Blog'
 tags:
-  - 'kontrola wykonawcy'
-  - 'odbiór budowy'
-  - 'kierownik budowy'
+  - 'Instalacje i przyłącza'
+  - 'Wykonawcy i umowy'
+  - 'Odbiory i kontrola jakości'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-kontrolowac-prace-wykonawcy-na-budowie/'

@@ -6,9 +6,9 @@ excerpt: 'Pętle podłogówki znikają pod 6 cm wylewki na 50 lat. Próba szczel
 image: '~/assets/images/blog/proba-szczelnosci-ogrzewania-podlogowego.jpeg'
 category: 'Blog'
 tags:
-  - 'próba szczelności ogrzewania podłogowego'
-  - 'próba ciśnieniowa podłogówki'
-  - 'ciśnienie próbne instalacji'
+  - 'Podłogi i wykończenie'
+  - 'Instalacje i przyłącza'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/proba-szczelnosci-ogrzewania-podlogowego/'

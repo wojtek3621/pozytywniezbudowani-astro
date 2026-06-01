@@ -6,10 +6,7 @@ excerpt: 'Dobór prawidłowego kabla zasilającego dom jednorodzinny wielu osobo
 image: '~/assets/images/blog/jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego.jpg'
 category: 'Blog'
 tags:
-  - 'kabel przyłączeniowy do domu'
-  - 'kalkulator kabla WLZ'
-  - 'dobór kabla zasilającego dom'
-  - 'przekrój kabla przyłączeniowego'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego/'

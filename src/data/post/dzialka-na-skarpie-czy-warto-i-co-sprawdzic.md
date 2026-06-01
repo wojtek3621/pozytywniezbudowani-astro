@@ -6,9 +6,7 @@ excerpt: 'Działka na skarpie kusi niższą ceną i pięknymi widokami. Ale czy 
 image: '~/assets/images/blog/dzialka-na-skarpie-czy-warto-i-co-sprawdzic.jpeg'
 category: 'Blog'
 tags:
-  - 'działka na skarpie'
-  - 'budowa domu na pochyłym terenie'
-  - 'działka ze spadkiem'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-na-skarpie-czy-warto-i-co-sprawdzic/'

@@ -6,9 +6,8 @@ excerpt: 'Bezpieczeństwo domu to nie sam alarm. To system czterech warstw: otoc
 image: '~/assets/images/blog/bezpieczenstwo-domu-kompleksowy-system-ochrony.jpeg'
 category: 'Blog'
 tags:
-  - 'bezpieczeństwo domu'
-  - 'system alarmowy'
-  - 'drzwi antywłamaniowe'
+  - 'Bezpieczeństwo i smart home'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/bezpieczenstwo-domu-kompleksowy-system-ochrony/'

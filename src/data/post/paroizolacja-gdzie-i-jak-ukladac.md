@@ -6,10 +6,7 @@ excerpt: 'Paroizolacja to jedna z tych warstw, których po latach nie widać, al
 image: '~/assets/images/blog/paroizolacja-gdzie-i-jak-ukladac.jpeg'
 category: 'Blog'
 tags:
-  - 'paroizolacja'
-  - 'folia paroizolacyjna'
-  - 'izolacja dachu'
-  - 'mostek termiczny'
+  - 'Stan surowy i konstrukcja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/paroizolacja-gdzie-i-jak-ukladac/'

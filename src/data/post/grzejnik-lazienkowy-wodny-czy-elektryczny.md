@@ -6,9 +6,8 @@ excerpt: 'Sam grzejnik wodny przy ogrzewaniu podłogowym nie działa. Pokazuję,
 image: '~/assets/images/blog/grzejnik-lazienkowy-wodny-czy-elektryczny.jpeg'
 category: 'Blog'
 tags:
-  - 'grzejnik łazienkowy'
-  - 'grzejnik wodny czy elektryczny'
-  - 'drabinka łazienkowa'
+  - 'Instalacje i przyłącza'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/grzejnik-lazienkowy-wodny-czy-elektryczny/'

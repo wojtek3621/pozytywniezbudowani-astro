@@ -6,9 +6,8 @@ excerpt: 'Tapicerowane panele to nie improwizacja na końcu wykończeniowki – 
 image: '~/assets/images/blog/tapicerowane-panele-scienne-montaz.jpeg'
 category: 'Blog'
 tags:
-  - 'tapicerowane panele ścienne'
-  - 'montaż paneli tapicerowanych'
-  - 'panele ścienne tkaninowe'
+  - 'Ściany i dekoracje'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/tapicerowane-panele-scienne-montaz/'

@@ -6,10 +6,9 @@ excerpt: 'Deska trójwarstwowa łączy urok litego drewna z większą stabilnoś
 image: '~/assets/images/blog/deska-podlogowa-trojwarstwowa-wady-i-zalety.jpeg'
 category: 'Blog'
 tags:
-  - 'deska trójwarstwowa'
-  - 'deska warstwowa'
-  - 'podłoga drewniana'
-  - 'ogrzewanie podłogowe deska'
+  - 'Podłogi i wykończenie'
+  - 'Odbiory i kontrola jakości'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/deska-podlogowa-trojwarstwowa-wady-i-zalety/'

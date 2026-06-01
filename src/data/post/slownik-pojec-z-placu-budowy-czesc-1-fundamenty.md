@@ -6,9 +6,7 @@ excerpt: 'Majster mówi o ławicach, osiach i fi dwunastce, a Wy kiwacie głową
 image: '~/assets/images/blog/slownik-pojec-z-placu-budowy-czesc-1-fundamenty.jpg'
 category: 'Blog'
 tags:
-  - 'słownik budowlany'
-  - 'terminologia budowlana'
-  - 'fundamenty'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/slownik-pojec-z-placu-budowy-czesc-1-fundamenty/'

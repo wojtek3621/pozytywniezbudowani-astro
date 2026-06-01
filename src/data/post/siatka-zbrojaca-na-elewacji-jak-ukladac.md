@@ -6,10 +6,7 @@ excerpt: 'Siatka zbrojąca to najtańszy element systemu ociepleń, ale przesąd
 image: '~/assets/images/blog/siatka-zbrojaca-na-elewacji-jak-ukladac.jpeg'
 category: 'Blog'
 tags:
-  - 'siatka zbrojąca elewacja'
-  - 'układanie siatki zbrojącej'
-  - 'zakładki siatki'
-  - 'ETICS'
+  - 'Ocieplenie i elewacja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/siatka-zbrojaca-na-elewacji-jak-ukladac/'

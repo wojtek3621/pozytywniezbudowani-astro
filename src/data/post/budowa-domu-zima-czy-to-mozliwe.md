@@ -6,9 +6,8 @@ excerpt: 'Zima nie zatrzymuje budowy automatycznie. Wyjaśniam, które etapy id�
 image: '~/assets/images/blog/budowa-domu-zima-czy-to-mozliwe.jpeg'
 category: 'Blog'
 tags:
-  - 'budowa domu zimą'
-  - 'prace budowlane zimą'
-  - 'mróz a budowa'
+  - 'Instalacje i przyłącza'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-zima-czy-to-mozliwe/'

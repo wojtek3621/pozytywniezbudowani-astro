@@ -6,9 +6,8 @@ excerpt: 'Kilka tysięcy złotych oszczędności jest na wyciągnięcie ręki �
 image: '~/assets/images/blog/jak-negocjowac-cene-dzialki-budowlanej.jpeg'
 category: 'Blog'
 tags:
-  - 'negocjowanie ceny działki'
-  - 'zakup działki budowlanej'
-  - 'targowanie ceny gruntu'
+  - 'Działka i grunt'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-negocjowac-cene-dzialki-budowlanej/'

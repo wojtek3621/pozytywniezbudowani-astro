@@ -6,9 +6,8 @@ excerpt: 'Dom za 600 000 zł? Policz jeszcze raz. Od działki po ostatnią ratę
 image: '~/assets/images/blog/prawdziwy-koszt-budowy-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'całkowity koszt budowy domu'
-  - 'ile kosztuje budowa domu'
-  - 'odsetki kredytu hipotecznego'
+  - 'Działka i grunt'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/prawdziwy-koszt-budowy-domu/'

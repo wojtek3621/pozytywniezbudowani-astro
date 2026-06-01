@@ -6,9 +6,7 @@ excerpt: 'Co realnie zmieniło się w przepisach budowlanych w 2026 roku i jak t
 image: '~/assets/images/blog/nowe-przepisy-budowlane-2026.jpeg'
 category: 'Blog'
 tags:
-  - 'przepisy budowlane 2026'
-  - 'prawo budowlane zmiany'
-  - 'plan ogólny gminy'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/nowe-przepisy-budowlane-2026/'

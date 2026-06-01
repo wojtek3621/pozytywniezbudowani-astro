@@ -6,9 +6,7 @@ excerpt: 'Zła kolejność prac wykończeniowych to nie tylko stres. To uszkodzo
 image: '~/assets/images/blog/kolejnosc-prac-wykonczeniowych-w-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'kolejność prac wykończeniowych'
-  - 'harmonogram wykończenia domu'
-  - 'etapy wykończenia'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kolejnosc-prac-wykonczeniowych-w-domu/'

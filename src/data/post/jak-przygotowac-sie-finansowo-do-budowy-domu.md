@@ -6,9 +6,8 @@ excerpt: 'Budowa domu to maraton finansowy, nie sprint. Zaczynacie go na lata pr
 image: '~/assets/images/blog/jak-przygotowac-sie-finansowo-do-budowy-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'przygotowanie finansowe budowa domu'
-  - 'kredyt hipoteczny na budowę'
-  - 'budżet budowy domu'
+  - 'Finanse i kredyt'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/'

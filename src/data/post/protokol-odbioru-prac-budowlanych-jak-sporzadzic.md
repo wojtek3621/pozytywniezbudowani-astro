@@ -6,9 +6,8 @@ excerpt: 'Niedopilnowany protokół odbioru kosztował niejednego inwestora dzie
 image: '~/assets/images/blog/protokol-odbioru-prac-budowlanych-jak-sporzadzic.jpeg'
 category: 'Blog'
 tags:
-  - 'protokół odbioru prac budowlanych'
-  - 'odbiór końcowy budowy'
-  - 'rękojmia dom'
+  - 'Wykonawcy i umowy'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/protokol-odbioru-prac-budowlanych-jak-sporzadzic/'

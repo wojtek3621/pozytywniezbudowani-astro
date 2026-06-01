@@ -6,9 +6,8 @@ excerpt: 'Zalana piwnica po kilku latach od wprowadzenia się to częsty problem
 image: '~/assets/images/blog/izolacja-piwnicy-jak-zabezpieczyc-przed-wilgocia.jpeg'
 category: 'Blog'
 tags:
-  - 'izolacja piwnicy'
-  - 'hydroizolacja piwnicy'
-  - 'drenaż opaskowy'
+  - 'Pomieszczenia w domu'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/izolacja-piwnicy-jak-zabezpieczyc-przed-wilgocia/'

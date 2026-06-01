@@ -6,9 +6,7 @@ excerpt: 'Wybór wykonawcy to nie kwestia ceny ani szybkiego googlowania. To 10 
 image: '~/assets/images/blog/jak-wybrac-wykonawce-budowy-domu-10-zasad.jpeg'
 category: 'Blog'
 tags:
-  - 'wybór wykonawcy'
-  - 'generalny wykonawca'
-  - 'umowa z wykonawcą budowy'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-wybrac-wykonawce-budowy-domu-10-zasad/'

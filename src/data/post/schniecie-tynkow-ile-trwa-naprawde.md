@@ -6,9 +6,8 @@ excerpt: 'Schnięcie tynków blokuje tylko 3 konkretne prace. Reszta budowy moż
 image: '~/assets/images/blog/schniecie-tynkow-ile-trwa-naprawde.jpeg'
 category: 'Blog'
 tags:
-  - 'schnięcie tynków'
-  - 'ile schną tynki gipsowe'
-  - 'harmonogram po tynkach'
+  - 'Tynki i wylewki'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/schniecie-tynkow-ile-trwa-naprawde/'

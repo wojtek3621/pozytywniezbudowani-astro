@@ -6,9 +6,7 @@ excerpt: 'Kuchnia to nie tylko fronty i kolor. Podpowiem, na czym naprawdę nie 
 image: '~/assets/images/blog/kuchnia-na-wymiar-jak-zamowic-i-na-co-uwazac.jpeg'
 category: 'Blog'
 tags:
-  - 'kuchnia na wymiar'
-  - 'meble kuchenne na wymiar'
-  - 'jak zamówić kuchnię'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kuchnia-na-wymiar-jak-zamowic-i-na-co-uwazac/'

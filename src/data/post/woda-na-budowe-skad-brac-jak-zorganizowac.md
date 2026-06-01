@@ -6,9 +6,8 @@ excerpt: 'Brak wody na budowie unieruchamia ekipę w godzinę. Pokazuję, jak za
 image: '~/assets/images/blog/woda-na-budowe-skad-brac-jak-zorganizowac.jpeg'
 category: 'Blog'
 tags:
-  - 'woda na budowę'
-  - 'przyłącze tymczasowe wody'
-  - 'organizacja budowy'
+  - 'Organizacja budowy'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/woda-na-budowe-skad-brac-jak-zorganizowac/'

@@ -6,10 +6,7 @@ excerpt: 'Sufit podwieszany, skosy poddasza, ścianki działowe — wszystko z k
 image: '~/assets/images/blog/sucha-zabudowa-w-domu-sufity-scianki-zabudowy-karton-gips.jpeg'
 category: 'Blog'
 tags:
-  - 'sucha zabudowa'
-  - 'sufity podwieszane'
-  - 'karton-gips'
-  - 'ścianki działowe'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sucha-zabudowa-w-domu-sufity-scianki-zabudowy-karton-gips/'

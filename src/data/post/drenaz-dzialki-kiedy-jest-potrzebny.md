@@ -6,9 +6,9 @@ excerpt: 'Zanim podpiszecie umowę na działkę, sprawdźcie jedną rzecz. Woda 
 image: '~/assets/images/blog/drenaz-dzialki-kiedy-jest-potrzebny.jpeg'
 category: 'Blog'
 tags:
-  - 'drenaż działki'
-  - 'odwodnienie działki'
-  - 'wysoki poziom wód gruntowych'
+  - 'Działka i grunt'
+  - 'Fundamenty'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drenaz-dzialki-kiedy-jest-potrzebny/'

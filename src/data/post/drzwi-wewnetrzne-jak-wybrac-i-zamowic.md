@@ -6,9 +6,7 @@ excerpt: 'Drzwi to jedyny element domu, którego dotykacie kilkadziesiąt razy d
 image: '~/assets/images/blog/drzwi-wewnetrzne-jak-wybrac-i-zamowic.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi wewnętrzne jak wybrać'
-  - 'drzwi wewnętrzne do domu'
-  - 'zamówienie drzwi wewnętrznych'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-wewnetrzne-jak-wybrac-i-zamowic/'

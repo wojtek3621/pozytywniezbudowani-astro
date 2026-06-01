@@ -6,9 +6,8 @@ excerpt: 'Budowa ruszyła, a Wy chcecie coś zmienić? Jedne modyfikacje załatw
 image: '~/assets/images/blog/zmiany-w-projekcie-po-rozpoczeciu-budowy.jpeg'
 category: 'Blog'
 tags:
-  - 'zmiany w projekcie budowlanym'
-  - 'odstępstwa od projektu'
-  - 'projekt zamienny'
+  - 'Projekt domu'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zmiany-w-projekcie-po-rozpoczeciu-budowy/'

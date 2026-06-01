@@ -6,9 +6,8 @@ excerpt: 'Łazienka to jedyne pomieszczenie, w którym nie ma miejsca na improwi
 image: '~/assets/images/blog/wykonczenie-lazienki-krok-po-kroku.jpeg'
 category: 'Blog'
 tags:
-  - 'wykończenie łazienki krok po kroku'
-  - 'remont łazienki kolejność prac'
-  - 'hydroizolacja łazienki'
+  - 'Fundamenty'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wykonczenie-lazienki-krok-po-kroku/'

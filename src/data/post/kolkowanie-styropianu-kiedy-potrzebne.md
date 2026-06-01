@@ -6,9 +6,7 @@ excerpt: 'Klej i kołek to nie alternatywa, tylko dwa narzędzia, które razem m
 image: '~/assets/images/blog/kolkowanie-styropianu-kiedy-potrzebne.jpeg'
 category: 'Blog'
 tags:
-  - 'kołkowanie styropianu'
-  - 'mocowanie mechaniczne ETICS'
-  - 'ile kołków na m2'
+  - 'Ocieplenie i elewacja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kolkowanie-styropianu-kiedy-potrzebne/'

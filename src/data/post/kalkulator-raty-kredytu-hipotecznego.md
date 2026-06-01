@@ -6,9 +6,7 @@ excerpt: 'Ile zapłacicie bankowi co miesiąc? Wpisz kwotę kredytu i sprawdź s
 image: '~/assets/images/blog/kalkulator-raty-kredytu-hipotecznego.jpeg'
 category: 'Blog'
 tags:
-  - 'kalkulator kredytu hipotecznego'
-  - 'rata kredytu'
-  - 'WIBOR marża'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kalkulator-raty-kredytu-hipotecznego/'

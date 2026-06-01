@@ -6,9 +6,8 @@ excerpt: 'Klimatyzacja zaplanowana na etapie projektu to komfort bez kucia ścia
 image: '~/assets/images/blog/klimatyzacja-w-projekcie-domu-planowanie-z-wyprzedzeniem.jpeg'
 category: 'Blog'
 tags:
-  - 'klimatyzacja w domu'
-  - 'klimatyzacja projekt domu'
-  - 'planowanie klimatyzacji'
+  - 'Ogrzewanie i chłodzenie'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/klimatyzacja-w-projekcie-domu-planowanie-z-wyprzedzeniem/'

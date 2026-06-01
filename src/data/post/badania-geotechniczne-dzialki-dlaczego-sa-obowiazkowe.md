@@ -6,9 +6,7 @@ excerpt: 'Wydatek 2000 zł, który może uchronić Was przed stratą 100 000 zł
 image: '~/assets/images/blog/badania-geotechniczne-dzialki-dlaczego-sa-obowiazkowe.jpeg'
 category: 'Blog'
 tags:
-  - 'badania geotechniczne'
-  - 'opinia geotechniczna'
-  - 'grunt na działce'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/badania-geotechniczne-dzialki-dlaczego-sa-obowiazkowe/'

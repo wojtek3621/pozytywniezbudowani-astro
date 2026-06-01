@@ -6,9 +6,7 @@ excerpt: '„Mój kuzyn polecił murarza" – i już macie wybór? Niekoniecznie
 image: '~/assets/images/blog/polecenia-wykonawcow-czy-mozna-im-ufac.jpeg'
 category: 'Blog'
 tags:
-  - 'polecenia wykonawców'
-  - 'weryfikacja wykonawcy'
-  - 'jak wybrać ekipę budowlaną'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/polecenia-wykonawcow-czy-mozna-im-ufac/'

@@ -6,9 +6,7 @@ excerpt: 'Monitoring zaplanowany na etapie budowy kosztuje ułamek tego, co mont
 image: '~/assets/images/blog/monitoring-domu-kamery-i-rejestrator.jpeg'
 category: 'Blog'
 tags:
-  - 'monitoring domu'
-  - 'kamery IP'
-  - 'rejestrator NVR'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/monitoring-domu-kamery-i-rejestrator/'

@@ -6,9 +6,7 @@ excerpt: 'Zabudowa pionu kanalizacyjnego to nie tylko estetyka. Źle wykonana za
 image: '~/assets/images/blog/obudowa-rur-i-instalacji-z-karton-gipsu.jpeg'
 category: 'Blog'
 tags:
-  - 'obudowa rur karton-gips'
-  - 'zabudowa pionów'
-  - 'sucha zabudowa instalacji'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/obudowa-rur-i-instalacji-z-karton-gipsu/'

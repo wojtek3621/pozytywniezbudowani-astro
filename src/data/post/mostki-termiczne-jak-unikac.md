@@ -6,9 +6,9 @@ excerpt: 'Mostki termiczne potrafią pochłonąć nawet jedną czwartą energii 
 image: '~/assets/images/blog/mostki-termiczne-jak-unikac.jpeg'
 category: 'Blog'
 tags:
-  - 'mostki termiczne'
-  - 'montaż ciepły okien'
-  - 'ocieplenie elewacji'
+  - 'Odbiory i kontrola jakości'
+  - 'Ocieplenie i elewacja'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/mostki-termiczne-jak-unikac/'

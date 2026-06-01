@@ -6,9 +6,9 @@ excerpt: 'Pytanie, które pada na każdej konsultacji: stawiać ogrodzenie zanim
 image: '~/assets/images/blog/ogrodzenie-dzialki-przed-budowa-czy-warto.jpeg'
 category: 'Blog'
 tags:
-  - 'ogrodzenie działki przed budową'
-  - 'ogrodzenie tymczasowe'
-  - 'panele ogrodzeniowe budowa'
+  - 'Działka i grunt'
+  - 'Organizacja budowy'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ogrodzenie-dzialki-przed-budowa-czy-warto/'

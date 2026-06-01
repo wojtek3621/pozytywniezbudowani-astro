@@ -6,9 +6,7 @@ excerpt: 'Wybór projektu domu zdecyduje nie tylko o tym, jak będzie wyglądał
 image: '~/assets/images/blog/jak-wybrac-projekt-domu-kompletny-poradnik.jpeg'
 category: 'Blog'
 tags:
-  - 'wybór projektu domu'
-  - 'projekt gotowy czy indywidualny'
-  - 'jak wybrać projekt domu jednorodzinnego'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-wybrac-projekt-domu-kompletny-poradnik/'

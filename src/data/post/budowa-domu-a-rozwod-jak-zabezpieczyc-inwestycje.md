@@ -6,9 +6,7 @@ excerpt: 'Rozwód w trakcie budowy domu zdarza się rzadziej, niż się Wam wyda
 image: '~/assets/images/blog/budowa-domu-a-rozwod-jak-zabezpieczyc-inwestycje.jpeg'
 category: 'Blog'
 tags:
-  - 'rozwód budowa domu'
-  - 'podział majątku małżonków'
-  - 'intercyza dom'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-a-rozwod-jak-zabezpieczyc-inwestycje/'

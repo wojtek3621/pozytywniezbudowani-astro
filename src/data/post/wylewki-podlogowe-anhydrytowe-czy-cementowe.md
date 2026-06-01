@@ -6,9 +6,7 @@ excerpt: 'Anhydryt reklamowany jest jako sposób na oszczędność energii. Spra
 image: '~/assets/images/blog/wylewki-podlogowe-anhydrytowe-czy-cementowe.jpeg'
 category: 'Blog'
 tags:
-  - 'wylewki anhydrytowe'
-  - 'wylewka cementowo-piaskowa'
-  - 'anhydryt czy cement'
+  - 'Tynki i wylewki'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wylewki-podlogowe-anhydrytowe-czy-cementowe/'

@@ -6,9 +6,9 @@ excerpt: 'Im niższa temperatura zasilania podłogówki, tym taniej grzejecie. A
 image: '~/assets/images/blog/temperatura-zasilania-podlogowki-jak-ustawic.jpeg'
 category: 'Blog'
 tags:
-  - 'temperatura zasilania ogrzewania podłogowego'
-  - 'krzywa grzewcza podłogówka'
-  - 'ogrzewanie podłogowe pompa ciepła'
+  - 'Podłogi i wykończenie'
+  - 'Ogrzewanie i chłodzenie'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/temperatura-zasilania-podlogowki-jak-ustawic/'

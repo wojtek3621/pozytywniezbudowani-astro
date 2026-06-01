@@ -6,9 +6,7 @@ excerpt: 'Urząd ma 65 dni. W praktyce bywa różnie. Sprawdźcie, od czego to z
 image: '~/assets/images/blog/ile-trwa-uzyskanie-pozwolenia-na-budowe.jpeg'
 category: 'Blog'
 tags:
-  - 'pozwolenie na budowę termin'
-  - 'ile trwa pozwolenie na budowę'
-  - 'czas oczekiwania na pozwolenie'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ile-trwa-uzyskanie-pozwolenia-na-budowe/'

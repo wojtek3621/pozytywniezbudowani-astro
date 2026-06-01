@@ -6,9 +6,7 @@ excerpt: 'Arkusz z kosztorysem pokazuje więcej niż macie? Zanim zrezygnujecie 
 image: '~/assets/images/blog/co-zrobic-gdy-budzet-nie-wystarczy.jpeg'
 category: 'Blog'
 tags:
-  - 'budżet na budowę domu'
-  - 'brak pieniędzy na budowę'
-  - 'oszczędności przy budowie'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/co-zrobic-gdy-budzet-nie-wystarczy/'

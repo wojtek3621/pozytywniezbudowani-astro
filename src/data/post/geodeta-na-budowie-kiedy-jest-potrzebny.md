@@ -6,9 +6,8 @@ excerpt: 'Geodeta pojawia się na budowie minimum trzy razy. Dowiedzcie się kie
 image: '~/assets/images/blog/geodeta-na-budowie-kiedy-jest-potrzebny.jpeg'
 category: 'Blog'
 tags:
-  - 'geodeta na budowie'
-  - 'tyczenie budynku'
-  - 'mapa do celów projektowych'
+  - 'Działka i grunt'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/geodeta-na-budowie-kiedy-jest-potrzebny/'

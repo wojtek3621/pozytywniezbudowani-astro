@@ -6,9 +6,9 @@ excerpt: 'Strop nad nieogrzewanym garażem to jeden z największych mostków ter
 image: '~/assets/images/blog/izolacja-stropu-nad-garazem-jak-wykonac.jpeg'
 category: 'Blog'
 tags:
-  - 'izolacja stropu nad garażem'
-  - 'docieplenie stropu garażu'
-  - 'mostek termiczny garaż'
+  - 'Pomieszczenia w domu'
+  - 'Stan surowy i konstrukcja'
+  - 'Ocieplenie i elewacja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/izolacja-stropu-nad-garazem-jak-wykonac/'

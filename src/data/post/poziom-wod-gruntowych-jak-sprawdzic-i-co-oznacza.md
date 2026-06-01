@@ -6,9 +6,7 @@ excerpt: 'Woda gruntowa może zniszczyć Wasz dom od podstaw. Dosłownie. Sprawd
 image: '~/assets/images/blog/poziom-wod-gruntowych-jak-sprawdzic-i-co-oznacza.jpeg'
 category: 'Blog'
 tags:
-  - 'poziom wód gruntowych'
-  - 'woda gruntowa na działce'
-  - 'badania geotechniczne'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/poziom-wod-gruntowych-jak-sprawdzic-i-co-oznacza/'

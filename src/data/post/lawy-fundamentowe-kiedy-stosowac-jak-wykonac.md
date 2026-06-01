@@ -6,9 +6,7 @@ excerpt: 'Ławy czy płyta? Pokazuję, kiedy ławy fundamentowe są dobrym wybor
 image: '~/assets/images/blog/lawy-fundamentowe-kiedy-stosowac-jak-wykonac.jpeg'
 category: 'Blog'
 tags:
-  - 'ławy fundamentowe'
-  - 'fundament tradycyjny'
-  - 'ściany fundamentowe'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/lawy-fundamentowe-kiedy-stosowac-jak-wykonac/'

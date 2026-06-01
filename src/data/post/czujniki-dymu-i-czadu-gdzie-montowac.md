@@ -6,9 +6,7 @@ excerpt: 'Źle zamontowany czujnik daje złudne poczucie bezpieczeństwa. Pokaż
 image: '~/assets/images/blog/czujniki-dymu-i-czadu-gdzie-montowac.jpeg'
 category: 'Blog'
 tags:
-  - 'czujnik dymu'
-  - 'czujnik czadu'
-  - 'gdzie montować czujniki'
+  - 'Bezpieczeństwo i smart home'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/czujniki-dymu-i-czadu-gdzie-montowac/'

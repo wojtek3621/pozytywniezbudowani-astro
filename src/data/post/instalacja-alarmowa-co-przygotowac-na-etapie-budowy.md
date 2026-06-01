@@ -6,10 +6,8 @@ excerpt: 'Alarm bezprzewodowy zamontujecie zawsze. Ale przewodowy, dobrze ukryty
 image: '~/assets/images/blog/instalacja-alarmowa-co-przygotowac-na-etapie-budowy.jpeg'
 category: 'Blog'
 tags:
-  - 'instalacja alarmowa'
-  - 'alarm w domu'
-  - 'okablowanie alarmu'
-  - 'czujniki ruchu'
+  - 'Bezpieczeństwo i smart home'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/instalacja-alarmowa-co-przygotowac-na-etapie-budowy/'

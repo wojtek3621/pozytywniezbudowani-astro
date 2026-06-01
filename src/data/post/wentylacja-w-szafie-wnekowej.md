@@ -6,9 +6,8 @@ excerpt: 'Szafa wnękowa wygląda elegancko, ale bez przemyślanej wentylacji to
 image: '~/assets/images/blog/wentylacja-w-szafie-wnekowej.jpeg'
 category: 'Blog'
 tags:
-  - 'wentylacja szafy wnękowej'
-  - 'szafa wnękowa wilgoć'
-  - 'kratki wentylacyjne w szafie'
+  - 'Instalacje i przyłącza'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wentylacja-w-szafie-wnekowej/'

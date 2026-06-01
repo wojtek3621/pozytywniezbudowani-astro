@@ -6,9 +6,7 @@ excerpt: 'Garderoba wymaga konkretnego planu już na etapie projektu. Sprawdźci
 image: '~/assets/images/blog/garderoba-walk-in-jak-zaplanowac.jpeg'
 category: 'Blog'
 tags:
-  - 'garderoba walk-in'
-  - 'garderoba w domu'
-  - 'jak zaplanować garderobę'
+  - 'Pomieszczenia w domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/garderoba-walk-in-jak-zaplanowac/'

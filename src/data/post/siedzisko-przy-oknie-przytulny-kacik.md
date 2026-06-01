@@ -6,9 +6,8 @@ excerpt: 'Siedzisko przy oknie wygląda na drobiazg z Pinteresta, ale to decyzja
 image: '~/assets/images/blog/siedzisko-przy-oknie-przytulny-kacik.jpeg'
 category: 'Blog'
 tags:
-  - 'siedzisko przy oknie'
-  - 'kącik przy oknie'
-  - 'parapet do siedzenia'
+  - 'Pomieszczenia w domu'
+  - 'Okna i drzwi'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/siedzisko-przy-oknie-przytulny-kacik/'

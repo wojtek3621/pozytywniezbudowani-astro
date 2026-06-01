@@ -6,9 +6,8 @@ excerpt: 'Abonament u firmy ochroniarskiej czy własny system kamer i alarmów? 
 image: '~/assets/images/blog/firma-ochroniarska-vs-monitoring-wlasny-koszty.jpeg'
 category: 'Blog'
 tags:
-  - 'firma ochroniarska koszty'
-  - 'monitoring własny domu'
-  - 'alarm dom jednorodzinny'
+  - 'Bezpieczeństwo i smart home'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/firma-ochroniarska-vs-monitoring-wlasny-koszty/'

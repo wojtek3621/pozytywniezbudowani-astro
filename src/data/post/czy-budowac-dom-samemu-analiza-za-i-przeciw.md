@@ -6,9 +6,10 @@ excerpt: 'Wiele osób słyszało, że samodzielne prowadzenie budowy oszczędza 
 image: '~/assets/images/blog/czy-budowac-dom-samemu-analiza-za-i-przeciw.jpeg'
 category: 'Blog'
 tags:
-  - 'budowa systemem gospodarczym'
-  - 'budowa domu samemu'
-  - 'system gospodarczy a generalny wykonawca'
+  - 'Pomieszczenia w domu'
+  - 'Organizacja budowy'
+  - 'Odbiory i kontrola jakości'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/czy-budowac-dom-samemu-analiza-za-i-przeciw/'

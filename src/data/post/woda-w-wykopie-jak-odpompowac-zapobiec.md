@@ -6,10 +6,8 @@ excerpt: 'Woda w wykopie potrafi zatrzymać budowę na tygodnie. Pokażę Wam, j
 image: '~/assets/images/blog/woda-w-wykopie-jak-odpompowac-zapobiec.jpeg'
 category: 'Blog'
 tags:
-  - 'woda w wykopie'
-  - 'odpompowanie wody z wykopu'
-  - 'drenaż budowlany'
-  - 'igłofiltry'
+  - 'Działka i grunt'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/woda-w-wykopie-jak-odpompowac-zapobiec/'

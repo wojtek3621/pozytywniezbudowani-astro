@@ -6,9 +6,8 @@ excerpt: 'Nieatrakcyjna na pierwszy rzut oka działka z ruderą może okazać si
 image: '~/assets/images/blog/dzialka-z-budynkiem-do-rozbiorki-czy-warto.jpeg'
 category: 'Blog'
 tags:
-  - 'działka z budynkiem do rozbiórki'
-  - 'koszt rozbiórki domu'
-  - 'zakup działki zabudowanej'
+  - 'Działka i grunt'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dzialka-z-budynkiem-do-rozbiorki-czy-warto/'

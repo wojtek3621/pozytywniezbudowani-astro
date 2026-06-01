@@ -6,9 +6,7 @@ excerpt: 'Deregulacja prawa budowlanego trwa od kilku lat. Wyjaśniam, co realni
 image: '~/assets/images/blog/ustawa-deregulacyjna-2026-zmiany-w-procesie-budowlanym.jpeg'
 category: 'Blog'
 tags:
-  - 'ustawa deregulacyjna 2026'
-  - 'prawo budowlane 2026'
-  - 'zmiany w procesie budowlanym'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ustawa-deregulacyjna-2026-zmiany-w-procesie-budowlanym/'

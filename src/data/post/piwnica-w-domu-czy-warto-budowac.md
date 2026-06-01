@@ -6,9 +6,8 @@ excerpt: 'Piwnica potrafi podnieść koszt stanu surowego o kilkadziesiąt proce
 image: '~/assets/images/blog/piwnica-w-domu-czy-warto-budowac.jpeg'
 category: 'Blog'
 tags:
-  - 'piwnica w domu'
-  - 'czy warto budować piwnicę'
-  - 'koszt piwnicy'
+  - 'Pomieszczenia w domu'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/piwnica-w-domu-czy-warto-budowac/'

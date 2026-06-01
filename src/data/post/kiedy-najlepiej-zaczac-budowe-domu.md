@@ -6,9 +6,8 @@ excerpt: 'Klasyczna odpowiedź to „wiosna", ale w praktyce o starcie budowy de
 image: '~/assets/images/blog/kiedy-najlepiej-zaczac-budowe-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'kiedy zacząć budowę domu'
-  - 'sezon budowlany'
-  - 'harmonogram budowy domu'
+  - 'Instalacje i przyłącza'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kiedy-najlepiej-zaczac-budowe-domu/'

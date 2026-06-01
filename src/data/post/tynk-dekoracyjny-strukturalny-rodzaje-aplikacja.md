@@ -6,9 +6,7 @@ excerpt: 'Tynk strukturalny to ostatnia warstwa, która buduje charakter elewacj
 image: '~/assets/images/blog/tynk-dekoracyjny-strukturalny-rodzaje-aplikacja.jpeg'
 category: 'Blog'
 tags:
-  - 'tynk dekoracyjny strukturalny'
-  - 'tynk strukturalny rodzaje'
-  - 'aplikacja tynku dekoracyjnego'
+  - 'Ocieplenie i elewacja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/tynk-dekoracyjny-strukturalny-rodzaje-aplikacja/'

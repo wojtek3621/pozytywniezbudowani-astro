@@ -6,10 +6,8 @@ excerpt: 'Drzwi do łazienki to jedyne drzwi w domu, które muszą równocześni
 image: '~/assets/images/blog/drzwi-do-lazienki-wymagania-wilgociowe-wentylacyjne.jpeg'
 category: 'Blog'
 tags:
-  - 'drzwi do łazienki'
-  - 'podcięcie wentylacyjne'
-  - 'wentylacja łazienki'
-  - 'drzwi a wilgoć'
+  - 'Okna i drzwi'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drzwi-do-lazienki-wymagania-wilgociowe-wentylacyjne/'

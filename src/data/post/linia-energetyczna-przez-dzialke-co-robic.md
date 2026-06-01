@@ -6,9 +6,8 @@ excerpt: 'Zanim podpiszecie akt notarialny na działkę z linią energetyczną, 
 image: '~/assets/images/blog/linia-energetyczna-przez-dzialke-co-robic.jpeg'
 category: 'Blog'
 tags:
-  - 'linia energetyczna przez działkę'
-  - 'służebność przesyłu'
-  - 'słup energetyczny na działce'
+  - 'Działka i grunt'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/linia-energetyczna-przez-dzialke-co-robic/'

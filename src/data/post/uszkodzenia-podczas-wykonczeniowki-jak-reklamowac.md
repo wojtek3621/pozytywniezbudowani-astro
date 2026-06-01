@@ -6,9 +6,7 @@ excerpt: 'Wykończeniówka to moment, w którym kilka ekip pracuje obok siebie. 
 image: '~/assets/images/blog/uszkodzenia-podczas-wykonczeniowki-jak-reklamowac.jpeg'
 category: 'Blog'
 tags:
-  - 'reklamacja uszkodzeń budowa'
-  - 'OC wykonawcy'
-  - 'rękojmia za roboty budowlane'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/uszkodzenia-podczas-wykonczeniowki-jak-reklamowac/'

@@ -6,9 +6,8 @@ excerpt: 'Dwie oferty na ten sam dom – jedna za 400 tysięcy, druga za 600. Kt
 image: '~/assets/images/blog/kosztorys-slepy-vs-kosztorys-wykonawczy.jpeg'
 category: 'Blog'
 tags:
-  - 'kosztorys ślepy'
-  - 'kosztorys wykonawczy'
-  - 'przedmiar robót'
+  - 'Finanse i kredyt'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kosztorys-slepy-vs-kosztorys-wykonawczy/'

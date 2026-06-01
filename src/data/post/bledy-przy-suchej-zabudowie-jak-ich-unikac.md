@@ -6,9 +6,8 @@ excerpt: 'Pęknięcia na suficie, falujące skosy, łuszcząca się farba – wi
 image: '~/assets/images/blog/bledy-przy-suchej-zabudowie-jak-ich-unikac.jpeg'
 category: 'Blog'
 tags:
-  - 'błędy sucha zabudowa'
-  - 'sufity podwieszane błędy'
-  - 'płyty kartonowo-gipsowe wady'
+  - 'Odbiory i kontrola jakości'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/bledy-przy-suchej-zabudowie-jak-ich-unikac/'

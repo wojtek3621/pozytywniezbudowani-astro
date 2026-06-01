@@ -6,9 +6,8 @@ excerpt: 'To od niego zależy, czy proces projektowo-administracyjny przebiegnie
 image: '~/assets/images/blog/architekt-adaptujacy-jak-wybrac-i-ile-kosztuje.jpeg'
 category: 'Blog'
 tags:
-  - 'architekt adaptujący'
-  - 'adaptacja projektu'
-  - 'koszt adaptacji projektu'
+  - 'Projekt domu'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/architekt-adaptujacy-jak-wybrac-i-ile-kosztuje/'

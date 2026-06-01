@@ -6,9 +6,8 @@ excerpt: 'Sufit podwieszany wygląda prosto, ale to system kilkunastu elementów
 image: '~/assets/images/blog/sufity-podwieszane-konstrukcja-i-montaz.jpeg'
 category: 'Blog'
 tags:
-  - 'sufity podwieszane'
-  - 'konstrukcja sufitu'
-  - 'sucha zabudowa'
+  - 'Stan surowy i konstrukcja'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sufity-podwieszane-konstrukcja-i-montaz/'

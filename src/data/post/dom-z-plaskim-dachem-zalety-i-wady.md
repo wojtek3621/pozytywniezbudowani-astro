@@ -6,9 +6,8 @@ excerpt: 'Nowoczesna bryła kusi na wizualizacjach. Ale jak płaski dach sprawdz
 image: '~/assets/images/blog/dom-z-plaskim-dachem-zalety-i-wady.jpeg'
 category: 'Blog'
 tags:
-  - 'dom z płaskim dachem'
-  - 'dach płaski zalety wady'
-  - 'stropodach'
+  - 'Stan surowy i konstrukcja'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dom-z-plaskim-dachem-zalety-i-wady/'

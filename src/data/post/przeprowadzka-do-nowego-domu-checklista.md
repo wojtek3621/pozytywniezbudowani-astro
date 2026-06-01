@@ -6,9 +6,8 @@ excerpt: 'Przeprowadzka do nowego domu to nie jest jeden weekend z paczkami. To 
 image: '~/assets/images/blog/przeprowadzka-do-nowego-domu-checklista.jpeg'
 category: 'Blog'
 tags:
-  - 'przeprowadzka do nowego domu'
-  - 'checklista przeprowadzki'
-  - 'odbiór domu'
+  - 'Decyzja o budowie i przygotowania'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/przeprowadzka-do-nowego-domu-checklista/'

@@ -6,9 +6,8 @@ excerpt: 'Basen w ogrodzie brzmi pięknie. Ale który wybrać i ile to naprawdę
 image: '~/assets/images/blog/basen-w-ogrodzie-rodzaje-i-koszty.jpeg'
 category: 'Blog'
 tags:
-  - 'basen w ogrodzie'
-  - 'basen ogrodowy rodzaje'
-  - 'basen ogrodowy koszty'
+  - 'Pomieszczenia w domu'
+  - 'Finanse i kredyt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/basen-w-ogrodzie-rodzaje-i-koszty/'

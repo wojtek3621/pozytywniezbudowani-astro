@@ -6,9 +6,7 @@ excerpt: 'Kierownik budowy to nie formalność do odhaczenia. To człowiek, któ
 image: '~/assets/images/blog/kierownik-budowy-obowiazki-i-jak-wybrac.jpeg'
 category: 'Blog'
 tags:
-  - 'kierownik budowy'
-  - 'obowiązki kierownika budowy'
-  - 'jak wybrać kierownika budowy'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kierownik-budowy-obowiazki-i-jak-wybrac/'

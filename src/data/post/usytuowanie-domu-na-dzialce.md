@@ -6,9 +6,7 @@ excerpt: 'Złe umiejscowienie domu to brak słońca w salonie, woda pod fundamen
 image: '~/assets/images/blog/usytuowanie-domu-na-dzialce.jpeg'
 category: 'Blog'
 tags:
-  - 'usytuowanie domu na działce'
-  - 'odległość domu od granicy'
-  - 'projekt zagospodarowania terenu'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/usytuowanie-domu-na-dzialce/'

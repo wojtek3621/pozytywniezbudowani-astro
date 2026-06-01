@@ -6,9 +6,8 @@ excerpt: 'Nowelizacja ustawy o planowaniu przestrzennym wprowadziła 5-letni ter
 image: '~/assets/images/blog/warunki-zabudowy-nowy-termin-waznosci-5-lat.jpeg'
 category: 'Blog'
 tags:
-  - 'warunki zabudowy 2026'
-  - 'termin ważności WZ'
-  - 'nowelizacja planowania przestrzennego'
+  - 'Plan miejscowy i WZ'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/warunki-zabudowy-nowy-termin-waznosci-5-lat/'

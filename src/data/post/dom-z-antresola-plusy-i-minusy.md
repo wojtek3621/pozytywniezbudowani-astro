@@ -6,9 +6,7 @@ excerpt: 'Salon z podwójną wysokością robi wrażenie. Ale czy po roku mieszk
 image: '~/assets/images/blog/dom-z-antresola-plusy-i-minusy.jpeg'
 category: 'Blog'
 tags:
-  - 'dom z antresolą'
-  - 'antresola w domu'
-  - 'salon z antresolą'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/dom-z-antresola-plusy-i-minusy/'

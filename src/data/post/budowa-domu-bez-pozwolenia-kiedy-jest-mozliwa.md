@@ -6,9 +6,8 @@ excerpt: 'Od 2022 roku można budować domy do 70 m² bez pozwolenia. Ale "bez p
 image: '~/assets/images/blog/budowa-domu-bez-pozwolenia-kiedy-jest-mozliwa.jpg'
 category: 'Blog'
 tags:
-  - 'budowa domu bez pozwolenia'
-  - 'dom na zgłoszenie'
-  - 'dom do 70 m2'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/budowa-domu-bez-pozwolenia-kiedy-jest-mozliwa/'

@@ -5,6 +5,8 @@ title: 'Zakończenie budowy domu – jakich formalności trzeba dopełnić?'
 excerpt: 'W poprzednich wpisach "Formalności przed budową domu – nie taki diabeł straszny, jak go malują" część I i II przestawiłem Ci dokumenty, które należy załatwić…'
 image: '~/assets/images/blog/zakonczenie-budowy-domu-jakich-formalnosci-trzeba-dopelnic.jpg'
 category: 'Blog'
+tags:
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/zakonczenie-budowy-domu-jakich-formalnosci-trzeba-dopelnic/'

@@ -6,9 +6,8 @@ excerpt: 'Toaleta na budowie to nie grzeczność. To wymóg prawa z konkretną p
 image: '~/assets/images/blog/toaleta-na-budowe-obowiazki-inwestora.jpeg'
 category: 'Blog'
 tags:
-  - 'toaleta na budowę'
-  - 'obowiązki inwestora'
-  - 'BHP na budowie'
+  - 'Formalności, pozwolenia, nadzór'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/toaleta-na-budowe-obowiazki-inwestora/'

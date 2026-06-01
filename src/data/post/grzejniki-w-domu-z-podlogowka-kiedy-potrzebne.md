@@ -6,9 +6,8 @@ excerpt: 'Pytanie wraca przy każdej budowie: skoro mamy podłogówkę w całym 
 image: '~/assets/images/blog/grzejniki-w-domu-z-podlogowka-kiedy-potrzebne.jpeg'
 category: 'Blog'
 tags:
-  - 'grzejniki w domu z podłogówką'
-  - 'ogrzewanie hybrydowe dom jednorodzinny'
-  - 'grzejnik łazienkowy podłogówka'
+  - 'Podłogi i wykończenie'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/grzejniki-w-domu-z-podlogowka-kiedy-potrzebne/'

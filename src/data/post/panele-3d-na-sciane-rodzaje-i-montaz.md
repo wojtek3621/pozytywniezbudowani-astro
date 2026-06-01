@@ -6,9 +6,8 @@ excerpt: 'Panele 3D pokazują każdy mankament gładzi pod sobą. Pokazuję, jak
 image: '~/assets/images/blog/panele-3d-na-sciane-rodzaje-i-montaz.jpeg'
 category: 'Blog'
 tags:
-  - 'panele 3D'
-  - 'panele ścienne 3D'
-  - 'montaż paneli 3D'
+  - 'Podłogi i wykończenie'
+  - 'Ściany i dekoracje'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/panele-3d-na-sciane-rodzaje-i-montaz/'

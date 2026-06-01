@@ -6,9 +6,7 @@ excerpt: 'Drenaż przy fundamentach to decyzja, którą trzeba podjąć przed za
 image: '~/assets/images/blog/drenaz-przy-fundamentach-kiedy-konieczny.jpeg'
 category: 'Blog'
 tags:
-  - 'drenaż opaskowy'
-  - 'drenaż przy fundamentach'
-  - 'hydroizolacja fundamentów'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/drenaz-przy-fundamentach-kiedy-konieczny/'

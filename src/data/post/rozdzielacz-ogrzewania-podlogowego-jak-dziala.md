@@ -6,9 +6,8 @@ excerpt: 'Mała szafka w korytarzu albo w pralni decyduje o tym, czy w salonie b
 image: '~/assets/images/blog/rozdzielacz-ogrzewania-podlogowego-jak-dziala.jpeg'
 category: 'Blog'
 tags:
-  - 'rozdzielacz ogrzewania podłogowego'
-  - 'rozdzielacz podłogówki'
-  - 'jak działa rozdzielacz'
+  - 'Podłogi i wykończenie'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/rozdzielacz-ogrzewania-podlogowego-jak-dziala/'

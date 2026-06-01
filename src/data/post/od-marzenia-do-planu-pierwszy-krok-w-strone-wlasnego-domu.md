@@ -6,9 +6,7 @@ excerpt: 'Większość osób zaczyna od szukania projektu. A powinni zacząć od
 image: '~/assets/images/blog/od-marzenia-do-planu-pierwszy-krok-w-strone-wlasnego-domu.jpeg'
 category: 'Blog'
 tags:
-  - 'marzenie o domu'
-  - 'planowanie budowy'
-  - 'pierwszy krok budowa domu'
+  - 'Decyzja o budowie i przygotowania'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/od-marzenia-do-planu-pierwszy-krok-w-strone-wlasnego-domu/'

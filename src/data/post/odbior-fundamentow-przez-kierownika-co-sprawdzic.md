@@ -6,9 +6,9 @@ excerpt: 'Fundament zalewacie raz. Jeżeli kierownik nie sprawdzi tego, co trzeb
 image: '~/assets/images/blog/odbior-fundamentow-przez-kierownika-co-sprawdzic.jpeg'
 category: 'Blog'
 tags:
-  - 'odbiór fundamentów'
-  - 'kierownik budowy'
-  - 'kontrola zbrojenia'
+  - 'Fundamenty'
+  - 'Odbiory i kontrola jakości'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/odbior-fundamentow-przez-kierownika-co-sprawdzic/'

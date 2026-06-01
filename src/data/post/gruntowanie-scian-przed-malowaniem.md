@@ -6,9 +6,8 @@ excerpt: 'Po co gruntować ściany przed malowaniem, skoro gładzie są równe? 
 image: '~/assets/images/blog/gruntowanie-scian-przed-malowaniem.jpeg'
 category: 'Blog'
 tags:
-  - 'gruntowanie ścian'
-  - 'gruntowanie przed malowaniem'
-  - 'grunt akrylowy'
+  - 'Ściany i dekoracje'
+  - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/gruntowanie-scian-przed-malowaniem/'

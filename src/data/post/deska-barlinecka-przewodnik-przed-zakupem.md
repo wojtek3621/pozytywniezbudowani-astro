@@ -6,9 +6,8 @@ excerpt: 'Deska barlinecka kusi naturalnym drewnem w rozsądnej cenie. Ale róż
 image: '~/assets/images/blog/deska-barlinecka-przewodnik-przed-zakupem.jpeg'
 category: 'Blog'
 tags:
-  - 'deska barlinecka'
-  - 'podłoga drewniana'
-  - 'deska warstwowa'
+  - 'Instalacje i przyłącza'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/deska-barlinecka-przewodnik-przed-zakupem/'

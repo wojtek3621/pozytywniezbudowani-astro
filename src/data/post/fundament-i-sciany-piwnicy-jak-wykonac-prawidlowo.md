@@ -6,9 +6,8 @@ excerpt: 'Piwnica to najtrudniejszy element domu. Pokażę Wam, jak ją wykonać
 image: '~/assets/images/blog/fundament-i-sciany-piwnicy-jak-wykonac-prawidlowo.jpeg'
 category: 'Blog'
 tags:
-  - 'fundament piwnicy'
-  - 'ściany piwnicy żelbetowe'
-  - 'hydroizolacja piwnicy'
+  - 'Pomieszczenia w domu'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/fundament-i-sciany-piwnicy-jak-wykonac-prawidlowo/'

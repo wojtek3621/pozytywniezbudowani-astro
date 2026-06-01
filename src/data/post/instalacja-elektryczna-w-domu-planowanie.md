@@ -6,9 +6,7 @@ excerpt: 'Elektryka to jedyny etap, w którym musicie wiedzieć, gdzie stanie ł
 image: '~/assets/images/blog/instalacja-elektryczna-w-domu-planowanie.jpeg'
 category: 'Blog'
 tags:
-  - 'instalacja elektryczna w domu'
-  - 'planowanie instalacji elektrycznej'
-  - 'rozdzielnica elektryczna'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/instalacja-elektryczna-w-domu-planowanie/'

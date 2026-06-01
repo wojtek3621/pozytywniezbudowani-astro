@@ -6,9 +6,7 @@ excerpt: 'Odbiór końcowy budynku to formalność. To, co naprawdę chroni Wasz
 image: '~/assets/images/blog/odbiory-czesciowe-na-budowie-jakie-i-kiedy.jpeg'
 category: 'Blog'
 tags:
-  - 'odbiory częściowe budowa'
-  - 'odbiór etapu prac'
-  - 'kontrola jakości budowy'
+  - 'Odbiory i kontrola jakości'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/odbiory-czesciowe-na-budowie-jakie-i-kiedy/'

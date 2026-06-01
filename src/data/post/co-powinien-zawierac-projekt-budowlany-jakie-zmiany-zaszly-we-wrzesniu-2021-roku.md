@@ -5,6 +5,9 @@ title: 'Co powinien zawierać projekt budowlany? Jakie zmiany zaszły we wrześn
 excerpt: 'Marzysz o własnym domu? Działka już jest, teraz czas na znalezienie domu, który będzie spełniał oczekiwania Twoje i rodziny. Na przejrzenie…'
 image: '~/assets/images/blog/co-powinien-zawierac-projekt-budowlany-jakie-zmiany-zaszly-we-wrzesniu-2021-roku.jpg'
 category: 'Blog'
+tags:
+  - 'Projekt domu'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/co-powinien-zawierac-projekt-budowlany-jakie-zmiany-zaszly-we-wrzesniu-2021-roku/'

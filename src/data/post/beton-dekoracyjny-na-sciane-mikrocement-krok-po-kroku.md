@@ -6,9 +6,7 @@ excerpt: 'Mikrocement wybacza mniej niż gładź. Pokażę Wam, co zrobić, żeb
 image: '~/assets/images/blog/beton-dekoracyjny-na-sciane-mikrocement-krok-po-kroku.jpeg'
 category: 'Blog'
 tags:
-  - 'mikrocement'
-  - 'beton dekoracyjny na ścianę'
-  - 'mikrocement krok po kroku'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/beton-dekoracyjny-na-sciane-mikrocement-krok-po-kroku/'

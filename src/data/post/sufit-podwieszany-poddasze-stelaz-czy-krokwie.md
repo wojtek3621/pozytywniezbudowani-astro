@@ -6,9 +6,8 @@ excerpt: 'Na poddaszu sucha zabudowa wygląda inaczej niż w domu parterowym. Wy
 image: '~/assets/images/blog/sufit-podwieszany-poddasze-stelaz-czy-krokwie.jpeg'
 category: 'Blog'
 tags:
-  - 'sufit podwieszany poddasze'
-  - 'zabudowa skosów'
-  - 'stelaż sufitu poddasze'
+  - 'Sucha zabudowa'
+  - 'Stan surowy i konstrukcja'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sufit-podwieszany-poddasze-stelaz-czy-krokwie/'

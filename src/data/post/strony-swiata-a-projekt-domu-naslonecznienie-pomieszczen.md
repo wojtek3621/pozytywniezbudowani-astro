@@ -6,9 +6,7 @@ excerpt: 'Salon tonący w mroku, sypialnia jak piekarnik – to można przewidzi
 image: '~/assets/images/blog/strony-swiata-a-projekt-domu-naslonecznienie-pomieszczen.jpeg'
 category: 'Blog'
 tags:
-  - 'strony świata projekt domu'
-  - 'nasłonecznienie pomieszczeń'
-  - 'orientacja domu'
+  - 'Projekt domu'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/strony-swiata-a-projekt-domu-naslonecznienie-pomieszczen/'

@@ -6,9 +6,8 @@ excerpt: 'Wylewka schnie inaczej niż się Wam wydaje. Wiązanie, wygrzewanie, p
 image: '~/assets/images/blog/schniecie-wylewki-kiedy-klasc-podloge.jpeg'
 category: 'Blog'
 tags:
-  - 'schnięcie wylewki'
-  - 'wygrzewanie wylewki'
-  - 'kiedy kłaść podłogę'
+  - 'Tynki i wylewki'
+  - 'Podłogi i wykończenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/schniecie-wylewki-kiedy-klasc-podloge/'

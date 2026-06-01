@@ -6,9 +6,8 @@ excerpt: 'Ogrodzenie to pierwsza rzecz, którą widzą goście – i ostatnia, o
 image: '~/assets/images/blog/ogrodzenie-posesji-rodzaje-i-koszty.jpeg'
 category: 'Blog'
 tags:
-  - 'ogrodzenie posesji rodzaje'
-  - 'ogrodzenie domu koszty'
-  - 'jakie ogrodzenie wybrać'
+  - 'Finanse i kredyt'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ogrodzenie-posesji-rodzaje-i-koszty/'

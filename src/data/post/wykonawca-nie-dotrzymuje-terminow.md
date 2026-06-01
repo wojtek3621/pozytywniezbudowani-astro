@@ -6,9 +6,7 @@ excerpt: 'Wykonawca przestał się pojawiać, a budowa stoi. Pokażę Wam, co zr
 image: '~/assets/images/blog/wykonawca-nie-dotrzymuje-terminow.jpeg'
 category: 'Blog'
 tags:
-  - 'wykonawca nie dotrzymuje terminów'
-  - 'kary umowne wykonawca'
-  - 'odstąpienie od umowy budowlanej'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/wykonawca-nie-dotrzymuje-terminow/'

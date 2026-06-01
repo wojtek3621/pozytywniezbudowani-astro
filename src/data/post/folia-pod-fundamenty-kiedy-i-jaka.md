@@ -6,9 +6,7 @@ excerpt: 'Folia pod fundamenty wygląda banalnie – aż do momentu, gdy okaże 
 image: '~/assets/images/blog/folia-pod-fundamenty-kiedy-i-jaka.jpeg'
 category: 'Blog'
 tags:
-  - 'folia pod fundamenty'
-  - 'hydroizolacja fundamentów'
-  - 'folia budowlana pod płytę'
+  - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/folia-pod-fundamenty-kiedy-i-jaka/'

@@ -6,9 +6,8 @@ excerpt: 'Bez warunków technicznych nie ruszycie z projektem ani z pozwoleniem 
 image: '~/assets/images/blog/warunki-techniczne-przylaczy-mediow-jak-uzyskac.jpeg'
 category: 'Blog'
 tags:
-  - 'warunki techniczne przyłączy'
-  - 'jak uzyskać warunki przyłącza'
-  - 'przyłącza mediów dom'
+  - 'Stan surowy i konstrukcja'
+  - 'Instalacje i przyłącza'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/warunki-techniczne-przylaczy-mediow-jak-uzyskac/'

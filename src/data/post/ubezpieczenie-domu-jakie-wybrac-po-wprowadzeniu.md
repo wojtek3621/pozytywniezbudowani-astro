@@ -6,9 +6,7 @@ excerpt: 'Polisa, którą mieliście w czasie budowy, nie wystarczy po wprowadze
 image: '~/assets/images/blog/ubezpieczenie-domu-jakie-wybrac-po-wprowadzeniu.jpeg'
 category: 'Blog'
 tags:
-  - 'ubezpieczenie domu jednorodzinnego'
-  - 'polisa mieszkaniowa'
-  - 'suma ubezpieczenia'
+  - 'Wykonawcy i umowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ubezpieczenie-domu-jakie-wybrac-po-wprowadzeniu/'

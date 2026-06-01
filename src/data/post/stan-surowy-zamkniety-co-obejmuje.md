@@ -6,9 +6,8 @@ excerpt: 'Stan surowy zamknięty to nie dom gotowy do mieszkania. Sprawdźcie, c
 image: '~/assets/images/blog/stan-surowy-zamkniety-co-obejmuje.jpeg'
 category: 'Blog'
 tags:
-  - 'stan surowy zamknięty'
-  - 'etapy budowy domu'
-  - 'co obejmuje stan surowy'
+  - 'Stan surowy i konstrukcja'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/stan-surowy-zamkniety-co-obejmuje/'

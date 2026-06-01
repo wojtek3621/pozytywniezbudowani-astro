@@ -6,10 +6,9 @@ excerpt: 'Kotłownia to nie miejsce na resztki materiałów po budowie. Pokażę
 image: '~/assets/images/blog/kotlownia-wykonczona-jak-urzadzic.jpeg'
 category: 'Blog'
 tags:
-  - 'kotłownia w domu'
-  - 'wykończenie kotłowni'
-  - 'urządzenie kotłowni'
-  - 'wentylacja kotłowni gazowej'
+  - 'Pomieszczenia w domu'
+  - 'Instalacje i przyłącza'
+  - 'Ogrzewanie i chłodzenie'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kotlownia-wykonczona-jak-urzadzic/'

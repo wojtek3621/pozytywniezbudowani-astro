@@ -6,11 +6,7 @@ excerpt: 'Zielona, różowa, szara, czy ognioodporna z impregnacją? Pokażę Wa
 image: '~/assets/images/blog/rodzaje-plyt-karton-gips-zwykle-wodoodporne-ognioodporne.jpeg'
 category: 'Blog'
 tags:
-  - 'płyty karton-gips'
-  - 'GKBI'
-  - 'GKF'
-  - 'sucha zabudowa'
-  - 'płyty wodoodporne'
+  - 'Sucha zabudowa'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/rodzaje-plyt-karton-gips-zwykle-wodoodporne-ognioodporne/'

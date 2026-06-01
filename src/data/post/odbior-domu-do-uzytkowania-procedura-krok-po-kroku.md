@@ -6,9 +6,8 @@ excerpt: 'Budowa prawie za Wami. Ale zanim się wprowadzicie, musicie dopełnić
 image: '~/assets/images/blog/odbior-domu-do-uzytkowania-procedura-krok-po-kroku.jpeg'
 category: 'Blog'
 tags:
-  - 'odbiór domu'
-  - 'zawiadomienie o zakończeniu budowy'
-  - 'zgłoszenie zakończenia budowy'
+  - 'Odbiory i kontrola jakości'
+  - 'Formalności, pozwolenia, nadzór'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/odbior-domu-do-uzytkowania-procedura-krok-po-kroku/'

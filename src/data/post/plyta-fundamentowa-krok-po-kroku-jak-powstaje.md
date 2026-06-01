@@ -6,9 +6,8 @@ excerpt: 'Płyta fundamentowa to nie jeden dzień betonowania. To kilka tygodni 
 image: '~/assets/images/blog/plyta-fundamentowa-krok-po-kroku-jak-powstaje.jpeg'
 category: 'Blog'
 tags:
-  - 'płyta fundamentowa'
-  - 'jak powstaje płyta fundamentowa'
-  - 'etapy budowy fundamentu'
+  - 'Fundamenty'
+  - 'Organizacja budowy'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/plyta-fundamentowa-krok-po-kroku-jak-powstaje/'
