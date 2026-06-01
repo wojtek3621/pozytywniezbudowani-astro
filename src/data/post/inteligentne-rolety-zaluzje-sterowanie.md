@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:53:43
-updateDate: 2026-06-01T18:53:43
+updateDate: 2026-06-01T18:53:49
 title: 'Inteligentne rolety i żaluzje – jak sterować mądrze'
 excerpt: 'Sterowanie roletami z aplikacji wygląda atrakcyjnie w reklamie. W praktyce decyzje, które wpłyną na komfort przez lata, zapadają jeszcze przed tynkowaniem.'
 image: '~/assets/images/blog/inteligentne-rolety-zaluzje-sterowanie.jpeg'

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:53:43
-updateDate: 2026-06-01T18:53:43
+updateDate: 2026-06-01T18:53:49
 title: 'Smart home – co zaplanować na etapie projektu domu'
 excerpt: 'Smart home zaczyna się od projektu wnętrz, nie od aplikacji. Pokazuję, co zaplanować przed wejściem elektryka, żeby nie kuć ścian.'
 image: '~/assets/images/blog/smart-home-co-zaplanowac-na-etapie-projektu.jpeg'

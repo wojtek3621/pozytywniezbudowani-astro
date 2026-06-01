@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:53:43
-updateDate: 2026-06-01T18:53:43
+updateDate: 2026-06-01T18:53:49
 title: 'Wideodomofon z kamerą – integracja ze smartfonem'
 excerpt: 'Wideodomofon z podglądem na smartfonie wygląda banalnie – aż do dnia, w którym okazuje się, że brakuje zasilania, kabla albo zgody na kamerę przy ulicy.'
 image: '~/assets/images/blog/wideodomofon-z-kamera-integracja-ze-smartfonem.jpeg'

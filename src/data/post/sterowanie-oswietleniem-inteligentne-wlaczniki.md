@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:53:43
-updateDate: 2026-06-01T18:53:43
+updateDate: 2026-06-01T18:53:49
 title: 'Sterowanie oświetleniem – inteligentne włączniki w domu'
 excerpt: 'Smart włączniki nie są kapryśną zabawką – wymagają decyzji infrastrukturalnych jeszcze przed wylewkami. Tłumaczę, co planować i czego unikać.'
 image: '~/assets/images/blog/sterowanie-oswietleniem-inteligentne-wlaczniki.jpeg'

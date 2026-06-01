@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:53:43
-updateDate: 2026-06-01T18:53:43
+updateDate: 2026-06-01T18:53:49
 title: 'Smart home przewodowy czy bezprzewodowy – co wybrać do domu'
 excerpt: 'Magistrala w ścianach na 30 lat czy moduły WiFi za kilkaset złotych? Pokażę Wam, kiedy który wybór ma sens i gdzie czeka pułapka.'
 image: '~/assets/images/blog/smart-home-przewodowy-czy-bezprzewodowy.jpeg'

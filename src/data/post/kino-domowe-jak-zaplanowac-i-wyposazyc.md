@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:53:43
-updateDate: 2026-06-01T18:53:43
+updateDate: 2026-06-01T18:53:49
 title: 'Kino domowe w domu jednorodzinnym – jak zaplanować'
 excerpt: 'Kino domowe to projekt, który zaczyna się przy elektryku, a nie w salonie ze sprzętem. Pokażę Wam, co przewidzieć, żeby później nie kuć ścian.'
 image: '~/assets/images/blog/kino-domowe-jak-zaplanowac-i-wyposazyc.jpeg'

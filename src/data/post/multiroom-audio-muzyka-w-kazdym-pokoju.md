@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:53:43
-updateDate: 2026-06-01T18:53:43
+updateDate: 2026-06-01T18:53:49
 title: 'Multiroom audio w domu – co zaplanować na etapie budowy'
 excerpt: 'Głośnik w suficie wygląda na drobiazg. Ale kabel do niego trzeba ułożyć razem z elektryką – inaczej po tynkach zostaje już tylko kucie.'
 image: '~/assets/images/blog/multiroom-audio-muzyka-w-kazdym-pokoju.jpeg'
