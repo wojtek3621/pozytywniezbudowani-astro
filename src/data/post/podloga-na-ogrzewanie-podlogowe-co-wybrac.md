@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-02-14T18:00:55
+order: 29
 updateDate: 2026-05-31T21:06:31
 title: 'Podłoga na ogrzewanie podłogowe – jaki materiał wybrać'
 excerpt: 'Wybór podłogi nad ogrzewaniem podłogowym to nie kwestia gustu, tylko fizyki. Wyjaśniam, czego szukać w karcie technicznej i jak nie przepłacić.'

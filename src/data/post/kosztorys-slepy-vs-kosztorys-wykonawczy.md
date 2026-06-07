@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-01-11T16:37:38
+order: 22
 updateDate: 2026-02-03T20:40:11
 title: 'Kosztorys ślepy vs kosztorys wykonawczy – czym się różnią i który wybrać'
 excerpt: 'Dwie oferty na ten sam dom – jedna za 400 tysięcy, druga za 600. Która lepsza? Bez właściwego kosztorysu nigdy się nie dowiecie...'

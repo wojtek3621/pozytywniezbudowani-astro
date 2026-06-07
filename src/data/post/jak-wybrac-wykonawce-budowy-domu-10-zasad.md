@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-05-25T08:59:43
+order: 6
 updateDate: 2026-05-25T08:59:43
 title: 'Jak wybrać wykonawcę budowy domu – 10 zasad praktyka'
 excerpt: 'Wybór wykonawcy to nie kwestia ceny ani szybkiego googlowania. To 10 konkretnych warunków, które warto sprawdzić zanim cokolwiek podpiszecie.'

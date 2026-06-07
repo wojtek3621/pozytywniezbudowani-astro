@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-01-11T16:12:38
+order: 10
 updateDate: 2026-01-11T22:54:38
 title: 'Jak przygotować się finansowo do budowy domu'
 excerpt: 'Budowa domu to maraton finansowy, nie sprint. Zaczynacie go na lata przed wbiciem pierwszej łopaty...'

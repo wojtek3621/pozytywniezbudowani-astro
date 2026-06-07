@@ -54,6 +54,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     category: rawCategory,
     author,
     draft = false,
+    order,
     metadata = {},
   } = data;
 
@@ -90,6 +91,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     author: author,
 
     draft: draft,
+    order: order,
 
     metadata,
 
@@ -105,7 +107,14 @@ const load = async function (): Promise<Array<Post>> {
   const normalizedPosts = posts.map(async (post) => await getNormalizedPost(post));
 
   const results = (await Promise.all(normalizedPosts))
-    .sort((a, b) => b.publishDate.valueOf() - a.publishDate.valueOf())
+    .sort((a, b) => {
+      // Curated posts (with `order`) float to the top, ascending sequence.
+      // Everything else sorts after them, by publishDate desc (default behavior).
+      const ao = a.order ?? Number.POSITIVE_INFINITY;
+      const bo = b.order ?? Number.POSITIVE_INFINITY;
+      if (ao !== bo) return ao - bo;
+      return b.publishDate.valueOf() - a.publishDate.valueOf();
+    })
     .filter((post) => !post.draft);
 
   return results;

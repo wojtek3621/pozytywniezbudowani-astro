@@ -36,6 +36,9 @@ export interface Post {
   /**  */
   draft?: boolean;
 
+  /** Optional manual sort weight for blog list curation. Lower number = appears first (before chronological posts). Posts without `order` sort after, by publishDate desc. */
+  order?: number;
+
   /**  */
   Content?: AstroComponentFactory;
   content?: string;

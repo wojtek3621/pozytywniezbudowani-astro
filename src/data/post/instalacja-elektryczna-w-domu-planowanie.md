@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-02-14T17:25:07
+order: 18
 updateDate: 2026-02-14T17:52:30
 title: 'Instalacja elektryczna w domu – planowanie'
 excerpt: 'Elektryka to jedyny etap, w którym musicie wiedzieć, gdzie stanie łóżko i lodówka – choć ściany są jeszcze gołe.'

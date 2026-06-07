@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-01-11T15:40:14
+order: 1
 updateDate: 2026-01-11T21:20:48
 title: 'Ile kosztuje budowa domu w 2026 roku – realne koszty'
 excerpt: 'Konkretna kwota za metr kwadratowy? To nie takie proste. Pokażę Ci, jak realnie oszacować budżet...'

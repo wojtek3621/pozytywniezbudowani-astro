@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-02-04T12:16:11
+order: 11
 updateDate: 2026-02-04T12:21:34
 title: 'Pozwolenie na budowę - jak uzyskać krok po kroku'
 excerpt: 'Pozwolenie na budowę to pierwszy poważny egzamin przed Waszą budową. Pokażę Wam, jak go zdać za pierwszym podejściem.'

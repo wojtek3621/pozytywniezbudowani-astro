@@ -53,6 +53,11 @@ const postCollection = defineCollection({
     updateDate: z.date().optional(),
     draft: z.boolean().optional(),
 
+    // Optional manual sort weight for blog list curation (lower = first).
+    // Posts with `order` float to the top in ascending sequence; the rest
+    // sort after, by publishDate desc. Used to curate the first blog pages.
+    order: z.number().optional(),
+
     title: z.string(),
     excerpt: z.string().optional(),
     image: z.string().optional(),

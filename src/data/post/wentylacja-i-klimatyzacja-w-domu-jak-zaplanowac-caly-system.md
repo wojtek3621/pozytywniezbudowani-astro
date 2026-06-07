@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-06-01T19:43:11
+order: 20
 updateDate: 2026-06-01T19:43:11
 title: 'Wentylacja i klimatyzacja w domu – jak zaplanować system'
 excerpt: 'Rekuperacja i klimatyzacja to nie to samo. Jeden system wymienia powietrze, drugi je chłodzi. Pokazuję jak je zaplanować razem, by się nie pogryzły.'
