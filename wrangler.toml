@@ -1,27 +1,29 @@
-# Cloudflare Pages + D1 configuration for pozytywniezbudowani.pl
+# Cloudflare Workers configuration — pozytywniezbudowani.pl
 #
-# This file is only used for Pages Functions that need bindings (D1, KV, R2, etc.).
-# The Astro build itself is deployed via CF Pages GitHub integration, not wrangler deploy.
+# MIGRACJA 2026-06-10 (F3 planu aios-workspace/plans/active/2026-06-10-pz-analytics-faza1-2-wdrozenie.md):
+# Pages-config → Workers-config. Strona działa na Workers (worker `pozytywniezbudowani-astro`)
+# od migracji 2026-05/06; wcześniej deploy szedł flagami CLI (--assets=dist) BEZ tego pliku.
+# Teraz config-driven: worker entry (src/worker.ts) obsługuje POST /api/perf-beacon → D1,
+# wszystko inne → static assets (dist).
 #
-# Setup (Artur, one-time):
-#   1. npx wrangler login
-#   2. npx wrangler d1 create pz-perf-telemetry
-#      → copy the returned database_id into the [[d1_databases]] block below
-#   3. git add wrangler.toml && git commit -m "chore: set D1 database_id"
-#   4. npx wrangler d1 execute pz-perf-telemetry --remote --file=functions/schema.sql
-#   5. Bind the database in CF Pages dashboard:
-#      Pages project → Settings → Functions → D1 database bindings
-#      Variable name: PERF_TELEMETRY
-#      D1 database: pz-perf-telemetry
-#      (Alternative: CF Pages autopilots from wrangler.toml on deploy — test first)
+# DEPLOY (zastępuje stare flagi CLI — zaktualizowano w .claude/skills/pz-site):
+#   cd /home/wojtek/pozytywniezbudowani-astro && npm run build
+#   CLOUDFLARE_API_KEY=.. CLOUDFLARE_EMAIL=.. CLOUDFLARE_ACCOUNT_ID=9223d76b74b405b33f1504d4162f8381 \
+#     npx wrangler deploy
+#   (+ purge cache zone CLOUDFLARE_ZONE_ID_PZ — patrz pz-site reference)
 #
-# Plan: plans/active/2026-04-15-pz-real-user-timing-telemetry.md
+# Telemetria: plans (AIOS): 2026-04-15-pz-real-user-timing-telemetry.md (TOR 2)
+# D1 utworzona 2026-06-10: pz-perf-telemetry
 
-name = "pozytywniezbudowani-pages-functions"
-compatibility_date = "2024-12-01"
-pages_build_output_dir = "dist"
+name = "pozytywniezbudowani-astro"
+main = "src/worker.ts"
+compatibility_date = "2026-05-25"
+
+[assets]
+directory = "dist"
+binding = "ASSETS"
 
 [[d1_databases]]
 binding = "PERF_TELEMETRY"
 database_name = "pz-perf-telemetry"
-database_id = "REPLACE_WITH_DATABASE_ID_AFTER_WRANGLER_D1_CREATE"
+database_id = "6976a420-0f4e-4e5b-ad56-fdca885f8400"

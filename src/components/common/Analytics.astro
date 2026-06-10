@@ -150,7 +150,7 @@
       try {
         var q = window.location.search;
         if (q && (q.indexOf('fbclid=') !== -1 || q.indexOf('gclid=') !== -1)) {
-          loadAnalytics();
+          loadAnalytics('paid_eager');
         }
       } catch (e) {}
 
