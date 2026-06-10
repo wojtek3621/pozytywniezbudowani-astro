@@ -122,6 +122,19 @@
         document.head.appendChild(vt);
       }
 
+      // Trigger 0 (2026-06-10): PAID TRAFFIC EAGER-LOAD — fbclid/gclid in URL = visitor
+      // from an ad click. Ad platforms need the pixel to fire ASAP (Meta LPV attribution;
+      // hard-bouncers <1.5s were untracked under lazy-only). Organic traffic keeps the
+      // lazy path below untouched (CWV preserved). loadAnalytics() is idempotent
+      // (__pzAnalyticsLoaded guard), so the listeners/idle below become no-ops.
+      // Source: builds/audyty/2026-06-09-meta-ads-analityka-root-cause.md (F11, Faza 2.4).
+      try {
+        var q = window.location.search;
+        if (q && (q.indexOf('fbclid=') !== -1 || q.indexOf('gclid=') !== -1)) {
+          loadAnalytics();
+        }
+      } catch (e) {}
+
       // Trigger 1: first user interaction (3 event types — scroll/pointerdown/keydown)
       var events = ['scroll', 'pointerdown', 'keydown'];
       events.forEach(function (e) {

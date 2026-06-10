@@ -7,3 +7,11 @@
 /media/test-3/ /media/ 301
 /media/dobrze-mieszkaj/ /media/ 301
 /media/coraz-lepsza-firma/ /media/ 301
+
+# Lead magnet legacy URLs (pre-Astro, 404 since 2026-04-12) → temporary 302 fallback (A0)
+# Docelowo: A1 re-create pages w Astro, wtedy zmiana na docelowe 301.
+# Audyt: builds/audyty/2026-06-09-meta-ads-analityka-root-cause.md (F6) + 2026-05-13 drop v3 (F2)
+/formularz/budowa-bez-niespodzianek/* /ksiazka/ 302
+/pobierz/budowa-bez-niespodzianek-pobierz/* /ksiazka/ 302
+/pobierz/onabuduje/* /ksiazka/ 302
+/formularz/podziekowanie-budowa-bez-niespodzianek/* /ksiazka/ 302
