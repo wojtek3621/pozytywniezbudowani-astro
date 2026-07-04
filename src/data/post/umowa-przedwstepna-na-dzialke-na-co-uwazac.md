@@ -82,7 +82,7 @@ metadata:
 
 <p style="text-align: justify;">Innym ważnym zapisem jest zobowiązanie sprzedającego do nieobciążania nieruchomości i niedokonywania żadnych czynności prawnych dotyczących działki w okresie między podpisaniem umowy przedwstępnej a umową przyrzeczoną. Zapobiega to sytuacji, w której właściciel ustanowi komuś służebność przejazdu przez Waszą przyszłą działkę albo obciąży ją hipoteką.</p>
 
-<p style="text-align: justify;">Jeśli działka wymaga jeszcze uzyskania <a href="https://pozytywniezbudowani.pl/blog/warunki-zabudowy-kiedy-sa-potrzebne-i-jak-je-uzyskac/">decyzji o warunkach zabudowy</a>, można wpisać warunek, że umowa przyrzeczona zostanie zawarta dopiero po uzyskaniu ostatecznej decyzji o warunkach zabudowy zgodnej z planami kupującego. Umowa przedwstępna jest zresztą wystarczającym dokumentem, żeby jako przyszły nabywca wystąpić o wydanie warunków zabudowy – i ten czas oczekiwania na decyzję można wykorzystać na dokładne sprawdzenie działki pod każdym względem.</p>
+<p style="text-align: justify;">Jeśli działka wymaga jeszcze uzyskania <a href="https://pozytywniezbudowani.pl/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/">decyzji o warunkach zabudowy</a>, można wpisać warunek, że umowa przyrzeczona zostanie zawarta dopiero po uzyskaniu ostatecznej decyzji o warunkach zabudowy zgodnej z planami kupującego. Umowa przedwstępna jest zresztą wystarczającym dokumentem, żeby jako przyszły nabywca wystąpić o wydanie warunków zabudowy – i ten czas oczekiwania na decyzję można wykorzystać na dokładne sprawdzenie działki pod każdym względem.</p>
 
 <h2 style="text-align: justify;">Co sprawdzić przed podpisaniem</h2>
 

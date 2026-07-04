@@ -15,3 +15,11 @@
 /pobierz/budowa-bez-niespodzianek-pobierz/* /ksiazka/ 302
 /pobierz/onabuduje/* /ksiazka/ 302
 /formularz/podziekowanie-budowa-bez-niespodzianek/* /ksiazka/ 302
+
+# Audyt SEO 2026-07-04 (builds/content-audit/2026-07-04-linkowanie/): renamy bez redirectu
+# listwa-startowa: rename przy publikacji K14 (1116 impr/90d na starym URL)
+/blog/listwa-startowa-pod-ocieplenie-po-co-i-jak/ /blog/listwa-startowa-pod-ocieplenie/ 301
+/blog/listwa-startowa-pod-ocieplenie-po-co-i-jak /blog/listwa-startowa-pod-ocieplenie/ 301
+# formalnosci-do-pozwolenia: martwy URL z impressions -> najblizszy semantycznie filar K4
+/blog/formalnosci-do-pozwolenia-na-budowe-domu-krok-po-kroku/ /blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku/ 301
+/blog/formalnosci-do-pozwolenia-na-budowe-domu-krok-po-kroku /blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku/ 301

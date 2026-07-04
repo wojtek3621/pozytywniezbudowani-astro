@@ -91,7 +91,7 @@ metadata:
 
 <p style="text-align: justify;">Przeanalizujcie plan w poszukiwaniu ograniczeń, które mogą uniemożliwić lub utrudnić budowę domu według wybranego projektu. Sprawdźcie kąt nachylenia i kolor dachu, maksymalną wysokość zabudowy, linie zabudowy, wymaganą powierzchnię biologicznie czynną. Upewnijcie się, czy plan nie wymaga na przykład garażu w bryle budynku, jeśli planujecie dom bez garażu. Zerknijcie też na przeznaczenie terenów sąsiednich – może się okazać, że tuż obok Waszej działki dopuszczona jest budowa zakładu produkcyjnego lub wielkopowierzchniowego obiektu handlowego.</p>
 
-<p style="text-align: justify;">Zwróćcie uwagę na nieprzekraczalne linie zabudowy nie tylko od strony drogi. Gdy w pobliżu przebiega linia średniego lub wysokiego napięcia, wodociąg magistralny czy rów melioracyjny, wokół nich również mogą znajdować się strefy ograniczeń. Nie wszystkie są zaznaczone w MPZP – niektóre wynikają z odrębnych przepisów. Dlatego zawsze warto skonsultować się z geodetą i sprawdzić <a href="https://pozytywniezbudowani.pl/blog/mapa-zasadnicza-jak-ja-czytac-co-z-niej-wynika/">mapę zasadniczą</a>.</p>
+<p style="text-align: justify;">Zwróćcie uwagę na nieprzekraczalne linie zabudowy nie tylko od strony drogi. Gdy w pobliżu przebiega linia średniego lub wysokiego napięcia, wodociąg magistralny czy rów melioracyjny, wokół nich również mogą znajdować się strefy ograniczeń. Nie wszystkie są zaznaczone w MPZP – niektóre wynikają z odrębnych przepisów. Dlatego zawsze warto skonsultować się z geodetą i sprawdzić <a href="https://pozytywniezbudowani.pl/blog/mapa-zasadnicza-jak-ja-czytac/">mapę zasadniczą</a>.</p>
 
 <h2 style="text-align: justify;">Co z tego wynika</h2>
 

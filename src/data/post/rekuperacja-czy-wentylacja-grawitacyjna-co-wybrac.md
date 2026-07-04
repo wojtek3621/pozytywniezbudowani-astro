@@ -123,7 +123,7 @@ metadata:
 
 <h2>Rekuperacja i fotowoltaika – synergia, o której warto wiedzieć</h2>
 
-<p style="text-align: justify;">Rekuperator pracuje całą dobę, przez cały rok. Zużywa prąd – niewiele, ale nieprzerwanie. I tu pojawia się ciekawe połączenie z fotowoltaiką. Panele słoneczne produkują prąd w ciągu dnia, a rekuperator zużywa go równomiernie przez całą dobę. To oznacza, że spora część energii potrzebnej do pracy wentylacji mechanicznej może być pokryta z własnej produkcji. Jeśli i tak <a href="https://pozytywniezbudowani.pl/blog/fotowoltaika-w-2025-czy-warto-inwestowac/">planujecie fotowoltaikę</a> – rekuperacja staje się jeszcze bardziej sensowna ekonomicznie.</p>
+<p style="text-align: justify;">Rekuperator pracuje całą dobę, przez cały rok. Zużywa prąd – niewiele, ale nieprzerwanie. I tu pojawia się ciekawe połączenie z fotowoltaiką. Panele słoneczne produkują prąd w ciągu dnia, a rekuperator zużywa go równomiernie przez całą dobę. To oznacza, że spora część energii potrzebnej do pracy wentylacji mechanicznej może być pokryta z własnej produkcji. Jeśli i tak <a href="https://pozytywniezbudowani.pl/blog/fotowoltaika-2026-czy-warto-inwestowac/">planujecie fotowoltaikę</a> – rekuperacja staje się jeszcze bardziej sensowna ekonomicznie.</p>
 
 <h2>Rekuperacja czy grawitacyjna – co wybrać na lata</h2>
 

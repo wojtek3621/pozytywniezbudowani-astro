@@ -34,7 +34,7 @@ metadata:
 
 <h2 style="text-align: justify;">Mapa zasadnicza – Wasze pierwsze źródło informacji</h2>
 
-<p style="text-align: justify;">Zanim zaczniecie dzwonić do gestorów sieci i składać wnioski o warunki przyłączenia, poproście o <a href="https://pozytywniezbudowani.pl/blog/mapa-zasadnicza-jak-ja-czytac-co-z-niej-wynika/">mapę zasadniczą</a>. To dokument, który pokaże Wam przebieg wszystkich mediów w okolicy działki – zarówno tych, do których możecie się podłączyć, jak i tych, które mogą Wam przeszkadzać.</p>
+<p style="text-align: justify;">Zanim zaczniecie dzwonić do gestorów sieci i składać wnioski o warunki przyłączenia, poproście o <a href="https://pozytywniezbudowani.pl/blog/mapa-zasadnicza-jak-ja-czytac/">mapę zasadniczą</a>. To dokument, który pokaże Wam przebieg wszystkich mediów w okolicy działki – zarówno tych, do których możecie się podłączyć, jak i tych, które mogą Wam przeszkadzać.</p>
 
 <p style="text-align: justify;">Jeśli biuro nieruchomości lub właściciel nie dysponuje aktualną mapą zasadniczą, możecie ją zamówić sami w miejscowym wydziale geodezji. Najczęściej dostaniecie ją od ręki lub w ciągu kilku dni, za niewielką opłatą. Nie potrzebujecie do tego żadnych upoważnień od właściciela działki.</p>
 
