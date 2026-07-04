@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-02-14T11:10:26
 order: 13
-updateDate: 2026-02-14T17:03:12
+updateDate: 2026-07-04T18:30:00
 title: 'Płyta fundamentowa czy ławy – co wybrać?'
 excerpt: 'Płyta czy ławy? Zanim podejmiecie decyzję, sprawdźcie co naprawdę decyduje o wyborze fundamentu.'
 image: '~/assets/images/blog/plyta-fundamentowa-czy-lawy-co-wybrac.jpeg'
@@ -36,19 +36,19 @@ metadata:
 
 <p style="text-align: justify;">Płyta fundamentowa to monolit żelbetowy pod całą powierzchnią budynku. Wyobraźcie sobie wielką, grubą tacę z betonu, na której stoi cały dom. Ciężar budynku rozkłada się równomiernie na całą powierzchnię, a nie koncentruje się w wąskich pasach (jak przy ławach). To daje płycie decydującą przewagę na gruntach o niższej nośności lub tam, gdzie warunki nie są jednorodne – nawet jeśli w jednym miejscu grunt jest słabszy, płyta „mostkuje" tę różnicę.</p>
 
-<p style="text-align: justify;">Technologia wykonania wygląda tak: po przygotowaniu podłoża i ułożeniu instalacji kanalizacyjnych (to ważne – wracam do tego dalej) układa się zbrojenie w postaci belek wzdłuż ścian nośnych i siatki (zwykle 2 warstwy), a następnie betonuje się całość jednym wylaniem. Płyta powinna być około 5 cm szersza niż ściana, która na niej stanie – to zapewnia równomierne przenoszenie obciążeń. Po wykonaniu płyty – i to jest ogromna zaleta – macie gotowy stan zero. Można stawiać ściany. Przy ławach do tego momentu jest jeszcze daleka droga.</p>
+<p style="text-align: justify;">Technologia wykonania wygląda tak: po przygotowaniu podłoża i ułożeniu instalacji kanalizacyjnych (to ważne – wracam do tego dalej) układa się zbrojenie w postaci belek wzdłuż ścian nośnych i siatki (zwykle 2 warstwy), a następnie betonuje się całość jednym wylaniem. Płyta powinna być około 5 cm szersza niż ściana, która na niej stanie – to zapewnia równomierne przenoszenie obciążeń. Po wykonaniu płyty – i to jest ogromna zaleta – macie gotowy stan zero. Można stawiać ściany. Przy ławach do tego momentu jest jeszcze daleka droga. Cały proces – od przygotowania podłoża po pielęgnację betonu – rozbieram w osobnym tekście o tym, <a href="/blog/plyta-fundamentowa-krok-po-kroku-jak-powstaje/">jak powstaje płyta fundamentowa krok po kroku</a>.</p>
 
-<p style="text-align: justify;">Beton na płytę powinien mieć klasę minimum C20/25. Rekomendowany jest beton o wodoszczelności W8 – to niewielka dopłata w skali całej inwestycji, a daje dodatkowe zabezpieczenie przed wilgocią. Zbrojenie przed wylaniem betonu musi przejść odbiór kierownika budowy. Checklista jest długa i konkretna: otulina dolna i boczna (min. 2,5 cm od szalunku), rozstaw strzemion, średnice prętów (zwykle fi 12 na belki, fi 10 na siatkę, fi 16 na wzmocnienia), wielkość oczek siatki, połączenia narożników wygięte (nie proste!), zakładki minimum 50 cm, startery słupów wystające minimum 50 cm nad beton. To 9 punktów, które Wasz kierownik powinien sprawdzić – a Wy powinniście być przy tym obecni i rozumieć, na co patrzy.</p>
+<p style="text-align: justify;">Beton na płytę powinien mieć klasę minimum C20/25. Rekomendowany jest <a href="/blog/beton-na-fundamenty-klasa-i-wodoszczelnosc/">beton o wodoszczelności W8</a> – to niewielka dopłata w skali całej inwestycji, a daje dodatkowe zabezpieczenie przed wilgocią. <a href="/blog/zbrojenie-fundamentow-na-co-zwrocic-uwage/">Zbrojenie przed wylaniem betonu</a> musi przejść odbiór kierownika budowy. Checklista jest długa i konkretna: otulina dolna i boczna (min. 2,5 cm od szalunku), rozstaw strzemion, średnice prętów (zwykle fi 12 na belki, fi 10 na siatkę, fi 16 na wzmocnienia), wielkość oczek siatki, połączenia narożników wygięte (nie proste!), zakładki minimum 50 cm, startery słupów wystające minimum 50 cm nad beton. To 9 punktów, które Wasz kierownik powinien sprawdzić – a Wy powinniście być przy tym obecni i rozumieć, na co patrzy.</p>
 
 <h2 style="text-align: justify;">Ławy fundamentowe – krok po kroku</h2>
 
-<p style="text-align: justify;">Ławy fundamentowe to rozwiązanie tradycyjne i w Polsce nadal najpopularniejsze. Ich zasada jest prosta: pod każdą ścianą nośną budynku biegnie pas żelbetowy (ława), posadowiony poniżej głębokości przemarzania gruntu. Na ławach muruje się ściany fundamentowe z bloczków betonowych, które tworzą „kolebkę" budynku – a przestrzeń między nimi zasypuje się piaskiem i zagęszcza.</p>
+<p style="text-align: justify;"><a href="/blog/lawy-fundamentowe-kiedy-stosowac-jak-wykonac/">Ławy fundamentowe</a> to rozwiązanie tradycyjne i w Polsce nadal najpopularniejsze. Ich zasada jest prosta: pod każdą ścianą nośną budynku biegnie pas żelbetowy (ława), posadowiony poniżej głębokości przemarzania gruntu. Na ławach muruje się <a href="/blog/sciany-fundamentowe-z-bloczkow-jak-murowac/">ściany fundamentowe z bloczków betonowych</a>, które tworzą „kolebkę" budynku – a przestrzeń między nimi zasypuje się piaskiem i zagęszcza.</p>
 
 <p style="text-align: justify;">Proces budowy jest dłuższy i wieloetapowy. Zaczyna się od zdjęcia wierzchniej warstwy gruntu, potem wykop – jeśli grunt jest wysadzinowy, musi sięgać poniżej głębokości przemarzania. W Polsce ta głębokość to od 80 cm (zachodnia część kraju, strefa I wg normy PN-81/B-03020) do 140 cm (Suwalszczyzna, strefa IV). Jeśli macie piasek – posadowienie może być płytsze. Ale to decyzja projektanta na podstawie badań geotechnicznych, nie Wasza.</p>
 
 <p style="text-align: justify;">Po wykopie stawia się szalunki – i tu uwaga: nie wolno wylewać betonu bezpośrednio w grunt, bez szalunków. Szalunki dają kontrolę nad wymiarami, kształtem i jakością ławy. Kolejny krok to zbrojenie (tu checklista ma 7 punktów, w tym szerokość ław – sprawdźcie, czy jest zgodna z projektem), a potem betonowanie.</p>
 
-<p style="text-align: justify;">Po rozszalowaniu ław zaczyna się etap, który wydłuża cały proces: murowanie ścian fundamentowych z bloczków betonowych. Kontrola jest tu istotna – zaprawa murarska nie może się rozsypywać, a przewiązanie bloczków musi wynosić minimum 4 cm lub 40% wysokości bloczka (przy bloczku 12 cm to minimum 5 cm). Po wymurowaniu ścian przychodzi czas na izolacje: pozioma (papa) i pionowa (hydroizolacja + styrodur XPS lub styropian fundamentowy 15 cm + folia kubełkowa). Potem zasypanie piaskiem, zagęszczenie warstwowe, ułożenie kanalizacji, a na końcu – chudziak, czyli cienka wylewka betonowa pod posadzkę.</p>
+<p style="text-align: justify;">Po rozszalowaniu ław zaczyna się etap, który wydłuża cały proces: murowanie ścian fundamentowych z bloczków betonowych. Kontrola jest tu istotna – <a href="/blog/zaprawa-murarska-jaka-i-ile-na-m2/">zaprawa murarska</a> nie może się rozsypywać, a przewiązanie bloczków musi wynosić minimum 4 cm lub 40% wysokości bloczka (przy bloczku 12 cm to minimum 5 cm). Po wymurowaniu ścian przychodzi czas na izolacje: pozioma (papa) i pionowa (hydroizolacja + styrodur XPS lub styropian fundamentowy 15 cm + folia kubełkowa). Potem zasypanie piaskiem, zagęszczenie warstwowe, ułożenie kanalizacji, a na końcu – <a href="/blog/chudiak-czy-jest-potrzebny/">chudziak</a>, czyli cienka wylewka betonowa pod posadzkę.</p>
 
 <p style="text-align: justify;">Widzicie tę różnicę? Przy płycie po wylaniu betonu macie stan zero. Przy ławach po wylaniu betonu macie dopiero… ławy. Przed Wami jeszcze kilka istotnych etapów.</p>
 
@@ -90,13 +90,13 @@ metadata:
 
 <p style="text-align: justify;">Niezależnie od tego, czy wybierzecie płytę, czy ławy, fundament musi być zabezpieczony przed wilgocią i utratą ciepła. Ale sposób wykonania izolacji jest inny – i warto to wiedzieć, bo izolacje to jeden z etapów, na których najczęściej się oszczędza. A oszczędności na izolacji fundamentu to oszczędności, które zemszą się za kilka lat w postaci wilgoci w domu, zagrzybienia ścian i wyższych rachunków za ogrzewanie.</p>
 
-<p style="text-align: justify;">Przy płycie fundamentowej izolacja termiczna może być ułożona pod płytą (XPS) lub na jej obwodzie. W mojej książce piszę wprost, że XPS pod całą powierzchnią płyty nie jest konieczny – chyba że budujecie dom pasywny, gdzie taka izolacja ma uzasadnienie. W standardowym domu ta inwestycja się nie zwróci. Jeśli jednak decydujecie się na XPS pod płytę – musi to być materiał dopuszczony do obciążeń konstrukcyjnych, z gwarantowaną wytrzymałością na ściskanie przez ponad 50 lat. I kategorycznie nie EPS (styropian), który pod takim obciążeniem z czasem się deformuje. Izolacja pionowa płyty (obwodowa) jest opcjonalna, ale jeśli się na nią zdecydujecie – powinna obejmować hydroizolację i folię kubełkową.</p>
+<p style="text-align: justify;">Przy płycie fundamentowej izolacja termiczna może być ułożona pod płytą (XPS) lub na jej obwodzie. W mojej książce piszę wprost, że <a href="/blog/styrodur-pod-plyte-fundamentowa-czy-stosowac/">XPS pod całą powierzchnią płyty</a> nie jest konieczny – chyba że budujecie dom pasywny, gdzie taka izolacja ma uzasadnienie. W standardowym domu ta inwestycja się nie zwróci. Jeśli jednak decydujecie się na XPS pod płytę – musi to być materiał dopuszczony do obciążeń konstrukcyjnych, z gwarantowaną wytrzymałością na ściskanie przez ponad 50 lat. I kategorycznie nie EPS (styropian), który pod takim obciążeniem z czasem się deformuje. Izolacja pionowa płyty (obwodowa) jest opcjonalna, ale jeśli się na nią zdecydujecie – powinna obejmować hydroizolację i folię kubełkową.</p>
 
-<p style="text-align: justify;">Przy ławach temat izolacji jest bardziej złożony, bo mamy więcej powierzchni do zabezpieczenia. Izolacja pozioma (papa na ścianach fundamentowych) zabezpiecza przed podciąganiem kapilarnym wilgoci do ścian naziemnych. Izolacja pionowa to trójwarstwowy układ: hydroizolacja (lekka przeciwwilgociowa lub ciężka dwuskładnikowa – zależy od warunków gruntowych), termoizolacja (styrodur XPS lub styropian fundamentowy, grubość 15 cm), a na wierzch folia kubełkowa. Przy folii kubełkowej jest istotny szczegół, na który zwracam uwagę: kubełki powinny być skierowane do domu – to tworzy pustkę powietrzną przy styropianie. Zakładka minimum 15 cm, mocowanie specjalnymi kołkami (nie gwoździami czy wkrętami, które naruszają ciągłość izolacji). I izolacja musi schodzić do samego dołu ławy – nie kończyć się w połowie.</p>
+<p style="text-align: justify;">Przy ławach temat izolacji jest bardziej złożony, bo mamy więcej powierzchni do zabezpieczenia. Izolacja pozioma (papa na ścianach fundamentowych) zabezpiecza przed podciąganiem kapilarnym wilgoci do ścian naziemnych. Izolacja pionowa to trójwarstwowy układ: hydroizolacja (lekka przeciwwilgociowa lub ciężka dwuskładnikowa – zależy od warunków gruntowych), termoizolacja (styrodur XPS lub styropian fundamentowy, grubość 15 cm), a na wierzch <a href="/blog/folia-pod-fundamenty-kiedy-i-jaka/">folia kubełkowa</a>. Przy folii kubełkowej jest istotny szczegół, na który zwracam uwagę: kubełki powinny być skierowane do domu – to tworzy pustkę powietrzną przy styropianie. Zakładka minimum 15 cm, mocowanie specjalnymi kołkami (nie gwoździami czy wkrętami, które naruszają ciągłość izolacji). I izolacja musi schodzić do samego dołu ławy – nie kończyć się w połowie.</p>
 
 <h2 style="text-align: justify;">Instalacje pod fundamentami – planujcie przed betonowaniem</h2>
 
-<p style="text-align: justify;">To temat, który wielu inwestorów bagatelizuje, a który potrafi spędzać sen z powiek po fakcie. Instalacje pod fundamentem – kanalizacja, przelotki mediów (woda, prąd, rekuperacja, pompa ciepła) – muszą być zaplanowane i wykonane przed wylaniem betonu. Przy płycie fundamentowej to wymóg bezwzględny: wszystko, co ma przejść pod płytą, musi być na swoim miejscu, bo po wylaniu betonu poprawki są ekstremalnie trudne i kosztowne. Przy ławach jest nieco więcej elastyczności – instalacje idą w zasypce między ścianami fundamentowymi – ale i tu błędy się zdarzają i kosztują.</p>
+<p style="text-align: justify;">To temat, który wielu inwestorów bagatelizuje, a który potrafi spędzać sen z powiek po fakcie. Instalacje pod fundamentem – <a href="/blog/kanalizacja-pod-fundamentami-jak-zaplanowac/">kanalizacja</a>, <a href="/blog/przelotki-mediow-przez-fundament-woda-prad-internet/">przelotki mediów</a> (woda, prąd, rekuperacja, pompa ciepła) – muszą być zaplanowane i wykonane przed wylaniem betonu. Przy płycie fundamentowej to wymóg bezwzględny: wszystko, co ma przejść pod płytą, musi być na swoim miejscu, bo po wylaniu betonu poprawki są ekstremalnie trudne i kosztowne. Przy ławach jest nieco więcej elastyczności – instalacje idą w zasypce między ścianami fundamentowymi – ale i tu błędy się zdarzają i kosztują.</p>
 
 <p style="text-align: justify;">Kanalizacja pod fundamentami musi mieć spadki minimum 2%, rury pomarańczowe SN4 lub SN8, a przed zasypaniem powinna przejść próbę szczelności. W przejściach przez ścianę fundamentową obowiązkowa jest rura osłonowa – beton pracuje, rura pracuje, jeśli nie ma dylatacji między nimi, pęknie. Między rurami a betonem (przy płycie) musi być rura osłonowa lub odpowiednia dylatacja – beton i plastik to materiały o zupełnie różnej rozszerzalności cieplnej i elastyczności.</p>
 
@@ -104,7 +104,7 @@ metadata:
 
 <h2 style="text-align: justify;">Zagęszczanie gruntu – etap, którego nie wolno zlekceważyć</h2>
 
-<p style="text-align: justify;">Przy ławach fundamentowych jest etap, który wygląda banalnie, a ma kolosalne znaczenie: zasypanie i zagęszczenie gruntu między ścianami fundamentowymi. Bagatelizowanie tego etapu to jeden z najczęstszych błędów na polskich budowach – i jeden z najtrudniejszych do naprawienia.</p>
+<p style="text-align: justify;">Przy ławach fundamentowych jest etap, który wygląda banalnie, a ma kolosalne znaczenie: zasypanie i <a href="/blog/zageszczanie-gruntu-dlaczego-jest-krytyczne/">zagęszczenie gruntu</a> między ścianami fundamentowymi. Bagatelizowanie tego etapu to jeden z najczęstszych błędów na polskich budowach – i jeden z najtrudniejszych do naprawienia.</p>
 
 <p style="text-align: justify;">Mechanizm jest prosty. Piasek wsypany między fundamenty musi być zagęszczony warstwowo – po 20–30 cm, z zagęszczeniem każdej warstwy zagęszczarką (żabą). Jeśli ktoś wsypie 80 cm piasku i zagęści tylko wierzchnią warstwę – piasek pod spodem z czasem osiądzie pod ciężarem chudziaka i posadzki. Co wtedy? Posadzka opada, tworzą się szczeliny przy listwach przypodłogowych, pękają ściany działowe, a w skrajnych przypadkach kable elektryczne wyrywają się z gniazdek.</p>
 
@@ -114,7 +114,7 @@ metadata:
 
 <h2 style="text-align: justify;">Wymiana gruntu – gdy działka zaskakuje</h2>
 
-<p style="text-align: justify;">Czasem badania geotechniczne pokazują, że grunt pod budynkiem nie nadaje się do bezpośredniego posadowienia – jest za słaby, za mokry, niejednorodny. Wtedy konieczna jest wymiana gruntu: usunięcie warstwy słabej i zastąpienie jej piaskiem lub żwirem z warstwowym zagęszczeniem (po 20–30 cm). Przy domach parterowych często stosuje się wymianę obwodową (tylko pod obrysem ław) zamiast na całej powierzchni – to istotna oszczędność.</p>
+<p style="text-align: justify;">Czasem badania geotechniczne pokazują, że grunt pod budynkiem nie nadaje się do bezpośredniego posadowienia – jest za słaby, za mokry, niejednorodny. Wtedy konieczna jest <a href="/blog/wymiana-gruntu-pod-fundamenty-kiedy-konieczna/">wymiana gruntu</a>: usunięcie warstwy słabej i zastąpienie jej piaskiem lub żwirem z warstwowym zagęszczeniem (po 20–30 cm). Przy domach parterowych często stosuje się wymianę obwodową (tylko pod obrysem ław) zamiast na całej powierzchni – to istotna oszczędność.</p>
 
 <p style="text-align: justify;">Wymiana gruntu to dodatkowy koszt i czas, ale ignorowanie złych warunków gruntowych grozi poważnymi problemami. Jeśli geotechnik mówi, że grunt wymaga wymiany – pytajcie o szczegóły: jaka głębokość, jaki materiał, jaki sposób zagęszczenia.</p>
 
@@ -122,7 +122,7 @@ metadata:
 
 <h2 style="text-align: justify;">Koparka – detal, który zmienia grunt</h2>
 
-<p style="text-align: justify;">Drobna rzecz, a ważna. Przy wykopach pod fundamenty preferowana jest koparka obrotowa, a nie koparkoładowarka. Koparkoładowarka waży 7–10 ton i jeździ po dnie wykopu – jej ciężar rozgniata grunt i pogarsza parametry podłoża. Koparka obrotowa stoi na krawędzi wykopu i pracuje ramieniem – grunt na dnie pozostaje nienaruszony. To jest różnica, o którą warto zapytać wykonawcę przed rozpoczęciem prac ziemnych.</p>
+<p style="text-align: justify;">Drobna rzecz, a ważna. Przy wykopach pod fundamenty preferowana jest <a href="/blog/koparka-obrotowa-czy-koparko-ladowarka/">koparka obrotowa, a nie koparkoładowarka</a>. Koparkoładowarka waży 7–10 ton i jeździ po dnie wykopu – jej ciężar rozgniata grunt i pogarsza parametry podłoża. Koparka obrotowa stoi na krawędzi wykopu i pracuje ramieniem – grunt na dnie pozostaje nienaruszony. To jest różnica, o którą warto zapytać wykonawcę przed rozpoczęciem prac ziemnych.</p>
 
 <h2 style="text-align: justify;">Odbiory i kontrola jakości</h2>
 
@@ -136,7 +136,7 @@ metadata:
 
 <h2 style="text-align: justify;">Drenaż – zabezpieczenie na lata</h2>
 
-<p style="text-align: justify;">Przy każdym typie fundamentu warto rozważyć drenaż opaskowy – szczególnie jeśli grunt jest słabo przepuszczalny lub poziom wód gruntowych bywa wysoki. Rury drenażowe układa się równo ze spodem płyty lub ław, w otoczeniu żwiru, zawinięte w geowłókninę. W każdym narożniku budynku powinna być studzienka drenarskowa (średnica 315 lub 400 mm), a woda odprowadzana grawitacyjnie do kanalizacji deszczowej, rowu melioracyjnego lub studni chłonnej.</p>
+<p style="text-align: justify;">Przy każdym typie fundamentu warto rozważyć <a href="/blog/drenaz-przy-fundamentach-kiedy-konieczny/">drenaż opaskowy</a> – szczególnie jeśli grunt jest słabo przepuszczalny lub poziom wód gruntowych bywa wysoki. Rury drenażowe układa się równo ze spodem płyty lub ław, w otoczeniu żwiru, zawinięte w geowłókninę. W każdym narożniku budynku powinna być studzienka drenarskowa (średnica 315 lub 400 mm), a woda odprowadzana grawitacyjnie do kanalizacji deszczowej, rowu melioracyjnego lub studni chłonnej.</p>
 
 <p style="text-align: justify;">Jeśli planujecie piwnicę – drenaż nie jest opcją, jest obowiązkiem. Piwnica poniżej poziomu gruntu to największe ryzyko zalania w całym domu. W przypadku piwnicy zdecydowanie lepszym rozwiązaniem jest płyta fundamentowa z betonu wodoszczelnego, ze ścianami żelbetowymi z listami uszczelniającymi na łączeniu ze płytą. Ściany murowane wymagają ciężkiej hydroizolacji i rapówki (czyli narzutu cementowego zabezpieczającego izolację) – to więcej pracy, więcej ryzyka i więcej punktów, w których coś może nieszczelnieć.</p>
 
@@ -144,7 +144,22 @@ metadata:
 
 <p style="text-align: justify;">Zanim koparka ruszy, na działce pojawia się geodeta. Wytycza osie budynku i ustawia ławice (drewniane bramki z deskami i gwoźdźmi na przedłużeniach ścian) 2–3 metry szerzej niż obrys. Wpisuje się do dziennika budowy jako pierwszy i zostawia szkic tyczenia z wymiarami – dokument, do którego będziecie wracać przez całą budowę.</p>
 
-<p style="text-align: justify;">Poziom zero to rzędna gotowej posadzki – punkt odniesienia dla całego domu. Wyznacza się go na 5 cm powyżej najwyższego punktu gruntu wokół budynku. Po wytyczeniu zweryfikujcie go sami, zanim ruszycie dalej. Dobra praktyka to zaznaczenie poziomu zero na stałe: nacięcie szlifierką kątową na ścianie w widocznym miejscu (np. przy drzwiach lub oknie), 100 cm powyżej poziomu zero. Będziecie do tego wracać przy wylewkach, przy montażu okien, przy wykańczaniu – i za każdym razem podziękujecie sobie, że macie jednoznaczny punkt odniesienia.</p>
+<p style="text-align: justify;"><a href="/blog/poziom-zero-budynku-co-to-jest-jak-ustalic/">Poziom zero</a> to rzędna gotowej posadzki – punkt odniesienia dla całego domu. Wyznacza się go na 5 cm powyżej najwyższego punktu gruntu wokół budynku. Po wytyczeniu zweryfikujcie go sami, zanim ruszycie dalej. Dobra praktyka to zaznaczenie poziomu zero na stałe: nacięcie szlifierką kątową na ścianie w widocznym miejscu (np. przy drzwiach lub oknie), 100 cm powyżej poziomu zero. Będziecie do tego wracać przy wylewkach, przy montażu okien, przy wykańczaniu – i za każdym razem podziękujecie sobie, że macie jednoznaczny punkt odniesienia.</p>
+
+<h2 style="text-align: justify;">Fundamenty krok po kroku – pozostałe tematy z tej serii</h2>
+
+<p style="text-align: justify;">Ten artykuł pomaga Wam podjąć decyzję, ale sama realizacja fundamentów to kilkanaście etapów – i każdy ma swoje pułapki. Rozłożyłem je na osobne, konkretne teksty:</p>
+
+<ul style="text-align: justify;">
+<li><a href="/blog/izolacja-przeciwwilgociowa-fundamentow-jak-wykonac/">Izolacja przeciwwilgociowa fundamentów</a> – gdzie najczęściej powstają błędy wykonawcze</li>
+<li><a href="/blog/odbior-fundamentow-przez-kierownika-co-sprawdzic/">Odbiór fundamentów przez kierownika budowy</a> – checklista punktów kontrolnych</li>
+<li><a href="/blog/kontrola-jakosci-betonu-na-budowie/">Kontrola jakości betonu</a> – jak sprawdzić, co przyjechało w gruszce</li>
+<li><a href="/blog/zasypywanie-fundamentow-czym-i-jak/">Zasypywanie fundamentów</a> – czym i jak, żeby posadzka nie osiadła</li>
+<li><a href="/blog/woda-w-wykopie-jak-odpompowac-zapobiec/">Woda w wykopie</a> – jak ją odpompować i jak zapobiegać</li>
+<li><a href="/blog/budowa-fundamentow-zima-czy-bezpieczne/">Budowa fundamentów zimą</a> – kiedy to bezpieczne, a kiedy proszenie się o kłopoty</li>
+<li><a href="/blog/fundament-i-sciany-piwnicy-jak-wykonac-prawidlowo/">Fundament i ściany piwnicy</a> – wymagania opisane wyżej, w wersji szczegółowej</li>
+<li><a href="/blog/bledy-na-fundamentach-jak-rozpoznac/">Błędy na fundamentach</a> – jak je rozpoznać, zanim będzie za późno</li>
+</ul>
 
 <h2 style="text-align: justify;">Podsumowanie – Wasza decyzja, Wasz dom</h2>
 
