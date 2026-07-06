@@ -33,7 +33,10 @@ export default defineConfig({
       filter: (page) =>
         !/\/tag\//.test(page) &&
         !/\/category\//.test(page) &&
-        !/\/blog\/\d+\/?$/.test(page),
+        !/\/blog\/\d+\/?$/.test(page) &&
+        // Lead magnet + wariant LP dla płatnego ruchu — noindex, poza sitemap (Sprint 1 książki 2026-07)
+        !/\/darmowy-rozdzial\//.test(page) &&
+        !/\/ksiazka\/start\//.test(page),
     }),
     mdx(),
     icon({

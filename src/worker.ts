@@ -21,7 +21,17 @@ import { validatePayload, MAX_PAYLOAD_BYTES } from '../functions/api/_perf-beaco
 interface Env {
   PERF_TELEMETRY: D1Database;
   ASSETS: Fetcher;
+  /** Worker secret (wrangler secret put MAILERLITE_API_TOKEN) — lead magnet /api/subscribe */
+  MAILERLITE_API_TOKEN?: string;
 }
+
+// Lead magnet książki — dedykowana grupa MailerLite `ksiazka-darmowy-rozdzial-2026`
+// (utworzona przez API 2026-07-06; build: aios-workspace/builds/2026-07-05-ksiazka-sprint1/)
+const MAILERLITE_GROUP_KSIAZKA_LM = '192225203776914742';
+const MAILERLITE_API_URL = 'https://connect.mailerlite.com/api/subscribers';
+const SUBSCRIBE_MAX_BODY_BYTES = 2048;
+// Prosty format-check: coś@coś.coś, bez spacji, sensowna długość
+const EMAIL_RE = /^[^\s@]{1,64}@[^\s@]{1,255}\.[^\s@]{2,24}$/;
 
 const CORS_HEADERS: Record<string, string> = {
   'Access-Control-Allow-Origin': 'https://pozytywniezbudowani.pl',
@@ -118,9 +128,95 @@ async function handleBeaconPost(request: Request, env: Env): Promise<Response> {
   return new Response(null, { status: 204, headers: CORS_HEADERS });
 }
 
+function jsonResponse(body: Record<string, unknown>, status: number): Response {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
+
+/**
+ * POST /api/subscribe — zapis na lead magnet (darmowy rozdział książki).
+ * Body: { email: string, consent: true, website?: string (honeypot) }.
+ * Same-origin fetch ze strony /darmowy-rozdzial — bez nagłówków CORS
+ * (celowo: cross-origin POST-y z obcych domen nie odczytają odpowiedzi).
+ */
+async function handleSubscribePost(request: Request, env: Env): Promise<Response> {
+  if (!env.MAILERLITE_API_TOKEN) {
+    console.error('subscribe: MAILERLITE_API_TOKEN secret missing');
+    return jsonResponse({ ok: false, error: 'Service not configured' }, 503);
+  }
+
+  const contentLength = request.headers.get('content-length');
+  if (contentLength && parseInt(contentLength, 10) > SUBSCRIBE_MAX_BODY_BYTES) {
+    return jsonResponse({ ok: false, error: 'Payload too large' }, 413);
+  }
+
+  let parsed: { email?: unknown; consent?: unknown; website?: unknown };
+  try {
+    const raw = await request.text();
+    if (new TextEncoder().encode(raw).length > SUBSCRIBE_MAX_BODY_BYTES) {
+      return jsonResponse({ ok: false, error: 'Payload too large' }, 413);
+    }
+    parsed = JSON.parse(raw);
+  } catch {
+    return jsonResponse({ ok: false, error: 'Invalid JSON' }, 400);
+  }
+
+  // Honeypot: boty wypełniają ukryte pole → udajemy sukces, nic nie zapisujemy
+  if (typeof parsed.website === 'string' && parsed.website.length > 0) {
+    return jsonResponse({ ok: true }, 200);
+  }
+
+  const email = typeof parsed.email === 'string' ? parsed.email.trim().toLowerCase() : '';
+  if (!EMAIL_RE.test(email)) {
+    return jsonResponse({ ok: false, error: 'Invalid email' }, 400);
+  }
+  if (parsed.consent !== true) {
+    return jsonResponse({ ok: false, error: 'Consent required' }, 400);
+  }
+
+  try {
+    const mlResp = await fetch(MAILERLITE_API_URL, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${env.MAILERLITE_API_TOKEN}`,
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+        groups: [MAILERLITE_GROUP_KSIAZKA_LM],
+        status: 'active',
+      }),
+    });
+    // MailerLite: 200 = istniejący subskrybent zaktualizowany, 201 = nowy
+    if (mlResp.ok) {
+      return jsonResponse({ ok: true }, 200);
+    }
+    const detail = (await mlResp.text()).substring(0, 300);
+    console.error('subscribe: MailerLite error', { status: mlResp.status, detail });
+    return jsonResponse({ ok: false, error: 'Subscription failed' }, 502);
+  } catch (error) {
+    const err = error as Error;
+    console.error('subscribe: fetch failed', {
+      name: typeof err?.name === 'string' ? err.name : 'UnknownError',
+      message: typeof err?.message === 'string' ? err.message.substring(0, 300) : '',
+    });
+    return jsonResponse({ ok: false, error: 'Upstream error' }, 502);
+  }
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
+
+    if (url.pathname === '/api/subscribe') {
+      if (request.method === 'POST') {
+        return handleSubscribePost(request, env);
+      }
+      return jsonResponse({ ok: false, error: 'Method not allowed' }, 405);
+    }
 
     if (url.pathname === '/api/perf-beacon') {
       if (request.method === 'OPTIONS') {

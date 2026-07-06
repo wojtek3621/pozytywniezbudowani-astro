@@ -1,0 +1,219 @@
+---
+// Lead magnet — darmowy rozdział książki "Od Marzenia Do Wprowadzenia".
+// noindex + poza sitemap + NIEpodlinkowana z nawigacji (wejście: reklamy Meta
+// / linki bezpośrednie — Sprint 2). Zapis przez POST /api/subscribe (worker.ts)
+// do dedykowanej grupy MailerLite `ksiazka-darmowy-rozdzial-2026`.
+// UWAGA: copy poniżej napisane pod rekomendowany rozdział "Kto to wybuduje..."
+// — jeśli Wojtek wybierze inną kandydaturę, podmień fragmenty oznaczone
+// [ROZDZIAL]. Build: aios-workspace/builds/2026-07-05-ksiazka-sprint1/
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Darmowy rozdział książki „Od Marzenia Do Wprowadzenia" | Pozytywnie Zbudowani',
+  description:
+    'Pobierz darmowy rozdział książki o budowie domu — sprawdź, jak piszę i czy ta wiedza jest dla Was, zanim wydacie złotówkę.',
+  robots: { index: false, follow: true },
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HERO -->
+  <section class="bg-slate-900 py-16 md:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">Darmowy rozdział</p>
+      <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-5">
+        Przeczytajcie rozdział książki, zanim wydacie złotówkę
+      </h1>
+      <p class="text-lg text-slate-300 leading-relaxed">
+        „Od Marzenia Do Wprowadzenia" ma 608 stron i 86 rozdziałów. Zamiast wierzyć mi na słowo, że Wam pomoże —
+        przeczytajcie jeden z kluczowych rozdziałów za darmo i sami oceńcie, czy tak ma wyglądać Wasz przewodnik po
+        budowie.
+      </p>
+    </div>
+  </section>
+
+  <!-- CO DOSTANIECIE + FORMULARZ -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 items-start">
+      <!-- LEWA: co w rozdziale -->
+      <div>
+        <!-- [ROZDZIAL] tytuł i bullets pod kandydata #1 -->
+        <h2 class="text-2xl font-bold dark:text-white mb-4 font-display">
+          Rozdział: „Kto to wybuduje i kiedy zacząć rozmawiać z wykonawcami?"
+        </h2>
+        <p class="text-muted mb-6">
+          To pytanie, od którego realnie zaczyna się każda budowa — i przy którym najłatwiej o decyzję podjętą w
+          ciemno. W tym rozdziale przeczytacie:
+        </p>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+              ></path>
+            </svg>
+            <span class="text-base"
+              >Jakie macie <strong>formy realizacji budowy</strong> do wyboru — od generalnego wykonawcy po system
+              gospodarczy — i czym różnią się w praktyce</span
+            >
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+              ></path>
+            </svg>
+            <span class="text-base"
+              >Pracę <strong>ilu osób będziecie koordynować</strong> przy każdej z tych form — zanim którąś
+              wybierzecie</span
+            >
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+              ></path>
+            </svg>
+            <span class="text-base"
+              >Kiedy <strong>naprawdę</strong> zacząć rozmowy z wykonawcami — i dlaczego „im wcześniej, tym lepiej" ma
+              swoje granice</span
+            >
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+              ></path>
+            </svg>
+            <span class="text-base"
+              ><strong>Niezbędne minimum ustaleń</strong> z wykonawcą, dzięki któremu unikniecie nieporozumień na
+              budowie</span
+            >
+          </li>
+        </ul>
+        <p class="text-muted text-sm mt-6">
+          Rozdział pochodzi 1:1 z papierowego wydania książki. Bez skrótów i bez przeróbek — dokładnie to, co
+          znajdziecie w środku.
+        </p>
+      </div>
+
+      <!-- PRAWA: formularz -->
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-700">
+        <h2 class="text-xl font-bold dark:text-white mb-4 text-center">Gdzie wysłać rozdział?</h2>
+        <form id="lm-form" class="space-y-4" novalidate>
+          <div>
+            <label for="lm-email" class="block text-sm font-medium dark:text-gray-300 mb-1">Adres email</label>
+            <input
+              type="email"
+              id="lm-email"
+              name="email"
+              required
+              autocomplete="email"
+              placeholder="Wpisz swój adres email"
+              class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent text-base"
+            />
+          </div>
+          <div class="flex items-start gap-2">
+            <input type="checkbox" id="lm-zgoda" required class="mt-1" />
+            <label for="lm-zgoda" class="text-sm text-muted">
+              Wyrażam zgodę na otrzymywanie drogą elektroniczną informacji handlowej. Przeczytałem/am
+              <a href="/polityka-prywatnosci/" class="text-primary hover:underline">politykę prywatności</a>.
+            </label>
+          </div>
+          <!-- Honeypot anti-bot -->
+          <div class="hidden" aria-hidden="true">
+            <input type="text" name="website" tabindex="-1" autocomplete="off" />
+          </div>
+          <button
+            type="submit"
+            id="lm-submit"
+            class="w-full px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-secondary transition-colors text-base"
+          >
+            Wyślijcie mi darmowy rozdział
+          </button>
+          <p id="lm-error" class="hidden text-sm text-red-600 text-center"></p>
+        </form>
+        <div id="lm-success" class="hidden text-center py-6">
+          <svg class="w-12 h-12 text-green-600 mx-auto mb-3" fill="currentColor" viewBox="0 0 20 20">
+            <path
+              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+            ></path>
+          </svg>
+          <p class="font-bold dark:text-white mb-2">Gotowe — sprawdźcie skrzynkę.</p>
+          <p class="text-muted text-sm">
+            Rozdział wysyłamy na podany adres. Jeśli mail nie dotrze w kilka minut, zajrzyjcie do folderu SPAM lub
+            Oferty.
+          </p>
+        </div>
+        <p class="text-muted text-xs text-center mt-4">
+          Razem z rozdziałem dopiszemy Was do listy czytelników Pozytywnie Zbudowani. Możecie się wypisać jednym
+          kliknięciem — w każdej chwili.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- O AUTORZE (skrót, wiarygodność) -->
+  <section class="py-12 bg-blue-50 dark:bg-transparent">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="text-2xl font-bold dark:text-white mb-3 font-display">Kto to napisał?</h2>
+      <p class="text-muted leading-relaxed">
+        Nazywam się Wojciech Tracichleb. Od 2013 roku specjalizuję się wyłącznie w budownictwie jednorodzinnym — jako
+        generalny wykonawca uczestniczyłem w powstawaniu kilkuset domów. Książkę napisałem z perspektywy inwestora, nie
+        wykonawcy: co kontrolować, o co pytać i czego nie podpisywać. Sprzedało się ponad 2000 egzemplarzy.
+      </p>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var form = document.getElementById('lm-form');
+      if (!form) return;
+      var btn = document.getElementById('lm-submit');
+      var errEl = document.getElementById('lm-error');
+      var okEl = document.getElementById('lm-success');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        errEl.classList.add('hidden');
+        var email = (document.getElementById('lm-email').value || '').trim();
+        var consent = document.getElementById('lm-zgoda').checked;
+        var honeypot = (form.querySelector('input[name="website"]') || {}).value || '';
+        if (!email || email.indexOf('@') === -1) {
+          errEl.textContent = 'Wpiszcie poprawny adres email.';
+          errEl.classList.remove('hidden');
+          return;
+        }
+        if (!consent) {
+          errEl.textContent = 'Potrzebujemy Waszej zgody, żeby wysłać rozdział mailem.';
+          errEl.classList.remove('hidden');
+          return;
+        }
+        btn.disabled = true;
+        btn.textContent = 'Wysyłamy…';
+        fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email, consent: true, website: honeypot }),
+        })
+          .then(function (res) {
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            return res.json();
+          })
+          .then(function () {
+            form.classList.add('hidden');
+            okEl.classList.remove('hidden');
+            if (typeof fbq !== 'undefined') {
+              fbq('track', 'Lead', { content_name: 'darmowy-rozdzial-ksiazka' });
+            }
+          })
+          .catch(function () {
+            btn.disabled = false;
+            btn.textContent = 'Wyślijcie mi darmowy rozdział';
+            errEl.textContent = 'Coś poszło nie tak. Spróbujcie ponownie za chwilę.';
+            errEl.classList.remove('hidden');
+          });
+      });
+    })();
+  </script>
+</Layout>
