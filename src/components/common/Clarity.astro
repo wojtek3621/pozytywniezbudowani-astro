@@ -1,0 +1,60 @@
+---
+// Microsoft Clarity — heatmapy + session recordings (CRO książki, Sprint 1 2026-07).
+//
+// AKTYWACJA (checklist Wojtka):
+//   1. Załóż projekt na https://clarity.microsoft.com (konto Microsoft, darmowe).
+//   2. Skopiuj Project ID (Settings → Overview, ~10 znaków).
+//   3. Dopisz do .env repo (i do CI/deploy env): PUBLIC_CLARITY_ID=xxxxxxxxxx
+//   4. npm run build + wrangler deploy.
+// Bez PUBLIC_CLARITY_ID komponent renderuje się do NICZEGO (zero kodu w HTML).
+//
+// RODO: skrypt ładuje się WYŁĄCZNIE gdy cookie pz_consent ma analytics=true
+// (Consent Mode v2 — ConsentBanner.astro). Brak zgody = zero requestów do clarity.ms.
+// Build: aios-workspace/builds/2026-07-05-ksiazka-sprint1/
+const clarityId = import.meta.env.PUBLIC_CLARITY_ID as string | undefined;
+---
+
+{
+  clarityId && (
+    <script is:inline define:vars={{ clarityId }}>
+      (function () {
+        function hasAnalyticsConsent() {
+          try {
+            var parts = document.cookie ? document.cookie.split(';') : [];
+            for (var i = 0; i < parts.length; i++) {
+              var c = parts[i].trim();
+              if (c.indexOf('pz_consent=') === 0) {
+                var value = decodeURIComponent(c.substring('pz_consent='.length));
+                var consent = JSON.parse(value);
+                return consent && consent.analytics === true;
+              }
+            }
+          } catch (e) {
+            /* malformed cookie = no consent */
+          }
+          return false;
+        }
+        function loadClarity() {
+          (function (c, l, a, r, i, t, y) {
+            c[a] =
+              c[a] ||
+              function () {
+                (c[a].q = c[a].q || []).push(arguments);
+              };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = 'https://www.clarity.ms/tag/' + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+          })(window, document, 'clarity', 'script', clarityId);
+        }
+        // Load-on-consent-at-pageload: user, który dopiero co kliknął zgodę,
+        // zostanie objęty od następnej odsłony (ConsentBanner nie emituje eventu;
+        // świadomy trade-off — heatmapy nie wymagają 100% pokrycia sesji).
+        if (hasAnalyticsConsent()) {
+          loadClarity();
+        }
+      })();
+    </script>
+  )
+}

@@ -1,0 +1,1567 @@
+---
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Features from '~/components/widgets/Features.astro';
+import Image from '~/components/common/Image.astro';
+import BookNavigation from '~/components/widgets/BookNavigation.astro';
+
+import bookCoverCta from '~/assets/images/ksiazka/book-cover-cta.jpg';
+import heroWojtekKsiazka from '~/assets/images/site/hero-wojtek-ksiazka-portrait.jpg';
+import wojtekDlaKogoImg from '~/assets/images/site/wojtek-dla-kogo.jpg';
+import wojtekOAutorzieImg from '~/assets/images/site/wojtek-o-autorze-ksiazka.jpg';
+import extradomLogo from '~/assets/images/partners/extradom.svg';
+
+import interior01 from '~/assets/images/ksiazka/interior-01.jpg';
+import interior02 from '~/assets/images/ksiazka/interior-02.jpg';
+import interior03 from '~/assets/images/ksiazka/interior-03.jpg';
+import interior04 from '~/assets/images/ksiazka/interior-04.jpg';
+import interior05 from '~/assets/images/ksiazka/interior-05.jpg';
+import interior06 from '~/assets/images/ksiazka/interior-06.jpg';
+import interior07 from '~/assets/images/ksiazka/interior-07.jpg';
+import interior08 from '~/assets/images/ksiazka/interior-08.jpg';
+
+
+const interiorImages = [
+  { src: interior01, alt: 'Rozkładówka książki 1' },
+  { src: interior02, alt: 'Rozkładówka książki 2' },
+  { src: interior03, alt: 'Rozkładówka książki 3' },
+  { src: interior04, alt: 'Rozkładówka książki 4' },
+  { src: interior05, alt: 'Rozkładówka książki 5' },
+  { src: interior06, alt: 'Rozkładówka książki 6' },
+  { src: interior07, alt: 'Rozkładówka książki 7' },
+  { src: interior08, alt: 'Rozkładówka książki 8' },
+];
+
+const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603';
+
+// Spis treści z 1-zdaniowymi opisami rozdziałów (CRO 2026-07: opisy wyprowadzone
+// z treści książki — books_rag; claim register: builds/2026-07-05-ksiazka-sprint1/)
+const tocParts = [
+  {
+    title: 'Część 1 — Marzenie o własnym domu',
+    chapters: [
+      {
+        t: 'Kim jestem? Dwa słowa, zanim zaczniemy',
+        d: 'Skąd wziąłem wiedzę, którą Wam przekazuję — i dlaczego piszę z perspektywy inwestora, nie wykonawcy.',
+      },
+      {
+        t: 'Pięć porad, jak czytać tę książkę, aby wykorzystać ją w pełni',
+        d: 'Jak pracować z książką na każdym etapie — od załatwiania kredytu po moment wstawiania okien.',
+      },
+      {
+        t: 'Czego pragniesz?',
+        d: 'Historia Ryśka i pytania, które warto sobie zadać, zanim marzenie o domu zamieni się w plan.',
+      },
+      {
+        t: 'Finanse i historia miksera za 300 zł',
+        d: 'Anegdota o mikserze, która pokazuje, jak naprawdę podejmujemy decyzje o pieniądzach — i co z tego wynika dla budżetu budowy.',
+      },
+      {
+        t: 'Wymarzony projekt',
+        d: 'Pierwsza selekcja projektu: jak porównywać projekty domów i przełożyć potrzeby rodziny na metry oraz układ pomieszczeń.',
+      },
+      {
+        t: 'Wymarzona działka',
+        d: 'Minimalne wymiary działki pod Wasz projekt i pierwsza weryfikacja w miejscowym planie zagospodarowania.',
+      },
+    ],
+  },
+  {
+    title: 'Część 2 — Planowanie budowy',
+    chapters: [
+      {
+        t: 'Twoja Drużyna Pierścienia',
+        d: 'Nie zrobicie tego sami — kto jest Wam potrzebny na jakim etapie budowy.',
+      },
+      {
+        t: 'Wybór technologii budowy',
+        d: 'Pustak ceramiczny, silikat czy gazobeton — jak wybrać technologię bez ulegania efektowi stada.',
+      },
+      {
+        t: 'Zakup działki',
+        d: 'Druga warstwa sita: checklista wymagań technicznych, przez którą przepuszczacie każdą działkę przed zakupem.',
+      },
+      {
+        t: 'Co jeśli nie umiesz znaleźć odpowiedniej działki?',
+        d: 'Plan B, gdy rynek nie ma dla Was gotowej oferty.',
+      },
+      {
+        t: 'Ostateczny wybór projektu',
+        d: 'Finalna decyzja projektowa — i dlaczego przyłącza prądu oraz gazu warto zamówić od razu po zakupie działki.',
+      },
+      {
+        t: 'Pozwolenie na budowę',
+        d: 'Procedura krok po kroku: projekt, mapa do celów projektowych, badania gruntu i współpraca z architektem adaptującym.',
+      },
+      {
+        t: 'Poziom zero budynku',
+        d: 'Często bagatelizowany element adaptacji projektu, który decyduje o tym, jak dom usiądzie w terenie.',
+      },
+      {
+        t: 'Kredyt hipoteczny',
+        d: 'Co warto wiedzieć, zanim podpiszecie umowę kredytową na budowę domu.',
+      },
+      {
+        t: 'Projekt wnętrz',
+        d: 'Dlaczego projekt wnętrz to nie luksus, tylko inwestycja, która zwraca się już w trakcie budowy.',
+      },
+      {
+        t: 'Kto to wybuduje i kiedy zacząć rozmawiać z wykonawcami?',
+        d: 'Generalny wykonawca czy system gospodarczy — formy realizacji budowy i właściwy moment na pierwsze rozmowy.',
+      },
+      {
+        t: 'Ukryte pieniądze',
+        d: 'Dlaczego materiał z montażem bywa tańszy niż sam materiał — VAT 8% zamiast 23% w praktyce.',
+      },
+      {
+        t: 'Polisa ubezpieczeniowa',
+        d: 'Polisa na dom w budowie: niewielki koszt, który chroni przed kolosalnymi wydatkami.',
+      },
+      {
+        t: 'Ostatnie przygotowania',
+        d: 'Kontrolne „czy na pewno wszystko macie", zanim na działkę wjedzie pierwsza koparka.',
+      },
+    ],
+  },
+  {
+    title: 'Część 3A — Od pustej działki do stanu surowego',
+    chapters: [
+      {
+        t: 'Wytyczenie przez geodetę',
+        d: 'Ławice, sznurki i gwoździe — jak wygląda pierwszy dzień na budowie i co skontrolować.',
+      },
+      {
+        t: 'Płyta fundamentowa czy ławy fundamentowe',
+        d: 'Różnice między płytą a ławami w praktyce wykonawczej — co kontrolować przy każdej z nich.',
+      },
+      {
+        t: 'Kanalizacja i przelotki mediów',
+        d: 'Rury pod fundamentem: piasek zamiast ostrego kruszywa i inne detale, od których zależy szczelność na lata.',
+      },
+      {
+        t: 'Szalunki, chudy beton i zbrojenie',
+        d: 'Kontrola wymiarów szalunków, rola chudego betonu i odbiór zbrojenia przed betonowaniem.',
+      },
+      {
+        t: 'Izolacja pionowa',
+        d: 'Hydroizolacja i termoizolacja fundamentów: teraz albo przy elewacji — oba warianty z konsekwencjami.',
+      },
+      {
+        t: 'Ściany fundamentowe',
+        d: 'Od wymurowania ścian fundamentowych po zasypkę — z zagęszczaniem warstwowym, żeby grunt nie osiadał.',
+      },
+      {
+        t: 'Murowanie ścian nośnych',
+        d: 'Ulubiony etap autora: co dopilnować, gdy dom rośnie w oczach z dnia na dzień.',
+      },
+      {
+        t: 'Elementy żelbetowe',
+        d: 'Wieńce, stropy, słupy i trzpienie — co bezwzględnie odbiera kierownik budowy przed betonowaniem.',
+      },
+      {
+        t: 'Konstrukcja dachu',
+        d: 'Więźba, wiązary prefabrykowane czy stropodach — z certyfikowanym, suszonym drewnem jako warunkiem numer jeden.',
+      },
+      {
+        t: 'Pokrycia dachowe',
+        d: 'Dachówka, blacha, gont i papa — plus wentylacja dachu i obróbki blacharskie, czyli najczęstsze źródło przecieków.',
+      },
+      {
+        t: 'Ściany działowe',
+        d: 'Dlaczego ściany działowe najlepiej murować dopiero pod przykrytym dachem.',
+      },
+    ],
+  },
+  {
+    title: 'Część 3B — Do stanu deweloperskiego',
+    chapters: [
+      {
+        t: 'Stolarka otworowa — drzwi, okna, rolety, brama',
+        d: 'Wybór okien, drzwi i bramy plus prawidłowy montaż, który znaczy więcej niż marka produktu.',
+      },
+      {
+        t: 'Przyłącza do budynku (woda, kanalizacja, gaz)',
+        d: 'Prąd, woda, kanalizacja, gaz i internet — formalności oraz kolejność, żeby nic Was potem nie blokowało.',
+      },
+      {
+        t: 'Instalacja elektryczna',
+        d: 'Rozdzielnica, różnicówki i punkty elektryczne — etap, który wymaga wizji gotowych wnętrz.',
+      },
+      {
+        t: 'Klimatyzacja',
+        d: 'Montaż od razu albo samo przygotowanie instalacji — co zaplanować, póki ściany są jeszcze surowe.',
+      },
+      {
+        t: 'Fotowoltaika',
+        d: 'Okablowanie pod panele warto przygotować teraz, nawet jeśli montaż odkładacie na później.',
+      },
+      {
+        t: 'Tynki maszynowe',
+        d: 'Tynk gipsowy to nie gładź — czego realnie oczekiwać i jak odebrać tynki.',
+      },
+      {
+        t: 'Rekuperacja — wentylacja z odzyskiem ciepła',
+        d: 'Rekuperacja to komfort, nie oszczędność — rozbrajam mit sprzedawców i pokazuję, co naprawdę daje wentylacja mechaniczna.',
+      },
+      {
+        t: 'Instalacja wodno-kanalizacyjna',
+        d: 'Rozprowadzenie wody i kanalizacji po budynku — zanim zamkną je wylewki.',
+      },
+      {
+        t: 'Ogrzewanie — źródła ciepła i sposoby ogrzewania',
+        d: 'Pompa ciepła, gaz czy prąd oraz podłogówka kontra grzejniki — pełny przegląd bez mitów.',
+      },
+      {
+        t: 'Wylewki podłogowe',
+        d: 'Izolacja pozioma, styropian i wylewki — najobszerniej omówiony etap „mokrych" prac wewnątrz domu.',
+      },
+      {
+        t: 'Sufity podwieszane i zabudowa poddasza',
+        d: 'Paroizolacja pod płytami k-g — detal, od którego zależy skuteczność całego docieplenia poddasza.',
+      },
+      {
+        t: 'Docieplenie elewacji',
+        d: 'Styropian czy wełna, warstwa zbrojąca i tynk — ostatni krok do stanu deweloperskiego na zewnątrz.',
+      },
+    ],
+  },
+  {
+    title: 'Część 4 — Wykańczanie domu, a nie inwestora',
+    chapters: [
+      {
+        t: 'Wykończenie łazienek',
+        d: 'Projekt, wykonawca z polecenia i obejrzana na żywo realizacja — fundament udanej łazienki.',
+      },
+      {
+        t: 'Płytkowanie pozostałych podłóg',
+        d: 'Od którego miejsca kleić płytki i gdzie wyjdą docinki — decyzje, które płytkarz podejmuje pierwszego dnia.',
+      },
+      {
+        t: 'Gładzie i malowanie',
+        d: 'Dlaczego nawet idealna gładź nie gwarantuje idealnych ścian — i co z tym zrobić.',
+      },
+      {
+        t: 'Montaż klimatyzatorów',
+        d: 'Jednostki wewnętrzne wchodzą po wykończeniu ścian — domknięcie instalacji przygotowanej wcześniej.',
+      },
+      {
+        t: 'Osprzęt elektryczny i oświetlenie',
+        d: 'Gniazdka, włączniki i lampy — właściwy moment montażu, żeby nie niszczyć wykończonych powierzchni.',
+      },
+      {
+        t: 'Listwy przypodłogowe',
+        d: 'Przed meblami czy po meblach? Odpowiedź brzmi: to zależy — i pokazuję od czego.',
+      },
+      {
+        t: 'Zgłoszenie zakończenia prac w nadzorze',
+        d: 'Formalne domknięcie budowy przed wprowadzeniem.',
+      },
+      {
+        t: 'Utwardzenie terenu wokół domu',
+        d: 'Jak niewielkim kosztem utwardzić kruszywem teren, żeby nie brodzić w błocie przez pierwsze lata.',
+      },
+      {
+        t: 'Automatyczne nawadnianie i roboty koszące',
+        d: 'Kable i rury pod nawadnianie wkopcie od razu — nawet jeśli montaż planujecie za kilka lat.',
+      },
+      {
+        t: 'Studnia głębinowa',
+        d: 'Kiedy studnia zamiast wodociągu ma sens i jak sprawdzić studnie sąsiadów na Geoportalu jeszcze przed zakupem działki.',
+      },
+      {
+        t: 'Zmiękczacz wody',
+        d: 'Twarda woda kontra żywica jonowymienna — jak działa zmiękczacz i kiedy go potrzebujecie.',
+      },
+      {
+        t: 'Basen w ogrodzie',
+        d: 'Co przemyśleć, zanim zdecydujecie się na basen przy domu.',
+      },
+      {
+        t: 'Smart home — inteligentne domy',
+        d: 'Co przewidzieć w instalacji elektrycznej (z zapasem w rozdzielnicy), żeby nie kuć ścian później.',
+      },
+      {
+        t: 'Instalacja alarmowa lub monitoring',
+        d: 'Kable alarmu i kamer prowadzicie razem z instalacją elektryczną — potem będzie za późno.',
+      },
+      {
+        t: 'Ładowarka samochodów elektrycznych',
+        d: 'Przygotowanie zasilania pod ładowarkę EV na etapie instalacji elektrycznej.',
+      },
+      {
+        t: 'Kino domowe',
+        d: 'Kable do głośników rozprowadźcie z instalacją elektryczną — inaczej czeka Was kucie ścian.',
+      },
+      {
+        t: 'Centralny odkurzacz czy może robot',
+        d: 'Centralny odkurzacz kontra robot sprzątający — co rozważyć w nowym domu.',
+      },
+    ],
+  },
+];
+
+export interface Props {
+  showBookNav?: boolean;
+}
+
+const { showBookNav = true } = Astro.props;
+---
+
+  <!-- Book schema JSON-LD (minimal, BEZ aggregateRating — Google penalty risk) -->
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Book',
+      name: 'Od Marzenia Do Wprowadzenia',
+      author: {
+        '@type': 'Person',
+        name: 'Wojciech Tracichleb',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Vultima sp. z o.o.',
+        url: 'https://pozytywniezbudowani.pl',
+      },
+      inLanguage: 'pl',
+      numberOfPages: 608,
+      bookFormat: 'https://schema.org/Hardcover',
+      image: 'https://pozytywniezbudowani.pl/images/ksiazka-hero.jpg',
+      offers: {
+        '@type': 'Offer',
+        price: '119.00',
+        priceCurrency: 'PLN',
+        availability: 'https://schema.org/InStock',
+        url: 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603',
+      },
+    })}
+  />
+
+  <!-- FAQPage JSON-LD — 7 Q/A 1:1 z sekcji #faq (linie 939-1090). Risk note: Google od sierpnia 2023 ograniczył rich results dla FAQ — schema zostaje dla semantic value, AI Overviews, Bing/Yandex/DDG. Re-add po debate I7 (P2 list, "inne sesje"). Audit: builds/audyty/2026-04-25-pz-tech-seo-deep-audit-rafal.md -->
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'Kiedy zacząć czytać tę książkę?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Im wcześniej, tym lepiej. Ta książka jest najcenniejsza ZANIM zaczniesz budowę — kiedy jeszcze masz wybór działki, projektu, technologii. Po pierwszym etapie wybory się zamykają. Jeśli planujesz budowę za rok lub dwa — to idealny moment na zakup.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Mam znajomego wykonawcę, on mi powie wszystko. Po co mi ta książka?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Wykonawca powie Ci jak zbudować to, co on zbuduje. Ja piszę z perspektywy INWESTORA — co kontrolować, o co pytać, czego nie robić. To dwie różne perspektywy. Nawet najlepszy GW jest stroną w umowie — Ty jesteś drugą. Musisz wiedzieć co podpisujesz.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Są darmowe artykuły w internecie. Dlaczego mam płacić?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Tak, są. Napisałem ich ponad 100 na moim blogu pozytywniezbudowani.pl — zapraszam do czytania za darmo. Ale budowa domu to nie pięć porad — to 608 stron powiązanych decyzji. Książka porządkuje to w jeden spójny przewodnik, od działki do wprowadzenia. Tego nie zrobisz składając artykuły ze 100 różnych źródeł.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: '608 stron to dużo. Przeczytam?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Nie musisz czytać od deski do deski. Książka jest podzielona na 86 krótkich rozdziałów — każdy to jedna konkretna decyzja (fundamenty? instalacja elektryczna? kredyt hipoteczny?). Otwierasz dokładnie to, czego potrzebujesz w danym tygodniu budowy. Używasz jak encyklopedii.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Czy jest wersja elektroniczna (ebook, PDF)?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Na ten moment dostępna jest tylko wersja papierowa. Fizyczna książka ma przewagi: można ją zabrać na budowę, robić notatki ołówkiem, wracać bez otwierania laptopa w błocie i pyle. Twarda oprawa jest zaprojektowana do pracy na placu.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Jak szybko dostanę książkę?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. W praktyce: zamawiasz dziś do południa — za kilka dni masz książkę w ręce.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Ile egzemplarzy sprzedaliście?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Ponad 2000 egzemplarzy od premiery. Książka jest też polecana przez portal Extradom.pl — największy serwis z projektami domów w Polsce. To nie jest kolejny e-book z internetu — to 608 stron drukowanych, twardych faktów zebranych przez 17 miesięcy pisania.',
+          },
+        },
+      ],
+    })}
+  />
+
+  <!-- HERO SPLIT — dark bg, portret Wojtka, 4 value props, CTA -->
+  <section class="bg-slate-900 py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+        <!-- LEFT: portret (mobile: order-2) -->
+        <div class="relative order-2 md:order-1">
+          <Image
+            src={heroWojtekKsiazka}
+            alt="Wojciech Tracichleb — autor książki Od Marzenia Do Wprowadzenia"
+            widths={[400, 768, 1200]}
+            width={600}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            priority={true}
+            class="w-full h-auto rounded-lg shadow-2xl"
+          />
+        </div>
+
+        <!-- RIGHT: copy (mobile: order-1) -->
+        <div class="order-1 md:order-2">
+          <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">
+            KOMPLETNY PRZEWODNIK DLA INWESTORA
+          </p>
+          <h1 class="font-display text-4xl md:text-5xl font-bold text-white leading-tight mb-5">
+            Zrozum każdą decyzję budowlaną — krok po kroku
+          </h1>
+          <p class="text-lg text-slate-300 mb-6 leading-relaxed">
+            608 stron, 86 rozdziałów, 13 lat doświadczenia generalnego wykonawcy. Kompletny przewodnik dla inwestora —
+            od pierwszej myśli o budowie do wprowadzenia.
+          </p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-start gap-3">
+              <svg
+                class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path>
+              </svg>
+              <span class="text-slate-200">Zrozumiesz, co naprawdę decyduje o kosztach budowy</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg
+                class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path>
+              </svg>
+              <span class="text-slate-200">Zadasz wykonawcy właściwe pytania, zanim podpiszesz umowę</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg
+                class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path>
+              </svg>
+              <span class="text-slate-200">Poznasz każdy etap — od działki, przez stan surowy, po odbiór</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg
+                class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path>
+              </svg>
+              <span class="text-slate-200">Unikniesz błędów decyzyjnych, które kosztowały innych setki tysięcy</span>
+            </li>
+          </ul>
+          <div class="flex flex-col sm:flex-row gap-4 items-start">
+            <a
+              href={salesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold text-lg px-8 py-4 rounded-full transition-all shadow-lg hover:shadow-xl"
+              data-fbq-event="AddToCart"
+            >
+              <svg
+                class="w-5 h-5"
+                width="20"
+                height="20"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 17h-11v-14h-2"></path>
+                <path d="M6 5l14 1l-1 7h-13"></path>
+              </svg>
+              Kup książkę — 119 zł
+            </a>
+            <a
+              href="#co-zyskasz"
+              class="text-slate-400 hover:text-amber-400 transition-colors text-sm py-4 underline underline-offset-4"
+            >
+              Zobacz, co w środku ↓
+            </a>
+          </div>
+          <p class="text-sm text-slate-500 mt-3">Wysyłka od 4,90 zł • kurier DPD</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Anchor Navigation -->
+  {showBookNav && <BookNavigation />}
+
+  <!-- Co zyskasz -->
+  <Features
+    id="co-zyskasz"
+    tagline="Zawartość"
+    title="Co zyskasz dzięki książce"
+    items={[
+      {
+        title: 'Pewność siebie w każdej decyzji budowlanej',
+        description:
+          'Zrozumiesz, dlaczego wykonawca proponuje dane rozwiązanie i czy jest ono optymalne. Będziesz rozmawiać z fachowcami jak równy z równym.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Oszczędność dziesiątek tysięcy złotych na unikniętych błędach',
+        description:
+          'Każdy błąd na budowie kosztuje — często dziesiątki tysięcy złotych. Książka pokazuje konkretne pułapki i jak ich uniknąć.',
+        icon: 'tabler:currency-zloty',
+      },
+      {
+        title: 'Spokojny sen przez cały okres budowy',
+        description:
+          'Gdy wiesz, co powinno się dziać na każdym etapie, przestajesz się bać niespodzianek. Kontrolujesz proces zamiast reagować na kryzysy.',
+        icon: 'tabler:moon',
+      },
+      {
+        title: 'Wiedzę, jak skutecznie komunikować się z wykonawcami',
+        description:
+          'Dowiesz się, jakie pytania zadawać, na co zwracać uwagę w umowach i jak egzekwować ustalenia bez konfliktów.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Plan działania na każdy etap — od pozwolenia po odbiór',
+        description:
+          'Książka prowadzi Cię krok po kroku przez cały proces. Nie musisz zgadywać, co dalej — masz gotową mapę.',
+        icon: 'tabler:list-check',
+      },
+      {
+        title: 'Umiejętność rozpoznawania problemów zanim staną się kosztowne',
+        description:
+          'Nauczysz się wychwytywać nieprawidłowości na wczesnym etapie — zanim przerodzi się to w kosztowną naprawę.',
+        icon: 'tabler:eye',
+      },
+      {
+        title: 'Kontrolę nad terminem i budżetem inwestycji',
+        description:
+          'Poznasz sprawdzone metody planowania budowy i zarządzania budżetem, dzięki którym unikniesz typowego scenariusza: "dwa razy drożej i rok dłużej".',
+        icon: 'tabler:chart-line',
+      },
+    ]}
+  />
+
+  <!-- PRICING CARD — dedykowana sekcja BEZ value stacking (debate C3) -->
+  <section class="bg-gradient-to-br from-blue-600 to-blue-800 py-16 md:py-24" id="kup">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl p-8 md:p-12 relative overflow-hidden">
+        <!-- Ribbon -->
+        <div
+          class="absolute top-0 right-0 bg-amber-500 text-slate-900 text-xs font-bold px-4 py-2 rounded-bl-xl uppercase tracking-wide"
+        >
+          Jedyny wariant
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <!-- LEFT: okładka -->
+          <div class="flex justify-center">
+            <Image
+              src={bookCoverCta}
+              alt="Okładka książki Od Marzenia Do Wprowadzenia"
+              width={280}
+              height={392}
+              widths={[240, 280, 360]}
+              sizes="280px"
+              class="w-full max-w-[280px] h-auto rounded-lg shadow-xl"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- RIGHT: pricing + bullets + CTA -->
+          <div>
+            <h2 class="font-display text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-1">
+              Od Marzenia Do Wprowadzenia
+            </h2>
+            <p class="text-muted mb-6">Kompletny przewodnik budowy domu</p>
+
+            <div class="mb-6">
+              <p class="text-xs font-semibold uppercase tracking-wider text-muted mb-1">Twoja cena</p>
+              <div class="text-6xl md:text-7xl font-bold text-primary dark:text-amber-400 font-display leading-none">
+                119 zł
+              </div>
+            </div>
+
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-start gap-3">
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
+                </svg>
+                <span class="text-sm text-gray-800 dark:text-slate-200">
+                  <strong>Książka papierowa — 608 stron, twarda oprawa</strong><br />
+                  78 oryginalnych ilustracji (rysunki architektoniczne, schematy, przekroje)
+                </span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
+                </svg>
+                <span class="text-sm text-gray-800 dark:text-slate-200">
+                  <strong>Wysyłka od 4,90 zł — kurier DPD</strong><br />
+                  Szybka dostawa na terenie całej Polski
+                </span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
+                </svg>
+                <span class="text-sm text-gray-800 dark:text-slate-200">
+                  <strong>Gotowa teraz</strong><br />
+                  Zamówienie do 11:00 = wysyłka dziś
+                </span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
+                </svg>
+                <span class="text-sm text-gray-800 dark:text-slate-200">
+                  <strong>Ponad 2000 sprzedanych egzemplarzy</strong><br />
+                  Sprawdzony przewodnik, polecany przez Extradom.pl
+                </span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg
+                  class="w-5 h-5 text-green-600 dark:text-green-400 mt-0.5 flex-shrink-0"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  ></path>
+                </svg>
+                <span class="text-sm text-gray-800 dark:text-slate-200">
+                  <strong>Autor: 13 lat praktyki w budownictwie jednorodzinnym</strong><br />
+                  Z własnej firmy 4izby.pl
+                </span>
+              </li>
+            </ul>
+
+            <a
+              href={salesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 w-full md:w-auto bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold text-xl px-10 py-5 rounded-full transition-all shadow-2xl hover:shadow-amber-300/40 mb-4"
+              data-fbq-event="AddToCart"
+            >
+              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 17h-11v-14h-2"></path>
+                <path d="M6 5l14 1l-1 7h-13"></path>
+              </svg>
+              Kup książkę — 119 zł
+            </a>
+            <p class="text-xs text-muted">
+              Konsultacja generalnego wykonawcy kosztuje 300–500 zł za godzinę. Ta książka to 13 lat praktyki za 119 zł.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dla kogo — portret Wojtka (P1: swap book spread → wojtek-dla-kogo) -->
+  <section class="py-16 md:py-20 bg-blue-50 dark:bg-transparent">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+        <!-- LEFT: portret Wojtka z książką -->
+        <div class="relative">
+          <Image
+            src={wojtekDlaKogoImg}
+            alt="Wojciech Tracichleb — autor książki Od Marzenia Do Wprowadzenia"
+            widths={[400, 768, 1200]}
+            width={1200}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            loading="lazy"
+            class="w-full h-auto rounded-lg"
+          />
+        </div>
+
+        <!-- RIGHT: copy + items -->
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-primary mb-2">Dla kogo</p>
+          <h2 class="text-3xl font-bold mb-3 dark:text-white font-display">Dla kogo napisałem tę książkę</h2>
+          <p class="text-lg text-muted mb-6">Ta książka zmieni Wasze podejście do budowy domu.</p>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
+              <span class="text-base">Marzysz o własnym domu i myślisz o jego budowie</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
+              <span class="text-base">Budujesz systemem gospodarczym i szukasz uporządkowanej wiedzy</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
+              <span class="text-base">Zatrudniłeś generalnego wykonawcę, ale chcesz mieć kontrolę nad budową</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
+              <span class="text-base">Rozważasz kupno od dewelopera, bo boisz się samodzielnej organizacji budowy</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                ><path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                ></path></svg
+              >
+              <span class="text-base">Planujesz budowę za 2-3 lata i chcesz się odpowiednio przygotować</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dla kogo NIE jest ta książka — szczera kwalifikacja (CRO 2026-07) -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-8">
+        <p class="text-sm font-semibold uppercase tracking-wider text-primary">Uczciwie</p>
+        <h2 class="text-3xl font-bold dark:text-white mt-2 font-display">Dla kogo NIE jest ta książka</h2>
+        <p class="text-muted mt-3">
+          Wolę, żebyście wiedzieli to przed zakupem, a nie po. Ta książka nie jest dla Was, jeśli:
+        </p>
+      </div>
+      <ul class="space-y-4">
+        <li class="flex items-start gap-3 bg-white dark:bg-gray-800 rounded-xl p-5 shadow-sm border border-gray-100 dark:border-gray-700">
+          <svg class="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <span class="text-base text-gray-800 dark:text-slate-200">
+            <strong>Szukacie sposobu na dom „bez wysiłku, w 5 minut".</strong> Budowa domu to maraton, nie sprint.
+            Książka porządkuje tę pracę i oszczędza Wam błędów — ale nie wykona jej za Was.
+          </span>
+        </li>
+        <li class="flex items-start gap-3 bg-white dark:bg-gray-800 rounded-xl p-5 shadow-sm border border-gray-100 dark:border-gray-700">
+          <svg class="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <span class="text-base text-gray-800 dark:text-slate-200">
+            <strong>Jesteście wykonawcami i szukacie wiedzy technicznej pod egzekucję robót.</strong> To przewodnik
+            dla inwestora: co kontrolować, o co pytać, czego nie podpisywać — a nie podręcznik technologii dla ekip.
+          </span>
+        </li>
+        <li class="flex items-start gap-3 bg-white dark:bg-gray-800 rounded-xl p-5 shadow-sm border border-gray-100 dark:border-gray-700">
+          <svg class="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <span class="text-base text-gray-800 dark:text-slate-200">
+            <strong>Oczekujecie gotowego cennika i kosztorysu.</strong> Ceny w budownictwie starzeją się szybciej niż
+            książki. Zamiast tabelki z kwotami dostaniecie mechanizmy podejmowania decyzji finansowych — te się nie starzeją.
+          </span>
+        </li>
+        <li class="flex items-start gap-3 bg-white dark:bg-gray-800 rounded-xl p-5 shadow-sm border border-gray-100 dark:border-gray-700">
+          <svg class="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <span class="text-base text-gray-800 dark:text-slate-200">
+            <strong>Planujecie inwestycję deweloperską albo blok.</strong> Piszę wyłącznie o budownictwie
+            jednorodzinnym — bo tylko w nim specjalizuję się od 2013 roku.
+          </span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Spis treści — akordeon z opisami rozdziałów (CRO 2026-07, opisy z treści książki) -->
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-16" id="spis-tresci">
+    <div class="text-center mb-10">
+      <p class="text-sm font-semibold uppercase tracking-wider text-primary">Pełna zawartość</p>
+      <h2 class="text-3xl md:text-4xl font-bold dark:text-white mt-2 font-display">Spis treści</h2>
+      <p class="text-muted mt-3">Kliknij część, aby zobaczyć rozdziały z opisem — sprawdźcie sami, czy to książka dla Was</p>
+    </div>
+
+    <div class="space-y-3">
+      {
+        tocParts.map((part) => (
+          <details class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
+            <summary class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary text-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+              <span>{part.title}</span>
+              <svg
+                class="w-5 h-5 transform transition-transform group-open:rotate-180"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <ul class="px-6 pb-5 space-y-3 border-t border-gray-100 dark:border-gray-700 pt-4">
+              {part.chapters.map((ch) => (
+                <li class="text-sm leading-relaxed">
+                  <span class="font-semibold text-gray-900 dark:text-white">{ch.t}</span>
+                  <span class="text-muted"> — {ch.d}</span>
+                </li>
+              ))}
+            </ul>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+
+  <!-- Wnętrze książki — galeria z lightbox -->
+  <section class="relative not-prose scroll-mt-[144px]" id="wnetrze-ksiazki">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent pointer-events-none -z-[1]"></div>
+    <div class="max-w-6xl mx-auto px-4 md:px-6 py-12 md:py-16">
+      <div class="text-center mb-10">
+        <p class="text-sm font-semibold uppercase tracking-wider text-primary">Zajrzyj do środka</p>
+        <h2 class="text-3xl font-bold dark:text-white mt-2 mb-3">Wnętrze książki</h2>
+        <p class="text-muted max-w-2xl mx-auto">
+          Przejrzyste ilustracje, czytelny układ i praktyczne wskazówki na każdej stronie. 608 stron w twardej oprawie —
+          to książka, do której będziesz wracać na każdym etapie budowy.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        {
+          interiorImages.map((img, i) => (
+            <button
+              type="button"
+              class="lightbox-trigger rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 bg-white dark:bg-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary"
+              data-lightbox-index={i}
+              aria-label={`Powiększ zdjęcie: ${img.alt}`}
+            >
+              <Image
+                src={img.src}
+                alt={img.alt}
+                width={800}
+                widths={[400, 800]}
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                class="w-full h-auto"
+                loading="lazy"
+              />
+            </button>
+          ))
+        }
+      </div>
+
+      <!-- Lightbox overlay -->
+      <div
+        id="lightbox"
+        class="fixed inset-0 bg-black/90 z-50 hidden items-center justify-center p-4 cursor-zoom-out"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Powiększenie zdjęcia"
+      >
+        <button
+          id="lightbox-close"
+          type="button"
+          class="absolute top-4 right-4 text-white/80 hover:text-white transition-colors"
+          aria-label="Zamknij"
+        >
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+        <button
+          id="lightbox-prev"
+          type="button"
+          class="absolute left-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white transition-colors"
+          aria-label="Poprzednie"
+        >
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+        </button>
+        <button
+          id="lightbox-next"
+          type="button"
+          class="absolute right-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white transition-colors"
+          aria-label="Następne"
+        >
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </button>
+        <img id="lightbox-img" src="" alt="" class="max-w-full max-h-full object-contain select-none" />
+      </div>
+
+      <script is:inline>
+        (function () {
+          const triggers = document.querySelectorAll('.lightbox-trigger');
+          const lightbox = document.getElementById('lightbox');
+          const lbImg = document.getElementById('lightbox-img');
+          const lbClose = document.getElementById('lightbox-close');
+          const lbPrev = document.getElementById('lightbox-prev');
+          const lbNext = document.getElementById('lightbox-next');
+
+          let current = 0;
+          const items = [];
+
+          triggers.forEach((btn, i) => {
+            const img = btn.querySelector('img');
+            if (img) {
+              items.push({ src: img.src, srcset: img.srcset || '', alt: img.alt });
+            }
+            btn.addEventListener('click', () => open(i));
+          });
+
+          function open(i) {
+            current = i;
+            const item = items[current];
+            if (!item) return;
+            lbImg.src = item.src;
+            lbImg.srcset = item.srcset;
+            lbImg.alt = item.alt;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+          }
+
+          function close() {
+            lightbox.classList.add('hidden');
+            lightbox.classList.remove('flex');
+            document.body.style.overflow = '';
+          }
+
+          function prev(e) {
+            if (e) e.stopPropagation();
+            current = (current - 1 + items.length) % items.length;
+            open(current);
+          }
+
+          function next(e) {
+            if (e) e.stopPropagation();
+            current = (current + 1) % items.length;
+            open(current);
+          }
+
+          lbClose.addEventListener('click', (e) => {
+            e.stopPropagation();
+            close();
+          });
+          lbPrev.addEventListener('click', prev);
+          lbNext.addEventListener('click', next);
+          lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox || e.target === lbImg) close();
+          });
+
+          document.addEventListener('keydown', (e) => {
+            if (lightbox.classList.contains('hidden')) return;
+            if (e.key === 'Escape') close();
+            if (e.key === 'ArrowLeft') prev();
+            if (e.key === 'ArrowRight') next();
+          });
+        })();
+      </script>
+    </div>
+  </section>
+
+  <!-- Stats — 6 liczb -->
+  <section class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-10 gap-x-6 text-center">
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">608</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">stron</div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">86</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">rozdziałów</div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">78</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">ilustracji</div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">13</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">
+            lat doświadczenia
+          </div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">2000+</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">
+            sprzedanych egzemplarzy
+          </div>
+        </div>
+        <div>
+          <div class="font-display text-primary text-5xl md:text-6xl font-bold dark:text-white mb-2">17</div>
+          <div class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400">
+            miesięcy pracy
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recenzje — z placeholder Extradom logo (P1) -->
+  <section id="recenzje" class="py-16 md:py-20 bg-blue-50 dark:bg-transparent">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <!-- Partner logos -->
+      <div class="text-center mb-8">
+        <p class="text-xs font-semibold uppercase tracking-wider text-muted mb-3">Polecają nas</p>
+        <div class="flex justify-center items-center gap-8 flex-wrap">
+          <a
+            href="https://www.extradom.pl/porady/artykul-od-marzenia-do-wprowadzenia-wojciech-tracichleb-recenzja-ksiazki"
+            target="_blank"
+            rel="noopener"
+            class="opacity-70 hover:opacity-100 transition-opacity"
+            title="Recenzja książki na Extradom.pl"
+          >
+            <img src={extradomLogo.src} alt="Extradom.pl" width="160" height="28" class="h-7 w-auto" loading="lazy" />
+          </a>
+        </div>
+      </div>
+      <Testimonials
+        id="recenzje-lista"
+        title="Co mówią recenzenci"
+        testimonials={[
+          {
+            testimonial:
+              'Ta książka powinna być dołączana do każdego pozwolenia na budowę. "Od marzenia do wprowadzenia" to lektura, która realnie pomaga odnaleźć się w procesie budowy domu. Dzięki niej łatwiej podjąć decyzje — zarówno te oczywiste, jak i te mniej dostrzegalne, które mogą zaważyć nie tylko na kosztach, ale i na komforcie życia w przyszłym domu.',
+            name: 'Daria Bućko',
+            job: 'Extradom.pl',
+          },
+          {
+            testimonial:
+              'Jak bardzo chciałabym przeczytać tę książkę osiem lat temu! Książka Wojciecha Tracichleba to esencja wiedzy i doświadczenia, jakie autor zdobył, pracując jako generalny wykonawca. Na kilkuset stronach nie tylko wyjaśnia kolejne etapy budowy, ale co najważniejsze — dzieli się praktycznymi wskazówkami.',
+            name: 'Joanna Pachałko',
+            job: 'Czytelniczka',
+          },
+          {
+            testimonial:
+              'Najbardziej w książce cenię nie zwartą budowę treści czy wyszukane słownictwo, a autentyczność. Zawarte w niej informacje to nie zbitek frazesów czy danych wygrzebanych z internetu, a realne doświadczenie.',
+            name: 'Aleksander Lipiński',
+            job: 'Czytelnik',
+          },
+          {
+            testimonial:
+              'Wiedza, jak to zwykle bywa, jest rozproszona i laikowi trudno ją zdobyć. Przecież nie ma podręcznika, który zbierałby wszystkie przydatne informacje w jednym miejscu. A właśnie — jest! To właśnie ta książka.',
+            name: 'Mikołaj Bizoń',
+            job: 'Czytelnik',
+          },
+          {
+            testimonial:
+              'Autor operuje specjalistycznymi pojęciami w taki sposób, że wszystko szybko staje się dla czytelnika jasne. Tłumaczy nawet najprostsze elementy, ale — co ważne — nie znajdzie się tu choćby jednego zdania, z którego wypływałoby poczucie wyższości autora.',
+            name: 'Klaudia Stryczyńska',
+            job: 'Czytelniczka',
+          },
+          {
+            testimonial:
+              'Po przeczytaniu tej książki pomimo mego doświadczenia w budownictwie doszedłem do wniosku, że jednak wciąż mało wiem i na niektóre rzeczy powinno się patrzeć zdecydowanie głębiej — tak jak robi to autor. Obowiązkowa pozycja na półkach każdego, kto postanowił spełnić swe marzenie o budowie własnego domu.',
+            name: 'Norbert Mroczkowski',
+            job: 'Czytelnik',
+          },
+        ]}
+      />
+    </div>
+  </section>
+
+  <!-- O autorze — dark bg + portret (P1) -->
+  <section class="bg-slate-900 text-white py-16 md:py-24" id="o-autorze">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+        <!-- LEFT: bio + guarantee -->
+        <div>
+          <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-3">O autorze</p>
+          <h2 class="font-display text-3xl md:text-4xl font-bold text-white mb-6">Wojciech Tracichleb</h2>
+          <div class="space-y-4 text-slate-300 leading-relaxed">
+            <p>
+              Od 2013 roku specjalizuję się wyłącznie w budownictwie jednorodzinnym. Uczestniczyłem w powstawaniu
+              kilkuset takich budynków i poznałem proces budowlany z każdej możliwej perspektywy.
+            </p>
+            <p>
+              Na co dzień prowadzę firmę budowlaną 4izby.pl i jako generalny wykonawca realizuję budowy domów
+              jednorodzinnych. Równolegle prowadzę blog pozytywniezbudowani.pl — ponad 100 artykułów z praktycznej
+              wiedzy budowlanej dla inwestorów.
+            </p>
+            <p>
+              Ta książka to 13 lat tej pracy zebranych w jednym miejscu — napisane z perspektywy inwestora, nie
+              wykonawcy.
+            </p>
+          </div>
+
+          <!-- Social proof -->
+          <div class="mt-8 bg-amber-950/50 border-l-4 border-amber-500 rounded-r-lg p-5">
+            <p class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">Zaufali mi czytelnicy</p>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Ponad 2000 sprzedanych egzemplarzy. Oficjalna współpraca z Extradom.pl — największym portalem z projektami
+              domów w Polsce.
+            </p>
+          </div>
+        </div>
+
+        <!-- RIGHT: portret -->
+        <div>
+          <Image
+            src={wojtekOAutorzieImg}
+            alt="Wojciech Tracichleb — autor książki Od Marzenia Do Wprowadzenia"
+            widths={[400, 768, 1200]}
+            width={1200}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            loading="lazy"
+            class="w-full h-auto rounded-lg shadow-2xl"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ — 7 pytań (P1, natywne details, FAQPage schema dodany w head — re-add po debate I7 P2, audit Rafała 2026-04-25) -->
+  <section class="py-16 md:py-20" id="faq">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-10">
+        <p class="text-sm font-semibold uppercase tracking-wider text-primary">Pytania i odpowiedzi</p>
+        <h2 class="text-3xl md:text-4xl font-bold dark:text-white mt-2 font-display">Najczęstsze pytania</h2>
+      </div>
+      <div class="space-y-3">
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
+            <span>Kiedy zacząć czytać tę książkę?</span>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
+          </summary>
+          <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
+            Im wcześniej, tym lepiej. Ta książka jest najcenniejsza ZANIM zaczniesz budowę — kiedy jeszcze masz wybór
+            działki, projektu, technologii. Po pierwszym etapie wybory się zamykają. Jeśli planujesz budowę za rok lub
+            dwa — to idealny moment na zakup.
+          </p>
+        </details>
+
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
+            <span>Mam znajomego wykonawcę, on mi powie wszystko. Po co mi ta książka?</span>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
+          </summary>
+          <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
+            Wykonawca powie Ci jak zbudować to, co on zbuduje. Ja piszę z perspektywy INWESTORA — co kontrolować, o co
+            pytać, czego nie robić. To dwie różne perspektywy. Nawet najlepszy GW jest stroną w umowie — Ty jesteś
+            drugą. Musisz wiedzieć co podpisujesz.
+          </p>
+        </details>
+
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
+            <span>Są darmowe artykuły w internecie. Dlaczego mam płacić?</span>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
+          </summary>
+          <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
+            Tak, są. Napisałem ich ponad 100 na moim blogu pozytywniezbudowani.pl — zapraszam do czytania za darmo. Ale
+            budowa domu to nie pięć porad — to 608 stron powiązanych decyzji. Książka porządkuje to w jeden spójny
+            przewodnik, od działki do wprowadzenia. Tego nie zrobisz składając artykuły ze 100 różnych źródeł.
+          </p>
+        </details>
+
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
+            <span>608 stron to dużo. Przeczytam?</span>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
+          </summary>
+          <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
+            Nie musisz czytać od deski do deski. Książka jest podzielona na 86 krótkich rozdziałów — każdy to jedna
+            konkretna decyzja (fundamenty? instalacja elektryczna? kredyt hipoteczny?). Otwierasz dokładnie to, czego
+            potrzebujesz w danym tygodniu budowy. Używasz jak encyklopedii.
+          </p>
+        </details>
+
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
+            <span>Czy jest wersja elektroniczna (ebook, PDF)?</span>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
+          </summary>
+          <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
+            Na ten moment dostępna jest tylko wersja papierowa. Fizyczna książka ma przewagi: można ją zabrać na budowę,
+            robić notatki ołówkiem, wracać bez otwierania laptopa w błocie i pyle. Twarda oprawa jest zaprojektowana do
+            pracy na placu.
+          </p>
+        </details>
+
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
+            <span>Jak szybko dostanę książkę?</span>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
+          </summary>
+          <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
+            Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. W praktyce: zamawiasz dziś do południa —
+            za kilka dni masz książkę w ręce.
+          </p>
+        </details>
+
+        <details
+          class="group bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden"
+        >
+          <summary
+            class="cursor-pointer px-6 py-5 flex items-center justify-between font-bold text-primary hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
+            <span>Ile egzemplarzy sprzedaliście?</span>
+            <svg
+              class="w-5 h-5 flex-shrink-0 transform transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
+            >
+          </summary>
+          <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
+            Ponad 2000 egzemplarzy od premiery. Książka jest też polecana przez portal Extradom.pl — największy serwis z
+            projektami domów w Polsce. To nie jest kolejny e-book z internetu — to 608 stron drukowanych, twardych
+            faktów zebranych przez 17 miesięcy pisania.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drużyna Pierścienia -->
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12" id="druzyna">
+    <div class="text-center mb-10">
+      <p class="text-sm font-semibold uppercase tracking-wider text-primary">Zespół</p>
+      <h2 class="text-3xl font-bold dark:text-white mt-2 mb-4">Moja Drużyna Pierścienia</h2>
+      <p class="text-muted max-w-2xl mx-auto">
+        Tak samo jak budowa domu jest ogromnym przedsięwzięciem, tak i napisanie tej książki było nie lada wyzwaniem. W
+        pracę nad książką zaangażowanych było wiele osób. To ich wsparciu, wiedzy i zaangażowaniu książka zawdzięcza
+        swój ostateczny kształt.
+      </p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Dagmara Biela</h3>
+        <p class="text-sm text-primary mb-2">Doradztwo i koordynacja</p>
+        <p class="text-muted text-sm">
+          Matka Chrzestna książki i całego projektu Pozytywnie Zbudowani. Od kilku lat, jako coach i mentorka, wspiera
+          autora w prowadzeniu firmy w ramach Akademii Liderów Branży Budowlanej.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Witold Nieć</h3>
+        <p class="text-sm text-primary mb-2">Redaktor prowadzący</p>
+        <p class="text-muted text-sm">
+          Dziennikarz, publicysta, redaktor z blisko 40-letnim doświadczeniem ze słowem pisanym. Współautor przewodników
+          po Korsyce. Służył radą na każdym etapie pracy nad książką.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Adrianna Hess</h3>
+        <p class="text-sm text-primary mb-2">Redakcja i korekta</p>
+        <p class="text-muted text-sm">
+          Edycją tekstów zajmuje się od niemal 10 lat. Rozwiązała każde zbyt zawiłe zdanie i zadbała, by treść była
+          jednocześnie precyzyjna i przystępna.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Mirosław Marmaj</h3>
+        <p class="text-sm text-primary mb-2">Projekt okładki</p>
+        <p class="text-muted text-sm">
+          Nie tylko stworzył oprawę książki, ale odpowiada też za stronę internetową i całą identyfikację wizualną marki
+          Pozytywnie Zbudowani.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Katarzyna Rzędzian</h3>
+        <p class="text-sm text-primary mb-2">Ilustracje</p>
+        <p class="text-muted text-sm">
+          Niezwykle utalentowana artystka, specjalizująca się w grafice i animacji komputerowej. Dzięki jej pracy
+          trudniejsze zagadnienia stają się zrozumiałe na pierwszy rzut oka.
+        </p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <h3 class="font-bold dark:text-white text-lg">Bartosz Jończyk</h3>
+        <p class="text-sm text-primary mb-2">Łamanie i skład</p>
+        <p class="text-muted text-sm">
+          Od lat pomaga autorom publikacji przekazywać wiedzę w sposób czytelny i łatwy w odbiorze. Dzięki jego
+          zaangażowaniu treść przyswoicie bez trudu.
+        </p>
+      </div>
+      <div
+        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700 sm:col-span-2 lg:col-span-1"
+      >
+        <h3 class="font-bold dark:text-white text-lg">Kinga Dolczewska</h3>
+        <p class="text-sm text-primary mb-2">Korekta po składzie</p>
+        <p class="text-muted text-sm">
+          Korektorka z ponad dziesięcioletnim doświadczeniem. Zaopiekowała się każdą wdową i sierotą w tekście, dbając o
+          perfekcyjny efekt końcowy.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dark CTA Section (footer CTA — zachowany z poprzedniej wersji) -->
+  <section class="relative not-prose scroll-mt-[144px]" id="kup-ksiazke">
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pointer-events-none -z-[1]"
+    >
+    </div>
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-16 md:py-24">
+      <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16">
+        <!-- Book cover image -->
+        <div class="w-full md:w-2/5 flex-shrink-0">
+          <div class="max-w-xs mx-auto md:max-w-sm">
+            <Image
+              src={bookCoverCta}
+              alt="Książka Od Marzenia Do Wprowadzenia — okładka"
+              width={400}
+              height={560}
+              widths={[300, 400]}
+              sizes="(max-width: 767px) 280px, 400px"
+              class="w-full h-auto rounded-lg shadow-2xl"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <!-- CTA content -->
+        <div class="w-full md:w-3/5 text-center md:text-left">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 font-display tracking-tight">Gotowi na budowę?</h2>
+          <p class="text-lg text-slate-300 mb-3 leading-relaxed">
+            608 stron wiedzy, która zaoszczędzi Wam tysięcy złotych i miesięcy stresu. To nie kolejny poradnik z
+            internetu — to kompletny przewodnik napisany przez człowieka, który buduje domy na co dzień.
+          </p>
+          <p class="text-slate-400 mb-8">Twarda oprawa. Wysyłka od 4,90 zł kurierem DPD.</p>
+
+          <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <a
+              href={salesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center rounded-full font-semibold text-base leading-snug transition py-3.5 px-8 ease-in duration-200 cursor-pointer bg-accent hover:bg-yellow-700 text-white border-2 border-accent hover:border-yellow-700 shadow-lg hover:shadow-xl"
+              data-fbq-event="AddToCart"
+            >
+              Gotów zamówić? Kliknij tutaj — 119 zł
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 ml-2"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 17h-11v-14h-2"></path>
+                <path d="M6 5l14 1l-1 7h-13"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky mobile CTA bar (P1) -->
+  <div class="fixed bottom-0 left-0 right-0 bg-amber-500 border-t-2 border-amber-600 p-3 md:hidden z-40 shadow-lg">
+    <a
+      href={salesUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="block w-full bg-slate-900 text-amber-400 font-bold text-center py-3 rounded-lg"
+      data-fbq-event="AddToCart"
+    >
+      Kup książkę — 119 zł
+    </a>
+  </div>
+
+  <!-- Meta Pixel ViewContent (init + PageView handled by GTM site-wide) -->
+  <script is:inline>
+    // ViewContent for /ksiazka/ — fbq loaded by GTM, no duplicate init/PageView
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'ViewContent', {
+        content_name: 'Od Marzenia Do Wprowadzenia',
+        content_type: 'product',
+        content_ids: ['book-od-marzenia'],
+        value: 119.0,
+        currency: 'PLN',
+      });
+    } else {
+      // Fallback: wait for GTM to load fbq
+      window.addEventListener('load', function () {
+        if (typeof fbq !== 'undefined') {
+          fbq('track', 'ViewContent', {
+            content_name: 'Od Marzenia Do Wprowadzenia',
+            content_type: 'product',
+            content_ids: ['book-od-marzenia'],
+            value: 119.0,
+            currency: 'PLN',
+          });
+        }
+      });
+    }
+  </script>
+
+  <!-- AddToCart listeners + UTM whitelist forwarding (debate I6: whitelist, nie ślepo cały query string) -->
+  <script is:inline>
+    (function () {
+      const ALLOWED_PARAMS = [
+        'utm_source',
+        'utm_medium',
+        'utm_campaign',
+        'utm_content',
+        'utm_term',
+        'fbclid',
+        'gclid',
+        'ref',
+      ];
+
+      // AddToCart event na wszystkich CTA z data-fbq-event="AddToCart"
+      document.querySelectorAll('[data-fbq-event="AddToCart"]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (typeof fbq !== 'undefined') {
+            fbq('track', 'AddToCart', {
+              content_name: 'Od Marzenia Do Wprowadzenia',
+              content_type: 'product',
+              content_ids: ['book-od-marzenia'],
+              value: 119.0,
+              currency: 'PLN',
+            });
+          }
+        });
+      });
+
+      // UTM whitelist forwarding do salescrm.pl
+      document.querySelectorAll('a[href*="salescrm.pl"]').forEach(function (link) {
+        try {
+          const url = new URL(link.href);
+          const params = new URLSearchParams(window.location.search);
+          ALLOWED_PARAMS.forEach(function (key) {
+            const val = params.get(key);
+            if (val) url.searchParams.set(key, val);
+          });
+          link.href = url.toString();
+        } catch {
+          /* URL parse may fail for relative hrefs */
+        }
+      });
+    })();
+  </script>
