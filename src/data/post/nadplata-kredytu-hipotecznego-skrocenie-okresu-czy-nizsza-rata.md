@@ -244,37 +244,48 @@ function obliczNadplate() {
     }
 
     var r = opr / 100 / 12;
-    var n = lata * 12;
+    var n = Math.round(lata * 12);
 
     function obliczRate(kwota, miesiace, r) {
         if (r === 0) return kwota / miesiace;
         return kwota * (r * Math.pow(1 + r, miesiace)) / (Math.pow(1 + r, miesiace) - 1);
     }
 
-    function obliczOkresMiesiace(kwota, rata, r) {
-        if (r === 0) return Math.ceil(kwota / rata);
-        return Math.ceil(Math.log(rata / (rata - kwota * r)) / Math.log(1 + r));
+    // Symulacja spłaty stałą ratą: ostatnia rata niepełna, domyka saldo.
+    // (Poprzednia wersja liczyła sumę wpłat jako rata × liczba rat zaokrąglona
+    // w górę — zawyżało to odsetki po skróceniu; oszczędność była też błędnie
+    // pomniejszana o kwotę nadpłaty, choć nadpłata to spłata kapitału, nie koszt.)
+    function symulujSplate(kwota, rata, r) {
+        var saldo = kwota;
+        var odsetkiSuma = 0;
+        var miesiace = 0;
+        while (saldo > 0.005 && miesiace < 12000) {
+            var odsetki = saldo * r;
+            odsetkiSuma += odsetki;
+            var kapital = Math.min(rata - odsetki, saldo);
+            saldo -= kapital;
+            miesiace++;
+        }
+        return { miesiace: miesiace, sumaOdsetek: odsetkiSuma };
     }
 
     // Przed nadpłatą
     var rataPrzed = obliczRate(pozostalo, n, r);
-    var sumaPrzed = rataPrzed * n;
-    var odsetkiPrzed = sumaPrzed - pozostalo;
+    var odsetkiPrzed = symulujSplate(pozostalo, rataPrzed, r).sumaOdsetek;
 
     // Opcja 1: Skrócenie okresu (rata bez zmian)
     var nowaKwota = pozostalo - kwotaNadplaty;
-    var nowyOkresMies = obliczOkresMiesiace(nowaKwota, rataPrzed, r);
-    var sumaSkrocenie = rataPrzed * nowyOkresMies;
-    var odsetkiSkrocenie = sumaSkrocenie - nowaKwota;
-    var oszczednoscSkrocenie = odsetkiPrzed - odsetkiSkrocenie - kwotaNadplaty;
+    var skrocenie = symulujSplate(nowaKwota, rataPrzed, r);
+    var nowyOkresMies = skrocenie.miesiace;
+    var odsetkiSkrocenie = skrocenie.sumaOdsetek;
+    var oszczednoscSkrocenie = odsetkiPrzed - odsetkiSkrocenie;
     if (oszczednoscSkrocenie < 0) oszczednoscSkrocenie = 0;
     var skrocenieOkres = n - nowyOkresMies;
 
     // Opcja 2: Niższa rata (okres bez zmian)
     var nowaRata = obliczRate(nowaKwota, n, r);
-    var sumaNizszaRata = nowaRata * n;
-    var odsetkiNizszaRata = sumaNizszaRata - nowaKwota;
-    var oszczednoscNizszaRata = odsetkiPrzed - odsetkiNizszaRata - kwotaNadplaty;
+    var odsetkiNizszaRata = symulujSplate(nowaKwota, nowaRata, r).sumaOdsetek;
+    var oszczednoscNizszaRata = odsetkiPrzed - odsetkiNizszaRata;
     if (oszczednoscNizszaRata < 0) oszczednoscNizszaRata = 0;
     var oszczMiesieczna = rataPrzed - nowaRata;
 
@@ -289,15 +300,15 @@ function obliczNadplate() {
     var latSkr = Math.floor(skrocenieOkres / 12);
     var miesSkr = skrocenieOkres % 12;
     var skrTekst = '';
-    if (latSkr > 0) skrTekst += latSkr + ' lat ';
+    if (latSkr > 0) skrTekst += latSkr + ' ' + odmianaLat(latSkr) + ' ';
     if (miesSkr > 0) skrTekst += miesSkr + ' mies.';
     if (skrTekst === '') skrTekst = '< 1 mies.';
-    document.getElementById('nadplata-skrocenie-czas').textContent = skrTekst;
+    document.getElementById('nadplata-skrocenie-czas').textContent = skrTekst.trim();
     document.getElementById('nadplata-oszcz-skrocenie').textContent = formatujKwoteN(oszczednoscSkrocenie) + ' zł';
 
     var nowyOkresLat = Math.floor(nowyOkresMies / 12);
     var nowyOkresMiesReszta = nowyOkresMies % 12;
-    var nowyOkresTekst = nowyOkresLat + ' lat';
+    var nowyOkresTekst = nowyOkresLat + ' ' + odmianaLat(nowyOkresLat);
     if (nowyOkresMiesReszta > 0) nowyOkresTekst += ' ' + nowyOkresMiesReszta + ' mies.';
     document.getElementById('nadplata-nowy-okres').textContent = nowyOkresTekst;
 
@@ -305,7 +316,7 @@ function obliczNadplate() {
     document.getElementById('nadplata-rata-nizsza').textContent = formatujKwoteN(nowaRata) + ' zł';
     document.getElementById('nadplata-oszcz-miesieczna').textContent = formatujKwoteN(oszczMiesieczna) + ' zł';
     document.getElementById('nadplata-oszcz-nizsza').textContent = formatujKwoteN(oszczednoscNizszaRata) + ' zł';
-    document.getElementById('nadplata-okres-bez-zmian').textContent = lata + ' lat';
+    document.getElementById('nadplata-okres-bez-zmian').textContent = lata + ' ' + odmianaLat(lata);
 
     // Różnica
     var roznica = oszczednoscSkrocenie - oszczednoscNizszaRata;
@@ -328,6 +339,15 @@ function wyczyscNadplate() {
 
 function formatujKwoteN(liczba) {
     return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+}
+
+// Polska odmiana: 1 rok, 2-4 lata, 5+ lat (oraz 22 lata, 25 lat itd.)
+function odmianaLat(n) {
+    if (n === 1) return 'rok';
+    var dziesiatki = n % 100;
+    var jednosci = n % 10;
+    if (jednosci >= 2 && jednosci <= 4 && (dziesiatki < 12 || dziesiatki > 14)) return 'lata';
+    return 'lat';
 }
 </script>
 <!-- KONIEC KALKULATORA NADPŁATY -->
