@@ -1,0 +1,333 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Twój pakiet „Budowa bez niespodzianek" — pobierz materiały | Pozytywnie Zbudowani',
+  description:
+    'Pobierz pakiet materiałów: kalkulator kosztów budowy (Excel, 12 etapów, 200+ pozycji), instrukcje i gotowy system organizacji dokumentów.',
+  robots: { index: false, follow: true },
+};
+---
+
+<Layout metadata={metadata}>
+  <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" />
+
+  <div class="ty-page">
+    <!-- HERO -->
+    <div class="ty-hero">
+      <div class="ty-container ty-text-center">
+        <div class="ty-hero-icon"><i class="fa fa-gift"></i></div>
+        <h1 class="ty-h1">Twój pakiet jest gotowy!</h1>
+        <p class="ty-subtitle">Kliknij przycisk poniżej, żeby pobrać wszystkie materiały.</p>
+      </div>
+    </div>
+
+    <!-- POBIERANIE -->
+    <div class="ty-section">
+      <div class="ty-container">
+        <div class="ty-text-center">
+          <a class="ty-btn ty-btn-large" download href="/download/onabuduje.zip">
+            <i class="fa fa-download"></i> Pobierz pakiet (ZIP)
+          </a>
+        </div>
+
+        <div class="ty-info">
+          <strong>Dlaczego ZIP?</strong> Pakiet zawiera kilka plików (Excel + PDF-y), więc spakowałem
+          je w jedno archiwum, żebyś mogła pobrać wszystko jednym kliknięciem. Po pobraniu rozpakuj
+          plik &ndash; kalkulator i instrukcje znajdziesz w folderze <strong>00-KALKULATOR</strong>.
+        </div>
+
+        <div class="ty-package">
+          <h3 class="ty-package-title ty-text-center"><i class="fa fa-folder-open"></i> Co znajdziesz w pakiecie?</h3>
+          <ul class="ty-package-items">
+            <li><i class="fa fa-check-circle"></i> <span><strong>Kalkulator kosztów budowy</strong> &ndash; arkusz Excel z 12 etapami i ponad 200 pozycjami</span></li>
+            <li><i class="fa fa-check-circle"></i> <span><strong>Instrukcja obsługi kalkulatora</strong> &ndash; krok po kroku jak korzystać z arkusza</span></li>
+            <li><i class="fa fa-check-circle"></i> <span><strong>System organizacji dokumentów</strong> &ndash; struktura folderów + instrukcja organizacji plików</span></li>
+          </ul>
+        </div>
+
+        <!-- BONUS: darmowa wysyłka książki -->
+        <div class="ty-bonus ty-text-center">
+          <div class="ty-bonus-header" style="justify-content: center;">
+            <span class="ty-bonus-icon"><i class="fa fa-truck"></i></span>
+            <h4 class="ty-bonus-title">Bonus: darmowa wysyłka książki</h4>
+          </div>
+          <p>
+            Jeśli chcesz dowiedzieć się więcej o budowie domu, mam dla Ciebie kod na darmową wysyłkę
+            mojej książki &bdquo;Od marzenia do wprowadzenia&rdquo;:
+          </p>
+          <div class="ty-bonus-code">onabuduje</div>
+          <p style="margin-top: 1rem;">
+            <a class="ty-bonus-link" href="/ksiazka/">Zobacz książkę &rarr;</a>
+          </p>
+        </div>
+
+        <!-- KONTAKT -->
+        <div class="ty-contact">
+          <p><strong>Masz pytania lub problemy z pobraniem?</strong></p>
+          <p>Napisz do mnie: <a href="mailto:kontakt@pozytywniezbudowani.pl">kontakt@pozytywniezbudowani.pl</a></p>
+          <a class="ty-btn" href="/"><i class="fa fa-home"></i> Wróć na stronę główną</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    /* Landing „onabuduje" — pobranie pakietu. Prefiks ty-* (izolacja). */
+    .ty-page {
+      font-family:
+        'Source Sans 3',
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        sans-serif;
+    }
+    .ty-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+    .ty-section {
+      padding: 64px 0;
+    }
+    .ty-text-center {
+      text-align: center;
+    }
+
+    .ty-hero {
+      background: linear-gradient(135deg, #3369b1 0%, #2a5691 100%);
+      color: #fff;
+      padding: 96px 0;
+    }
+    .ty-hero-icon {
+      font-size: 6rem;
+      margin-bottom: 1.6rem;
+      color: #c5a44e;
+    }
+    .ty-h1 {
+      font-size: 3.4rem;
+      color: #fff;
+      margin-bottom: 1.2rem;
+      font-weight: 700;
+      line-height: 1.15;
+    }
+    .ty-subtitle {
+      font-size: 1.5rem;
+      color: rgba(255, 255, 255, 0.95);
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .ty-h3 {
+      font-size: 1.6rem;
+      color: #3369b1;
+      margin-bottom: 0.8rem;
+      font-weight: 600;
+    }
+
+    .ty-package {
+      background: #f8f9fa;
+      border-radius: 20px;
+      padding: 48px;
+      margin: 3.2rem 0;
+    }
+    .ty-package-title {
+      font-size: 1.8rem;
+      color: #3369b1;
+      margin-bottom: 1.6rem;
+      font-weight: 600;
+    }
+    .ty-package-items {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .ty-package-items li {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 20px 0;
+      border-bottom: 2px solid #e9ecef;
+      font-size: 1.35rem;
+      color: #5a656b;
+      line-height: 1.5;
+    }
+    .ty-package-items li:last-child {
+      border-bottom: none;
+    }
+    .ty-package-items li i {
+      color: #28a745;
+      font-size: 1.4rem;
+      width: 40px;
+      flex-shrink: 0;
+    }
+
+    .ty-btn {
+      display: inline-block;
+      padding: 20px 44px;
+      font-size: 1.35rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: none;
+      background: #c5a44e;
+      color: #fff;
+      margin-top: 1.6rem;
+    }
+    .ty-btn:hover {
+      background: #d4b86a;
+      transform: translateY(-2px);
+      color: #fff;
+      text-decoration: none;
+    }
+    .ty-btn i {
+      margin-right: 12px;
+    }
+    .ty-btn-large {
+      padding: 28px 60px;
+      font-size: 1.6rem;
+    }
+
+    .ty-contact {
+      background: #fff;
+      border-radius: 20px;
+      padding: 48px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+    .ty-contact p {
+      font-size: 1.25rem;
+      margin-bottom: 1.2rem;
+      color: #5a656b;
+    }
+    .ty-contact a {
+      color: #3369b1;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+    .ty-info {
+      background: #fff;
+      border-left: 4px solid #3369b1;
+      border-radius: 0 12px 12px 0;
+      padding: 24px 32px;
+      margin: 2rem 0;
+      font-size: 1.15rem;
+      color: #5a656b;
+      line-height: 1.6;
+    }
+    .ty-info strong {
+      color: #3369b1;
+    }
+
+    .ty-bonus {
+      background: #fff;
+      border: 2px solid #e9ecef;
+      border-radius: 20px;
+      padding: 40px;
+      margin: 3.2rem 0;
+    }
+    .ty-bonus-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 1.2rem;
+    }
+    .ty-bonus-icon {
+      font-size: 1.6rem;
+      color: #c5a44e;
+    }
+    .ty-bonus-title {
+      font-size: 1.35rem;
+      color: #5a656b;
+      font-weight: 600;
+      margin: 0;
+    }
+    .ty-bonus p {
+      font-size: 1.15rem;
+      color: #5a656b;
+      line-height: 1.6;
+      margin: 0 0 1rem 0;
+    }
+    .ty-bonus-code {
+      display: inline-block;
+      background: #fdf8eb;
+      border: 2px dashed #c5a44e;
+      border-radius: 8px;
+      padding: 8px 20px;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #5a656b;
+      letter-spacing: 2px;
+      margin: 0.8rem 0;
+    }
+    .ty-bonus-link {
+      color: #3369b1;
+      text-decoration: underline;
+      font-weight: 600;
+      font-size: 1.15rem;
+    }
+
+    @media (max-width: 768px) {
+      .ty-hero {
+        padding: 64px 0;
+      }
+      .ty-hero-icon {
+        font-size: 4.5rem;
+      }
+      .ty-h1 {
+        font-size: 2.4rem;
+      }
+      .ty-subtitle {
+        font-size: 1.25rem;
+      }
+      .ty-section {
+        padding: 48px 0;
+      }
+      .ty-package {
+        padding: 32px;
+      }
+      .ty-package-items li {
+        font-size: 1.1rem;
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+      }
+      .ty-package-items li i {
+        width: auto;
+      }
+      .ty-contact p {
+        font-size: 1.1rem;
+      }
+      .ty-btn {
+        font-size: 1.15rem;
+        padding: 18px 36px;
+      }
+      .ty-btn-large {
+        padding: 22px 44px;
+        font-size: 1.3rem;
+      }
+      .ty-bonus {
+        padding: 32px;
+      }
+      .ty-bonus-header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .ty-bonus p {
+        font-size: 1.1rem;
+        text-align: center;
+      }
+      .ty-bonus-title {
+        font-size: 1.2rem;
+      }
+      .ty-info {
+        font-size: 1.05rem;
+        padding: 20px 24px;
+      }
+    }
+  </style>
+</Layout>
