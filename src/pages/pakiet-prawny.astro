@@ -1,0 +1,1130 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Image from '~/components/common/Image.astro';
+
+import wojtekPortret from '~/assets/images/site/wojtek-o-autorze-ksiazka.jpg';
+import bookCover from '~/assets/images/ksiazka/book-cover-cta.jpg';
+
+// Landing PRE-LAUNCH — produkt przed premierą, bez mechaniki zakupu.
+// Każde CTA prowadzi do /ksiazka/ (twarda reguła do czasu premiery).
+// Liczby dokumentów zweryfikowane z realną zawartością pakietu
+// (builds/pakiet-prawny/: 2 umowy + 7 protokołów + 13 pism/druków = 22 wzory,
+// + 3 vademeca + poradnik w 3 częściach = 26 plików).
+const metadata = {
+  title: 'Pakiet Prawny Budowy Domu — premiera wkrótce',
+  description:
+    'Komplet 22 wzorów dokumentów na budowę domu: 2 umowy, 7 protokołów, wezwania i pokwitowania + 3 vademecum i poradnik prawny. Opracowany z kancelarią adwokacką, sprawdzony przez praktyka. Premiera wkrótce.',
+  robots: { index: false, follow: true },
+};
+
+const ksiazkaUrl = '/ksiazka/';
+---
+
+<Layout metadata={metadata}>
+  <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" />
+
+  <div class="pp-page">
+    <!-- ===== HERO ===== -->
+    <section class="pp-hero">
+      <div class="pp-container">
+        <div class="pp-hero-grid">
+          <div>
+            <span class="pp-badge"><i class="fa fa-hammer" aria-hidden="true"></i> W przygotowaniu &middot; premiera wkrótce</span>
+            <h1 class="pp-h1">Pakiet Prawny Budowy Domu</h1>
+            <p class="pp-lead">
+              Komplet wzorów dokumentów na całą budowę – dwie umowy, siedem protokołów, wezwania,
+              pokwitowania i poradnik prawny. Opracowany przez kancelarię adwokacką, dopilnowany
+              przeze mnie od strony realiów placu budowy.
+            </p>
+            <p class="pp-lead pp-lead-strong">
+              Cel jest jeden: gdyby na Waszej budowie coś poszło nie tak, macie usłyszeć od prawnika
+              zdanie: <em>„Jest Pan świetnie przygotowany. Mamy z&nbsp;czym pracować”</em>.
+            </p>
+            <div class="pp-hero-cta">
+              <a class="pp-btn" href={ksiazkaUrl}>
+                <i class="fa fa-book-open" aria-hidden="true"></i> Zanim wystartuje – poznajcie książkę
+              </a>
+              <p class="pp-hero-note">
+                Pakiet powstał jako prawne dopełnienie mojej książki „Od marzenia do wprowadzenia”.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div class="pp-hero-card">
+              <div class="pp-hero-card-title"><i class="fa fa-box-open" aria-hidden="true"></i> Co będzie w środku</div>
+              <ul class="pp-hero-card-list">
+                <li>
+                  <i class="fa fa-file-signature" aria-hidden="true"></i>
+                  <span><strong>22 wzory dokumentów</strong> – 2 umowy, 7 protokołów, 13 pism i&nbsp;druków</span>
+                </li>
+                <li>
+                  <i class="fa fa-book-open" aria-hidden="true"></i>
+                  <span><strong>3 vademecum</strong> – umowy objaśnione paragraf po paragrafie, ludzkim językiem</span>
+                </li>
+                <li>
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                  <span><strong>Poradnik prawny w 3 częściach</strong> – od podpisania umowy po dochodzenie roszczeń</span>
+                </li>
+                <li>
+                  <i class="fa fa-file-word" aria-hidden="true"></i>
+                  <span><strong>Format DOCX</strong> – edytujecie i dostosowujecie do swojej budowy</span>
+                </li>
+              </ul>
+              <div class="pp-hero-card-foot">
+                <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                Opracowane we współpracy z kancelarią adwokacką
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PASEK LICZB ===== -->
+    <section class="pp-stats-band">
+      <div class="pp-container">
+        <div class="pp-stats">
+          <div class="pp-stat"><span class="pp-stat-nr">22</span><span class="pp-stat-label">wzory dokumentów</span></div>
+          <div class="pp-stat"><span class="pp-stat-nr">2</span><span class="pp-stat-label">wzory umów</span></div>
+          <div class="pp-stat"><span class="pp-stat-nr">7</span><span class="pp-stat-label">protokołów</span></div>
+          <div class="pp-stat"><span class="pp-stat-nr">3</span><span class="pp-stat-label">vademecum</span></div>
+          <div class="pp-stat"><span class="pp-stat-nr">3</span><span class="pp-stat-label">części poradnika</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROBLEM ===== -->
+    <section class="pp-section">
+      <div class="pp-container">
+        <h2 class="pp-h2 pp-center">Trzy sytuacje, które widziałem zbyt wiele razy</h2>
+        <p class="pp-sub pp-center">
+          Od 2013 roku buduję domy jednorodzinne jako generalny wykonawca. Większość budów kończy się
+          dobrze – ale gdy kończy się źle, prawie zawsze zaczyna się od tego samego.
+        </p>
+
+        <div class="pp-grid-3">
+          <div class="pp-problem">
+            <div class="pp-problem-icon"><i class="fa fa-handshake-slash" aria-hidden="true"></i></div>
+            <h3>Umowa „na gębę”</h3>
+            <p>
+              „Panie, po co nam te papierki, ja tak zawsze pracuję.” Dopóki wszystko idzie dobrze –
+              faktycznie po nic. Gdy pojawia się problem, zostaje Wasze słowo przeciwko słowu wykonawcy.
+            </p>
+          </div>
+          <div class="pp-problem">
+            <div class="pp-problem-icon"><i class="fa fa-money-bill-wave" aria-hidden="true"></i></div>
+            <h3>Pieniądze bez pokwitowania</h3>
+            <p>
+              Zaliczka gotówką, „przecież się znamy”. Bez dowodu wpłaty trudno później udowodnić,
+              ile i za co zapłaciliście – nawet jeśli racja jest w stu procentach po Waszej stronie.
+            </p>
+          </div>
+          <div class="pp-problem">
+            <div class="pp-problem-icon"><i class="fa fa-clipboard" aria-hidden="true"></i></div>
+            <h3>Odbiory bez protokołu</h3>
+            <p>
+              Etap „odebrany” kiwnięciem głowy i przelewem. Po kilku miesiącach wychodzą wady –
+              a nie ma żadnego dokumentu, który potwierdzałby, co i w jakim stanie odebraliście.
+            </p>
+          </div>
+        </div>
+
+        <p class="pp-note pp-center">
+          Nie piszę tego, żeby Was straszyć. Dokumenty robi się właśnie na tę mniejszość przypadków,
+          w których coś się psuje – tak jak pasy bezpieczeństwa zapina się przed jazdą, a nie przed stłuczką.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== DWIE ROZMOWY Z PRAWNIKIEM ===== -->
+    <section class="pp-section pp-section-cream">
+      <div class="pp-container">
+        <h2 class="pp-h2 pp-center">Dwie rozmowy z prawnikiem</h2>
+        <p class="pp-sub pp-center">
+          Tak w praktyce wygląda różnica między budową dokumentowaną a niedokumentowaną,
+          gdy spór staje się realny.
+        </p>
+
+        <div class="pp-grid-2">
+          <div class="pp-talk pp-talk-bad">
+            <div class="pp-talk-head"><i class="fa fa-folder-minus" aria-hidden="true"></i> Bez dokumentacji</div>
+            <dl class="pp-talk-dialog">
+              <dt>– Ma Pan umowę?</dt>
+              <dd>– Nie, umówiliśmy się ustnie.</dd>
+              <dt>– Ma Pan pokwitowania wpłat?</dt>
+              <dd>– Płaciłem gotówką, bez pokwitowań.</dd>
+              <dt>– Protokoły odbioru?</dt>
+              <dd>– Mam zdjęcia i wiadomości w telefonie.</dd>
+            </dl>
+            <p class="pp-talk-verdict">
+              „Możemy spróbować, ale dowodów jest niewiele. Będzie trudno i będzie to kosztowało.”
+            </p>
+          </div>
+
+          <div class="pp-talk pp-talk-good">
+            <div class="pp-talk-head"><i class="fa fa-folder-open" aria-hidden="true"></i> Z dokumentacją</div>
+            <dl class="pp-talk-dialog">
+              <dt>– Ma Pan umowę?</dt>
+              <dd>– Tak, z zakresem prac, terminami i harmonogramem.</dd>
+              <dt>– Ma Pan pokwitowania wpłat?</dt>
+              <dd>– Tak, do każdej wpłaty.</dd>
+              <dt>– Protokoły odbioru?</dt>
+              <dd>– Z każdego etapu, z podpisami obu stron.</dd>
+            </dl>
+            <p class="pp-talk-verdict pp-talk-verdict-good">
+              „Jest Pan świetnie przygotowany. Mamy z czym pracować.”
+            </p>
+          </div>
+        </div>
+
+        <p class="pp-note pp-center">
+          Różnica między tymi rozmowami to nie szczęście ani talent – to kilkanaście dokumentów
+          podpisanych we właściwych momentach. Dokładnie po to powstał ten pakiet.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== CO ZNAJDZIECIE W PAKIECIE ===== -->
+    <section class="pp-section" id="zawartosc">
+      <div class="pp-container">
+        <h2 class="pp-h2 pp-center">Co znajdziecie w pakiecie</h2>
+        <p class="pp-sub pp-center">
+          Kompletny, spójny system dokumentów – od podpisania umowy, przez odbiory kolejnych etapów,
+          aż po dochodzenie roszczeń, gdyby przyszło co do czego.
+        </p>
+
+        <div class="pp-grid-2 pp-features">
+          <div class="pp-feature">
+            <div class="pp-feature-icon"><i class="fa fa-file-signature" aria-hidden="true"></i></div>
+            <div>
+              <h3>Dwie umowy – na dużą i małą skalę</h3>
+              <p>
+                <strong>Rozbudowana umowa o roboty budowlane</strong> (17 paragrafów) – na budowę domu
+                z generalnym wykonawcą: od przekazania terenu budowy, przez materiały i terminy, po rękojmię
+                i odstąpienie. <strong>Prosta umowa o prace budowlane</strong> (8 paragrafów) – bo prac za
+                kilka czy kilkadziesiąt tysięcy złotych też nie warto zlecać „na gębę”.
+              </p>
+            </div>
+          </div>
+
+          <div class="pp-feature">
+            <div class="pp-feature-icon"><i class="fa fa-clipboard-check" aria-hidden="true"></i></div>
+            <div>
+              <h3>Siedem protokołów – na każdy moment budowy</h3>
+              <p>
+                Odbiór prac z miejscem na wady, prace zanikające (zanim znikną pod tynkiem), protokół
+                końcowy, inwentaryzacja prac w toku, przekazanie i oddanie terenu budowy, odbiór stolarki
+                okiennej i drzwiowej.
+              </p>
+            </div>
+          </div>
+
+          <div class="pp-feature">
+            <div class="pp-feature-icon"><i class="fa fa-envelope-open-text" aria-hidden="true"></i></div>
+            <div>
+              <h3>Pisma na trudne momenty</h3>
+              <p>
+                Wezwanie do rozpoczęcia lub dokończenia prac, odstąpienie od umowy, aneks do podpisania
+                od ręki na budowie oraz potwierdzenie zapłaty – z wyjaśnieniem różnicy między zaliczką
+                a zadatkiem wprost na wzorze.
+              </p>
+            </div>
+          </div>
+
+          <div class="pp-feature">
+            <div class="pp-feature-icon"><i class="fa fa-boxes" aria-hidden="true"></i></div>
+            <div>
+              <h3>Druki, które robią porządek</h3>
+              <p>
+                Harmonogram prac, kosztorys, wytyczne i uzgodnienia, zamówienie i rozliczenie materiałów,
+                inwentaryzacja frontu robót, klauzula RODO i umowa o zachowaniu poufności. Kontrolujecie,
+                co się dzieje i na co idą pieniądze.
+              </p>
+            </div>
+          </div>
+
+          <div class="pp-feature">
+            <div class="pp-feature-icon"><i class="fa fa-book-open" aria-hidden="true"></i></div>
+            <div>
+              <h3>Trzy vademecum – wiecie, co podpisujecie</h3>
+              <p>
+                Każdy paragraf obu umów i załączników omówiony ludzkim językiem, a obok wskazówka, jak
+                wypełnić dane pole. Zero prawniczego żargonu bez wyjaśnienia – czytacie i rozumiecie,
+                na co się umawiacie.
+              </p>
+            </div>
+          </div>
+
+          <div class="pp-feature">
+            <div class="pp-feature-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+            <div>
+              <h3>Poradnik prawny w trzech częściach</h3>
+              <p>
+                <strong>Zanim podpiszecie</strong> – jak zweryfikować wykonawcę i co daje Wam status
+                konsumenta. <strong>W trakcie budowy</strong> – porządek w papierach i rozliczeniach.
+                <strong>Gdy coś pójdzie nie tak</strong> – krok po kroku od wezwania, przez etap
+                przedsądowy i sąd, aż po egzekucję.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <details class="pp-doclist">
+          <summary><i class="fa fa-list" aria-hidden="true"></i> Pełna lista – 26 plików w pakiecie</summary>
+          <div class="pp-doclist-cols">
+            <div>
+              <h4>Umowy (2)</h4>
+              <ul>
+                <li>Umowa o roboty budowlane (rozbudowana, 17 paragrafów)</li>
+                <li>Umowa o prace budowlane (prosta, 8 paragrafów)</li>
+              </ul>
+              <h4>Protokoły (7)</h4>
+              <ul>
+                <li>Protokół odbioru prac (z miejscem na wady)</li>
+                <li>Protokół odbioru prac zanikających</li>
+                <li>Protokół końcowy</li>
+                <li>Protokół inwentaryzacji prac w toku</li>
+                <li>Protokół przekazania terenu budowy</li>
+                <li>Protokół oddania terenu budowy</li>
+                <li>Protokół odbioru stolarki okiennej i drzwiowej</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Pisma i druki (13)</h4>
+              <ul>
+                <li>Wezwanie do rozpoczęcia / dokończenia prac</li>
+                <li>Oświadczenie o odstąpieniu od umowy</li>
+                <li>Potwierdzenie zapłaty (zaliczka / zadatek)</li>
+                <li>Aneks do umowy</li>
+                <li>Harmonogram prac</li>
+                <li>Kosztorys</li>
+                <li>Wytyczne i uzgodnienia</li>
+                <li>Druk zamówienia materiałów</li>
+                <li>Potwierdzenie odbioru zamówienia</li>
+                <li>Druk rozliczenia materiałów</li>
+                <li>Inwentaryzacja frontu robót</li>
+                <li>Klauzula informacyjna RODO</li>
+                <li>Umowa o zachowaniu poufności</li>
+              </ul>
+              <h4>Materiały edukacyjne (4)</h4>
+              <ul>
+                <li>Vademecum umowy rozbudowanej</li>
+                <li>Vademecum umowy prostej</li>
+                <li>Vademecum załączników</li>
+                <li>Poradnik prawny (3 części)</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ===== DLACZEGO INNE NIŻ WZORY Z INTERNETU ===== -->
+    <section class="pp-section pp-section-cream">
+      <div class="pp-container pp-narrow">
+        <h2 class="pp-h2 pp-center">Najlepsza umowa świata jest bezwartościowa,<br class="pp-br-desktop" /> jeśli wykonawca jej nie podpisze</h2>
+        <p class="pp-body">
+          Znam to z obu stron, bo sam buduję domy. Gdy inwestor wyciąga dwudziestostronicową umowę
+          pełną kar umownych i prawniczego żargonu, większość ekip po prostu ją odkłada: „panie,
+          ja tak nie pracuję”. Efekt jest odwrotny od zamierzonego – zamiast najlepszej umowy nie ma żadnej.
+        </p>
+        <p class="pp-body">
+          Dlatego te dokumenty powstawały w cztery ręce. <strong>Kancelaria adwokacka</strong> pilnowała,
+          żeby chroniły Wasze interesy i były poprawne prawnie. <strong>Ja</strong> pilnowałem, żeby były
+          realne: napisane zrozumiale, uczciwe dla obu stron i możliwe do podpisania bez wielotygodniowych
+          negocjacji.
+        </p>
+
+        <ul class="pp-checks">
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span><strong>Spójny system, nie zbiór przypadkowych plików</strong> – umowy, załączniki
+            i protokoły odwołują się do siebie nawzajem i razem tworzą komplet dowodów.</span>
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span><strong>Do każdego dokumentu omówienie</strong> – nie dostajecie „gołych” wzorów;
+            vademecum tłumaczy paragraf po paragrafie, co podpisujecie i jak to wypełnić.</span>
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span><strong>Procedury na wypadek sporu</strong> – poradnik prowadzi krok po kroku, co robić,
+            gdy wykonawca nie chce podpisać protokołu, nie usuwa wad albo urywa kontakt.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== DLA KOGO / SCENARIUSZE ===== -->
+    <section class="pp-section">
+      <div class="pp-container">
+        <h2 class="pp-h2 pp-center">W jakiej sytuacji pakiet Wam pomoże</h2>
+        <div class="pp-grid-3">
+          <div class="pp-scenario">
+            <div class="pp-scenario-nr">1</div>
+            <h3>Budujecie dom z wykonawcą</h3>
+            <p>Największa inwestycja w życiu zasługuje na porządne fundamenty prawne – od pierwszego dnia.</p>
+            <ul>
+              <li>Rozbudowana umowa o roboty budowlane</li>
+              <li>Harmonogram, kosztorys, wytyczne</li>
+              <li>Protokoły na każdy etap odbioru</li>
+              <li>Vademecum – rozumiecie każdy zapis</li>
+            </ul>
+          </div>
+          <div class="pp-scenario">
+            <div class="pp-scenario-nr">2</div>
+            <h3>Zlecacie mniejsze prace</h3>
+            <p>Płytki, elewacja, instalacje – nawet przy pracach za kilka tysięcy warto mieć papier.</p>
+            <ul>
+              <li>Prosta umowa o prace budowlane</li>
+              <li>Potwierdzenie zapłaty przy zaliczce</li>
+              <li>Protokół odbioru na koniec</li>
+              <li>Vademecum do prostej umowy</li>
+            </ul>
+          </div>
+          <div class="pp-scenario">
+            <div class="pp-scenario-nr">3</div>
+            <h3>Problem już się zaczął</h3>
+            <p>Opóźnienia, wady, urwany kontakt. Czas działać formalnie – i mieć na wszystko dokument.</p>
+            <ul>
+              <li>Wezwanie do wykonania prac</li>
+              <li>Oświadczenie o odstąpieniu od umowy</li>
+              <li>Inwentaryzacja prac w toku</li>
+              <li>Poradnik: dochodzenie roszczeń krok po kroku</li>
+            </ul>
+          </div>
+        </div>
+        <p class="pp-note pp-center">
+          Budowa już trwa, a umowy od początku nie było? Protokoły, pokwitowania i aneksy możecie
+          wprowadzić od dziś – każdy podpisany dokument działa na Waszą korzyść.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== KTO ZA TYM STOI ===== -->
+    <section class="pp-section pp-section-cream">
+      <div class="pp-container">
+        <h2 class="pp-h2 pp-center">Kto za tym stoi</h2>
+        <div class="pp-grid-2 pp-authors">
+          <div class="pp-author">
+            <div class="pp-author-photo">
+              <Image
+                src={wojtekPortret}
+                alt="Wojciech Tracichleb – praktyk budowlany, autor książki Od marzenia do wprowadzenia"
+                width={220}
+                height={220}
+                widths={[160, 220, 320]}
+                sizes="(max-width: 640px) 160px, 220px"
+                class="pp-author-img"
+                loading="lazy"
+              />
+            </div>
+            <h3>Wojciech Tracichleb</h3>
+            <p class="pp-author-role">Pozytywnie Zbudowani</p>
+            <p>
+              Od 2013 roku buduję domy jednorodzinne jako generalny wykonawca i wiem, które dokumenty
+              wykonawcy podpisują, a które lądują w szufladzie. Pilnowałem, żeby ten pakiet działał na
+              prawdziwej budowie, nie tylko na papierze. Napisałem też książkę „Od marzenia do
+              wprowadzenia” – 608 stron o całym procesie budowy domu.
+            </p>
+          </div>
+          <div class="pp-author">
+            <div class="pp-author-photo pp-author-photo-icon"><i class="fa fa-balance-scale" aria-hidden="true"></i></div>
+            <h3>Kancelaria adwokacka</h3>
+            <p class="pp-author-role">Strona merytoryczno-prawna</p>
+            <p>
+              Wszystkie wzory dokumentów i materiały merytoryczne opracowała kancelaria adwokacka
+              z doświadczeniem w sprawach budowlanych. To nie są szablony zebrane z internetu – to
+              dokumentacja przygotowana od zera, pod realia budowy domu jednorodzinnego w Polsce.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CENA — ZAPOWIEDŹ ===== -->
+    <section class="pp-section pp-section-blue" id="premiera">
+      <div class="pp-container pp-narrow">
+        <h2 class="pp-h2 pp-h2-white pp-center">Ile to będzie kosztować?</h2>
+        <div class="pp-price-card">
+          <p class="pp-price-label">Planowana cena premierowa</p>
+          <div class="pp-price">399 zł</div>
+          <p class="pp-price-sub">jednorazowo, za komplet 26 plików</p>
+          <p class="pp-price-body">
+            Dla porównania: indywidualne opracowanie takiego zestawu dokumentów w kancelarii to wydatek
+            rzędu kilku tysięcy złotych. Przy budowie wartej kilkaset tysięcy – to jedno z najtańszych
+            zabezpieczeń, jakie w ogóle możecie kupić.
+          </p>
+          <div class="pp-price-guarantee">
+            <i class="fa fa-undo-alt" aria-hidden="true"></i>
+            <span>Od dnia premiery: <strong>30 dni na zwrot</strong> – jeden mail, bez pytań.</span>
+          </div>
+
+          <div class="pp-prelaunch">
+            <div class="pp-prelaunch-head"><i class="fa fa-hourglass-half" aria-hidden="true"></i> Pakiet jest na ostatniej prostej</div>
+            <p>
+              Dokumenty są opracowane i po przeglądzie jakościowym – trwają ostatnie prace nad oprawą
+              całości. Data premiery pojawi się na tej stronie.
+            </p>
+            <a class="pp-btn pp-btn-full" href={ksiazkaUrl}>
+              <i class="fa fa-book-open" aria-hidden="true"></i> W międzyczasie: zacznijcie od książki
+            </a>
+          </div>
+        </div>
+
+        <div class="pp-disclaimer">
+          <i class="fa fa-info-circle" aria-hidden="true"></i>
+          <p>
+            Pakiet Prawny to zestaw wzorów dokumentów i materiałów edukacyjnych – nie zastępuje porady
+            prawnej w indywidualnej sprawie. W poważnym sporze warto skonsultować się z adwokatem;
+            dokumenty z pakietu będą wtedy Waszym materiałem dowodowym.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MOST DO KSIĄŻKI ===== -->
+    <section class="pp-section">
+      <div class="pp-container">
+        <div class="pp-book-bridge">
+          <div class="pp-book-cover">
+            <Image
+              src={bookCover}
+              alt="Okładka książki Od marzenia do wprowadzenia – budowa domu jednorodzinnego"
+              width={240}
+              height={336}
+              widths={[200, 240, 320]}
+              sizes="(max-width: 640px) 200px, 240px"
+              class="pp-book-img"
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <h2 class="pp-h2">Pakiet uzupełnia książkę – nie odwrotnie</h2>
+            <p class="pp-body">
+              Dokumenty zabezpieczają budowę od strony prawnej. Ale najpierw trzeba wiedzieć, jak tę
+              budowę w ogóle poprowadzić – i o tym jest moja książka: 608 stron o całym procesie,
+              od pierwszej decyzji po wprowadzenie. Poradnik prawny z pakietu wprost się do niej odwołuje.
+            </p>
+            <p class="pp-body">
+              Jeśli budowa jest przed Wami, to jest właściwa kolejność: <strong>najpierw książka,
+              potem dokumenty</strong>.
+            </p>
+            <a class="pp-btn" href={ksiazkaUrl}>
+              <i class="fa fa-arrow-right" aria-hidden="true"></i> Zobaczcie książkę „Od marzenia do wprowadzenia”
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="pp-section pp-section-cream">
+      <div class="pp-container pp-narrow">
+        <h2 class="pp-h2 pp-center">Najczęstsze pytania</h2>
+
+        <details class="pp-faq">
+          <summary>Kiedy premiera pakietu?</summary>
+          <p>
+            Wkrótce. Wzory dokumentów są opracowane i po przeglądzie jakościowym – dopinamy oprawę
+            całości, żeby produkt był kompletny od pierwszego dnia. Konkretna data pojawi się na tej stronie.
+          </p>
+        </details>
+
+        <details class="pp-faq">
+          <summary>Czy dokumenty są zgodne z aktualnym prawem?</summary>
+          <p>
+            Wszystkie wzory opracowała kancelaria adwokacka na gruncie Kodeksu cywilnego,
+            z uwzględnieniem specyfiki umów o roboty budowlane i pozycji inwestora jako konsumenta.
+            Przed premierą całość przechodzi jeszcze finalny przegląd.
+          </p>
+        </details>
+
+        <details class="pp-faq">
+          <summary>Czy będę mógł edytować dokumenty?</summary>
+          <p>
+            Tak – wszystkie wzory będą w formacie DOCX. Otworzycie je w Wordzie, LibreOffice czy Google
+            Docs i dostosujecie do swojej budowy. Vademecum podpowiada przy każdym polu, jak je
+            prawidłowo wypełnić.
+          </p>
+        </details>
+
+        <details class="pp-faq">
+          <summary>Czy potrzebuję prawnika, żeby korzystać z pakietu?</summary>
+          <p>
+            W codziennych sytuacjach – nie: vademecum i poradnik wyjaśniają wszystko przystępnym
+            językiem. Jeśli spór trafi do sądu, pomoc prawnika będzie wskazana – ale dzięki pakietowi
+            przyjdziecie do niego z kompletem dokumentów, z którymi jest z czym pracować.
+          </p>
+        </details>
+
+        <details class="pp-faq">
+          <summary>Moja budowa już trwa – czy to ma jeszcze sens?</summary>
+          <p>
+            Tak. Nawet jeśli umowy od początku nie było, protokoły odbioru, potwierdzenia zapłaty
+            i aneksy możecie wprowadzić od dziś. Im wcześniej zaczniecie dokumentować przebieg prac,
+            tym mocniejsza będzie Wasza pozycja.
+          </p>
+        </details>
+
+        <details class="pp-faq">
+          <summary>Co jeśli wykonawca nie zechce podpisać rozbudowanej umowy?</summary>
+          <p>
+            Właśnie dlatego w pakiecie są dwa warianty. Prosta umowa to kilka stron konkretów: kto,
+            co, kiedy, za ile i co w razie problemów – większość wykonawców podpisuje ją bez oporów.
+            A jeśli ktoś odmawia podpisania czegokolwiek, potraktujcie to jako poważny sygnał ostrzegawczy.
+          </p>
+        </details>
+
+        <details class="pp-faq">
+          <summary>Czym to się różni od darmowych wzorów z internetu?</summary>
+          <p>
+            Darmowe wzory to pojedyncze szablony różnych autorów – nie współgrają ze sobą, bywają
+            nieaktualne i nikt Wam nie wyjaśni, co właściwie podpisujecie. Tu dostajecie spójny system:
+            dokumenty odwołują się do siebie nawzajem, każdy paragraf ma omówienie, a poradnik opisuje
+            procedury na wypadek sporu.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ===== FINAL CTA ===== -->
+    <section class="pp-final">
+      <div class="pp-container pp-center">
+        <h2 class="pp-h2 pp-h2-white">Budowa domu to za duże przedsięwzięcie,<br class="pp-br-desktop" /> żeby opierać je na słowie i uścisku dłoni</h2>
+        <p class="pp-final-sub">
+          Pakiet Prawny Budowy Domu – wkrótce na tej stronie. A najlepszy pierwszy krok możecie
+          zrobić już dziś.
+        </p>
+        <a class="pp-btn pp-btn-gold" href={ksiazkaUrl}>
+          <i class="fa fa-book-open" aria-hidden="true"></i> Poznajcie książkę „Od marzenia do wprowadzenia”
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <style is:global>
+    /* ==========================================================
+       Landing „Pakiet Prawny” (pre-launch). Prefiks pp-* (izolacja).
+       Fonty self-host: /vendor/fonts/ (Lora + Source Sans 3).
+       Kolory: tokeny --aw-color-* (PZ) + lokalne uzupełnienia pp.
+       ========================================================== */
+    @font-face {
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('/vendor/fonts/lora-latin-400-normal.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url('/vendor/fonts/lora-latin-600-normal.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url('/vendor/fonts/lora-latin-700-normal.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Source Sans 3';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('/vendor/fonts/source-sans-3-latin-400-normal.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Source Sans 3';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url('/vendor/fonts/source-sans-3-latin-600-normal.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Source Sans 3';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url('/vendor/fonts/source-sans-3-latin-700-normal.woff2') format('woff2');
+    }
+
+    .pp-page {
+      --pp-blue: var(--aw-color-primary, rgb(51 105 177));
+      --pp-blue-dark: rgb(42 86 145);
+      --pp-gold: rgb(197 164 78); /* pełny złoty PZ do akcentów dekoracyjnych */
+      --pp-gold-text: var(--aw-color-accent, rgb(136 112 36)); /* złoty WCAG do tekstu */
+      --pp-gray: var(--aw-color-text-default, rgb(90 101 107));
+      --pp-ink: rgb(42 47 51);
+      --pp-cream: rgb(245 243 239); /* krem PZ */
+      --pp-line: rgb(228 224 216);
+      font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+      color: var(--pp-ink);
+      font-size: 1.125rem;
+      line-height: 1.7;
+      background: #fff;
+    }
+
+    .pp-container { max-width: 72rem; margin: 0 auto; padding: 0 1.25rem; }
+    .pp-narrow { max-width: 52rem; }
+    .pp-center { text-align: center; }
+    .pp-section { padding: 4.5rem 0; }
+    .pp-section-cream { background: var(--pp-cream); }
+    .pp-section-blue { background: linear-gradient(150deg, var(--pp-blue) 0%, var(--pp-blue-dark) 100%); }
+
+    .pp-h1 {
+      font-family: 'Lora', Georgia, serif;
+      font-size: clamp(2.1rem, 5vw, 3.4rem);
+      line-height: 1.15;
+      font-weight: 700;
+      color: var(--pp-blue);
+      margin: 1rem 0 1.25rem;
+    }
+    .pp-h2 {
+      font-family: 'Lora', Georgia, serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+      line-height: 1.25;
+      font-weight: 600;
+      color: var(--pp-blue);
+      margin: 0 0 1rem;
+    }
+    .pp-h2-white { color: #fff; }
+    .pp-page h3 {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--pp-blue);
+      margin: 0 0 0.5rem;
+    }
+    .pp-sub { font-size: 1.2rem; color: var(--pp-gray); max-width: 46rem; margin: 0 auto 2.75rem; }
+    .pp-lead { font-size: 1.25rem; color: var(--pp-gray); margin: 0 0 1.25rem; }
+    .pp-lead-strong { color: var(--pp-ink); }
+    .pp-lead em { font-style: italic; }
+    .pp-body { font-size: 1.15rem; color: var(--pp-ink); margin: 0 0 1.25rem; }
+    .pp-note { font-size: 1.05rem; color: var(--pp-gray); max-width: 46rem; margin: 2.5rem auto 0; }
+    .pp-br-desktop { display: none; }
+
+    /* Przyciski — wszystkie CTA prowadzą do /ksiazka/ (pre-launch) */
+    .pp-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: var(--pp-blue);
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.1rem;
+      padding: 1rem 1.9rem;
+      border-radius: 0.85rem;
+      text-decoration: none;
+      transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .pp-btn:hover {
+      background: var(--pp-blue-dark);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgb(51 105 177 / 30%);
+    }
+    .pp-btn-gold { background: var(--pp-gold); color: rgb(42 47 51); }
+    .pp-btn-gold:hover { background: rgb(212 184 106); color: rgb(42 47 51); box-shadow: 0 8px 22px rgb(197 164 78 / 35%); }
+    .pp-btn-full { width: 100%; justify-content: center; }
+
+    /* HERO */
+    .pp-hero { padding: 4rem 0 3.5rem; background: linear-gradient(180deg, var(--pp-cream) 0%, #fff 100%); }
+    .pp-hero-grid { display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; }
+    .pp-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--pp-gold);
+      color: rgb(42 47 51);
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 0.03em;
+      padding: 0.5rem 1.1rem;
+      border-radius: 999px;
+      text-transform: uppercase;
+    }
+    .pp-hero-cta { margin-top: 1.75rem; }
+    .pp-hero-note { font-size: 0.98rem; color: var(--pp-gray); margin: 0.9rem 0 0; }
+
+    .pp-hero-card {
+      background: #fff;
+      border: 1px solid var(--pp-line);
+      border-radius: 1.25rem;
+      box-shadow: 0 10px 40px rgb(42 47 51 / 8%);
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .pp-hero-card::before {
+      content: '';
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 5px;
+      background: linear-gradient(90deg, var(--pp-blue), var(--pp-gold));
+    }
+    .pp-hero-card-title {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--pp-blue);
+      margin-bottom: 1.1rem;
+    }
+    .pp-hero-card-title i { color: var(--pp-gold-text); margin-right: 0.5rem; }
+    .pp-hero-card-list { list-style: none; margin: 0; padding: 0; }
+    .pp-hero-card-list li {
+      display: flex;
+      gap: 0.85rem;
+      align-items: flex-start;
+      padding: 0.7rem 0;
+      border-bottom: 1px solid rgb(228 224 216 / 60%);
+      font-size: 1.02rem;
+    }
+    .pp-hero-card-list li:last-child { border-bottom: none; }
+    .pp-hero-card-list i { color: var(--pp-blue); font-size: 1.05rem; margin-top: 0.3rem; width: 1.3rem; text-align: center; flex-shrink: 0; }
+    .pp-hero-card-foot {
+      margin-top: 1.1rem;
+      padding-top: 1.1rem;
+      border-top: 1px solid var(--pp-line);
+      font-size: 0.95rem;
+      color: var(--pp-gray);
+    }
+    .pp-hero-card-foot i { color: var(--pp-gold-text); margin-right: 0.5rem; }
+
+    /* PASEK LICZB */
+    .pp-stats-band { background: var(--pp-blue); padding: 1.9rem 0; }
+    .pp-stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 2.25rem 3.5rem; }
+    .pp-stat { text-align: center; }
+    .pp-stat-nr {
+      display: block;
+      font-family: 'Lora', Georgia, serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+    }
+    .pp-stat-label { display: block; margin-top: 0.35rem; font-size: 0.95rem; color: rgb(255 255 255 / 85%); }
+
+    /* PROBLEM */
+    .pp-grid-3 { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+    .pp-grid-2 { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+    .pp-problem {
+      background: var(--pp-cream);
+      border-radius: 1.1rem;
+      padding: 2rem;
+      border-top: 4px solid var(--pp-gold);
+    }
+    .pp-problem-icon { font-size: 1.9rem; color: var(--pp-blue); margin-bottom: 0.9rem; }
+    .pp-problem p { margin: 0; color: var(--pp-gray); font-size: 1.05rem; }
+
+    /* DWIE ROZMOWY */
+    .pp-talk {
+      background: #fff;
+      border-radius: 1.1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 18px rgb(42 47 51 / 6%);
+      border-top: 4px solid var(--pp-gray);
+      display: flex;
+      flex-direction: column;
+    }
+    .pp-talk-good { border-top-color: var(--pp-gold); }
+    .pp-talk-head {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--pp-ink);
+      margin-bottom: 1.1rem;
+    }
+    .pp-talk-head i { margin-right: 0.55rem; color: var(--pp-gray); }
+    .pp-talk-good .pp-talk-head i { color: var(--pp-gold-text); }
+    .pp-talk-dialog { margin: 0; flex-grow: 1; }
+    .pp-talk-dialog dt { font-weight: 700; color: var(--pp-blue); margin-top: 0.85rem; }
+    .pp-talk-dialog dd { margin: 0.15rem 0 0; color: var(--pp-gray); font-style: italic; }
+    .pp-talk-verdict {
+      margin: 1.4rem 0 0;
+      padding: 0.95rem 1.15rem;
+      border-radius: 0.75rem;
+      background: var(--pp-cream);
+      color: var(--pp-gray);
+      font-size: 1.02rem;
+      font-style: italic;
+    }
+    .pp-talk-verdict-good {
+      background: rgb(197 164 78 / 14%);
+      color: var(--pp-ink);
+      font-weight: 600;
+    }
+
+    /* FEATURES */
+    .pp-features { gap: 1.5rem; }
+    .pp-feature {
+      display: flex;
+      gap: 1.25rem;
+      background: var(--pp-cream);
+      border-radius: 1.1rem;
+      padding: 1.75rem;
+      align-items: flex-start;
+    }
+    .pp-feature-icon {
+      flex-shrink: 0;
+      width: 3.4rem;
+      height: 3.4rem;
+      border-radius: 0.85rem;
+      background: #fff;
+      color: var(--pp-blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      box-shadow: inset 0 0 0 1px var(--pp-line);
+    }
+    .pp-feature p { margin: 0; color: var(--pp-gray); font-size: 1.02rem; }
+
+    /* PEŁNA LISTA */
+    .pp-doclist {
+      margin-top: 2.25rem;
+      background: #fff;
+      border: 1px solid var(--pp-line);
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+    .pp-doclist summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 1.15rem 1.5rem;
+      font-family: 'Lora', Georgia, serif;
+      font-weight: 600;
+      font-size: 1.12rem;
+      color: var(--pp-blue);
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+    .pp-doclist summary::-webkit-details-marker { display: none; }
+    .pp-doclist summary::after { content: '\f078'; font-family: 'Font Awesome 5 Free'; font-weight: 900; margin-left: auto; color: var(--pp-gold-text); transition: transform 0.25s ease; font-size: 0.85rem; }
+    .pp-doclist[open] summary::after { transform: rotate(180deg); }
+    .pp-doclist-cols { display: grid; grid-template-columns: 1fr; gap: 0 3rem; padding: 0.25rem 1.5rem 1.5rem; }
+    .pp-doclist h4 {
+      font-family: 'Lora', Georgia, serif;
+      color: var(--pp-ink);
+      font-size: 1.02rem;
+      margin: 1.2rem 0 0.5rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--pp-cream);
+    }
+    .pp-doclist ul { list-style: none; margin: 0; padding: 0; }
+    .pp-doclist ul li { padding: 0.3rem 0 0.3rem 1.6rem; position: relative; font-size: 1rem; color: var(--pp-gray); }
+    .pp-doclist ul li::before { content: '\f00c'; font-family: 'Font Awesome 5 Free'; font-weight: 900; position: absolute; left: 0; top: 0.42rem; color: var(--pp-gold-text); font-size: 0.8rem; }
+
+    /* CHECKI (dlaczego inne) */
+    .pp-checks { list-style: none; margin: 2rem 0 0; padding: 0; }
+    .pp-checks li {
+      display: flex;
+      gap: 0.9rem;
+      align-items: flex-start;
+      background: #fff;
+      border-radius: 0.9rem;
+      padding: 1.15rem 1.4rem;
+      margin-bottom: 0.9rem;
+      box-shadow: 0 2px 10px rgb(42 47 51 / 5%);
+      font-size: 1.05rem;
+    }
+    .pp-checks i { color: var(--pp-gold-text); margin-top: 0.3rem; flex-shrink: 0; }
+    .pp-checks span { color: var(--pp-gray); }
+    .pp-checks strong { color: var(--pp-ink); }
+
+    /* SCENARIUSZE */
+    .pp-scenario {
+      background: #fff;
+      border: 1px solid var(--pp-line);
+      border-radius: 1.1rem;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .pp-scenario::before {
+      content: '';
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--pp-blue), var(--pp-gold));
+    }
+    .pp-scenario-nr {
+      width: 2.6rem;
+      height: 2.6rem;
+      border-radius: 50%;
+      background: var(--pp-blue);
+      color: #fff;
+      font-family: 'Lora', Georgia, serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    .pp-scenario p { color: var(--pp-gray); font-size: 1.02rem; margin: 0 0 0.9rem; }
+    .pp-scenario ul { list-style: none; margin: 0; padding: 0; }
+    .pp-scenario ul li { padding: 0.32rem 0 0.32rem 1.5rem; position: relative; font-size: 0.99rem; color: var(--pp-gray); }
+    .pp-scenario ul li::before { content: '\2192'; position: absolute; left: 0; color: var(--pp-gold-text); font-weight: 700; }
+
+    /* AUTORZY */
+    .pp-authors { gap: 2rem; align-items: stretch; }
+    .pp-author {
+      background: #fff;
+      border-radius: 1.1rem;
+      padding: 2.25rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 18px rgb(42 47 51 / 6%);
+    }
+    .pp-author-photo {
+      width: 8.5rem;
+      height: 8.5rem;
+      margin: 0 auto 1.25rem;
+      border-radius: 50%;
+      overflow: hidden;
+      background: var(--pp-cream);
+    }
+    .pp-author-photo-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.6rem;
+      color: var(--pp-blue);
+    }
+    .pp-author-img { width: 100%; height: 100%; object-fit: cover; }
+    .pp-author-role { color: var(--pp-gold-text); font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em; margin: 0 0 0.9rem; }
+    .pp-author p:not(.pp-author-role) { color: var(--pp-gray); font-size: 1.02rem; margin: 0; text-align: left; }
+
+    /* CENA — ZAPOWIEDŹ */
+    .pp-price-card {
+      background: #fff;
+      border-radius: 1.4rem;
+      padding: 2.75rem 2.25rem;
+      text-align: center;
+      box-shadow: 0 14px 50px rgb(20 35 60 / 25%);
+      position: relative;
+      overflow: hidden;
+    }
+    .pp-price-card::before {
+      content: '';
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 6px;
+      background: linear-gradient(90deg, var(--pp-blue), var(--pp-gold));
+    }
+    .pp-price-label { text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.9rem; font-weight: 700; color: var(--pp-gray); margin: 0 0 0.4rem; }
+    .pp-price { font-family: 'Lora', Georgia, serif; font-size: 4rem; font-weight: 700; color: var(--pp-blue); line-height: 1; }
+    .pp-price-sub { color: var(--pp-gray); margin: 0.5rem 0 1.4rem; }
+    .pp-price-body { color: var(--pp-gray); font-size: 1.05rem; max-width: 34rem; margin: 0 auto 1.5rem; }
+    .pp-price-guarantee {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: rgb(197 164 78 / 12%);
+      border: 1px solid rgb(197 164 78 / 45%);
+      color: var(--pp-ink);
+      border-radius: 0.75rem;
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+    }
+    .pp-price-guarantee i { color: var(--pp-gold-text); }
+    .pp-prelaunch {
+      margin-top: 2rem;
+      background: var(--pp-cream);
+      border-radius: 1rem;
+      padding: 1.75rem;
+      text-align: left;
+    }
+    .pp-prelaunch-head {
+      font-family: 'Lora', Georgia, serif;
+      font-weight: 600;
+      font-size: 1.15rem;
+      color: var(--pp-blue);
+      margin-bottom: 0.6rem;
+    }
+    .pp-prelaunch-head i { color: var(--pp-gold-text); margin-right: 0.5rem; }
+    .pp-prelaunch p { color: var(--pp-gray); font-size: 1.02rem; margin: 0 0 1.25rem; }
+
+    .pp-disclaimer {
+      display: flex;
+      gap: 0.9rem;
+      align-items: flex-start;
+      margin-top: 1.75rem;
+      background: rgb(255 255 255 / 10%);
+      border: 1px solid rgb(255 255 255 / 30%);
+      border-radius: 0.9rem;
+      padding: 1.15rem 1.4rem;
+    }
+    .pp-disclaimer i { color: var(--pp-gold); margin-top: 0.25rem; flex-shrink: 0; }
+    .pp-disclaimer p { margin: 0; color: rgb(255 255 255 / 92%); font-size: 0.98rem; }
+
+    /* MOST DO KSIĄŻKI */
+    .pp-book-bridge {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      align-items: center;
+      background: var(--pp-cream);
+      border-radius: 1.4rem;
+      padding: 2.75rem 2.25rem;
+    }
+    .pp-book-cover { display: flex; justify-content: center; }
+    .pp-book-img { width: 100%; max-width: 15rem; height: auto; border-radius: 0.6rem; box-shadow: 0 14px 34px rgb(42 47 51 / 22%); }
+
+    /* FAQ */
+    .pp-faq {
+      background: #fff;
+      border-radius: 0.9rem;
+      margin-bottom: 0.9rem;
+      box-shadow: 0 2px 10px rgb(42 47 51 / 5%);
+      overflow: hidden;
+    }
+    .pp-faq summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 1.15rem 3.2rem 1.15rem 1.5rem;
+      font-weight: 700;
+      font-size: 1.08rem;
+      color: var(--pp-ink);
+      position: relative;
+    }
+    .pp-faq summary::-webkit-details-marker { display: none; }
+    .pp-faq summary::after {
+      content: '\f078';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      position: absolute;
+      right: 1.4rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--pp-gold-text);
+      font-size: 0.85rem;
+      transition: transform 0.25s ease;
+    }
+    .pp-faq[open] summary::after { transform: translateY(-50%) rotate(180deg); }
+    .pp-faq p { margin: 0; padding: 0 1.5rem 1.3rem; color: var(--pp-gray); font-size: 1.03rem; }
+
+    /* FINAL */
+    .pp-final { background: rgb(26 26 46); padding: 5rem 0; }
+    .pp-final .pp-h2 { margin-bottom: 1.1rem; }
+    .pp-final-sub { color: rgb(255 255 255 / 82%); font-size: 1.15rem; max-width: 42rem; margin: 0 auto 2.25rem; }
+
+    /* RESPONSIVE */
+    @media (min-width: 768px) {
+      .pp-grid-3 { grid-template-columns: repeat(3, 1fr); }
+      .pp-grid-2 { grid-template-columns: repeat(2, 1fr); }
+      .pp-doclist-cols { grid-template-columns: 1fr 1fr; }
+      .pp-book-bridge { grid-template-columns: 17rem 1fr; padding: 3rem; }
+      .pp-br-desktop { display: inline; }
+    }
+    @media (min-width: 1024px) {
+      .pp-hero { padding: 5.5rem 0 4.5rem; }
+      .pp-hero-grid { grid-template-columns: 1.15fr 0.85fr; gap: 4rem; }
+    }
+  </style>
+</Layout>
