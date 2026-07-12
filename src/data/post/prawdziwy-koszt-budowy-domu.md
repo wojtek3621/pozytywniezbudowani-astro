@@ -57,152 +57,152 @@ metadata:
 <!-- KALKULATOR PRAWDZIWEGO KOSZTU BUDOWY -->
 <div id="kalk-koszt" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
 
-    <h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator prawdziwego kosztu budowy</h3>
+<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator prawdziwego kosztu budowy</h3>
 
-    <!-- Komunikat błędu -->
-    <div id="koszt-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
+<!-- Komunikat błędu -->
+<div id="koszt-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
 
-    <!-- Sekcja: Koszty inwestycji -->
-    <div style="margin-bottom: 20px;">
-        <div style="font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee;">Koszty inwestycji</div>
+<!-- Sekcja: Koszty inwestycji -->
+<div style="margin-bottom: 20px;">
+<div style="font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee;">Koszty inwestycji</div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-            <div>
-                <label for="koszt-dzialka" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Działka (zł)</label>
-                <input type="text" id="koszt-dzialka" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            </div>
-            <div>
-                <label for="koszt-projekt" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Projekt i formalności (zł)</label>
-                <input type="text" id="koszt-projekt" placeholder="np. 25 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            </div>
-            <div>
-                <label for="koszt-budowa" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Budowa - stan deweloperski (zł)</label>
-                <input type="text" id="koszt-budowa" placeholder="np. 500 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            </div>
-            <div>
-                <label for="koszt-wykonczenie" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Wykończenie (zł)</label>
-                <input type="text" id="koszt-wykonczenie" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            </div>
-            <div style="grid-column: 1 / -1;">
-                <label for="koszt-inne" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Inne (ogrodzenie, podjazd, przyłącza, rezerwa) (zł)</label>
-                <input type="text" id="koszt-inne" placeholder="np. 80 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            </div>
-        </div>
-    </div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+<div>
+<label for="koszt-dzialka" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Działka (zł)</label>
+<input type="text" id="koszt-dzialka" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
+<div>
+<label for="koszt-projekt" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Projekt i formalności (zł)</label>
+<input type="text" id="koszt-projekt" placeholder="np. 25 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
+<div>
+<label for="koszt-budowa" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Budowa - stan deweloperski (zł)</label>
+<input type="text" id="koszt-budowa" placeholder="np. 500 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
+<div>
+<label for="koszt-wykonczenie" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Wykończenie (zł)</label>
+<input type="text" id="koszt-wykonczenie" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
+<div style="grid-column: 1 / -1;">
+<label for="koszt-inne" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Inne (ogrodzenie, podjazd, przyłącza, rezerwa) (zł)</label>
+<input type="text" id="koszt-inne" placeholder="np. 80 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
+</div>
+</div>
 
-    <!-- Sekcja: Finansowanie -->
-    <div style="margin-bottom: 20px;">
-        <div style="font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee;">Finansowanie</div>
+<!-- Sekcja: Finansowanie -->
+<div style="margin-bottom: 20px;">
+<div style="font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee;">Finansowanie</div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-            <div>
-                <label for="koszt-wklad" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Wkład własny / gotówka (zł)</label>
-                <input type="text" id="koszt-wklad" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            </div>
-            <div>
-                <label for="koszt-okres" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Okres kredytu (lat)</label>
-                <input type="text" id="koszt-okres" placeholder="np. 30" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            </div>
-            <div style="grid-column: 1 / -1;">
-                <label for="koszt-opr" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Oprocentowanie kredytu (%)</label>
-                <input type="text" id="koszt-opr" placeholder="np. 7,80" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-                <div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża (np. 5,80% + 2,00%)</div>
-            </div>
-        </div>
-    </div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+<div>
+<label for="koszt-wklad" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Wkład własny / gotówka (zł)</label>
+<input type="text" id="koszt-wklad" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
+<div>
+<label for="koszt-okres" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Okres kredytu (lat)</label>
+<input type="text" id="koszt-okres" placeholder="np. 30" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
+<div style="grid-column: 1 / -1;">
+<label for="koszt-opr" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Oprocentowanie kredytu (%)</label>
+<input type="text" id="koszt-opr" placeholder="np. 7,80" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+<div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża (np. 5,80% + 2,00%)</div>
+</div>
+</div>
+</div>
 
-    <!-- Przyciski -->
-    <div style="display: flex; gap: 10px; margin-bottom: 25px;">
-        <button id="koszt-btn-oblicz" onclick="obliczKoszt()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Oblicz prawdziwy koszt</button>
-        <button id="koszt-btn-wyczysc" onclick="wyczyscKoszt()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
-    </div>
+<!-- Przyciski -->
+<div style="display: flex; gap: 10px; margin-bottom: 25px;">
+<button id="koszt-btn-oblicz" onclick="obliczKoszt()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Oblicz prawdziwy koszt</button>
+<button id="koszt-btn-wyczysc" onclick="wyczyscKoszt()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
+</div>
 
-    <!-- Wyniki -->
-    <div id="koszt-wyniki" style="display: none;">
+<!-- Wyniki -->
+<div id="koszt-wyniki" style="display: none;">
 
-        <!-- Główny wynik -->
-        <div style="background: linear-gradient(135deg, #4a7fc9 0%, #3a5f9a 100%); color: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
-            <div style="font-size: 14px; opacity: 0.9; margin-bottom: 5px;">Prawdziwy całkowity koszt</div>
-            <div id="koszt-calkowity" style="font-size: 42px; font-weight: 700; line-height: 1.2;">-</div>
-            <div id="koszt-mnoznik" style="font-size: 14px; opacity: 0.9; margin-top: 8px;"></div>
-        </div>
+<!-- Główny wynik -->
+<div style="background: linear-gradient(135deg, #4a7fc9 0%, #3a5f9a 100%); color: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
+<div style="font-size: 14px; opacity: 0.9; margin-bottom: 5px;">Prawdziwy całkowity koszt</div>
+<div id="koszt-calkowity" style="font-size: 42px; font-weight: 700; line-height: 1.2;">-</div>
+<div id="koszt-mnoznik" style="font-size: 14px; opacity: 0.9; margin-top: 8px;"></div>
+</div>
 
-        <!-- Składniki kosztu -->
-        <div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
-            <div style="font-size: 13px; color: #888; margin-bottom: 12px;">Składniki całkowitego kosztu:</div>
+<!-- Składniki kosztu -->
+<div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
+<div style="font-size: 13px; color: #888; margin-bottom: 12px;">Składniki całkowitego kosztu:</div>
 
-            <!-- Suma inwestycji -->
-            <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
-                <div>
-                    <div style="font-weight: 500; color: #3c3c3c;">Suma inwestycji</div>
-                    <div style="font-size: 11px; color: #888;">działka + budowa + wykończenie + inne</div>
-                </div>
-                <div id="koszt-suma-inwestycji" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</div>
-            </div>
+<!-- Suma inwestycji -->
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
+<div>
+<div style="font-weight: 500; color: #3c3c3c;">Suma inwestycji</div>
+<div style="font-size: 11px; color: #888;">działka + budowa + wykończenie + inne</div>
+</div>
+<div id="koszt-suma-inwestycji" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</div>
+</div>
 
-            <!-- Wkład własny -->
-            <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
-                <div style="font-weight: 500; color: #5a8a6a;">Wkład własny (gotówka)</div>
-                <div id="koszt-wklad-wynik" style="font-size: 18px; font-weight: 600; color: #5a8a6a;">-</div>
-            </div>
+<!-- Wkład własny -->
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
+<div style="font-weight: 500; color: #5a8a6a;">Wkład własny (gotówka)</div>
+<div id="koszt-wklad-wynik" style="font-size: 18px; font-weight: 600; color: #5a8a6a;">-</div>
+</div>
 
-            <!-- Kwota kredytu -->
-            <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
-                <div style="font-weight: 500; color: #3c3c3c;">Kwota kredytu</div>
-                <div id="koszt-kredyt" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</div>
-            </div>
+<!-- Kwota kredytu -->
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
+<div style="font-weight: 500; color: #3c3c3c;">Kwota kredytu</div>
+<div id="koszt-kredyt" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</div>
+</div>
 
-            <!-- Odsetki -->
-            <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; background: #fef0f0; margin: 0 -15px; padding-left: 15px; padding-right: 15px;">
-                <div>
-                    <div style="font-weight: 600; color: #c75050;">Suma odsetek kredytu</div>
-                    <div style="font-size: 11px; color: #888;">przez cały okres spłaty</div>
-                </div>
-                <div id="koszt-odsetki" style="font-size: 20px; font-weight: 700; color: #c75050;">-</div>
-            </div>
-        </div>
+<!-- Odsetki -->
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; background: #fef0f0; margin: 0 -15px; padding-left: 15px; padding-right: 15px;">
+<div>
+<div style="font-weight: 600; color: #c75050;">Suma odsetek kredytu</div>
+<div style="font-size: 11px; color: #888;">przez cały okres spłaty</div>
+</div>
+<div id="koszt-odsetki" style="font-size: 20px; font-weight: 700; color: #c75050;">-</div>
+</div>
+</div>
 
-        <!-- Wizualizacja proporcji -->
-        <div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
-            <div style="font-size: 13px; color: #888; margin-bottom: 12px;">Proporcje kosztów:</div>
-            <div id="koszt-wykres" style="display: flex; height: 30px; border-radius: 4px; overflow: hidden; margin-bottom: 10px;">
-                <!-- Wypełniane dynamicznie -->
-            </div>
-            <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 12px;">
-                <div style="display: flex; align-items: center; gap: 5px;">
-                    <div style="width: 12px; height: 12px; background: #c9a456; border-radius: 2px;"></div>
-                    <span>Inwestycja</span>
-                </div>
-                <div style="display: flex; align-items: center; gap: 5px;">
-                    <div style="width: 12px; height: 12px; background: #c75050; border-radius: 2px;"></div>
-                    <span>Odsetki kredytu</span>
-                </div>
-            </div>
-        </div>
+<!-- Wizualizacja proporcji -->
+<div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
+<div style="font-size: 13px; color: #888; margin-bottom: 12px;">Proporcje kosztów:</div>
+<div id="koszt-wykres" style="display: flex; height: 30px; border-radius: 4px; overflow: hidden; margin-bottom: 10px;">
+<!-- Wypełniane dynamicznie -->
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 12px;">
+<div style="display: flex; align-items: center; gap: 5px;">
+<div style="width: 12px; height: 12px; background: #c9a456; border-radius: 2px;"></div>
+<span>Inwestycja</span>
+</div>
+<div style="display: flex; align-items: center; gap: 5px;">
+<div style="width: 12px; height: 12px; background: #c75050; border-radius: 2px;"></div>
+<span>Odsetki kredytu</span>
+</div>
+</div>
+</div>
 
-        <!-- Dodatkowe info -->
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 15px;">
-            <div style="background: #f5f5f5; padding: 12px; border-radius: 6px;">
-                <div style="font-size: 11px; color: #888; text-transform: uppercase;">Miesięczna rata</div>
-                <div id="koszt-rata" style="font-size: 20px; font-weight: 700; color: #3c3c3c; margin-top: 2px;">-</div>
-            </div>
-            <div style="background: #f5f5f5; padding: 12px; border-radius: 6px;">
-                <div style="font-size: 11px; color: #888; text-transform: uppercase;">Odsetki vs kapitał</div>
-                <div id="koszt-stosunek" style="font-size: 20px; font-weight: 700; color: #c75050; margin-top: 2px;">-</div>
-            </div>
-        </div>
+<!-- Dodatkowe info -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 15px;">
+<div style="background: #f5f5f5; padding: 12px; border-radius: 6px;">
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Miesięczna rata</div>
+<div id="koszt-rata" style="font-size: 20px; font-weight: 700; color: #3c3c3c; margin-top: 2px;">-</div>
+</div>
+<div style="background: #f5f5f5; padding: 12px; border-radius: 6px;">
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Odsetki vs kapitał</div>
+<div id="koszt-stosunek" style="font-size: 20px; font-weight: 700; color: #c75050; margin-top: 2px;">-</div>
+</div>
+</div>
 
-        <!-- Wskazówka -->
-        <div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
-            <div style="font-size: 12px; color: #666; line-height: 1.5;">
-                <span style="color: #c9a456; font-size: 14px;">★</span> <strong>Wskazówka:</strong> Nadpłacając kredyt w pierwszych latach, możesz zaoszczędzić dziesiątki tysięcy złotych na odsetkach. Nadpłata 500 zł miesięcznie przez pierwsze 5 lat może skrócić kredyt nawet o 7-8 lat.
-            </div>
-        </div>
+<!-- Wskazówka -->
+<div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
+<div style="font-size: 12px; color: #666; line-height: 1.5;">
+<span style="color: #c9a456; font-size: 14px;">★</span> <strong>Wskazówka:</strong> Nadpłacając kredyt w pierwszych latach, możesz zaoszczędzić dziesiątki tysięcy złotych na odsetkach. Nadpłata 500 zł miesięcznie przez pierwsze 5 lat może skrócić kredyt nawet o 7-8 lat.
+</div>
+</div>
 
-    </div>
+</div>
 
-    <!-- Info -->
-    <p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Nie uwzględnia inflacji, zmian stóp procentowych ani kosztów ubezpieczeń.</p>
+<!-- Info -->
+<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Nie uwzględnia inflacji, zmian stóp procentowych ani kosztów ubezpieczeń.</p>
 
 </div>
 

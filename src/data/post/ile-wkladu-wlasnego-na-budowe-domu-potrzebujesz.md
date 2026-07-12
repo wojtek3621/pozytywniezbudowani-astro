@@ -120,6 +120,7 @@ metadata:
 
 <p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Szczegółowe wymagania mogą się różnić w zależności od banku.</p>
 </div>
+
 <script>
 (function() {
     var skipLink = document.querySelector('a.jump-to');

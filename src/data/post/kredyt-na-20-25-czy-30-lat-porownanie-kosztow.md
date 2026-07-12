@@ -32,107 +32,107 @@ metadata:
 <!-- KALKULATOR PORÓWNANIA OKRESÓW KREDYTOWANIA -->
 <div id="kalk-okresy" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
 
-    <h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator porównania okresów kredytu</h3>
+<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator porównania okresów kredytu</h3>
 
-    <!-- Komunikat błędu -->
-    <div id="okresy-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
+<!-- Komunikat błędu -->
+<div id="okresy-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
 
-    <!-- Pola formularza -->
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+<!-- Pola formularza -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
 
-        <div style="grid-column: 1 / -1;">
-            <label for="okresy-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota kredytu (zł)</label>
-            <input type="text" id="okresy-kwota" placeholder="np. 500 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-        </div>
+<div style="grid-column: 1 / -1;">
+<label for="okresy-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota kredytu (zł)</label>
+<input type="text" id="okresy-kwota" placeholder="np. 500 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
 
-        <div>
-            <label for="okresy-wibor" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">WIBOR 3M (%)</label>
-            <input type="text" id="okresy-wibor" placeholder="np. 5,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            <div style="font-size: 11px; color: #888; margin-top: 4px;">Aktualną stawkę sprawdzisz na <a href="https://gpwbenchmark.pl/notowania-stawek-referencyjnych" target="_blank" rel="noopener" style="color: #c9a456;">gpwbenchmark.pl</a></div>
-        </div>
+<div>
+<label for="okresy-wibor" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">WIBOR 3M (%)</label>
+<input type="text" id="okresy-wibor" placeholder="np. 5,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+<div style="font-size: 11px; color: #888; margin-top: 4px;">Aktualną stawkę sprawdzisz na <a href="https://gpwbenchmark.pl/notowania-stawek-referencyjnych" target="_blank" rel="noopener" style="color: #c9a456;">gpwbenchmark.pl</a></div>
+</div>
 
-        <div>
-            <label for="okresy-marza" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Marża banku (%)</label>
-            <input type="text" id="okresy-marza" placeholder="np. 2,00" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            <div style="font-size: 11px; color: #888; margin-top: 4px;">Typowa marża: 1,8% – 2,5%</div>
-        </div>
+<div>
+<label for="okresy-marza" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Marża banku (%)</label>
+<input type="text" id="okresy-marza" placeholder="np. 2,00" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+<div style="font-size: 11px; color: #888; margin-top: 4px;">Typowa marża: 1,8% – 2,5%</div>
+</div>
 
-    </div>
+</div>
 
-    <!-- Przyciski -->
-    <div style="display: flex; gap: 10px; margin-bottom: 25px;">
-        <button id="okresy-btn-oblicz" onclick="obliczOkresy()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Porównaj okresy</button>
-        <button id="okresy-btn-wyczysc" onclick="wyczyscOkresy()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
-    </div>
+<!-- Przyciski -->
+<div style="display: flex; gap: 10px; margin-bottom: 25px;">
+<button id="okresy-btn-oblicz" onclick="obliczOkresy()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Porównaj okresy</button>
+<button id="okresy-btn-wyczysc" onclick="wyczyscOkresy()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
+</div>
 
-    <!-- Wyniki -->
-    <div id="okresy-wyniki" style="display: none;">
+<!-- Wyniki -->
+<div id="okresy-wyniki" style="display: none;">
 
-        <!-- Oprocentowanie -->
-        <div style="text-align: center; margin-bottom: 20px; padding: 12px; background: #fff; border-radius: 6px;">
-            <span style="font-size: 13px; color: #888;">Oprocentowanie całkowite: </span>
-            <span id="okresy-opr" style="font-size: 18px; font-weight: 700; color: #c9a456;">-</span>
-        </div>
+<!-- Oprocentowanie -->
+<div style="text-align: center; margin-bottom: 20px; padding: 12px; background: #fff; border-radius: 6px;">
+<span style="font-size: 13px; color: #888;">Oprocentowanie całkowite: </span>
+<span id="okresy-opr" style="font-size: 18px; font-weight: 700; color: #c9a456;">-</span>
+</div>
 
-        <!-- Tabela porównawcza -->
-        <div style="overflow-x: auto;">
-            <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
-                <thead>
-                    <tr style="background: linear-gradient(135deg, #c9a456 0%, #b8934a 100%); color: #fff;">
-                        <th style="padding: 12px 10px; text-align: left; font-weight: 600;">Okres</th>
-                        <th style="padding: 12px 10px; text-align: right; font-weight: 600;">Rata</th>
-                        <th style="padding: 12px 10px; text-align: right; font-weight: 600;">Suma odsetek</th>
-                        <th style="padding: 12px 10px; text-align: right; font-weight: 600;">Łącznie do spłaty</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="background: #fff;">
-                        <td style="padding: 12px 10px; border-bottom: 1px solid #eee; font-weight: 600; color: #3c3c3c;">20 lat</td>
-                        <td id="okresy-rata-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; font-weight: 600; color: #5a8a6a;">-</td>
-                        <td id="okresy-odsetki-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
-                        <td id="okresy-suma-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
-                    </tr>
-                    <tr style="background: #f9f9f9;">
-                        <td style="padding: 12px 10px; border-bottom: 1px solid #eee; font-weight: 600; color: #3c3c3c;">25 lat</td>
-                        <td id="okresy-rata-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; font-weight: 600; color: #c9a456;">-</td>
-                        <td id="okresy-odsetki-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
-                        <td id="okresy-suma-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
-                    </tr>
-                    <tr style="background: #fff;">
-                        <td style="padding: 12px 10px; font-weight: 600; color: #3c3c3c;">30 lat</td>
-                        <td id="okresy-rata-30" style="padding: 12px 10px; text-align: right; font-weight: 600; color: #c75050;">-</td>
-                        <td id="okresy-odsetki-30" style="padding: 12px 10px; text-align: right; color: #3c3c3c;">-</td>
-                        <td id="okresy-suma-30" style="padding: 12px 10px; text-align: right; color: #3c3c3c;">-</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+<!-- Tabela porównawcza -->
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+<thead>
+<tr style="background: linear-gradient(135deg, #c9a456 0%, #b8934a 100%); color: #fff;">
+<th style="padding: 12px 10px; text-align: left; font-weight: 600;">Okres</th>
+<th style="padding: 12px 10px; text-align: right; font-weight: 600;">Rata</th>
+<th style="padding: 12px 10px; text-align: right; font-weight: 600;">Suma odsetek</th>
+<th style="padding: 12px 10px; text-align: right; font-weight: 600;">Łącznie do spłaty</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #fff;">
+<td style="padding: 12px 10px; border-bottom: 1px solid #eee; font-weight: 600; color: #3c3c3c;">20 lat</td>
+<td id="okresy-rata-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; font-weight: 600; color: #5a8a6a;">-</td>
+<td id="okresy-odsetki-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
+<td id="okresy-suma-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
+</tr>
+<tr style="background: #f9f9f9;">
+<td style="padding: 12px 10px; border-bottom: 1px solid #eee; font-weight: 600; color: #3c3c3c;">25 lat</td>
+<td id="okresy-rata-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; font-weight: 600; color: #c9a456;">-</td>
+<td id="okresy-odsetki-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
+<td id="okresy-suma-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
+</tr>
+<tr style="background: #fff;">
+<td style="padding: 12px 10px; font-weight: 600; color: #3c3c3c;">30 lat</td>
+<td id="okresy-rata-30" style="padding: 12px 10px; text-align: right; font-weight: 600; color: #c75050;">-</td>
+<td id="okresy-odsetki-30" style="padding: 12px 10px; text-align: right; color: #3c3c3c;">-</td>
+<td id="okresy-suma-30" style="padding: 12px 10px; text-align: right; color: #3c3c3c;">-</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-        <!-- Podsumowanie różnic -->
-        <div style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-            <div style="background: #fff; padding: 15px; border-radius: 6px; border-left: 3px solid #5a8a6a;">
-                <div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Różnica raty 20 vs 30 lat</div>
-                <div id="okresy-roznica-rata" style="font-size: 20px; font-weight: 700; color: #5a8a6a; margin-top: 4px;">-</div>
-                <div style="font-size: 11px; color: #888; margin-top: 2px;">miesięcznie więcej przy 20 latach</div>
-            </div>
-            <div style="background: #fff; padding: 15px; border-radius: 6px; border-left: 3px solid #c75050;">
-                <div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Dodatkowe odsetki 30 vs 20 lat</div>
-                <div id="okresy-roznica-odsetki" style="font-size: 20px; font-weight: 700; color: #c75050; margin-top: 4px;">-</div>
-                <div style="font-size: 11px; color: #888; margin-top: 2px;">więcej zapłacisz przy 30 latach</div>
-            </div>
-        </div>
+<!-- Podsumowanie różnic -->
+<div style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+<div style="background: #fff; padding: 15px; border-radius: 6px; border-left: 3px solid #5a8a6a;">
+<div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Różnica raty 20 vs 30 lat</div>
+<div id="okresy-roznica-rata" style="font-size: 20px; font-weight: 700; color: #5a8a6a; margin-top: 4px;">-</div>
+<div style="font-size: 11px; color: #888; margin-top: 2px;">miesięcznie więcej przy 20 latach</div>
+</div>
+<div style="background: #fff; padding: 15px; border-radius: 6px; border-left: 3px solid #c75050;">
+<div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Dodatkowe odsetki 30 vs 20 lat</div>
+<div id="okresy-roznica-odsetki" style="font-size: 20px; font-weight: 700; color: #c75050; margin-top: 4px;">-</div>
+<div style="font-size: 11px; color: #888; margin-top: 2px;">więcej zapłacisz przy 30 latach</div>
+</div>
+</div>
 
-        <!-- Wskazówka -->
-        <div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456; margin-top: 15px;">
-            <div style="font-size: 13px; color: #666; line-height: 1.5;">
-                <span style="color: #c9a456; font-size: 14px;">★</span> <strong>Strategia:</strong> Weź kredyt na 30 lat (niższa obowiązkowa rata), ale nadpłacaj go tak, jakby był na 20 lat. Jeśli przyjdą trudniejsze czasy – po prostu przestajesz nadpłacać. Nikt nie pyta, nikt nie wymaga tłumaczeń.
-            </div>
-        </div>
+<!-- Wskazówka -->
+<div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456; margin-top: 15px;">
+<div style="font-size: 13px; color: #666; line-height: 1.5;">
+<span style="color: #c9a456; font-size: 14px;">★</span> <strong>Strategia:</strong> Weź kredyt na 30 lat (niższa obowiązkowa rata), ale nadpłacaj go tak, jakby był na 20 lat. Jeśli przyjdą trudniejsze czasy – po prostu przestajesz nadpłacać. Nikt nie pyta, nikt nie wymaga tłumaczeń.
+</div>
+</div>
 
-    </div>
+</div>
 
-    <!-- Info -->
-    <p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Rzeczywista rata może się różnić w zależności od oferty banku.</p>
+<!-- Info -->
+<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Rzeczywista rata może się różnić w zależności od oferty banku.</p>
 
 </div>
 

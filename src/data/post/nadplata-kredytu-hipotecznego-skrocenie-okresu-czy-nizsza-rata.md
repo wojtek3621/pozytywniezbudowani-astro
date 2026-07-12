@@ -56,131 +56,131 @@ metadata:
 <!-- KALKULATOR NADPŁATY KREDYTU -->
 <div id="kalk-nadplata" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
 
-    <h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator nadpłaty kredytu</h3>
+<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator nadpłaty kredytu</h3>
 
-    <!-- Komunikat błędu -->
-    <div id="nadplata-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
+<!-- Komunikat błędu -->
+<div id="nadplata-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
 
-    <!-- Pola formularza -->
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+<!-- Pola formularza -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
 
-        <div style="grid-column: 1 / -1;">
-            <label for="nadplata-pozostalo" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Pozostała kwota kredytu do spłaty (zł)</label>
-            <input type="text" id="nadplata-pozostalo" placeholder="np. 400 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-        </div>
+<div style="grid-column: 1 / -1;">
+<label for="nadplata-pozostalo" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Pozostała kwota kredytu do spłaty (zł)</label>
+<input type="text" id="nadplata-pozostalo" placeholder="np. 400 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
 
-        <div>
-            <label for="nadplata-okres" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Pozostały okres spłaty (lat)</label>
-            <input type="text" id="nadplata-okres" placeholder="np. 22" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-        </div>
+<div>
+<label for="nadplata-okres" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Pozostały okres spłaty (lat)</label>
+<input type="text" id="nadplata-okres" placeholder="np. 22" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
 
-        <div>
-            <label for="nadplata-opr" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Oprocentowanie (%)</label>
-            <input type="text" id="nadplata-opr" placeholder="np. 7,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            <div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża</div>
-        </div>
+<div>
+<label for="nadplata-opr" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Oprocentowanie (%)</label>
+<input type="text" id="nadplata-opr" placeholder="np. 7,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+<div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża</div>
+</div>
 
-        <div style="grid-column: 1 / -1;">
-            <label for="nadplata-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota nadpłaty (zł)</label>
-            <input type="text" id="nadplata-kwota" placeholder="np. 20 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-        </div>
+<div style="grid-column: 1 / -1;">
+<label for="nadplata-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota nadpłaty (zł)</label>
+<input type="text" id="nadplata-kwota" placeholder="np. 20 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
 
-    </div>
+</div>
 
-    <!-- Przyciski -->
-    <div style="display: flex; gap: 10px; margin-bottom: 25px;">
-        <button id="nadplata-btn-oblicz" onclick="obliczNadplate()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Porównaj opcje</button>
-        <button id="nadplata-btn-wyczysc" onclick="wyczyscNadplate()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
-    </div>
+<!-- Przyciski -->
+<div style="display: flex; gap: 10px; margin-bottom: 25px;">
+<button id="nadplata-btn-oblicz" onclick="obliczNadplate()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Porównaj opcje</button>
+<button id="nadplata-btn-wyczysc" onclick="wyczyscNadplate()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
+</div>
 
-    <!-- Wyniki -->
-    <div id="nadplata-wyniki" style="display: none;">
+<!-- Wyniki -->
+<div id="nadplata-wyniki" style="display: none;">
 
-        <!-- Aktualna sytuacja -->
-        <div style="background: #f5f5f5; padding: 15px; border-radius: 6px; margin-bottom: 20px;">
-            <div style="font-size: 12px; color: #888; margin-bottom: 8px;">Przed nadpłatą</div>
-            <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
-                <div>
-                    <span style="font-size: 12px; color: #666;">Aktualna rata: </span>
-                    <span id="nadplata-rata-przed" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</span>
-                </div>
-                <div>
-                    <span style="font-size: 12px; color: #666;">Odsetki do końca: </span>
-                    <span id="nadplata-odsetki-przed" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</span>
-                </div>
-            </div>
-        </div>
+<!-- Aktualna sytuacja -->
+<div style="background: #f5f5f5; padding: 15px; border-radius: 6px; margin-bottom: 20px;">
+<div style="font-size: 12px; color: #888; margin-bottom: 8px;">Przed nadpłatą</div>
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+<div>
+<span style="font-size: 12px; color: #666;">Aktualna rata: </span>
+<span id="nadplata-rata-przed" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</span>
+</div>
+<div>
+<span style="font-size: 12px; color: #666;">Odsetki do końca: </span>
+<span id="nadplata-odsetki-przed" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</span>
+</div>
+</div>
+</div>
 
-        <!-- Opcja 1: Skrócenie okresu -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 15px; border: 2px solid #5a8a6a;">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                <div style="font-size: 16px; font-weight: 600; color: #5a8a6a;">Opcja 1: Skrócenie okresu</div>
-                <div style="background: #5a8a6a; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 600;">WIĘCEJ OSZCZĘDNOŚCI</div>
-            </div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                <div>
-                    <div style="font-size: 11px; color: #888; text-transform: uppercase;">Rata pozostaje</div>
-                    <div id="nadplata-rata-skrocenie" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
-                </div>
-                <div>
-                    <div style="font-size: 11px; color: #888; text-transform: uppercase;">Skrócenie o</div>
-                    <div id="nadplata-skrocenie-czas" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
-                </div>
-                <div>
-                    <div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędność na odsetkach</div>
-                    <div id="nadplata-oszcz-skrocenie" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
-                </div>
-                <div>
-                    <div style="font-size: 11px; color: #888; text-transform: uppercase;">Nowy okres spłaty</div>
-                    <div id="nadplata-nowy-okres" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
-                </div>
-            </div>
-        </div>
+<!-- Opcja 1: Skrócenie okresu -->
+<div style="background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 15px; border: 2px solid #5a8a6a;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+<div style="font-size: 16px; font-weight: 600; color: #5a8a6a;">Opcja 1: Skrócenie okresu</div>
+<div style="background: #5a8a6a; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 600;">WIĘCEJ OSZCZĘDNOŚCI</div>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+<div>
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Rata pozostaje</div>
+<div id="nadplata-rata-skrocenie" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
+</div>
+<div>
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Skrócenie o</div>
+<div id="nadplata-skrocenie-czas" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
+</div>
+<div>
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędność na odsetkach</div>
+<div id="nadplata-oszcz-skrocenie" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
+</div>
+<div>
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Nowy okres spłaty</div>
+<div id="nadplata-nowy-okres" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
+</div>
+</div>
+</div>
 
-        <!-- Opcja 2: Niższa rata -->
-        <div style="background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 15px; border: 2px solid #c9a456;">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                <div style="font-size: 16px; font-weight: 600; color: #c9a456;">Opcja 2: Niższa rata</div>
-                <div style="background: #c9a456; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 600;">WIĘKSZA ELASTYCZNOŚĆ</div>
-            </div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                <div>
-                    <div style="font-size: 11px; color: #888; text-transform: uppercase;">Nowa rata</div>
-                    <div id="nadplata-rata-nizsza" style="font-size: 20px; font-weight: 700; color: #c9a456;">-</div>
-                </div>
-                <div>
-                    <div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędzasz miesięcznie</div>
-                    <div id="nadplata-oszcz-miesieczna" style="font-size: 20px; font-weight: 700; color: #c9a456;">-</div>
-                </div>
-                <div>
-                    <div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędność na odsetkach</div>
-                    <div id="nadplata-oszcz-nizsza" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
-                </div>
-                <div>
-                    <div style="font-size: 11px; color: #888; text-transform: uppercase;">Okres bez zmian</div>
-                    <div id="nadplata-okres-bez-zmian" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
-                </div>
-            </div>
-        </div>
+<!-- Opcja 2: Niższa rata -->
+<div style="background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 15px; border: 2px solid #c9a456;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+<div style="font-size: 16px; font-weight: 600; color: #c9a456;">Opcja 2: Niższa rata</div>
+<div style="background: #c9a456; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 600;">WIĘKSZA ELASTYCZNOŚĆ</div>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+<div>
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Nowa rata</div>
+<div id="nadplata-rata-nizsza" style="font-size: 20px; font-weight: 700; color: #c9a456;">-</div>
+</div>
+<div>
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędzasz miesięcznie</div>
+<div id="nadplata-oszcz-miesieczna" style="font-size: 20px; font-weight: 700; color: #c9a456;">-</div>
+</div>
+<div>
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędność na odsetkach</div>
+<div id="nadplata-oszcz-nizsza" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
+</div>
+<div>
+<div style="font-size: 11px; color: #888; text-transform: uppercase;">Okres bez zmian</div>
+<div id="nadplata-okres-bez-zmian" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
+</div>
+</div>
+</div>
 
-        <!-- Porównanie -->
-        <div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
-            <div style="font-size: 13px; color: #666; margin-bottom: 8px;"><strong>Różnica w oszczędnościach:</strong></div>
-            <div id="nadplata-roznica" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
-            <div style="font-size: 12px; color: #888; margin-top: 4px;">Tyle więcej zaoszczędzisz wybierając skrócenie okresu zamiast niższej raty.</div>
-        </div>
+<!-- Porównanie -->
+<div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
+<div style="font-size: 13px; color: #666; margin-bottom: 8px;"><strong>Różnica w oszczędnościach:</strong></div>
+<div id="nadplata-roznica" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
+<div style="font-size: 12px; color: #888; margin-top: 4px;">Tyle więcej zaoszczędzisz wybierając skrócenie okresu zamiast niższej raty.</div>
+</div>
 
-        <!-- Wskazówka -->
-        <div style="margin-top: 15px; padding: 12px 15px; background: #f0f7f3; border-radius: 6px; border-left: 3px solid #5a8a6a;">
-            <div style="font-size: 12px; color: #3c3c3c; line-height: 1.5;">
-                <span style="color: #5a8a6a; font-size: 14px;">★</span> <strong>Wskazówka:</strong> Jeśli cenisz bezpieczeństwo, wybierz niższą ratę. Jeśli Twoja sytuacja finansowa jest stabilna i chcesz maksymalnie zaoszczędzić – wybierz skrócenie okresu.
-            </div>
-        </div>
+<!-- Wskazówka -->
+<div style="margin-top: 15px; padding: 12px 15px; background: #f0f7f3; border-radius: 6px; border-left: 3px solid #5a8a6a;">
+<div style="font-size: 12px; color: #3c3c3c; line-height: 1.5;">
+<span style="color: #5a8a6a; font-size: 14px;">★</span> <strong>Wskazówka:</strong> Jeśli cenisz bezpieczeństwo, wybierz niższą ratę. Jeśli Twoja sytuacja finansowa jest stabilna i chcesz maksymalnie zaoszczędzić – wybierz skrócenie okresu.
+</div>
+</div>
 
-    </div>
+</div>
 
-    <!-- Info -->
-    <p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Dokładne warunki nadpłaty sprawdź w swoim banku.</p>
+<!-- Info -->
+<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Dokładne warunki nadpłaty sprawdź w swoim banku.</p>
 
 </div>
 

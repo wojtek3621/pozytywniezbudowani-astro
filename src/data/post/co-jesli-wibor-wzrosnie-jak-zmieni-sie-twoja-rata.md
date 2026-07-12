@@ -36,108 +36,108 @@ metadata:
 <!-- KALKULATOR SYMULATORA WZROSTU WIBOR -->
 <div id="kalk-wibor" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
 
-    <h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Symulator wzrostu WIBOR</h3>
+<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Symulator wzrostu WIBOR</h3>
 
-    <!-- Komunikat błędu -->
-    <div id="wibor-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
+<!-- Komunikat błędu -->
+<div id="wibor-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
 
-    <!-- Pola formularza -->
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+<!-- Pola formularza -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
 
-        <div style="grid-column: 1 / -1;">
-            <label for="wibor-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota kredytu (zł)</label>
-            <input type="text" id="wibor-kwota" placeholder="np. 500 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-        </div>
+<div style="grid-column: 1 / -1;">
+<label for="wibor-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota kredytu (zł)</label>
+<input type="text" id="wibor-kwota" placeholder="np. 500 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
 
-        <div>
-            <label for="wibor-okres" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Okres kredytowania (lat)</label>
-            <input type="text" id="wibor-okres" placeholder="np. 25" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-        </div>
+<div>
+<label for="wibor-okres" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Okres kredytowania (lat)</label>
+<input type="text" id="wibor-okres" placeholder="np. 25" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+</div>
 
-        <div>
-            <label for="wibor-aktualny" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Aktualne oprocentowanie (%)</label>
-            <input type="text" id="wibor-aktualny" placeholder="np. 7,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-            <div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża banku (np. 5,80% + 2,00%)</div>
-        </div>
+<div>
+<label for="wibor-aktualny" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Aktualne oprocentowanie (%)</label>
+<input type="text" id="wibor-aktualny" placeholder="np. 7,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
+<div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża banku (np. 5,80% + 2,00%)</div>
+</div>
 
-    </div>
+</div>
 
-    <!-- Przyciski -->
-    <div style="display: flex; gap: 10px; margin-bottom: 25px;">
-        <button id="wibor-btn-oblicz" onclick="obliczWibor()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Sprawdź scenariusze</button>
-        <button id="wibor-btn-wyczysc" onclick="wyczyscWibor()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
-    </div>
+<!-- Przyciski -->
+<div style="display: flex; gap: 10px; margin-bottom: 25px;">
+<button id="wibor-btn-oblicz" onclick="obliczWibor()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Sprawdź scenariusze</button>
+<button id="wibor-btn-wyczysc" onclick="wyczyscWibor()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
+</div>
 
-    <!-- Wyniki -->
-    <div id="wibor-wyniki" style="display: none;">
+<!-- Wyniki -->
+<div id="wibor-wyniki" style="display: none;">
 
-        <!-- Aktualna rata -->
-        <div style="background: linear-gradient(135deg, #c9a456 0%, #b8934a 100%); color: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
-            <div style="font-size: 14px; opacity: 0.9; margin-bottom: 5px;">Twoja aktualna rata</div>
-            <div id="wibor-rata-aktualna" style="font-size: 42px; font-weight: 700; line-height: 1.2;">-</div>
-            <div id="wibor-opr-tekst" style="font-size: 13px; opacity: 0.85; margin-top: 8px;"></div>
-        </div>
+<!-- Aktualna rata -->
+<div style="background: linear-gradient(135deg, #c9a456 0%, #b8934a 100%); color: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
+<div style="font-size: 14px; opacity: 0.9; margin-bottom: 5px;">Twoja aktualna rata</div>
+<div id="wibor-rata-aktualna" style="font-size: 42px; font-weight: 700; line-height: 1.2;">-</div>
+<div id="wibor-opr-tekst" style="font-size: 13px; opacity: 0.85; margin-top: 8px;"></div>
+</div>
 
-        <!-- Scenariusze wzrostu -->
-        <div style="margin-bottom: 15px;">
-            <div style="font-size: 13px; color: #888; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Co jeśli WIBOR wzrośnie?</div>
+<!-- Scenariusze wzrostu -->
+<div style="margin-bottom: 15px;">
+<div style="font-size: 13px; color: #888; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Co jeśli WIBOR wzrośnie?</div>
 
-            <!-- +1 p.p. -->
-            <div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 10px; border-left: 4px solid #f0c040; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-                <div>
-                    <div style="font-size: 14px; font-weight: 600; color: #3c3c3c;">WIBOR +1 p.p.</div>
-                    <div id="wibor-opr-1" style="font-size: 12px; color: #888;"></div>
-                </div>
-                <div style="text-align: right;">
-                    <div id="wibor-rata-1" style="font-size: 22px; font-weight: 700; color: #3c3c3c;">-</div>
-                    <div id="wibor-wzrost-1" style="font-size: 13px; color: #c75050; font-weight: 600;">-</div>
-                </div>
-            </div>
+<!-- +1 p.p. -->
+<div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 10px; border-left: 4px solid #f0c040; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+<div>
+<div style="font-size: 14px; font-weight: 600; color: #3c3c3c;">WIBOR +1 p.p.</div>
+<div id="wibor-opr-1" style="font-size: 12px; color: #888;"></div>
+</div>
+<div style="text-align: right;">
+<div id="wibor-rata-1" style="font-size: 22px; font-weight: 700; color: #3c3c3c;">-</div>
+<div id="wibor-wzrost-1" style="font-size: 13px; color: #c75050; font-weight: 600;">-</div>
+</div>
+</div>
 
-            <!-- +2 p.p. -->
-            <div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 10px; border-left: 4px solid #e08030; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-                <div>
-                    <div style="font-size: 14px; font-weight: 600; color: #3c3c3c;">WIBOR +2 p.p.</div>
-                    <div id="wibor-opr-2" style="font-size: 12px; color: #888;"></div>
-                </div>
-                <div style="text-align: right;">
-                    <div id="wibor-rata-2" style="font-size: 22px; font-weight: 700; color: #3c3c3c;">-</div>
-                    <div id="wibor-wzrost-2" style="font-size: 13px; color: #c75050; font-weight: 600;">-</div>
-                </div>
-            </div>
+<!-- +2 p.p. -->
+<div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 10px; border-left: 4px solid #e08030; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+<div>
+<div style="font-size: 14px; font-weight: 600; color: #3c3c3c;">WIBOR +2 p.p.</div>
+<div id="wibor-opr-2" style="font-size: 12px; color: #888;"></div>
+</div>
+<div style="text-align: right;">
+<div id="wibor-rata-2" style="font-size: 22px; font-weight: 700; color: #3c3c3c;">-</div>
+<div id="wibor-wzrost-2" style="font-size: 13px; color: #c75050; font-weight: 600;">-</div>
+</div>
+</div>
 
-            <!-- +4 p.p. -->
-            <div style="background: #fff; padding: 15px; border-radius: 6px; border-left: 4px solid #c75050; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-                <div>
-                    <div style="font-size: 14px; font-weight: 600; color: #3c3c3c;">WIBOR +4 p.p.</div>
-                    <div id="wibor-opr-4" style="font-size: 12px; color: #888;"></div>
-                    <div style="font-size: 11px; color: #c75050; margin-top: 2px;">scenariusz z 2022 roku</div>
-                </div>
-                <div style="text-align: right;">
-                    <div id="wibor-rata-4" style="font-size: 22px; font-weight: 700; color: #c75050;">-</div>
-                    <div id="wibor-wzrost-4" style="font-size: 13px; color: #c75050; font-weight: 600;">-</div>
-                </div>
-            </div>
-        </div>
+<!-- +4 p.p. -->
+<div style="background: #fff; padding: 15px; border-radius: 6px; border-left: 4px solid #c75050; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+<div>
+<div style="font-size: 14px; font-weight: 600; color: #3c3c3c;">WIBOR +4 p.p.</div>
+<div id="wibor-opr-4" style="font-size: 12px; color: #888;"></div>
+<div style="font-size: 11px; color: #c75050; margin-top: 2px;">scenariusz z 2022 roku</div>
+</div>
+<div style="text-align: right;">
+<div id="wibor-rata-4" style="font-size: 22px; font-weight: 700; color: #c75050;">-</div>
+<div id="wibor-wzrost-4" style="font-size: 13px; color: #c75050; font-weight: 600;">-</div>
+</div>
+</div>
+</div>
 
-        <!-- Podsumowanie roczne -->
-        <div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
-            <div style="font-size: 13px; color: #666; margin-bottom: 8px;"><strong>Ile więcej rocznie przy wzroście WIBOR o 2 p.p.?</strong></div>
-            <div id="wibor-rocznie" style="font-size: 24px; font-weight: 700; color: #c75050;">-</div>
-            <div style="font-size: 12px; color: #888; margin-top: 4px;">To kwota, którą musisz mieć w zapasie na wypadek wzrostu stóp.</div>
-        </div>
+<!-- Podsumowanie roczne -->
+<div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
+<div style="font-size: 13px; color: #666; margin-bottom: 8px;"><strong>Ile więcej rocznie przy wzroście WIBOR o 2 p.p.?</strong></div>
+<div id="wibor-rocznie" style="font-size: 24px; font-weight: 700; color: #c75050;">-</div>
+<div style="font-size: 12px; color: #888; margin-top: 4px;">To kwota, którą musisz mieć w zapasie na wypadek wzrostu stóp.</div>
+</div>
 
-        <!-- Wskazówka -->
-        <div style="margin-top: 15px; padding: 12px 15px; background: #f0f7f3; border-radius: 6px; border-left: 3px solid #5a8a6a;">
-            <div style="font-size: 12px; color: #3c3c3c; line-height: 1.5;">
-                <span style="color: #5a8a6a; font-size: 14px;">★</span> <strong>Zasada bezpieczeństwa:</strong> Jeśli wzrost raty o 500 zł miesięcznie oznaczałby dla Was poważne problemy – to sygnał, że planujecie kredyt na granicy swoich możliwości.
-            </div>
-        </div>
+<!-- Wskazówka -->
+<div style="margin-top: 15px; padding: 12px 15px; background: #f0f7f3; border-radius: 6px; border-left: 3px solid #5a8a6a;">
+<div style="font-size: 12px; color: #3c3c3c; line-height: 1.5;">
+<span style="color: #5a8a6a; font-size: 14px;">★</span> <strong>Zasada bezpieczeństwa:</strong> Jeśli wzrost raty o 500 zł miesięcznie oznaczałby dla Was poważne problemy – to sygnał, że planujecie kredyt na granicy swoich możliwości.
+</div>
+</div>
 
-    </div>
+</div>
 
-    <!-- Info -->
-    <p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Symulacja ma charakter poglądowy. Służy do oceny odporności Waszego budżetu na wzrost stóp procentowych.</p>
+<!-- Info -->
+<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Symulacja ma charakter poglądowy. Służy do oceny odporności Waszego budżetu na wzrost stóp procentowych.</p>
 
 </div>
 
