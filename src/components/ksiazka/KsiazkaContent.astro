@@ -392,7 +392,7 @@ const { showBookNav = true } = Astro.props;
           name: 'Jak szybko dostanę książkę?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. W praktyce: zamawiasz dziś do południa — za kilka dni masz książkę w ręce.',
+            text: 'Zamówienia złożone do 11:00 wysyłamy tego samego dnia. Do wyboru: paczkomat InPost, ORLEN Paczka lub kurier Pocztex. W praktyce: zamawiasz dziś do południa — za kilka dni masz książkę w ręce.',
           },
         },
         {
@@ -525,7 +525,7 @@ const { showBookNav = true } = Astro.props;
               Zobacz, co w środku ↓
             </a>
           </div>
-          <p class="text-sm text-slate-500 mt-3">Wysyłka od 4,90 zł • kurier DPD</p>
+          <p class="text-sm text-slate-500 mt-3">Wysyłka od 4,99 zł • paczkomat InPost, ORLEN Paczka lub kurier</p>
         </div>
       </div>
     </div>
@@ -652,8 +652,8 @@ const { showBookNav = true } = Astro.props;
                   ></path>
                 </svg>
                 <span class="text-sm text-gray-800 dark:text-slate-200">
-                  <strong>Wysyłka od 4,90 zł — kurier DPD</strong><br />
-                  Szybka dostawa na terenie całej Polski
+                  <strong>Wysyłka od 4,99 zł — paczkomat, ORLEN Paczka lub kurier</strong><br />
+                  Paczkomat InPost i ORLEN Paczka od 4,99 zł, kurier Pocztex 5,99 zł — cała Polska
                 </span>
               </li>
               <li class="flex items-start gap-3">
@@ -698,7 +698,14 @@ const { showBookNav = true } = Astro.props;
                 </svg>
                 <span class="text-sm text-gray-800 dark:text-slate-200">
                   <strong>Autor: 13 lat praktyki w budownictwie jednorodzinnym</strong><br />
-                  Z własnej firmy 4izby.pl
+                  Z własnej firmy
+                  <a
+                    href="https://4izby.pl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-semibold text-primary dark:text-amber-400 underline underline-offset-2 hover:no-underline"
+                    >4izby.pl</a
+                  >
                 </span>
               </li>
             </ul>
@@ -719,7 +726,8 @@ const { showBookNav = true } = Astro.props;
               Kup książkę — 119 zł
             </a>
             <p class="text-xs text-muted">
-              Konsultacja generalnego wykonawcy kosztuje 300–500 zł za godzinę. Ta książka to 13 lat praktyki za 119 zł.
+              Konsultacja u kierownika budowy czy inspektora nadzoru to wydatek co najmniej 300–500 zł. Ta książka to 13
+              lat praktyki za 119 zł.
             </p>
             <p class="text-sm text-muted mt-3 flex items-center gap-2">
               <svg
@@ -1375,8 +1383,8 @@ const { showBookNav = true } = Astro.props;
             >
           </summary>
           <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-            Zamówienia złożone do 11:00 wysyłamy tego samego dnia kurierem DPD. W praktyce: zamawiasz dziś do południa —
-            za kilka dni masz książkę w ręce.
+            Zamówienia złożone do 11:00 wysyłamy tego samego dnia. Do wyboru: paczkomat InPost, ORLEN Paczka lub kurier
+            Pocztex. W praktyce: zamawiasz dziś do południa — za kilka dni masz książkę w ręce.
           </p>
         </details>
 
@@ -1509,7 +1517,7 @@ const { showBookNav = true } = Astro.props;
             608 stron wiedzy, która zaoszczędzi Wam tysięcy złotych i miesięcy stresu. To nie kolejny poradnik z
             internetu — to kompletny przewodnik napisany przez człowieka, który buduje domy na co dzień.
           </p>
-          <p class="text-slate-400 mb-8">Twarda oprawa. Wysyłka od 4,90 zł kurierem DPD.</p>
+          <p class="text-slate-400 mb-8">Twarda oprawa. Wysyłka od 4,99 zł — paczkomat, ORLEN Paczka lub kurier.</p>
 
           <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
