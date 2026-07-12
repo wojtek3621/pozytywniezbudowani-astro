@@ -5,19 +5,22 @@ import Image from '~/components/common/Image.astro';
 import wojtekPortret from '~/assets/images/site/wojtek-o-autorze-ksiazka.jpg';
 import bookCover from '~/assets/images/ksiazka/book-cover-cta.jpg';
 
-// Landing PRE-LAUNCH — produkt przed premierą, bez mechaniki zakupu.
-// Każde CTA prowadzi do /ksiazka/ (twarda reguła do czasu premiery).
-// Liczby dokumentów zweryfikowane z realną zawartością pakietu
-// (builds/pakiet-prawny/: 2 umowy + 7 protokołów + 13 pism/druków = 22 wzory,
-// + 3 vademeca + poradnik w 3 częściach = 26 plików).
+// Landing produktu „Pakiet Prawny Budowy Domu".
+// Treść pisana tak, jakby produkt był dostępny (premiera bez daty — strona nie jest
+// promowana ani indeksowana do czasu uruchomienia sprzedaży).
+//
+// STAN PRZEJŚCIOWY: checkout jeszcze nie istnieje, więc KAŻDE CTA prowadzi do /ksiazka/.
+// PRZY PREMIERZE: podmień `kupUrl` na URL koszyka SalesCRM + zdejmij robots.index=false.
+const kupUrl = '/ksiazka/';
+
+// Liczby zgodne z realną zawartością pakietu (builds/pakiet-prawny/):
+// 2 umowy + 7 protokołów + 13 pism/druków = 22 wzory; + 3 vademecum + poradnik = 26 plików.
 const metadata = {
-  title: 'Pakiet Prawny Budowy Domu — premiera wkrótce',
+  title: 'Pakiet Prawny Budowy Domu — 22 wzory dokumentów dla inwestora',
   description:
-    'Komplet 22 wzorów dokumentów na budowę domu: 2 umowy, 7 protokołów, wezwania i pokwitowania + 3 vademecum i poradnik prawny. Opracowany z kancelarią adwokacką, sprawdzony przez praktyka. Premiera wkrótce.',
+    'Komplet dokumentów na budowę domu: 2 umowy, 7 protokołów, wezwania i pokwitowania, 3 vademecum i poradnik prawny. Opracowany przez Kancelarię Pewnie, dopilnowany przez praktyka budowlanego. 399 zł.',
   robots: { index: false, follow: true },
 };
-
-const ksiazkaUrl = '/ksiazka/';
 ---
 
 <Layout metadata={metadata}>
@@ -29,30 +32,30 @@ const ksiazkaUrl = '/ksiazka/';
       <div class="pp-container">
         <div class="pp-hero-grid">
           <div>
-            <span class="pp-badge"><i class="fa fa-hammer" aria-hidden="true"></i> W przygotowaniu &middot; premiera wkrótce</span>
+            <span class="pp-badge"><i class="fa fa-file-signature" aria-hidden="true"></i> Komplet dokumentów na budowę domu</span>
             <h1 class="pp-h1">Pakiet Prawny Budowy Domu</h1>
             <p class="pp-lead">
-              Komplet wzorów dokumentów na całą budowę – dwie umowy, siedem protokołów, wezwania,
-              pokwitowania i poradnik prawny. Opracowany przez kancelarię adwokacką, dopilnowany
-              przeze mnie od strony realiów placu budowy.
+              26 plików, które zabezpieczają Waszą budowę od pierwszego podpisu do odbioru końcowego:
+              dwie umowy, siedem protokołów, wezwania, pokwitowania, trzy vademecum i poradnik prawny.
+              Opracowane przez kancelarię prawną, dopilnowane przeze mnie od strony realiów placu budowy.
             </p>
             <p class="pp-lead pp-lead-strong">
               Cel jest jeden: gdyby na Waszej budowie coś poszło nie tak, macie usłyszeć od prawnika
               zdanie: <em>„Jest Pan świetnie przygotowany. Mamy z&nbsp;czym pracować”</em>.
             </p>
             <div class="pp-hero-cta">
-              <a class="pp-btn" href={ksiazkaUrl}>
-                <i class="fa fa-book-open" aria-hidden="true"></i> Zanim wystartuje – poznajcie książkę
+              <a class="pp-btn" href={kupUrl}>
+                <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny — 399 zł
               </a>
               <p class="pp-hero-note">
-                Pakiet powstał jako prawne dopełnienie mojej książki „Od marzenia do wprowadzenia”.
+                <i class="fa fa-undo-alt" aria-hidden="true"></i> 30 dni na zwrot — jeden mail, bez pytań.
               </p>
             </div>
           </div>
 
           <div>
             <div class="pp-hero-card">
-              <div class="pp-hero-card-title"><i class="fa fa-box-open" aria-hidden="true"></i> Co będzie w środku</div>
+              <div class="pp-hero-card-title"><i class="fa fa-box-open" aria-hidden="true"></i> Co jest w środku</div>
               <ul class="pp-hero-card-list">
                 <li>
                   <i class="fa fa-file-signature" aria-hidden="true"></i>
@@ -73,7 +76,7 @@ const ksiazkaUrl = '/ksiazka/';
               </ul>
               <div class="pp-hero-card-foot">
                 <i class="fa fa-balance-scale" aria-hidden="true"></i>
-                Opracowane we współpracy z kancelarią adwokacką
+                Opracowane przez Kancelarię Pewnie (Wrocław)
               </div>
             </div>
           </div>
@@ -330,8 +333,8 @@ const ksiazkaUrl = '/ksiazka/';
           ja tak nie pracuję”. Efekt jest odwrotny od zamierzonego – zamiast najlepszej umowy nie ma żadnej.
         </p>
         <p class="pp-body">
-          Dlatego te dokumenty powstawały w cztery ręce. <strong>Kancelaria adwokacka</strong> pilnowała,
-          żeby chroniły Wasze interesy i były poprawne prawnie. <strong>Ja</strong> pilnowałem, żeby były
+          Dlatego te dokumenty powstawały w cztery ręce. <strong>Kancelaria</strong> pilnowała, żeby
+          chroniły Wasze interesy i były poprawne prawnie. <strong>Ja</strong> pilnowałem, żeby były
           realne: napisane zrozumiale, uczciwe dla obu stron i możliwe do podpisania bez wielotygodniowych
           negocjacji.
         </p>
@@ -431,11 +434,15 @@ const ksiazkaUrl = '/ksiazka/';
           </div>
           <div class="pp-author">
             <div class="pp-author-photo pp-author-photo-icon"><i class="fa fa-balance-scale" aria-hidden="true"></i></div>
-            <h3>Kancelaria adwokacka</h3>
-            <p class="pp-author-role">Strona merytoryczno-prawna</p>
+            <h3>Kancelaria Pewnie</h3>
+            <p class="pp-author-role">adw. Rafał Horończyk, Wrocław</p>
             <p>
-              Wszystkie wzory dokumentów i materiały merytoryczne opracowała kancelaria adwokacka
-              z doświadczeniem w sprawach budowlanych. To nie są szablony zebrane z internetu – to
+              Za stronę prawną pakietu odpowiada wrocławska
+              <a href="https://kancelariapewnie.pl" target="_blank" rel="noopener noreferrer">Kancelaria Pewnie</a>
+              (adw. Rafał Horończyk) – kancelaria wyspecjalizowana w obsłudze przedsiębiorców. Wzory
+              wszystkich dokumentów oraz materiały merytoryczne opracowała bezpośrednio
+              <strong>mec. Małgorzata Maria Muzyka</strong>, radca prawny, z bogatym doświadczeniem
+              w sprawach z zakresu prawa budowlanego. To nie są szablony zebrane z internetu – to
               dokumentacja przygotowana od zera, pod realia budowy domu jednorodzinnego w Polsce.
             </p>
           </div>
@@ -443,33 +450,36 @@ const ksiazkaUrl = '/ksiazka/';
       </div>
     </section>
 
-    <!-- ===== CENA — ZAPOWIEDŹ ===== -->
-    <section class="pp-section pp-section-blue" id="premiera">
+    <!-- ===== CENA ===== -->
+    <section class="pp-section pp-section-blue" id="kup">
       <div class="pp-container pp-narrow">
-        <h2 class="pp-h2 pp-h2-white pp-center">Ile to będzie kosztować?</h2>
+        <h2 class="pp-h2 pp-h2-white pp-center">Ile to kosztuje?</h2>
         <div class="pp-price-card">
-          <p class="pp-price-label">Planowana cena premierowa</p>
+          <p class="pp-price-label">Cena pakietu</p>
           <div class="pp-price">399 zł</div>
           <p class="pp-price-sub">jednorazowo, za komplet 26 plików</p>
+
+          <ul class="pp-price-includes">
+            <li><strong>22 wzory dokumentów</strong> – umowy, protokoły, pisma, druki</li>
+            <li><strong>3 vademecum</strong> – omówienie umów i załączników</li>
+            <li><strong>Poradnik prawny</strong> w trzech częściach</li>
+            <li><strong>Format DOCX</strong> – edytujecie w Wordzie, LibreOffice albo Google Docs</li>
+            <li><strong>Dostęp do plików</strong> od razu po zakupie</li>
+          </ul>
+
+          <a class="pp-btn pp-btn-full pp-btn-gold" href={kupUrl}>
+            <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny — 399 zł
+          </a>
+
           <p class="pp-price-body">
-            Dla porównania: indywidualne opracowanie takiego zestawu dokumentów w kancelarii to wydatek
-            rzędu kilku tysięcy złotych. Przy budowie wartej kilkaset tysięcy – to jedno z najtańszych
+            Dla porównania: indywidualne opracowanie takiego kompletu w kancelarii to wydatek rzędu
+            kilku tysięcy złotych. Przy budowie wartej kilkaset tysięcy – to jedno z najtańszych
             zabezpieczeń, jakie w ogóle możecie kupić.
           </p>
+
           <div class="pp-price-guarantee">
             <i class="fa fa-undo-alt" aria-hidden="true"></i>
-            <span>Od dnia premiery: <strong>30 dni na zwrot</strong> – jeden mail, bez pytań.</span>
-          </div>
-
-          <div class="pp-prelaunch">
-            <div class="pp-prelaunch-head"><i class="fa fa-hourglass-half" aria-hidden="true"></i> Pakiet jest na ostatniej prostej</div>
-            <p>
-              Dokumenty są opracowane i po przeglądzie jakościowym – trwają ostatnie prace nad oprawą
-              całości. Data premiery pojawi się na tej stronie.
-            </p>
-            <a class="pp-btn pp-btn-full" href={ksiazkaUrl}>
-              <i class="fa fa-book-open" aria-hidden="true"></i> W międzyczasie: zacznijcie od książki
-            </a>
+            <span><strong>30 dni na zwrot</strong> – jeśli uznacie, że pakiet nie spełnia Waszych oczekiwań, wystarczy jeden mail.</span>
           </div>
         </div>
 
@@ -477,7 +487,7 @@ const ksiazkaUrl = '/ksiazka/';
           <i class="fa fa-info-circle" aria-hidden="true"></i>
           <p>
             Pakiet Prawny to zestaw wzorów dokumentów i materiałów edukacyjnych – nie zastępuje porady
-            prawnej w indywidualnej sprawie. W poważnym sporze warto skonsultować się z adwokatem;
+            prawnej w indywidualnej sprawie. W poważnym sporze warto skonsultować się z prawnikiem;
             dokumenty z pakietu będą wtedy Waszym materiałem dowodowym.
           </p>
         </div>
@@ -508,10 +518,10 @@ const ksiazkaUrl = '/ksiazka/';
               od pierwszej decyzji po wprowadzenie. Poradnik prawny z pakietu wprost się do niej odwołuje.
             </p>
             <p class="pp-body">
-              Jeśli budowa jest przed Wami, to jest właściwa kolejność: <strong>najpierw książka,
+              Jeśli budowa jest dopiero przed Wami, to jest właściwa kolejność: <strong>najpierw książka,
               potem dokumenty</strong>.
             </p>
-            <a class="pp-btn" href={ksiazkaUrl}>
+            <a class="pp-btn" href="/ksiazka/">
               <i class="fa fa-arrow-right" aria-hidden="true"></i> Zobaczcie książkę „Od marzenia do wprowadzenia”
             </a>
           </div>
@@ -525,28 +535,20 @@ const ksiazkaUrl = '/ksiazka/';
         <h2 class="pp-h2 pp-center">Najczęstsze pytania</h2>
 
         <details class="pp-faq">
-          <summary>Kiedy premiera pakietu?</summary>
-          <p>
-            Wkrótce. Wzory dokumentów są opracowane i po przeglądzie jakościowym – dopinamy oprawę
-            całości, żeby produkt był kompletny od pierwszego dnia. Konkretna data pojawi się na tej stronie.
-          </p>
-        </details>
-
-        <details class="pp-faq">
           <summary>Czy dokumenty są zgodne z aktualnym prawem?</summary>
           <p>
-            Wszystkie wzory opracowała kancelaria adwokacka na gruncie Kodeksu cywilnego,
-            z uwzględnieniem specyfiki umów o roboty budowlane i pozycji inwestora jako konsumenta.
-            Przed premierą całość przechodzi jeszcze finalny przegląd.
+            Tak. Wszystkie wzory opracowała mec. Małgorzata Maria Muzyka, radca prawny z Kancelarii
+            Pewnie, na gruncie Kodeksu cywilnego – z uwzględnieniem specyfiki umów o roboty budowlane
+            i pozycji inwestora jako konsumenta.
           </p>
         </details>
 
         <details class="pp-faq">
-          <summary>Czy będę mógł edytować dokumenty?</summary>
+          <summary>W jakim formacie dostanę dokumenty?</summary>
           <p>
-            Tak – wszystkie wzory będą w formacie DOCX. Otworzycie je w Wordzie, LibreOffice czy Google
-            Docs i dostosujecie do swojej budowy. Vademecum podpowiada przy każdym polu, jak je
-            prawidłowo wypełnić.
+            Wszystkie wzory są w formacie DOCX – otworzycie je w Wordzie, LibreOffice czy Google Docs
+            i dostosujecie do swojej budowy. Vademecum podpowiada przy każdym polu, jak je prawidłowo
+            wypełnić.
           </p>
         </details>
 
@@ -586,6 +588,13 @@ const ksiazkaUrl = '/ksiazka/';
             procedury na wypadek sporu.
           </p>
         </details>
+
+        <details class="pp-faq">
+          <summary>Czy mogę zwrócić pakiet?</summary>
+          <p>
+            Tak – macie 30 dni na zwrot. Jeden mail i zwracam pieniądze, bez pytań i bez komplikacji.
+          </p>
+        </details>
       </div>
     </section>
 
@@ -594,11 +603,11 @@ const ksiazkaUrl = '/ksiazka/';
       <div class="pp-container pp-center">
         <h2 class="pp-h2 pp-h2-white">Budowa domu to za duże przedsięwzięcie,<br class="pp-br-desktop" /> żeby opierać je na słowie i uścisku dłoni</h2>
         <p class="pp-final-sub">
-          Pakiet Prawny Budowy Domu – wkrótce na tej stronie. A najlepszy pierwszy krok możecie
-          zrobić już dziś.
+          26 plików, które chronią Waszą inwestycję na każdym etapie – od podpisania umowy po odbiór
+          końcowy. Jednorazowo 399 zł, 30 dni na zwrot.
         </p>
-        <a class="pp-btn pp-btn-gold" href={ksiazkaUrl}>
-          <i class="fa fa-book-open" aria-hidden="true"></i> Poznajcie książkę „Od marzenia do wprowadzenia”
+        <a class="pp-btn pp-btn-gold" href={kupUrl}>
+          <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny — 399 zł
         </a>
       </div>
     </section>
@@ -606,53 +615,15 @@ const ksiazkaUrl = '/ksiazka/';
 
   <style is:global>
     /* ==========================================================
-       Landing „Pakiet Prawny” (pre-launch). Prefiks pp-* (izolacja).
-       Fonty self-host: /vendor/fonts/ (Lora + Source Sans 3).
+       Landing „Pakiet Prawny". Prefiks pp-* (izolacja).
+       Typografia = fonty serwisu PZ: Inter Variable (tekst,
+       --aw-font-sans z CustomStyles) + Oswald (nagłówki, jak /ksiazka/).
+       ŚWIADOMIE bez Lora/Source Sans 3: dostępne subsety miały wyłącznie
+       zakres `latin` (brak ą/ę/ł/ń/ś/ż/ź/ć) — przeglądarka podmieniała
+       polskie znaki fontem systemowym, co dawało efekt „grubszych" diakrytyków.
+       Oswald i Inter mają pełne pokrycie znaków polskich (zweryfikowane w cmap).
        Kolory: tokeny --aw-color-* (PZ) + lokalne uzupełnienia pp.
        ========================================================== */
-    @font-face {
-      font-family: 'Lora';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url('/vendor/fonts/lora-latin-400-normal.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Lora';
-      font-style: normal;
-      font-weight: 600;
-      font-display: swap;
-      src: url('/vendor/fonts/lora-latin-600-normal.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Lora';
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-      src: url('/vendor/fonts/lora-latin-700-normal.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Source Sans 3';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url('/vendor/fonts/source-sans-3-latin-400-normal.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Source Sans 3';
-      font-style: normal;
-      font-weight: 600;
-      font-display: swap;
-      src: url('/vendor/fonts/source-sans-3-latin-600-normal.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Source Sans 3';
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-      src: url('/vendor/fonts/source-sans-3-latin-700-normal.woff2') format('woff2');
-    }
-
     .pp-page {
       --pp-blue: var(--aw-color-primary, rgb(51 105 177));
       --pp-blue-dark: rgb(42 86 145);
@@ -662,9 +633,10 @@ const ksiazkaUrl = '/ksiazka/';
       --pp-ink: rgb(42 47 51);
       --pp-cream: rgb(245 243 239); /* krem PZ */
       --pp-line: rgb(228 224 216);
-      font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+      --pp-heading: 'Oswald', ui-sans-serif, system-ui, sans-serif;
+      font-family: var(--aw-font-sans, ui-sans-serif), ui-sans-serif, system-ui, sans-serif;
       color: var(--pp-ink);
-      font-size: 1.125rem;
+      font-size: 1.0625rem;
       line-height: 1.7;
       background: #fff;
     }
@@ -677,46 +649,52 @@ const ksiazkaUrl = '/ksiazka/';
     .pp-section-blue { background: linear-gradient(150deg, var(--pp-blue) 0%, var(--pp-blue-dark) 100%); }
 
     .pp-h1 {
-      font-family: 'Lora', Georgia, serif;
-      font-size: clamp(2.1rem, 5vw, 3.4rem);
-      line-height: 1.15;
+      font-family: var(--pp-heading);
+      font-size: clamp(2.2rem, 5.2vw, 3.6rem);
+      line-height: 1.1;
       font-weight: 700;
+      letter-spacing: -0.01em;
       color: var(--pp-blue);
       margin: 1rem 0 1.25rem;
     }
     .pp-h2 {
-      font-family: 'Lora', Georgia, serif;
-      font-size: clamp(1.6rem, 3.5vw, 2.3rem);
-      line-height: 1.25;
+      font-family: var(--pp-heading);
+      font-size: clamp(1.7rem, 3.6vw, 2.4rem);
+      line-height: 1.2;
       font-weight: 600;
       color: var(--pp-blue);
       margin: 0 0 1rem;
     }
     .pp-h2-white { color: #fff; }
     .pp-page h3 {
-      font-family: 'Lora', Georgia, serif;
-      font-size: 1.3rem;
+      font-family: var(--pp-heading);
+      font-size: 1.35rem;
       font-weight: 600;
       color: var(--pp-blue);
       margin: 0 0 0.5rem;
     }
-    .pp-sub { font-size: 1.2rem; color: var(--pp-gray); max-width: 46rem; margin: 0 auto 2.75rem; }
-    .pp-lead { font-size: 1.25rem; color: var(--pp-gray); margin: 0 0 1.25rem; }
+    .pp-sub { font-size: 1.15rem; color: var(--pp-gray); max-width: 46rem; margin: 0 auto 2.75rem; }
+    .pp-lead { font-size: 1.2rem; color: var(--pp-gray); margin: 0 0 1.25rem; }
     .pp-lead-strong { color: var(--pp-ink); }
     .pp-lead em { font-style: italic; }
-    .pp-body { font-size: 1.15rem; color: var(--pp-ink); margin: 0 0 1.25rem; }
-    .pp-note { font-size: 1.05rem; color: var(--pp-gray); max-width: 46rem; margin: 2.5rem auto 0; }
+    .pp-body { font-size: 1.1rem; color: var(--pp-ink); margin: 0 0 1.25rem; }
+    .pp-body a, .pp-author a { color: var(--pp-blue); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+    .pp-body a:hover, .pp-author a:hover { text-decoration: none; }
+    .pp-note { font-size: 1.02rem; color: var(--pp-gray); max-width: 46rem; margin: 2.5rem auto 0; }
     .pp-br-desktop { display: none; }
 
-    /* Przyciski — wszystkie CTA prowadzą do /ksiazka/ (pre-launch) */
+    /* Przyciski. Pre-checkout: wszystkie prowadzą do /ksiazka/ (patrz `kupUrl`). */
     .pp-btn {
       display: inline-flex;
       align-items: center;
+      justify-content: center;
       gap: 0.6rem;
       background: var(--pp-blue);
       color: #fff;
-      font-weight: 700;
-      font-size: 1.1rem;
+      font-family: var(--pp-heading);
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      font-size: 1.15rem;
       padding: 1rem 1.9rem;
       border-radius: 0.85rem;
       text-decoration: none;
@@ -729,8 +707,8 @@ const ksiazkaUrl = '/ksiazka/';
       box-shadow: 0 8px 22px rgb(51 105 177 / 30%);
     }
     .pp-btn-gold { background: var(--pp-gold); color: rgb(42 47 51); }
-    .pp-btn-gold:hover { background: rgb(212 184 106); color: rgb(42 47 51); box-shadow: 0 8px 22px rgb(197 164 78 / 35%); }
-    .pp-btn-full { width: 100%; justify-content: center; }
+    .pp-btn-gold:hover { background: rgb(212 184 106); color: rgb(42 47 51); box-shadow: 0 10px 26px rgb(197 164 78 / 40%); }
+    .pp-btn-full { width: 100%; }
 
     /* HERO */
     .pp-hero { padding: 4rem 0 3.5rem; background: linear-gradient(180deg, var(--pp-cream) 0%, #fff 100%); }
@@ -742,14 +720,15 @@ const ksiazkaUrl = '/ksiazka/';
       background: var(--pp-gold);
       color: rgb(42 47 51);
       font-weight: 700;
-      font-size: 0.9rem;
-      letter-spacing: 0.03em;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
       padding: 0.5rem 1.1rem;
       border-radius: 999px;
       text-transform: uppercase;
     }
     .pp-hero-cta { margin-top: 1.75rem; }
     .pp-hero-note { font-size: 0.98rem; color: var(--pp-gray); margin: 0.9rem 0 0; }
+    .pp-hero-note i { color: var(--pp-gold-text); margin-right: 0.3rem; }
 
     .pp-hero-card {
       background: #fff;
@@ -768,8 +747,8 @@ const ksiazkaUrl = '/ksiazka/';
       background: linear-gradient(90deg, var(--pp-blue), var(--pp-gold));
     }
     .pp-hero-card-title {
-      font-family: 'Lora', Georgia, serif;
-      font-size: 1.2rem;
+      font-family: var(--pp-heading);
+      font-size: 1.25rem;
       font-weight: 600;
       color: var(--pp-blue);
       margin-bottom: 1.1rem;
@@ -782,7 +761,7 @@ const ksiazkaUrl = '/ksiazka/';
       align-items: flex-start;
       padding: 0.7rem 0;
       border-bottom: 1px solid rgb(228 224 216 / 60%);
-      font-size: 1.02rem;
+      font-size: 1rem;
     }
     .pp-hero-card-list li:last-child { border-bottom: none; }
     .pp-hero-card-list i { color: var(--pp-blue); font-size: 1.05rem; margin-top: 0.3rem; width: 1.3rem; text-align: center; flex-shrink: 0; }
@@ -801,8 +780,8 @@ const ksiazkaUrl = '/ksiazka/';
     .pp-stat { text-align: center; }
     .pp-stat-nr {
       display: block;
-      font-family: 'Lora', Georgia, serif;
-      font-size: 2.4rem;
+      font-family: var(--pp-heading);
+      font-size: 2.6rem;
       font-weight: 700;
       line-height: 1;
       color: #fff;
@@ -819,7 +798,7 @@ const ksiazkaUrl = '/ksiazka/';
       border-top: 4px solid var(--pp-gold);
     }
     .pp-problem-icon { font-size: 1.9rem; color: var(--pp-blue); margin-bottom: 0.9rem; }
-    .pp-problem p { margin: 0; color: var(--pp-gray); font-size: 1.05rem; }
+    .pp-problem p { margin: 0; color: var(--pp-gray); font-size: 1.02rem; }
 
     /* DWIE ROZMOWY */
     .pp-talk {
@@ -833,8 +812,8 @@ const ksiazkaUrl = '/ksiazka/';
     }
     .pp-talk-good { border-top-color: var(--pp-gold); }
     .pp-talk-head {
-      font-family: 'Lora', Georgia, serif;
-      font-size: 1.2rem;
+      font-family: var(--pp-heading);
+      font-size: 1.25rem;
       font-weight: 600;
       color: var(--pp-ink);
       margin-bottom: 1.1rem;
@@ -896,9 +875,9 @@ const ksiazkaUrl = '/ksiazka/';
       cursor: pointer;
       list-style: none;
       padding: 1.15rem 1.5rem;
-      font-family: 'Lora', Georgia, serif;
+      font-family: var(--pp-heading);
       font-weight: 600;
-      font-size: 1.12rem;
+      font-size: 1.15rem;
       color: var(--pp-blue);
       display: flex;
       align-items: center;
@@ -909,9 +888,10 @@ const ksiazkaUrl = '/ksiazka/';
     .pp-doclist[open] summary::after { transform: rotate(180deg); }
     .pp-doclist-cols { display: grid; grid-template-columns: 1fr; gap: 0 3rem; padding: 0.25rem 1.5rem 1.5rem; }
     .pp-doclist h4 {
-      font-family: 'Lora', Georgia, serif;
+      font-family: var(--pp-heading);
       color: var(--pp-ink);
-      font-size: 1.02rem;
+      font-size: 1.05rem;
+      font-weight: 600;
       margin: 1.2rem 0 0.5rem;
       padding-bottom: 0.3rem;
       border-bottom: 2px solid var(--pp-cream);
@@ -959,9 +939,9 @@ const ksiazkaUrl = '/ksiazka/';
       border-radius: 50%;
       background: var(--pp-blue);
       color: #fff;
-      font-family: 'Lora', Georgia, serif;
-      font-weight: 700;
-      font-size: 1.2rem;
+      font-family: var(--pp-heading);
+      font-weight: 600;
+      font-size: 1.25rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -997,10 +977,10 @@ const ksiazkaUrl = '/ksiazka/';
       color: var(--pp-blue);
     }
     .pp-author-img { width: 100%; height: 100%; object-fit: cover; }
-    .pp-author-role { color: var(--pp-gold-text); font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em; margin: 0 0 0.9rem; }
+    .pp-author-role { color: var(--pp-gold-text); font-weight: 700; font-size: 0.92rem; text-transform: uppercase; letter-spacing: 0.04em; margin: 0 0 0.9rem; }
     .pp-author p:not(.pp-author-role) { color: var(--pp-gray); font-size: 1.02rem; margin: 0; text-align: left; }
 
-    /* CENA — ZAPOWIEDŹ */
+    /* CENA */
     .pp-price-card {
       background: #fff;
       border-radius: 1.4rem;
@@ -1017,10 +997,15 @@ const ksiazkaUrl = '/ksiazka/';
       height: 6px;
       background: linear-gradient(90deg, var(--pp-blue), var(--pp-gold));
     }
-    .pp-price-label { text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.9rem; font-weight: 700; color: var(--pp-gray); margin: 0 0 0.4rem; }
-    .pp-price { font-family: 'Lora', Georgia, serif; font-size: 4rem; font-weight: 700; color: var(--pp-blue); line-height: 1; }
-    .pp-price-sub { color: var(--pp-gray); margin: 0.5rem 0 1.4rem; }
-    .pp-price-body { color: var(--pp-gray); font-size: 1.05rem; max-width: 34rem; margin: 0 auto 1.5rem; }
+    .pp-price-label { text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.88rem; font-weight: 700; color: var(--pp-gray); margin: 0 0 0.4rem; }
+    .pp-price { font-family: var(--pp-heading); font-size: 4.25rem; font-weight: 700; color: var(--pp-blue); line-height: 1; }
+    .pp-price-sub { color: var(--pp-gray); margin: 0.5rem 0 1.75rem; }
+    .pp-price-includes { list-style: none; text-align: left; margin: 0 auto 1.75rem; padding: 0; max-width: 30rem; }
+    .pp-price-includes li { padding: 0.6rem 0 0.6rem 1.9rem; position: relative; font-size: 1.02rem; color: var(--pp-gray); border-bottom: 1px solid rgb(228 224 216 / 60%); }
+    .pp-price-includes li:last-child { border-bottom: none; }
+    .pp-price-includes li::before { content: '\f00c'; font-family: 'Font Awesome 5 Free'; font-weight: 900; position: absolute; left: 0; top: 0.72rem; color: var(--pp-gold-text); font-size: 0.85rem; }
+    .pp-price-includes strong { color: var(--pp-ink); }
+    .pp-price-body { color: var(--pp-gray); font-size: 1.02rem; max-width: 34rem; margin: 1.75rem auto 1.5rem; }
     .pp-price-guarantee {
       display: inline-flex;
       align-items: center;
@@ -1031,24 +1016,9 @@ const ksiazkaUrl = '/ksiazka/';
       border-radius: 0.75rem;
       padding: 0.7rem 1.2rem;
       font-size: 1rem;
-    }
-    .pp-price-guarantee i { color: var(--pp-gold-text); }
-    .pp-prelaunch {
-      margin-top: 2rem;
-      background: var(--pp-cream);
-      border-radius: 1rem;
-      padding: 1.75rem;
       text-align: left;
     }
-    .pp-prelaunch-head {
-      font-family: 'Lora', Georgia, serif;
-      font-weight: 600;
-      font-size: 1.15rem;
-      color: var(--pp-blue);
-      margin-bottom: 0.6rem;
-    }
-    .pp-prelaunch-head i { color: var(--pp-gold-text); margin-right: 0.5rem; }
-    .pp-prelaunch p { color: var(--pp-gray); font-size: 1.02rem; margin: 0 0 1.25rem; }
+    .pp-price-guarantee i { color: var(--pp-gold-text); flex-shrink: 0; }
 
     .pp-disclaimer {
       display: flex;
@@ -1088,7 +1058,7 @@ const ksiazkaUrl = '/ksiazka/';
       cursor: pointer;
       list-style: none;
       padding: 1.15rem 3.2rem 1.15rem 1.5rem;
-      font-weight: 700;
+      font-weight: 600;
       font-size: 1.08rem;
       color: var(--pp-ink);
       position: relative;
@@ -1112,7 +1082,7 @@ const ksiazkaUrl = '/ksiazka/';
     /* FINAL */
     .pp-final { background: rgb(26 26 46); padding: 5rem 0; }
     .pp-final .pp-h2 { margin-bottom: 1.1rem; }
-    .pp-final-sub { color: rgb(255 255 255 / 82%); font-size: 1.15rem; max-width: 42rem; margin: 0 auto 2.25rem; }
+    .pp-final-sub { color: rgb(255 255 255 / 82%); font-size: 1.12rem; max-width: 42rem; margin: 0 auto 2.25rem; }
 
     /* RESPONSIVE */
     @media (min-width: 768px) {
