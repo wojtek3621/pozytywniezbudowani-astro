@@ -10,7 +10,7 @@ import bookCover from '~/assets/images/ksiazka/book-cover-cta.jpg';
 // promowana ani indeksowana do czasu uruchomienia sprzedaży).
 //
 // STAN PRZEJŚCIOWY: checkout jeszcze nie istnieje, więc KAŻDE CTA prowadzi do /ksiazka/.
-// PRZY PREMIERZE: podmień `kupUrl` na URL koszyka SalesCRM + zdejmij robots.index=false.
+// PRZY PREMIERZE: podmień `kupUrl` na URL koszyka SalesCRM (jedyne miejsce do zmiany).
 const kupUrl = '/ksiazka/';
 
 // Liczby zgodne z realną zawartością pakietu (builds/pakiet-prawny/):
@@ -19,7 +19,7 @@ const metadata = {
   title: 'Pakiet Prawny Budowy Domu — 22 wzory dokumentów dla inwestora',
   description:
     'Komplet dokumentów na budowę domu: 2 umowy, 7 protokołów, wezwania i pokwitowania, 3 vademecum i poradnik prawny. Opracowany przez Kancelarię Pewnie, dopilnowany przez praktyka budowlanego. 399 zł.',
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 ---
 
