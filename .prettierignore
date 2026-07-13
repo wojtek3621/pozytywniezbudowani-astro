@@ -2,5 +2,17 @@ dist
 node_modules
 .github
 .changeset
+
+# Assety vendorowe / zminifikowane — NIE formatujemy (prettier rozminifikowałby plik,
+# niwecząc minifikację i puchnąc payload wysyłany do przeglądarki).
+public/vendor
+**/*.min.css
+**/*.min.js
+
+# prettier-plugin-astro nie potrafi sparsować <script> zagnieżdżonego w wyrażeniu Astro
+# (`{warunek && (<script is:inline>…)}`) — rzuca SyntaxError na treści skryptu.
+# Ten sam przypadek co ConsentBanner.astro i Footer.astro poniżej.
+# ESLint nadal te pliki sprawdza — tracimy wyłącznie formatowanie, nie kontrolę jakości.
 src/components/common/ConsentBanner.astro
+src/components/common/Clarity.astro
 src/components/widgets/Footer.astro

@@ -15,7 +15,7 @@
  * z dist działa na poziomie assets (zweryfikowane po deploy — F2 302).
  */
 
-// @ts-expect-error — no .d.ts for validator; JSDoc types are sufficient for runtime
+// Typy walidatora pochodzą z JSDoc w .mjs (allowJs) — brak potrzeby .d.ts
 import { validatePayload, MAX_PAYLOAD_BYTES } from '../functions/api/_perf-beacon-validator.mjs';
 
 interface Env {

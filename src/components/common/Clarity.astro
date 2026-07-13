@@ -20,25 +20,29 @@ const clarityId = import.meta.env.PUBLIC_CLARITY_ID as string | undefined;
       (function () {
         function hasAnalyticsConsent() {
           try {
-            var parts = document.cookie ? document.cookie.split(';') : [];
-            for (var i = 0; i < parts.length; i++) {
-              var c = parts[i].trim();
+            const parts = document.cookie ? document.cookie.split(';') : [];
+            for (let i = 0; i < parts.length; i++) {
+              const c = parts[i].trim();
               if (c.indexOf('pz_consent=') === 0) {
-                var value = decodeURIComponent(c.substring('pz_consent='.length));
-                var consent = JSON.parse(value);
+                const value = decodeURIComponent(c.substring('pz_consent='.length));
+                const consent = JSON.parse(value);
                 return consent && consent.analytics === true;
               }
             }
-          } catch (e) {
+          } catch {
             /* malformed cookie = no consent */
           }
           return false;
         }
         function loadClarity() {
+          // Oficjalny snippet Microsoft Clarity — trzymamy 1:1 z dokumentacją dostawcy.
+          // `arguments` jest częścią mechanizmu kolejki (c[a].q) odtwarzanej przez tag clarity.ms;
+          // NIE zamieniać na rest params (ryzyko cichego rozjazdu z vendorem przy re-copy).
           (function (c, l, a, r, i, t, y) {
             c[a] =
               c[a] ||
               function () {
+                // eslint-disable-next-line prefer-rest-params
                 (c[a].q = c[a].q || []).push(arguments);
               };
             t = l.createElement(r);

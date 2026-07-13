@@ -42,8 +42,8 @@ const metadata = {
           Rozdział: „Kto to wybuduje i kiedy zacząć rozmawiać z wykonawcami?"
         </h2>
         <p class="text-muted mb-6">
-          To pytanie, od którego realnie zaczyna się każda budowa — i przy którym najłatwiej o decyzję podjętą w
-          ciemno. W tym rozdziale przeczytacie:
+          To pytanie, od którego realnie zaczyna się każda budowa — i przy którym najłatwiej o decyzję podjętą w ciemno.
+          W tym rozdziale przeczytacie:
         </p>
         <ul class="space-y-3">
           <li class="flex items-start gap-3">
@@ -53,8 +53,8 @@ const metadata = {
               ></path>
             </svg>
             <span class="text-base"
-              >Jakie macie <strong>formy realizacji budowy</strong> do wyboru — od generalnego wykonawcy po system
-              gospodarczy — i czym różnią się w praktyce</span
+              >Jakie macie <strong>formy realizacji budowy</strong> do wyboru — od generalnego wykonawcy po system gospodarczy
+              — i czym różnią się w praktyce</span
             >
           </li>
           <li class="flex items-start gap-3">
@@ -64,8 +64,7 @@ const metadata = {
               ></path>
             </svg>
             <span class="text-base"
-              >Pracę <strong>ilu osób będziecie koordynować</strong> przy każdej z tych form — zanim którąś
-              wybierzecie</span
+              >Pracę <strong>ilu osób będziecie koordynować</strong> przy każdej z tych form — zanim którąś wybierzecie</span
             >
           </li>
           <li class="flex items-start gap-3">
@@ -75,8 +74,8 @@ const metadata = {
               ></path>
             </svg>
             <span class="text-base"
-              >Kiedy <strong>naprawdę</strong> zacząć rozmowy z wykonawcami — i dlaczego „im wcześniej, tym lepiej" ma
-              swoje granice</span
+              >Kiedy <strong>naprawdę</strong> zacząć rozmowy z wykonawcami — i dlaczego „im wcześniej, tym lepiej" ma swoje
+              granice</span
             >
           </li>
           <li class="flex items-start gap-3">
@@ -86,8 +85,7 @@ const metadata = {
               ></path>
             </svg>
             <span class="text-base"
-              ><strong>Niezbędne minimum ustaleń</strong> z wykonawcą, dzięki któremu unikniecie nieporozumień na
-              budowie</span
+              ><strong>Niezbędne minimum ustaleń</strong> z wykonawcą, dzięki któremu unikniecie nieporozumień na budowie</span
             >
           </li>
         </ul>
@@ -167,18 +165,18 @@ const metadata = {
 
   <script is:inline>
     (function () {
-      var form = document.getElementById('lm-form');
+      const form = document.getElementById('lm-form');
       if (!form) return;
-      var btn = document.getElementById('lm-submit');
-      var errEl = document.getElementById('lm-error');
-      var okEl = document.getElementById('lm-success');
+      const btn = document.getElementById('lm-submit');
+      const errEl = document.getElementById('lm-error');
+      const okEl = document.getElementById('lm-success');
 
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         errEl.classList.add('hidden');
-        var email = (document.getElementById('lm-email').value || '').trim();
-        var consent = document.getElementById('lm-zgoda').checked;
-        var honeypot = (form.querySelector('input[name="website"]') || {}).value || '';
+        const email = (document.getElementById('lm-email').value || '').trim();
+        const consent = document.getElementById('lm-zgoda').checked;
+        const honeypot = (form.querySelector('input[name="website"]') || {}).value || '';
         if (!email || email.indexOf('@') === -1) {
           errEl.textContent = 'Wpiszcie poprawny adres email.';
           errEl.classList.remove('hidden');
