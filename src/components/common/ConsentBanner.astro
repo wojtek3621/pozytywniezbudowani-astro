@@ -332,6 +332,99 @@ const { position } = Astro.props;
 
   <script is:inline>
     (function () {
+      // ── Consent telemetry (2026-07-14, moduł Analityka HQ) ──────────────
+      // Anonimowy pomiar SAMEGO banera: shown / accept / settings / save /
+      // abandon. Zero cookies, zero identyfikatorów — payload to typ
+      // zdarzenia, czas, ścieżka bez query, kubełek urządzenia i czas do
+      // decyzji. To jedyny pomiar widzący ludzi, którzy uciekli PRZED zgodą
+      // (GA4 startuje po „Akceptuję" — uciekinierów w GA4 nie ma).
+      // Endpoint same-origin /api/consent-beacon (src/worker.ts) → D1
+      // consent_events → cron pz_consent_d1_sync.py → aios.db.
+      // Logika zgód (F6/F7/F8, Consent Mode) NIETKNIĘTA — tylko wysyłka.
+      var telemetry = window.__pzConsentTelemetry;
+      if (!telemetry) {
+        telemetry = window.__pzConsentTelemetry = {
+          shownAt: null, // performance.now() w chwili pokazania banera
+          shownSentFor: null, // pathname, dla którego poszło consent_shown
+          settingsSent: false,
+          abandonSent: false,
+          decided: false,
+          listenersBound: false,
+        };
+      }
+
+      function consentDevice() {
+        try {
+          var w =
+            window.innerWidth ||
+            (document.documentElement && document.documentElement.clientWidth) ||
+            0;
+          return w > 0 && w < 768 ? 'mobile' : 'desktop';
+        } catch (e) {
+          return 'desktop';
+        }
+      }
+
+      function sendConsentEvent(eventName, extra) {
+        try {
+          var payload = {
+            event: eventName,
+            ts: new Date().toISOString(),
+            page_path: (window.location && window.location.pathname
+              ? window.location.pathname
+              : '/'
+            ).substring(0, 300),
+            device: consentDevice(),
+          };
+          if (eventName !== 'consent_shown' && telemetry.shownAt !== null) {
+            var ms = Math.round(performance.now() - telemetry.shownAt);
+            if (ms >= 0 && ms <= 3600000) payload.ms_to_decision = ms;
+          }
+          if (extra) {
+            if (typeof extra.analytics === 'boolean') payload.analytics = extra.analytics;
+            if (typeof extra.marketing === 'boolean') payload.marketing = extra.marketing;
+          }
+          var body = JSON.stringify(payload);
+          if (navigator && typeof navigator.sendBeacon === 'function') {
+            var ok = navigator.sendBeacon(
+              '/api/consent-beacon',
+              new Blob([body], { type: 'application/json' })
+            );
+            if (ok) return;
+          }
+          if (typeof fetch === 'function') {
+            fetch('/api/consent-beacon', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: body,
+              keepalive: true,
+            }).catch(function () {});
+          }
+        } catch (e) {
+          /* telemetria NIGDY nie psuje strony */
+        }
+      }
+
+      // abandon = strona znika (unload/minimalizacja), baner widoczny, decyzji
+      // brak. Wysyłane RAZ. Jeśli user wróci po tab-switchu i jednak kliknie,
+      // będzie policzony i w abandon, i w decyzji — odsetki liczymy względem
+      // shown i mówimy to wprost w pulpicie (HQ → Analityka → Zgody).
+      function maybeSendAbandon() {
+        if (telemetry.decided || telemetry.abandonSent) return;
+        var banner = document.getElementById('pz-consent-banner');
+        if (!banner || banner.classList.contains('pz-banner--hidden')) return;
+        telemetry.abandonSent = true;
+        sendConsentEvent('consent_abandon');
+      }
+
+      if (!telemetry.listenersBound) {
+        telemetry.listenersBound = true;
+        document.addEventListener('visibilitychange', function () {
+          if (document.visibilityState === 'hidden') maybeSendAbandon();
+        });
+        window.addEventListener('pagehide', maybeSendAbandon);
+      }
+
       // F8 fix: robust cookie parse (URL-encoded = in JSON value, multiple cookies)
       function getConsent() {
         try {
@@ -419,6 +512,15 @@ const { position } = Astro.props;
 
         banner.classList.remove('pz-banner--hidden');
         lockScroll(true);
+
+        // Telemetria: consent_shown raz per ścieżkę (SPA/astro:page-load
+        // potrafi wywołać showBanner ponownie na tej samej odsłonie).
+        var path = (window.location && window.location.pathname) || '/';
+        if (telemetry.shownSentFor !== path) {
+          telemetry.shownSentFor = path;
+          telemetry.shownAt = performance.now();
+          sendConsentEvent('consent_shown');
+        }
       }
 
       function showBannerIfNeeded() {
@@ -433,10 +535,17 @@ const { position } = Astro.props;
 
         if (acceptBtn)
           acceptBtn.onclick = function () {
+            telemetry.decided = true;
+            sendConsentEvent('consent_accept');
             setConsent(true, true);
           };
         if (settingsBtn)
           settingsBtn.onclick = function () {
+            // Telemetria: tylko PIERWSZE otwarcie ustawień (toggle nie spamuje)
+            if (!telemetry.settingsSent) {
+              telemetry.settingsSent = true;
+              sendConsentEvent('consent_settings');
+            }
             // Phase 2 refactor: use CSS class for details toggle
             if (details) details.classList.toggle('pz-banner__details--hidden');
           };
@@ -444,6 +553,11 @@ const { position } = Astro.props;
           saveBtn.onclick = function () {
             const a = document.getElementById('pz-consent-analytics');
             const m = document.getElementById('pz-consent-marketing');
+            telemetry.decided = true;
+            sendConsentEvent('consent_save', {
+              analytics: a ? a.checked : false,
+              marketing: m ? m.checked : false,
+            });
             setConsent(a ? a.checked : false, m ? m.checked : false);
           };
 

@@ -17,6 +17,10 @@
 
 // Typy walidatora pochodzą z JSDoc w .mjs (allowJs) — brak potrzeby .d.ts
 import { validatePayload, MAX_PAYLOAD_BYTES } from '../functions/api/_perf-beacon-validator.mjs';
+import {
+  validateConsentPayload,
+  CONSENT_MAX_PAYLOAD_BYTES,
+} from '../functions/api/_consent-beacon-validator.mjs';
 
 interface Env {
   PERF_TELEMETRY: D1Database;
@@ -134,6 +138,75 @@ async function handleBeaconPost(request: Request, env: Env): Promise<Response> {
     const name = typeof err?.name === 'string' ? err.name : 'UnknownError';
     const message = typeof err?.message === 'string' ? err.message.substring(0, 500) : '';
     console.error('perf-beacon: D1 insert failed', { name, message });
+    return textResponse('Database error', 500);
+  }
+
+  return new Response(null, { status: 204, headers: CORS_HEADERS });
+}
+
+/**
+ * POST /api/consent-beacon — anonimowy pomiar banera cookie (misja „Analityka"
+ * 2026-07-14, aios-workspace/builds/2026-07-14-hq-modul-analityka/).
+ *
+ * Jedyny pomiar, który widzi ludzi UCIEKAJĄCYCH przed zgodą (GA4 startuje
+ * dopiero po kliknięciu „Akceptuję" — uciekinierzy w GA4 nie istnieją).
+ * Payload jest z definicji anonimowy: zero cookies, zero session id, zero UA,
+ * zero IP (nagłówków nie czytamy i nie zapisujemy). Sync na VPS:
+ * automation/pz_consent_d1_sync.py (D1 → aios.db:web_consent_events).
+ */
+async function handleConsentBeaconPost(request: Request, env: Env): Promise<Response> {
+  const contentLength = request.headers.get('content-length');
+  if (contentLength && parseInt(contentLength, 10) > CONSENT_MAX_PAYLOAD_BYTES) {
+    return textResponse('Payload too large', 413);
+  }
+
+  let body: string;
+  try {
+    body = await request.text();
+  } catch {
+    return textResponse('Invalid body', 400);
+  }
+
+  if (new TextEncoder().encode(body).length > CONSENT_MAX_PAYLOAD_BYTES) {
+    return textResponse('Payload too large', 413);
+  }
+
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(body);
+  } catch {
+    return textResponse('Invalid JSON', 400);
+  }
+
+  const payload = validateConsentPayload(parsed);
+  if (!payload) {
+    return textResponse('Invalid payload schema', 400);
+  }
+
+  if (!env.PERF_TELEMETRY) {
+    return textResponse('Database binding missing', 500);
+  }
+
+  try {
+    await env.PERF_TELEMETRY.prepare(
+      `INSERT INTO consent_events (ts, event, page_path, device, ms_to_decision, analytics, marketing)
+       VALUES (?, ?, ?, ?, ?, ?, ?)`
+    )
+      .bind(
+        payload.ts,
+        payload.event,
+        payload.page_path,
+        payload.device,
+        payload.ms_to_decision,
+        payload.analytics,
+        payload.marketing
+      )
+      .run();
+  } catch (error) {
+    const err = error as Error;
+    const name = typeof err?.name === 'string' ? err.name : 'UnknownError';
+    const message = typeof err?.message === 'string' ? err.message.substring(0, 500) : '';
+    console.error('consent-beacon: D1 insert failed', { name, message });
     return textResponse('Database error', 500);
   }
 
@@ -259,6 +332,16 @@ export default {
       }
       if (request.method === 'POST') {
         return handleBeaconPost(request, env);
+      }
+      return textResponse('Method not allowed', 405);
+    }
+
+    if (url.pathname === '/api/consent-beacon') {
+      if (request.method === 'OPTIONS') {
+        return new Response(null, { status: 204, headers: CORS_HEADERS });
+      }
+      if (request.method === 'POST') {
+        return handleConsentBeaconPost(request, env);
       }
       return textResponse('Method not allowed', 405);
     }
