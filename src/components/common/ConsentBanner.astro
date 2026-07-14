@@ -16,6 +16,12 @@
  * - Checkboxes pre-checked by default in settings panel
  * - User can still uncheck in settings before confirming
  *
+ * Update 2026-07-14 (owner directive) — port z platforma.pozytywniezbudowani.pl:
+ * - Bottom bar → blokujący modal (overlay + scroll lock): decyzja przed wejściem
+ * - Treść neutralna (standardowa formuła + link do polityki) zamiast opisu celów
+ * - Układ przycisków BEZ ZMIAN: "Akceptuję wszystkie" + "Ustawienia"
+ * - Consent Mode Advanced (blok head) NIETKNIĘTY — zmiana czysto wizualna
+ *
  * Usage in Layout.astro:
  *   <ConsentBanner position="head" />  — in <head>, BEFORE Analytics/GTM
  *   <ConsentBanner position="body" />  — in <body>, visible banner + logic
@@ -98,48 +104,46 @@ const { position } = Astro.props;
 
 {position === 'body' && (
   <div id="pz-consent-banner" class="pz-banner pz-banner--hidden">
-    <div class="pz-banner__inner">
-      <div class="pz-banner__row">
-        <div class="pz-banner__text">
-          <p class="pz-banner__title">
-            Ta strona u&#x17C;ywa plik&#xF3;w cookie
-          </p>
-          <p class="pz-banner__desc">
-            Dzi&#x119;ki nim wiemy, jak korzystasz ze strony (analityka) i mo&#x17C;emy pokazywa&#x107; trafniejsze tre&#x15B;ci (marketing).
-            Kliknij <strong class="pz-banner__strong">Akceptuj&#x119;</strong>, aby w pe&#x142;ni korzysta&#x107; z serwisu, lub dostosuj w ustawieniach.
-          </p>
-        </div>
-        <div class="pz-banner__actions">
-          <button id="pz-consent-accept" class="pz-banner__btn-accept" type="button">
-            Akceptuj&#x119; wszystkie
-          </button>
-          <div class="pz-banner__settings-wrap">
-            <button id="pz-consent-settings" class="pz-banner__btn-settings" type="button">
-              Ustawienia
-            </button>
-          </div>
+    <div class="pz-banner__inner" role="dialog" aria-modal="true" aria-labelledby="pz-consent-title">
+      <button
+        id="pz-consent-close"
+        class="pz-banner__btn-close pz-banner__btn-close--hidden"
+        type="button"
+        aria-label="Zamknij"
+      >
+        ×
+      </button>
+
+      <p class="pz-banner__title" id="pz-consent-title">Pliki cookie</p>
+      <p class="pz-banner__desc">
+        Ta strona — jak większość serwisów w sieci — korzysta z plików cookie. Szczegóły opisaliśmy w
+        <a class="pz-banner__link" href="/polityka-prywatnosci/" target="_blank" rel="noopener">polityce prywatności</a>.
+      </p>
+
+      <div class="pz-banner__actions">
+        <button id="pz-consent-accept" class="pz-banner__btn-accept" type="button"> Akceptuję wszystkie </button>
+        <div class="pz-banner__settings-wrap">
+          <button id="pz-consent-settings" class="pz-banner__btn-settings" type="button"> Ustawienia </button>
         </div>
       </div>
 
       <div id="pz-consent-details" class="pz-banner__details pz-banner__details--hidden">
-        <p class="pz-banner__details-intro">Wybierz, na jakie kategorie wyra&#x17C;asz zgod&#x119;:</p>
+        <p class="pz-banner__details-intro">Wybierz, na jakie kategorie wyrażasz zgodę:</p>
         <label class="pz-banner__checkbox-row">
           <input type="checkbox" id="pz-consent-analytics" class="pz-banner__checkbox" checked />
           <div>
             <strong class="pz-banner__category-title">Analityka</strong>
-            <span class="pz-banner__category-desc">Google Analytics &#x2014; jak u&#x17C;ytkownicy korzystaj&#x105; ze strony</span>
+            <span class="pz-banner__category-desc">Google Analytics — jak użytkownicy korzystają ze strony</span>
           </div>
         </label>
         <label class="pz-banner__checkbox-row">
           <input type="checkbox" id="pz-consent-marketing" class="pz-banner__checkbox" checked />
           <div>
             <strong class="pz-banner__category-title">Marketing</strong>
-            <span class="pz-banner__category-desc">Meta Pixel, Google Ads &#x2014; trafniejsze reklamy i pomiar kampanii</span>
+            <span class="pz-banner__category-desc">Meta Pixel, Google Ads — trafniejsze reklamy i pomiar kampanii</span>
           </div>
         </label>
-        <button id="pz-consent-save" class="pz-banner__btn-save" type="button">
-          Potwierd&#x17A; wybory
-        </button>
+        <button id="pz-consent-save" class="pz-banner__btn-save" type="button"> Potwierdź wybory </button>
       </div>
     </div>
   </div>
@@ -152,69 +156,120 @@ const { position } = Astro.props;
       Class-based hidden state prevents CLS when banner appears (out-of-flow, does not shift layout).
       Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 2.3)
     */
+    /*
+      MODAL REFACTOR (2026-07-14, owner directive):
+      Bottom bar → centered dialog + overlay + scroll lock. Decyzja wymuszona
+      przed wejściem (wyższa klikalność). Klasy BEM i ID bez zmian — logika
+      consent (F6/F7/F8, Consent Mode Advanced) nietknięta.
+    */
     .pz-banner {
       position: fixed;
-      bottom: 0;
+      top: 0;
       left: 0;
       right: 0;
+      bottom: 0;
       z-index: 9999;
-      background: rgba(26, 26, 46, 0.98);
-      backdrop-filter: blur(20px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: rgba(10, 10, 20, 0.72);
+      backdrop-filter: blur(6px);
       color: #fff;
       font-family: system-ui, -apple-system, sans-serif;
-      box-shadow: 0 -12px 60px rgba(0, 0, 0, 0.4);
     }
-    .pz-banner--hidden {
+    .pz-banner.pz-banner--hidden {
       display: none;
     }
+    /*
+      Scroll lock. UWAGA: ten <style> siedzi wewnątrz wyrażenia {position === 'body' && (...)},
+      więc Astro NIE kompiluje go jako scoped (brak data-astro-cid na .pz-banner) — reguły są
+      globalne, a `:global()` wyciekłoby DOSŁOWNIE do outputu i zostało zignorowane przez
+      przeglądarkę (złapane smoke testem 2026-07-14). Dlatego selektory wprost, bez :global().
+    */
+    html.pz-consent-open,
+    body.pz-consent-open {
+      overflow: hidden;
+    }
     .pz-banner__inner {
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 32px 32px 28px;
+      position: relative;
+      width: 100%;
+      max-width: 560px;
+      max-height: 88vh;
+      overflow-y: auto;
+      background: #1a1a2e;
+      border: 1px solid rgba(197, 164, 78, 0.28);
+      border-radius: 16px;
+      padding: 36px 34px 30px;
+      box-shadow: 0 30px 90px rgba(0, 0, 0, 0.6);
+      animation: pz-banner-in 0.3s ease-out;
     }
-    .pz-banner__row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 16px;
-    }
-    .pz-banner__text {
-      flex: 1;
-      min-width: 280px;
+    @keyframes pz-banner-in {
+      from {
+        opacity: 0;
+        transform: translateY(18px) scale(0.96);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
     }
     .pz-banner__title {
-      margin: 0 0 6px;
-      font-size: 22px;
+      margin: 0 0 10px;
+      font-size: 24px;
       font-weight: 700;
       color: #fff;
-      line-height: 1.35;
+      line-height: 1.3;
     }
     .pz-banner__desc {
       /* DB13 (Rounds 1) fix: #b8b8cc → #d4d4e0 for WCAG AA contrast on dark bg */
       margin: 0;
       color: #d4d4e0;
-      font-size: 18px;
-      line-height: 1.7;
+      font-size: 16px;
+      line-height: 1.65;
     }
-    .pz-banner__strong {
+    .pz-banner__link {
+      color: #c5a44e;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .pz-banner__btn-close {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      width: 34px;
+      height: 34px;
+      background: transparent;
+      border: none;
+      color: #9a9ab0;
+      font-size: 22px;
+      line-height: 1;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    .pz-banner__btn-close:hover {
       color: #fff;
+      background: rgba(255, 255, 255, 0.06);
+    }
+    .pz-banner__btn-close--hidden {
+      display: none;
     }
     .pz-banner__actions {
       display: flex;
       flex-direction: column;
       align-items: stretch;
       gap: 8px;
-      min-width: 200px;
+      margin-top: 26px;
     }
     .pz-banner__btn-accept {
-      padding: 20px 44px;
-      min-width: 240px;
+      width: 100%;
+      padding: 17px 44px;
       background: #c5a44e;
       color: #1a1a2e;
       border: none;
-      border-radius: 8px;
+      border-radius: 10px;
       cursor: pointer;
-      font-size: 19px;
+      font-size: 17px;
       font-weight: 700;
       letter-spacing: 0.3px;
       transition: all 0.2s;
@@ -231,13 +286,16 @@ const { position } = Astro.props;
     .pz-banner__btn-settings {
       padding: 6px 12px;
       background: transparent;
-      color: #c5a44e;
+      color: #9a9ab0;
       border: none;
       cursor: pointer;
       font-size: 13px;
       font-weight: 500;
       text-decoration: underline;
       text-underline-offset: 2px;
+    }
+    .pz-banner__btn-settings:hover {
+      color: #c5a44e;
     }
     .pz-banner__details {
       margin-top: 16px;
@@ -276,16 +334,29 @@ const { position } = Astro.props;
       color: #c4c4d8;
       margin-top: 2px;
     }
+    /* Outline — żeby w rozwiniętym panelu nie konkurował wizualnie z „Akceptuję wszystkie" */
     .pz-banner__btn-save {
+      width: 100%;
       margin-top: 8px;
       padding: 12px 24px;
-      background: #c5a44e;
-      color: #1a1a2e;
-      border: none;
+      background: transparent;
+      color: #c5a44e;
+      border: 1px solid rgba(197, 164, 78, 0.5);
       border-radius: 8px;
       cursor: pointer;
       font-size: 14px;
       font-weight: 600;
+    }
+    .pz-banner__btn-save:hover {
+      background: rgba(197, 164, 78, 0.1);
+    }
+    @media (max-width: 560px) {
+      .pz-banner__inner {
+        padding: 30px 24px 24px;
+      }
+      .pz-banner__title {
+        font-size: 21px;
+      }
     }
   </style>
 
@@ -341,23 +412,58 @@ const { position } = Astro.props;
 
         dataLayer.push({ event: 'cookie_consent_update' });
 
+        hideBanner();
+      }
+
+      // Modal (2026-07-14): scroll lock — <html>/<body> blokowane na czas decyzji
+      function lockScroll(on) {
+        const root = document.documentElement;
+        const body = document.body;
+        if (on) {
+          root.classList.add('pz-consent-open');
+          if (body) body.classList.add('pz-consent-open');
+        } else {
+          root.classList.remove('pz-consent-open');
+          if (body) body.classList.remove('pz-consent-open');
+        }
+      }
+
+      function hideBanner() {
         // Phase 2 refactor: use CSS class instead of style.display (no forced reflow)
         const banner = document.getElementById('pz-consent-banner');
         if (banner) banner.classList.add('pz-banner--hidden');
+        lockScroll(false);
       }
 
-      function showBanner() {
-        if (!getConsent()) {
-          const banner = document.getElementById('pz-consent-banner');
-          // Phase 2 refactor: remove class instead of style.display='block'
-          if (banner) banner.classList.remove('pz-banner--hidden');
-        }
+      // closable=true  → krzyżyk (wywołanie z pzOpenConsent, zgoda JEST już zapisana)
+      // closable=false → pierwsza wizyta: decyzja wymuszona, brak wyjścia poza przyciskami
+      function showBanner(closable) {
+        const banner = document.getElementById('pz-consent-banner');
+        if (!banner) return;
+
+        const closeBtn = document.getElementById('pz-consent-close');
+        if (closeBtn) closeBtn.classList.toggle('pz-banner__btn-close--hidden', !closable);
+
+        // Checkboxy odzwierciedlają zapisany stan (przy ponownym otwarciu)
+        const saved = getConsent();
+        const a = document.getElementById('pz-consent-analytics');
+        const m = document.getElementById('pz-consent-marketing');
+        if (a) a.checked = saved ? saved.analytics : true;
+        if (m) m.checked = saved ? saved.marketing : true;
+
+        banner.classList.remove('pz-banner--hidden');
+        lockScroll(true);
+      }
+
+      function showBannerIfNeeded() {
+        if (!getConsent()) showBanner(false);
       }
 
       function bindEvents() {
         const acceptBtn = document.getElementById('pz-consent-accept');
         const settingsBtn = document.getElementById('pz-consent-settings');
         const saveBtn = document.getElementById('pz-consent-save');
+        const closeBtn = document.getElementById('pz-consent-close');
         const details = document.getElementById('pz-consent-details');
 
         if (acceptBtn)
@@ -375,23 +481,23 @@ const { position } = Astro.props;
             const m = document.getElementById('pz-consent-marketing');
             setConsent(a ? a.checked : false, m ? m.checked : false);
           };
+        if (closeBtn) closeBtn.onclick = hideBanner;
 
         // Hover effect is now pure CSS (:hover), JS hover handlers removed
       }
 
-      showBanner();
+      showBannerIfNeeded();
       bindEvents();
 
       // Expose global API for footer "withdraw consent" link (Gemini review finding)
       // Usage: <a href="#" onclick="window.pzOpenConsent(); return false;">Zmień zgody</a>
       window.pzOpenConsent = function () {
-        const banner = document.getElementById('pz-consent-banner');
-        if (banner) banner.classList.remove('pz-banner--hidden');
+        showBanner(!!getConsent());
       };
 
       // SPA navigation: re-show banner if no consent
       document.addEventListener('astro:page-load', function () {
-        showBanner();
+        showBannerIfNeeded();
         bindEvents();
       });
     })();
