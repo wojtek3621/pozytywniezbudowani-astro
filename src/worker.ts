@@ -21,17 +21,29 @@ import { validatePayload, MAX_PAYLOAD_BYTES } from '../functions/api/_perf-beaco
 interface Env {
   PERF_TELEMETRY: D1Database;
   ASSETS: Fetcher;
-  /** Worker secret (wrangler secret put MAILERLITE_API_TOKEN) — lead magnet /api/subscribe */
-  MAILERLITE_API_TOKEN?: string;
+  /**
+   * Worker secret (wrangler secret put NEWSLETTER_INGEST_TOKEN) — zapis na listę.
+   * Ten sam sekret siedzi w data/.env na VPS. Endpoint newslettera jest fail-closed:
+   * bez nagłówka X-Newsletter-Token odpowiada 403, więc nikt z zewnątrz nie zapisze
+   * obcego adresu (mail-bombing z domeny PZ).
+   */
+  NEWSLETTER_INGEST_TOKEN?: string;
 }
 
-// Lead magnet książki — dedykowana grupa MailerLite `ksiazka-darmowy-rozdzial-2026`
-// (utworzona przez API 2026-07-06; build: aios-workspace/builds/2026-07-05-ksiazka-sprint1/)
-const MAILERLITE_GROUP_KSIAZKA_LM = '192225203776914742';
-const MAILERLITE_API_URL = 'https://connect.mailerlite.com/api/subscribers';
+// Zapis na listę mailingową — system in-house AIOS (misja 2026-07-14, następca
+// MailerLite). Worker jest PROXY: waliduje, odsiewa boty i przekazuje zapis na VPS.
+// Dzięki temu przeglądarka robi zwykły same-origin POST (zero CORS), a my mamy
+// po stronie serwera prawdziwe IP klienta do consent logu (RODO: dowód zgody).
+//
+// ROLLBACK do MailerLite: git revert tego commita (secret MAILERLITE_API_TOKEN
+// w Workerze NIE został skasowany — stara ścieżka wróci od ręki).
+const NEWSLETTER_API_URL = 'https://platforma.pozytywniezbudowani.pl/api/newsletter/subscribe';
 const SUBSCRIBE_MAX_BODY_BYTES = 2048;
 // Prosty format-check: coś@coś.coś, bez spacji, sensowna długość
 const EMAIL_RE = /^[^\s@]{1,64}@[^\s@]{1,255}\.[^\s@]{2,24}$/;
+// Źródła zapisu (trafiają do consent logu — widać, z którego formularza przyszedł człowiek)
+const ALLOWED_SOURCES = ['form_newsletter', 'form_ksiazka_lm'];
+const DEFAULT_SOURCE = 'form_newsletter';
 
 const CORS_HEADERS: Record<string, string> = {
   'Access-Control-Allow-Origin': 'https://pozytywniezbudowani.pl',
@@ -136,14 +148,19 @@ function jsonResponse(body: Record<string, unknown>, status: number): Response {
 }
 
 /**
- * POST /api/subscribe — zapis na lead magnet (darmowy rozdział książki).
- * Body: { email: string, consent: true, website?: string (honeypot) }.
- * Same-origin fetch ze strony /darmowy-rozdzial — bez nagłówków CORS
+ * POST /api/subscribe — zapis na listę mailingową (newsletter + lead magnet książki).
+ * Body: { email: string, consent: true, source?: string, website?: string (honeypot),
+ *         consent_text?: string }.
+ *
+ * Same-origin fetch ze stron /newsletter i /darmowy-rozdzial — bez nagłówków CORS
  * (celowo: cross-origin POST-y z obcych domen nie odczytają odpowiedzi).
+ *
+ * Zapis NIE aktywuje adresu od razu: backend wysyła mail z linkiem potwierdzającym
+ * (double opt-in). Dopiero kliknięcie w tym mailu dopisuje człowieka do listy.
  */
 async function handleSubscribePost(request: Request, env: Env): Promise<Response> {
-  if (!env.MAILERLITE_API_TOKEN) {
-    console.error('subscribe: MAILERLITE_API_TOKEN secret missing');
+  if (!env.NEWSLETTER_INGEST_TOKEN) {
+    console.error('subscribe: NEWSLETTER_INGEST_TOKEN secret missing');
     return jsonResponse({ ok: false, error: 'Service not configured' }, 503);
   }
 
@@ -152,7 +169,13 @@ async function handleSubscribePost(request: Request, env: Env): Promise<Response
     return jsonResponse({ ok: false, error: 'Payload too large' }, 413);
   }
 
-  let parsed: { email?: unknown; consent?: unknown; website?: unknown };
+  let parsed: {
+    email?: unknown;
+    consent?: unknown;
+    website?: unknown;
+    source?: unknown;
+    consent_text?: unknown;
+  };
   try {
     const raw = await request.text();
     if (new TextEncoder().encode(raw).length > SUBSCRIBE_MAX_BODY_BYTES) {
@@ -176,26 +199,38 @@ async function handleSubscribePost(request: Request, env: Env): Promise<Response
     return jsonResponse({ ok: false, error: 'Consent required' }, 400);
   }
 
+  const source =
+    typeof parsed.source === 'string' && ALLOWED_SOURCES.includes(parsed.source) ? parsed.source : DEFAULT_SOURCE;
+
   try {
-    const mlResp = await fetch(MAILERLITE_API_URL, {
+    const resp = await fetch(NEWSLETTER_API_URL, {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${env.MAILERLITE_API_TOKEN}`,
+        'X-Newsletter-Token': env.NEWSLETTER_INGEST_TOKEN,
         'Content-Type': 'application/json',
         Accept: 'application/json',
       },
       body: JSON.stringify({
         email,
-        groups: [MAILERLITE_GROUP_KSIAZKA_LM],
-        status: 'active',
+        consent: true,
+        source,
+        // Prawdziwe IP i UA klienta — backend widzi tylko Workera, a consent log
+        // ma trzymać dowód, KTO i SKĄD wyraził zgodę.
+        client_ip: request.headers.get('cf-connecting-ip') ?? null,
+        user_agent: (request.headers.get('user-agent') ?? '').substring(0, 300),
+        consent_text: typeof parsed.consent_text === 'string' ? parsed.consent_text.substring(0, 2000) : null,
       }),
     });
-    // MailerLite: 200 = istniejący subskrybent zaktualizowany, 201 = nowy
-    if (mlResp.ok) {
+
+    if (resp.ok) {
       return jsonResponse({ ok: true }, 200);
     }
-    const detail = (await mlResp.text()).substring(0, 300);
-    console.error('subscribe: MailerLite error', { status: mlResp.status, detail });
+    // 429 = rate-limit po stronie backendu — przekazujemy uczciwie, nie udajemy sukcesu
+    if (resp.status === 429) {
+      return jsonResponse({ ok: false, error: 'Too many requests' }, 429);
+    }
+    const detail = (await resp.text()).substring(0, 300);
+    console.error('subscribe: newsletter backend error', { status: resp.status, detail });
     return jsonResponse({ ok: false, error: 'Subscription failed' }, 502);
   } catch (error) {
     const err = error as Error;

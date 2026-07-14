@@ -2,7 +2,8 @@
 // Lead magnet — darmowy rozdział książki "Od Marzenia Do Wprowadzenia".
 // noindex + poza sitemap + NIEpodlinkowana z nawigacji (wejście: reklamy Meta
 // / linki bezpośrednie — Sprint 2). Zapis przez POST /api/subscribe (worker.ts)
-// do dedykowanej grupy MailerLite `ksiazka-darmowy-rozdzial-2026`.
+// → system in-house AIOS (misja 2026-07-14): double opt-in + tag
+// `zapisani-na-darmowy-rozdzial`, który wyzwala sekwencję 6 maili lejka.
 // UWAGA: copy poniżej napisane pod rekomendowany rozdział "Kto to wybuduje..."
 // — jeśli Wojtek wybierze inną kandydaturę, podmień fragmenty oznaczone
 // [ROZDZIAL]. Build: aios-workspace/builds/2026-07-05-ksiazka-sprint1/
@@ -137,10 +138,11 @@ const metadata = {
               d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
             ></path>
           </svg>
-          <p class="font-bold dark:text-white mb-2">Gotowe — sprawdźcie skrzynkę.</p>
+          <p class="font-bold dark:text-white mb-2">Jeszcze jeden krok — potwierdźcie zapis.</p>
           <p class="text-muted text-sm">
-            Rozdział wysyłamy na podany adres. Jeśli mail nie dotrze w kilka minut, zajrzyjcie do folderu SPAM lub
-            Oferty.
+            Wysłałem Wam maila z linkiem potwierdzającym. Kliknijcie go, a rozdział przyjdzie od razu po nim. Bez tego
+            kliknięcia nie wyślę Wam ani jednej wiadomości. Jeśli mail nie dotrze w kilka minut — zajrzyjcie do folderu
+            SPAM lub Oferty.
           </p>
         </div>
         <p class="text-muted text-xs text-center mt-4">
@@ -189,10 +191,18 @@ const metadata = {
         }
         btn.disabled = true;
         btn.textContent = 'Wysyłamy…';
+        const consentLabel = document.querySelector('label[for="lm-zgoda"]');
         fetch('/api/subscribe', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email: email, consent: true, website: honeypot }),
+          body: JSON.stringify({
+            email: email,
+            consent: true,
+            // Źródło → tag `zapisani-na-darmowy-rozdzial` → wyzwalacz sekwencji lejka
+            source: 'form_ksiazka_lm',
+            website: honeypot,
+            consent_text: consentLabel ? (consentLabel.textContent || '').replace(/\s+/g, ' ').trim() : null,
+          }),
         })
           .then(function (res) {
             if (!res.ok) throw new Error('HTTP ' + res.status);

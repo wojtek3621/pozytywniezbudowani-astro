@@ -38,7 +38,8 @@ const { language, textDirection } = I18N;
     <link rel="preconnect" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://app.visitortracking.com" />
-    <link rel="dns-prefetch" href="https://connect.mailerlite.com" />
+    <!-- Zapis na listę idzie same-origin (Worker → /api/subscribe → VPS), więc żaden
+         zewnętrzny host nie wymaga rozgrzewki DNS. MailerLite odpięty 2026-07-14. -->
 
     <!-- dataLayer queue — MUST be initialized BEFORE ConsentBanner and Analytics -->
     <!-- Reason: ConsentBanner head script pushes consent defaults; Analytics (lazy in Phase 2) -->
