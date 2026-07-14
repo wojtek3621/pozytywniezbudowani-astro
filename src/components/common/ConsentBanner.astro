@@ -105,15 +105,6 @@ const { position } = Astro.props;
 {position === 'body' && (
   <div id="pz-consent-banner" class="pz-banner pz-banner--hidden">
     <div class="pz-banner__inner" role="dialog" aria-modal="true" aria-labelledby="pz-consent-title">
-      <button
-        id="pz-consent-close"
-        class="pz-banner__btn-close pz-banner__btn-close--hidden"
-        type="button"
-        aria-label="Zamknij"
-      >
-        ×
-      </button>
-
       <p class="pz-banner__title" id="pz-consent-title">Pliki cookie</p>
       <p class="pz-banner__desc">
         Ta strona — jak większość serwisów w sieci — korzysta z plików cookie. Szczegóły opisaliśmy w
@@ -232,27 +223,6 @@ const { position } = Astro.props;
       color: #c5a44e;
       text-decoration: underline;
       text-underline-offset: 2px;
-    }
-    .pz-banner__btn-close {
-      position: absolute;
-      top: 10px;
-      right: 12px;
-      width: 34px;
-      height: 34px;
-      background: transparent;
-      border: none;
-      color: #9a9ab0;
-      font-size: 22px;
-      line-height: 1;
-      cursor: pointer;
-      border-radius: 8px;
-    }
-    .pz-banner__btn-close:hover {
-      color: #fff;
-      background: rgba(255, 255, 255, 0.06);
-    }
-    .pz-banner__btn-close--hidden {
-      display: none;
     }
     .pz-banner__actions {
       display: flex;
@@ -435,35 +405,30 @@ const { position } = Astro.props;
         lockScroll(false);
       }
 
-      // closable=true  → krzyżyk (wywołanie z pzOpenConsent, zgoda JEST już zapisana)
-      // closable=false → pierwsza wizyta: decyzja wymuszona, brak wyjścia poza przyciskami
-      function showBanner(closable) {
+      // Modal pokazujemy WYŁĄCZNIE przy braku zgody — decyzja wymuszona, bez wyjścia
+      // poza przyciskami. Zmiana zgód po fakcie nie jest wspierana (dyrektywa
+      // właściciela 2026-07-14): brak krzyżyka, brak window.pzOpenConsent.
+      function showBanner() {
         const banner = document.getElementById('pz-consent-banner');
         if (!banner) return;
 
-        const closeBtn = document.getElementById('pz-consent-close');
-        if (closeBtn) closeBtn.classList.toggle('pz-banner__btn-close--hidden', !closable);
-
-        // Checkboxy odzwierciedlają zapisany stan (przy ponownym otwarciu)
-        const saved = getConsent();
         const a = document.getElementById('pz-consent-analytics');
         const m = document.getElementById('pz-consent-marketing');
-        if (a) a.checked = saved ? saved.analytics : true;
-        if (m) m.checked = saved ? saved.marketing : true;
+        if (a) a.checked = true;
+        if (m) m.checked = true;
 
         banner.classList.remove('pz-banner--hidden');
         lockScroll(true);
       }
 
       function showBannerIfNeeded() {
-        if (!getConsent()) showBanner(false);
+        if (!getConsent()) showBanner();
       }
 
       function bindEvents() {
         const acceptBtn = document.getElementById('pz-consent-accept');
         const settingsBtn = document.getElementById('pz-consent-settings');
         const saveBtn = document.getElementById('pz-consent-save');
-        const closeBtn = document.getElementById('pz-consent-close');
         const details = document.getElementById('pz-consent-details');
 
         if (acceptBtn)
@@ -481,19 +446,12 @@ const { position } = Astro.props;
             const m = document.getElementById('pz-consent-marketing');
             setConsent(a ? a.checked : false, m ? m.checked : false);
           };
-        if (closeBtn) closeBtn.onclick = hideBanner;
 
         // Hover effect is now pure CSS (:hover), JS hover handlers removed
       }
 
       showBannerIfNeeded();
       bindEvents();
-
-      // Expose global API for footer "withdraw consent" link (Gemini review finding)
-      // Usage: <a href="#" onclick="window.pzOpenConsent(); return false;">Zmień zgody</a>
-      window.pzOpenConsent = function () {
-        showBanner(!!getConsent());
-      };
 
       // SPA navigation: re-show banner if no consent
       document.addEventListener('astro:page-load', function () {
