@@ -2,7 +2,7 @@
 publishDate: 2026-05-17T21:54:16
 updateDate: 2026-05-17T21:54:16
 title: 'Dom na zgłoszenie do 70 m² – czy warto budować bez pozwolenia'
-excerpt: '70 metrów zabudowy bez kierownika, bez dziennika i bez pozwolenia. Brzmi jak skrót — ale w praktyce ten tryb pomaga tylko części inwestorów.'
+excerpt: '70 metrów zabudowy bez kierownika, bez dziennika i bez pozwolenia. Brzmi jak skrót – ale w praktyce ten tryb pomaga tylko części inwestorów.'
 image: '~/assets/images/blog/dom-na-zgloszenie-do-70-m2-czy-warto-budowac-bez-pozwolenia.jpeg'
 category: 'Blog'
 tags:

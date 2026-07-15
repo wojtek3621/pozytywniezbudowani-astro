@@ -12,7 +12,7 @@ author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sciany-dzialowe-murowac-czy-karton-gips/'
   title: 'Ściany działowe – murować czy karton-gips? Praktyk wyjaśnia'
-  description: 'Kiedy ściany działowe murować z bloczków, a kiedy postawić z karton-gipsu? Wady, zalety i konsekwencje wyboru — z perspektywy wykonawcy.'
+  description: 'Kiedy ściany działowe murować z bloczków, a kiedy postawić z karton-gipsu? Wady, zalety i konsekwencje wyboru – z perspektywy wykonawcy.'
   robots:
     index: true
     follow: true

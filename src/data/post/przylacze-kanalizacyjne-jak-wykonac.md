@@ -11,7 +11,7 @@ author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/przylacze-kanalizacyjne-jak-wykonac/'
   title: 'Przyłącze kanalizacyjne – jak wykonać krok po kroku'
-  description: 'Jak wykonać przyłącze kanalizacyjne — warunki techniczne, projekt, głębokość, spadki, studzienki i odbiór gestora sieci. Praktyczny przewodnik dla inwestora.'
+  description: 'Jak wykonać przyłącze kanalizacyjne – warunki techniczne, projekt, głębokość, spadki, studzienki i odbiór gestora sieci. Praktyczny przewodnik dla inwestora.'
   robots:
     index: true
     follow: true

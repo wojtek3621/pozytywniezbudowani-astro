@@ -125,7 +125,7 @@ metadata:
 
 <p>Wiele osób nie wie, że profile do suchej zabudowy różnią się grubością. Standardowe markowe profile mają najczęściej 0,6 mm grubości. Można jednak spotkać profile 0,5 mm lub nawet 0,45 mm – różnica nie wydaje się duża, ale jest dobrze wyczuwalna, gdy bierze się je do ręki.</p>
 
-<p>Profile 0,45 mm całkowicie odradzam. Profile 0,5 mm w niektórych sytuacjach można rozważyć, ale standardem powinno być 0,6 mm. Idealnie byłoby wykonać sufit w systemie jednego producenta, z oryginalnymi elementami. Jeżeli decydujecie się na zamienniki, niech to przynajmniej będzie świadoma decyzja po porównaniu cen markowych profili z tańszymi — temat <a href="/blog/profile-i-stelaze-do-suchej-zabudowy/">wyboru profili i stelaży do suchej zabudowy</a> rozkładam dokładniej w osobnym artykule.</p>
+<p>Profile 0,45 mm całkowicie odradzam. Profile 0,5 mm w niektórych sytuacjach można rozważyć, ale standardem powinno być 0,6 mm. Idealnie byłoby wykonać sufit w systemie jednego producenta, z oryginalnymi elementami. Jeżeli decydujecie się na zamienniki, niech to przynajmniej będzie świadoma decyzja po porównaniu cen markowych profili z tańszymi – temat <a href="/blog/profile-i-stelaze-do-suchej-zabudowy/">wyboru profili i stelaży do suchej zabudowy</a> rozkładam dokładniej w osobnym artykule.</p>
 
 <h3>5. Skręcanie profili przyściennych z nośnymi</h3>
 

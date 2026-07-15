@@ -11,7 +11,7 @@ author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/chudiak-czy-jest-potrzebny/'
   title: 'Chudiak pod fundamentem – czy jest potrzebny?'
-  description: 'Chudiak pod ławami fundamentowymi i płytą fundamentową — kiedy jest niezbędny, kiedy zbędny i czym go zastąpić. Praktyk wyjaśnia, jak nie przepłacić.'
+  description: 'Chudiak pod ławami fundamentowymi i płytą fundamentową – kiedy jest niezbędny, kiedy zbędny i czym go zastąpić. Praktyk wyjaśnia, jak nie przepłacić.'
   robots:
     index: true
     follow: true

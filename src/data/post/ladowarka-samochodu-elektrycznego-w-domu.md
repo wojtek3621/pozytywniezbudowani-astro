@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-01T19:36:34
 updateDate: 2026-06-01T19:36:34
-title: 'Ładowarka samochodu elektrycznego w domu — co przewidzieć przy budowie'
+title: 'Ładowarka samochodu elektrycznego w domu – co przewidzieć przy budowie'
 excerpt: 'Kilkaset złotych za peszel zakopany dziś vs kilkanaście tysięcy za rozkucie elewacji za rok. Pokażę, co przewidzieć podczas budowy.'
 image: '~/assets/images/blog/ladowarka-samochodu-elektrycznego-w-domu.jpeg'
 category: 'Blog'
@@ -10,8 +10,8 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/ladowarka-samochodu-elektrycznego-w-domu/'
-  title: 'Ładowarka samochodu elektrycznego w domu — co przewidzieć przy budowie'
-  description: 'Wallbox w domu jednorodzinnym — moc przyłączeniowa, kabel, zabezpieczenia RCD typ B, lokalizacja. Co przewidzieć na etapie budowy, żeby nie kuć ścian.'
+  title: 'Ładowarka samochodu elektrycznego w domu – co przewidzieć przy budowie'
+  description: 'Wallbox w domu jednorodzinnym – moc przyłączeniowa, kabel, zabezpieczenia RCD typ B, lokalizacja. Co przewidzieć na etapie budowy, żeby nie kuć ścian.'
   robots:
     index: true
     follow: true

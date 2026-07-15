@@ -53,7 +53,7 @@ metadata:
 
 <p>Co powinno znaleźć się pod gabionem zrobionym dobrze:</p>
 
-<p><strong>Wykop poniżej poziomu przemarzania.</strong> W centralnej Polsce to minimum 0,8–1,0 m, na wschodzie i północnym wschodzie 1,2–1,4 m. To wartości stosowane w projektowaniu fundamentów w Polsce na bazie normy PN-81/B-03020 — schodząc płycej, ryzykujecie uszkodzenia konstrukcji od pierwszej cięższej zimy.</p>
+<p><strong>Wykop poniżej poziomu przemarzania.</strong> W centralnej Polsce to minimum 0,8–1,0 m, na wschodzie i północnym wschodzie 1,2–1,4 m. To wartości stosowane w projektowaniu fundamentów w Polsce na bazie normy PN-81/B-03020 – schodząc płycej, ryzykujecie uszkodzenia konstrukcji od pierwszej cięższej zimy.</p>
 
 <p><strong>Podsypka żwirowa lub z kruszywa łamanego.</strong> Warstwa 15–20 cm zagęszczonego kruszywa drenażowego pod ławą. Jej zadaniem jest odprowadzenie wody, która spłynie po fundamencie, i zapewnienie równomiernego rozkładu obciążenia.</p>
 

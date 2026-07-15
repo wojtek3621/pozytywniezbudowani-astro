@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-01T18:53:43
 updateDate: 2026-06-01T18:53:49
-title: 'Czujniki ruchu i obecności w smart home — przewodnik'
+title: 'Czujniki ruchu i obecności w smart home – przewodnik'
 excerpt: 'Czujnik ruchu wyłącza światło, gdy w pokoju nikt się nie rusza, mimo że ktoś tam jest. Czujnik obecności tego nie robi. To jedna z istotniejszych różnic.'
 image: '~/assets/images/blog/czujniki-ruchu-i-obecnosci-w-smart-home.jpeg'
 category: 'Blog'
@@ -11,8 +11,8 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/czujniki-ruchu-i-obecnosci-w-smart-home/'
-  title: 'Czujniki ruchu i obecności w smart home — przewodnik'
-  description: 'Czujniki ruchu (PIR) i obecności (mmWave) w smart home — różnice, zastosowania, okablowanie, błędy. Co przewidzieć na etapie instalacji elektrycznej.'
+  title: 'Czujniki ruchu i obecności w smart home – przewodnik'
+  description: 'Czujniki ruchu (PIR) i obecności (mmWave) w smart home – różnice, zastosowania, okablowanie, błędy. Co przewidzieć na etapie instalacji elektrycznej.'
   robots:
     index: true
     follow: true

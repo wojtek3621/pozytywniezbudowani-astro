@@ -253,7 +253,7 @@ function obliczNadplate() {
 
     // Symulacja spłaty stałą ratą: ostatnia rata niepełna, domyka saldo.
     // (Poprzednia wersja liczyła sumę wpłat jako rata × liczba rat zaokrąglona
-    // w górę — zawyżało to odsetki po skróceniu; oszczędność była też błędnie
+    // w górę – zawyżało to odsetki po skróceniu; oszczędność była też błędnie
     // pomniejszana o kwotę nadpłaty, choć nadpłata to spłata kapitału, nie koszt.)
     function symulujSplate(kwota, rata, r) {
         var saldo = kwota;

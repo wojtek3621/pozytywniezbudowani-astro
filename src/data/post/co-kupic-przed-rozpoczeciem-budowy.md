@@ -2,7 +2,7 @@
 publishDate: 2026-05-31T12:53:55
 order: 35
 updateDate: 2026-05-31T12:53:55
-title: 'Co kupić przed rozpoczęciem budowy domu — lista praktyka'
+title: 'Co kupić przed rozpoczęciem budowy domu – lista praktyka'
 excerpt: 'Zanim wbijecie łopatę, kilka rzeczy warto kupić wcześniej. Nie zestaw kluczy z marketu – konkretna lista, która oszczędzi Wam stresu i pieniędzy.'
 image: '~/assets/images/blog/co-kupic-przed-rozpoczeciem-budowy.jpeg'
 category: 'Blog'
@@ -12,7 +12,7 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/co-kupic-przed-rozpoczeciem-budowy/'
-  title: 'Co kupić przed rozpoczęciem budowy domu — lista praktyka'
+  title: 'Co kupić przed rozpoczęciem budowy domu – lista praktyka'
   description: 'Lista rzeczy, które warto kupić przed wbiciem łopaty: polisa, tablica, narzędzia kontrolne, ŚOI, VAT 8%. Praktycznie i z konkretem.'
   robots:
     index: true

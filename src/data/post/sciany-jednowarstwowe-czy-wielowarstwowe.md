@@ -1,14 +1,14 @@
 ---
 publishDate: 2026-06-01T19:17:31
 updateDate: 2026-06-01T19:17:31
-title: 'Ściany jednowarstwowe czy wielowarstwowe — co wybrać'
+title: 'Ściany jednowarstwowe czy wielowarstwowe – co wybrać'
 excerpt: 'Wybór między ścianą jednowarstwową a wielowarstwową przesądza o kosztach, wykonaniu i komforcie domu na lata. Pokażę Wam, czym się różnią i co radzę inwestorom.'
 image: '~/assets/images/blog/sciany-jednowarstwowe-czy-wielowarstwowe.jpeg'
 category: 'Blog'
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/sciany-jednowarstwowe-czy-wielowarstwowe/'
-  title: 'Ściany jednowarstwowe czy wielowarstwowe — co wybrać'
+  title: 'Ściany jednowarstwowe czy wielowarstwowe – co wybrać'
   description: 'Porównanie ścian jednowarstwowych i wielowarstwowych w domu jednorodzinnym. Mostki termiczne, koszty wykonania, wpływ na elewację, instalacje i przyszłą eksploatację. Praktycznie z perspektywy wykonawcy.'
   robots:
     index: true
@@ -27,7 +27,7 @@ metadata:
 
 <p><strong>Ściana wielowarstwowa</strong> rozdziela te dwie funkcje. Warstwa konstrukcyjna (z reguły 24–25 cm – <a href="/blog/pustak-ceramiczny-czy-beton-komorkowy-porownanie/">pustak ceramiczny</a>, <a href="/blog/silka-czy-gazobeton-co-wybrac/">silikat</a>, bloczek z betonu komórkowego wyższej klasy lub <a href="/blog/bloczki-keramzytowe-gdzie-stosowac/">bloczek keramzytowy</a>) odpowiada za nośność. Do tego dochodzi warstwa termoizolacyjna – najczęściej 20 cm styropianu albo wełny mineralnej. Tak zbudowana ściana nazywana jest dwuwarstwową. Jeśli na zewnątrz ocieplenia dochodzi jeszcze warstwa licowa (cegła klinkierowa, kamień, deska elewacyjna na ruszcie) – mówimy o ścianie trójwarstwowej.</p>
 
-<h2>Ściana jednowarstwowa — kiedy ma sens</h2>
+<h2>Ściana jednowarstwowa – kiedy ma sens</h2>
 
 <p>Ściana jednowarstwowa kusi prostotą. Jeden materiał, jedna ekipa, mniej etapów. Brzmi dobrze, ale diabeł tkwi w szczegółach.</p>
 
@@ -39,7 +39,7 @@ metadata:
 
 <p>Po czwarte – i moim zdaniem najważniejsze – wykonanie. Ściana jednowarstwowa nie wybacza błędów. Każda spoina zalana zwykłą zaprawą zamiast ciepłochronnej, każdy nadprożowy element, każdy wieniec żelbetowy bez ocieplenia od zewnątrz – to mostek termiczny, którego nie da się później naprawić. Bo nie ma drugiej warstwy, która te wszystkie błędy zakryje.</p>
 
-<h2>Ściana dwuwarstwowa — moja rekomendacja w większości przypadków</h2>
+<h2>Ściana dwuwarstwowa – moja rekomendacja w większości przypadków</h2>
 
 <p>Ściana dwuwarstwowa to dziś w polskim budownictwie jednorodzinnym standard. Buduje się ją z porządnego materiału konstrukcyjnego (pustak ceramiczny 25 cm, silikat 24 cm, bloczek z betonu komórkowego klasy 500 lub 600 o grubości 24 cm, ewentualnie bloczek keramzytowy), a parametry termiczne uzyskuje się przez naklejenie z zewnątrz styropianu lub wełny mineralnej. Standardowa grubość ocieplenia to dziś 20 cm, ale w domach o ambicjach energooszczędnych spotyka się 25–30 cm.</p>
 
@@ -55,7 +55,7 @@ metadata:
 
 <p><strong>Powierzchnia użytkowa.</strong> Ściana 25 cm + 20 cm ocieplenia ma łącznie 45 cm grubości – czyli mniej więcej tyle samo co gazobeton 42 cm. Ale konstrukcja nośna zajmuje tylko 25 cm. Reszta to lekka warstwa, którą można w przyszłości zmodyfikować. A jeśli zamiast standardowego styropianu wybierzecie styropian grafitowy 18 cm o lambdzie 0,031, łączna grubość ściany spada do około 43 cm przy podobnych parametrach termicznych. Niewielka różnica, ale w domach 100 m² robi swoje.</p>
 
-<h2>Ściana trójwarstwowa — kiedy warto, kiedy szkoda</h2>
+<h2>Ściana trójwarstwowa – kiedy warto, kiedy szkoda</h2>
 
 <p>Trzecia warstwa – licowa, najczęściej z cegły klinkierowej, kamienia naturalnego lub deski elewacyjnej na ruszcie wentylowanym – to już zupełnie inna kategoria. Ściana trójwarstwowa kosztuje istotnie więcej od dwuwarstwowej, wymaga lepszego wykonawcy, dłuższego harmonogramu i znacznie większej dokładności na etapie fundamentów. Bo cegła klinkierowa musi się na czymś oprzeć – najczęściej na specjalnie poszerzonej ławie fundamentowej lub na konsolach stalowych mocowanych do konstrukcji.</p>
 
@@ -63,7 +63,7 @@ metadata:
 
 <p>Ale to wybór estetyczno-budżetowy, nie techniczny. Z punktu widzenia parametrów termicznych ściana trójwarstwowa nie daje Wam istotnie więcej niż ściana dwuwarstwowa z porządnym ociepleniem. Dochodzi co prawda dodatkowa szczelina powietrzna między ociepleniem a licówką, ale w zamian dochodzi też cała masa kosztów i komplikacji wykonawczych.</p>
 
-<h2>Mostki termiczne — sedno sprawy</h2>
+<h2>Mostki termiczne – sedno sprawy</h2>
 
 <p>To, gdzie pęka teoria ścian jednowarstwowych, to nie sam bloczek. Sam bloczek z gazobetonu klasy 400 ma świetne parametry. Problemem jest wszystko, co bloczkiem nie jest: wieńce żelbetowe, nadproża, trzpienie, słupy, ościeża okien i drzwi, przejścia rur instalacyjnych. To są elementy konstrukcyjne wykonane z betonu lub żelbetu, który ma lambdę ponad piętnaście razy gorszą niż gazobeton klasy 400.</p>
 

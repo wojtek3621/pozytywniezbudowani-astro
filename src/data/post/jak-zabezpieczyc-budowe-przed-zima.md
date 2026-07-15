@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-31T12:53:55
 updateDate: 2026-05-31T12:53:55
-title: 'Jak zabezpieczyć budowę przed zimą — praktyczny przewodnik'
+title: 'Jak zabezpieczyć budowę przed zimą – praktyczny przewodnik'
 excerpt: 'Mróz, woda i wiatr potrafią w jeden sezon cofnąć Waszą budowę o kilka miesięcy. Pokazuję, co zabezpieczyć i w jakiej kolejności.'
 image: '~/assets/images/blog/jak-zabezpieczyc-budowe-przed-zima.jpeg'
 category: 'Blog'
@@ -11,7 +11,7 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-zabezpieczyc-budowe-przed-zima/'
-  title: 'Jak zabezpieczyć budowę przed zimą — praktyczny przewodnik'
+  title: 'Jak zabezpieczyć budowę przed zimą – praktyczny przewodnik'
   description: 'Zabezpieczenie budowy przed zimą krok po kroku: fundamenty, ściany, dach, instalacje, materiały. Co zrobić, by mróz nie zniszczył efektów Waszej pracy.'
   robots:
     index: true

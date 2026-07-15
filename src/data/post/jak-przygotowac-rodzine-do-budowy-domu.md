@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-31T12:53:55
 updateDate: 2026-05-31T12:53:55
-title: 'Jak przygotować rodzinę do budowy domu — przewodnik'
+title: 'Jak przygotować rodzinę do budowy domu – przewodnik'
 excerpt: 'Budowa domu to maraton dla całej rodziny. Pokażę, jak przygotować bliskich, by po roku prac nadal byliście drużyną, a nie obozem przeciwników.'
 image: '~/assets/images/blog/jak-przygotowac-rodzine-do-budowy-domu.jpeg'
 category: 'Blog'
@@ -12,7 +12,7 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-przygotowac-rodzine-do-budowy-domu/'
-  title: 'Jak przygotować rodzinę do budowy domu — przewodnik'
+  title: 'Jak przygotować rodzinę do budowy domu – przewodnik'
   description: 'Budowa domu to wyzwanie dla całej rodziny, nie tylko dla inwestora. Sprawdź jak przygotować bliskich na czas budowy, by uniknąć stresu i konfliktów.'
   robots:
     index: true

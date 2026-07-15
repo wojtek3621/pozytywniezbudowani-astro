@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-31T19:13:14
 updateDate: 2026-05-31T19:13:14
-title: 'Jak nie wykończyć siebie przy wykańczaniu domu — poradnik'
+title: 'Jak nie wykończyć siebie przy wykańczaniu domu – poradnik'
 excerpt: 'Stan deweloperski daje fałszywe poczucie, że już prawie koniec. A dopiero teraz zaczyna się najdłuższy etap budowy. Pokazuję, jak go przejść w jednym kawałku.'
 image: '~/assets/images/blog/jak-nie-wykonczyc-siebie-przy-wykanczaniu-domu.jpeg'
 category: 'Blog'
@@ -10,7 +10,7 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/jak-nie-wykonczyc-siebie-przy-wykanczaniu-domu/'
-  title: 'Jak nie wykończyć siebie przy wykańczaniu domu — poradnik'
+  title: 'Jak nie wykończyć siebie przy wykańczaniu domu – poradnik'
   description: 'Wykańczanie domu to najdłuższy i najbardziej wyczerpujący etap budowy. Pokazuję, jak zaplanować pracę, decyzje i własne siły, żeby dotrwać do końca w zdrowiu.'
   robots:
     index: true
