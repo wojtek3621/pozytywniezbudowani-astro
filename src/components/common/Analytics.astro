@@ -124,6 +124,17 @@
         })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
 
         // VisitorTracking — async load after GTM
+        //
+        // GUARD (2026-07-14): tracer.js dostawcy wywołuje wewnętrznie init_tracer()
+        // przez setTimeout, ale tej funkcji NIE definiuje (ani my — `grep init_tracer
+        // src/ public/` = 0 trafień). Ich try/catch owija tylko setTimeout, więc
+        // asynchroniczny ReferenceError leci POZA blokiem → niezłapany wyjątek w ~każdej
+        // sesji (Clarity ScriptErrorCount ~60%). Definiujemy brakującą funkcję jako no-op
+        // ZANIM wstrzykniemy skrypt. Nasza właściwa inicjalizacja idzie osobno przez
+        // new Tracer(...) w onload poniżej, więc no-op niczego nie psuje. Odwracalne.
+        // Analiza: builds/2026-07-14-pz-bledy-js/.
+        window.init_tracer = window.init_tracer || function () {};
+
         var vt = document.createElement('script');
         vt.async = true;
         vt.defer = true;
