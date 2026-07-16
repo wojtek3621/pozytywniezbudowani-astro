@@ -76,6 +76,6 @@ export const footerData = {
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/wojciech-tracichleb/' },
   ],
   footNote: `
-    &copy; ${new Date().getFullYear()} Pozytywnie Zbudowani — Wojciech Tracichleb. Wszelkie prawa zastrzeżone.
+    &copy; ${new Date().getFullYear()} Pozytywnie Zbudowani – Wojciech Tracichleb. Wszelkie prawa zastrzeżone.
   `,
 };
