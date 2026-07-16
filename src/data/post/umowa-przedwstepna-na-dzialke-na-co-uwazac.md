@@ -103,5 +103,3 @@ metadata:
 <p style="text-align: justify;">Dajcie sobie czas na przeczytanie umowy i zrozumienie wszystkich jej zapisów. Nie podpisujcie niczego pod presją – dobra działka znajdzie się zawsze, a straconych pieniędzy nikt Wam nie zwróci. Korzystajcie z pomocy specjalistów – notariuszy, prawników, geodetów. W kontekście wartości całej inwestycji te kilkaset złotych za konsultację to naprawdę niewiele. Te porady są częścią szerszego procesu <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">wyboru działki pod budowę domu</a>.</p>
 
 <p style="text-align: justify;">I pamiętajcie, że umowa – nawet najlepsza – to nie gwarancja. Jest narzędziem, które pozwala dochodzić swoich praw, ale nie zastępuje zdrowego rozsądku i weryfikacji drugiej strony transakcji. Profilaktyka jest zawsze lepsza niż leczenie – dlatego sprawdzajcie, pytajcie, weryfikujcie. A dopiero potem podpisujcie.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

@@ -83,5 +83,3 @@ metadata:
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Projekt gotowy kosztuje od kilku do kilkunastu tysięcy złotych, ale z obowiązkową adaptacją i ewentualnymi zmianami całkowity wydatek może być znacznie wyższy. Projekt indywidualny to inwestycja kilkudziesięciu tysięcy złotych, ale za tę cenę otrzymujecie rozwiązanie idealnie dopasowane do Waszej działki i potrzeb, bez konieczności płacenia za późniejsze modyfikacje. Różnica między tymi opcjami często jest mniejsza, niż sugerują ceny katalogowe. A w przeliczeniu na koszt całej budowy stanowi zaledwie 2–3% wartości inwestycji. Warto o tym pamiętać, bo decyzje podjęte na etapie projektu będą Wam towarzyszyć przez całe życie w tym domu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

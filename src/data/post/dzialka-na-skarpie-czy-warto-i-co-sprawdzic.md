@@ -108,5 +108,3 @@ metadata:
 <p style="text-align: justify;">Działka na skarpie to teren dla świadomych inwestorów. Tych, którzy rozumieją, że niższa cena działki może oznaczać wyższy koszt budowy. Tych, którzy wiedzą, że <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">przy wyborze działki</a> badania geotechniczne to nie fanaberia geologa, ale niezbędna podstawa każdej decyzji. Tych, którzy potrafią spojrzeć na teren oczami budowniczego, nie tylko oczami romantyka rozmarzającego o widokach.</p>
 
 <p style="text-align: justify;">Jeśli podejdziecie do zakupu działki na skarpie z otwartymi oczami, z odpowiednim budżetem i z pomocą specjalistów, możecie zbudować dom, który będzie Waszą dumą na lata. Dom z charakterem, z widokami, z przestrzenią, której płaskie działki po prostu nie oferują. Ale jeśli podejdziecie do tego lekkomyślnie, kupując pierwszą ładną działkę bez sprawdzenia, co kryje się pod jej powierzchnią – możecie zbudować sobie problem, który będzie Was prześladował przez całe życie w tym domu. Wybór należy do Was.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

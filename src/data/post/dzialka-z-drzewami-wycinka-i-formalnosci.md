@@ -115,5 +115,3 @@ metadata:
 <p style="text-align: justify;">Zapamiętajcie najważniejsze zasady. Drzewa owocowe wycinacie bez formalności, chyba że działka jest zabytkowa. Inne drzewa o obwodzie pnia poniżej limitów – 80 centymetrów dla topoli i wierzb, 65 dla kasztanowców i robinii, 50 dla pozostałych gatunków – też nie wymagają zgłoszenia. Drzewa większe wymagają zgłoszenia do gminy i odczekania na ewentualny sprzeciw. Wycinkę planujcie na okres od połowy października do końca lutego – unikniecie wtedy problemów związanych z okresem lęgowym ptaków. I nigdy, przenigdy nie wycinajcie drzewa bez sprawdzenia, czy wymaga to zgłoszenia. Kary są zbyt wysokie, żeby ryzykować.</p>
 
 <p style="text-align: justify;">Budowa domu to maraton, nie sprint. Kilka tygodni poświęconych na załatwienie formalności związanych z wycinką to naprawdę niewiele w porównaniu z całością przedsięwzięcia. A świadomość, że działacie zgodnie z prawem, pozwoli Wam spać spokojnie – i to nie tylko w trakcie budowy, ale i przez wiele lat później, gdy już zamieszkacie w wymarzonym domu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

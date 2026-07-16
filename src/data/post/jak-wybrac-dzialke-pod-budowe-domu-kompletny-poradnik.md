@@ -189,5 +189,3 @@ metadata:
 <p style="text-align: justify;">Ta działka będzie Waszym miejscem na ziemi przez następne dekady. Warto poświęcić na jej wybór tyle czasu, ile potrzeba, żeby potem cieszyć się z podjętej decyzji – zamiast żałować przez następne 30 lat.</p>
 
 <p style="text-align: justify;">Jeśli chcecie mieć pod ręką kompletną wiedzę o całym procesie budowy – od marzenia, przez działkę, aż po wprowadzenie się do gotowego domu – zapraszam do sięgnięcia po moją książkę „Od marzenia do wprowadzenia". Znajdziecie w niej wszystko, czego potrzebujecie, żeby przejść przez budowę świadomie i bez zbędnego stresu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

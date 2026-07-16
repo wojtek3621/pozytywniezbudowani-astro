@@ -103,5 +103,3 @@ metadata:
 <p style="text-align: justify;">Sprawdzenie dostępności mediów przed <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">zakupem działki</a> to nie formalność – to element analizy, który może zaważyć na powodzeniu całej inwestycji. Mapa zasadnicza pokaże Wam, co jest w okolicy. Warunki przyłączy powiedzą, czy i jak możecie się podłączyć. A suma wszystkich kosztów – przyłączy, ewentualnej studni, oczyszczalni – da Wam prawdziwy obraz tego, ile naprawdę kosztuje ta konkretna działka.</p>
 
 <p style="text-align: justify;">Nie dajcie się zwieść niskiej cenie działki bez mediów. Policzcie wszystko dokładnie, porównajcie z działkami, które mają pełną infrastrukturę, i dopiero wtedy podejmijcie decyzję. Bo przy budowie domu – największej inwestycji życia – nie ma miejsca na kosztowne niespodzianki wynikające z braku rozeznania.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

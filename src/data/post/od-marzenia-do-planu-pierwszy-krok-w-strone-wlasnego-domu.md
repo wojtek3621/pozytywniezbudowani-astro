@@ -90,5 +90,3 @@ metadata:
 <p style="text-align: justify;">Pierwszy miesiąc po podjęciu decyzji o budowie domu nie powinien być czasem gorączkowego działania. Powinien być czasem przygotowania – mentalnego, finansowego i organizacyjnego. Przeprowadźcie szczere rozmowy o priorytetach i budżecie. Sprawdźcie swoją historię kredytową w BIK i upewnijcie się, że nie ma tam żadnych niespodzianek. Określcie, jakiego domu naprawdę potrzebujecie. Zacznijcie obserwować rynek i zbierać wiedzę.</p>
 
 <p style="text-align: justify;">To może wydawać się mało konkretne – w końcu po miesiącu nie będziecie mieć ani działki, ani projektu, ani kredytu. Ale będziecie mieć coś cenniejszego: jasność. I to właśnie ta jasność sprawi, że kolejne kroki będą prostsze, a cała budowa – mniej stresująca. A o to przecież chodzi.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

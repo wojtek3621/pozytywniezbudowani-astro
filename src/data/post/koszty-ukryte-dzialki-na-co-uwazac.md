@@ -83,5 +83,3 @@ metadata:
 <p style="text-align: justify;">Wszystkie wątpliwości koniecznie konsultujcie ze swoim zespołem – nawet jeśli coś wydaje się błahe. Architekt adaptujący, geodeta, kierownik budowy, a nawet generalny wykonawca mogą pomóc Wam wyłapać potencjalne problemy zanim staną się kosztowne. Nie wierzcie na słowo sprzedającemu ani agentowi biura nieruchomości – weryfikujcie informacje na własną rękę. To Wasze pieniądze i Wasz przyszły dom. Wszystkie te kwestie są kluczową częścią procesu <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">wyboru działki pod budowę domu</a>.</p>
 
 <p style="text-align: justify;">Pamiętajcie, że koszty ukryte działki to nie oszustwo ani podstęp. To po prostu rzeczy, o których sprzedający często nie myśli, bo dla niego nie są problemem. Dla niego działka jest taka, jaka jest. Dla Was ma stać się fundamentem – dosłownie i w przenośni – Waszego wymarzonego domu. I lepiej wiedzieć zawczasu, ile ten fundament będzie kosztował.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

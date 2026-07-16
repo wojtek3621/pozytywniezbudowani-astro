@@ -746,5 +746,3 @@ metadata:
 <p style="text-align: justify;">W większości przypadków kabel aluminiowy o przekroju cztery razy trzydzieści pięć milimetrów kwadratowych okaże się najlepszym kompromisem między ceną, parametrami technicznymi i bezpieczeństwem na przyszłość. Ale każda budowa jest inna, więc traktujcie te obliczenia jako punkt wyjścia do rozmowy z Waszym elektrykiem, a nie jako gotową receptę.</p>
 
 <p style="text-align: justify;">Jeśli chcecie dowiedzieć się więcej o instalacjach elektrycznych i innych etapach budowy domu, zapraszam do mojej książki „Od marzenia do wprowadzenia", gdzie krok po kroku przeprowadzam przez cały proces budowlany – od wyboru działki po odbiór kluczy.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

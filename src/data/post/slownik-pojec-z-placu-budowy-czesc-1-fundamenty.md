@@ -86,5 +86,3 @@ metadata:
 <p style="text-align: justify;">Budowa domu to prawdopodobnie największa inwestycja w Waszym życiu. Warto poświęcić czas na naukę podstaw, żeby przez najbliższe miesiące nie czuć się jak turysta w obcym kraju, który nie zna języka. Mam nadzieję, że ten tekst będzie dla Was dobrym punktem wyjścia.</p>
 
 <p style="text-align: justify;">Jeśli planujesz wybudować dom lub jesteś już w trakcie budowy, sięgnij po książkę „<a href="https://pozytywniezbudowani.pl/ksiazka/">Od marzenia do wprowadzenia</a>” – znajdziesz w niej wszystkie informacje, których potrzebujesz, by zbudować dom bez niepotrzebnych błędów.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

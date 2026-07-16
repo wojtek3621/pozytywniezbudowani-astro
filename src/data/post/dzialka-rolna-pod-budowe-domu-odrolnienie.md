@@ -86,5 +86,3 @@ metadata:
 <h2 style="text-align: justify;">Co z tego wynika</h2>
 
 <p style="text-align: justify;">Odrolnienie działki to proces dwuetapowy: najpierw zmiana przeznaczenia gruntu w dokumentach planistycznych, potem wyłączenie z produkcji rolnej. Poziom skomplikowania zależy od lokalizacji działki i klasy bonitacyjnej gleby. Działki w miastach są odrolnione z mocy prawa. Działki poza miastami o klasie IV-VI pochodzenia mineralnego można odrolnić stosunkowo łatwo. Najtrudniej jest z gruntami klas I-III – tu potrzebna jest zgoda ministra, a od 2026 roku jeszcze dodatkowe obostrzenia wynikające z reformy planistycznej. Pamiętajcie, że sama niska cena działki rolnej to za mało – zanim podpiszecie umowę, <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">sprawdźcie wszystkie parametry działki</a>. Możecie też skonsultować się z architektem adaptującym lub geodetą, którzy pomogą ocenić realność Waszych planów. Budowa domu to zbyt poważne przedsięwzięcie, żeby ryzykować na działce, której nie da się przekształcić.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

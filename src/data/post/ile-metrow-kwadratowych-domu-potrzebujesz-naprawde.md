@@ -98,5 +98,3 @@ metadata:
 <p style="text-align: justify;">Swoich lat młodości ani młodości swoich dzieci nigdy nie odzyskacie, więc nie zmarnujcie ich na pogoń za większym domem, niż ma sąsiad. Lepszy, przestronniejszy zawsze możecie wybudować kilka lat później. Sam zrobiłem dokładnie tak samo. Nie bądźcie jak Rysiek. Bądźcie świadomymi inwestorami i dokładnie policzcie, na co Was stać. A jeśli okaże się, że jesteście budżetowo na styk, to zastanówcie się raz jeszcze, czy może jednak nie wystarczyłby Wam mniejszy dom – choćby na pierwsze kilka lat. Kiedy już ustaliicie metraż, możecie przejść do wyboru <a href="https://pozytywniezbudowani.pl/blog/projekt-gotowy-czy-indywidualny-co-wybrac/">projektu gotowego lub indywidualnego</a>. Nie zakładajcie sobie pętli na szyję.</p>
 
 <p style="text-align: justify;">Więcej o planowaniu budowy domu i świadomym podejmowaniu decyzji znajdziecie w mojej książce „Od marzenia do wprowadzenia", gdzie szczegółowo omawiam każdy etap tego procesu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

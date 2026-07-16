@@ -100,5 +100,3 @@ metadata:
 <p style="text-align: justify;">Procedura uzyskania warunków zabudowy nie jest skomplikowana, ale wymaga przygotowania i cierpliwości. Najważniejsze elementy to: sprawdzenie, czy w ogóle potrzebujecie decyzji WZ, zdobycie mapy zasadniczej, wypełnienie wniosku z opisem planowanej inwestycji i złożenie dokumentów w urzędzie. Jeśli Wasza działka spełnia wszystkie warunki – w tym zasadę dobrego sąsiedztwa – urząd nie może odmówić wydania decyzji.</p>
 
 <p style="text-align: justify;">Pamiętajcie o jednym: czas działa na Waszą niekorzyść. Każdy tydzień zwłoki to tydzień bliżej wejścia w życie planów ogólnych, które mogą całkowicie zmienić zasady gry. Jeśli macie działkę i marzenia o własnym domu, to jest ten moment, by zacząć działać. Nie czekajcie na ostatnią chwilę – złóżcie wniosek teraz, dopóki macie jeszcze taką możliwość.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

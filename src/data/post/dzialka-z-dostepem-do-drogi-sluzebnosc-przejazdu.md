@@ -94,5 +94,3 @@ metadata:
 <p style="text-align: justify;">Zanim więc zwiążecie się umową, dokładnie zbadajcie <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">sytuację prawną działki</a> pod kątem dostępu do drogi. Sprawdźcie księgi wieczyste, poproście o dokumenty, skonsultujcie się ze specjalistami. Jeśli działka wymaga ustanowienia służebności, policzcie wszystkie koszty i czas, jaki to może zająć. Czasem lepsza okaże się droższa działka z bezpośrednim dostępem do drogi niż tańsza, która wymaga wielomiesięcznych starań o uregulowanie dojazdu.</p>
 
 <p style="text-align: justify;">A jeśli już kupiliście działkę i okazuje się, że macie problem z dojazdem – nie panikujcie. Służebność drogi koniecznej to prawo, które Wam przysługuje. Możecie ją uzyskać polubownie lub sądownie. To wymaga czasu i pieniędzy, ale jest możliwe. Ważne, żebyście wiedzieli, na czym stoicie, i podejmowali świadome decyzje.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

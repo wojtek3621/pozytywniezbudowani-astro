@@ -91,5 +91,3 @@ metadata:
 <p style="text-align: justify;">Nie traktujcie tego tematu po macoszemu. Sprawdźcie MPZP przed zakupem działki, upewnijcie się, że wybrany projekt spełnia lokalne wymagania, a jeśli nie – dowiedzcie się, czy możliwa jest adaptacja. I pamiętajcie, że zmiana kąta nachylenia to nie poprawka kosmetyczna – to decyzja, która wpływa na konstrukcję, koszty i ostateczny wygląd Waszego domu. Lepiej poświęcić na to trochę czasu teraz niż borykać się z problemami przez całą budowę.</p>
 
 <p style="text-align: justify;">Więcej o wyborze projektu i adaptacji do konkretnej działki znajdziecie w mojej książce „Od marzenia do wprowadzenia". To kompendium wiedzy, które przeprowadzi Was przez cały proces budowy – od pierwszych marzeń po odbiór kluczy.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

@@ -98,5 +98,3 @@ metadata:
 <p style="text-align: justify;">Ostatecznie decyzja należy do Was. Antresola nie jest ani dobra, ani zła – jest rozwiązaniem, które pasuje do jednego stylu życia, a do innego nie pasuje. Ważne, żebyście przed podjęciem decyzji wiedzieli, w której grupie jesteście Wy.</p>
 
 <p style="text-align: justify;">Jeśli chcecie zgłębić więcej szczegółów dotyczących <a href="https://pozytywniezbudowani.pl/blog/projekt-gotowy-czy-indywidualny-co-wybrac/">wyboru projektu</a> – w mojej książce „Od marzenia do wprowadzenia" znajdziecie pełne omówienie wszystkich etapów budowy, w tym kwestii, o których mówi się zbyt rzadko.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

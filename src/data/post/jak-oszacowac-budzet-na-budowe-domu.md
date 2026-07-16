@@ -78,5 +78,3 @@ metadata:
 <p style="text-align: justify;">Oszacowanie budżetu na budowę domu to proces, nie jednorazowe działanie. Zaczyna się od wstępnych przymiarek opartych na średnich stawkach rynkowych, przechodzi przez szczegółowy kosztorys i zbieranie wycen od wykonawców, a kończy się na regularnym monitorowaniu wydatków w trakcie całej budowy. Trzy elementy są kluczowe: rzetelny kosztorys uwzględniający wszystkie pozycje, rezerwa finansowa na poziomie minimum 10–15 procent oraz systematyczna kontrola wydatków. Jeśli zadbanie o te trzy filary, znacząco zwiększacie szansę na to, że Wasza budowa zakończy się w założonym budżecie – bez nieprzyjemnych niespodzianek i bez konieczności rezygnowania z ważnych elementów.</p>
 
 <p style="text-align: justify;">Więcej o przygotowaniu finansowym do budowy znajdziecie w artykule <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">Jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

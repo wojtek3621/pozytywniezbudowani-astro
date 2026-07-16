@@ -110,5 +110,3 @@ metadata:
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Czytanie projektu domu nie wymaga wykształcenia architektonicznego, ale wymaga cierpliwości i systematycznego podejścia. Zacznijcie od zrozumienia struktury dokumentacji – projekt zagospodarowania terenu, projekt architektoniczno-budowlany, projekty branżowe. Nauczcie się rozróżniać rzuty od przekrojów i wiedzcie, jakich informacji szukać na każdym z nich. Sprawdzajcie wymiary pomieszczeń, weryfikujcie zgodność z planem miejscowym i analizujcie funkcjonalność układu. A kiedy pojawią się wątpliwości, nie bójcie się pytać specjalistów. Lepiej zainwestować czas w zrozumienie projektu przed budową niż odkrywać problemy, gdy beton już zastygnie w szalunkach.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

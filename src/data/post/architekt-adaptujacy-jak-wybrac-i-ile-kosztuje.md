@@ -105,5 +105,3 @@ metadata:
 <p style="text-align: justify;">Realistycznie patrzcie na koszty – podstawowa adaptacja bez zmian to wydatek porównywalny z zakupem kompletu opon, standardowa ze zmianami kosztuje mniej więcej tyle co dobra pralka lub zmywarka, a rozbudowana może dorównać kosztowi wykończenia łazienki w ekonomicznym standardzie. Do tego doliczycie mapę geodezyjną i badania geotechniczne, co razem daje budżet na cały proces projektowy stanowiący ułamek całkowitego kosztu budowy domu. To niewiele w porównaniu z całą inwestycją, a dobrze wykonana adaptacja może Wam zaoszczędzić znacznie więcej na etapie samej budowy, bo wyłapie potencjalne problemy zanim staną się kosztowne do naprawienia.</p>
 
 <p style="text-align: justify;">Jeśli chcecie mieć pełną wiedzę o tym, jak przejść przez cały proces budowy domu – od marzenia do wprowadzenia – zapraszam do mojej książki, gdzie opisuję szczegółowo każdy etap tej drogi.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

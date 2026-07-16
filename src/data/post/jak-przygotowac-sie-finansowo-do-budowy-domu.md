@@ -156,5 +156,3 @@ metadata:
 <p style="text-align: justify;">Przygotowanie finansowe do budowy domu zaczyna się latami przed pierwszą wizytą w banku – od budowania historii kredytowej, od monitorowania scoringu BIK, od świadomego podejścia do każdego zobowiązania finansowego. Potem przechodzi przez wybór doradcy kredytowego, tworzenie szczegółowego budżetu, zbieranie ofert i negocjowanie warunków. </p>
 
 <p style="text-align: justify;">Jeśli mielibyście zapamiętać z tego artykułu jedną rzecz, niech będzie to ta: budżet budowy musi zawierać rezerwę na nieprzewidziane wydatki, a Wy musicie mieć margines finansowy pozwalający spać spokojnie nawet wtedy, gdy coś pójdzie nie tak. Bo coś zawsze idzie nie tak. Pytanie tylko, czy będziecie na to przygotowani.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

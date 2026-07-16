@@ -123,5 +123,3 @@ metadata:
 <p style="text-align: justify;">Klucz do sukcesu leży w dwóch rzeczach. Po pierwsze – w dobrym wyborze projektu gotowego, który już na starcie odpowiada większości Waszych wymagań. Im mniej zmian, tym mniejsze koszty i mniejsze ryzyko błędów. Po drugie – w wyborze kompetentnego architekta adaptującego, który poprowadzi Was przez cały proces sprawnie i bezpiecznie.</p>
 
 <p style="text-align: justify;">Jeśli planowanych zmian jest dużo, a ich łączny koszt zbliża się do ceny projektu indywidualnego, poważnie rozważcie tę alternatywę. Czasem pozorna oszczędność na projekcie gotowym okazuje się pozorna, gdy doliczycie wszystkie modyfikacje i związane z nimi komplikacje. Więcej na temat <a href="https://pozytywniezbudowani.pl/blog/projekt-gotowy-czy-indywidualny-co-wybrac/">wyboru między projektem gotowym a indywidualnym</a> znajdziecie na tym blogu oraz w mojej książce „Od marzenia do wprowadzenia".</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

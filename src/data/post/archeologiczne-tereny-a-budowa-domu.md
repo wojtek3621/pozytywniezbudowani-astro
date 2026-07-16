@@ -95,5 +95,3 @@ metadata:
 <p style="text-align: justify;">Stanowisko archeologiczne na działce budowlanej brzmi groźnie, ale w rzeczywistości jest to po prostu kolejny element procesu inwestycyjnego, który wymaga świadomego podejścia. W zdecydowanej większości przypadków sprawa kończy się na kilkudniowym nadzorze archeologicznym i koszcie nieprzekraczającym paru tysięcy złotych. Ważne jednak, by wiedzieć o tej kwestii zawczasu – najlepiej jeszcze przed zakupem działki – i nie bagatelizować wymogów konserwatorskich.</p>
 
 <p style="text-align: justify;">Polska ma bogatą historię, a pod naszymi stopami kryją się świadectwa tysięcy lat ludzkiej obecności. Ochrona tego dziedzictwa to nie wymysł biurokratów, ale realna troska o to, byśmy nie zatracili śladów przeszłości w pędzie za nowoczesnością. Jako inwestorzy nie mamy wpływu na przepisy, ale możemy się do nich przygotować – i sprawić, by Wasza budowa przebiegła sprawnie, nawet jeśli działka ma swoją podziemną historię.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

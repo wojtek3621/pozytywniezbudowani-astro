@@ -95,5 +95,3 @@ metadata:
 <p style="text-align: justify;">Linia energetyczna przez działkę to problem, który może kosztować Was dziesiątki tysięcy złotych, miesiące formalności i mnóstwo nerwów – albo może okazać się rozwiązywalny znacznie łatwiej, niż myślicie. Wszystko zależy od stanu prawnego, rodzaju linii i Waszej determinacji.</p>
 
 <p style="text-align: justify;">Jeśli dopiero szukacie działki – traktujcie obecność linii energetycznej jako poważny sygnał ostrzegawczy i weryfikujcie wszystko samodzielnie, zanim podpiszecie cokolwiek. Wszystkie te kwestie są częścią szerszego procesu <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">wyboru działki pod budowę domu</a>. Jeśli już jesteście właścicielami – sprawdźcie, czy macie podstawy do roszczeń, i rozważcie konsultację z prawnikiem. Po wyroku Trybunału Konstytucyjnego z grudnia 2025 roku drzwi do roszczeń, które przez lata były zamknięte, wreszcie się otworzyły. Być może to właśnie Wasza szansa, żeby odzyskać kontrolę nad własną nieruchomością.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

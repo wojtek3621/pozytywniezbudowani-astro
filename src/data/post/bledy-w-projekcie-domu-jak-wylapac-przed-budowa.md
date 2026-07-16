@@ -106,5 +106,3 @@ metadata:
 <p style="text-align: justify;">Sprawdźcie zgodność z MPZP i warunkami zabudowy. Zweryfikujcie poziom zero budynku. Upewnijcie się, że konstrukcja dachu odpowiada planowanemu pokryciu. Przeanalizujcie układ funkcjonalny i wymiary pomieszczeń. Przejdźcie przez projekt razem z architektem, kierownikiem i wykonawcą. To inwestycja kilku godzin, która może zaoszczędzić Wam wiele tygodni stresu i dziesiątki tysięcy złotych.</p>
 
 <p style="text-align: justify;">A jeśli szukacie pełnego przewodnika po całym procesie budowy domu, od marzenia do wprowadzenia, zapraszam do sięgnięcia po moją książkę. Znajdziecie w niej informacje o każdym etapie budowy opisanym z perspektywy praktyka, który od lat stawia domy jednorodzinne.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

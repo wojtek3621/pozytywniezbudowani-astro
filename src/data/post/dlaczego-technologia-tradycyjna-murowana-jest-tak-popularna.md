@@ -81,5 +81,3 @@ metadata:
 <p style="text-align: justify;">Chciałbym, żebyście z tego artykułu zapamiętali jedną rzecz: każda z wymienionych technologii jest jak najbardziej w porządku, o ile wykonano ją dobrze. Nie ma tu złego wyboru – możecie mieć źle zrobiony dom szkieletowy oraz źle zrobiony dom murowany. Widziałem i jedno, i drugie, nie wiem, co gorsze. Źle to źle – i już.</p>
 
 <p style="text-align: justify;">Popularność domów murowanych w Polsce to nie efekt niewiedzy czy oporu przed nowościami. To rezultat tysiącletniego doświadczenia, dostępności wykonawców, trwałości konstrukcji i głęboko zakorzenionego przekonania, że dom buduje się raz na całe życie – dla siebie i dla następnych pokoleń. Jeśli właśnie planujecie budowę i zastanawiacie się, którą technologię wybrać, wysyłcie zapytania zarówno do firm, które wykonują domy murowane, jak i do firm, które wykonują domy prefabrykowane. Pozwoli Wam to lepiej rozeznać się w wadach i zaletach poszczególnych rozwiązań oraz zobaczyć, jak kształtują się ceny – już na podstawie Waszego konkretnego projektu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

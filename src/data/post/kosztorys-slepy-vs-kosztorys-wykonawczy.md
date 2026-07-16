@@ -120,5 +120,3 @@ metadata:
 <p style="text-align: justify;">W praktyce inwestorskiej najpierw przygotowujecie lub zamawiacie przedmiar robót i rozsyłacie go do firm. Potem analizujecie wypełnione kosztorysy ofertowe, wybieracie wykonawcę i wspólnie dopracowujecie szczegóły, które staną się załącznikiem do umowy.</p>
 
 <p style="text-align: justify;">Czy to więcej pracy niż wysłanie projektu z pytaniem „ile to będzie kosztować"? Tak. Czy ta dodatkowa praca się opłaca? Zdecydowanie. Bo pozwala Wam porównywać jabłka z jabłkami zamiast zgadywać, dlaczego jedna oferta jest o dwieście tysięcy tańsza od drugiej. A przy budżetach liczonych w setkach tysięcy złotych – to nie jest akademicka dyskusja. To realne pieniądze, które możecie zaoszczędzić lub stracić. Więcej o planowaniu budżetu znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

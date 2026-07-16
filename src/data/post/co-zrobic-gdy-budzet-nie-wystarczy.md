@@ -87,5 +87,3 @@ metadata:
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Gdy budżet nie wystarcza na wymarzony dom, macie kilka ścieżek do wyboru. Możecie zredukować zakres prac w ramach tego samego projektu, wybrać tańszy projekt, albo – i to rozwiązanie uważam za najbardziej niedoceniane – wybudować mniejszy dom z założeniem, że za kilka lat go sprzedacie i wybudujecie wymarzony. Niezależnie od tego, którą drogę wybierzecie, pamiętajcie o dwudziestoprocentowym buforze bezpieczeństwa i o tym, że dom ma Wam dawać radość, a nie odbierać spokojny sen. Swoich lat młodości ani młodości swoich dzieci nigdy nie odzyskacie, więc nie zmarnujcie ich na pogoń za większym domem, niż ma sąsiad. Lepszy, przestronniejszy zawsze możecie wybudować kilka lat później. Kompleksowe spojrzenie na wszystkie aspekty finansowe znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

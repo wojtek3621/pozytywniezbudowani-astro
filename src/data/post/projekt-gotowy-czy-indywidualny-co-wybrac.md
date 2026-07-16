@@ -140,5 +140,3 @@ metadata:
 <p style="text-align: justify;">Niezależnie od tego, którą drogę wybierzecie, pamiętajcie o jednym. Projekt to dopiero początek. Przed Wami jeszcze wybór wykonawcy, tysiące decyzji o materiałach i wykończeniu, miesiące prac budowlanych. Dom, w którym będziecie mieszkać, powstaje nie na papierze, ale na placu budowy. I to tam rozgrywa się prawdziwa gra.</p>
 
 <p style="text-align: justify;">Jeśli chcecie poznać cały proces budowy domu od początku do końca – od marzenia do wprowadzenia – zapraszam do mojej książki. Znajdziecie w niej wszystko, czego potrzebujecie, żeby przejść przez budowę świadomie i bez zbędnego stresu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

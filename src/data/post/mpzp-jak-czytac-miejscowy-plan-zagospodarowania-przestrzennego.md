@@ -100,5 +100,3 @@ metadata:
 <p style="text-align: justify;">Pamiętajcie, że MPZP to akt prawa miejscowego. Jego zapisy są wiążące i nie podlegają negocjacjom z urzędnikiem w okienku. Jeśli plan mówi, że dach ma być dwuspadowy – to ma być dwuspadowy. Jedyną drogą jest wnioskowanie o zmianę planu lub o odstępstwo, ale obie te ścieżki są czasochłonne i niepewne. Dlatego znacznie rozsądniej jest sprawdzić zgodność planu z Waszymi zamierzeniami przed <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">zakupem działki</a>, a nie po nim.</p>
 
 <p style="text-align: justify;">I jeszcze jedno: jeśli po lekturze MPZP macie wątpliwości, nie bójcie się pytać. Skonsultujcie się z architektem adaptującym, geodetą lub po prostu z pracownikiem wydziału planowania w urzędzie gminy. Lepiej zadać dziesięć pytań za dużo niż jedno za mało i odkryć problem, gdy zadatek już przepadł.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

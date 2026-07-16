@@ -124,5 +124,3 @@ metadata:
 <p style="text-align: justify;">Zanim podpiszecie umowę na <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">zakup terenu</a>, sprawdźcie położenie działki względem otoczenia i zbiorników wodnych. Porozmawiajcie z sąsiadami o ich doświadczeniach z wodą. Zlećcie badania geotechniczne – to inwestycja, która może zaoszczędzić Wam dziesiątek tysięcy złotych. A gdy już będziecie budować, zaplanujcie drenaż od początku, jeszcze na etapie projektu. Bo dorabianie go później to zawsze więcej kłopotów i więcej kosztów.</p>
 
 <p style="text-align: justify;">Woda to żywioł, z którym nie warto walczyć – trzeba nauczyć się z nim współpracować. Dobrze zaprojektowany i wykonany drenaż nie eliminuje wody z Waszej działki, ale kieruje ją tam, gdzie nie będzie przeszkadzać. I o to właśnie chodzi.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

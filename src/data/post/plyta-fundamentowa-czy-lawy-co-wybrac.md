@@ -168,5 +168,3 @@ metadata:
 <p style="text-align: justify;">Płyta fundamentowa wygrywa szybkością, prostotą procesu, odpornością na nierówne warunki gruntowe i eliminacją problemu zagęszczania zasypki. Ławy wciąż mają sens na dobrym gruncie, przy domu z piwnicą i tam, gdzie tradycyjna technologia jest dobrze opanowana przez lokalne ekipy.</p>
 
 <p style="text-align: justify;">Jedno jest pewne: niezależnie od wyboru, fundament musi być zaprojektowany na podstawie badań geotechnicznych, wykonany zgodnie z projektem i odebrany etapowo przez kierownika budowy. To nie jest etap, na którym warto oszczędzać – ani pieniędzy, ani czasu, ani uwagi. Fundament to inwestycja na 100 lat. Dajcie mu tyle szacunku, na ile zasługuje.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

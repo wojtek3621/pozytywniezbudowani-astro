@@ -110,5 +110,3 @@ metadata:
 <p style="text-align: justify;">Pamiętajcie: to, że bank pożyczy Wam pieniądze na duży dom, nie znaczy, że powinniście je wziąć. To, że teoretycznie Was na coś stać, nie znaczy, że musicie to kupić. Lepszy, przestronniejszy dom zawsze możecie wybudować kilka lat później – gdy będziecie na to naprawdę gotowi, nie tylko finansowo, ale i życiowo.</p>
 
 <p style="text-align: justify;">A jeśli chcecie dowiedzieć się więcej o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy</a> – zapraszam do dedykowanego artykułu, gdzie omawiam konkretne kroki i strategie.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

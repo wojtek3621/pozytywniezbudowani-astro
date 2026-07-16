@@ -87,5 +87,3 @@ metadata:
 <p style="text-align: justify;">Najrozsądniejszym podejściem jest analiza konkretnej sytuacji - kąta nachylenia dachu, wysokości ścianek kolankowych, budżetu i oczekiwań estetycznych. Czasem najlepszym rozwiązaniem jest połączenie obu metod - jedna lub dwie duże lukarny w głównych miejscach, uzupełnione oknami dachowymi tam, gdzie potrzeba dodatkowego doświetlenia. Zanim podejmiecie ostateczną decyzję, warto skonsultować się z architektem, który pomoże wybrać najlepsze rozwiązanie dla Waszego konkretnego projektu.</p>
 
 <p style="text-align: justify;">Jeśli interesuje Was temat projektowania domu i chcecie poznać więcej praktycznych wskazówek, zapraszam do mojej książki „Od marzenia do wprowadzenia", gdzie całą wiedzę o budowie domu jednorodzinnego zebrałem w jednym miejscu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

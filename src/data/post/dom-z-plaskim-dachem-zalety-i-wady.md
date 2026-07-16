@@ -103,5 +103,3 @@ metadata:
 <p style="text-align: justify;">Budowa to za duże przedsięwzięcie, żeby decydować pod wpływem chwilowej mody lub opinii sąsiada. Dach, czy to płaski, czy spadzisty, będzie z Wami przez następne dekady. Warto, żebyście byli z niego zadowoleni.</p>
 
 <p style="text-align: justify;">Jeśli chcecie dowiedzieć się więcej o wszystkich etapach budowy domu – od wyboru działki przez fundamenty, ściany, dach aż po wykończenie – zapraszam do mojej książki „Od marzenia do wprowadzenia". Znajdziecie tam całą wiedzę zebrana w jednym miejscu, podaną w sposób przystępny i poparty praktyką z budów.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

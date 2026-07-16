@@ -92,5 +92,3 @@ metadata:
 <p style="text-align: justify;">Poświęćcie czas na przeanalizowanie tego dokumentu, zanim architekt złoży go w urzędzie. Spotkajcie się z geodetą podczas wykonywania mapy do celów projektowych. Zadawajcie pytania architektowi adaptującemu. Wydrukujcie rysunek i przejdźcie przez niego z miarką w ręku. Bo zmiana kilku kresek na papierze jest tania i łatwa. Zmiana rzeczywistości po wybudowaniu domu to zupełnie inna historia.</p>
 
 <p style="text-align: justify;">Jeśli chcecie mieć pod ręką kompletny przewodnik po całym procesie budowy domu, od pierwszych marzeń przez formalności aż po wprowadzenie, zachęcam Was do sięgnięcia po moją książkę „Od marzenia do wprowadzenia". Znajdziecie w niej szczegółowe omówienie nie tylko projektu zagospodarowania terenu, ale wszystkich etapów budowy, które Was czekają.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

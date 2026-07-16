@@ -83,5 +83,3 @@ metadata:
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Negocjowanie ceny działki budowlanej to umiejętność, którą warto posiąść – nie dlatego, że pozwoli zaoszczędzić fortunę, ale dlatego, że każdy zaoszczędzony tysiąc to tysiąc, który możecie wydać na coś innego podczas budowy. A podczas wykończeniówki naprawdę docenicie te kilka tysięcy więcej w kieszeni. Klucz do skutecznych negocjacji to przygotowanie: znajomość rynku, analiza działki, rzeczowe argumenty. Nie chodzi o sztuczki i manipulację – chodzi o prowadzenie rozmowy z pozycji kogoś, kto wie, co kupuje i ile to powinno kosztować. Jeśli podejdziecie do <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">zakupu działki</a> jako świadomi kupujący, a nie jako desperaci szukający czegokolwiek – Wasza pozycja negocjacyjna będzie znacznie silniejsza.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

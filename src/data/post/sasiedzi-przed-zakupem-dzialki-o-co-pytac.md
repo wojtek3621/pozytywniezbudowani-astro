@@ -89,5 +89,3 @@ metadata:
 <p style="text-align: justify;">Rozmowa z sąsiadami przed <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">zakupem działki</a> to nie formalność ani strata czasu. To jedno z najważniejszych źródeł informacji, które możecie mieć – i do tego całkowicie bezpłatne. Sąsiedzi wiedzą o gruncie, wodach gruntowych, hałasie, infrastrukturze i planach w okolicy rzeczy, których nie znajdziecie w żadnych dokumentach. Mogą Was ostrzec przed problemami, których sami byście nie przewidzieli. Mogą też potwierdzić, że trafiliście na naprawdę dobre miejsce do życia.</p>
 
 <p style="text-align: justify;">Nie chodzi o to, żeby traktować każdą opinię sąsiada jako wyroczni. Weryfikujcie informacje, sprawdzajcie fakty, konsultujcie wątpliwości ze swoim zespołem – architektem, geodetą, geologiem. Ale traktujcie rozmowy z sąsiadami jako ważny punkt na liście rzeczy do sprawdzenia przed zakupem. Bo czasem jedna rozmowa może uchronić Was przed decyzją, której będziecie żałować przez następne trzydzieści lat.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

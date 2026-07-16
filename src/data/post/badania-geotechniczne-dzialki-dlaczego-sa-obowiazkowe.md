@@ -102,5 +102,3 @@ metadata:
 <p style="text-align: justify;">Jeśli macie możliwość – zróbcie badania jeszcze przed zakupem działki. Wyniki dadzą Wam spokój albo uchronią przed kosztownym błędem. Pamiętajcie też, że informacje z badań przydadzą się nie tylko do fundamentów. Przydomowa oczyszczalnia ścieków, pompa ciepła z wymiennikiem gruntowym, studnia głębinowa – wszystko to wymaga wiedzy o tym, co jest pod ziemią. Jeden wydatek, wiele korzyści.</p>
 
 <p style="text-align: justify;">Budowa domu to zbyt poważne przedsięwzięcie, żeby podejmować je po omacku. Geolog z wiertnicą to Wasz sprzymierzeniec – pozwólcie mu zajrzeć pod powierzchnię, zanim zaczniecie stawiać na niej fundamenty.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

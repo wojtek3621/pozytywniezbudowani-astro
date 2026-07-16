@@ -110,5 +110,3 @@ metadata:
 <p style="text-align: justify;">Wszystko, co opisałem w tym artykule, to metody wstępnej oceny – nie zastępują one profesjonalnych badań geotechnicznych, które przed budową domu są niezbędne. Ale pozwalają Wam odrzucić działki z oczywistymi problemami, zadać właściwe pytania przed <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">zakupem</a> i nie dać się zaskoczyć po podpisaniu aktu notarialnego.</p>
 
 <p style="text-align: justify;">Pamiętajcie, że geolog – to specjalista, bez którego nie powinniście rozpoczynać budowy. Ale zanim go wezwiecie, możecie sami zebrać wiele cennych informacji. Obserwujcie roślinność, rozmawiajcie z sąsiadami, sprawdzajcie teren własnymi oczami, szukajcie sygnałów ostrzegawczych. A gdy już znajdziecie działkę, która przeszła tę wstępną weryfikację – wtedy zamówcie <a href="https://pozytywniezbudowani.pl/blog/badania-geotechniczne-dzialki-dlaczego-sa-obowiazkowe/">profesjonalne badania geotechniczne</a>, żeby mieć pewność.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

@@ -86,5 +86,3 @@ metadata:
 <p style="text-align: justify;">Dom kojarzy się z wolnością i bezpieczeństwem. Zbyt często ulegamy presji otoczenia i emocjom stojącym za naszymi marzeniami, co z kolei powoduje, że decydujemy się na rozwiązania, które nie są nam potrzebne. Za to, by wywołać wrażenie wyższego statusu społecznego, prestiżu, lub za trochę większą przestrzeń płacimy ogromną cenę.</p>
 
 <p style="text-align: justify;">Bądźcie świadomymi inwestorami i dokładnie policzcie, na co Was stać. A jeśli okaże się, że jesteście budżetowo na styk, to zastanówcie się raz jeszcze, czy może jednak nie wystarczyłby Wam mniejszy dom – choćby na pierwsze kilka lat. Marzenie o własnym domu może stać się pozytywnie zrealizowanym marzeniem tylko wtedy, kiedy koszty z nim związane, zarówno finansowe, jak i emocjonalne, nie są zbyt wysokie. Jeśli chcecie poznać wszystkie aspekty przygotowania budżetu i strategii finansowej, zajrzyjcie do artykułu o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

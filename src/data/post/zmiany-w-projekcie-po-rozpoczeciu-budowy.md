@@ -99,5 +99,3 @@ metadata:
 <p style="text-align: justify;">Nigdy nie wprowadzajcie zmian na własną rękę, bez konsultacji z projektantem. To on ponosi odpowiedzialność za kwalifikację odstępstw, ale konsekwencje błędnej oceny spadną przede wszystkim na Was jako inwestorów. Lepiej poświęcić kilka dni na formalności niż ryzykować wielomiesięczną procedurę legalizacyjną i kary finansowe.</p>
 
 <p style="text-align: justify;">Budowa domu to proces, który wymaga elastyczności, ale elastyczność musi mieścić się w ramach prawa. Jeśli chcecie dowiedzieć się więcej o tym, jak przygotować się do budowy tak, by zminimalizować potrzebę wprowadzania zmian w trakcie jej trwania, zachęcam do sięgnięcia po moją książkę „Od marzenia do wprowadzenia". Znajdziecie w niej całą wiedzę potrzebną do świadomego przejścia przez cały proces budowlany.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

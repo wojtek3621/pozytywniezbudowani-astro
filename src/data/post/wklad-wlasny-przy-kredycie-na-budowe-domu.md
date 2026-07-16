@@ -93,5 +93,3 @@ metadata:
 <p style="text-align: justify;">Zacznijcie przygotowania wcześnie. Sprawdzajcie swój scoring w BIK, budujcie historię kredytową, zamykajcie niepotrzebne zobowiązania. A kiedy przyjdzie czas na składanie wniosku – bądźcie przygotowani, z dobrym doradcą kredytowym u boku i pełną dokumentacją w ręku. To daje Wam siłę negocjacyjną i zwiększa szanse na uzyskanie kredytu na dobrych warunkach.</p>
 
 <p style="text-align: justify;">Budowa własnego domu to wielkie przedsięwzięcie. Wkład własny to tylko jeden z wielu elementów tej układanki – ale element podstawowy. Warto poświęcić mu odpowiednio dużo uwagi, żeby na starcie stanąć na solidnym gruncie. W końcu – dosłownie – od tego wszystko się zaczyna. Kompleksowe informacje o przygotowaniu finansowym znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

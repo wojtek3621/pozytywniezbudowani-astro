@@ -175,5 +175,3 @@ metadata:
 <p style="text-align: justify;">Budowa domu to idealny moment na przemyślenie automatyki. Później też da się wiele zrobić, ale będzie to droższe i bardziej skomplikowane. Skorzystajcie z tego, że macie ściany otwarte i możecie poprowadzić dodatkowe przewody. Skorzystajcie z tego, że instalator elektryczny jest na budowie i może uwzględnić Wasze potrzeby.</p>
 
 <p style="text-align: justify;">A przede wszystkim – nie dajcie się ponieść emocjom ani przekonać do rzeczy, których nie potrzebujecie. Smart home ma służyć Wam, a nie odwrotnie. Jeśli chcecie zgłębić temat i poznać pełen obraz tego, co musicie wiedzieć przed budową domu, zachęcam do sięgnięcia po moją książkę „Od marzenia do wprowadzenia", w której krok po kroku prowadzę przez cały proces budowy – od pierwszych przemyśleń po odbiór kluczy.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

@@ -100,5 +100,3 @@ metadata:
 <h2 style="text-align: justify;">Na koniec</h2>
 
 <p style="text-align: justify;">Mapa zasadnicza to dokument, który może wyglądać skomplikowanie, ale po poznaniu podstawowych zasad staje się czytelny i bardzo przydatny. Kolory wskazują rodzaje sieci, litery precyzują ich typ i parametry, a symbole pokazują urządzenia techniczne. Zanim podpiszecie umowę przedwstępną na działkę, poświęćcie czas na przeanalizowanie mapy zasadniczej – samodzielnie na geoportalu, a najlepiej też z pomocą geodety. Te kilka godzin i kilkaset złotych może Was uchronić przed <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">zakupem terenu</a> z ukrytymi problemami, których usunięcie kosztowałoby znacznie więcej. A gdy już będziecie wiedzieli, że działka jest czysta i media są w zasięgu, spokojnie przejdziecie do kolejnych kroków na drodze do własnego domu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

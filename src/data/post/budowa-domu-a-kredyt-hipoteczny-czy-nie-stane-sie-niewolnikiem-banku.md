@@ -86,5 +86,3 @@ metadata:
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Kredyt hipoteczny na budowę domu nie musi oznaczać zniewolenia. To narzędzie, które dobrze użyte daje Wam możliwość realizacji marzenia o własnym domu bez rezygnacji z życia. Kluczem jest świadomość – wiedzieć, na co Was naprawdę stać, policzyć z zapasem, wybrać strategię dającą elastyczność i nie budować „pod sąsiadów". Wasz dom ma być dla Was, nie dla wrażenia, które i tak zniknie za tydzień. A rata? Rata niech będzie konsekwencją przemyślanej decyzji, nie pułapką, z której nie ma wyjścia. Jeśli chcecie poznać pełen obraz przygotowań finansowych, zajrzyjcie do artykułu o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>. Bądźcie świadomymi inwestorami – budowa domu to zbyt poważna sprawa, żeby podchodzić do niej na zasadzie „jakoś to będzie".</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

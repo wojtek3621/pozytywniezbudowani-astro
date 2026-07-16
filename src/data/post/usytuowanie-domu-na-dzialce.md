@@ -80,5 +80,3 @@ metadata:
 <p style="text-align: justify;">Usytuowanie domu na działce to decyzja, z którą będziecie żyć przez dziesiątki lat. Nie chodzi tu tylko o spełnienie wymogów prawnych – choć te też trzeba znać i respektować – ale przede wszystkim o stworzenie miejsca, które będzie funkcjonalne i przyjemne do mieszkania. Dobre usytuowanie to salon zalany popołudniowym słońcem, taras z widokiem na ogród a nie na płot sąsiada, podjazd, na którym mieszczą się dwa samochody, i fundament, pod który nie wlewa się woda przy każdej większej ulewie. Złe usytuowanie to codzienna frustracja, której można było uniknąć, gdyby na etapie projektowania poświęcić tej kwestii trochę więcej uwagi. Zachęcam Was, żebyście byli w tej grupie, która poświęca – bo naprawdę warto.</p>
 
 <p style="text-align: justify;">Więcej o planowaniu budowy i wszystkich etapach tego procesu znajdziecie w mojej książce „Od marzenia do wprowadzenia", gdzie krok po kroku przeprowadzam przez całą drogę do własnego domu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

@@ -57,5 +57,3 @@ metadata:
 <p>Projekt zagospodarowania terenu wykona dla Ciebie architekt adaptujący projekt do Twojej działki. Mapę do celów projektowych zamówisz u geodety, czas oczekiwana na nią to około 4 tygodnie.</p>
 
 <p>Jeśli wiesz już, w którym miejscu na działce będzie stał Twój dom, to aby nie tracić czasu, warto od razu zlecić wykonanie badań geotechnicznych – będą potrzebne architektowi przygotowującemu adaptację. Architekt wskaże Ci, w których miejscach należy wykonać odwierty, na jaką głębokość i jaką ich liczbę. Czas oczekiwania na wykonanie takich badań to najczęściej 2-3 tygodnie, dlatego warto je zlecić w tym samym czasie, w którym będziesz zlecać wykonanie mapy do celów projektowych.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

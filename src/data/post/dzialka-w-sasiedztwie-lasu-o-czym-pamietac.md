@@ -98,5 +98,3 @@ metadata:
 <p style="text-align: justify;">Sprawdźcie przepisy dotyczące odległości od lasu – czy Wasz wymarzony projekt zmieści się na działce z zachowaniem wymaganych 12 czy 16 metrów. Przeanalizujcie MPZP pod kątem dodatkowych ograniczeń. Zastanówcie się, czy jesteście gotowi na codzienne realia życia przy lesie – większą wilgotność, owady, ewentualne wizyty dzikich zwierząt. Oceńcie infrastrukturę i dojazd. I przede wszystkim – dowiedzcie się, co może się zmienić w przyszłości.</p>
 
 <p style="text-align: justify;">Jeśli po tym wszystkim nadal czujecie, że to miejsce jest dla Was – budujcie śmiało. Bo dom przy lesie, dobrze przemyślany i zaplanowany, to rzeczywiście wspaniałe miejsce do życia.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

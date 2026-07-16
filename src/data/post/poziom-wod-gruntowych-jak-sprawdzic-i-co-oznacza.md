@@ -94,5 +94,3 @@ metadata:
 <p style="text-align: justify;">Poziom wód gruntowych to jeden z tych tematów, które nie brzmiją ekscytująco, ale mają fundamentalne znaczenie dla powodzenia całej inwestycji. Woda pod ziemią może sprawić, że Wasz wymarzony dom stanie się źródłem problemów na lata – wilgoć, pleśń, pękające ściany, zniszczone fundamenty. Albo może nie stanowić żadnego problemu, jeśli odpowiednio wcześnie sprawdzicie warunki i dostosujecie do nich technologię budowy.</p>
 
 <p style="text-align: justify;">Zanim podpiszecie umowę na <a href="https://pozytywniezbudowani.pl/blog/jak-wybrac-dzialke-pod-budowe-domu-kompletny-poradnik/">zakup działki</a>, porozmawiajcie z sąsiadami, sprawdźcie mapy hydrogeologiczne online i – przede wszystkim – zamówcie profesjonalne badania geotechniczne. To kilkaset złotych, które mogą Wam zaoszczędzić dziesiątek tysięcy. I spokojny sen przez następne trzydzieści lat.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

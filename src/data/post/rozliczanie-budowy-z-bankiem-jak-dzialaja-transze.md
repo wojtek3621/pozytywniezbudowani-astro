@@ -68,5 +68,3 @@ metadata:
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Rozliczanie budowy z bankiem to proces, który wymaga od Was systematyczności i planowania z wyprzedzeniem. Nie jest skomplikowany, ale ma swoje zasady, których warto przestrzegać. Pamiętajcie o buforach czasowych w harmonogramie – zarówno dla siebie, jak i dla banku. Informujcie bank o opóźnieniach, zanim staną się problemem. Uwzględniajcie czas potrzebny na wizyty rzeczoznawcy i przetworzenie wniosków o kolejne transze. I przede wszystkim – rozmawiajcie z wykonawcami otwarcie o tym, jak wygląda Wasz przepływ środków. Wtedy cały proces przebiegnie sprawnie, a Wy będziecie mogli skupić się na tym, co najważniejsze – budowaniu swojego wymarzonego domu. Więcej o strategii finansowej znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

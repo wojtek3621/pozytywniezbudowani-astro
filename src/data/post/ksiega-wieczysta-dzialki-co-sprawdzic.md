@@ -124,5 +124,3 @@ metadata:
 <p style="text-align: justify;">Księga wieczysta to dokument, który może uchronić Was przed zakupem kota w worku. Cztery działy, z których każdy opowiada inną część historii nieruchomości – od podstawowych danych geodezyjnych, przez informacje o właścicielu, aż po obciążenia i hipoteki. Sprawdzenie jej jest bezpłatne, trwa kwadrans i może oszczędzić Wam lat problemów.</p>
 
 <p style="text-align: justify;">Zanim podpiszecie umowę przedwstępną, zanim wpłacicie zadatek, zanim zaczniecie planować rozkład pomieszczeń w przyszłym domu – usiądźcie przy komputerze i przeczytajcie każdy wpis w księdze wieczystej Waszej wymarzonej działki. Jeśli czegoś nie rozumiecie, pytajcie. Jeśli coś budzi Wasze wątpliwości, wyjaśniajcie. Bo łatwiej odpuścić jedną działkę i szukać dalej, niż przez lata mierzyć się z problemami, które były zapisane czarno na białym – tylko nikt nie raczył ich przeczytać.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

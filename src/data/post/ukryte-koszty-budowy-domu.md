@@ -138,5 +138,3 @@ metadata:
 <p style="text-align: justify;">Dlatego zapamiętajcie dwie rzeczy. Po pierwsze, doliczcie do budżetu minimum 20 procent rezerwy. Po drugie, planujcie z wyprzedzeniem – wiele kosztów można znacząco zmniejszyć, jeśli pomyślicie o nich odpowiednio wcześnie. Przelotka pod instalację ogrodową kosztuje 200 złotych na etapie fundamentów i 2000 złotych rok później.</p>
 
 <p style="text-align: justify;">Nie chcę Was straszyć. Chcę, żebyście weszli w budowę z otwartymi oczami. Bo świadomy inwestor to spokojny inwestor. A spokojny inwestor buduje mądrzej, taniej i bez niepotrzebnych nerwów. Więcej o kompleksowym podejściu do budżetu znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

@@ -121,5 +121,3 @@ metadata:
 <p style="text-align: justify;">Zanim podejmiecie decyzję, odwiedźcie kilka domów z poddaszem użytkowym. Najlepiej takich, które są już zamieszkane i umeblowane. Zobaczcie na własne oczy, jak wyglądają pokoje pod skosami w codziennym użytkowaniu. Porozmawiajcie z mieszkańcami o ich doświadczeniach. To da Wam znacznie lepszy obraz sytuacji niż najpiękniejsze wizualizacje w katalogach.</p>
 
 <p style="text-align: justify;">Budowa domu to decyzja na lata. Nie podejmujcie jej pod wpływem chwilowego zachwytu ani pod presją czasu. Przemyślcie wszystkie za i przeciw, a potem wybierzcie to, co naprawdę Wam odpowiada. Szczegółową wiedzę o każdym etapie budowy znajdziecie w mojej książce „Od marzenia do wprowadzenia", która przeprowadzi Was przez cały proces krok po kroku.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

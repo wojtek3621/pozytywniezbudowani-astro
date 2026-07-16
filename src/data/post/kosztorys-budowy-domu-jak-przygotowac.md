@@ -84,5 +84,3 @@ metadata:
 <p style="text-align: justify;">Ale ten wysiłek się opłaca. Bo dzięki niemu będziecie wiedzieli, na co Was stać naprawdę. Będziecie mogli zaplanować finansowanie, negocjować z bankiem, podejmować świadome decyzje na każdym etapie. I co najważniejsze – unikniecie sytuacji, w której w połowie budowy kończy się kredyt, a dom stoi nieukończony.</p>
 
 <p style="text-align: justify;">Stwórzcie arkusz. Zbierzcie wyceny. Porównajcie. Policzcie. A potem – z pełną świadomością kosztów – podejmijcie decyzję o rozpoczęciu budowy. To jest droga do tego, żeby cały proces przebiegł spokojnie i żebyście mogli spać spokojnie przez całą budowę. Jeśli chcecie poznać kompletny obraz przygotowań, zajrzyjcie do artykułu o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

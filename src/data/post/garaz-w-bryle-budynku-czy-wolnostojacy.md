@@ -128,5 +128,3 @@ metadata:
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Decyzja o typie garażu to nie jest kwestia estetyki ani nawet samych kosztów. To decyzja, która wpływa na <a href="https://pozytywniezbudowani.pl/blog/projekt-gotowy-czy-indywidualny-co-wybrac/">wybór projektu</a>, na minimalne wymiary działki, na codzienną wygodę użytkowania i na harmonogram całej budowy. Garaż w bryle budynku daje komfort bezpośredniego wejścia z domu, lepszą izolację termiczną i prostszą instalację mediów. Garaż wolnostojący daje elastyczność, możliwość budowy etapowej i niezależność funkcjonalną. Każde rozwiązanie ma swoje miejsce i swoje uzasadnienie. Ważne, żebyście wybrali świadomie, znając wszystkie konsekwencje tej decyzji. Jeśli chcecie zgłębić ten temat i dziesiątki innych kwestii związanych z budową domu, zapraszam do mojej książki „Od marzenia do wprowadzenia", gdzie krok po kroku przeprowadzam przez cały proces budowy.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

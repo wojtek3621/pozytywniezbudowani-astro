@@ -118,5 +118,3 @@ metadata:
 <p style="text-align: justify;"><a href="https://pozytywniezbudowani.pl/blog/projekt-gotowy-czy-indywidualny-co-wybrac/">Wybór projektu domu</a> dla rodziny z dziećmi to decyzja, która będzie wpływać na Wasze życie przez wiele lat. Warto poświęcić jej odpowiednio dużo czasu i uwagi. Myślcie perspektywicznie – dzieci rosną szybciej, niż Wam się wydaje. Rozważcie wszystkie za i przeciw domów parterowych i piętrowych. Zadbajcie o bezpieczeństwo – odpowiednie balustrady i bramki na schody. Przemyślcie liczbę pokoi i łazienek. I przede wszystkim – nie ufajcie ślepo pięknym wizualizacjom, tylko sprawdzajcie rzeczywiste wymiary.</p>
 
 <p style="text-align: justify;">Jeśli chcecie zgłębić temat budowy domu jednorodzinnego i poznać więcej praktycznych wskazówek z placu budowy, zachęcam do sięgnięcia po moją książkę „Od marzenia do wprowadzenia". Znajdziecie w niej całą wiedzę, która przeprowadzi Was przez cały proces budowy – od pierwszych marzeń po moment, gdy przekroczycie próg własnego domu.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>

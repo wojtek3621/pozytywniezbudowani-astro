@@ -96,5 +96,3 @@ metadata:
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Przekroczenie budżetu na budowę nie musi oznaczać katastrofy. Wymaga jednak szybkiej reakcji, trzeźwej oceny sytuacji i gotowości do trudnych wyborów. Przejrzyjcie swój kosztorys, porozmawiajcie z kierownikiem budowy, zastanówcie się, co można zrobić taniej albo przesunąć na później. Jeśli budujecie za kredyt, rozmawiajcie z bankiem proaktywnie, zanim pojawią się opóźnienia. Szukajcie ukrytych rezerw w różnicach VAT i negocjacjach z wykonawcami. A przede wszystkim nie oszczędzajcie na rzeczach, które mogą Was kosztować znacznie więcej w przyszłości. Budowa domu to maraton, nie sprint. Nawet jeśli na trasie pojawią się przeszkody, możecie dotrzeć do mety – z domem, w którym będziecie chcieli mieszkać, i bez finansowego noża na gardle. Kompleksowe podejście do planowania budżetu znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
-
-<div id="accel-snackbar" style="left: 50%; transform: translate(-50%, 0px); top: 50px;"> </div>
