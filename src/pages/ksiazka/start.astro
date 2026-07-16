@@ -1,16 +1,16 @@
 ---
-// Wariant landing dla płatnego ruchu (Meta Ads — Sprint 2).
+// Wariant landing dla płatnego ruchu (Meta Ads – Sprint 2).
 // Bliźniak /ksiazka BEZ globalnego headera/footera (Layout zamiast PageLayout)
-// i BEZ sticky anchor nav (showBookNav=false) — zero dróg ucieczki poza CTA.
+// i BEZ sticky anchor nav (showBookNav=false) – zero dróg ucieczki poza CTA.
 // noindex + poza sitemap (astro.config.ts filter). Nigdzie niepodlinkowany.
 // Build: aios-workspace/builds/2026-07-05-ksiazka-sprint1/
 import Layout from '~/layouts/Layout.astro';
 import KsiazkaContent from '~/components/ksiazka/KsiazkaContent.astro';
 
 const metadata = {
-  title: 'Od Marzenia Do Wprowadzenia — Kompletny przewodnik budowy domu | Wojciech Tracichleb',
+  title: 'Od Marzenia Do Wprowadzenia – Kompletny przewodnik budowy domu | Wojciech Tracichleb',
   description:
-    '608 stron, 86 rozdziałów, 13 lat doświadczenia generalnego wykonawcy. Kompletny przewodnik dla inwestora — od pierwszej myśli o budowie do wprowadzenia. 119 zł.',
+    '608 stron, 86 rozdziałów, 13 lat doświadczenia generalnego wykonawcy. Kompletny przewodnik dla inwestora – od pierwszej myśli o budowie do wprowadzenia. 119 zł.',
   robots: { index: false, follow: true },
 };
 ---
@@ -23,7 +23,7 @@ const metadata = {
   <!-- Minimalna stopka bez nawigacji (wymogi informacyjne, zero dróg ucieczki) -->
   <footer class="bg-slate-900 text-slate-500 text-xs text-center py-6 px-4">
     <p>
-      © {new Date().getFullYear()} Pozytywnie Zbudowani — Wojciech Tracichleb ·
+      © {new Date().getFullYear()} Pozytywnie Zbudowani – Wojciech Tracichleb ·
       <a href="/polityka-prywatnosci/" class="underline hover:text-slate-300">Polityka prywatności</a>
     </p>
   </footer>

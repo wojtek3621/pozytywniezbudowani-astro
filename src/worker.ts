@@ -1,21 +1,21 @@
 /**
- * Cloudflare Worker entry — pozytywniezbudowani.pl
+ * Cloudflare Worker entry – pozytywniezbudowani.pl
  *
  * Adaptacja Pages Function → Workers (2026-06-10, F3 planu
  * aios-workspace/plans/active/2026-06-10-pz-analytics-faza1-2-wdrozenie.md).
  *
  * Routing:
  *   - POST/OPTIONS /api/perf-beacon  → telemetry ingest (logika 1:1 z
- *     functions/api/perf-beacon.ts — tamten plik pozostaje jako referencja
+ *     functions/api/perf-beacon.ts – tamten plik pozostaje jako referencja
  *     Pages + źródło testów validatora)
  *   - wszystko inne → static assets (binding ASSETS, directory=dist)
  *
  * Uwaga: Workers static assets serwuje pliki PRZED workerem tylko gdy
  * plik istnieje; /api/* nie istnieje w dist → trafia tutaj. _redirects
- * z dist działa na poziomie assets (zweryfikowane po deploy — F2 302).
+ * z dist działa na poziomie assets (zweryfikowane po deploy – F2 302).
  */
 
-// Typy walidatora pochodzą z JSDoc w .mjs (allowJs) — brak potrzeby .d.ts
+// Typy walidatora pochodzą z JSDoc w .mjs (allowJs) – brak potrzeby .d.ts
 import { validatePayload, MAX_PAYLOAD_BYTES } from '../functions/api/_perf-beacon-validator.mjs';
 import {
   validateConsentPayload,
@@ -26,7 +26,7 @@ interface Env {
   PERF_TELEMETRY: D1Database;
   ASSETS: Fetcher;
   /**
-   * Worker secret (wrangler secret put NEWSLETTER_INGEST_TOKEN) — zapis na listę.
+   * Worker secret (wrangler secret put NEWSLETTER_INGEST_TOKEN) – zapis na listę.
    * Ten sam sekret siedzi w data/.env na VPS. Endpoint newslettera jest fail-closed:
    * bez nagłówka X-Newsletter-Token odpowiada 403, więc nikt z zewnątrz nie zapisze
    * obcego adresu (mail-bombing z domeny PZ).
@@ -34,18 +34,18 @@ interface Env {
   NEWSLETTER_INGEST_TOKEN?: string;
 }
 
-// Zapis na listę mailingową — system in-house AIOS (misja 2026-07-14, następca
+// Zapis na listę mailingową – system in-house AIOS (misja 2026-07-14, następca
 // MailerLite). Worker jest PROXY: waliduje, odsiewa boty i przekazuje zapis na VPS.
 // Dzięki temu przeglądarka robi zwykły same-origin POST (zero CORS), a my mamy
 // po stronie serwera prawdziwe IP klienta do consent logu (RODO: dowód zgody).
 //
 // ROLLBACK do MailerLite: git revert tego commita (secret MAILERLITE_API_TOKEN
-// w Workerze NIE został skasowany — stara ścieżka wróci od ręki).
+// w Workerze NIE został skasowany – stara ścieżka wróci od ręki).
 const NEWSLETTER_API_URL = 'https://platforma.pozytywniezbudowani.pl/api/newsletter/subscribe';
 const SUBSCRIBE_MAX_BODY_BYTES = 2048;
 // Prosty format-check: coś@coś.coś, bez spacji, sensowna długość
 const EMAIL_RE = /^[^\s@]{1,64}@[^\s@]{1,255}\.[^\s@]{2,24}$/;
-// Źródła zapisu (trafiają do consent logu — widać, z którego formularza przyszedł człowiek)
+// Źródła zapisu (trafiają do consent logu – widać, z którego formularza przyszedł człowiek)
 const ALLOWED_SOURCES = ['form_newsletter', 'form_ksiazka_lm'];
 const DEFAULT_SOURCE = 'form_newsletter';
 
@@ -133,7 +133,7 @@ async function handleBeaconPost(request: Request, env: Env): Promise<Response> {
       )
       .run();
   } catch (error) {
-    // H5: sanitized error logging — name + truncated message only.
+    // H5: sanitized error logging – name + truncated message only.
     const err = error as Error;
     const name = typeof err?.name === 'string' ? err.name : 'UnknownError';
     const message = typeof err?.message === 'string' ? err.message.substring(0, 500) : '';
@@ -145,11 +145,11 @@ async function handleBeaconPost(request: Request, env: Env): Promise<Response> {
 }
 
 /**
- * POST /api/consent-beacon — anonimowy pomiar banera cookie (misja „Analityka"
+ * POST /api/consent-beacon – anonimowy pomiar banera cookie (misja „Analityka"
  * 2026-07-14, aios-workspace/builds/2026-07-14-hq-modul-analityka/).
  *
  * Jedyny pomiar, który widzi ludzi UCIEKAJĄCYCH przed zgodą (GA4 startuje
- * dopiero po kliknięciu „Akceptuję" — uciekinierzy w GA4 nie istnieją).
+ * dopiero po kliknięciu „Akceptuję" – uciekinierzy w GA4 nie istnieją).
  * Payload jest z definicji anonimowy: zero cookies, zero session id, zero UA,
  * zero IP (nagłówków nie czytamy i nie zapisujemy). Sync na VPS:
  * automation/pz_consent_d1_sync.py (D1 → aios.db:web_consent_events).
@@ -221,11 +221,11 @@ function jsonResponse(body: Record<string, unknown>, status: number): Response {
 }
 
 /**
- * POST /api/subscribe — zapis na listę mailingową (newsletter + lead magnet książki).
+ * POST /api/subscribe – zapis na listę mailingową (newsletter + lead magnet książki).
  * Body: { email: string, consent: true, source?: string, website?: string (honeypot),
  *         consent_text?: string }.
  *
- * Same-origin fetch ze stron /newsletter i /darmowy-rozdzial — bez nagłówków CORS
+ * Same-origin fetch ze stron /newsletter i /darmowy-rozdzial – bez nagłówków CORS
  * (celowo: cross-origin POST-y z obcych domen nie odczytają odpowiedzi).
  *
  * Zapis NIE aktywuje adresu od razu: backend wysyła mail z linkiem potwierdzającym
@@ -287,7 +287,7 @@ async function handleSubscribePost(request: Request, env: Env): Promise<Response
         email,
         consent: true,
         source,
-        // Prawdziwe IP i UA klienta — backend widzi tylko Workera, a consent log
+        // Prawdziwe IP i UA klienta – backend widzi tylko Workera, a consent log
         // ma trzymać dowód, KTO i SKĄD wyraził zgodę.
         client_ip: request.headers.get('cf-connecting-ip') ?? null,
         user_agent: (request.headers.get('user-agent') ?? '').substring(0, 300),
@@ -298,7 +298,7 @@ async function handleSubscribePost(request: Request, env: Env): Promise<Response
     if (resp.ok) {
       return jsonResponse({ ok: true }, 200);
     }
-    // 429 = rate-limit po stronie backendu — przekazujemy uczciwie, nie udajemy sukcesu
+    // 429 = rate-limit po stronie backendu – przekazujemy uczciwie, nie udajemy sukcesu
     if (resp.status === 429) {
       return jsonResponse({ ok: false, error: 'Too many requests' }, 429);
     }

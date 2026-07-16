@@ -52,7 +52,7 @@ apps:
       isEnabled: true
       pathname: 'category'
       robots:
-        index: false # /category/* NOINDEX — duplikat /blog/ (audyt 2026-06-01)
+        index: false # /category/* NOINDEX – duplikat /blog/ (audyt 2026-06-01)
 
     tag:
       isEnabled: true

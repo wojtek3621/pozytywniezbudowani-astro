@@ -1,6 +1,6 @@
 ---
 /**
- * GDPR Consent Banner — Google Consent Mode v2 Advanced
+ * GDPR Consent Banner – Google Consent Mode v2 Advanced
  *
  * Replaces CookieYes (850 PLN/year) with zero-cost, zero-dependency solution.
  * GTM loads BEFORE this with denied defaults → cookieless pings (Advanced mode).
@@ -16,15 +16,15 @@
  * - Checkboxes pre-checked by default in settings panel
  * - User can still uncheck in settings before confirming
  *
- * Update 2026-07-14 (owner directive) — port z platforma.pozytywniezbudowani.pl:
+ * Update 2026-07-14 (owner directive) – port z platforma.pozytywniezbudowani.pl:
  * - Bottom bar → blokujący modal (overlay + scroll lock): decyzja przed wejściem
  * - Treść neutralna (standardowa formuła + link do polityki) zamiast opisu celów
  * - Układ przycisków BEZ ZMIAN: "Akceptuję wszystkie" + "Ustawienia"
- * - Consent Mode Advanced (blok head) NIETKNIĘTY — zmiana czysto wizualna
+ * - Consent Mode Advanced (blok head) NIETKNIĘTY – zmiana czysto wizualna
  *
  * Usage in Layout.astro:
- *   <ConsentBanner position="head" />  — in <head>, BEFORE Analytics/GTM
- *   <ConsentBanner position="body" />  — in <body>, visible banner + logic
+ *   <ConsentBanner position="head" />  – in <head>, BEFORE Analytics/GTM
+ *   <ConsentBanner position="body" />  – in <body>, visible banner + logic
  */
 
 interface Props {
@@ -36,7 +36,7 @@ const { position } = Astro.props;
 
 {position === 'head' && (
   <script is:inline>
-    // Google Consent Mode v2 Advanced — set defaults BEFORE GTM loads
+    // Google Consent Mode v2 Advanced – set defaults BEFORE GTM loads
     // GTM loads immediately after with these defaults → cookieless pings
     //
     // Codex fixes (2026-04-15 triple review):
@@ -69,7 +69,7 @@ const { position } = Astro.props;
             break;
           }
         }
-      } catch { /* ignore cookie parse errors — treat as no consent */ }
+      } catch { /* ignore cookie parse errors – treat as no consent */ }
 
       if (consent) {
         gtag('consent', 'default', {
@@ -92,7 +92,7 @@ const { position } = Astro.props;
         });
       }
 
-      // TOR 2 telemetry hook — record consent_default_set_ms
+      // TOR 2 telemetry hook – record consent_default_set_ms
       // Pasywne: tylko zapis, zero behavior change. Guard na existence of telemetry object
       // (scoped to /ksiazka* paths in PerfTelemetry.astro).
       if (window.__pzPerfTelemetry && window.__pzPerfTelemetry.timings) {
@@ -150,7 +150,7 @@ const { position } = Astro.props;
     /*
       MODAL REFACTOR (2026-07-14, owner directive):
       Bottom bar → centered dialog + overlay + scroll lock. Decyzja wymuszona
-      przed wejściem (wyższa klikalność). Klasy BEM i ID bez zmian — logika
+      przed wejściem (wyższa klikalność). Klasy BEM i ID bez zmian – logika
       consent (F6/F7/F8, Consent Mode Advanced) nietknięta.
     */
     .pz-banner {
@@ -174,7 +174,7 @@ const { position } = Astro.props;
     }
     /*
       Scroll lock. UWAGA: ten <style> siedzi wewnątrz wyrażenia {position === 'body' && (...)},
-      więc Astro NIE kompiluje go jako scoped (brak data-astro-cid na .pz-banner) — reguły są
+      więc Astro NIE kompiluje go jako scoped (brak data-astro-cid na .pz-banner) – reguły są
       globalne, a `:global()` wyciekłoby DOSŁOWNIE do outputu i zostało zignorowane przez
       przeglądarkę (złapane smoke testem 2026-07-14). Dlatego selektory wprost, bez :global().
     */
@@ -304,7 +304,7 @@ const { position } = Astro.props;
       color: #c4c4d8;
       margin-top: 2px;
     }
-    /* Outline — żeby w rozwiniętym panelu nie konkurował wizualnie z „Akceptuję wszystkie" */
+    /* Outline – żeby w rozwiniętym panelu nie konkurował wizualnie z „Akceptuję wszystkie" */
     .pz-banner__btn-save {
       width: 100%;
       margin-top: 8px;
@@ -334,13 +334,13 @@ const { position } = Astro.props;
     (function () {
       // ── Consent telemetry (2026-07-14, moduł Analityka HQ) ──────────────
       // Anonimowy pomiar SAMEGO banera: shown / accept / settings / save /
-      // abandon. Zero cookies, zero identyfikatorów — payload to typ
+      // abandon. Zero cookies, zero identyfikatorów – payload to typ
       // zdarzenia, czas, ścieżka bez query, kubełek urządzenia i czas do
       // decyzji. To jedyny pomiar widzący ludzi, którzy uciekli PRZED zgodą
-      // (GA4 startuje po „Akceptuję" — uciekinierów w GA4 nie ma).
+      // (GA4 startuje po „Akceptuję" – uciekinierów w GA4 nie ma).
       // Endpoint same-origin /api/consent-beacon (src/worker.ts) → D1
       // consent_events → cron pz_consent_d1_sync.py → aios.db.
-      // Logika zgód (F6/F7/F8, Consent Mode) NIETKNIĘTA — tylko wysyłka.
+      // Logika zgód (F6/F7/F8, Consent Mode) NIETKNIĘTA – tylko wysyłka.
       var telemetry = window.__pzConsentTelemetry;
       if (!telemetry) {
         telemetry = window.__pzConsentTelemetry = {
@@ -407,7 +407,7 @@ const { position } = Astro.props;
 
       // abandon = strona znika (unload/minimalizacja), baner widoczny, decyzji
       // brak. Wysyłane RAZ. Jeśli user wróci po tab-switchu i jednak kliknie,
-      // będzie policzony i w abandon, i w decyzji — odsetki liczymy względem
+      // będzie policzony i w abandon, i w decyzji – odsetki liczymy względem
       // shown i mówimy to wprost w pulpicie (HQ → Analityka → Zgody).
       function maybeSendAbandon() {
         if (telemetry.decided || telemetry.abandonSent) return;
@@ -454,7 +454,7 @@ const { position } = Astro.props;
         const consent = { analytics: analytics, marketing: marketing, ts: Date.now() };
         const expires = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toUTCString();
         // F6 fix: add Secure flag (HTTPS-only cookie, prevents interception on plain HTTP)
-        // Site is HTTPS-only (HSTS enforces) — Secure flag safe to add unconditionally
+        // Site is HTTPS-only (HSTS enforces) – Secure flag safe to add unconditionally
         document.cookie =
           'pz_consent=' +
           encodeURIComponent(JSON.stringify(consent)) +
@@ -478,7 +478,7 @@ const { position } = Astro.props;
         hideBanner();
       }
 
-      // Modal (2026-07-14): scroll lock — <html>/<body> blokowane na czas decyzji
+      // Modal (2026-07-14): scroll lock – <html>/<body> blokowane na czas decyzji
       function lockScroll(on) {
         const root = document.documentElement;
         const body = document.body;
@@ -498,7 +498,7 @@ const { position } = Astro.props;
         lockScroll(false);
       }
 
-      // Modal pokazujemy WYŁĄCZNIE przy braku zgody — decyzja wymuszona, bez wyjścia
+      // Modal pokazujemy WYŁĄCZNIE przy braku zgody – decyzja wymuszona, bez wyjścia
       // poza przyciskami. Zmiana zgód po fakcie nie jest wspierana (dyrektywa
       // właściciela 2026-07-14): brak krzyżyka, brak window.pzOpenConsent.
       function showBanner() {

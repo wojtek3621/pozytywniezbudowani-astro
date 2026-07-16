@@ -41,7 +41,7 @@ const { language, textDirection } = I18N;
     <!-- Zapis na listę idzie same-origin (Worker → /api/subscribe → VPS), więc żaden
          zewnętrzny host nie wymaga rozgrzewki DNS. MailerLite odpięty 2026-07-14. -->
 
-    <!-- dataLayer queue — MUST be initialized BEFORE ConsentBanner and Analytics -->
+    <!-- dataLayer queue – MUST be initialized BEFORE ConsentBanner and Analytics -->
     <!-- Reason: ConsentBanner head script pushes consent defaults; Analytics (lazy in Phase 2) -->
     <!-- replays consent state. Without early init, early events could be lost. -->
     <!-- Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 1, DB8) -->
@@ -53,13 +53,13 @@ const { language, textDirection } = I18N;
     <ApplyColorMode />
     <Metadata {...metadata} />
     <SiteVerification />
-    <!-- TOR 2 RUM telemetry — scoped to /ksiazka*, MUST precede ConsentBanner + Analytics -->
+    <!-- TOR 2 RUM telemetry – scoped to /ksiazka*, MUST precede ConsentBanner + Analytics -->
     <!-- Records 9 timestamps, sends beacon on visibilitychange→hidden -->
     <!-- Plan: plans/active/2026-04-15-pz-real-user-timing-telemetry.md -->
     <PerfTelemetry />
     <ConsentBanner position="head" />
     <Analytics />
-    <!-- Microsoft Clarity (heatmapy CRO książki) — renderuje się TYLKO gdy PUBLIC_CLARITY_ID
+    <!-- Microsoft Clarity (heatmapy CRO książki) – renderuje się TYLKO gdy PUBLIC_CLARITY_ID
          ustawione w env buildu; consent-gated (analytics=true). Sprint 1 2026-07. -->
     <Clarity />
 

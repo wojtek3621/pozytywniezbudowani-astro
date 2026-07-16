@@ -1,6 +1,6 @@
 ---
 /**
- * PerfTelemetry.astro — Real-User Timing Telemetry for /ksiazka (TOR 2)
+ * PerfTelemetry.astro – Real-User Timing Telemetry for /ksiazka (TOR 2)
  *
  * Purpose: Collect real-user performance timestamps for the lazy analytics pipeline
  * (Phase 2, deployed 2026-04-15) to make a data-driven decision on idle callback
@@ -10,7 +10,7 @@
  * - Phase 2 lazy analytics: GTM/GA4/Meta Pixel load on first scroll/pointerdown/keydown
  *   OR requestIdleCallback(1500ms) fallback
  * - Playwright headless test (Artur, 2026-04-15 ~11:40): idle callback fires at ~3-5s
- *   in headless Chromium without cache — NOT a proof for real users, but suggests
+ *   in headless Chromium without cache – NOT a proof for real users, but suggests
  *   the "<1% users bounce before 1500ms" assumption may be understated
  * - Debate-api consensus (4 models): DO NOT change idle callback without real-user data
  *   GPT-5.4 proposal: instrument, collect 48h, decide on facts
@@ -20,7 +20,7 @@
  * - PerformanceObserver({entryTypes:['resource']}) captures first_tracking_hit without
  *   monkey-patching fetch (clean, pasywne, doesn't collide with GTM internals)
  * - navigator.sendBeacon() fires payload on visibilitychange→hidden (primary) and
- *   pagehide (fallback) — both work on mobile tab switches, better than beforeunload
+ *   pagehide (fallback) – both work on mobile tab switches, better than beforeunload
  * - Cloudflare Pages Function /api/perf-beacon (same-origin, zero CORS) → D1 database
  * - Cron on aios-2 pulls D1 → aios.db:pz_perf_telemetry every hour
  *
@@ -42,7 +42,7 @@
 
 <script is:inline>
   // =============================================================================
-  // PerfTelemetry — real-user timing instrumentation (TOR 2)
+  // PerfTelemetry – real-user timing instrumentation (TOR 2)
   // =============================================================================
   //
   // MUST run BEFORE Analytics.astro's __pzAnalyticsInitialized guard so that we
@@ -59,7 +59,7 @@
     // --- Scope filter: only /ksiazka paths ---------------------------------
     // Phase 2 lazy analytics concerns only the book landing page.
     // Exact-match /ksiazka (with optional trailing slash) OR any subpath /ksiazka/*.
-    // MUST NOT match /ksiazkaevil, /ksiazkax, /ksiazka-premium etc. — off-by-one guard.
+    // MUST NOT match /ksiazkaevil, /ksiazkax, /ksiazka-premium etc. – off-by-one guard.
     try {
       var path = window.location && window.location.pathname;
       if (!path) return;
@@ -76,7 +76,7 @@
     // --- Generate session_id (UUID v4 with fallback for older browsers) ----
     // crypto.randomUUID() is available in Safari 15.4+ (~March 2022).
     // Fallback: crypto.getRandomValues() + manual v4 formatting (Safari 11+).
-    // Last resort: Date.now() + Math.random() — not a real UUID but unique enough
+    // Last resort: Date.now() + Math.random() – not a real UUID but unique enough
     // for ~350 sessions over 48h (zero collision probability at this scale).
     function generateSessionId() {
       try {
@@ -108,7 +108,7 @@
           );
         }
       } catch (e) {}
-      // Last resort fallback — not a real UUID but a unique string
+      // Last resort fallback – not a real UUID but a unique string
       return (
         'fb-' +
         Date.now().toString(36) +
@@ -199,7 +199,7 @@
         po.observe({ type: 'resource', buffered: true });
       }
     } catch (e) {
-      // PerformanceObserver not supported — first_tracking_hit will remain null
+      // PerformanceObserver not supported – first_tracking_hit will remain null
     }
 
     // --- Build beacon payload (shared by both fire paths) ------------------
@@ -250,7 +250,7 @@
       var t = window.__pzPerfTelemetry;
       // Determine if user bounced before tracking started:
       // first_tracking_hit_ms is null means NO tracking resource was observed
-      // between page load and unload — a true "bounce before tracking" signal.
+      // between page load and unload – a true "bounce before tracking" signal.
       var bounced = t.timings.first_tracking_hit_ms === null;
       var rawUa = typeof navigator !== 'undefined' && navigator.userAgent ? navigator.userAgent : '';
       return {
@@ -272,10 +272,10 @@
     // --- Beacon send --------------------------------------------------------
     // Two-phase fire strategy:
     //   1. visibilitychange→hidden: OPPORTUNISTIC send (tab switch may be
-    //      temporary — user can return). We fire sendBeacon with the latest
+    //      temporary – user can return). We fire sendBeacon with the latest
     //      state but DO NOT set t.sent=true, so a later pagehide will still
     //      flush final data (idempotent on backend via session_id upsert OR
-    //      accepted as duplicate — we prefer to lose a row than lose the
+    //      accepted as duplicate – we prefer to lose a row than lose the
     //      signal entirely).
     //   2. pagehide: FINAL commit. This is the real unload. We set
     //      t.sent=true here only if sendBeacon() returned true.
@@ -298,13 +298,13 @@
         var body = JSON.stringify(payload);
 
         // Size guard: sendBeacon hard limit is 64 KB, we stay under 2 KB.
-        // NOTE: body.length is UTF-16 code units — close enough for a client
+        // NOTE: body.length is UTF-16 code units – close enough for a client
         // guard, but the authoritative check is server-side in bytes.
         if (body.length > 2048) {
           // Trim user_agent if payload is too big (extremely rare)
           payload.user_agent = payload.user_agent ? payload.user_agent.substring(0, 200) : '';
           body = JSON.stringify(payload);
-          if (body.length > 2048) return; // Give up — would poison endpoint
+          if (body.length > 2048) return; // Give up – would poison endpoint
         }
 
         // Try sendBeacon first (fire-and-forget, survives unload)
@@ -320,11 +320,11 @@
           }
         }
 
-        // Fallback: fetch with keepalive (H2 fix — do NOT set sent=true here)
+        // Fallback: fetch with keepalive (H2 fix – do NOT set sent=true here)
         // Keepalive requests are fragile on unload. We cannot confirm delivery.
         // If this is the final trigger and keepalive is our only option, we
         // still avoid poisoning `sent` so that any subsequent pagehide re-fires
-        // (no harm — browser will coalesce or backend will dedupe).
+        // (no harm – browser will coalesce or backend will dedupe).
         if (typeof fetch === 'function') {
           fetch('/api/perf-beacon', {
             method: 'POST',
@@ -332,11 +332,11 @@
             body: body,
             keepalive: true,
           }).catch(function () {});
-          // Deliberately NOT setting t.sent = true — keepalive delivery is
+          // Deliberately NOT setting t.sent = true – keepalive delivery is
           // unverified, and a redundant send is safer than a lost signal.
         }
       } catch (e) {
-        // Swallow — we never want telemetry to break the page
+        // Swallow – we never want telemetry to break the page
       }
     }
 
@@ -355,6 +355,6 @@
     });
 
     // Last-resort trigger: beforeunload (desktop fallback, not used on mobile)
-    // Intentionally NOT added — unreliable across browsers, pagehide is better.
+    // Intentionally NOT added – unreliable across browsers, pagehide is better.
   })();
 </script>

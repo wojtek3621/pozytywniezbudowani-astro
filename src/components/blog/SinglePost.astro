@@ -100,15 +100,15 @@ const { post, url } = Astro.props;
 
 <style is:global>
   /*
-   * Ukrycie pierwszego inline responsive-image w body artykulu — jest duplikatem hero z frontmatter
+   * Ukrycie pierwszego inline responsive-image w body artykulu – jest duplikatem hero z frontmatter
    * (artefakt migracji z CMS Miro, gdzie featured image byl jednoczesnie inlinem w tresci).
-   * Dotyka wylacznie artykulow blog (scope: article .prose > p:first-child) — nie modyfikuje zadnego md file.
+   * Dotyka wylacznie artykulow blog (scope: article .prose > p:first-child) – nie modyfikuje zadnego md file.
    */
   article .prose > p:first-child:has(> img.responsive-image:only-child) {
     display: none;
   }
 
-  /* Fallback dla przegladarek bez :has() (Firefox < 121). Szerszy zakres — ukrywa sam img. */
+  /* Fallback dla przegladarek bez :has() (Firefox < 121). Szerszy zakres – ukrywa sam img. */
   @supports not selector(:has(*)) {
     article .prose > p:first-child > img.responsive-image:only-child {
       display: none;

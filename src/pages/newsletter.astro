@@ -5,7 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 const metadata = {
   title: 'Newsletter',
   description:
-    'Dołącz do newslettera Pozytywnie Zbudowani — praktyczna wiedza o budowie domu prosto na Twoją skrzynkę.',
+    'Dołącz do newslettera Pozytywnie Zbudowani – praktyczna wiedza o budowie domu prosto na Twoją skrzynkę.',
 };
 ---
 
@@ -17,7 +17,7 @@ const metadata = {
 
     <Fragment slot="subtitle">
       Regularnie dzielę się praktyczną wiedzą o budowie domu jednorodzinnego. Zapisz się, aby nie przegapić
-      najważniejszych wskazówek — prosto na Twoją skrzynkę mailową.
+      najważniejszych wskazówek – prosto na Twoją skrzynkę mailową.
     </Fragment>
   </Hero>
 
@@ -65,10 +65,10 @@ const metadata = {
             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
           ></path>
         </svg>
-        <p class="font-bold dark:text-white mb-2">Jeszcze jeden krok — potwierdźcie zapis.</p>
+        <p class="font-bold dark:text-white mb-2">Jeszcze jeden krok – potwierdźcie zapis.</p>
         <p class="text-muted text-sm">
           Wysłałem Wam maila z linkiem potwierdzającym. Kliknijcie go, a dopiszę Was do listy. Bez tego kliknięcia nie
-          wyślę Wam ani jednej wiadomości. Jeśli mail nie dotrze w kilka minut — zajrzyjcie do folderu SPAM lub Oferty.
+          wyślę Wam ani jednej wiadomości. Jeśli mail nie dotrze w kilka minut – zajrzyjcie do folderu SPAM lub Oferty.
         </p>
       </div>
       <p class="text-muted text-xs text-center mt-4">
@@ -115,7 +115,7 @@ const metadata = {
             consent: true,
             source: 'form_newsletter',
             website: honeypot,
-            // Dokładna treść klauzuli, którą użytkownik miał przed oczami —
+            // Dokładna treść klauzuli, którą użytkownik miał przed oczami –
             // ląduje w consent logu jako dowód zgody.
             consent_text: (labelEl.textContent || '').replace(/\s+/g, ' ').trim(),
           }),

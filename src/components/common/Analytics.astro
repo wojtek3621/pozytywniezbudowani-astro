@@ -1,5 +1,5 @@
 ---
-// Analytics.astro — Phase 2 lazy-on-interaction pattern (2026-04-15)
+// Analytics.astro – Phase 2 lazy-on-interaction pattern (2026-04-15)
 //
 // REFACTOR HISTORY:
 // - Phase 1 (2026-04-15 commit d825052): DOMContentLoaded wrapper (reduced render-blocking)
@@ -7,14 +7,14 @@
 // - Phase 2 FIXES (2026-04-15 post-codex): 8 bugs from triple review applied
 //
 // ARCHITECTURE:
-// 1. dataLayer pre-initialized in Layout.astro <head> BEFORE ConsentBanner (race condition fix — DB1)
+// 1. dataLayer pre-initialized in Layout.astro <head> BEFORE ConsentBanner (race condition fix – DB1)
 // 2. Consent Mode v2 defaults set by ConsentBanner position="head" BEFORE this runs
 // 3. GTM + VisitorTracking loaded only after:
 //    - First user interaction (scroll, pointerdown, keydown), OR
 //    - requestIdleCallback with 1500ms timeout (iOS Safari: setTimeout fallback)
 // 4. On GTM load: replay current consent state from cookie via gtag() arguments pattern (F1)
-// 5. SPA navigation: push event to dataLayer, let GTM handle tracking (no explicit gtag/fbq — F2)
-// 6. Init guard on window object (not local var) — prevents duplicate init on Astro ClientRouter re-eval (F4)
+// 5. SPA navigation: push event to dataLayer, let GTM handle tracking (no explicit gtag/fbq – F2)
+// 6. Init guard on window object (not local var) – prevents duplicate init on Astro ClientRouter re-eval (F4)
 //
 // CODEX REVIEW FIXES (2026-04-15):
 // - F1 (CRITICAL): consent replay uses gtag() helper with arguments object, not dataLayer.push array literal
@@ -22,7 +22,7 @@
 //                  (gtag/fbq undefined in GTM container world; push spa_page_view event, GTM trigger handles it)
 // - F3 (HIGH): cookie parse uses substring(indexOf('=')+1) instead of split('=')[1]
 // - F4 (HIGH): window.__pzAnalyticsInitialized global guard (not local var) for SPA re-eval safety
-// - F5 (MEDIUM): removed visibilitychange trigger (browser kills network on unload — false sense of security)
+// - F5 (MEDIUM): removed visibilitychange trigger (browser kills network on unload – false sense of security)
 //
 // GTM WORKSPACE REQUIREMENT (post-merge Wojtek action):
 // Create GTM Custom Event Trigger for `spa_page_view` event, attach to GA4 page_view + Meta Pixel PageView tags.
@@ -38,11 +38,11 @@
 ---
 
 <script is:inline>
-  // F4 fix: global init guard on window (not local IIFE var) — prevents re-eval on Astro ClientRouter SPA nav
+  // F4 fix: global init guard on window (not local IIFE var) – prevents re-eval on Astro ClientRouter SPA nav
   if (!window.__pzAnalyticsInitialized) {
     window.__pzAnalyticsInitialized = true;
 
-    // TOR 2 telemetry hook — record analytics_init_ms (pasywne, zero behavior change)
+    // TOR 2 telemetry hook – record analytics_init_ms (pasywne, zero behavior change)
     // Guarded by existence check so non-/ksiazka paths (where PerfTelemetry is scoped out)
     // don't throw. See src/components/common/PerfTelemetry.astro.
     if (window.__pzPerfTelemetry && window.__pzPerfTelemetry.timings) {
@@ -50,7 +50,7 @@
     }
 
     (function () {
-      // Helper: read current consent state from cookie (F3 fix — robust parse)
+      // Helper: read current consent state from cookie (F3 fix – robust parse)
       function getConsentFromCookie() {
         try {
           var parts = document.cookie ? document.cookie.split(';') : [];
@@ -76,7 +76,7 @@
         return null;
       }
 
-      // F1 fix: gtag helper pushes arguments object (not array literal) — GTM Consent API requirement
+      // F1 fix: gtag helper pushes arguments object (not array literal) – GTM Consent API requirement
       function gtag() {
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push(arguments);
@@ -86,7 +86,7 @@
         if (window.__pzAnalyticsLoaded) return;
         window.__pzAnalyticsLoaded = true;
 
-        // TOR 2 telemetry hook — record load_analytics_start_ms + trigger source
+        // TOR 2 telemetry hook – record load_analytics_start_ms + trigger source
         if (window.__pzPerfTelemetry && window.__pzPerfTelemetry.timings) {
           window.__pzPerfTelemetry.timings.load_analytics_start_ms = Math.round(performance.now());
           window.__pzPerfTelemetry.timings.load_analytics_trigger =
@@ -94,7 +94,7 @@
         }
 
         // RACE CONDITION FIX (DB1 + F1): replay current consent state via gtag() arguments pattern
-        // User may have clicked "Akceptuję" during lazy-delay window — we re-assert state explicitly
+        // User may have clicked "Akceptuję" during lazy-delay window – we re-assert state explicitly
         // so GTM sees the correct consent when it initializes.
         var consent = getConsentFromCookie();
         if (consent) {
@@ -117,16 +117,16 @@
           j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
           f.parentNode.insertBefore(j, f);
 
-          // TOR 2 telemetry hook — record gtm_script_injected_ms
+          // TOR 2 telemetry hook – record gtm_script_injected_ms
           if (window.__pzPerfTelemetry && window.__pzPerfTelemetry.timings) {
             window.__pzPerfTelemetry.timings.gtm_script_injected_ms = Math.round(performance.now());
           }
         })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
 
-        // VisitorTracking — async load after GTM
+        // VisitorTracking – async load after GTM
         //
         // GUARD (2026-07-14): tracer.js dostawcy wywołuje wewnętrznie init_tracer()
-        // przez setTimeout, ale tej funkcji NIE definiuje (ani my — `grep init_tracer
+        // przez setTimeout, ale tej funkcji NIE definiuje (ani my – `grep init_tracer
         // src/ public/` = 0 trafień). Ich try/catch owija tylko setTimeout, więc
         // asynchroniczny ReferenceError leci POZA blokiem → niezłapany wyjątek w ~każdej
         // sesji (Clarity ScriptErrorCount ~60%). Definiujemy brakującą funkcję jako no-op
@@ -152,7 +152,7 @@
         document.head.appendChild(vt);
       }
 
-      // Trigger 0 (2026-06-10): PAID TRAFFIC EAGER-LOAD — fbclid/gclid in URL = visitor
+      // Trigger 0 (2026-06-10): PAID TRAFFIC EAGER-LOAD – fbclid/gclid in URL = visitor
       // from an ad click. Ad platforms need the pixel to fire ASAP (Meta LPV attribution;
       // hard-bouncers <1.5s were untracked under lazy-only). Organic traffic keeps the
       // lazy path below untouched (CWV preserved). loadAnalytics() is idempotent
@@ -165,12 +165,12 @@
         }
       } catch (e) {}
 
-      // Trigger 1: first user interaction (3 event types — scroll/pointerdown/keydown)
+      // Trigger 1: first user interaction (3 event types – scroll/pointerdown/keydown)
       // Wrapped handler records which interaction type won the race + timestamp,
       // then calls loadAnalytics('interaction').
       var events = ['scroll', 'pointerdown', 'keydown'];
       function onFirstInteraction(ev) {
-        // TOR 2 telemetry hook — record first_interaction_ms + type (only the winner)
+        // TOR 2 telemetry hook – record first_interaction_ms + type (only the winner)
         if (
           window.__pzPerfTelemetry &&
           window.__pzPerfTelemetry.timings &&
@@ -185,10 +185,10 @@
         window.addEventListener(e, onFirstInteraction, { once: true, passive: true });
       });
 
-      // Trigger 2: idle callback — 1500ms fallback (iOS Safari compat)
+      // Trigger 2: idle callback – 1500ms fallback (iOS Safari compat)
       // Wrapped callbacks record idle_fire_ms and pass trigger='idle' or 'setTimeout'.
       function onIdleFire() {
-        // TOR 2 telemetry hook — record idle_fire_ms (even if interaction already won)
+        // TOR 2 telemetry hook – record idle_fire_ms (even if interaction already won)
         if (
           window.__pzPerfTelemetry &&
           window.__pzPerfTelemetry.timings &&
@@ -216,20 +216,20 @@
 
       // F5 fix: removed visibilitychange trigger.
       // Rationale: browser kills pending network requests when page unloads, so injecting
-      // GTM <script> tag in visibility:hidden handler provides false sense of security —
+      // GTM <script> tag in visibility:hidden handler provides false sense of security –
       // the script download is cancelled. Hard-bouncing users <1.5s are an accepted tradeoff.
     })();
   }
 </script>
 
 <script is:inline>
-  // SPA navigation (Astro ClientRouter) — push event to dataLayer
+  // SPA navigation (Astro ClientRouter) – push event to dataLayer
   //
-  // Event name: 'astro:page-load' (same as pre-Phase2 — zero regression against main).
+  // Event name: 'astro:page-load' (same as pre-Phase2 – zero regression against main).
   //
   // F2 fix (CRITICAL from codex triple review): REMOVED explicit gtag('event','page_view')
   // and fbq('track','PageView'). Rationale: GTM container does NOT expose window.gtag or
-  // window.fbq as globals — these functions are encapsulated inside GTM tags. Our
+  // window.fbq as globals – these functions are encapsulated inside GTM tags. Our
   // `typeof gtag !== 'undefined'` guard was always false, so explicit SPA calls never fired.
   //
   // Alternative for proper SPA tracking (POST-MERGE Wojtek action, optional):
@@ -238,7 +238,7 @@
   // OR
   // 1. Enable GTM's built-in History Change trigger (auto-fires on URL pushState)
   //
-  // PZ site has low SPA ratio (~1.00-1.07 pageviews/sessions from GA4 baseline) —
+  // PZ site has low SPA ratio (~1.00-1.07 pageviews/sessions from GA4 baseline) –
   // minimal impact if not configured.
   document.addEventListener('astro:page-load', function () {
     window.dataLayer = window.dataLayer || [];

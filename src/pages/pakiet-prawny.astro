@@ -6,7 +6,7 @@ import wojtekPortret from '~/assets/images/site/wojtek-o-autorze-ksiazka.jpg';
 import bookCover from '~/assets/images/ksiazka/book-cover-cta.jpg';
 
 // Landing produktu „Pakiet Prawny Budowy Domu".
-// Treść pisana tak, jakby produkt był dostępny (premiera bez daty — strona nie jest
+// Treść pisana tak, jakby produkt był dostępny (premiera bez daty – strona nie jest
 // promowana ani indeksowana do czasu uruchomienia sprzedaży).
 //
 // STAN PRZEJŚCIOWY: checkout jeszcze nie istnieje, więc KAŻDE CTA prowadzi do /ksiazka/.
@@ -16,7 +16,7 @@ const kupUrl = '/ksiazka/';
 // Liczby zgodne z realną zawartością pakietu (builds/pakiet-prawny/):
 // 2 umowy + 7 protokołów + 13 pism/druków = 22 wzory; + 3 vademecum + poradnik = 26 plików.
 const metadata = {
-  title: 'Pakiet Prawny Budowy Domu — 22 wzory dokumentów dla inwestora',
+  title: 'Pakiet Prawny Budowy Domu – 22 wzory dokumentów dla inwestora',
   description:
     'Komplet dokumentów na budowę domu: 2 umowy, 7 protokołów, wezwania i pokwitowania, 3 vademecum i poradnik prawny. Opracowany przez Kancelarię Pewnie, dopilnowany przez praktyka budowlanego. 399 zł.',
   robots: { index: true, follow: true },
@@ -48,10 +48,10 @@ const metadata = {
             </p>
             <div class="pp-hero-cta">
               <a class="pp-btn" href={kupUrl}>
-                <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny — 399 zł
+                <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny – 399 zł
               </a>
               <p class="pp-hero-note">
-                <i class="fa fa-undo-alt" aria-hidden="true"></i> 30 dni na zwrot — jeden mail, bez pytań.
+                <i class="fa fa-undo-alt" aria-hidden="true"></i> 30 dni na zwrot – jeden mail, bez pytań.
               </p>
             </div>
           </div>
@@ -482,7 +482,7 @@ const metadata = {
           </ul>
 
           <a class="pp-btn pp-btn-full pp-btn-gold" href={kupUrl}>
-            <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny — 399 zł
+            <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny – 399 zł
           </a>
 
           <p class="pp-price-body">
@@ -621,7 +621,7 @@ const metadata = {
           Jednorazowo 399 zł, 30 dni na zwrot.
         </p>
         <a class="pp-btn pp-btn-gold" href={kupUrl}>
-          <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny — 399 zł
+          <i class="fa fa-lock" aria-hidden="true"></i> Kup Pakiet Prawny – 399 zł
         </a>
       </div>
     </section>
@@ -633,7 +633,7 @@ const metadata = {
        Typografia = fonty serwisu PZ: Inter Variable (tekst,
        --aw-font-sans z CustomStyles) + Oswald (nagłówki, jak /ksiazka/).
        ŚWIADOMIE bez Lora/Source Sans 3: dostępne subsety miały wyłącznie
-       zakres `latin` (brak ą/ę/ł/ń/ś/ż/ź/ć) — przeglądarka podmieniała
+       zakres `latin` (brak ą/ę/ł/ń/ś/ż/ź/ć) – przeglądarka podmieniała
        polskie znaki fontem systemowym, co dawało efekt „grubszych" diakrytyków.
        Oswald i Inter mają pełne pokrycie znaków polskich (zweryfikowane w cmap).
        Kolory: tokeny --aw-color-* (PZ) + lokalne uzupełnienia pp.

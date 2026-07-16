@@ -1,5 +1,5 @@
 ---
-// Microsoft Clarity — heatmapy + session recordings (CRO książki, Sprint 1 2026-07).
+// Microsoft Clarity – heatmapy + session recordings (CRO książki, Sprint 1 2026-07).
 //
 // AKTYWACJA (checklist Wojtka):
 //   1. Załóż projekt na https://clarity.microsoft.com (konto Microsoft, darmowe).
@@ -9,7 +9,7 @@
 // Bez PUBLIC_CLARITY_ID komponent renderuje się do NICZEGO (zero kodu w HTML).
 //
 // RODO: skrypt ładuje się WYŁĄCZNIE gdy cookie pz_consent ma analytics=true
-// (Consent Mode v2 — ConsentBanner.astro). Brak zgody = zero requestów do clarity.ms.
+// (Consent Mode v2 – ConsentBanner.astro). Brak zgody = zero requestów do clarity.ms.
 // Build: aios-workspace/builds/2026-07-05-ksiazka-sprint1/
 const clarityId = import.meta.env.PUBLIC_CLARITY_ID as string | undefined;
 ---
@@ -35,7 +35,7 @@ const clarityId = import.meta.env.PUBLIC_CLARITY_ID as string | undefined;
           return false;
         }
         function loadClarity() {
-          // Oficjalny snippet Microsoft Clarity — trzymamy 1:1 z dokumentacją dostawcy.
+          // Oficjalny snippet Microsoft Clarity – trzymamy 1:1 z dokumentacją dostawcy.
           // `arguments` jest częścią mechanizmu kolejki (c[a].q) odtwarzanej przez tag clarity.ms;
           // NIE zamieniać na rest params (ryzyko cichego rozjazdu z vendorem przy re-copy).
           (function (c, l, a, r, i, t, y) {
@@ -54,7 +54,7 @@ const clarityId = import.meta.env.PUBLIC_CLARITY_ID as string | undefined;
         }
         // Load-on-consent-at-pageload: user, który dopiero co kliknął zgodę,
         // zostanie objęty od następnej odsłony (ConsentBanner nie emituje eventu;
-        // świadomy trade-off — heatmapy nie wymagają 100% pokrycia sesji).
+        // świadomy trade-off – heatmapy nie wymagają 100% pokrycia sesji).
         if (hasAnalyticsConsent()) {
           loadClarity();
         }
