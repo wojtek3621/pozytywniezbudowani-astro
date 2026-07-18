@@ -1,0 +1,186 @@
+---
+// Landing lead magnetu – moduł „Budowa bez niespodzianek" (budżet budowy online).
+// Misja M2 „Otwarcie Centrum" (2026-07-18): rejestracja darmowych kont na
+// platformie (BBN_SIGNUP_ENABLED=1). CTA → platforma.pozytywniezbudowani.pl/budowa/start.
+// Rodowód liczby 65%: Oferteo 2018, N=1082 (aios-workspace/builds/
+// 2026-07-17-pz-strategia-ekosystemu/research/01-bolaczki-budujacych.md).
+// Strona indeksowana (lead magnet); nawigacja NIEtknięta (rebranding = M3).
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Centrum dowodzenia budową – darmowy budżet budowy online | Pozytywnie Zbudowani',
+  description:
+    'Prowadźcie budżet budowy domu w jednym miejscu: plan z ofert wykonawców, rejestr wydatków i mapa budowy. Darmowe konto – wystarczy adres e-mail.',
+};
+
+const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
+---
+
+<Layout metadata={metadata}>
+  <!-- HERO -->
+  <section class="bg-slate-900 py-16 md:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">Bezpłatne narzędzie online</p>
+      <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-5">
+        Wasza budowa w liczbach, nie w domysłach
+      </h1>
+      <p class="text-lg text-slate-300 leading-relaxed mb-8">
+        Moduł „Budowa bez niespodzianek" prowadzi budżet Waszej budowy w jednym miejscu: plan z ofert
+        wykonawców, każdy wydatek i mapa budowy, która jednym rzutem oka pokazuje, jak stoicie.
+        Bez Excela, bez instalowania – tak samo na telefonie i laptopie.
+      </p>
+      <a
+        href={SIGNUP_URL}
+        class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
+      >
+        Załóżcie darmowe konto
+      </a>
+      <p class="text-sm text-slate-400 mt-4">Wystarczy adres e-mail. Bez hasła, bez karty, bez zobowiązań.</p>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-4 font-display">
+        65% budujących przekracza budżet. Nie przez katastrofy
+      </h2>
+      <p class="text-muted text-lg mb-4">
+        W badaniu Oferteo wśród ponad tysiąca inwestorów 65% przyznało, że w trakcie budowy musiało
+        sięgnąć po dodatkowe pieniądze – najczęściej dlatego, że koszty urosły o kilkanaście-dwadzieścia
+        kilka procent względem planu.
+      </p>
+      <p class="text-muted text-lg mb-4">
+        Z mojego doświadczenia budżety rzadko pękają od jednej wielkiej awarii. Pękają od dziesiątek
+        małych „jakoś to będzie": nieprzepisanej oferty, faktury, której nikt nie zapisał, etapu
+        wycenionego „na oko". Każda z tych rzeczy osobno jest niewinna. Razem – potrafią kosztować
+        tyle, co dobry samochód.
+      </p>
+      <p class="text-muted text-lg">
+        Najprostsze zabezpieczenie? Budżet, który macie przed oczami w liczbach – i który sam pokazuje,
+        gdzie robi się gorąco.
+      </p>
+    </div>
+  </section>
+
+  <!-- CO DOSTAJECIE -->
+  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-10 font-display text-center">
+        Co dostajecie w module
+      </h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm">
+          <h3 class="text-lg font-bold dark:text-white mb-3 font-display">Plan z ofert wykonawców</h3>
+          <p class="text-muted">
+            Zbieracie oferty przy pozycjach kosztorysu, wybieracie jedną – a kwota wchodzi do planu razem
+            ze źródłem. Wiecie nie tylko ile, ale i skąd. Gotowy szablon: 12 etapów, ponad 300 pozycji.
+          </p>
+        </div>
+        <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm">
+          <h3 class="text-lg font-bold dark:text-white mb-3 font-display">Rejestr wydatków</h3>
+          <p class="text-muted">
+            Każda faktura wpisana w 20 sekund, z telefonu, prosto z budowy. Dwa pola obowiązkowe, reszta
+            kiedy chcecie – moduł nie karze za brak danych.
+          </p>
+        </div>
+        <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm">
+          <h3 class="text-lg font-bold dark:text-white mb-3 font-display">Mapa budowy</h3>
+          <p class="text-muted">
+            Jeden rzut oka i wiecie, jak stoicie: co wycenione, co wydane, który etap się przegrzewa.
+            Raz w tygodniu 10-minutowy przegląd zbiera wszystko, co wymaga Waszej decyzji.
+          </p>
+        </div>
+      </div>
+      <p class="text-center text-muted mt-8">
+        Dane zostają na Waszym koncie – wracacie, kiedy chcecie. Konto możecie usunąć jednym przyciskiem,
+        razem ze wszystkim, co wpisaliście.
+      </p>
+    </div>
+  </section>
+
+  <!-- JAK ZACZĄĆ -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-8 font-display text-center">
+        Jak zaczynacie – trzy kroki
+      </h2>
+      <ol class="space-y-6">
+        <li class="flex items-start gap-4">
+          <span
+            class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-lg"
+            >1</span
+          >
+          <div>
+            <p class="font-bold dark:text-white mb-1">Podajecie adres e-mail</p>
+            <p class="text-muted">
+              Żadnych haseł i formularzy rejestracyjnych – logowanie działa linkiem wysyłanym na Waszą skrzynkę.
+            </p>
+          </div>
+        </li>
+        <li class="flex items-start gap-4">
+          <span
+            class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-lg"
+            >2</span
+          >
+          <div>
+            <p class="font-bold dark:text-white mb-1">Odpowiadacie na jedno pytanie</p>
+            <p class="text-muted">
+              „Gdzie jesteście?" – marzycie, planujecie, budujecie? Moduł dopasowuje się do Waszego etapu,
+              zamiast wciskać wszystkim to samo.
+            </p>
+          </div>
+        </li>
+        <li class="flex items-start gap-4">
+          <span
+            class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-lg"
+            >3</span
+          >
+          <div>
+            <p class="font-bold dark:text-white mb-1">Wpisujecie pierwsze kwoty</p>
+            <p class="text-muted">
+              Trzy pozycje planu i jeden wydatek wystarczą, żeby mapa budowy zaczęła pokazywać, jak stoicie.
+              Od tego momentu robi to już zawsze.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- OD AUTORA -->
+  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl font-bold dark:text-white mb-4 font-display">Kto za tym stoi</h2>
+      <p class="text-muted text-lg mb-4">
+        Nazywam się Wojtek Tracichleb. Buduję domy od 2013 roku jako generalny wykonawca i napisałem
+        o tym 600-stronicową książkę „Od marzenia do wprowadzenia". Moduł budżetu zbudowałem tak, jak
+        sam prowadzę budowy: liczby zamiast wrażeń, źródło przy każdej kwocie, decyzje zamiast alarmów.
+      </p>
+      <p class="text-muted text-lg">
+        Konto jest darmowe dla każdego – niczego nie musicie kupować. Jeśli kiedyś uznacie, że chcecie
+        więcej, książka i pozostałe materiały czekają obok. Ale to Wasza decyzja, nie warunek.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA KOŃCOWE -->
+  <section class="py-14 md:py-20 bg-slate-900">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="font-display text-2xl md:text-4xl font-bold text-white mb-5">
+        Zacznijcie, zanim zacznie się liczyć każda złotówka
+      </h2>
+      <p class="text-slate-300 text-lg mb-8">
+        Pięć minut dziś oszczędza nerwy przez całą budowę. Konto zakładacie raz – budżet prowadzi Was
+        do wprowadzenia.
+      </p>
+      <a
+        href={SIGNUP_URL}
+        class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
+      >
+        Załóżcie darmowe konto
+      </a>
+      <p class="text-sm text-slate-400 mt-4">Bez hasła, bez karty. Konto i dane usuwacie w każdej chwili.</p>
+    </div>
+  </section>
+</Layout>
