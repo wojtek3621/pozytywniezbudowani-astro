@@ -2,10 +2,14 @@
 // Strona Centrum Dowodzenia Budową (M3, 2026-07-18 – rozbudowa landing-u M2):
 // co to jest, wszystkie moduły platformy, jak założyć konto. Brief:
 // aios-workspace/builds/2026-07-17-pz-strategia-ekosystemu/04-koncepcja-strony.md.
-// CTA → platforma.pozytywniezbudowani.pl/budowa/start (BBN_SIGNUP_ENABLED=1).
 // Rodowód liczby 65%: Oferteo 2018, N=1082 (aios-workspace/builds/
 // 2026-07-17-pz-strategia-ekosystemu/research/01-bolaczki-budujacych.md).
 // Nazwa „Centrum Dowodzenia Budową" – decyzja D2 (sign-off 2026-07-18).
+//
+// SIGNUP_OPEN (LPO, 2026-07-18): moduł BBN cofnięty do przeglądu
+// (BBN_SIGNUP_ENABLED=0 → /budowa/start = 404). Przy false strona mówi
+// uczciwie „rejestracja wkrótce" zamiast zapraszać na 404. Re-otwarcie
+// = flip tej jednej stałej z powrotem na true (przycisk wraca 1:1).
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
@@ -14,6 +18,7 @@ const metadata = {
     'Jedno darmowe konto do całej budowy: budżet z mapą budowy, kalkulatory, materiały do książki, wzory dokumentów i społeczność budujących. Wystarczy adres e-mail.',
 };
 
+const SIGNUP_OPEN = false;
 const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
 ---
 
@@ -33,13 +38,32 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
         Sercem Centrum jest darmowy moduł „Budowa bez niespodzianek" – Wasza budowa w liczbach,
         nie w domysłach. Bez Excela, bez instalowania – tak samo na telefonie i laptopie.
       </p>
-      <a
-        href={SIGNUP_URL}
-        class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
-      >
-        Załóżcie darmowe konto
-      </a>
-      <p class="text-sm text-slate-400 mt-4">Wystarczy adres e-mail. Bez hasła, bez karty, bez zobowiązań.</p>
+      {
+        SIGNUP_OPEN ? (
+          <>
+            <a
+              href={SIGNUP_URL}
+              class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
+            >
+              Załóżcie darmowe konto
+            </a>
+            <p class="text-sm text-slate-400 mt-4">Wystarczy adres e-mail. Bez hasła, bez karty, bez zobowiązań.</p>
+          </>
+        ) : (
+          <>
+            <p class="inline-block border border-amber-400/60 text-amber-300 font-bold rounded-lg px-8 py-4 text-lg">
+              Rejestracja kont ruszy wkrótce
+            </p>
+            <p class="text-sm text-slate-400 mt-4">
+              Przygotowujemy Centrum do otwarcia. Konto będzie darmowe – wystarczy adres e-mail, bez hasła i bez
+              karty. Czytelnicy książki logują się już dziś na
+              <a href="https://platforma.pozytywniezbudowani.pl/" class="underline text-slate-300">
+                platforma.pozytywniezbudowani.pl</a
+              >.
+            </p>
+          </>
+        )
+      }
     </div>
   </section>
 
@@ -239,13 +263,30 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
         Pięć minut dziś oszczędza nerwy przez całą budowę. Konto zakładacie raz – budżet prowadzi Was
         do wprowadzenia.
       </p>
-      <a
-        href={SIGNUP_URL}
-        class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
-      >
-        Załóżcie darmowe konto
-      </a>
-      <p class="text-sm text-slate-400 mt-4">Bez hasła, bez karty. Konto i dane usuwacie w każdej chwili.</p>
+      {
+        SIGNUP_OPEN ? (
+          <>
+            <a
+              href={SIGNUP_URL}
+              class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
+            >
+              Załóżcie darmowe konto
+            </a>
+            <p class="text-sm text-slate-400 mt-4">Bez hasła, bez karty. Konto i dane usuwacie w każdej chwili.</p>
+          </>
+        ) : (
+          <>
+            <p class="inline-block border border-amber-400/60 text-amber-300 font-bold rounded-lg px-8 py-4 text-lg">
+              Rejestracja kont ruszy wkrótce
+            </p>
+            <p class="text-sm text-slate-400 mt-4">
+              Do tego czasu najlepszym pierwszym krokiem jest
+              <a href="/ksiazka" class="underline text-slate-300">książka „Od marzenia do wprowadzenia"</a> –
+              czytelnicy dostają konto z materiałami od ręki.
+            </p>
+          </>
+        )
+      }
     </div>
   </section>
 </Layout>
