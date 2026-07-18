@@ -117,6 +117,98 @@ const metadata = {
     </div>
   </section>
 
+  <!-- S2 · Gdzie jesteście? (LPO – 04-koncepcja-strony.md §3; jedna rama
+       poznawcza z ekosystemem). Telemetria kliknięć kafli: dataLayer event
+       s2_faza_klik (GTM-PKRLVW2G) – pierwszy rozkład faz publiczności (§4). -->
+  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800" id="gdzie-jestescie">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-3 font-display text-center">
+        Gdzie jesteście?
+      </h2>
+      <p class="text-muted text-lg text-center max-w-3xl mx-auto mb-10">
+        Każda faza budowy potrzebuje czego innego. Wybierzcie swoją – pokażę Wam najlepsze wejście.
+      </p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm flex flex-col">
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Marzymy, rozglądamy się</h3>
+          <p class="text-muted text-sm mb-4 flex-1">
+            Dom jest jeszcze pomysłem – sprawdzacie, z czym to się je.
+          </p>
+          <div class="flex flex-col gap-2 text-sm">
+            <a href="/darmowy-rozdzial" class="s2-link font-semibold text-secondary hover:underline" data-faza="marzymy"
+              >Darmowy rozdział książki →</a
+            >
+            <a href="/mapa-12-tygodni/" class="s2-link font-semibold text-secondary hover:underline" data-faza="marzymy"
+              >Mapa 12 tygodni do startu →</a
+            >
+            <a href="/blog/" class="s2-link font-semibold text-secondary hover:underline" data-faza="marzymy"
+              >Blog – 462 poradniki →</a
+            >
+          </div>
+        </div>
+        <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm flex flex-col border-2 border-primary/40">
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Planujemy budowę</h3>
+          <p class="text-muted text-sm mb-4 flex-1">
+            Działka jest albo prawie jest – zaczyna się liczyć kolejność kroków.
+          </p>
+          <div class="flex flex-col gap-2 text-sm">
+            <a href="/mapa-12-tygodni/" class="s2-link font-semibold text-secondary hover:underline" data-faza="planujemy"
+              >Mapa 12 tygodni do startu →</a
+            >
+            <a href="/ksiazka" class="s2-link font-semibold text-secondary hover:underline" data-faza="planujemy"
+              >Książka „Od marzenia do wprowadzenia" →</a
+            >
+          </div>
+        </div>
+        <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm flex flex-col">
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Budujemy</h3>
+          <p class="text-muted text-sm mb-4 flex-1">
+            Dom rośnie – teraz budżet i papiery decydują, jak to się skończy.
+          </p>
+          <div class="flex flex-col gap-2 text-sm">
+            <a href="/centrum" class="s2-link font-semibold text-secondary hover:underline" data-faza="budujemy"
+              >Centrum Dowodzenia Budową →</a
+            >
+            <a href="/pakiet-prawny" class="s2-link font-semibold text-secondary hover:underline" data-faza="budujemy"
+              >Pakiet Prawny →</a
+            >
+          </div>
+        </div>
+        <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm flex flex-col">
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Kończymy, mieszkamy</h3>
+          <p class="text-muted text-sm mb-4 flex-1">
+            Przed Wami odbiory, formalności końcowe i pierwsze miesiące w domu.
+          </p>
+          <div class="flex flex-col gap-2 text-sm">
+            <a
+              href="/blog/odbior-domu-do-uzytkowania-procedura-krok-po-kroku/"
+              class="s2-link font-semibold text-secondary hover:underline"
+              data-faza="konczymy">Odbiór domu krok po kroku →</a
+            >
+            <a href="/blog/" class="s2-link font-semibold text-secondary hover:underline" data-faza="konczymy"
+              >Blog – wykończenie i odbiory →</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    // S2: telemetria kliknięć kafli faz → dataLayer (GTM). Delegacja – zero
+    // zależności; wysyłamy PRZED nawigacją (queue przeżywa unload w GTM).
+    const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
+    document.querySelectorAll<HTMLAnchorElement>('#gdzie-jestescie .s2-link').forEach((a) => {
+      a.addEventListener('click', () => {
+        w.dataLayer = w.dataLayer || [];
+        w.dataLayer.push({
+          event: 's2_faza_klik',
+          s2_faza: a.dataset.faza,
+          s2_cel: a.getAttribute('href'),
+        });
+      });
+    });
+  </script>
+
   <!-- Cel -->
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12 text-center">
     <p class="text-lg text-muted leading-relaxed">

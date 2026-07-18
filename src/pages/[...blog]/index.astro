@@ -14,6 +14,8 @@ import type { MetaData } from '~/types';
 import RelatedPosts from '~/components/blog/RelatedPosts.astro';
 import ArticleSchema from '~/components/common/ArticleSchema.astro';
 import BreadcrumbSchema from '~/components/common/BreadcrumbSchema.astro';
+import MapaCTA from '~/components/blog/MapaCTA.astro';
+import { MAPA_CTA_SLUGS } from '~/data/mapa-cta-slugs';
 
 export const prerender = true;
 
@@ -67,6 +69,15 @@ const metadata = merge(
   <SinglePost post={{ ...post, image: image }} url={url}>
     {post.Content ? <post.Content /> : <Fragment set:html={post.content || ''} />}
   </SinglePost>
+  {
+    /* LPO: box lead magnetu „Mapa 12 tygodni" na końcu artykułów top-20 wg GSC
+       (lista: ~/data/mapa-cta-slugs.ts – tylko box, zero zmian treści postów). */
+    MAPA_CTA_SLUGS.has(post.slug) && (
+      <div class="mx-auto px-6 sm:px-6 max-w-3xl">
+        <MapaCTA context={post.slug} />
+      </div>
+    )
+  }
   <ToBlogLink />
   <RelatedPosts post={post} />
 </Layout>

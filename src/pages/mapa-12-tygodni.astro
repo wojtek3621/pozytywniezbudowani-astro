@@ -1,0 +1,157 @@
+---
+// Landing lead magnetu „Mapa 12 tygodni do startu budowy" (LPO, 2026-07-18).
+// Brief: aios-workspace/builds/2026-07-17-pz-strategia-ekosystemu/04-koncepcja-strony.md §2
+// (decyzja K30: lead magnety mieszkają NA platformie – zapis tworzy darmowe
+// konto w Centrum Dowodzenia Budową; mapa NIE jest PDF-em do pobrania).
+// Zapis: platforma /mapa/start (flaga MAPA_ACCESS – landing deployujemy
+// RAZEM z otwarciem flagi; do tego czasu strona żyje tylko na tej gałęzi).
+// UTM: source rozróżnia kanał dojścia (blog/social/ads) – patrz MapaCTA.
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Mapa 12 tygodni do startu budowy – bezpłatny przewodnik | Pozytywnie Zbudowani',
+  description:
+    'Ostatnie 12 tygodni przed budową rozpisane tydzień po tygodniu: formalności, budżet, wykonawcy, umowa, kierownik budowy, materiały i checklista startowa. Bezpłatnie, na Waszym koncie.',
+};
+
+const SIGNUP_URL =
+  'https://platforma.pozytywniezbudowani.pl/mapa/start?utm_source=pz&utm_medium=landing&utm_campaign=mapa-12-tygodni';
+
+const tygodnie = [
+  { t: 'Tydzień −12', co: 'Fundament formalny: status decyzji, warunki, komplet załączników' },
+  { t: 'Tydzień −11', co: 'Pieniądze na stole: budżet na etapy, rezerwa, transze kredytu' },
+  { t: 'Tydzień −10', co: 'Projekt do rąk wykonawców: paczka do wycen, decyzje niestandardowe' },
+  { t: 'Tydzień −9', co: 'Rozpoznanie wykonawców: lista 5–8 ekip, które REALNIE zbudują Wasz dom' },
+  { t: 'Tydzień −8', co: 'Oferty i pierwsze rozmowy: minimum 3 porównywalne oferty' },
+  { t: 'Tydzień −7', co: 'Kierownik budowy i geodeta: dwie role, bez których nie wolno zacząć' },
+  { t: 'Tydzień −6', co: 'Umowa z wykonawcą: zakres, harmonogram, płatności za odbiory' },
+  { t: 'Tydzień −5', co: 'Media i plac budowy: prąd, woda, dojazd, zaplecze' },
+  { t: 'Tydzień −4', co: 'Dziennik budowy i zawiadomienia: papiery gotowe do startu' },
+  { t: 'Tydzień −3', co: 'Materiały etapu pierwszego: stal, beton, terminy stolarki' },
+  { t: 'Tydzień −2', co: 'Harmonogram i komunikacja: kto, co i kiedy – z odbiorami etapów' },
+  { t: 'Tydzień −1', co: 'Ostatni przegląd: checklista startowa – wszystko na TAK' },
+  { t: 'Tydzień 0', co: 'Start: wytyczenie, wpis kierownika, pierwsze roboty ziemne' },
+];
+---
+
+<Layout metadata={metadata}>
+  <!-- HERO -->
+  <section class="bg-slate-900 py-16 md:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">
+        Bezpłatny przewodnik dla planujących budowę
+      </p>
+      <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-5">
+        Mapa 12 tygodni do startu budowy
+      </h1>
+      <p class="text-lg text-slate-300 leading-relaxed mb-8">
+        Większość budów nie wykoleja się na budowie – wykoleja się WCZEŚNIEJ, w tych kilkunastu
+        tygodniach przed pierwszym wbiciem łopaty. Rozpisałem je tydzień po tygodniu: formalności,
+        budżet, wykonawcy, umowa, kierownik budowy, materiały i checklista startowa.
+      </p>
+      <a
+        href={SIGNUP_URL}
+        class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
+      >
+        Odbierzcie mapę bezpłatnie
+      </a>
+      <p class="text-sm text-slate-400 mt-4">
+        Mapa czeka na Waszym darmowym koncie w Centrum Dowodzenia Budową. Wystarczy adres e-mail –
+        bez hasła, bez karty.
+      </p>
+    </div>
+  </section>
+
+  <!-- DLACZEGO -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-4 font-display">
+        Kto zaczyna przygotowania za późno, ten płaci na placu
+      </h2>
+      <p class="text-muted text-lg mb-4">
+        Widziałem setki budów i schemat się powtarza: albo tracicie sezon, albo – gorzej –
+        startujecie nieprzygotowani i nadrabiacie braki na budowie, gdzie każda korekta kosztuje
+        wielokrotnie więcej niż na papierze.
+      </p>
+      <p class="text-muted text-lg">
+        Mapa zakłada, że macie już działkę i projekt (albo jesteście blisko). Jeśli jesteście
+        wcześniej – pokaże Wam, co Was czeka, i pozwoli zaplanować kalendarz wstecz od dnia,
+        w którym chcecie zacząć.
+      </p>
+    </div>
+  </section>
+
+  <!-- CO W ŚRODKU -->
+  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-8 font-display text-center">
+        13 tygodni, tydzień po tygodniu
+      </h2>
+      <ol class="space-y-3">
+        {
+          tygodnie.map((row) => (
+            <li class="flex items-start gap-4 bg-white dark:bg-slate-900 rounded-lg p-4 shadow-sm">
+              <span class="flex-shrink-0 w-24 font-bold text-primary">{row.t}</span>
+              <span class="text-muted">{row.co}</span>
+            </li>
+          ))
+        }
+      </ol>
+      <p class="text-center text-muted mt-8">
+        Do tego sygnały ostrzegawcze przy krokach, na których inwestorzy najczęściej się potykają –
+        i checklista startowa na sam koniec.
+      </p>
+    </div>
+  </section>
+
+  <!-- DLACZEGO NA KONCIE, NIE PDF -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl font-bold dark:text-white mb-4 font-display">
+        Dlaczego na koncie, a nie w PDF-ie?
+      </h2>
+      <p class="text-muted text-lg mb-4">
+        Bo PDF ląduje w folderze „pobrane" i umiera. Mapa mieszka na Waszym darmowym koncie
+        w Centrum Dowodzenia Budową – obok kalkulatorów i budżetu budowy, z którego skorzystacie,
+        gdy przyjdzie czas. Czytacie na telefonie i laptopie, wracacie kiedy chcecie.
+      </p>
+      <p class="text-muted text-lg">
+        Konto jest darmowe i niczego nie musicie kupować. Jeśli kiedyś uznacie, że chcecie więcej –
+        książka i pozostałe materiały czekają obok. Ale to Wasza decyzja, nie warunek.
+      </p>
+    </div>
+  </section>
+
+  <!-- KTO ZA TYM STOI -->
+  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl font-bold dark:text-white mb-4 font-display">Kto za tym stoi</h2>
+      <p class="text-muted text-lg">
+        Nazywam się Wojtek Tracichleb. Buduję domy od 2013 roku jako generalny wykonawca
+        i napisałem o tym 600-stronicową książkę „Od marzenia do wprowadzenia". Mapę ułożyłem tak,
+        jak sam prowadzę starty budów: konkretne kroki w konkretnej kolejności, zero teorii
+        z podręczników.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA KOŃCOWE -->
+  <section class="py-14 md:py-20 bg-slate-900">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="font-display text-2xl md:text-4xl font-bold text-white mb-5">
+        12 tygodni zlatuje szybciej, niż myślicie
+      </h2>
+      <p class="text-slate-300 text-lg mb-8">
+        Zacznijcie od mapy – będziecie dokładnie wiedzieć, co robić w którym tygodniu
+        i o co pytać, zanim podpiszecie cokolwiek.
+      </p>
+      <a
+        href={SIGNUP_URL}
+        class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
+      >
+        Odbierzcie mapę bezpłatnie
+      </a>
+      <p class="text-sm text-slate-400 mt-4">Wystarczy adres e-mail. Bez hasła, bez karty, bez zobowiązań.</p>
+    </div>
+  </section>
+</Layout>

@@ -5,6 +5,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import BlogList from '~/components/blog/List.astro';
 import Headline from '~/components/blog/Headline.astro';
 import Pagination from '~/components/blog/Pagination.astro';
+import MapaCTA from '~/components/blog/MapaCTA.astro';
 // import PostTags from "~/components/blog/Tags.astro";
 
 import { blogListRobots, getStaticPathsBlogList } from '~/utils/blog';
@@ -43,6 +44,8 @@ const metadata = {
       Blog
     </Headline>
     <BlogList posts={page.data} />
+    {/* LPO: box lead magnetu pod listą wpisów (plan-blog.md – transza 1) */}
+    <MapaCTA context={`blog-index-p${currentPage}`} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
     <!--
       <PostTags tags={allCategories} class="mb-2" title="Search by Categories:" isCategory />

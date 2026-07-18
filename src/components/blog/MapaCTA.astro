@@ -1,0 +1,33 @@
+---
+// Box CTA „Mapa 12 tygodni" (LPO, 2026-07-18) – lead magnet dla planujących.
+// Copy: aios-workspace/builds/2026-07-13-spolecznosc-launch/tresci/plan-blog.md
+// (mechanika CTA – niewymuszony box w treści, bez popupów i pasków).
+// UTM: utm_content niesie slug artykułu / kontekst – atrybucja per strona
+// w tracking.db (kolektor /api/z) i GA4.
+interface Props {
+  /** Kontekst wyświetlenia do utm_content (np. slug artykułu, 'blog-index'). */
+  context?: string;
+}
+
+const { context = 'blog' } = Astro.props;
+
+const href =
+  `/mapa-12-tygodni/?utm_source=blog&utm_medium=cta-box&utm_campaign=mapa-12-tygodni` +
+  `&utm_content=${encodeURIComponent(context)}`;
+---
+
+<aside
+  class="mapa-cta not-prose my-10 rounded-lg border border-amber-300/70 dark:border-amber-400/40 bg-amber-50 dark:bg-slate-800 p-6"
+>
+  <p class="font-bold text-lg mb-2 dark:text-white">Planujecie budowę?</p>
+  <p class="text-muted mb-4">
+    Rozpisałem ostatnie 12 tygodni przed startem – formalności, umowa, kierownik budowy, materiały,
+    checklista. Bezpłatna „Mapa 12 tygodni do startu budowy" czeka na Waszym darmowym koncie.
+  </p>
+  <a
+    href={href}
+    class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-6 py-3 transition"
+  >
+    Odbierzcie mapę →
+  </a>
+</aside>
