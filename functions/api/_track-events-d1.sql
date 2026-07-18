@@ -45,6 +45,11 @@ CREATE TABLE IF NOT EXISTS track_events (
     client_tcp_rtt INTEGER,
     ja3_hash TEXT,
     bot_score INTEGER,
+    -- Sygnały detekcji botów (misja jakosc-ruchu 2026-07-18): env z z.js + isbot na edge.
+    webdriver INTEGER,        -- navigator.webdriver (1/0/NULL)
+    webgl_renderer TEXT,      -- UNMASKED_RENDERER lub 'software'/'none'
+    languages_count INTEGER,  -- navigator.languages.length
+    ua_is_bot INTEGER,        -- isbot(user-agent) policzone w Workerze
     created_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
 CREATE INDEX IF NOT EXISTS idx_d1_te_id ON track_events(id);

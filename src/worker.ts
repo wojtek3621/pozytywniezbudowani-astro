@@ -15,6 +15,10 @@
  * z dist działa na poziomie assets (zweryfikowane po deploy – F2 302).
  */
 
+// isbot (npm, MIT) – lista known-bot user-agents na EDGE (Warstwa 0 detekcji botów,
+// misja jakosc-ruchu 2026-07-18). Wynik ua_is_bot dopisywany do zdarzenia /api/z,
+// scoring pełny liczy botscore.py w tracking.db. NIE blokuje zapisu (nic nie kasujemy).
+import { isbot } from 'isbot';
 // Typy walidatora pochodzą z JSDoc w .mjs (allowJs) – brak potrzeby .d.ts
 import { validatePayload, MAX_PAYLOAD_BYTES } from '../functions/api/_perf-beacon-validator.mjs';
 import {
@@ -146,13 +150,14 @@ async function handleBeaconPost(request: Request, env: Env): Promise<Response> {
 }
 
 /**
- * POST /api/consent-beacon – anonimowy pomiar banera cookie (misja „Analityka"
- * 2026-07-14, aios-workspace/builds/2026-07-14-hq-modul-analityka/).
+ * POST /api/consent-beacon – pomiar banera cookie (misja „Analityka" 2026-07-14) +
+ * consent RECEIPT (de-anonimizacja, misja „jakosc-ruchu" 2026-07-18).
  *
- * Jedyny pomiar, który widzi ludzi UCIEKAJĄCYCH przed zgodą (GA4 startuje
- * dopiero po kliknięciu „Akceptuję" – uciekinierzy w GA4 nie istnieją).
- * Payload jest z definicji anonimowy: zero cookies, zero session id, zero UA,
- * zero IP (nagłówków nie czytamy i nie zapisujemy). Sync na VPS:
+ * Widzi ludzi UCIEKAJĄCYCH przed zgodą (GA4 startuje dopiero po „Akceptuję").
+ * Od 2026-07-18 beacon NIE jest już anonimowy: payload niesie device_id (pz_did,
+ * wspólny z kolektorem z.js), banner_version i purposes, a Worker DOKŁADA IP + UA
+ * server-side (nigdy z klienta) — to dowód zgody RODO art. 7 wiązany z tożsamością
+ * w tracking.db. GPC/DNT świadomie NIE czytane. Sync na VPS:
  * automation/pz_consent_d1_sync.py (D1 → aios.db:web_consent_events).
  */
 async function handleConsentBeaconPost(request: Request, env: Env): Promise<Response> {
@@ -188,10 +193,16 @@ async function handleConsentBeaconPost(request: Request, env: Env): Promise<Resp
     return textResponse('Database binding missing', 500);
   }
 
+  // De-anon: IP + UA dokładane SERVER-SIDE (nigdy z klienta). GPC/DNT nie czytane.
+  const consentIp = request.headers.get('cf-connecting-ip');
+  const consentUa = (request.headers.get('user-agent') ?? '').slice(0, 400) || null;
+
   try {
     await env.PERF_TELEMETRY.prepare(
-      `INSERT INTO consent_events (ts, event, page_path, device, ms_to_decision, analytics, marketing)
-       VALUES (?, ?, ?, ?, ?, ?, ?)`
+      `INSERT INTO consent_events (
+        ts, event, page_path, device, ms_to_decision, analytics, marketing,
+        device_id, ip, user_agent, purposes, banner_version
+      ) VALUES (?, ?, ?, ?, ?, ?, ?,  ?, ?, ?, ?, ?)`
     )
       .bind(
         payload.ts,
@@ -200,7 +211,12 @@ async function handleConsentBeaconPost(request: Request, env: Env): Promise<Resp
         payload.device,
         payload.ms_to_decision,
         payload.analytics,
-        payload.marketing
+        payload.marketing,
+        payload.device_id,
+        consentIp,
+        consentUa,
+        payload.purposes,
+        payload.banner_version
       )
       .run();
   } catch (error) {
@@ -267,6 +283,10 @@ async function handleZBeaconPost(request: Request, env: Env): Promise<Response> 
     typeof v === 'string' && v.length ? v.slice(0, max) : null;
   const botMgmt = (cf.botManagement ?? {}) as Record<string, unknown>;
 
+  // Warstwa 0 detekcji na edge: known-bot UA po liście isbot. Sygnał, nie blokada.
+  const rawUa = (request.headers.get('user-agent') ?? '').slice(0, 400) || null;
+  const uaIsBot = rawUa ? (isbot(rawUa) ? 1 : 0) : null;
+
   try {
     await env.PERF_TELEMETRY.prepare(
       `INSERT OR IGNORE INTO track_events (
@@ -284,11 +304,13 @@ async function handleZBeaconPost(request: Request, env: Env): Promise<Response> 
         country, region, city, postal_code,
         asn, as_org, colo,
         http_protocol, tls_version, tls_cipher, client_tcp_rtt,
-        ja3_hash, bot_score
+        ja3_hash, bot_score,
+        webdriver, webgl_renderer, languages_count, ua_is_bot
       ) VALUES (
         ?, ?, ?, ?, ?,  ?, ?, ?,  ?, ?, ?, ?, ?,  ?, ?, ?, ?, ?,  ?, ?,
         ?, ?, ?, ?, ?,  ?, ?, ?, ?,  ?, ?,  ?, ?, ?,  ?, ?, ?, ?,
-        ?, ?, ?,  ?, ?, ?, ?,  ?, ?, ?,  ?, ?, ?, ?,  ?, ?
+        ?, ?, ?,  ?, ?, ?, ?,  ?, ?, ?,  ?, ?, ?, ?,  ?, ?,
+        ?, ?, ?, ?
       )`
     )
       .bind(
@@ -303,13 +325,14 @@ async function handleZBeaconPost(request: Request, env: Env): Promise<Response> 
         p.time_on_page_ms, p.active_time_ms, p.max_scroll_pct,
         p.outbound_url, p.outbound_host, p.link_text, p.is_checkout,
         request.headers.get('cf-connecting-ip'),
-        (request.headers.get('user-agent') ?? '').slice(0, 400) || null,
+        rawUa,
         (request.headers.get('accept-language') ?? '').slice(0, 100) || null,
         asStr(cf.country, 3), asStr(cf.region, 80), asStr(cf.city, 120), asStr(cf.postalCode, 20),
         asNum(cf.asn), asStr(cf.asOrganization, 120), asStr(cf.colo, 10),
         asStr(cf.httpProtocol, 20), asStr(cf.tlsVersion, 20), asStr(cf.tlsCipher, 60),
         asNum(cf.clientTcpRtt),
-        asStr(botMgmt.ja3Hash, 64), asNum(botMgmt.score)
+        asStr(botMgmt.ja3Hash, 64), asNum(botMgmt.score),
+        p.webdriver, p.webgl_renderer, p.languages_count, uaIsBot
       )
       .run();
   } catch (error) {

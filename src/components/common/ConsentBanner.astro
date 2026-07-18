@@ -22,6 +22,17 @@
  * - Układ przycisków BEZ ZMIAN: "Akceptuję wszystkie" + "Ustawienia"
  * - Consent Mode Advanced (blok head) NIETKNIĘTY – zmiana czysto wizualna
  *
+ * Update 2026-07-18 (owner directive – misja analityka-jakosc-ruchu):
+ * - DE-BLUR: usunięty backdrop-filter: blur; strona scrollowalna (overlay
+ *   pointer-events:none, okienko pointer-events:auto; scroll-lock usunięty).
+ *   Baner nadal centralny/duży/uciążliwy; przyciski i rozmiar BEZ ZMIAN.
+ * - Ustawienia „Allegro": kategorie Niezbędne(on)/Analityczne/Marketingowe,
+ *   przełączniki analityki/marketingu domyślnie OFF, obszerniejsze opisy.
+ * - DE-ANONIMIZACJA beacona zgód: payload niesie device_id (pz_did, wspólny z
+ *   kolektorem z.js), banner_version i purposes; Worker dokłada IP+UA server-side
+ *   → consent receipt (dowód zgody RODO art. 7 wiązany z tożsamością).
+ * - GPC/DNT świadomie NIE odczytywane (decyzja Wojtka).
+ *
  * Usage in Layout.astro:
  *   <ConsentBanner position="head" />  – in <head>, BEFORE Analytics/GTM
  *   <ConsentBanner position="body" />  – in <body>, visible banner + logic
@@ -119,22 +130,45 @@ const { position } = Astro.props;
       </div>
 
       <div id="pz-consent-details" class="pz-banner__details pz-banner__details--hidden">
-        <p class="pz-banner__details-intro">Wybierz, na jakie kategorie wyrażasz zgodę:</p>
-        <label class="pz-banner__checkbox-row">
-          <input type="checkbox" id="pz-consent-analytics" class="pz-banner__checkbox" checked />
+        <p class="pz-banner__details-intro">
+          Zarządzaj zgodami wg kategorii. Zgody analityczne i marketingowe są domyślnie
+          wyłączone – włącz te, na które się zgadzasz, i potwierdź. Zgody możesz zawęzić
+          tutaj albo zaakceptować wszystkie przyciskiem powyżej.
+        </p>
+        <label class="pz-banner__checkbox-row pz-banner__checkbox-row--locked">
+          <input type="checkbox" class="pz-banner__checkbox" checked disabled />
           <div>
-            <strong class="pz-banner__category-title">Analityka</strong>
-            <span class="pz-banner__category-desc">Google Analytics – jak użytkownicy korzystają ze strony</span>
+            <strong class="pz-banner__category-title">Niezbędne <span class="pz-banner__badge">zawsze aktywne</span></strong>
+            <span class="pz-banner__category-desc">
+              Zapewniają działanie strony: bezpieczeństwo, zapamiętanie Twojego wyboru zgód,
+              podstawowa obsługa formularzy. Nie da się ich wyłączyć, bo bez nich serwis nie
+              działa. Nie służą do śledzenia ani profilowania.
+            </span>
           </div>
         </label>
         <label class="pz-banner__checkbox-row">
-          <input type="checkbox" id="pz-consent-marketing" class="pz-banner__checkbox" checked />
+          <input type="checkbox" id="pz-consent-analytics" class="pz-banner__checkbox" />
           <div>
-            <strong class="pz-banner__category-title">Marketing</strong>
-            <span class="pz-banner__category-desc">Meta Pixel, Google Ads – trafniejsze reklamy i pomiar kampanii</span>
+            <strong class="pz-banner__category-title">Analityczne</strong>
+            <span class="pz-banner__category-desc">
+              Google Analytics i Microsoft Clarity – anonimowe statystyki: które strony są
+              czytane, jak długo, gdzie ludzie się gubią. Pomagają nam ulepszać treści.
+              Bez tej zgody nie ładujemy skryptów analitycznych.
+            </span>
           </div>
         </label>
-        <button id="pz-consent-save" class="pz-banner__btn-save" type="button"> Potwierdź wybory </button>
+        <label class="pz-banner__checkbox-row">
+          <input type="checkbox" id="pz-consent-marketing" class="pz-banner__checkbox" />
+          <div>
+            <strong class="pz-banner__category-title">Marketingowe</strong>
+            <span class="pz-banner__category-desc">
+              Meta Pixel i Google Ads – dopasowanie reklam i pomiar ich skuteczności
+              (np. które treści prowadzą do zapisu na newsletter). Bez tej zgody nie ładujemy
+              pikseli reklamowych ani nie przekazujemy zdarzeń do platform reklamowych.
+            </span>
+          </div>
+        </label>
+        <button id="pz-consent-save" class="pz-banner__btn-save" type="button"> Potwierdź wybrane </button>
       </div>
     </div>
   </div>
@@ -148,10 +182,16 @@ const { position } = Astro.props;
       Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 2.3)
     */
     /*
-      MODAL REFACTOR (2026-07-14, owner directive):
-      Bottom bar → centered dialog + overlay + scroll lock. Decyzja wymuszona
-      przed wejściem (wyższa klikalność). Klasy BEM i ID bez zmian – logika
-      consent (F6/F7/F8, Consent Mode Advanced) nietknięta.
+      DE-BLUR + SCROLLABLE REFACTOR (2026-07-18, owner directive — misja
+      analityka-jakosc-ruchu / decyzje-sesja.md):
+      - USUNIĘTY backdrop-filter: blur (efekt „zamglenia" strony pod banerem).
+      - USUNIĘTY scroll-lock (html/body overflow:hidden) – strona ma być
+        scrollowalna MIMO widocznego banera.
+      - Overlay (przyciemnienie rgba 0.72) ZOSTAJE, ale z pointer-events:none,
+        więc kółko myszy/scroll przechodzi do strony pod spodem; samo okienko
+        .pz-banner__inner ma pointer-events:auto (przyciski działają).
+      - Baner nadal centralny, duży, celowo uciążliwy; przyciski BEZ ZMIAN.
+      Logika consent (F6/F7/F8, Consent Mode Advanced) NIETKNIĘTA.
     */
     .pz-banner {
       position: fixed;
@@ -165,22 +205,13 @@ const { position } = Astro.props;
       justify-content: center;
       padding: 20px;
       background: rgba(10, 10, 20, 0.72);
-      backdrop-filter: blur(6px);
       color: #fff;
       font-family: system-ui, -apple-system, sans-serif;
+      /* strona scrolluje pod banerem — overlay nie łapie zdarzeń */
+      pointer-events: none;
     }
     .pz-banner.pz-banner--hidden {
       display: none;
-    }
-    /*
-      Scroll lock. UWAGA: ten <style> siedzi wewnątrz wyrażenia {position === 'body' && (...)},
-      więc Astro NIE kompiluje go jako scoped (brak data-astro-cid na .pz-banner) – reguły są
-      globalne, a `:global()` wyciekłoby DOSŁOWNIE do outputu i zostało zignorowane przez
-      przeglądarkę (złapane smoke testem 2026-07-14). Dlatego selektory wprost, bez :global().
-    */
-    html.pz-consent-open,
-    body.pz-consent-open {
-      overflow: hidden;
     }
     .pz-banner__inner {
       position: relative;
@@ -194,6 +225,8 @@ const { position } = Astro.props;
       padding: 36px 34px 30px;
       box-shadow: 0 30px 90px rgba(0, 0, 0, 0.6);
       animation: pz-banner-in 0.3s ease-out;
+      /* okienko interaktywne (przyciski/checkboxy) mimo pointer-events:none na overlayu */
+      pointer-events: auto;
     }
     @keyframes pz-banner-in {
       from {
@@ -282,18 +315,35 @@ const { position } = Astro.props;
     }
     .pz-banner__checkbox-row {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       gap: 10px;
       margin-bottom: 10px;
       cursor: pointer;
-      padding: 8px 12px;
+      padding: 10px 12px;
       background: rgba(255, 255, 255, 0.04);
       border-radius: 6px;
+    }
+    .pz-banner__checkbox-row--locked {
+      cursor: default;
+      opacity: 0.85;
     }
     .pz-banner__checkbox {
       accent-color: #c5a44e;
       width: 18px;
       height: 18px;
+      margin-top: 2px;
+      flex: 0 0 auto;
+    }
+    .pz-banner__badge {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 1px 6px;
+      font-size: 10px;
+      font-weight: 600;
+      color: #c5a44e;
+      border: 1px solid rgba(197, 164, 78, 0.5);
+      border-radius: 999px;
+      vertical-align: middle;
     }
     .pz-banner__category-title {
       font-size: 14px;
@@ -353,6 +403,10 @@ const { position } = Astro.props;
         };
       }
 
+      // Wersja banera — receipt zgody wie, NA CO była zgoda (treść/układ z tej daty).
+      // Bump przy każdej zmianie treści/kategorii banera (misja jakosc-ruchu 2026-07-18).
+      var BANNER_VERSION = 'pz-2026-07-18';
+
       function consentDevice() {
         try {
           var w =
@@ -365,6 +419,31 @@ const { position } = Astro.props;
         }
       }
 
+      // pz_did — ten sam identyfikator urządzenia co kolektor z.js (cookie
+      // Domain=.pozytywniezbudowani.pl). De-anonimizacja beacona zgód (misja
+      // 2026-07-18): consent receipt wiąże decyzję z tożsamością w tracking.db.
+      function pzDeviceId() {
+        try {
+          var m = document.cookie.match('(^|;)\\s*pz_did=([^;]+)');
+          if (m) return decodeURIComponent(m[2]).substring(0, 64);
+          var ls = null;
+          try {
+            ls = localStorage.getItem('pz_did');
+          } catch (e) {}
+          return ls ? String(ls).substring(0, 64) : null;
+        } catch (e) {
+          return null;
+        }
+      }
+
+      // purposes — jawna lista celów, na które padła zgoda (dowód RODO art. 7).
+      function purposesStr(analytics, marketing) {
+        var p = ['necessary'];
+        if (analytics) p.push('analytics');
+        if (marketing) p.push('marketing');
+        return p.join(',');
+      }
+
       function sendConsentEvent(eventName, extra) {
         try {
           var payload = {
@@ -375,6 +454,8 @@ const { position } = Astro.props;
               : '/'
             ).substring(0, 300),
             device: consentDevice(),
+            device_id: pzDeviceId(),
+            banner_version: BANNER_VERSION,
           };
           if (eventName !== 'consent_shown' && telemetry.shownAt !== null) {
             var ms = Math.round(performance.now() - telemetry.shownAt);
@@ -383,6 +464,9 @@ const { position } = Astro.props;
           if (extra) {
             if (typeof extra.analytics === 'boolean') payload.analytics = extra.analytics;
             if (typeof extra.marketing === 'boolean') payload.marketing = extra.marketing;
+            if (typeof extra.analytics === 'boolean' || typeof extra.marketing === 'boolean') {
+              payload.purposes = purposesStr(!!extra.analytics, !!extra.marketing);
+            }
           }
           var body = JSON.stringify(payload);
           if (navigator && typeof navigator.sendBeacon === 'function') {
@@ -478,17 +562,12 @@ const { position } = Astro.props;
         hideBanner();
       }
 
-      // Modal (2026-07-14): scroll lock – <html>/<body> blokowane na czas decyzji
-      function lockScroll(on) {
-        const root = document.documentElement;
-        const body = document.body;
-        if (on) {
-          root.classList.add('pz-consent-open');
-          if (body) body.classList.add('pz-consent-open');
-        } else {
-          root.classList.remove('pz-consent-open');
-          if (body) body.classList.remove('pz-consent-open');
-        }
+      // Scroll-lock USUNIĘTY (2026-07-18, owner directive): strona ma być
+      // scrollowalna mimo widocznego banera (baner nadal centralny/uciążliwy,
+      // ale nie blokuje przewijania). Funkcja zostaje jako no-op — call-site'y
+      // (showBanner/hideBanner) bez zmian; klasa .pz-consent-open już niepotrzebna.
+      function lockScroll(_on) {
+        // celowo puste — brak blokady scrolla
       }
 
       function hideBanner() {
@@ -505,10 +584,12 @@ const { position } = Astro.props;
         const banner = document.getElementById('pz-consent-banner');
         if (!banner) return;
 
+        // „Allegro style": przełączniki analityki/marketingu domyślnie WYŁĄCZONE
+        // (zgoda per kategoria = świadome włączenie; accept-all robi górny przycisk).
         const a = document.getElementById('pz-consent-analytics');
         const m = document.getElementById('pz-consent-marketing');
-        if (a) a.checked = true;
-        if (m) m.checked = true;
+        if (a) a.checked = false;
+        if (m) m.checked = false;
 
         banner.classList.remove('pz-banner--hidden');
         lockScroll(true);
@@ -536,7 +617,7 @@ const { position } = Astro.props;
         if (acceptBtn)
           acceptBtn.onclick = function () {
             telemetry.decided = true;
-            sendConsentEvent('consent_accept');
+            sendConsentEvent('consent_accept', { analytics: true, marketing: true });
             setConsent(true, true);
           };
         if (settingsBtn)

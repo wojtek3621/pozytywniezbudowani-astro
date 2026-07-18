@@ -115,5 +115,11 @@ export function validateZPayload(raw) {
     outbound_host: str(o.outbound_host, 255),
     link_text: str(o.link_text, 120),
     is_checkout: o.is_checkout === 1 || o.is_checkout === true ? 1 : 0,
+    // Env-sygnały detekcji botów (Warstwa 2, misja jakosc-ruchu 2026-07-18) — MIĘKKIE.
+    // webdriver: 1/0/null; webgl_renderer: string (np. 'software'/'none'/GPU); languages_count: int.
+    // ua_is_bot NIE jest przyjmowane od klienta — Worker liczy je na edge (isbot).
+    webdriver: o.webdriver === 1 || o.webdriver === true ? 1 : o.webdriver === 0 || o.webdriver === false ? 0 : null,
+    webgl_renderer: str(o.webgl_renderer, 120),
+    languages_count: intIn(o.languages_count, 50),
   };
 }

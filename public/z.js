@@ -148,6 +148,35 @@
     } catch (e) { return null; }
   }
 
+  // ── Sygnały detekcji botów (Warstwa 2, MIĘKKIE — misja jakosc-ruchu 2026-07-18) ──
+  // navigator.webdriver: 1 automat / 0 przeglądarka / null gdy brak API.
+  function webdriverFlag() {
+    try {
+      if (navigator.webdriver === true) return 1;
+      if (typeof navigator.webdriver === 'boolean') return 0;
+      return null;
+    } catch (e) { return null; }
+  }
+  // WebGL renderer: 'software' (SwiftShader/llvmpipe = tell headless), 'none' (brak WebGL),
+  // 'masked' (ekstensja debug niedostępna) albo realny string GPU. NIGDY jako fingerprint.
+  function webglRenderer() {
+    try {
+      var cv = document.createElement('canvas');
+      var gl = cv.getContext('webgl') || cv.getContext('experimental-webgl');
+      if (!gl) return 'none';
+      var dbg = gl.getExtension('WEBGL_debug_renderer_info');
+      if (!dbg) return 'masked';
+      var r = String(gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) || '');
+      if (!r) return 'masked';
+      if (/swiftshader|llvmpipe|software|mesa offscreen|microsoft basic render/i.test(r)) return 'software';
+      return r.slice(0, 100);
+    } catch (e) { return null; }
+  }
+  // Liczba języków (navigator.languages) — 0 = częsty tell headless.
+  function languagesCount() {
+    try { return (navigator.languages && navigator.languages.length) || 0; } catch (e) { return null; }
+  }
+
   var DID = deviceId(), SID = sessionId(), FP = fingerprint();
   var pageStart = Date.now(), maxScroll = 0, activeMs = 0, lastActive = Date.now();
 
@@ -169,7 +198,11 @@
       hardware_concurrency: navigator.hardwareConcurrency || null,
       device_memory: navigator.deviceMemory || null,
       connection_type: (navigator.connection && navigator.connection.effectiveType) || null,
-      device_class: deviceClass()
+      device_class: deviceClass(),
+      // env-sygnały detekcji botów (miękkie; fingerprint NIGDY nie jest sygnałem bota)
+      webdriver: webdriverFlag(),
+      webgl_renderer: webglRenderer(),
+      languages_count: languagesCount()
     };
   }
 
