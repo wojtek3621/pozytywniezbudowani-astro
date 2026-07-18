@@ -21,6 +21,7 @@ import {
   validateConsentPayload,
   CONSENT_MAX_PAYLOAD_BYTES,
 } from '../functions/api/_consent-beacon-validator.mjs';
+import { validateZPayload, Z_MAX_PAYLOAD_BYTES } from '../functions/api/_z-beacon-validator.mjs';
 
 interface Env {
   PERF_TELEMETRY: D1Database;
@@ -213,6 +214,115 @@ async function handleConsentBeaconPost(request: Request, env: Env): Promise<Resp
   return new Response(null, { status: 204, headers: CORS_HEADERS });
 }
 
+/**
+ * POST /api/z – first-party behavioral collector (misja „analityka-atrybucja"
+ * 2026-07-18, aios-workspace/builds/2026-07-18-analityka-atrybucja/).
+ *
+ * Osobny, RÓWNOLEGŁY system do beaconu zgód (reguła A: consent-beacon nietknięty).
+ * Zbiera zachowanie first-party: page_view / page_leave / click_out z device_id,
+ * session_id, fingerprintem, utm/referrer, sygnałami urządzenia. Worker DOKŁADA
+ * sygnały server-side z request.cf (IP, kraj/ASN, TLS, RTT, JA3/bot jeśli plan daje)
+ * — czytane defensywnie (null gdy brak). Reguła B: to nasza infra (D1→tracking.db),
+ * NIC nie leci do zewnętrznych narzędzi. Sync: aios-workspace/automation/pz_tracking_d1_sync.py.
+ */
+async function handleZBeaconPost(request: Request, env: Env): Promise<Response> {
+  const contentLength = request.headers.get('content-length');
+  if (contentLength && parseInt(contentLength, 10) > Z_MAX_PAYLOAD_BYTES) {
+    return textResponse('Payload too large', 413);
+  }
+
+  let body: string;
+  try {
+    body = await request.text();
+  } catch {
+    return textResponse('Invalid body', 400);
+  }
+
+  if (new TextEncoder().encode(body).length > Z_MAX_PAYLOAD_BYTES) {
+    return textResponse('Payload too large', 413);
+  }
+
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(body);
+  } catch {
+    return textResponse('Invalid JSON', 400);
+  }
+
+  const p = validateZPayload(parsed);
+  if (!p) {
+    return textResponse('Invalid payload schema', 400);
+  }
+
+  if (!env.PERF_TELEMETRY) {
+    return textResponse('Database binding missing', 500);
+  }
+
+  // Server-side enrichment z request.cf + nagłówków. Wszystko defensywnie:
+  // pola nieobecne na naszym planie CF (ja3Hash, botManagement) → null.
+  const cf = (request.cf ?? {}) as Record<string, unknown>;
+  const asNum = (v: unknown): number | null =>
+    typeof v === 'number' && Number.isFinite(v) ? Math.round(v) : null;
+  const asStr = (v: unknown, max: number): string | null =>
+    typeof v === 'string' && v.length ? v.slice(0, max) : null;
+  const botMgmt = (cf.botManagement ?? {}) as Record<string, unknown>;
+
+  try {
+    await env.PERF_TELEMETRY.prepare(
+      `INSERT OR IGNORE INTO track_events (
+        event_uid, site, ts, received_at, event_type,
+        device_id, session_id, fingerprint,
+        path, query, referrer, referrer_host, title,
+        utm_source, utm_medium, utm_campaign, utm_term, utm_content,
+        nlt, pxid,
+        screen_w, screen_h, viewport_w, viewport_h, device_pixel_ratio,
+        language, timezone, hardware_concurrency, device_memory,
+        connection_type, device_class,
+        time_on_page_ms, active_time_ms, max_scroll_pct,
+        outbound_url, outbound_host, link_text, is_checkout,
+        ip, user_agent, accept_language,
+        country, region, city, postal_code,
+        asn, as_org, colo,
+        http_protocol, tls_version, tls_cipher, client_tcp_rtt,
+        ja3_hash, bot_score
+      ) VALUES (
+        ?, ?, ?, ?, ?,  ?, ?, ?,  ?, ?, ?, ?, ?,  ?, ?, ?, ?, ?,  ?, ?,
+        ?, ?, ?, ?, ?,  ?, ?, ?, ?,  ?, ?,  ?, ?, ?,  ?, ?, ?, ?,
+        ?, ?, ?,  ?, ?, ?, ?,  ?, ?, ?,  ?, ?, ?, ?,  ?, ?
+      )`
+    )
+      .bind(
+        p.event_uid, p.site, p.ts, new Date().toISOString(), p.event_type,
+        p.device_id, p.session_id, p.fingerprint,
+        p.path, p.query, p.referrer, p.referrer_host, p.title,
+        p.utm_source, p.utm_medium, p.utm_campaign, p.utm_term, p.utm_content,
+        p.nlt, p.pxid,
+        p.screen_w, p.screen_h, p.viewport_w, p.viewport_h, p.device_pixel_ratio,
+        p.language, p.timezone, p.hardware_concurrency, p.device_memory,
+        p.connection_type, p.device_class,
+        p.time_on_page_ms, p.active_time_ms, p.max_scroll_pct,
+        p.outbound_url, p.outbound_host, p.link_text, p.is_checkout,
+        request.headers.get('cf-connecting-ip'),
+        (request.headers.get('user-agent') ?? '').slice(0, 400) || null,
+        (request.headers.get('accept-language') ?? '').slice(0, 100) || null,
+        asStr(cf.country, 3), asStr(cf.region, 80), asStr(cf.city, 120), asStr(cf.postalCode, 20),
+        asNum(cf.asn), asStr(cf.asOrganization, 120), asStr(cf.colo, 10),
+        asStr(cf.httpProtocol, 20), asStr(cf.tlsVersion, 20), asStr(cf.tlsCipher, 60),
+        asNum(cf.clientTcpRtt),
+        asStr(botMgmt.ja3Hash, 64), asNum(botMgmt.score)
+      )
+      .run();
+  } catch (error) {
+    const err = error as Error;
+    const name = typeof err?.name === 'string' ? err.name : 'UnknownError';
+    const message = typeof err?.message === 'string' ? err.message.substring(0, 500) : '';
+    console.error('z-beacon: D1 insert failed', { name, message });
+    return textResponse('Database error', 500);
+  }
+
+  return new Response(null, { status: 204, headers: CORS_HEADERS });
+}
+
 function jsonResponse(body: Record<string, unknown>, status: number): Response {
   return new Response(JSON.stringify(body), {
     status,
@@ -342,6 +452,16 @@ export default {
       }
       if (request.method === 'POST') {
         return handleConsentBeaconPost(request, env);
+      }
+      return textResponse('Method not allowed', 405);
+    }
+
+    if (url.pathname === '/api/z') {
+      if (request.method === 'OPTIONS') {
+        return new Response(null, { status: 204, headers: CORS_HEADERS });
+      }
+      if (request.method === 'POST') {
+        return handleZBeaconPost(request, env);
       }
       return textResponse('Method not allowed', 405);
     }

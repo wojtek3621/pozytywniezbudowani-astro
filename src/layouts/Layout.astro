@@ -81,5 +81,11 @@ const { language, textDirection } = I18N;
 
     <ConsentBanner position="body" />
     <BasicScripts />
+
+    <!-- Kolektor behawioralny first-party (misja „analityka-atrybucja" 2026-07-18) →
+         same-origin POST /api/z (Worker → D1 → tracking.db). OSOBNY system od beaconu
+         zgód (reguła A). Reguła B: dane wyłącznie na naszą infra, nic do zewnętrznych
+         narzędzi — dlatego działa też przed zgodą. Non-blocking (defer, sendBeacon). -->
+    <script src="/z.js" defer is:inline></script>
   </body>
 </html>
