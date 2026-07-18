@@ -1,16 +1,17 @@
 ---
-// Landing lead magnetu – moduł „Budowa bez niespodzianek" (budżet budowy online).
-// Misja M2 „Otwarcie Centrum" (2026-07-18): rejestracja darmowych kont na
-// platformie (BBN_SIGNUP_ENABLED=1). CTA → platforma.pozytywniezbudowani.pl/budowa/start.
+// Strona Centrum Dowodzenia Budową (M3, 2026-07-18 – rozbudowa landing-u M2):
+// co to jest, wszystkie moduły platformy, jak założyć konto. Brief:
+// aios-workspace/builds/2026-07-17-pz-strategia-ekosystemu/04-koncepcja-strony.md.
+// CTA → platforma.pozytywniezbudowani.pl/budowa/start (BBN_SIGNUP_ENABLED=1).
 // Rodowód liczby 65%: Oferteo 2018, N=1082 (aios-workspace/builds/
 // 2026-07-17-pz-strategia-ekosystemu/research/01-bolaczki-budujacych.md).
-// Strona indeksowana (lead magnet); nawigacja NIEtknięta (rebranding = M3).
+// Nazwa „Centrum Dowodzenia Budową" – decyzja D2 (sign-off 2026-07-18).
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Centrum dowodzenia budową – darmowy budżet budowy online | Pozytywnie Zbudowani',
+  title: 'Centrum Dowodzenia Budową – prowadźcie budowę w jednym miejscu | Pozytywnie Zbudowani',
   description:
-    'Prowadźcie budżet budowy domu w jednym miejscu: plan z ofert wykonawców, rejestr wydatków i mapa budowy. Darmowe konto – wystarczy adres e-mail.',
+    'Jedno darmowe konto do całej budowy: budżet z mapą budowy, kalkulatory, materiały do książki, wzory dokumentów i społeczność budujących. Wystarczy adres e-mail.',
 };
 
 const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
@@ -20,14 +21,17 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
   <!-- HERO -->
   <section class="bg-slate-900 py-16 md:py-20">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-      <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">Bezpłatne narzędzie online</p>
+      <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">
+        Jedno konto, cała budowa – za darmo na start
+      </p>
       <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-5">
-        Wasza budowa w liczbach, nie w domysłach
+        Centrum Dowodzenia Budową
       </h1>
       <p class="text-lg text-slate-300 leading-relaxed mb-8">
-        Moduł „Budowa bez niespodzianek" prowadzi budżet Waszej budowy w jednym miejscu: plan z ofert
-        wykonawców, każdy wydatek i mapa budowy, która jednym rzutem oka pokazuje, jak stoicie.
-        Bez Excela, bez instalowania – tak samo na telefonie i laptopie.
+        Miejsce, w którym prowadzicie swoją budowę: budżet z mapą budowy, kalkulatory, materiały
+        do książki, wzory dokumentów i społeczność ludzi, którzy budują równolegle z Wami.
+        Sercem Centrum jest darmowy moduł „Budowa bez niespodzianek" – Wasza budowa w liczbach,
+        nie w domysłach. Bez Excela, bez instalowania – tak samo na telefonie i laptopie.
       </p>
       <a
         href={SIGNUP_URL}
@@ -67,7 +71,7 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
   <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-10 font-display text-center">
-        Co dostajecie w module
+        Co dostajecie w module budżetu
       </h2>
       <div class="grid md:grid-cols-3 gap-8">
         <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm">
@@ -99,8 +103,68 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
     </div>
   </section>
 
-  <!-- JAK ZACZĄĆ -->
+  <!-- WSZYSTKIE MODUŁY CENTRUM -->
   <section class="py-12 md:py-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-3 font-display text-center">
+        Jedno konto, całe Centrum
+      </h2>
+      <p class="text-muted text-lg text-center max-w-3xl mx-auto mb-10">
+        Budżet budowy to serce Centrum – ale to samo konto otwiera resztę. Po zalogowaniu widzicie
+        wszystkie moduły na jednym pulpicie, z uczciwą informacją, co macie, a co możecie mieć.
+      </p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6">
+          <p class="text-xs font-bold uppercase tracking-wider text-primary mb-2">Za darmo dla każdego</p>
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Budowa bez niespodzianek</h3>
+          <p class="text-muted">
+            Budżet budowy z mapą, planem z ofert i rejestrem wydatków – pełny moduł, nie okrojona
+            wersja pokazowa. Opisany wyżej.
+          </p>
+        </div>
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6">
+          <p class="text-xs font-bold uppercase tracking-wider text-primary mb-2">Za darmo dla każdego</p>
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Narzędzia i kalkulatory</h3>
+          <p class="text-muted">
+            Dziewięć narzędzi: rata i nadpłata kredytu, prawdziwy koszt budowy, checklisty. Każdy
+            kalkulator przeszedł niezależną weryfikację matematyczną – policzcie, zanim podpiszecie.
+          </p>
+        </div>
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6">
+          <p class="text-xs font-bold uppercase tracking-wider text-secondary mb-2">Dla czytelników książki</p>
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Materiały do książki</h3>
+          <p class="text-muted">
+            20 lekcji z checklistami, wideo i plikami roboczymi – rozdział po rozdziale, od marzenia
+            po budowę. Dostęp dostaje każdy czytelnik
+            <a href="/ksiazka" class="text-secondary underline">„Od marzenia do wprowadzenia"</a>.
+          </p>
+        </div>
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6">
+          <p class="text-xs font-bold uppercase tracking-wider text-secondary mb-2">Papiery budowy</p>
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Pakiet Prawny</h3>
+          <p class="text-muted">
+            20 wzorów umów i protokołów na każdy etap budowy – od umowy z wykonawcą po protokoły
+            odbioru. Do kupienia osobno; członkowie Społeczności mają go w cenie członkostwa.
+          </p>
+        </div>
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 md:col-span-2">
+          <p class="text-xs font-bold uppercase tracking-wider text-secondary mb-2">Nabór w oknach, 2 razy w roku</p>
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Społeczność</h3>
+          <p class="text-muted">
+            Zamknięte forum budujących z gospodarzem-praktykiem: kategorie od działki po ogród,
+            dzienniki budowy, webinary na żywo. Ofertę i cennik znajdziecie
+            <a
+              href="https://platforma.pozytywniezbudowani.pl/spolecznosc"
+              class="text-secondary underline">na stronie Społeczności</a
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JAK ZACZĄĆ -->
+  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
     <div class="max-w-3xl mx-auto px-4 sm:px-6">
       <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-8 font-display text-center">
         Jak zaczynacie – trzy kroki
@@ -124,10 +188,11 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
             >2</span
           >
           <div>
-            <p class="font-bold dark:text-white mb-1">Odpowiadacie na jedno pytanie</p>
+            <p class="font-bold dark:text-white mb-1">Wchodzicie prosto na mapę budowy</p>
             <p class="text-muted">
-              „Gdzie jesteście?" – marzycie, planujecie, budujecie? Moduł dopasowuje się do Waszego etapu,
-              zamiast wciskać wszystkim to samo.
+              Bez ankiet i konfiguracji – od razu widzicie 12 etapów drogi do własnego domu. Moduł sam
+              rozpoznaje po Waszych wpisach, czy marzycie, planujecie, czy budujecie – i dopasowuje się
+              do etapu, zamiast wciskać wszystkim to samo.
             </p>
           </div>
         </li>
@@ -149,7 +214,7 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
   </section>
 
   <!-- OD AUTORA -->
-  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
+  <section class="py-12 md:py-16">
     <div class="max-w-3xl mx-auto px-4 sm:px-6">
       <h2 class="text-2xl font-bold dark:text-white mb-4 font-display">Kto za tym stoi</h2>
       <p class="text-muted text-lg mb-4">

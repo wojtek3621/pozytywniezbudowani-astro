@@ -1,7 +1,15 @@
 import { getPermalink, getBlogPermalink } from './utils/permalinks';
 
+// Nawigacja główna wg koncepcji strony-bramy (M3, 2026-07-18; strategia
+// ekosystemu 04-koncepcja-strony §2): max 5 pozycji — Centrum · Książka ·
+// Blog · O mnie (+ docelowo Sztab Budowy, czeka na decyzję nazwy W4).
+// Sklep / Kontakt / Media mieszkają w stopce — nie rozpychamy menu.
 export const headerData = {
   links: [
+    {
+      text: 'Centrum',
+      href: getPermalink('/centrum'),
+    },
     {
       text: 'Książka',
       href: getPermalink('/ksiazka'),
@@ -11,23 +19,11 @@ export const headerData = {
       href: getBlogPermalink(),
     },
     {
-      text: 'Sklep',
-      href: getPermalink('/sklep'),
-    },
-    {
       text: 'O mnie',
       href: getPermalink('/o-mnie'),
     },
-    {
-      text: 'Kontakt',
-      href: getPermalink('/kontakt'),
-    },
-    {
-      text: 'Media',
-      href: getPermalink('/media'),
-    },
   ],
-  actions: [{ text: 'Logowanie', href: 'https://platforma.pozytywniezbudowani.pl/wp-login.php', target: '_blank' }],
+  actions: [{ text: 'Logowanie', href: 'https://platforma.pozytywniezbudowani.pl/', target: '_blank' }],
 };
 
 export const footerData = {
@@ -39,10 +35,12 @@ export const footerData = {
     {
       title: 'Informacje',
       links: [
+        { text: 'Centrum Dowodzenia Budową', href: getPermalink('/centrum') },
         { text: 'O mnie', href: getPermalink('/o-mnie') },
         { text: 'Książka', href: getPermalink('/ksiazka') },
-        { text: 'Kontakt', href: getPermalink('/kontakt') },
         { text: 'Sklep', href: getPermalink('/sklep') },
+        { text: 'Kontakt', href: getPermalink('/kontakt') },
+        { text: 'Media', href: getPermalink('/media') },
       ],
     },
     {
