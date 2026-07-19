@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T17:18:40
-order: 17
+order: 18
 updateDate: 2026-06-01T19:11:41
 title: 'Okna PCV, drewniane czy aluminiowe – jak wybrać do domu'
 excerpt: 'Decyzja o materiale okien zostanie z Wami na 30–50 lat. Pokażę Wam, czym naprawdę różnią się PCV, drewno i aluminium oraz jak wybrać świadomie.'

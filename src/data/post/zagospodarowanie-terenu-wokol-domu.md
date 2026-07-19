@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:59:38
-order: 33
+order: 34
 updateDate: 2026-06-01T18:59:38
 title: 'Zagospodarowanie terenu wokół domu – kompletny przewodnik'
 excerpt: 'Większość kosztownych błędów w ogrodzie powstaje, zanim w ogóle pomyślicie o trawniku. Pokażę Wam, kiedy i co trzeba zaplanować.'

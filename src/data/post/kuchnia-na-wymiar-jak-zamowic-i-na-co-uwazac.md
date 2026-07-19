@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T18:04:57
-order: 27
+order: 28
 updateDate: 2026-06-01T19:49:56
 title: 'Kuchnia na wymiar – jak zamówić i na co uważać'
 excerpt: 'Kuchnia na wymiar to często największa pojedyncza pozycja w wykończeniówce. Pokażę Wam, gdzie warto dopłacić, a gdzie spokojnie można odpuścić.'

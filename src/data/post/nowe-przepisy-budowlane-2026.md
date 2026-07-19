@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-17T21:54:16
-order: 12
-updateDate: 2026-05-17T21:54:16
+order: 13
+updateDate: 2026-07-19T18:00:00
 title: 'Nowe przepisy budowlane 2026 – co się zmienia dla inwestora'
 excerpt: 'Co realnie zmieniło się w przepisach budowlanych w 2026 roku i jak te zmiany wpłyną na Waszą budowę – od warunków zabudowy po odbiór końcowy.'
 image: '~/assets/images/blog/nowe-przepisy-budowlane-2026.jpeg'
@@ -56,7 +56,7 @@ metadata:
 
 <p>Polska wdraża tę dyrektywę stopniowo. Aktualne wymagania techniczne, czyli rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002 roku w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie, w wersji obowiązującej od 1 stycznia 2021 roku (potocznie zwanej WT2021), nadal stanowi punkt odniesienia. Maksymalne wartości współczynnika przenikania ciepła Uc dla ścian zewnętrznych wynoszą 0,20 W/(m²·K), dla dachów 0,15 W/(m²·K), a dla okien 0,9 W/(m²·K).</p>
 
-<p>To są wymagania dosyć ambitne i większość budowanych dziś domów jednorodzinnych je spełnia – ale tylko wtedy, gdy świadomie zadbano o to na etapie projektu i wykonawstwa. W 2026 roku w Polsce pojawiają się projekty zmian zaostrzających te wymagania – w kierunku tzw. <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">WT2026</a> lub WT2030, czyli kolejnego kroku w stronę budynku zeroemisyjnego. Konkretne progi mogą się jeszcze zmieniać, dlatego nie podaję tutaj liczb, których nie chcę zmyślać. Tendencja jest jednak jasna – wymagania będą zaostrzane, a koszt spełnienia ich rośnie.</p>
+<p>To są wymagania dosyć ambitne i większość budowanych dziś domów jednorodzinnych je spełnia – ale tylko wtedy, gdy świadomie zadbano o to na etapie projektu i wykonawstwa. Równolegle trwają prace nad zupełnie nowym rozporządzeniem o warunkach technicznych (tzw. WT2026), które ma zastąpić obecne najpóźniej 20 września 2026 r. Wbrew obiegowym opiniom projekt nie zaostrza na wejściu ani wartości EP, ani współczynników U – realne zaostrzenia mają horyzont 2030 r. Skąd się wzięła ta data, co dokładnie zawiera projekt i które przepisy obowiązują konkretną budowę – to rozbieram szczegółowo, z paragrafami i źródłami, w <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">artykule filarowym o WT2026</a>.</p>
 
 <p>Co to oznacza dla Was praktycznie? Po pierwsze – jeżeli właśnie wybieracie projekt domu, sprawdźcie, w jakiej wersji warunków technicznych został on zaprojektowany. Projekty sprzed kilku lat mogą wymagać aktualizacji izolacji, okien czy systemu ogrzewania, żeby spełnić aktualne wymagania. Po drugie – inwestycja w lepszą izolację dziś to nie tylko niższe rachunki za ogrzewanie, ale również wyższa wartość Waszego domu na rynku wtórnym, gdzie z roku na rok coraz mocniej liczy się charakterystyka energetyczna budynku.</p>
 

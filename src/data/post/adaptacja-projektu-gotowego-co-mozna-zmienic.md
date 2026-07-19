@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-10T17:50:41
-updateDate: 2026-01-11T18:54:36
+updateDate: 2026-07-19T18:00:00
 title: 'Adaptacja projektu gotowego – co można zmienić i ile to kosztuje'
 excerpt: 'Projekt gotowy to dopiero punkt wyjścia. Możecie zmienić więcej, niż myślicie – ale nie wszystko warto zmieniać...'
 image: '~/assets/images/blog/adaptacja-projektu-gotowego-co-mozna-zmienic.jpeg'
@@ -26,7 +26,7 @@ metadata:
 
 <p style="text-align: justify;">Zanim przejdziemy do konkretów, muszę Wam wyjaśnić jedną ważną rzecz. Adaptacja projektu gotowego to nie opcja, którą możecie wybrać lub pominąć. To obowiązkowy etap, bez którego nie uzyskacie pozwolenia na budowę. Każdy projekt gotowy, nawet ten, który pasuje do Waszej działki jak ulał, musi przejść przez ręce architekta adaptującego.</p>
 
-<p style="text-align: justify;">Dlaczego? Bo projekt gotowy powstał w próżni. Jego autorzy nie wiedzieli, gdzie stanie budynek, jaki grunt znajduje się pod powierzchnią działki, jakie są lokalne warunki klimatyczne i co wynika z miejscowego planu zagospodarowania przestrzennego. Architekt adaptujący nanosi projekt na Waszą konkretną działkę, uwzględnia wszystkie lokalne uwarunkowania i staje się współautorem projektu budowlanego. Od tego momentu to on bierze odpowiedzialność za zgodność dokumentacji z przepisami i za to, że dom można na tej działce wybudować.</p>
+<p style="text-align: justify;">Dlaczego? Bo projekt gotowy powstał w próżni. Jego autorzy nie wiedzieli, gdzie stanie budynek, jaki grunt znajduje się pod powierzchnią działki, jakie są lokalne warunki klimatyczne i co wynika z miejscowego planu zagospodarowania przestrzennego. Architekt adaptujący nanosi projekt na Waszą konkretną działkę, uwzględnia wszystkie lokalne uwarunkowania i staje się współautorem projektu budowlanego. Od tego momentu to on bierze odpowiedzialność za zgodność dokumentacji z przepisami – w tym z <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">warunkami technicznymi</a> obowiązującymi w dniu składania wniosku – i za to, że dom można na tej działce wybudować.</p>
 
 <p style="text-align: justify;">Adaptacja składa się z dwóch części. Pierwsza to tzw. zakres obowiązkowy, który obejmuje dostosowanie projektu do warunków na działce i sporządzenie projektu zagospodarowania terenu. Druga to tzw. życzenia inwestora, czyli zmiany, które chcecie wprowadzić, żeby dom lepiej odpowiadał Waszym potrzebom. I właśnie ta druga część jest przedmiotem tego artykułu.</p>
 

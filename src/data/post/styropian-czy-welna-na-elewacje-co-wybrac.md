@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T17:57:59
-order: 16
+order: 17
 updateDate: 2026-05-31T16:12:04
 title: 'Styropian czy wełna na elewację – co wybrać do domu'
 excerpt: 'Stan surowy zamknięty, czas na ocieplenie. Styropian czy wełna? Decyzja, która rzutuje na komfort, rachunki i bezpieczeństwo Waszego domu na dekady.'

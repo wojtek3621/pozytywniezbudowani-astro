@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T17:59:09
-order: 28
+order: 29
 updateDate: 2026-05-17T21:27:16
 title: 'Tynki cementowo-wapienne czy gipsowe? Praktyczny przewodnik'
 excerpt: 'Pytanie „gips czy cement-wapno" jest źle zadane. Na większości budów stosuje się jedno i drugie – pytanie tylko gdzie.'

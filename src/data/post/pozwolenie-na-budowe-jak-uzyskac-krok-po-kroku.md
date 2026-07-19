@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-02-04T12:16:11
-order: 11
-updateDate: 2026-02-04T12:21:34
+order: 12
+updateDate: 2026-07-19T18:00:00
 title: 'Pozwolenie na budowę - jak uzyskać krok po kroku'
 excerpt: 'Pozwolenie na budowę to pierwszy poważny egzamin przed Waszą budową. Pokażę Wam, jak go zdać za pierwszym podejściem.'
 image: '~/assets/images/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku.jpeg'
@@ -44,7 +44,7 @@ metadata:
 
 <p style="text-align: justify;">Od nowelizacji Prawa budowlanego w 2020 roku projekt budowlany składa się z trzech odrębnych części. Pierwsza to projekt zagospodarowania działki lub terenu, w skrócie PZT. To mapa pokazująca, gdzie dokładnie na działce stanie dom, jak będą poprowadzone przyłącza mediów, gdzie będzie wjazd na posesję i jak ukształtowany będzie teren. PZT musi być sporządzony na aktualnej mapie do celów projektowych, którą zamawiacie u <a href="/blog/geodeta-na-budowie-kiedy-jest-potrzebny">geodety</a>. I tu ważna uwaga – mapa do celów projektowych to nie to samo co mapa zasadnicza. Mapa zasadnicza pokazuje stan istniejący, natomiast mapa do celów projektowych jest aktualizowana specjalnie pod Wasz projekt i zawiera dodatkowe elementy potrzebne architektowi.</p>
 
-<p style="text-align: justify;">Druga część to projekt architektoniczno-budowlany, czyli to, co zazwyczaj kojarzy się ludziom z projektem domu. Rzuty kondygnacji, przekroje, elewacje, opis techniczny, charakterystyka energetyczna. Tu architekt adaptujący dostosowuje projekt gotowy do Waszej działki, do warunków zabudowy lub MPZP, do Waszych indywidualnych wymagań. Często na tym etapie wprowadza się zmiany – przesuwa okna, modyfikuje układ pomieszczeń, zmienia nachylenie dachu.</p>
+<p style="text-align: justify;">Druga część to projekt architektoniczno-budowlany, czyli to, co zazwyczaj kojarzy się ludziom z projektem domu. Rzuty kondygnacji, przekroje, elewacje, opis techniczny, charakterystyka energetyczna. Tu architekt adaptujący dostosowuje projekt gotowy do Waszej działki, do warunków zabudowy lub MPZP, do aktualnych <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">warunków technicznych</a> i do Waszych indywidualnych wymagań. Często na tym etapie wprowadza się zmiany – przesuwa okna, modyfikuje układ pomieszczeń, zmienia nachylenie dachu.</p>
 
 <p style="text-align: justify;">Trzecia część to projekt techniczny. I tu jest haczyk – projektu technicznego nie składacie razem z wnioskiem o pozwolenie na budowę. Ten dokument musi być gotowy przed rozpoczęciem robót budowlanych, ale nie jest zatwierdzany przez urząd. Projektant składa tylko oświadczenie, że projekt techniczny został sporządzony. W praktyce oznacza to, że możecie uzyskać pozwolenie na budowę, nie mając jeszcze gotowych szczegółowych rozwiązań konstrukcyjnych czy instalacyjnych. Brzmi to jak ułatwienie, ale bywa też pułapką – niektórzy inwestorzy odkrywają na budowie, że projekt techniczny wymaga zmian, które trudno pogodzić z już zatwierdzonym projektem architektoniczno-budowlanym.</p>
 

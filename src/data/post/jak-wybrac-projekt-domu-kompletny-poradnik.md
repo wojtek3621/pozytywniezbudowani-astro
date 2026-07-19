@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-25T08:59:37
-order: 5
-updateDate: 2026-05-25T08:59:37
+order: 6
+updateDate: 2026-07-19T18:00:00
 title: 'Jak wybrać projekt domu – kompletny poradnik 2026'
 excerpt: 'Wybór projektu domu zdecyduje nie tylko o tym, jak będzie wyglądał Wasz dom, ale jak będzie się w nim żyło przez 30 lat. Pokazuję, jak zrobić to świadomie.'
 image: '~/assets/images/blog/jak-wybrac-projekt-domu-kompletny-poradnik.jpeg'
@@ -140,7 +140,7 @@ metadata:
 
 <p><strong>Dom za duży „na zapas".</strong> Kuszące jest myślenie: „Wybudujemy 200 metrów, bo nigdy nie wiadomo, może rodzina się powiększy, może rodzice z nami zamieszkają". Tymczasem dom za duży to dom za drogi w budowie i za drogi w utrzymaniu. Każdy dodatkowy metr to dodatkowe kilkaset złotych rocznie kosztu ogrzewania, dodatkowe sprzątanie, dodatkowe meble. Lepiej dobrze zaprojektowane 130 metrów niż przepastne 200 metrów, w których nikt nie wie, jak ustawić meble.</p>
 
-<p><strong>Pominięcie kosztów eksploatacji.</strong> Projekt z dużymi przeszkleniami od północy, z otwartym wysokim salonem, z piwnicą i z dwoma poziomami dachu wygląda spektakularnie, ale generuje konkretny koszt eksploatacji – ogrzewania, klimatyzacji, sprzątania. Przed wyborem warto policzyć, jakie będzie zapotrzebowanie energetyczne, ile metrów elewacji do wykończenia, ile szyb do mycia.</p>
+<p><strong>Pominięcie kosztów eksploatacji.</strong> Projekt z dużymi przeszkleniami od północy, z otwartym wysokim salonem, z piwnicą i z dwoma poziomami dachu wygląda spektakularnie, ale generuje konkretny koszt eksploatacji – ogrzewania, klimatyzacji, sprzątania. Przed wyborem warto policzyć, jakie będzie zapotrzebowanie energetyczne (i czy projekt zmieści się w limitach <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">warunków technicznych</a>), ile metrów elewacji do wykończenia, ile szyb do mycia.</p>
 
 <p><strong>Nieuwzględnienie trybu życia rodziny.</strong> Małżeństwo z dwójką małych dzieci ma inne potrzeby niż para po pięćdziesiątce, której dzieci się wyprowadziły. Ten sam projekt nie pasuje do obu. Z drugiej strony – ten projekt będzie służył Wam przez 30 lat. Spróbujcie wyobrazić sobie życie w nim w różnych etapach: gdy dzieci są małe, gdy są nastolatkami, gdy zostaliście sami z partnerem, gdy zaczęły do Was wracać wnuki na święta.</p>
 
