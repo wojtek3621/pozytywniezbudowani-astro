@@ -245,6 +245,39 @@
     });
   } catch (e) {}
 
+  // is_checkout — czy to kliknięcie prowadzi do ZAKUPU (jedyny taki sygnał w lejku).
+  //
+  // Historia: do 2026-07-19 była tu prosta lista podciągów testowana na całym href.
+  // Nie zawierała realnego hosta sklepu (`pozytywnie-zbudowani.salescrm.pl`) ani
+  // ścieżki koszyka (`/cart/add_product/...`), więc KAŻDE kliknięcie „Kup książkę"
+  // zapisywało się jako zwykłe wyjście — zmierzone na produkcji: 4 z 4 miały 0.
+  //
+  // Dlaczego nie „dopisać salescrm do listy podciągów": test na całym href łapie
+  // za szeroko — `/cart` trafiłoby `/cartography`, a `salescrm` dopasowałoby się
+  // wewnątrz parametru `?next=...`, gdzie host jest zupełnie inny. Dlatego parsujemy
+  // URL i dopasowujemy ODDZIELNIE hosta (po pełnych etykietach domeny) i ścieżkę
+  // (od początku, do granicy segmentu). `not-salescrm.example` i `/cartography`
+  // nie przechodzą; `pozytywnie-zbudowani.salescrm.pl/cart/...` przechodzi.
+  //
+  // ⚠ Zmiana definicji = nieciągłość szeregu czasowego: wzrost is_checkout=1 po
+  // 2026-07-19 znaczy „poprawiono klasyfikator", nie „więcej chęci zakupu".
+  var CHECKOUT_HOSTS =
+    /(^|\.)(salescrm\.pl|imker\.pl|autopay\.pl|przelewy24\.pl|payu\.(pl|com)|stripe\.com|tpay\.com|paypal\.(com|me))$/;
+  var CHECKOUT_PATHS = /^\/(cart|checkout|koszyk|zamowienie|zamowienia|kup|platnosc|platnosci)(\/|$)/;
+  function isCheckout(href) {
+    var u;
+    try {
+      u = new URL(href, location.href);
+    } catch (err) {
+      return 0;
+    }
+    var host = (u.hostname || '').toLowerCase();
+    var path = (u.pathname || '').toLowerCase();
+    if (CHECKOUT_HOSTS.test(host)) return 1;
+    if (/(^|\.)sklep\.pozytywniezbudowani\.pl$/.test(host)) return 1;
+    return CHECKOUT_PATHS.test(path) ? 1 : 0;
+  }
+
   // click_out (outbound + checkout)
   try {
     document.addEventListener('click', function (e) {
@@ -257,7 +290,7 @@
         p.outbound_url = a.href.slice(0, 500);
         p.outbound_host = h;
         p.link_text = (a.textContent || '').trim().slice(0, 120);
-        p.is_checkout = /imker|sklep|zamowien|checkout|\/kup|platnos|przelewy24|payu|stripe|tpay|paypal/i.test(a.href) ? 1 : 0;
+        p.is_checkout = isCheckout(a.href);
         send(p);
       } catch (err) {}
     }, true);
