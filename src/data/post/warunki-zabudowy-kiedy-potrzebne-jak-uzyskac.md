@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-04T15:49:53
-updateDate: 2026-01-04T16:17:16
+updateDate: 2026-07-19T21:00:00
 title: 'Warunki zabudowy - kiedy są potrzebne i jak je uzyskać'
 excerpt: 'Działka bez planu miejscowego? Sprawdź, czy potrzebujesz "wuzetki" i jak ją uzyskać, zanim zmienią się przepisy...'
 image: '~/assets/images/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac.jpeg'
@@ -76,6 +76,8 @@ metadata:
 <h2 style="text-align: justify;">Plany ogólne – rewolucja, która dopiero nadchodzi</h2>
 
 <p style="text-align: justify;">A teraz najważniejsza część tego artykułu. To, co wydarzyło się 1 stycznia 2026 roku – czyli wprowadzenie 5-letniej ważności decyzji – to dopiero początek. Prawdziwa rewolucja wejdzie w życie 1 lipca 2026 roku, gdy zaczną obowiązywać przepisy dotyczące planów ogólnych i obszarów uzupełnienia zabudowy.</p>
+
+<p style="text-align: justify;">Aktualny stan reformy – terminy obowiązujące po wszystkich nowelizacjach, tabelę scenariuszy dla Waszej działki i instrukcję sprawdzenia własnej gminy – znajdziecie w moim <a href="/blog/plan-ogolny-gminy-co-oznacza-dla-wlasciciela-dzialki/">artykule o planie ogólnym gminy</a>.</p>
 
 <p style="text-align: justify;">Plan ogólny to nowy dokument planistyczny, który zastąpi dotychczasowe studium uwarunkowań i kierunków zagospodarowania przestrzennego. W przeciwieństwie do studium, plan ogólny będzie aktem prawa miejscowego – co oznacza, że jego zapisy będą wiążące dla urzędów i mieszkańców. Każda gmina w Polsce musi uchwalić plan ogólny do 30 czerwca 2026 roku. Po tej dacie gminy bez planu ogólnego nie będą mogły wydawać nowych decyzji o warunkach zabudowy ani uchwalać miejscowych planów zagospodarowania przestrzennego.</p>
 

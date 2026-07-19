@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T11:10:26
-order: 14
+order: 15
 updateDate: 2026-07-04T18:30:00
 title: 'Płyta fundamentowa czy ławy – co wybrać?'
 excerpt: 'Płyta czy ławy? Zanim podejmiecie decyzję, sprawdźcie co naprawdę decyduje o wyborze fundamentu.'

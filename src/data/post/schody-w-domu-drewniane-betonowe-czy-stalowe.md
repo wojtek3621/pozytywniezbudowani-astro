@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T19:30:06
-order: 31
+order: 32
 updateDate: 2026-06-01T19:30:06
 title: 'Schody w domu – drewniane, betonowe czy stalowe? Poradnik'
 excerpt: 'Schody to jeden z elementów domu, których nie da się łatwo poprawić po fakcie. Pokazuję, jak wybrać świadomie.'

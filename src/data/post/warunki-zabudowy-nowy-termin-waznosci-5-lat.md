@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-17T21:54:16
-updateDate: 2026-05-17T21:54:16
+updateDate: 2026-07-19T21:00:00
 title: 'Warunki zabudowy 2026 – nowy 5-letni termin ważności'
 excerpt: 'Nowelizacja ustawy o planowaniu przestrzennym wprowadziła 5-letni termin ważności decyzji WZ. Sprawdźcie, co to oznacza dla Waszej budowy.'
 image: '~/assets/images/blog/warunki-zabudowy-nowy-termin-waznosci-5-lat.jpeg'
@@ -65,6 +65,8 @@ metadata:
 <p>Najgorszy scenariusz to taki, w którym między wygaśnięciem starej WZ a wnioskiem o nową gmina uchwala plan ogólny, który zmienia przeznaczenie Waszego terenu. Wtedy może się okazać, że domu, który chcieliście zbudować, na tej działce zbudować już nie można. Albo że można, ale w mniejszym metrażu, niższy, z innym dachem. To nie jest częsta sytuacja, ale spotykana. Dlatego nie warto z budową grać na czas pięciu lat – im więcej rezerwy zostawicie sobie wewnątrz tego okresu, tym mniejsze ryzyko, że ostatnia formalność wymknie się spod kontroli.</p>
 
 <h2>WZ a plan ogólny – nowy element układanki</h2>
+
+<p>Temu, czym dokładnie jest plan ogólny, jakie terminy obowiązują po nowelizacjach i co z tego wynika dla różnych sytuacji działki, poświęciłem osobny <a href="/blog/plan-ogolny-gminy-co-oznacza-dla-wlasciciela-dzialki/">artykuł o planie ogólnym gminy</a> – tutaj skrót najważniejszych zależności.</p>
 
 <p>Reforma planistyczna z 2023 roku to nie tylko termin ważności WZ. Zmieniła się cała logika planowania przestrzennego w Polsce, a kolejne uproszczenia procedur kontynuuje <a href="/blog/ustawa-deregulacyjna-2026-zmiany-w-procesie-budowlanym/">ustawa deregulacyjna 2026</a>. Dotychczasowe studium uwarunkowań i kierunków zagospodarowania zostało zastąpione planem ogólnym gminy. Plan ogólny – w przeciwieństwie do studium – ma moc aktu prawa miejscowego. Oznacza to, że wiąże również osoby trzecie, w tym Was jako inwestorów. WZ wydawane po wejściu reformy w życie muszą być zgodne z planem ogólnym danej gminy, a nie tylko z zasadą dobrego sąsiedztwa, jak miało to miejsce wcześniej.</p>
 

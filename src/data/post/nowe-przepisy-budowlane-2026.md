@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-17T21:54:16
-order: 13
+order: 14
 updateDate: 2026-07-19T18:00:00
 title: 'Nowe przepisy budowlane 2026 – co się zmienia dla inwestora'
 excerpt: 'Co realnie zmieniło się w przepisach budowlanych w 2026 roku i jak te zmiany wpłyną na Waszą budowę – od warunków zabudowy po odbiór końcowy.'

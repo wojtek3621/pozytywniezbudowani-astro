@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-17T21:54:16
-order: 1
+order: 2
 updateDate: 2026-07-19T18:00:00
 title: 'Warunki techniczne 2026 (WT2026) – co obowiązuje, a co jest projektem'
 excerpt: 'Sprawdziłem WT2026 u źródła – w Dzienniku Ustaw i na RCL. Co obowiązuje dziś, co wejdzie 20 września 2026 r. i które przepisy dotyczą Waszej budowy.'

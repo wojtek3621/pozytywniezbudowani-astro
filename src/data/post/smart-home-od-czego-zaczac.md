@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T18:07:19
-order: 32
+order: 33
 updateDate: 2026-06-01T18:53:49
 title: 'Smart home – od czego zacząć w nowym domu'
 excerpt: 'Smart home to nie gadżet, tylko decyzja, którą najlepiej podjąć przed wykonaniem tynków. Pokażę Wam, co przygotować i czego unikać.'

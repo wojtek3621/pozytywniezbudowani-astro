@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T12:53:55
-order: 36
+order: 37
 updateDate: 2026-05-31T12:53:55
 title: 'Co kupić przed rozpoczęciem budowy domu – lista praktyka'
 excerpt: 'Zanim wbijecie łopatę, kilka rzeczy warto kupić wcześniej. Nie zestaw kluczy z marketu – konkretna lista, która oszczędzi Wam stresu i pieniędzy.'

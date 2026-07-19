@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T17:55:09
-order: 10
+order: 11
 updateDate: 2026-02-14T22:40:07
 title: 'Czym ogrzewać dom jednorodzinny – porównanie wszystkich opcji'
 excerpt: 'Gaz, pompa ciepła, prąd – każdy doradzi co innego. Sprawdźcie, co naprawdę się sprawdza i jak podjąć tę decyzję świadomie.'

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T18:03:39
-order: 27
+order: 28
 updateDate: 2026-06-01T20:04:56
 title: 'Wykończenie łazienki krok po kroku – praktyczny przewodnik'
 excerpt: 'Łazienka to najdroższy metr kwadratowy w Waszym domu i jednocześnie pomieszczenie, w którym błąd kosztuje najwięcej. Zobaczcie, jak ułożyć prace.'

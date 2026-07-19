@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-04T15:42:52
-updateDate: 2026-01-04T16:10:19
+updateDate: 2026-07-19T21:00:00
 title: 'MPZP - jak czytać miejscowy plan zagospodarowania przestrzennego'
 excerpt: 'Kolorowa mapa z tajemniczymi symbolami może zadecydować o losach Waszej budowy...'
 image: '~/assets/images/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego.jpeg'
@@ -82,6 +82,8 @@ metadata:
 <p style="text-align: justify;">Nie każda działka w Polsce jest objęta miejscowym planem zagospodarowania przestrzennego. Według danych sprzed kilku lat, plany miejscowe pokrywały nieco poniżej 30% powierzchni kraju – choć w miastach ten odsetek jest znacznie wyższy. Co w sytuacji, gdy dla Waszej wymarzonej działki planu nie ma?</p>
 
 <p style="text-align: justify;">W takim przypadku, aby uzyskać pozwolenie na budowę, musicie najpierw wystąpić o wydanie <a href="https://pozytywniezbudowani.pl/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/">decyzji o warunkach zabudowy</a>, potocznie zwanej WZ-tką lub wuzką. Decyzja ta określa sposób zagospodarowania terenu i warunki zabudowy na podstawie analizy sąsiedztwa – urząd sprawdza, jak zagospodarowane są okoliczne działki, i na tej podstawie ustala parametry dla Waszej inwestycji.</p>
+
+<p style="text-align: justify;">Od 2026 roku zasady wydawania warunków zabudowy zmienia reforma planistyczna – to, czy dostaniecie WZ, zależy coraz częściej od planu ogólnego gminy i obszaru uzupełnienia zabudowy. Stan reformy, terminy i scenariusze dla działki bez planu miejscowego opisuję w <a href="/blog/plan-ogolny-gminy-co-oznacza-dla-wlasciciela-dzialki/">artykule o planie ogólnym gminy</a>.</p>
 
 <p style="text-align: justify;">Tu jednak pojawia się istotna zmiana związana z reformą planowania przestrzennego. Po 1 lipca 2026 roku wydawanie decyzji o warunkach zabudowy będzie możliwe tylko w gminach, które uchwaliły plan ogólny. Jeśli gmina nie zdąży z uchwaleniem planu ogólnego, a dla Waszej działki nie ma MPZP, możecie utknąć w martwym punkcie – bez możliwości uzyskania ani warunków zabudowy, ani pozwolenia na budowę. Termin ten był pierwotnie wyznaczony na 1 stycznia 2026 roku, ale został przesunięty ustawą z kwietnia 2025 roku właśnie po to, by dać gminom więcej czasu na przygotowanie dokumentów.</p>
 

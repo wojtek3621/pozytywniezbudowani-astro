@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-11T15:19:48
-order: 3
+order: 4
 updateDate: 2026-01-11T19:55:58
 title: 'Czy stać mnie na budowę domu? Jak policzyć realny budżet'
 excerpt: 'Rata kredytu hipotecznego nigdy nie przestaje robić wrażenia. Sprawdźcie, czy Wasz budżet to wytrzyma...'
