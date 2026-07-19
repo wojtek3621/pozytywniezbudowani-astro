@@ -1,0 +1,299 @@
+---
+// Landing narzędziowy (M14, 2026-07-19) – drugie wejście do Centrum Dowodzenia
+// Budową, zbudowane dla INNEJ intencji niż /centrum. Na /centrum trafia czytelnik
+// książki i człowiek zainteresowany autorem; tutaj trafia ktoś, kto wpisał w Google
+// „kalkulator raty kredytu" i wylądował na blogu. Decyzja K39 (wariant a):
+// osobny landing, jedno źródło prawdy o produkcie.
+//
+// UCZCIWOŚĆ – stan zweryfikowany empirycznie 2026-07-19, NIE zmyślać na nowo:
+//  * moduł /narzedzia na platformie stoi za `_materials_guard` → wymaga produktu
+//    `materials` (czytelnicy książki). Anonim dostaje 303 na ekran logowania.
+//  * publiczna rejestracja jest WYŁĄCZONA (BBN_SIGNUP_ENABLED=0):
+//    platforma.pozytywniezbudowani.pl/budowa/start → 404.
+//  * w bazie: `materials` = 2102 konta, `bbn` = 2 konta, a `bbn` NIE otwiera narzędzi.
+// Dlatego ta strona NIE MOŻE mówić „załóżcie darmowe konto" ani „policzcie to teraz
+// za darmo" – to byłby dokładnie ten sam błąd, który naprawiała misja LPO
+// (zaproszenie prowadzące w 404). Główne wejście prowadzi na /centrum (HTTP 200,
+// sam mówi „rejestracja wkrótce”), drugie na ekran logowania dla tych, którzy
+// dostęp już mają.
+//
+// LICZBA NARZĘDZI = 9, nie 18. Wsad misji mówił o 18, ale to liczba plików HTML
+// w platforma/content/html/ – z czego 9 to materiały do książki. Rejestr treści
+// (platforma/content/lessons.py → TOOL_SLUGS) ma dokładnie 9 pozycji w module
+// narzędzi i tyle samo deklaruje /centrum („Dziewięć narzędzi”). Zmiana tej liczby
+// = najpierw sprawdź TOOL_SLUGS, potem popraw TU i na /centrum jednocześnie.
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Narzędzia i kalkulatory budowlane – Centrum Dowodzenia Budową | Pozytywnie Zbudowani',
+  description:
+    'Dziewięć narzędzi do policzenia budowy: rata i nadpłata kredytu, transze i karencja, wkład własny, VAT na materiały, prawdziwy koszt inwestycji. Każdy kalkulator zweryfikowany matematycznie.',
+};
+
+// Stan rejestracji – patrz komentarz wyżej. Otwarcie = flip na true RAZEM
+// z BBN_SIGNUP_ENABLED=1 w data/.env i z analogiczną stałą w centrum.astro.
+const SIGNUP_OPEN = false;
+
+const grupy = [
+  {
+    naglowek: 'Kredyt i rata',
+    opis: 'Pięć rachunków, które decydują o tym, ile naprawdę oddacie bankowi.',
+    narzedzia: [
+      {
+        tytul: 'Rata kredytu hipotecznego',
+        opis: 'Rata równa i malejąca obok siebie, z porównaniem całkowitego kosztu – na bazie kwoty, okresu i oprocentowania.',
+      },
+      {
+        tytul: 'Kredyt na 20, 25 czy 30 lat',
+        opis: 'Trzy okresy kredytowania policzone naraz: różnice w racie i w sumie odsetek, w konkretnych złotówkach.',
+      },
+      {
+        tytul: 'Transze i koszt karencji',
+        opis: 'Ile zapłacicie bankowi samych odsetek w trakcie budowy, zanim w ogóle zaczniecie spłacać kapitał.',
+      },
+      {
+        tytul: 'Nadpłata kredytu',
+        opis: 'Skrócenie okresu czy niższa rata – porównanie oszczędności na odsetkach dla obu wariantów nadpłaty.',
+      },
+      {
+        tytul: 'Test wzrostu WIBOR',
+        opis: 'Stress-test budżetu: o ile urośnie rata przy WIBOR wyższym o 1, 2 i 4 punkty procentowe.',
+      },
+    ],
+  },
+  {
+    naglowek: 'Budżet inwestycji',
+    opis: 'Trzy narzędzia od strony pieniędzy, które wychodzą z Waszej kieszeni.',
+    narzedzia: [
+      {
+        tytul: 'Prawdziwy koszt budowy',
+        opis: 'Suma wszystkich składników inwestycji plus odsetki kredytu – ile dom kosztuje od działki po ostatnią ratę.',
+      },
+      {
+        tytul: 'Wkład własny i LTV',
+        opis: 'Ile wkładu macie (działka plus oszczędności), ile brakuje do progu 10% i 20% i jaki kredyt będzie potrzebny.',
+      },
+      {
+        tytul: 'VAT 8% vs 23% na materiały',
+        opis: 'Ile zostaje w kieszeni, gdy wykonawca kupi materiały i rozliczy je z montażem – z proporcją dla domów powyżej 300 m².',
+      },
+    ],
+  },
+  {
+    naglowek: 'Przed pierwszą łopatą',
+    opis: 'To akurat nie jest kalkulator, ale bywa wart więcej niż wszystkie razem.',
+    narzedzia: [
+      {
+        tytul: 'Checklista: start budowy',
+        opis: '16 punktów z książki do odhaczenia na 3–4 tygodnie przed wejściem koparki, z zapisem postępu w przeglądarce.',
+      },
+    ],
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <!-- HERO -->
+  <section class="bg-slate-900 py-16 md:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">Narzędzia w Centrum Dowodzenia Budową</p>
+      <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-5">
+        Dziewięć narzędzi, żeby policzyć budowę
+      </h1>
+      <p class="text-lg text-slate-300 leading-relaxed mb-8">
+        Rata i nadpłata kredytu, koszt karencji przy transzach, wkład własny, VAT na materiałach,
+        prawdziwy koszt całej inwestycji. Zebrane w jednym miejscu, zamiast rozsypane po blogu –
+        i policzone tak, żeby wynik dało się położyć na stole przed doradcą kredytowym.
+      </p>
+      <a
+        href="/centrum/?z=narzedzia-centrum"
+        class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
+      >
+        Zobaczcie, czym jest Centrum
+      </a>
+      <p class="text-sm text-slate-400 mt-4">
+        Narzędzia są częścią Centrum Dowodzenia Budową. Niżej piszę wprost, kto ma do nich dostęp dzisiaj.
+      </p>
+    </div>
+  </section>
+
+  <!-- DLACZEGO NIE NA BLOGU -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-4 font-display">
+        Dlaczego kalkulatory zniknęły z artykułów
+      </h2>
+      <p class="text-muted text-lg mb-4">
+        Przez lata każdy kalkulator mieszkał w osobnym artykule na blogu. Wyglądało to sensownie do
+        momentu, w którym ktoś chciał policzyć budowę naprawdę – wtedy musiał otworzyć siedem zakładek,
+        w każdej wpisać te same dane od nowa i samodzielnie posklejać wyniki.
+      </p>
+      <p class="text-muted text-lg mb-4">
+        Dlatego narzędzia przeniosły się tam, gdzie mają sens: obok siebie, w jednym miejscu, w Centrum.
+        A w artykułach zostało coś, czego kalkulator nigdy nie dawał – <strong>wzór i przeliczony
+        przykład krok po kroku</strong>. Bo narzędzie podaje wynik, a wzór daje zrozumienie, którego
+        nie trzeba nikomu oddawać ani odnawiać.
+      </p>
+      <p class="text-muted text-lg">
+        Jeden wyjątek został na blogu i zostanie tam na stałe: <a
+          href="/blog/jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego/"
+          class="text-secondary underline">kalkulator doboru kabla przyłączeniowego (WLZ)</a
+        >. Jest otwarty dla każdego, bez logowania i bez konta – po prostu wchodzicie i liczycie.
+      </p>
+    </div>
+  </section>
+
+  <!-- LISTA NARZĘDZI -->
+  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-3 font-display text-center">
+        Co dokładnie jest w środku
+      </h2>
+      <p class="text-muted text-lg text-center max-w-3xl mx-auto mb-10">
+        Osiem kalkulatorów i jedna checklista. Każdy kalkulator przeszedł niezależną weryfikację
+        matematyczną – wynik z narzędzia był liczony drugi raz, osobnym programem, i musiał się zgodzić.
+      </p>
+
+      {
+        grupy.map((grupa) => (
+          <div class="mb-10 last:mb-0">
+            <h3 class="text-xl font-bold dark:text-white mb-1 font-display">{grupa.naglowek}</h3>
+            <p class="text-muted mb-5">{grupa.opis}</p>
+            <div class="grid md:grid-cols-2 gap-5">
+              {grupa.narzedzia.map((n) => (
+                <div class="bg-white dark:bg-slate-900 rounded-lg p-5 shadow-sm">
+                  <p class="font-bold dark:text-white mb-2">{n.tytul}</p>
+                  <p class="text-muted text-sm leading-relaxed">{n.opis}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- KTO MA DOSTĘP - UCZCIWIE -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-4 font-display">Kto ma do nich dostęp</h2>
+      <p class="text-muted text-lg mb-4">
+        Napiszę to bez owijania, bo nie znoszę stron, które każą się domyślać. <strong>Dziś Centrum
+        otwierają czytelnicy mojej książki</strong> – konto dostaje każdy, kto kupił „Od marzenia do
+        wprowadzenia", i wchodzi na nie adresem e-mail z zamówienia, bez hasła.
+      </p>
+      {
+        SIGNUP_OPEN ? (
+          <p class="text-muted text-lg mb-4">
+            Rejestracja darmowych kont jest otwarta – wystarczy adres e-mail.
+          </p>
+        ) : (
+          <p class="text-muted text-lg mb-4">
+            <strong>Rejestracja darmowych kont jeszcze nie ruszyła.</strong> Przygotowujemy Centrum do
+            otwarcia i wtedy narzędzia oraz moduł budżetu będą dostępne dla każdego, kto założy konto –
+            bez kupowania czegokolwiek, bez hasła i bez karty. Nie zbieram na to zapisów, więc nie muszę
+            Was prosić o adres e-mail „na później".
+          </p>
+        )
+      }
+      <p class="text-muted text-lg mb-4">
+        Do tego czasu nic nie stoi na przeszkodzie, żeby policzyć wszystko samodzielnie. W artykułach na
+        blogu rozpisałem <strong>te same rachunki co w narzędziach</strong> – wzór, przeliczony przykład
+        i pułapki, w które łatwo wpaść. To nie jest wersja okrojona ani zajawka: kto przejdzie te
+        artykuły, policzy swój kredyt bez żadnego kalkulatora.
+      </p>
+      <div class="bg-slate-50 dark:bg-slate-800 rounded-lg p-6">
+        <p class="font-bold dark:text-white mb-3">Trzy miejsca, w które możecie pójść dalej</p>
+        <ul class="space-y-3 text-muted">
+          <li>
+            <strong class="dark:text-white">Macie już konto</strong> (kupiliście książkę) –
+            <a href="https://platforma.pozytywniezbudowani.pl/" class="text-secondary underline"
+              >zaloguj się na platformie</a
+            > adresem e-mail z zamówienia.
+          </li>
+          <li>
+            <strong class="dark:text-white">Chcecie zobaczyć całość</strong> –
+            <a href="/centrum/?z=narzedzia-centrum" class="text-secondary underline"
+              >opis Centrum Dowodzenia Budową</a
+            >: moduł budżetu, materiały, Pakiet Prawny, Społeczność.
+          </li>
+          <li>
+            <strong class="dark:text-white">Chcecie liczyć od zaraz</strong> –
+            <a href="/blog/kalkulator-raty-kredytu-hipotecznego/" class="text-secondary underline"
+              >zacznijcie od raty kredytu</a
+            >: wzór, przykład i interpretacja wyniku, otwarte dla wszystkich.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CO POZA NARZĘDZIAMI -->
+  <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl md:text-3xl font-bold dark:text-white mb-3 font-display text-center">
+        Narzędzia to jedna szuflada w Centrum
+      </h2>
+      <p class="text-muted text-lg text-center max-w-3xl mx-auto mb-10">
+        To samo konto otwiera resztę. Pełny opis każdego modułu znajdziecie na
+        <a href="/centrum/?z=narzedzia-centrum" class="text-secondary underline">stronie Centrum</a>.
+      </p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 bg-white dark:bg-slate-900">
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Budowa bez niespodzianek</h3>
+          <p class="text-muted">
+            Budżet budowy z mapą, planem z ofert wykonawców i rejestrem wydatków. Gotowy szablon:
+            12 etapów, ponad 300 pozycji. To serce Centrum – tam trafiają liczby, które policzycie
+            narzędziami.
+          </p>
+        </div>
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 bg-white dark:bg-slate-900">
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Materiały do książki</h3>
+          <p class="text-muted">
+            20 lekcji z checklistami, wideo i plikami roboczymi – rozdział po rozdziale. Dostęp dostaje
+            każdy czytelnik <a href="/ksiazka/" class="text-secondary underline">„Od marzenia do wprowadzenia"</a>.
+          </p>
+        </div>
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 bg-white dark:bg-slate-900">
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Pakiet Prawny</h3>
+          <p class="text-muted">
+            20 wzorów umów i protokołów na każdy etap budowy – od umowy z wykonawcą po protokoły odbioru.
+            Do kupienia osobno; członkowie Społeczności mają go w cenie członkostwa.
+          </p>
+        </div>
+        <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 bg-white dark:bg-slate-900">
+          <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Społeczność</h3>
+          <p class="text-muted">
+            Zamknięte forum budujących z gospodarzem-praktykiem: kategorie od działki po ogród, dzienniki
+            budowy, webinary na żywo. Nabór prowadzimy w oknach, dwa razy w roku.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA KOŃCOWE -->
+  <section class="py-14 md:py-20 bg-slate-900">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="font-display text-2xl md:text-4xl font-bold text-white mb-5">
+        Policzcie, zanim podpiszecie
+      </h2>
+      <p class="text-slate-300 text-lg mb-8">
+        Przy kredycie 400 000 zł na 5,90% różnica między okresem 20 a 30 lat to 171 870 zł w samych
+        odsetkach. To nie jest liczba, którą warto oszacować „na oko" – ani zostawić doradcy.
+      </p>
+      <a
+        href="/centrum/?z=narzedzia-centrum"
+        class="inline-block bg-primary hover:bg-amber-600 text-white font-bold rounded-lg px-8 py-4 text-lg transition"
+      >
+        Zobaczcie, czym jest Centrum
+      </a>
+      <p class="text-sm text-slate-400 mt-4">
+        Czytelnicy książki logują się już dziś na
+        <a href="https://platforma.pozytywniezbudowani.pl/" class="underline text-slate-300"
+          >platforma.pozytywniezbudowani.pl</a
+        >.
+      </p>
+    </div>
+  </section>
+</Layout>
