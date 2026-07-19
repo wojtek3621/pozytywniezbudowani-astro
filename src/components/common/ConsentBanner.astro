@@ -28,6 +28,21 @@
  *   Baner nadal centralny/duży/uciążliwy; przyciski i rozmiar BEZ ZMIAN.
  * - Ustawienia „Allegro": kategorie Niezbędne(on)/Analityczne/Marketingowe,
  *   przełączniki analityki/marketingu domyślnie OFF, obszerniejsze opisy.
+ *
+ * Update 2026-07-19 (owner directive – korekta poprzedniej misji):
+ * - Przełączniki analityki i marketingu w panelu „Ustawienia" WRACAJĄ na
+ *   domyślnie ZAZNACZONE (opt-out), zgodnie z pierwotną dyrektywą z 2026-04-14.
+ *   Misja 2026-07-18 przestawiła je na OFF wbrew tej dyrektywie – to cofnięcie.
+ *   Wojtek zna ryzyko prawne (RODO art. 4 pkt 11 / TSUE C-673/17 Planet49:
+ *   zgoda musi być czynnym działaniem, więc pre-zaznaczone kategorie są sporne)
+ *   i podejmuje je świadomie – decyzja właściciela, udokumentowana.
+ * - Treść panelu zmieniona na zgodną ze stanem faktycznym („odznacz, na co się
+ *   nie zgadzasz") – panel NIE MOŻE opisywać stanu, którego nie ma.
+ * - BANNER_VERSION bump → 'pz-2026-07-19': consent receipt musi wiedzieć, na
+ *   której wersji banera padła zgoda (przed/po zmianie domyślnych).
+ * - Postawa pre-consent NIETKNIĘTA: bez kliknięcia nadal ZERO zgody
+ *   (Consent Mode 'denied', brak cookie pz_consent). Zmiana dotyczy wyłącznie
+ *   stanu początkowego formularza w drugiej warstwie.
  * - DE-ANONIMIZACJA beacona zgód: payload niesie device_id (pz_did, wspólny z
  *   kolektorem z.js), banner_version i purposes; Worker dokłada IP+UA server-side
  *   → consent receipt (dowód zgody RODO art. 7 wiązany z tożsamością).
@@ -131,9 +146,9 @@ const { position } = Astro.props;
 
       <div id="pz-consent-details" class="pz-banner__details pz-banner__details--hidden">
         <p class="pz-banner__details-intro">
-          Zarządzaj zgodami wg kategorii. Zgody analityczne i marketingowe są domyślnie
-          wyłączone – włącz te, na które się zgadzasz, i potwierdź. Zgody możesz zawęzić
-          tutaj albo zaakceptować wszystkie przyciskiem powyżej.
+          Zarządzaj zgodami wg kategorii. Wszystkie kategorie są tu zaznaczone – odznacz
+          te, na które się nie zgadzasz, i potwierdź. Możesz też po prostu zaakceptować
+          wszystkie przyciskiem powyżej.
         </p>
         <label class="pz-banner__checkbox-row pz-banner__checkbox-row--locked">
           <input type="checkbox" class="pz-banner__checkbox" checked disabled />
@@ -147,7 +162,7 @@ const { position } = Astro.props;
           </div>
         </label>
         <label class="pz-banner__checkbox-row">
-          <input type="checkbox" id="pz-consent-analytics" class="pz-banner__checkbox" />
+          <input type="checkbox" id="pz-consent-analytics" class="pz-banner__checkbox" checked />
           <div>
             <strong class="pz-banner__category-title">Analityczne</strong>
             <span class="pz-banner__category-desc">
@@ -158,7 +173,7 @@ const { position } = Astro.props;
           </div>
         </label>
         <label class="pz-banner__checkbox-row">
-          <input type="checkbox" id="pz-consent-marketing" class="pz-banner__checkbox" />
+          <input type="checkbox" id="pz-consent-marketing" class="pz-banner__checkbox" checked />
           <div>
             <strong class="pz-banner__category-title">Marketingowe</strong>
             <span class="pz-banner__category-desc">
@@ -405,7 +420,7 @@ const { position } = Astro.props;
 
       // Wersja banera — receipt zgody wie, NA CO była zgoda (treść/układ z tej daty).
       // Bump przy każdej zmianie treści/kategorii banera (misja jakosc-ruchu 2026-07-18).
-      var BANNER_VERSION = 'pz-2026-07-18';
+      var BANNER_VERSION = 'pz-2026-07-19';
 
       function consentDevice() {
         try {
@@ -584,12 +599,16 @@ const { position } = Astro.props;
         const banner = document.getElementById('pz-consent-banner');
         if (!banner) return;
 
-        // „Allegro style": przełączniki analityki/marketingu domyślnie WYŁĄCZONE
-        // (zgoda per kategoria = świadome włączenie; accept-all robi górny przycisk).
+        // Przełączniki analityki/marketingu domyślnie ZAZNACZONE (dyrektywa
+        // właściciela 2026-07-19, powrót do stanu z 2026-04-14): druga warstwa
+        // to opt-out – user odznacza to, na co się nie zgadza, i potwierdza.
+        // Ustawiamy jawnie przy KAŻDYM pokazaniu banera, bo atrybut `checked`
+        // w HTML nie odtworzy stanu, gdy user wcześniej odznaczył i nie zapisał
+        // (SPA astro:page-load pokazuje ten sam DOM ponownie).
         const a = document.getElementById('pz-consent-analytics');
         const m = document.getElementById('pz-consent-marketing');
-        if (a) a.checked = false;
-        if (m) m.checked = false;
+        if (a) a.checked = true;
+        if (m) m.checked = true;
 
         banner.classList.remove('pz-banner--hidden');
         lockScroll(true);
