@@ -24,6 +24,7 @@ metadata:
 <p style="text-align: justify;">Poniżej znajdziecie kalkulator, który pomoże Wam wstępnie oszacować, jaki kabel będzie odpowiedni dla Waszego domu. Wystarczy podać kilka podstawowych parametrów – planowaną moc przyłączeniową i długość kabla – a narzędzie wskaże Wam, od jakiego przekroju warto zacząć rozważania.</p>
 
 <p style="text-align: justify;"><strong>Ważna uwaga:</strong> To narzędzie ma charakter wyłącznie poglądowy i edukacyjny. Nie zastępuje ono profesjonalnych obliczeń wykonanych przez elektryka z uprawnieniami lub projektanta instalacji elektrycznych. Kalkulator stosuje uproszczony wzór i konserwatywne progi klasyfikacji – przyjmujemy, że spadek napięcia do 1% to wynik zalecany, do 1,5% dopuszczalny, a powyżej 1,5% nieodpowiedni. Tymczasem norma PN-HD 60364-5-52 dopuszcza spadek napięcia nawet do 3% dla instalacji odbiorczych. Nasze progi są więc bardziej rygorystyczne, co daje Wam dodatkowy margines bezpieczeństwa na przyszłość. Ostateczną decyzję o wyborze kabla zawsze skonsultujcie z projektantem, który uwzględni wszystkie specyficzne warunki Waszej instalacji.</p>
+
 <!-- POCZĄTEK KALKULATORA -->
 <style type="text/css">.cable-calculator-container {
         max-width: 900px;
@@ -458,6 +459,7 @@ metadata:
 <div class="calc-disclaimer"><strong>⚠️ Zastrzeżenie:</strong> Ten kalkulator ma charakter wyłącznie poglądowy i edukacyjny. Wyniki nie stanowią projektu instalacji elektrycznej ani nie zastępują obliczeń wykonanych przez uprawnionego projektanta. Autor nie ponosi odpowiedzialności za decyzje podjęte na podstawie wyników kalkulatora.</div>
 </div>
 </div>
+
 <script>
     (function() {
         const cableData = {
@@ -591,7 +593,7 @@ metadata:
             } else if (result.voltageDrop <= 1.0) {
                 return {
                     class: 'good',
-                    icon: '????',
+                    icon: '✅',
                     text: 'Dobry wybór. Spadek napięcia mieści się w konserwatywnym progu 1%, co zapewnia prawidłową pracę instalacji.'
                 };
             } else if (result.voltageDrop <= 1.5) {
