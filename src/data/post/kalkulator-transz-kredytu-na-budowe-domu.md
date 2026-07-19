@@ -10,8 +10,8 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kalkulator-transz-kredytu-na-budowe-domu/'
-  title: 'Kalkulator transz kredytu na budowę domu – ile płacisz w karencji'
-  description: 'Sprawdź, ile kosztują Cię transze kredytu budowlanego. Kalkulator odsetek w karencji pokaże szokującą prawdę o kosztach budowy na kredyt.'
+  title: 'Transze kredytu na budowę domu – ile płacisz w karencji'
+  description: 'Ile kosztują transze kredytu budowlanego. Wzór na odsetki w karencji, przeliczony przykład i prawda o kosztach budowy na kredyt.'
   robots:
     index: true
     follow: true
@@ -40,250 +40,48 @@ metadata:
 <p style="text-align: justify;">A kapitał? Przez cały ten czas nie zmniejszył się ani o złotówkę. Wszystko, co przez te 2–3 lata wpłacaliście do banku, poszło wyłącznie na odsetki. Dopiero po zakończeniu budowy i uruchomieniu pełnego kredytu zaczniecie spłacać normalne raty kapitałowo-odsetkowe.</p>
 
 <p style="text-align: justify;">Matematyka jest bezlitosna. Przy kredycie na 700 000 złotych, oprocentowaniu 8% i 24-miesięcznej budowie możecie zapłacić 50 000–70 000 złotych samych odsetek w okresie karencji. To pieniądze, które nie zmniejszają Waszego długu – to czysta opłata za możliwość korzystania ze środków banku w trakcie budowy. Niektórzy nazywają to „ceną za budowanie z bankiem zamiast za gotówkę". I jest to cena, o której rzadko kto mówi głośno na etapie planowania inwestycji.</p>
-<!-- KALKULATOR TRANSZ I KARENCJI -->
 
-<div id="kalk-transze" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator transz kredytu budowlanego</h3>
-<!-- Komunikat błędu -->
+<h2 style="text-align: justify;">Jak policzyć koszt karencji samodzielnie</h2>
 
-<div id="transze-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"> </div>
-<!-- Pola formularza -->
+<p style="text-align: justify;">To jest jeden z niewielu rachunków w finansowaniu budowy, który da się zrobić bez żadnego wzoru z potęgami. Wystarczy jedno mnożenie na każdą transzę, bo w karencji nie spłacacie kapitału – płacicie wyłącznie odsetki od tego, co bank już wypłacił.</p>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
-<div style="grid-column: 1 / -1;"><label for="transze-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Całkowita kwota kredytu (zł)</label> <input id="transze-kwota" onblur="this.style.borderColor='#ddd'" onfocus="this.style.borderColor='#c9a456'" placeholder="np. 600 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" type="text" /></div>
+<p style="text-align: justify;"><strong>Odsetki od jednej transzy = kwota transzy × oprocentowanie miesięczne × liczba miesięcy do końca karencji</strong></p>
 
-<div><label for="transze-opr" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Oprocentowanie (%)</label> <input id="transze-opr" onblur="this.style.borderColor='#ddd'" onfocus="this.style.borderColor='#c9a456'" placeholder="np. 7,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" type="text" />
-<div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża</div>
-</div>
+<p style="text-align: justify;">Oprocentowanie miesięczne to roczne podzielone przez 12. Przy 8% rocznie wychodzi 0,08 ÷ 12 = <strong>0,006667</strong>. Potem sumujecie wynik z wszystkich transz i macie całkowity koszt karencji. Tyle.</p>
 
-<div><label for="transze-czas" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Czas budowy (miesięcy)</label> <input id="transze-czas" onblur="this.style.borderColor='#ddd'" onfocus="this.style.borderColor='#c9a456'" placeholder="np. 18" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" type="text" />
-<div style="font-size: 11px; color: #888; margin-top: 4px;">Typowo: 12–24 miesiące</div>
-</div>
-</div>
-<!-- Harmonogram transz -->
+<p style="text-align: justify;">Policzmy to na naszym kredycie <strong>700 000 zł przy 8%</strong>, przy budowie rozpisanej na <strong>24 miesiące</strong> i czterech transzach:</p>
 
-<div style="margin-bottom: 20px;"><label style="display: block; margin-bottom: 10px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Harmonogram transz (% kredytu)</label>
+<p style="text-align: justify;"><strong>Transza 1 – 150 000 zł na start</strong> (fundamenty i stan zero), pracuje przez wszystkie 24 miesiące: 150 000 × 0,006667 × 24 = <strong>24 000 zł</strong>.</p>
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
-<div><label style="font-size: 11px; color: #888;">Transza 1</label> <input id="transze-t1" onblur="this.style.borderColor='#ddd'" onfocus="this.style.borderColor='#c9a456'" placeholder="20" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; text-align: center; box-sizing: border-box;" type="text" /></div>
+<p style="text-align: justify;"><strong>Transza 2 – 250 000 zł w 8. miesiącu</strong> (ściany i dach), zostaje 16 miesięcy: 250 000 × 0,006667 × 16 = <strong>26 667 zł</strong>.</p>
 
-<div><label style="font-size: 11px; color: #888;">Transza 2</label> <input id="transze-t2" onblur="this.style.borderColor='#ddd'" onfocus="this.style.borderColor='#c9a456'" placeholder="30" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; text-align: center; box-sizing: border-box;" type="text" /></div>
+<p style="text-align: justify;"><strong>Transza 3 – 200 000 zł w 14. miesiącu</strong> (instalacje, tynki, wylewki), zostaje 10 miesięcy: 200 000 × 0,006667 × 10 = <strong>13 333 zł</strong>.</p>
 
-<div><label style="font-size: 11px; color: #888;">Transza 3</label> <input id="transze-t3" onblur="this.style.borderColor='#ddd'" onfocus="this.style.borderColor='#c9a456'" placeholder="30" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; text-align: center; box-sizing: border-box;" type="text" /></div>
+<p style="text-align: justify;"><strong>Transza 4 – 100 000 zł w 20. miesiącu</strong> (wykończenie), zostają 4 miesiące: 100 000 × 0,006667 × 4 = <strong>2 667 zł</strong>.</p>
 
-<div><label style="font-size: 11px; color: #888;">Transza 4</label> <input id="transze-t4" onblur="this.style.borderColor='#ddd'" onfocus="this.style.borderColor='#c9a456'" placeholder="20" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; text-align: center; box-sizing: border-box;" type="text" /></div>
-</div>
+<p style="text-align: justify;">Razem: <strong>66 667 zł</strong> odsetek w okresie karencji. Średnio 2 778 zł miesięcznie przez dwa lata – przy czym na starcie płacicie 1 000 zł, a pod koniec, gdy pracuje pełne 700 000 zł, już 4 667 zł miesięcznie.</p>
 
-<div style="font-size: 11px; color: #888; margin-top: 6px;">Wpisz procentowy podział transz (suma musi wynosić 100%). Puste pola = 0%.</div>
-</div>
-<!-- Przyciski -->
+<h3 style="text-align: justify;">Co z tego rachunku wynika</h3>
 
-<div style="display: flex; gap: 10px; margin-bottom: 25px;"><button id="transze-btn-oblicz" onclick="obliczTransze()" onmouseout="this.style.background='#c9a456'" onmouseover="this.style.background='#b8934a'" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;">Oblicz koszty karencji</button><button id="transze-btn-wyczysc" onclick="wyczyscTransze()" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;">Wyczyść</button></div>
-<!-- Wyniki -->
+<p style="text-align: justify;">Pierwsza rzecz rzuca się w oczy od razu: <strong>najdroższa nie jest największa transza, tylko ta najwcześniejsza</strong>. Transza 1 to zaledwie 150 000 zł, a kosztowała 24 000 zł odsetek. Transza 3 jest o 50 000 zł większa, a kosztowała 13 333 zł – prawie o połowę mniej. Decyduje nie kwota, tylko czas, przez jaki pieniądze pracują na koncie odsetkowym.</p>
 
-<div id="transze-wyniki" style="display: none;"><!-- Główny wynik -->
-<div style="background: linear-gradient(135deg, #c75050 0%, #a04040 100%); color: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
-<div style="font-size: 14px; opacity: 0.9; margin-bottom: 5px;">Suma odsetek w okresie karencji</div>
+<p style="text-align: justify;">To ma bardzo praktyczną konsekwencję. Jeśli macie własne oszczędności, <strong>najwięcej zaoszczędzicie, finansując z nich najwcześniejsze etapy</strong>, a nie najdroższe. Sfinansowanie z gotówki fundamentów i odsunięcie pierwszej transzy o pół roku daje większą oszczędność niż dołożenie się do wykończeniówki na koniec.</p>
 
-<div id="transze-suma-odsetek" style="font-size: 42px; font-weight: 700; line-height: 1.2;">-</div>
+<p style="text-align: justify;">Druga rzecz to wrażliwość na czas. Ten sam kredyt, te same transze, ale budowa skrócona do <strong>16 miesięcy</strong>, kosztuje w karencji <strong>44 567 zł</strong>. Skrócenie budowy o osiem miesięcy zostawia Wam w kieszeni <strong>22 100 zł</strong> – i to bez zmiany czegokolwiek w projekcie, materiałach czy wykonawcach. Samą organizacją.</p>
 
-<div id="transze-info" style="font-size: 13px; opacity: 0.85; margin-top: 8px;"> </div>
-</div>
-<!-- Szczegóły transz -->
+<p style="text-align: justify;">Dlatego kiedy ktoś pyta mnie, czy warto płacić więcej za ekipę, która wejdzie od razu, zamiast czekać cztery miesiące na tańszą – to jest właśnie ta liczba, którą trzeba położyć na drugiej szali. Ile dokładnie kosztuje przestój, zależy od tego, ile kredytu już pracuje w tym momencie: cztery miesiące postoju przy uruchomionych 400 000 zł to <strong>10 667 zł</strong> odsetek, a te same cztery miesiące na finiszu, przy pełnych 700 000 zł, już <strong>18 667 zł</strong>. Pieniądze, których nikt Wam nie zwróci – i które warto porównać z różnicą w ofercie wykonawcy, zanim zdecydujecie się poczekać.</p>
 
-<div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
-<div style="font-size: 13px; color: #888; margin-bottom: 12px;">Szczegóły wypłat i odsetek:</div>
+<h3 style="text-align: justify;">Trzy pułapki przy liczeniu karencji</h3>
 
-<div id="transze-szczegoly"><!-- Wypełniane dynamicznie --></div>
-</div>
-<!-- Podsumowanie miesięczne -->
+<p style="text-align: justify;"><strong>Pierwsza – liczenie od daty umowy zamiast od daty wypłaty.</strong> Odsetki naliczają się od dnia, w którym pieniądze faktycznie trafiły na konto, a nie od podpisania umowy. Między jednym a drugim mija czasem kilka tygodni i o tyle krótszy jest realny okres naliczania.</p>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 15px;">
-<div style="background: #f5f5f5; padding: 15px; border-radius: 6px;">
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Średnia miesięczna płatność</div>
+<p style="text-align: justify;"><strong>Druga – zapominanie o czasie oczekiwania na transzę.</strong> Od zgłoszenia etapu do wypłaty mija zwykle 2–3 tygodnie, bo bank musi wysłać rzeczoznawcę. Jeśli nie macie zapasu gotówki na ten okres, budowa staje – a stojąca budowa nadal generuje odsetki od już wypłaconych transz. To najbardziej podstępny koszt w całym mechanizmie.</p>
 
-<div id="transze-srednia" style="font-size: 22px; font-weight: 700; color: #3c3c3c; margin-top: 4px;">-</div>
+<p style="text-align: justify;"><strong>Trzecia – przyjmowanie stałego oprocentowania na cały okres budowy.</strong> Karencja trwa 2–3 lata, a WIBOR w tym czasie może się zmienić kilka razy. Warto przeliczyć ten sam harmonogram przy oprocentowaniu wyższym o 2 punkty i zobaczyć, o ile rośnie rachunek.</p>
 
-<div style="font-size: 11px; color: #888;">w okresie karencji</div>
-</div>
+<h2 style="text-align: justify;">Dlaczego czas budowy jest tu najważniejszy</h2>
 
-<div style="background: #f5f5f5; padding: 15px; border-radius: 6px;">
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Maksymalna płatność</div>
-
-<div id="transze-max" style="font-size: 22px; font-weight: 700; color: #c75050; margin-top: 4px;">-</div>
-
-<div style="font-size: 11px; color: #888;">przed końcem budowy</div>
-</div>
-</div>
-<!-- Wskazówka -->
-
-<div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
-<div style="font-size: 12px; color: #666; line-height: 1.5;"><span style="color: #c9a456; font-size: 14px;">★</span> <strong>Wskazówka:</strong> Im szybciej wybudujecie dom, tym mniej zapłacicie odsetek w karencji. Każdy miesiąc opóźnienia to dodatkowe tysiące złotych. Planujcie budowę ambitnie, ale realistycznie.</div>
-</div>
-</div>
-<!-- Info -->
-
-<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Zakłada równomierny rozkład wypłat transz w czasie budowy.</p>
-</div>
-
-<script>
-(function() {
-    var skipLink = document.querySelector('a.jump-to');
-    if (skipLink) {
-        skipLink.setAttribute('tabindex', '-1');
-        skipLink.style.display = 'none';
-    }
-    var tabOrder = ['transze-kwota', 'transze-opr', 'transze-czas', 'transze-t1', 'transze-t2', 'transze-t3', 'transze-t4', 'transze-btn-oblicz', 'transze-btn-wyczysc'];
-    document.addEventListener('keydown', function(e) {
-        if (e.key !== 'Tab') return;
-        var activeId = document.activeElement.id;
-        var currentIndex = tabOrder.indexOf(activeId);
-        if (currentIndex !== -1) {
-            e.preventDefault();
-            e.stopPropagation();
-            var nextIndex;
-            if (e.shiftKey) {
-                nextIndex = currentIndex - 1;
-                if (nextIndex < 0) nextIndex = tabOrder.length - 1;
-            } else {
-                nextIndex = currentIndex + 1;
-                if (nextIndex >= tabOrder.length) nextIndex = 0;
-            }
-            var nextElement = document.getElementById(tabOrder[nextIndex]);
-            if (nextElement) nextElement.focus();
-        }
-    }, true);
-})();
-
-function obliczTransze() {
-var komunikat = document.getElementById('transze-blad');
-komunikat.style.display = 'none';
-
-    var kwotaStr = document.getElementById('transze-kwota').value;
-    var kwota = parseFloat(kwotaStr.replace(/\s/g, '').replace(/,/g, '.'));
-
-    var oprStr = document.getElementById('transze-opr').value;
-    var opr = parseFloat(oprStr.replace(/,/g, '.'));
-
-    var czasStr = document.getElementById('transze-czas').value;
-    var czasMies = parseInt(czasStr);
-
-    var t1 = parseFloat(document.getElementById('transze-t1').value.replace(/,/g, '.')) || 0;
-    var t2 = parseFloat(document.getElementById('transze-t2').value.replace(/,/g, '.')) || 0;
-    var t3 = parseFloat(document.getElementById('transze-t3').value.replace(/,/g, '.')) || 0;
-    var t4 = parseFloat(document.getElementById('transze-t4').value.replace(/,/g, '.')) || 0;
-
-    var sumaProc = t1 + t2 + t3 + t4;
-
-    var bledy = [];
-    if (isNaN(kwota) || kwota <= 0) bledy.push('Podaj kwotę kredytu');
-    if (isNaN(opr) || opr < 0 || opr > 20) bledy.push('Oprocentowanie musi wynosić od 0% do 20%');
-    if (isNaN(czasMies) || czasMies < 6 || czasMies > 48) bledy.push('Czas budowy musi wynosić od 6 do 48 miesięcy');
-    if (Math.abs(sumaProc - 100) > 0.1) bledy.push('Suma transz musi wynosić 100% (obecnie: ' + sumaProc.toFixed(0) + '%)');
-
-    if (bledy.length > 0) {
-        komunikat.innerHTML = bledy.join('<br>');
-        komunikat.style.display = 'block';
-        document.getElementById('transze-wyniki').style.display = 'none';
-        return;
-    }
-
-    // Transze jako kwoty
-    var transze = [];
-    if (t1 > 0) transze.push({ proc: t1, kwota: kwota * t1 / 100 });
-    if (t2 > 0) transze.push({ proc: t2, kwota: kwota * t2 / 100 });
-    if (t3 > 0) transze.push({ proc: t3, kwota: kwota * t3 / 100 });
-    if (t4 > 0) transze.push({ proc: t4, kwota: kwota * t4 / 100 });
-
-    var liczbaTrans = transze.length;
-    var czasNaTransze = Math.floor(czasMies / liczbaTrans);
-
-    // Obliczanie odsetek
-    var rMiesiecznie = opr / 100 / 12;
-    var sumaOdsetek = 0;
-    var uruchomiono = 0;
-    var odsetkiMiesieczne = [];
-    var szczegoly = [];
-
-    for (var i = 0; i < liczbaTrans; i++) {
-        uruchomiono += transze[i].kwota;
-        var miesiacStart = i * czasNaTransze;
-        var miesiacKoniec = (i === liczbaTrans - 1) ? czasMies : (i + 1) * czasNaTransze;
-        var liczbaMiesiecy = miesiacKoniec - miesiacStart;
-        var odsetkiZaOkres = uruchomiono * rMiesiecznie * liczbaMiesiecy;
-        sumaOdsetek += odsetkiZaOkres;
-
-        for (var j = 0; j < liczbaMiesiecy; j++) {
-            odsetkiMiesieczne.push(uruchomiono * rMiesiecznie);
-        }
-
-        szczegoly.push({
-            nr: i + 1,
-            proc: transze[i].proc,
-            kwota: transze[i].kwota,
-            uruchomiono: uruchomiono,
-            odsetkiMies: uruchomiono * rMiesiecznie
-        });
-    }
-
-    var srednia = sumaOdsetek / czasMies;
-    var maxOdsetki = Math.max.apply(null, odsetkiMiesieczne);
-
-    // Wyświetlanie
-    document.getElementById('transze-wyniki').style.display = 'block';
-
-    document.getElementById('transze-suma-odsetek').textContent = formatujKwoteT(sumaOdsetek) + ' zł';
-    document.getElementById('transze-info').textContent = 'Przez ' + czasMies + ' miesięcy budowy płacisz tylko odsetki. Kapitał: 0 zł.';
-
-    // Szczegóły transz
-    var szczegolyHtml = '';
-    for (var k = 0; k < szczegoly.length; k++) {
-        var s = szczegoly[k];
-        szczegolyHtml += '<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">';
-        szczegolyHtml += '<div>';
-        szczegolyHtml += '<div style="font-weight: 600; color: #3c3c3c;">Transza ' + s.nr + ' (' + s.proc.toFixed(0) + '%)</div>';
-        szczegolyHtml += '<div style="font-size: 12px; color: #888;">Wypłata: ' + formatujKwoteT(s.kwota) + ' zł</div>';
-        szczegolyHtml += '</div>';
-        szczegolyHtml += '<div style="text-align: right;">';
-        szczegolyHtml += '<div style="font-size: 12px; color: #888;">Uruchomiono łącznie</div>';
-        szczegolyHtml += '<div style="font-weight: 600; color: #c9a456;">' + formatujKwoteT(s.uruchomiono) + ' zł</div>';
-        szczegolyHtml += '<div style="font-size: 11px; color: #c75050;">Odsetki: ' + formatujKwoteT(s.odsetkiMies) + ' zł/mies.</div>';
-        szczegolyHtml += '</div>';
-        szczegolyHtml += '</div>';
-    }
-    document.getElementById('transze-szczegoly').innerHTML = szczegolyHtml;
-
-    document.getElementById('transze-srednia').textContent = formatujKwoteT(srednia) + ' zł';
-    document.getElementById('transze-max').textContent = formatujKwoteT(maxOdsetki) + ' zł';
-
-    // Formatowanie pola
-    document.getElementById('transze-kwota').value = formatujKwoteT(kwota);
-
-}
-
-function wyczyscTransze() {
-document.getElementById('transze-kwota').value = '';
-document.getElementById('transze-opr').value = '';
-document.getElementById('transze-czas').value = '';
-document.getElementById('transze-t1').value = '';
-document.getElementById('transze-t2').value = '';
-document.getElementById('transze-t3').value = '';
-document.getElementById('transze-t4').value = '';
-document.getElementById('transze-wyniki').style.display = 'none';
-document.getElementById('transze-blad').style.display = 'none';
-document.getElementById('transze-kwota').focus();
-}
-
-function formatujKwoteT(liczba) {
-return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-}
-</script><!-- KONIEC KALKULATORA TRANSZ -->
-
-<h2 style="text-align: justify;">Co mówią Wam wyniki kalkulatora</h2>
-
-<p style="text-align: justify;">Kalkulator pokazuje trzy ważne rzeczy. Po pierwsze – sumę odsetek zapłaconych w okresie karencji, czyli ile pieniędzy „przepaliliście" na samych odsetkach, zanim w ogóle zaczęliście normalnie spłacać kredyt. Po drugie – jak ta kwota rośnie wraz z każdą kolejną transzą. Po trzecie – jak długość budowy wpływa na całkowity koszt karencji.</p>
-
-<p style="text-align: justify;">Zwróćcie uwagę na wykres narastających odsetek. Widać na nim wyraźnie, że im dłużej trwa budowa, tym więcej płacicie. Każdy miesiąc opóźnienia to kolejne tysiące złotych. Jeśli planowaliście budowę na 18 miesięcy, a przeciągnęła się do 30 – różnica w samych odsetkach karencyjnych może sięgać 20 000–30 000 złotych.</p>
+<p style="text-align: justify;">Im dłużej trwa budowa, tym więcej płacicie – i to nie liniowo, bo pod koniec pracuje już pełna kwota kredytu. Każdy miesiąc opóźnienia to kolejne tysiące złotych. Jeśli planowaliście budowę na 18 miesięcy, a przeciągnęła się do 30 – różnica w samych odsetkach karencyjnych może sięgać 20 000–30 000 złotych.</p>
 
 <p style="text-align: justify;">Te pieniądze już nie wrócą. Nie zmniejszają Waszego długu. Nie przybliżają Was do spłaty kredytu. To po prostu koszt, który musicie ponieść za to, że budujecie dom na kredyt zamiast za gotówkę. Dlatego tak ważne jest, żebyście wiedzieli o tym wcześniej – zanim podpiszecie umowę kredytową – i mogli świadomie zaplanować harmonogram budowy.</p>
 
@@ -298,6 +96,15 @@ return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 <p style="text-align: justify;">Trzecia sprawa – negocjacje z bankiem. Tak, z bankiem można negocjować. Nawet niewielkie obniżenie marży czy prowizji przekłada się na realne oszczędności przy kredycie hipotecznym. Jeśli jesteście w dobrej sytuacji finansowej i zaciągacie kredyt na sporo mniejszą kwotę niż wynosi Wasza zdolność kredytowa, Wasza pozycja negocjacyjna jest mocna. Warto z niej skorzystać.</p>
 
 <p style="text-align: justify;">I wreszcie – planujcie z zapasem czasowym dla banku, ale nie dla siebie. Co to znaczy? W umowie kredytowej zapiszcie maksymalny dostępny czas na budowę – to Wasze zabezpieczenie na wypadek nieprzewidzianych sytuacji. Ale sami planujcie budowę znacznie szybciej. Jeśli bank daje 24 miesiące, planujcie na 12–14. Dzięki temu macie bufor bezpieczeństwa, a jednocześnie oszczędzacie na odsetkach.</p>
+
+<!-- ZAPROSZENIE CENTRUM -->
+<div style="max-width: 700px; margin: 35px auto; padding: 24px 26px; background: #faf9f5; border: 1px solid #e8dfc9; border-left: 4px solid #c5a44e; border-radius: 8px;">
+<p style="margin: 0 0 10px 0; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b8934a;">Narzędzia w Centrum Dowodzenia Budową</p>
+<p style="margin: 0 0 14px 0; line-height: 1.7; color: #3c3c3c;">Odsetki od czterech transz to cztery osobne rachunki, a przy sześciu transzach robi się z tego tabelka. Kalkulator transz i karencji – razem z ośmioma innymi narzędziami – działa dziś w Centrum Dowodzenia Budową i sumuje koszt karencji dla dowolnego harmonogramu wypłat.</p>
+<p style="margin: 0 0 18px 0; line-height: 1.7; color: #5a656b; font-size: 15px;">Dziś Centrum otwierają czytelnicy mojej książki – darmowa rejestracja dla wszystkich ruszy wkrótce. Na stronie narzędzi opisałem, co dokładnie jest w środku i na jakich zasadach działa, żebyście mogli sami ocenić, czy to dla Was.</p>
+<p style="margin: 0;"><a href="/narzedzia/?z=kalk-transze" style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
+</div>
+<!-- KONIEC ZAPROSZENIA -->
 
 <h2 style="text-align: justify;">Podsumowanie</h2>
 

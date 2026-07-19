@@ -10,8 +10,8 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kalkulator-raty-kredytu-hipotecznego/'
-  title: 'Kalkulator raty kredytu hipotecznego – oblicz swoją ratę'
-  description: 'Oblicz ratę kredytu hipotecznego na budowę domu. Sprawdź jak WIBOR i marża wpływają na wysokość raty równej i malejącej.'
+  title: 'Rata kredytu hipotecznego – wzór i przykład krok po kroku'
+  description: 'Jak policzyć ratę kredytu hipotecznego na budowę domu: wzór, przeliczony przykład i wpływ WIBOR-u oraz marży na ratę równą i malejącą.'
   robots:
     index: true
     follow: true
@@ -19,255 +19,7 @@ metadata:
 
 <p style="text-align: center;"><img loading="lazy" alt="Kalkulator z wyświetloną kwotą obok wydrukowanych tabel kredytowych i długopisu" class="responsive-image" src="/images/content/kalkulator-raty-kredytu-hipotecznego-obliczenia.jpeg" width="525" height="350" style="max-width: 100%; height: auto;" title="Kalkulator raty kredytu hipotecznego - obliczanie miesięcznej raty" /></p>
 
-<p style="text-align: justify;">Zastanawialiście się kiedyś, ile tak naprawdę będzie kosztował Was kredyt na budowę domu? Nie chodzi mi o sumę, którą pożyczacie – to wiecie. Chodzi o to, ile będziecie oddawać bankowi co miesiąc przez najbliższych kilkanaście, może kilkadziesiąt lat. Wpiszcie poniżej kwotę kredytu i sprawdźcie sami.</p>
-
-<!-- KALKULATOR RATY KREDYTU HIPOTECZNEGO -->
-<div id="kalkulator-kredytu" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-
-<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator raty kredytu hipotecznego</h3>
-
-<!-- Komunikat błędu -->
-<div id="komunikat-bledu" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
-
-<!-- Pola formularza -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
-
-<div style="grid-column: 1 / -1;">
-<label for="kalk-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota kredytu (zł)</label>
-<input type="text" id="kalk-kwota" tabindex="1" placeholder="np. 400 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-
-<div>
-<label for="kalk-okres" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Okres kredytowania (lat)</label>
-<input type="text" id="kalk-okres" tabindex="2" placeholder="np. 25" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-
-<div>
-<label for="kalk-wibor" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">WIBOR 3M (%)</label>
-<input type="text" id="kalk-wibor" tabindex="3" placeholder="np. 3,90" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-<div style="font-size: 11px; color: #888; margin-top: 4px;">Aktualną stawkę sprawdzisz na <a href="https://gpwbenchmark.pl/notowania-stawek-referencyjnych" target="_blank" rel="noopener" style="color: #c9a456;">gpwbenchmark.pl</a></div>
-</div>
-
-<div>
-<label for="kalk-marza" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Marża banku (%)</label>
-<input type="text" id="kalk-marza" tabindex="4" placeholder="np. 2,00" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-<div style="font-size: 11px; color: #888; margin-top: 4px;">Typowa marża: 1,8% – 2,5%</div>
-</div>
-
-</div>
-
-<!-- Przyciski -->
-<div style="display: flex; gap: 10px; margin-bottom: 25px;">
-<button id="kalk-btn-oblicz" onclick="obliczRate()" tabindex="5" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Oblicz ratę</button>
-<button id="kalk-btn-wyczysc" onclick="wyczyscFormularz()" tabindex="6" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
-</div>
-
-<!-- Wyniki -->
-<div id="wyniki" style="display: none;">
-
-<!-- GŁÓWNE PODSUMOWANIE -->
-<div id="podsumowanie" style="background: linear-gradient(135deg, #c9a456 0%, #b8934a 100%); color: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
-<div style="font-size: 14px; opacity: 0.9; margin-bottom: 5px;">Twoja miesięczna rata (równa)</div>
-<div id="rata-glowna" style="font-size: 42px; font-weight: 700; line-height: 1.2;">-</div>
-<div id="podsumowanie-tekst" style="font-size: 13px; opacity: 0.85; margin-top: 8px;"></div>
-</div>
-
-<!-- Szczegóły -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 15px;">
-
-<!-- Oprocentowanie -->
-<div style="background: #fff; padding: 12px 15px; border-radius: 6px; border-left: 3px solid #c9a456;">
-<div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Oprocentowanie</div>
-<div id="oprocentowanie" style="font-size: 22px; font-weight: 700; color: #c9a456; margin-top: 2px;">-</div>
-</div>
-
-<!-- Łącznie do spłaty -->
-<div style="background: #fff; padding: 12px 15px; border-radius: 6px; border-left: 3px solid #3c3c3c;">
-<div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Łącznie do spłaty</div>
-<div id="suma-rowna" style="font-size: 22px; font-weight: 700; color: #3c3c3c; margin-top: 2px;">-</div>
-</div>
-
-</div>
-
-<!-- Rata malejąca -->
-<div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px; border-left: 3px solid #5a8a6a;">
-<div style="font-size: 12px; color: #888; margin-bottom: 8px;">Rata malejąca (dla porównania)</div>
-<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px;">
-<div>
-<span style="font-size: 12px; color: #888;">Pierwsza: </span>
-<span id="rata-malejaca-pierwsza" style="font-size: 20px; font-weight: 600; color: #5a8a6a;">-</span>
-</div>
-<div>
-<span style="font-size: 12px; color: #888;">Ostatnia: </span>
-<span id="rata-malejaca-ostatnia" style="font-size: 20px; font-weight: 600; color: #5a8a6a;">-</span>
-</div>
-<div>
-<span style="font-size: 12px; color: #888;">Łącznie: </span>
-<span id="suma-malejaca" style="font-size: 16px; font-weight: 600; color: #5a8a6a;">-</span>
-</div>
-</div>
-</div>
-
-<!-- Porównanie -->
-<div id="porownanie" style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
-<div style="font-size: 12px; color: #888; margin-bottom: 4px;">Różnica w całkowitym koszcie kredytu</div>
-<div id="roznica" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</div>
-<div style="font-size: 12px; color: #999; margin-top: 5px;">Tyle więcej zapłacisz wybierając ratę równą zamiast malejącej.</div>
-<div style="font-size: 12px; color: #666; margin-top: 8px; padding-top: 8px; border-top: 1px solid #e5dcc8;"><span style="color: #c9a456; font-size: 14px;">★</span> <strong>Wskazówka:</strong> Możesz wziąć kredyt z ratą równą i regularnie go nadpłacać – zyskujesz elastyczność i zmniejszasz odsetki. Więcej o tej strategii piszę w dalszej części artykułu.</div>
-</div>
-
-</div>
-
-<!-- Info -->
-<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Rzeczywista rata może się różnić w zależności od oferty banku, ubezpieczeń i dodatkowych opłat.</p>
-
-</div>
-
-<script>
-// FIX: Własna obsługa Tab w kalkulatorze (obejście konfliktu z motywem strony)
-(function() {
-    // Wyłącz skip link
-    var skipLink = document.querySelector('a.jump-to');
-    if (skipLink) {
-        skipLink.setAttribute('tabindex', '-1');
-        skipLink.style.display = 'none';
-    }
-
-    // Kolejność pól w kalkulatorze
-    var tabOrder = ['kalk-kwota', 'kalk-okres', 'kalk-wibor', 'kalk-marza', 'kalk-btn-oblicz', 'kalk-btn-wyczysc'];
-
-    // Przechwytuj Tab w fazie capture (przed innymi handlerami)
-    document.addEventListener('keydown', function(e) {
-        if (e.key !== 'Tab') return;
-
-        var activeId = document.activeElement.id;
-        var currentIndex = tabOrder.indexOf(activeId);
-
-        // Jeśli focus jest na elemencie kalkulatora
-        if (currentIndex !== -1) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            var nextIndex;
-            if (e.shiftKey) {
-                // Shift+Tab - wstecz
-                nextIndex = currentIndex - 1;
-                if (nextIndex < 0) nextIndex = tabOrder.length - 1;
-            } else {
-                // Tab - naprzód
-                nextIndex = currentIndex + 1;
-                if (nextIndex >= tabOrder.length) nextIndex = 0;
-            }
-
-            var nextElement = document.getElementById(tabOrder[nextIndex]);
-            if (nextElement) {
-                nextElement.focus();
-            }
-        }
-    }, true); // true = capture phase
-})();
-
-function obliczRate() {
-    // Ukryj poprzedni błąd
-    var komunikat = document.getElementById('komunikat-bledu');
-    komunikat.style.display = 'none';
-
-    // Pobranie wartości
-    var kwotaStr = document.getElementById('kalk-kwota').value;
-    var kwota = parseFloat(kwotaStr.replace(/\s/g, '').replace(/,/g, '.'));
-    var lataStr = document.getElementById('kalk-okres').value;
-    var lata = parseInt(lataStr.replace(/\s/g, ''));
-    var wiborStr = document.getElementById('kalk-wibor').value;
-    var wibor = parseFloat(wiborStr.replace(/,/g, '.'));
-    var marzaStr = document.getElementById('kalk-marza').value;
-    var marza = parseFloat(marzaStr.replace(/,/g, '.'));
-
-    // Walidacja
-    var bledy = [];
-    if (isNaN(kwota) || kwota <= 0) {
-        bledy.push('Podaj prawidłową kwotę kredytu');
-    }
-    if (isNaN(lata) || lata < 5 || lata > 35) {
-        bledy.push('Okres kredytowania musi wynosić od 5 do 35 lat');
-    }
-    if (isNaN(wibor) || wibor < 0 || wibor > 10) {
-        bledy.push('WIBOR musi wynosić od 0% do 10%');
-    }
-    if (isNaN(marza) || marza < 0 || marza > 10) {
-        bledy.push('Marża banku musi wynosić od 0% do 10%');
-    }
-
-    if (bledy.length > 0) {
-        komunikat.innerHTML = bledy.join('<br>');
-        komunikat.style.display = 'block';
-        document.getElementById('wyniki').style.display = 'none';
-        return;
-    }
-
-    // Obliczenia
-    var oprocentowanieRoczne = wibor + marza;
-    var r = oprocentowanieRoczne / 100 / 12;
-    var n = lata * 12;
-
-    // Rata równa (annuitetowa)
-    var rataRowna;
-    if (r === 0) {
-        rataRowna = kwota / n;
-    } else {
-        rataRowna = kwota * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
-    }
-    var sumaRowna = rataRowna * n;
-
-    // Rata malejąca
-    var kapitalMiesiecznie = kwota / n;
-    var pierwszaRataMalejaca = kapitalMiesiecznie + (kwota * r);
-    var ostatniaRataMalejaca = kapitalMiesiecznie + (kapitalMiesiecznie * r);
-
-    // Suma rat malejących
-    var sumaMalejaca = 0;
-    for (var i = 0; i < n; i++) {
-        var pozostalyKapital = kwota - (i * kapitalMiesiecznie);
-        var odsetkiMiesieczne = pozostalyKapital * r;
-        sumaMalejaca += kapitalMiesiecznie + odsetkiMiesieczne;
-    }
-
-    // Różnica
-    var roznica = sumaRowna - sumaMalejaca;
-
-    // Wyświetlenie wyników
-    document.getElementById('wyniki').style.display = 'block';
-
-    // Główne podsumowanie
-    document.getElementById('rata-glowna').textContent = formatujKwote(rataRowna) + ' zł';
-    document.getElementById('podsumowanie-tekst').textContent = 'Kredyt ' + formatujKwote(kwota) + ' zł na ' + lata + ' lat przy ' + oprocentowanieRoczne.toFixed(2).replace('.', ',') + '% w skali roku';
-
-    // Szczegóły
-    document.getElementById('oprocentowanie').textContent = oprocentowanieRoczne.toFixed(2).replace('.', ',') + '%';
-    document.getElementById('suma-rowna').textContent = formatujKwote(sumaRowna) + ' zł';
-    document.getElementById('rata-malejaca-pierwsza').textContent = formatujKwote(pierwszaRataMalejaca) + ' zł';
-    document.getElementById('rata-malejaca-ostatnia').textContent = formatujKwote(ostatniaRataMalejaca) + ' zł';
-    document.getElementById('suma-malejaca').textContent = formatujKwote(sumaMalejaca) + ' zł';
-    document.getElementById('roznica').textContent = formatujKwote(roznica) + ' zł';
-
-    // Sformatuj kwotę w polu
-    document.getElementById('kalk-kwota').value = formatujKwote(kwota);
-}
-
-function wyczyscFormularz() {
-    document.getElementById('kalk-kwota').value = '';
-    document.getElementById('kalk-okres').value = '';
-    document.getElementById('kalk-wibor').value = '';
-    document.getElementById('kalk-marza').value = '';
-    document.getElementById('wyniki').style.display = 'none';
-    document.getElementById('komunikat-bledu').style.display = 'none';
-    document.getElementById('kalk-kwota').focus();
-}
-
-function formatujKwote(liczba) {
-    return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-}
-</script>
-<!-- KONIEC KALKULATORA -->
+<p style="text-align: justify;">Zastanawialiście się kiedyś, ile tak naprawdę będzie kosztował Was kredyt na budowę domu? Nie chodzi mi o sumę, którą pożyczacie – to wiecie. Chodzi o to, ile będziecie oddawać bankowi co miesiąc przez najbliższych kilkanaście, może kilkadziesiąt lat. W tym artykule pokażę Wam, jak policzyć to samodzielnie – wzorem, który da się przerobić na zwykłym kalkulatorze w telefonie. Nie po to, żeby utrudniać, tylko żebyście rozumieli, skąd bierze się każda złotówka Waszej raty. Kiedy rozumiecie mechanikę, żaden doradca nie sprzeda Wam liczby, której nie umiecie sprawdzić.</p>
 
 <h2 style="text-align: justify;">Skąd bierze się Wasza rata – WIBOR plus marża</h2>
 
@@ -277,7 +29,7 @@ function formatujKwote(liczba) {
 
 <p style="text-align: justify;">Drugi element to marża banku. To już jest czysta decyzja kredytodawcy – jego zarobek na udzieleniu Wam kredytu. Marża jest stała przez cały okres kredytowania i ustalana w momencie podpisywania umowy. I tu uwaga: marża jest negocjowalna. Nawet niewielkie obniżenie – powiedzmy o 0,2 punktu procentowego – przy kredycie na 25–30 lat przekłada się na oszczędności liczone w dziesiątkach tysięcy złotych.</p>
 
-<p style="text-align: justify;">Wasze oprocentowanie to więc WIBOR plus marża. Jeśli WIBOR 3M wynosi przykładowo 5,8%, a bank dał Wam marżę 2%, to oprocentowanie Waszego kredytu wynosi 7,8% w skali roku. I właśnie od tego oprocentowania kalkulator wylicza, ile będziecie płacić co miesiąc.</p>
+<p style="text-align: justify;">Wasze oprocentowanie to więc WIBOR plus marża. Jeśli WIBOR 3M wynosi przykładowo 5,8%, a bank dał Wam marżę 2%, to oprocentowanie Waszego kredytu wynosi 7,8% w skali roku. I właśnie od tej sumy liczy się wszystko, co zapłacicie – za chwilę pokażę Wam dokładnie, jak.</p>
 
 <h2 style="text-align: justify;">Rata równa czy malejąca – która dla kogo</h2>
 
@@ -289,6 +41,54 @@ function formatujKwote(liczba) {
 
 <p style="text-align: justify;">Moja rekomendacja? Weźcie kredyt z ratą równą na maksymalnie długi okres i nadpłacajcie go co miesiąc tak, jakbyście spłacali kredyt krótszy. Dlaczego? Bo macie elastyczność. Gdy przychodzą gorsze miesiące – remont, awaria samochodu, choroba – po prostu nie nadpłacacie i płacicie niższą, podstawową ratę. Nikt nie pyta, nikt nie wymaga tłumaczeń. A gdy wszystko idzie dobrze – nadpłacacie i skracacie kredyt.</p>
 
+<h2 style="text-align: justify;">Jak policzyć ratę samodzielnie – wzór krok po kroku</h2>
+
+<p style="text-align: justify;">Teraz najważniejsza część. Wzór na ratę równą wygląda groźnie, ale rozbija się na cztery kroki, z których każdy da się zrobić na telefonie. Warto go raz przejść, bo od tego momentu żadna oferta banku nie będzie dla Was czarną skrzynką.</p>
+
+<p style="text-align: justify;"><strong>Rata równa = K × [r × (1 + r)<sup>n</sup>] ÷ [(1 + r)<sup>n</sup> − 1]</strong></p>
+
+<p style="text-align: justify;">Gdzie <strong>K</strong> to kwota kredytu, <strong>r</strong> to oprocentowanie <em>miesięczne</em> (czyli roczne podzielone przez 12 i zapisane jako ułamek), a <strong>n</strong> to liczba rat (lata razy 12). Cała trudność tego wzoru sprowadza się do jednego: trzeba pamiętać, że bank nalicza odsetki co miesiąc, więc wszystko przeliczamy na miesiące.</p>
+
+<p style="text-align: justify;">Policzmy to na konkretnym przykładzie. Załóżmy kredyt <strong>400 000 zł na 25 lat</strong>, przy WIBOR 3M na poziomie 3,90% i marży banku 2,00% – czyli oprocentowaniu 5,90% w skali roku.</p>
+
+<p style="text-align: justify;"><strong>Krok 1 – oprocentowanie miesięczne.</strong> 5,90% dzielimy przez 100 i przez 12: r = 0,059 ÷ 12 = <strong>0,004917</strong>.</p>
+
+<p style="text-align: justify;"><strong>Krok 2 – liczba rat.</strong> 25 lat razy 12 miesięcy: n = <strong>300</strong>.</p>
+
+<p style="text-align: justify;"><strong>Krok 3 – potęga.</strong> Na kalkulatorze w telefonie (w trybie poziomym pojawia się klawisz x<sup>y</sup>) liczymy 1,004917 do potęgi 300. Wynik: <strong>4,355266</strong>. To jest ten moment, w którym procent składany pokazuje pazury – przez 25 lat pieniądz „urósł" ponad czterokrotnie.</p>
+
+<p style="text-align: justify;"><strong>Krok 4 – podstawiamy.</strong> Licznik: 0,004917 × 4,355266 = 0,021415. Mianownik: 4,355266 − 1 = 3,355266. Dzielimy: 0,021415 ÷ 3,355266 = 0,006382. I na koniec mnożymy przez kwotę kredytu: 400 000 × 0,006382 = <strong>2 553 zł</strong>.</p>
+
+<p style="text-align: justify;">To Wasza miesięczna rata. Ale prawdziwie pouczająca liczba pojawia się dopiero teraz: pomnóżcie ratę przez liczbę rat. 2 553 zł × 300 = <strong>765 843 zł</strong>. Odejmijcie pożyczony kapitał i zostają <strong>365 843 zł czystych odsetek</strong>. Za pożyczone 400 000 zł oddajecie bankowi prawie drugie tyle.</p>
+
+<h3 style="text-align: justify;">A jak policzyć ratę malejącą</h3>
+
+<p style="text-align: justify;">Tu jest znacznie prościej, bo nie ma potęgowania. Część kapitałowa jest stała przez cały okres i wynosi K ÷ n, czyli 400 000 ÷ 300 = <strong>1 333,33 zł</strong>. Do niej doliczacie odsetki od aktualnego zadłużenia.</p>
+
+<p style="text-align: justify;"><strong>Pierwsza rata:</strong> 1 333,33 zł kapitału plus odsetki od pełnej kwoty, czyli 400 000 × 0,004917 = 1 966,67 zł. Razem <strong>3 300 zł</strong>.</p>
+
+<p style="text-align: justify;"><strong>Ostatnia rata:</strong> 1 333,33 zł kapitału plus odsetki od resztki długu, czyli 1 333,33 × 0,004917 = 6,56 zł. Razem <strong>1 340 zł</strong>.</p>
+
+<p style="text-align: justify;">Suma wszystkich rat malejących w tym przykładzie to <strong>695 983 zł</strong> – czyli o <strong>69 860 zł mniej</strong> niż przy racie równej. Tyle kosztuje wygoda płacenia stałej kwoty przez 25 lat.</p>
+
+<h3 style="text-align: justify;">Jak czytać ten wynik</h3>
+
+<p style="text-align: justify;">Sama rata to najmniej ciekawa liczba z całego rachunku. Znacznie ważniejsze jest to, co widać dopiero po pomnożeniu jej przez okres kredytowania. Kiedy zobaczycie, że odsetki sięgają 366 000 zł, inaczej patrzy się na negocjowanie marży o 0,2 punktu procentowego – bo nagle rozumiecie, że to nie jest kosmetyka, tylko kilkadziesiąt tysięcy złotych.</p>
+
+<p style="text-align: justify;">Druga rzecz, którą warto sprawdzić, to struktura pierwszej raty. Odsetki w pierwszym miesiącu to po prostu kapitał razy oprocentowanie miesięczne: 400 000 × 0,004917 = 1 967 zł. Skoro cała rata wynosi 2 553 zł, to na spłatę długu idzie zaledwie 586 zł. Reszta – ponad trzy czwarte – to koszt pożyczonego pieniądza. Właśnie dlatego nadpłacanie w pierwszych latach ma tak potężny efekt, a w ostatnich prawie żaden.</p>
+
+<h3 style="text-align: justify;">Pięć pułapek, w które łatwo wpaść przy liczeniu</h3>
+
+<p style="text-align: justify;"><strong>Po pierwsze – mylenie oprocentowania rocznego z miesięcznym.</strong> To najczęstszy błąd. Jeśli podstawicie do wzoru 0,059 zamiast 0,004917, wyjdzie Wam rata kilkukrotnie za wysoka. Roczne zawsze dzielimy przez 12.</p>
+
+<p style="text-align: justify;"><strong>Po drugie – potęgowanie liczbą lat zamiast liczbą miesięcy.</strong> W wykładniku musi siedzieć n = 300, nie 25. Pomyłka tutaj daje wynik oderwany od rzeczywistości.</p>
+
+<p style="text-align: justify;"><strong>Po trzecie – zapominanie, że rata to nie całość zobowiązania.</strong> Do rat dochodzą ubezpieczenie nieruchomości, często ubezpieczenie na życie, czasem prowizja rozłożona w czasie i opłata za wcześniejszą spłatę w pierwszych latach. Wzór liczy sam kredyt, nie całość comiesięcznego wydatku.</p>
+
+<p style="text-align: justify;"><strong>Po czwarte – traktowanie wyniku jak obietnicy.</strong> WIBOR jest zmienny, więc policzona rata to zdjęcie sytuacji na dziś, a nie harmonogram na 25 lat. Dlatego zawsze warto przeliczyć ten sam kredyt przy oprocentowaniu wyższym o 2 czy 4 punkty procentowe i sprawdzić, czy budżet to wytrzyma.</p>
+
+<p style="text-align: justify;"><strong>Po piąte – pierwsza rata bywa inna niż wyliczona.</strong> Banki często naliczają pierwszą ratę za niepełny miesiąc albo doliczają odsetki od dnia uruchomienia kredytu. Różnica jest jednorazowa i niewielka, ale potrafi wywołać niepotrzebny niepokój, gdy harmonogram nie zgadza się co do złotówki z Waszym rachunkiem.</p>
+
 <h2 style="text-align: justify;">Co jeszcze wpływa na wysokość raty</h2>
 
 <p style="text-align: justify;">Kwota kredytu i oprocentowanie to fundament, ale nie wszystko. Każdy z poniższych czynników przesunie Waszą ratę w górę lub w dół.</p>
@@ -299,8 +99,17 @@ function formatujKwote(liczba) {
 
 <p style="text-align: justify;">Wreszcie – Wasza sytuacja finansowa. Stabilne dochody z umowy o pracę na czas nieokreślony to dla banków najlepsza sytuacja. Prowadzicie własną działalność? Bank podejdzie do Was ostrożniej, ale to nie znaczy, że nie dostaniecie kredytu – po prostu musicie mieć czystą historię i odpowiednio udokumentowane przychody.</p>
 
+<!-- ZAPROSZENIE CENTRUM -->
+<div style="max-width: 700px; margin: 35px auto; padding: 24px 26px; background: #faf9f5; border: 1px solid #e8dfc9; border-left: 4px solid #c5a44e; border-radius: 8px;">
+<p style="margin: 0 0 10px 0; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b8934a;">Narzędzia w Centrum Dowodzenia Budową</p>
+<p style="margin: 0 0 14px 0; line-height: 1.7; color: #3c3c3c;">Rachunek, który przed chwilą przerobiliśmy, robi się nużący, gdy chcecie porównać pięć ofert banków po kolei. Kalkulator raty – razem z ośmioma innymi narzędziami – działa dziś w Centrum Dowodzenia Budową i liczy obie raty naraz, równą i malejącą, razem z sumą odsetek.</p>
+<p style="margin: 0 0 18px 0; line-height: 1.7; color: #5a656b; font-size: 15px;">Dziś Centrum otwierają czytelnicy mojej książki – darmowa rejestracja dla wszystkich ruszy wkrótce. Na stronie narzędzi opisałem, co dokładnie jest w środku i na jakich zasadach działa, żebyście mogli sami ocenić, czy to dla Was.</p>
+<p style="margin: 0;"><a href="/narzedzia/?z=kalk-rata" style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
+</div>
+<!-- KONIEC ZAPROSZENIA -->
+
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
-<p style="text-align: justify;">Kalkulator powyżej powie Wam, ile mniej więcej będziecie płacić bankowi co miesiąc. To punkt wyjścia, nie ostateczna odpowiedź – bo każdy bank ma inne marże, inne wymagania i inaczej liczy zdolność kredytową. Ale już teraz wiecie, jak działa mechanizm, z czego składa się rata i na co zwrócić uwagę, gdy zasiądziecie do rozmów z doradcą kredytowym. Pełną strategię znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
+<p style="text-align: justify;">Wzór, który przed chwilą przerobiliśmy, powie Wam, ile mniej więcej będziecie płacić bankowi co miesiąc. To punkt wyjścia, nie ostateczna odpowiedź – bo każdy bank ma inne marże, inne wymagania i inaczej liczy zdolność kredytową. Ale już teraz wiecie, jak działa mechanizm, z czego składa się rata i na co zwrócić uwagę, gdy zasiądziecie do rozmów z doradcą kredytowym. To akurat jest wiedza, której nikt Wam nie zabierze – kalkulator można zgubić, umiejętność liczenia zostaje. Pełną strategię znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
 
 <p style="text-align: justify;">Jeśli chcecie poznać pełną strategię przygotowania do kredytu hipotecznego na budowę domu – od budowania historii w BIK, przez wybór doradcy, po negocjacje z bankiem – znajdziecie ją w mojej książce „Od marzenia do wprowadzenia". A jeśli interesuje Was temat transz, porównanie okresów kredytowania czy wpływ nadpłat na całkowity koszt kredytu – zajrzyjcie do pozostałych artykułów na tym blogu.</p>

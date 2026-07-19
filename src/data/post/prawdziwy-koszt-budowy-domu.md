@@ -54,286 +54,47 @@ metadata:
 
 <p style="text-align: justify;">Brzmi absurdalnie? To matematyka kredytu hipotecznego. Jeśli w 2024 roku przy aktualnych stopach procentowych macie ratę 5000 złotych miesięcznie, to prawdopodobnie około 4670 złotych z tej raty to odsetki, a tylko 330 złotych to kapitał. Przez pierwsze lata praktycznie nie spłacacie kredytu – tylko odsetki.</p>
 
-<!-- KALKULATOR PRAWDZIWEGO KOSZTU BUDOWY -->
-<div id="kalk-koszt" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<h2 style="text-align: justify;">Jak policzyć to samodzielnie – arkusz na kartce</h2>
 
-<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator prawdziwego kosztu budowy</h3>
+<p style="text-align: justify;">Cały ten rachunek sprowadza się do dwóch działań: zsumowania wszystkiego, co wypływa z Waszej kieszeni, i doliczenia do tego ceny pożyczonego pieniądza. Pierwsze jest żmudne, ale proste. Drugie wymaga jednego wzoru.</p>
 
-<!-- Komunikat błędu -->
-<div id="koszt-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
+<p style="text-align: justify;"><strong>Krok 1 – zsumujcie inwestycję.</strong> Wypiszcie w kolumnie wszystkie pozycje i dodajcie. Nie „mniej więcej", tylko naprawdę wszystkie – bo pominięte pozycje to dokładnie to, co potem nazywacie „niespodziankami". Weźmy przykładowy zestaw:</p>
 
-<!-- Sekcja: Koszty inwestycji -->
-<div style="margin-bottom: 20px;">
-<div style="font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee;">Koszty inwestycji</div>
+<p style="text-align: justify;">działka 120 000 zł, projekt i formalności 25 000 zł, stan surowy zamknięty 320 000 zł, instalacje 90 000 zł, wykończenie 180 000 zł, przyłącza i zagospodarowanie terenu 65 000 zł. Razem: <strong>800 000 zł</strong>. To jest kwota, którą większość ludzi nazwałaby „kosztem domu" – i na tym zwykle kończy rachunek.</p>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-<div>
-<label for="koszt-dzialka" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Działka (zł)</label>
-<input type="text" id="koszt-dzialka" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-<div>
-<label for="koszt-projekt" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Projekt i formalności (zł)</label>
-<input type="text" id="koszt-projekt" placeholder="np. 25 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-<div>
-<label for="koszt-budowa" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Budowa - stan deweloperski (zł)</label>
-<input type="text" id="koszt-budowa" placeholder="np. 500 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-<div>
-<label for="koszt-wykonczenie" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Wykończenie (zł)</label>
-<input type="text" id="koszt-wykonczenie" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-<div style="grid-column: 1 / -1;">
-<label for="koszt-inne" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Inne (ogrodzenie, podjazd, przyłącza, rezerwa) (zł)</label>
-<input type="text" id="koszt-inne" placeholder="np. 80 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-</div>
-</div>
+<p style="text-align: justify;"><strong>Krok 2 – policzcie odsetki od kredytu.</strong> Tu potrzebny jest wzór na ratę równą:</p>
 
-<!-- Sekcja: Finansowanie -->
-<div style="margin-bottom: 20px;">
-<div style="font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee;">Finansowanie</div>
+<p style="text-align: justify;"><strong>Rata = K × [r × (1 + r)<sup>n</sup>] ÷ [(1 + r)<sup>n</sup> − 1]</strong></p>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-<div>
-<label for="koszt-wklad" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Wkład własny / gotówka (zł)</label>
-<input type="text" id="koszt-wklad" placeholder="np. 200 000" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-<div>
-<label for="koszt-okres" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Okres kredytu (lat)</label>
-<input type="text" id="koszt-okres" placeholder="np. 30" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
-<div style="grid-column: 1 / -1;">
-<label for="koszt-opr" style="display: block; margin-bottom: 4px; color: #3c3c3c; font-weight: 500; font-size: 13px;">Oprocentowanie kredytu (%)</label>
-<input type="text" id="koszt-opr" placeholder="np. 7,80" style="width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; color: #3c3c3c; box-sizing: border-box;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-<div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża (np. 5,80% + 2,00%)</div>
-</div>
-</div>
-</div>
+<p style="text-align: justify;">Gdzie K to kwota kredytu, r to oprocentowanie miesięczne (roczne ÷ 12), n to liczba rat. Załóżmy, że 400 000 zł pokrywacie z wkładu własnego i oszczędności, a <strong>400 000 zł bierzecie w kredycie na 25 lat przy 5,90%</strong>. Wtedy r = 0,004917, n = 300, a rata wychodzi <strong>2 553 zł</strong>.</p>
 
-<!-- Przyciski -->
-<div style="display: flex; gap: 10px; margin-bottom: 25px;">
-<button id="koszt-btn-oblicz" onclick="obliczKoszt()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Oblicz prawdziwy koszt</button>
-<button id="koszt-btn-wyczysc" onclick="wyczyscKoszt()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
-</div>
+<p style="text-align: justify;"><strong>Krok 3 – wyciągnijcie same odsetki.</strong> Pomnóżcie ratę przez liczbę rat i odejmijcie pożyczony kapitał: 2 553 × 300 = 765 843 zł, minus 400 000 zł, zostaje <strong>365 843 zł</strong>. Tyle kosztuje sam pieniądz.</p>
 
-<!-- Wyniki -->
-<div id="koszt-wyniki" style="display: none;">
+<p style="text-align: justify;"><strong>Krok 4 – dodajcie jedno do drugiego.</strong> 800 000 zł inwestycji plus 365 843 zł odsetek daje <strong>1 165 843 zł</strong>. To jest prawdziwy koszt tego domu – od pierwszej opłaty notarialnej po ostatnią ratę.</p>
 
-<!-- Główny wynik -->
-<div style="background: linear-gradient(135deg, #4a7fc9 0%, #3a5f9a 100%); color: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
-<div style="font-size: 14px; opacity: 0.9; margin-bottom: 5px;">Prawdziwy całkowity koszt</div>
-<div id="koszt-calkowity" style="font-size: 42px; font-weight: 700; line-height: 1.2;">-</div>
-<div id="koszt-mnoznik" style="font-size: 14px; opacity: 0.9; margin-top: 8px;"></div>
-</div>
+<h3 style="text-align: justify;">Jak czytać ten wynik</h3>
 
-<!-- Składniki kosztu -->
-<div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
-<div style="font-size: 13px; color: #888; margin-bottom: 12px;">Składniki całkowitego kosztu:</div>
+<p style="text-align: justify;">Najważniejsza liczba w całym rachunku to nie suma, tylko proporcja. Odsetki stanowią tu <strong>45,7% wartości całej inwestycji</strong> – prawie połowę tego, co wydaliście na dom, oddajecie dodatkowo bankowi za samą możliwość rozłożenia płatności w czasie. Odsetki są w tym przykładzie <strong>dwukrotnie droższe niż wykończenie całego domu</strong> i ponad trzykrotnie droższe niż działka.</p>
 
-<!-- Suma inwestycji -->
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
-<div>
-<div style="font-weight: 500; color: #3c3c3c;">Suma inwestycji</div>
-<div style="font-size: 11px; color: #888;">działka + budowa + wykończenie + inne</div>
-</div>
-<div id="koszt-suma-inwestycji" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</div>
-</div>
+<p style="text-align: justify;">I to jest ten moment, który nazywam „szokiem odsetkowym". Warto go przeżyć przy kartce, a nie po pięciu latach spłacania.</p>
 
-<!-- Wkład własny -->
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
-<div style="font-weight: 500; color: #5a8a6a;">Wkład własny (gotówka)</div>
-<div id="koszt-wklad-wynik" style="font-size: 18px; font-weight: 600; color: #5a8a6a;">-</div>
-</div>
+<p style="text-align: justify;">Druga rzecz, którą warto policzyć: <strong>jak bardzo ta proporcja reaguje na okres kredytowania</strong>. Ten sam kredyt 400 000 zł przy tym samym oprocentowaniu, ale wzięty na 20 lat, kosztuje 282 247 zł odsetek zamiast 365 843 zł. Pięć lat krócej to <strong>83 596 zł mniej</strong> – więcej niż cała pozycja „przyłącza i zagospodarowanie" z naszego zestawienia.</p>
 
-<!-- Kwota kredytu -->
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee;">
-<div style="font-weight: 500; color: #3c3c3c;">Kwota kredytu</div>
-<div id="koszt-kredyt" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</div>
-</div>
+<p style="text-align: justify;">Trzecia: sprawdźcie, ile z Waszej pierwszej raty to odsetki. To po prostu kapitał razy oprocentowanie miesięczne: 400 000 × 0,004917 = <strong>1 967 zł</strong>. Przy racie 2 553 zł na spłatę długu idzie 586 zł, czyli 23%. Przez pierwsze lata praktycznie nie spłacacie kredytu – finansujecie odsetki. Właśnie dlatego nadpłata zrobiona w trzecim roku działa kilkukrotnie mocniej niż ta sama kwota w dwudziestym.</p>
 
-<!-- Odsetki -->
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; background: #fef0f0; margin: 0 -15px; padding-left: 15px; padding-right: 15px;">
-<div>
-<div style="font-weight: 600; color: #c75050;">Suma odsetek kredytu</div>
-<div style="font-size: 11px; color: #888;">przez cały okres spłaty</div>
-</div>
-<div id="koszt-odsetki" style="font-size: 20px; font-weight: 700; color: #c75050;">-</div>
-</div>
-</div>
+<h3 style="text-align: justify;">Cztery pozycje, o których zapomina się najczęściej</h3>
 
-<!-- Wizualizacja proporcji -->
-<div style="background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
-<div style="font-size: 13px; color: #888; margin-bottom: 12px;">Proporcje kosztów:</div>
-<div id="koszt-wykres" style="display: flex; height: 30px; border-radius: 4px; overflow: hidden; margin-bottom: 10px;">
-<!-- Wypełniane dynamicznie -->
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 12px;">
-<div style="display: flex; align-items: center; gap: 5px;">
-<div style="width: 12px; height: 12px; background: #c9a456; border-radius: 2px;"></div>
-<span>Inwestycja</span>
-</div>
-<div style="display: flex; align-items: center; gap: 5px;">
-<div style="width: 12px; height: 12px; background: #c75050; border-radius: 2px;"></div>
-<span>Odsetki kredytu</span>
-</div>
-</div>
-</div>
+<p style="text-align: justify;"><strong>Odsetki w okresie budowy (karencja).</strong> To osobny koszt, poza tym policzonym wyżej – przez 2–3 lata budowy płacicie odsetki od wypłaconych transz, a kapitał nie maleje ani o złotówkę. Przy większym kredycie to kilkadziesiąt tysięcy złotych. Rozpisałem ten rachunek w artykule o <a href="https://pozytywniezbudowani.pl/blog/kalkulator-transz-kredytu-na-budowe-domu/">transzach i karencji</a>.</p>
 
-<!-- Dodatkowe info -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 15px;">
-<div style="background: #f5f5f5; padding: 12px; border-radius: 6px;">
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Miesięczna rata</div>
-<div id="koszt-rata" style="font-size: 20px; font-weight: 700; color: #3c3c3c; margin-top: 2px;">-</div>
-</div>
-<div style="background: #f5f5f5; padding: 12px; border-radius: 6px;">
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Odsetki vs kapitał</div>
-<div id="koszt-stosunek" style="font-size: 20px; font-weight: 700; color: #c75050; margin-top: 2px;">-</div>
-</div>
-</div>
+<p style="text-align: justify;"><strong>Koszty okołokredytowe.</strong> Prowizja, wycena nieruchomości, ubezpieczenie pomostowe do czasu wpisu hipoteki, ubezpieczenie nieruchomości i często ubezpieczenie na życie. Każda pozycja z osobna wygląda niewinnie, razem potrafią dać kilkanaście tysięcy.</p>
 
-<!-- Wskazówka -->
-<div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
-<div style="font-size: 12px; color: #666; line-height: 1.5;">
-<span style="color: #c9a456; font-size: 14px;">★</span> <strong>Wskazówka:</strong> Nadpłacając kredyt w pierwszych latach, możesz zaoszczędzić dziesiątki tysięcy złotych na odsetkach. Nadpłata 500 zł miesięcznie przez pierwsze 5 lat może skrócić kredyt nawet o 7-8 lat.
-</div>
-</div>
+<p style="text-align: justify;"><strong>Koszt zamieszkania w trakcie budowy.</strong> Jeśli wynajmujecie mieszkanie przez dwa lata budowy, płacicie równolegle czynsz i odsetki karencyjne. To bywa najcięższy okres całej inwestycji i najczęściej pomijany w kalkulacjach.</p>
 
-</div>
+<p style="text-align: justify;"><strong>Rezerwa na nieprzewidziane.</strong> Nie jest to „koszt", dopóki go nie ponieśliście – ale doliczcie do sumy 10–20% i sprawdźcie, czy przy takiej kwocie rachunek nadal się domyka. Jeśli nie, macie odpowiedź, zanim wbijecie pierwszą łopatę.</p>
 
-<!-- Info -->
-<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Nie uwzględnia inflacji, zmian stóp procentowych ani kosztów ubezpieczeń.</p>
+<h2 style="text-align: justify;">Co pokazuje ta struktura kosztów</h2>
 
-</div>
-
-<script>
-(function() {
-    var skipLink = document.querySelector('a.jump-to');
-    if (skipLink) {
-        skipLink.setAttribute('tabindex', '-1');
-        skipLink.style.display = 'none';
-    }
-    var tabOrder = ['koszt-dzialka', 'koszt-projekt', 'koszt-budowa', 'koszt-wykonczenie', 'koszt-inne', 'koszt-wklad', 'koszt-okres', 'koszt-opr', 'koszt-btn-oblicz', 'koszt-btn-wyczysc'];
-    document.addEventListener('keydown', function(e) {
-        if (e.key !== 'Tab') return;
-        var activeId = document.activeElement.id;
-        var currentIndex = tabOrder.indexOf(activeId);
-        if (currentIndex !== -1) {
-            e.preventDefault();
-            e.stopPropagation();
-            var nextIndex;
-            if (e.shiftKey) {
-                nextIndex = currentIndex - 1;
-                if (nextIndex < 0) nextIndex = tabOrder.length - 1;
-            } else {
-                nextIndex = currentIndex + 1;
-                if (nextIndex >= tabOrder.length) nextIndex = 0;
-            }
-            var nextElement = document.getElementById(tabOrder[nextIndex]);
-            if (nextElement) nextElement.focus();
-        }
-    }, true);
-})();
-
-function parsujKwote(str) {
-    if (!str) return 0;
-    return parseFloat(str.replace(/\s/g, '').replace(/,/g, '.')) || 0;
-}
-
-function obliczKoszt() {
-    var komunikat = document.getElementById('koszt-blad');
-    komunikat.style.display = 'none';
-
-    var dzialka = parsujKwote(document.getElementById('koszt-dzialka').value);
-    var projekt = parsujKwote(document.getElementById('koszt-projekt').value);
-    var budowa = parsujKwote(document.getElementById('koszt-budowa').value);
-    var wykonczenie = parsujKwote(document.getElementById('koszt-wykonczenie').value);
-    var inne = parsujKwote(document.getElementById('koszt-inne').value);
-    var wklad = parsujKwote(document.getElementById('koszt-wklad').value);
-    var lata = parseInt(document.getElementById('koszt-okres').value) || 0;
-    var opr = parsujKwote(document.getElementById('koszt-opr').value);
-
-    var sumaInwestycji = dzialka + projekt + budowa + wykonczenie + inne;
-
-    var bledy = [];
-    if (sumaInwestycji <= 0) bledy.push('Podaj koszty inwestycji (działka, budowa, wykończenie)');
-    if (lata < 5 || lata > 35) bledy.push('Okres kredytu musi wynosić od 5 do 35 lat');
-    if (opr <= 0 || opr > 20) bledy.push('Podaj prawidłowe oprocentowanie (0-20%)');
-    if (wklad >= sumaInwestycji) bledy.push('Wkład własny nie może być większy niż suma inwestycji');
-
-    if (bledy.length > 0) {
-        komunikat.innerHTML = bledy.join('<br>');
-        komunikat.style.display = 'block';
-        document.getElementById('koszt-wyniki').style.display = 'none';
-        return;
-    }
-
-    var kwotaKredytu = sumaInwestycji - wklad;
-    if (kwotaKredytu < 0) kwotaKredytu = 0;
-
-    // Obliczenie raty i odsetek
-    var r = opr / 100 / 12;
-    var n = lata * 12;
-    var rata = 0;
-    var sumaOdsetek = 0;
-
-    if (kwotaKredytu > 0 && r > 0) {
-        rata = kwotaKredytu * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
-        var sumaRat = rata * n;
-        sumaOdsetek = sumaRat - kwotaKredytu;
-    }
-
-    var kosztCalkowity = sumaInwestycji + sumaOdsetek;
-    var mnoznik = sumaInwestycji > 0 ? (kosztCalkowity / sumaInwestycji) : 0;
-    var stosunekOdsetkiKapital = kwotaKredytu > 0 ? (sumaOdsetek / kwotaKredytu * 100) : 0;
-
-    // Wyświetlanie
-    document.getElementById('koszt-wyniki').style.display = 'block';
-
-    document.getElementById('koszt-calkowity').textContent = formatujKwoteK(kosztCalkowity) + ' zł';
-
-    if (mnoznik >= 1.5) {
-        document.getElementById('koszt-mnoznik').textContent = 'To ' + mnoznik.toFixed(1).replace('.', ',') + 'x więcej niż sama inwestycja!';
-    } else {
-        document.getElementById('koszt-mnoznik').textContent = '';
-    }
-
-    document.getElementById('koszt-suma-inwestycji').textContent = formatujKwoteK(sumaInwestycji) + ' zł';
-    document.getElementById('koszt-wklad-wynik').textContent = formatujKwoteK(wklad) + ' zł';
-    document.getElementById('koszt-kredyt').textContent = formatujKwoteK(kwotaKredytu) + ' zł';
-    document.getElementById('koszt-odsetki').textContent = formatujKwoteK(sumaOdsetek) + ' zł';
-
-    document.getElementById('koszt-rata').textContent = formatujKwoteK(rata) + ' zł';
-    document.getElementById('koszt-stosunek').textContent = stosunekOdsetkiKapital.toFixed(0) + '%';
-
-    // Wykres proporcji
-    var procInwestycja = kosztCalkowity > 0 ? (sumaInwestycji / kosztCalkowity * 100) : 100;
-    var procOdsetki = 100 - procInwestycja;
-
-    document.getElementById('koszt-wykres').innerHTML =
-        '<div style="width: ' + procInwestycja + '%; background: #c9a456;" title="Inwestycja: ' + formatujKwoteK(sumaInwestycji) + ' zł"></div>' +
-        '<div style="width: ' + procOdsetki + '%; background: #c75050;" title="Odsetki: ' + formatujKwoteK(sumaOdsetek) + ' zł"></div>';
-}
-
-function wyczyscKoszt() {
-    var pola = ['koszt-dzialka', 'koszt-projekt', 'koszt-budowa', 'koszt-wykonczenie', 'koszt-inne', 'koszt-wklad', 'koszt-okres', 'koszt-opr'];
-    pola.forEach(function(id) {
-        document.getElementById(id).value = '';
-    });
-    document.getElementById('koszt-wyniki').style.display = 'none';
-    document.getElementById('koszt-blad').style.display = 'none';
-    document.getElementById('koszt-dzialka').focus();
-}
-
-function formatujKwoteK(liczba) {
-    return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-}
-</script>
-<!-- KONIEC KALKULATORA PRAWDZIWEGO KOSZTU -->
-
-<h2 style="text-align: justify;">Jak czytać wyniki kalkulatora</h2>
-
-<p style="text-align: justify;">Gdy wpiszecie swoje dane, zobaczcie wykres kołowy. Pokaże Wam proporcje poszczególnych składników całkowitego kosztu. U większości osób największy kawałek tortu zajmą odsetki kredytu – nie sama budowa, nie działka, nie wykończenie. Odsetki.</p>
+<p style="text-align: justify;">Gdy rozpiszecie swoje dane w kolumnie i policzycie proporcje, u większości osób największy kawałek tortu zajmą odsetki kredytu – nie sama budowa, nie działka, nie wykończenie. Odsetki.</p>
 
 <p style="text-align: justify;">To jest ten moment, który nazywam „szokiem odsetkowym". Ludzie widzą, że przez 30 lat oddadzą bankowi więcej pieniędzy niż pożyczyli. Niektórzy reagują złością, inni niedowierzaniem. Ale to nie jest żadna nieuczciwa sztuczka banków – to po prostu cena pieniądza w czasie. Tak działa procent składany, tyle że tym razem działa przeciwko Wam.</p>
 
@@ -354,6 +115,15 @@ function formatujKwoteK(liczba) {
 <p style="text-align: justify;">Czwarta sprawa – nie budujcie domu ponad swoje możliwości. Znam historię pewnego człowieka, nazwijmy go Ryśkiem, który wybudował dom nieco ponad możliwości finansowe. Przez to jego finanse każdego miesiąca były na styk. Nie było go stać na to, żeby sprzeciwić się szefowi, bo stres związany z utratą pracy urósł do niewyobrażalnych rozmiarów. Rata kredytu to jeden z wydatków – dochodzą do tego rachunki za ogrzewanie, wodę, prąd, jedzenie, rata za samochód i wiele innych, mniejszych zobowiązań. Grosz do grosza, a będzie kokosza – tyle że ta kokosza działa przeciwko Wam.</p>
 
 <p style="text-align: justify;">Więcej o tym, jak realistycznie oszacować budżet i przygotować się finansowo do budowy, znajdziecie w <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">głównym przewodniku po finansowaniu budowy domu</a>.</p>
+
+<!-- ZAPROSZENIE CENTRUM -->
+<div style="max-width: 700px; margin: 35px auto; padding: 24px 26px; background: #faf9f5; border: 1px solid #e8dfc9; border-left: 4px solid #c5a44e; border-radius: 8px;">
+<p style="margin: 0 0 10px 0; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b8934a;">Narzędzia w Centrum Dowodzenia Budową</p>
+<p style="margin: 0 0 14px 0; line-height: 1.7; color: #3c3c3c;">Zsumowanie kilkunastu pozycji inwestycji i doliczenie do nich odsetek z całego okresu kredytowania to rachunek, który łatwo urwać w połowie. Kalkulator prawdziwego kosztu budowy – razem z ośmioma innymi narzędziami – działa dziś w Centrum Dowodzenia Budową i pokazuje pełną sumę wraz z udziałem odsetek.</p>
+<p style="margin: 0 0 18px 0; line-height: 1.7; color: #5a656b; font-size: 15px;">Dziś Centrum otwierają czytelnicy mojej książki – darmowa rejestracja dla wszystkich ruszy wkrótce. Na stronie narzędzi opisałem, co dokładnie jest w środku i na jakich zasadach działa, żebyście mogli sami ocenić, czy to dla Was.</p>
+<p style="margin: 0;"><a href="/narzedzia/?z=kalk-koszt" style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
+</div>
+<!-- KONIEC ZAPROSZENIA -->
 
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
