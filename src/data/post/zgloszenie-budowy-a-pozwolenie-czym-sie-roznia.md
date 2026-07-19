@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-04T12:21:24
-updateDate: 2026-02-04T12:25:17
+updateDate: 2026-07-19T23:00:00
 title: 'Zgłoszenie budowy a pozwolenie na budowę – czym się różnią'
 excerpt: 'Zgłoszenie czy pozwolenie? To nie tylko kwestia formalności – ta decyzja wpływa na bezpieczeństwo całej inwestycji.'
 image: '~/assets/images/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia.jpeg'
@@ -87,7 +87,7 @@ metadata:
 
 <p style="text-align: justify;">Ważna zmiana dotyczy też dziennika budowy. Przedłużono możliwość prowadzenia dziennika w formie papierowej do 31 maja 2034 roku – wcześniej planowano wymuszenie formy elektronicznej już od 2030 roku. To dobra wiadomość dla tych, którzy preferują tradycyjną dokumentację.</p>
 
-<p style="text-align: justify;">Warto też wiedzieć o zmianach w planowaniu przestrzennym. Gminy miały obowiązek uchwalenia planów ogólnych do końca 2025 roku. Wnioski o warunki zabudowy złożone do 30 czerwca 2026 roku będą ważne przez 5 lat, ale tylko dla obszarów uzupełnienia zabudowy określonych w tych planach. To może wpłynąć na Wasze decyzje, jeśli działka leży na terenie bez miejscowego planu zagospodarowania przestrzennego.</p>
+<p style="text-align: justify;">Warto też wiedzieć o zmianach w planowaniu przestrzennym. Dotychczasowe studia uwarunkowań tracą moc z chwilą wejścia w życie planu ogólnego w danej gminie, najpóźniej 31 sierpnia 2026 roku. Wniosek o warunki zabudowy, który wpłynie do urzędu do tego dnia włącznie, zostanie rozpatrzony jeszcze na dotychczasowych zasadach – bez badania, czy działka leży w obszarze uzupełnienia zabudowy. Decyzję na wniosek złożony od 1 września 2026 roku gmina wyda dopiero wtedy, gdy plan ogólny wejdzie u niej w życie. Osobną sprawą jest termin ważności samej decyzji: WZ prawomocne przed 1 stycznia 2026 roku oraz wydane w sprawach wszczętych przed 16 października 2025 roku pozostają bezterminowe, nowsze wygasają po 5 latach od uprawomocnienia. To może wpłynąć na Wasze decyzje, jeśli działka leży na terenie bez miejscowego planu zagospodarowania przestrzennego – szczegóły opisuję w <a href="/blog/plan-ogolny-gminy-co-oznacza-dla-wlasciciela-dzialki/">artykule o planie ogólnym gminy</a>.</p>
 
 <h2 style="text-align: justify;">Praktyczne wskazówki na koniec</h2>
 

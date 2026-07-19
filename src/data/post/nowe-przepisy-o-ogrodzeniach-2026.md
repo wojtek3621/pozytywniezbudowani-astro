@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-17T21:54:16
-updateDate: 2026-05-17T21:54:16
+updateDate: 2026-07-19T23:00:00
 title: 'Nowe przepisy o ogrodzeniach 2026 – co wolno, a co nie'
 excerpt: 'Ogrodzenie wydaje się proste, dopóki nie pojawi się urzędnik, sąsiad albo geodeta. Pokazuję, co naprawdę wolno w 2026 roku.'
 image: '~/assets/images/blog/nowe-przepisy-o-ogrodzeniach-2026.jpeg'
@@ -45,7 +45,7 @@ metadata:
 
 <h2>Reforma planowania przestrzennego – co zmienia się w 2026</h2>
 
-<p>Nowelizacja ustawy o planowaniu i zagospodarowaniu przestrzennym z 2023 r. wprowadza istotną zmianę – studium uwarunkowań i kierunków zagospodarowania przestrzennego zostaje zastąpione tzw. planem ogólnym gminy. Pierwotnie ustawodawca wyznaczył gminom termin uchwalenia planów ogólnych do końca 2025 r., ale kolejna nowelizacja przesunęła go na 30 czerwca 2026 r. Plan ogólny ma być dokumentem prawa miejscowego, na którego podstawie wydawane będą warunki zabudowy oraz uchwalane miejscowe plany zagospodarowania przestrzennego. To jeden z elementów <a href="/blog/nowe-przepisy-budowlane-2026/">szerszej reformy przepisów budowlanych w 2026 roku</a>, o której piszę osobno.</p>
+<p>Nowelizacja ustawy o planowaniu i zagospodarowaniu przestrzennym z 2023 r. wprowadza istotną zmianę – studium uwarunkowań i kierunków zagospodarowania przestrzennego zostaje zastąpione tzw. planem ogólnym gminy. Pierwotnie studia miały stracić moc z końcem 2025 r., ale kolejne nowelizacje przesuwały tę datę – dziś studium traci moc z chwilą wejścia w życie planu ogólnego w danej gminie, najpóźniej 31 sierpnia 2026 r. Terminy reformy rozpisuję w <a href="/blog/plan-ogolny-gminy-co-oznacza-dla-wlasciciela-dzialki/">artykule o planie ogólnym gminy</a>. Plan ogólny ma być dokumentem prawa miejscowego, na którego podstawie wydawane będą warunki zabudowy oraz uchwalane miejscowe plany zagospodarowania przestrzennego. To jeden z elementów <a href="/blog/nowe-przepisy-budowlane-2026/">szerszej reformy przepisów budowlanych w 2026 roku</a>, o której piszę osobno.</p>
 
 <p>Dla was w praktyce oznacza to dwie rzeczy. Po pierwsze – w okresie przejściowym może panować pewna niepewność co do procedur w gminach, które jeszcze nie uchwaliły planu ogólnego, a sytuacja ta zmienia się dosłownie z miesiąca na miesiąc. Po drugie – po wejściu nowych planów warunki zabudowy mogą być wydawane tylko na obszarach, które plan ogólny dopuszcza pod zabudowę. To zmiana, która dotyczy raczej budynków niż ogrodzeń, ale dobrze o niej wiedzieć, bo wpływa na całość waszej procedury formalnej. Sam zakres przepisów dotyczących ogrodzeń – wysokość 2,2 m i obowiązek zgłoszenia powyżej – pozostaje w 2026 r. bez zmian.</p>
 

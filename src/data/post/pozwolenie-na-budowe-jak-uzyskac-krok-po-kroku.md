@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-02-04T12:16:11
 order: 13
-updateDate: 2026-07-19T18:00:00
+updateDate: 2026-07-19T23:00:00
 title: 'Pozwolenie na budowę - jak uzyskać krok po kroku'
 excerpt: 'Pozwolenie na budowę to pierwszy poważny egzamin przed Waszą budową. Pokażę Wam, jak go zdać za pierwszym podejściem.'
 image: '~/assets/images/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku.jpeg'
@@ -34,9 +34,9 @@ metadata:
 
 <p style="text-align: justify;">Gorzej, gdy planu nie ma. A nie ma go na większości terenów w Polsce – MPZP wciąż pokrywa mniejszość powierzchni kraju. W takiej sytuacji musicie uzyskać decyzję o warunkach zabudowy, potocznie zwaną „wuzetką". To osobna procedura, która może trwać od kilku tygodni do kilku miesięcy, w zależności od gminy i stopnia skomplikowania sprawy. Wniosek o warunki zabudowy wiąże się z opłatą skarbową w wysokości kilkuset złotych – aktualną stawkę sprawdzicie na stronie urzędu gminy. Sam proces wymaga spełnienia tzw. zasady dobrego sąsiedztwa – w uproszczeniu, Wasz dom musi pasować do tego, co już stoi w okolicy.</p>
 
-<p style="text-align: justify;">I tu dochodzimy do rzeczy, o której wielu inwestorów nie wie, a która w 2026 roku może okazać się decydująca. Od 1 stycznia 2026 roku wchodzą w życie przepisy o Planie Ogólnym, który zastępuje dotychczasowe studium uwarunkowań. To zasadnicza zmiana w systemie planowania przestrzennego w Polsce. Co to oznacza w praktyce? Jeśli Wasza gmina nie uchwali Planu Ogólnego przed 30 czerwca 2026 roku, a działka nie jest objęta MPZP, możecie mieć poważny problem z uzyskaniem warunków zabudowy. Decyzje WZ będą mogły być wydawane tylko na terenach oznaczonych jako obszary uzupełnienia zabudowy (OUZ) w Planie Ogólnym.</p>
+<p style="text-align: justify;">I tu dochodzimy do rzeczy, o której wielu inwestorów nie wie, a która w 2026 roku może okazać się decydująca. Plan ogólny gminy zastępuje dotychczasowe studium uwarunkowań – studia tracą moc z chwilą wejścia w życie planu ogólnego w danej gminie, najpóźniej 31 sierpnia 2026 roku. To zasadnicza zmiana w systemie planowania przestrzennego w Polsce. Co to oznacza w praktyce? Jeśli Wasza gmina nie ma planu ogólnego, a działka nie jest objęta MPZP, to na wniosek złożony od 1 września 2026 roku urząd nie wyda warunków zabudowy, dopóki plan ogólny u niej nie wejdzie w życie. A tam, gdzie plan ogólny już obowiązuje, decyzje WZ pod nowy dom wydaje się co do zasady tylko na terenach oznaczonych jako obszary uzupełnienia zabudowy (OUZ). Terminy i scenariusze rozpisuję w <a href="/blog/plan-ogolny-gminy-co-oznacza-dla-wlasciciela-dzialki/">artykule o planie ogólnym gminy</a>.</p>
 
-<p style="text-align: justify;">Jest jednak dobra wiadomość – warunki zabudowy wydane przed 31 grudnia 2025 roku zachowują ważność bezterminową. Te wydane od 1 stycznia 2026 roku będą ważne tylko przez 5 lat. Dlatego jeśli planujecie budowę w najbliższych latach i Wasza działka nie ma MPZP, naprawdę warto przyspieszyć procedurę uzyskania WZ jeszcze w tym roku.</p>
+<p style="text-align: justify;">Jest jednak dobra wiadomość – warunki zabudowy, które stały się prawomocne przed 1 stycznia 2026 roku, a także te wydane w sprawach wszczętych przed 16 października 2025 roku, zachowują ważność bezterminową. Pozostałe wygasają po 5 latach od dnia, w którym stały się prawomocne. Dlatego jeśli planujecie budowę w najbliższych latach i Wasza działka nie ma MPZP, warto złożyć wniosek o WZ najpóźniej 31 sierpnia 2026 roku – wtedy urząd rozpatrzy go jeszcze na dotychczasowych zasadach.</p>
 
 <h2 style="text-align: justify;">Projekt budowlany – serce Waszego wniosku</h2>
 
@@ -110,6 +110,6 @@ metadata:
 
 <p style="text-align: justify;">Podstawą sukcesu jest dobre przygotowanie. Zanim złożycie wniosek, upewnijcie się, że macie komplet dokumentów, że projekt jest zgodny z przepisami, że wszystkie formalności są dopięte na ostatni guzik. Lepiej poświęcić dodatkowy tydzień na sprawdzenie wszystkiego dwa razy, niż czekać kolejne miesiące na uzupełnienie braków.</p>
 
-<p style="text-align: justify;">Pamiętajcie też o zmianach przepisów wchodzących w życie w 2026 roku. Jeśli Wasza działka nie jest objęta miejscowym planem, a gmina nie ma jeszcze Planu Ogólnego, czas działa na Waszą niekorzyść. Warunki zabudowy uzyskane teraz będą ważne bezterminowo, te uzyskane po Nowym Roku – tylko przez 5 lat.</p>
+<p style="text-align: justify;">Pamiętajcie też o zmianach przepisów wchodzących w życie w 2026 roku. Jeśli Wasza działka nie jest objęta miejscowym planem, a gmina nie ma jeszcze planu ogólnego, czas działa na Waszą niekorzyść. Wniosek o warunki zabudowy na dotychczasowych zasadach możecie złożyć najpóźniej 31 sierpnia 2026 roku, a decyzje wydane w sprawach wszczętych od 16 października 2025 roku wygasają po 5 latach od uprawomocnienia.</p>
 
 <p style="text-align: justify;">Wiem, że to wszystko brzmi skomplikowanie. Wiem, że procedura pozwolenia na budowę potrafi zniechęcić nawet najbardziej zdeterminowanych inwestorów. Ale da się przez to przejść – przeszły przez to setki tysięcy ludzi przed Wami i przejdziecie Wy. Najważniejsze to nie działać po omacku, tylko wiedzieć, co Was czeka na każdym kroku. A teraz już wiecie.</p>

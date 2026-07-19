@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-17T21:54:16
 order: 14
-updateDate: 2026-07-19T18:00:00
+updateDate: 2026-07-19T23:00:00
 title: 'Nowe przepisy budowlane 2026 – co się zmienia dla inwestora'
 excerpt: 'Co realnie zmieniło się w przepisach budowlanych w 2026 roku i jak te zmiany wpłyną na Waszą budowę – od warunków zabudowy po odbiór końcowy.'
 image: '~/assets/images/blog/nowe-przepisy-budowlane-2026.jpeg'
@@ -42,11 +42,11 @@ metadata:
 
 <p>To jest zmiana, która moim zdaniem najmocniej dotknie inwestorów planujących zakup działki w 2026 roku i później. Ustawa z 7 lipca 2023 roku o zmianie ustawy o planowaniu i zagospodarowaniu przestrzennym oraz niektórych innych ustaw wprowadziła nowe pojęcie – plan ogólny gminy, który zastępuje dotychczasowe studium uwarunkowań i kierunków zagospodarowania przestrzennego.</p>
 
-<p>Różnica jest istotna. Studium było dokumentem strategicznym, ale niewiążącym dla inwestora – wiążący był dopiero miejscowy plan zagospodarowania przestrzennego (MPZP) lub w jego braku decyzja o warunkach zabudowy (WZ). Plan ogólny gminy ma być dokumentem prawnie wiążącym, który zastępuje studium i jednocześnie ogranicza wydawanie <a href="/blog/warunki-zabudowy-nowy-termin-waznosci-5-lat/">decyzji o warunkach zabudowy</a> do obszarów wskazanych w tym planie jako tereny rozwoju zabudowy.</p>
+<p>Różnica jest istotna. Studium było dokumentem strategicznym, ale niewiążącym dla inwestora – wiążący był dopiero miejscowy plan zagospodarowania przestrzennego (MPZP) lub w jego braku decyzja o warunkach zabudowy (WZ). Plan ogólny gminy ma być dokumentem prawnie wiążącym, który zastępuje studium i jednocześnie ogranicza wydawanie <a href="/blog/warunki-zabudowy-nowy-termin-waznosci-5-lat/">decyzji o warunkach zabudowy</a> do obszarów wskazanych w tym planie jako obszary uzupełnienia zabudowy.</p>
 
 <p>Co to oznacza praktycznie? Jeżeli kupicie działkę bez MPZP, to do tej pory mogliście wystąpić o decyzję o warunkach zabudowy w wielu lokalizacjach, jeżeli spełniony był warunek tzw. dobrego sąsiedztwa. Po wejściu w życie planu ogólnego gminy decyzję WZ można będzie uzyskać tylko na obszarach uzupełnienia zabudowy wskazanych w planie ogólnym. Innymi słowy – tereny, które dziś są rolne i bez MPZP, ale teoretycznie da się na nie wydać WZ, mogą po uchwaleniu planu ogólnego stać się niezabudowywalne.</p>
 
-<p>Pierwotny termin uchwalenia planów ogólnych przez gminy był wyznaczony na koniec 2025 roku, ale ustawodawca przesunął go na 2026 rok – mimo to wiele gmin nadal pracuje nad swoimi planami. To stwarza okres przejściowy, w którym dobrze być szczególnie ostrożnym przy zakupie działek bez MPZP. Jeżeli kupujecie taką działkę, sprawdźcie nie tylko aktualne studium, ale również – jeżeli już istnieje – projekt planu ogólnego gminy, w której znajduje się działka. Jeżeli plan ogólny jeszcze nie został uchwalony, zapytajcie w gminie, na jakim etapie są prace.</p>
+<p>Pierwotnie studia uwarunkowań miały stracić moc z końcem 2025 roku, ale ustawodawca przesuwał tę datę kilkakrotnie – dziś studium traci moc z chwilą wejścia w życie planu ogólnego w danej gminie, najpóźniej 31 sierpnia 2026 roku. Decyzję o warunkach zabudowy na wniosek złożony od 1 września 2026 roku można wydać tylko tam, gdzie plan ogólny już obowiązuje. Mimo to wiele gmin nadal pracuje nad swoimi planami – terminy i scenariusze rozpisuję w <a href="/blog/plan-ogolny-gminy-co-oznacza-dla-wlasciciela-dzialki/">artykule o planie ogólnym gminy</a>. To stwarza okres przejściowy, w którym dobrze być szczególnie ostrożnym przy zakupie działek bez MPZP. Jeżeli kupujecie taką działkę, sprawdźcie nie tylko aktualne studium, ale również – jeżeli już istnieje – projekt planu ogólnego gminy, w której znajduje się działka. Jeżeli plan ogólny jeszcze nie został uchwalony, zapytajcie w gminie, na jakim etapie są prace.</p>
 
 <p>Z setek budów wiem, że to jest moment, w którym bardzo łatwo o pomyłkę kosztującą setki tysięcy złotych. Działka, która jeszcze rok temu wyglądała na atrakcyjną budowlanie, po uchwaleniu planu ogólnego może okazać się nieprzeznaczona pod zabudowę mieszkaniową. Dlatego do skompletowania Drużyny Pierścienia, o której piszę szerzej w innym miejscu, w 2026 roku obowiązkowo dokładamy konsultację z geodetą lub urbanistą znającym specyfikę gminy, w której kupujecie działkę.</p>
 
@@ -116,7 +116,7 @@ metadata:
 
 <p>Trzecie pytanie – czy dom do 70 m² to dobre rozwiązanie? Tak, ale tylko jeżeli faktycznie potrzebujecie domu o takiej powierzchni. Pamiętajcie, że 70 m² powierzchni zabudowy to nie to samo, co 70 m² powierzchni użytkowej. W parterowym domu o powierzchni zabudowy 70 m² powierzchnia użytkowa wynosi około 60 m², w piętrowym może to być 110–120 m². Procedura zgłoszeniowa odnosi się do powierzchni zabudowy, czyli rzutu budynku na grunt.</p>
 
-<p>Czwarte pytanie – czy plan ogólny gminy może uniemożliwić mi budowę na działce, którą już mam? Jeżeli macie pozwolenie na budowę – nie. Jeżeli nie macie – teoretycznie tak, gdy gmina wskaże, że Wasza działka nie jest terenem rozwoju zabudowy. W praktyce jednak gminy starają się raczej dostosowywać plany do istniejącej zabudowy i działek już wydzielonych pod zabudowę, niż blokować inwestycje już zaplanowane. Mimo to – jeżeli macie działkę bez MPZP i bez WZ, czas zacząć działać aktywnie, nie czekać.</p>
+<p>Czwarte pytanie – czy plan ogólny gminy może uniemożliwić mi budowę na działce, którą już mam? Jeżeli macie pozwolenie na budowę – nie. Jeżeli nie macie – teoretycznie tak, gdy gmina nie obejmie Waszej działki obszarem uzupełnienia zabudowy. W praktyce jednak gminy starają się raczej dostosowywać plany do istniejącej zabudowy i działek już wydzielonych pod zabudowę, niż blokować inwestycje już zaplanowane. Mimo to – jeżeli macie działkę bez MPZP i bez WZ, czas zacząć działać aktywnie, nie czekać.</p>
 
 <h2>Podsumowanie</h2>
 

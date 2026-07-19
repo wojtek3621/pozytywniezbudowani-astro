@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-17T21:54:16
-updateDate: 2026-07-19T21:00:00
+updateDate: 2026-07-19T23:00:00
 title: 'Warunki zabudowy 2026 – nowy 5-letni termin ważności'
 excerpt: 'Nowelizacja ustawy o planowaniu przestrzennym wprowadziła 5-letni termin ważności decyzji WZ. Sprawdźcie, co to oznacza dla Waszej budowy.'
 image: '~/assets/images/blog/warunki-zabudowy-nowy-termin-waznosci-5-lat.jpeg'
@@ -40,7 +40,7 @@ metadata:
 
 <h2>Co z decyzjami WZ wydanymi przed reformą</h2>
 
-<p>To pytanie zadaje mi wielu czytelników, którzy posiadają WZ uzyskane lata temu i właśnie zastanawiają się, czy reforma wywróciła im plany. Krótka odpowiedź brzmi: stare decyzje WZ – te wydane na podstawie przepisów obowiązujących przed nowelizacją – co do zasady zachowują swoją bezterminową ważność na dotychczasowych warunkach. Ustawodawca wprowadził przepisy przejściowe, które chronią inwestorów posiadających już prawomocne WZ, w duchu zasady ochrony praw nabytych.</p>
+<p>To pytanie zadaje mi wielu czytelników, którzy posiadają WZ uzyskane lata temu i właśnie zastanawiają się, czy reforma wywróciła im plany. Krótka odpowiedź brzmi: bezterminowe pozostają dwie kategorie decyzji – te, które stały się prawomocne przed 1 stycznia 2026 roku, oraz te wydane w sprawach wszczętych przed 16 października 2025 roku. Do nich pięcioletniego terminu po prostu się nie stosuje. Ustawodawca wprowadził przepisy przejściowe, które chronią inwestorów posiadających już prawomocne WZ, w duchu zasady ochrony praw nabytych – drugą kategorię, liczoną od daty złożenia wniosku, dołożono późniejszą nowelizacją, żeby nie karać tych, którzy czekali na decyzję w urzędzie.</p>
 
 <p>Nie znaczy to jednak, że można się zupełnie odprężyć. Po pierwsze, nawet stara WZ przestaje być realnym dokumentem, jeżeli gmina wprowadzi MPZP zmieniający przeznaczenie terenu albo zostanie wszczęta inna procedura, która „zabija" decyzję WZ. Po drugie, jeżeli posiadacie starą WZ i na podstawie tego dokumentu chcecie uzyskać kredyt hipoteczny, banki potrafią patrzeć na wiekowe decyzje z rezerwą – mogą wymagać dodatkowych zaświadczeń z urzędu. Po trzecie, im starsza decyzja, tym większe ryzyko, że stan faktyczny wokół działki zmienił się na tyle, że na obecnych zasadach uzyskalibyście WZ z innymi parametrami. Jeżeli kupujecie działkę z dołączoną starą WZ – zweryfikujcie u architekta adaptującego, czy decyzja faktycznie pozwala na zbudowanie tego, co chcecie. To jeden z elementów do sprawdzenia jeszcze przed podpisaniem aktu notarialnego.</p>
 

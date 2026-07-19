@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-04T15:42:52
-updateDate: 2026-07-19T21:00:00
+updateDate: 2026-07-19T23:00:00
 title: 'MPZP - jak czytać miejscowy plan zagospodarowania przestrzennego'
 excerpt: 'Kolorowa mapa z tajemniczymi symbolami może zadecydować o losach Waszej budowy...'
 image: '~/assets/images/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego.jpeg'
@@ -25,7 +25,7 @@ metadata:
 
 <p style="text-align: justify;">MPZP, czyli miejscowy plan zagospodarowania przestrzennego, to akt prawa miejscowego uchwalany przez radę gminy. Brzmi sucho i urzędowo, ale w praktyce oznacza coś bardzo konkretnego: jest to dokument, który mówi Wam, co i jak możecie wybudować na danym terenie. I nie chodzi tu o ogólne wytyczne czy sugestie – to przepisy, które obowiązują tak samo jak każde inne prawo. Jeśli MPZP mówi, że maksymalna wysokość zabudowy to 9 metrów, to nie postawicie tam domu o wysokości 10 metrów. Koniec dyskusji.</p>
 
-<p style="text-align: justify;">Podstawę prawną dla miejscowych planów zagospodarowania przestrzennego stanowi Ustawa z dnia 27 marca 2003 r. o planowaniu i zagospodarowaniu przestrzennym. Czasem – szczególnie przy bardziej skomplikowanych sprawach – będziecie musieli sięgnąć do przepisów źródłowych. Co istotne, system planowania przestrzennego w Polsce przechodzi właśnie gruntowną reformę. Od 1 lipca 2026 roku studia uwarunkowań i kierunków zagospodarowania przestrzennego zostaną zastąpione tzw. planami ogólnymi gmin. Dla Was jako przyszłych inwestorów oznacza to, że w najbliższych miesiącach i latach dokumenty planistyczne mogą się zmieniać, a gminy będą intensywnie pracować nad nowymi aktami. Warto mieć to na uwadze.</p>
+<p style="text-align: justify;">Podstawę prawną dla miejscowych planów zagospodarowania przestrzennego stanowi Ustawa z dnia 27 marca 2003 r. o planowaniu i zagospodarowaniu przestrzennym. Czasem – szczególnie przy bardziej skomplikowanych sprawach – będziecie musieli sięgnąć do przepisów źródłowych. Co istotne, system planowania przestrzennego w Polsce przechodzi właśnie gruntowną reformę. Studia uwarunkowań i kierunków zagospodarowania przestrzennego są właśnie zastępowane przez tzw. plany ogólne gmin – studium traci moc z dniem wejścia w życie planu ogólnego w danej gminie, najpóźniej 31 sierpnia 2026 roku. Dla Was jako przyszłych inwestorów oznacza to, że w najbliższych miesiącach i latach dokumenty planistyczne mogą się zmieniać, a gminy będą intensywnie pracować nad nowymi aktami. Warto mieć to na uwadze.</p>
 
 <h2 style="text-align: justify;">Z czego składa się MPZP</h2>
 
@@ -79,13 +79,13 @@ metadata:
 
 <h2 style="text-align: justify;">Co jeśli dla działki nie ma MPZP</h2>
 
-<p style="text-align: justify;">Nie każda działka w Polsce jest objęta miejscowym planem zagospodarowania przestrzennego. Według danych sprzed kilku lat, plany miejscowe pokrywały nieco poniżej 30% powierzchni kraju – choć w miastach ten odsetek jest znacznie wyższy. Co w sytuacji, gdy dla Waszej wymarzonej działki planu nie ma?</p>
+<p style="text-align: justify;">Nie każda działka w Polsce jest objęta miejscowym planem zagospodarowania przestrzennego. Według danych GUS plany miejscowe pokrywają około jednej trzeciej powierzchni kraju – choć w miastach ten odsetek jest znacznie wyższy. Co w sytuacji, gdy dla Waszej wymarzonej działki planu nie ma?</p>
 
 <p style="text-align: justify;">W takim przypadku, aby uzyskać pozwolenie na budowę, musicie najpierw wystąpić o wydanie <a href="https://pozytywniezbudowani.pl/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/">decyzji o warunkach zabudowy</a>, potocznie zwanej WZ-tką lub wuzką. Decyzja ta określa sposób zagospodarowania terenu i warunki zabudowy na podstawie analizy sąsiedztwa – urząd sprawdza, jak zagospodarowane są okoliczne działki, i na tej podstawie ustala parametry dla Waszej inwestycji.</p>
 
 <p style="text-align: justify;">Od 2026 roku zasady wydawania warunków zabudowy zmienia reforma planistyczna – to, czy dostaniecie WZ, zależy coraz częściej od planu ogólnego gminy i obszaru uzupełnienia zabudowy. Stan reformy, terminy i scenariusze dla działki bez planu miejscowego opisuję w <a href="/blog/plan-ogolny-gminy-co-oznacza-dla-wlasciciela-dzialki/">artykule o planie ogólnym gminy</a>.</p>
 
-<p style="text-align: justify;">Tu jednak pojawia się istotna zmiana związana z reformą planowania przestrzennego. Po 1 lipca 2026 roku wydawanie decyzji o warunkach zabudowy będzie możliwe tylko w gminach, które uchwaliły plan ogólny. Jeśli gmina nie zdąży z uchwaleniem planu ogólnego, a dla Waszej działki nie ma MPZP, możecie utknąć w martwym punkcie – bez możliwości uzyskania ani warunków zabudowy, ani pozwolenia na budowę. Termin ten był pierwotnie wyznaczony na 1 stycznia 2026 roku, ale został przesunięty ustawą z kwietnia 2025 roku właśnie po to, by dać gminom więcej czasu na przygotowanie dokumentów.</p>
+<p style="text-align: justify;">Tu jednak pojawia się istotna zmiana związana z reformą planowania przestrzennego. Decyzję o warunkach zabudowy na wniosek złożony od 1 września 2026 roku można wydać tylko w gminie, w której wszedł w życie plan ogólny. Liczy się data złożenia wniosku: ten, który wpłynie do urzędu do 31 sierpnia 2026 roku włącznie, urząd rozpatrzy jeszcze na dotychczasowych zasadach, nawet jeżeli decyzja zapadnie znacznie później. Jeśli gmina nie zdąży z uchwaleniem planu ogólnego, a dla Waszej działki nie ma MPZP, możecie utknąć w martwym punkcie – bez możliwości uzyskania ani warunków zabudowy, ani pozwolenia na budowę. Termin ten był pierwotnie wyznaczony na 1 stycznia 2026 roku i przesuwano go już kilkakrotnie – ostatnio ustawą z 30 kwietnia 2026 roku – właśnie po to, by dać gminom więcej czasu na przygotowanie dokumentów.</p>
 
 <h2 style="text-align: justify;">Na co zwrócić szczególną uwagę</h2>
 
