@@ -747,4 +747,13 @@ metadata:
 
 <p style="text-align: justify;">W większości przypadków kabel aluminiowy o przekroju cztery razy trzydzieści pięć milimetrów kwadratowych okaże się najlepszym kompromisem między ceną, parametrami technicznymi i bezpieczeństwem na przyszłość. Ale każda budowa jest inna, więc traktujcie te obliczenia jako punkt wyjścia do rozmowy z Waszym elektrykiem, a nie jako gotową receptę.</p>
 
-<p style="text-align: justify;">Jeśli chcecie dowiedzieć się więcej o instalacjach elektrycznych i innych etapach budowy domu, zapraszam do mojej książki „Od marzenia do wprowadzenia", gdzie krok po kroku przeprowadzam przez cały proces budowlany – od wyboru działki po odbiór kluczy.</p>
+<!-- ZAPROSZENIE CENTRUM -->
+<div style="max-width: 700px; margin: 35px auto; padding: 24px 26px; background: #faf9f5; border: 1px solid #e8dfc9; border-left: 4px solid #c5a44e; border-radius: 8px;">
+<p style="margin: 0 0 10px 0; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b8934a;">Narzędzia w Centrum Dowodzenia Budową</p>
+<p style="margin: 0 0 14px 0; line-height: 1.7; color: #3c3c3c;">Kalkulator doboru kabla, z którego przed chwilą korzystaliście, zostaje tutaj na stałe – jest darmowy i nie wymaga żadnego logowania. Ale przy budowie domu policzyć trzeba znacznie więcej niż przekrój przewodu: ratę kredytu, koszt karencji przy transzach, wkład własny, prawdziwy koszt całej inwestycji. Zebrałem te rachunki w jednym miejscu – w Centrum Dowodzenia Budową działa dziewięć narzędzi, a każdy kalkulator przeszedł niezależną weryfikację matematyczną.</p>
+<p style="margin: 0 0 18px 0; line-height: 1.7; color: #5a656b; font-size: 15px;">Dziś Centrum otwierają czytelnicy mojej książki – darmowa rejestracja dla wszystkich ruszy wkrótce. Na stronie narzędzi opisałem, co dokładnie jest w środku i na jakich zasadach działa, żebyście mogli sami ocenić, czy to dla Was.</p>
+<p style="margin: 0;"><a href="/narzedzia/?z=kalk-wlz" data-astro-reload style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
+</div>
+<!-- KONIEC ZAPROSZENIA -->
+
+<p style="text-align: justify;">A jeśli chcecie dowiedzieć się więcej o instalacjach elektrycznych i innych etapach budowy domu, cały proces – od wyboru działki po odbiór kluczy – opisałem krok po kroku w mojej książce <a href="https://pozytywniezbudowani.pl/ksiazka/">„Od marzenia do wprowadzenia"</a>.</p>

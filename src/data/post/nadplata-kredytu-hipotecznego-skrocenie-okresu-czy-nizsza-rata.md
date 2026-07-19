@@ -53,308 +53,47 @@ metadata:
 
 <p style="text-align: justify;">Jest to szczególnie ważne, gdy weźmiemy pod uwagę jedną rzecz: wydłużenie okresu kredytowania, gdy już go skróciliście, jest bardzo trudne. Bank może odmówić, może zażądać ponownej oceny zdolności kredytowej, a w skrajnych przypadkach – jeśli uzna, że macie problemy finansowe – może nawet wypowiedzieć umowę. Brzmi dramatycznie? Bo takie zapisy faktycznie znajdują się w umowach kredytowych.</p>
 
-<!-- KALKULATOR NADPŁATY KREDYTU -->
-<div id="kalk-nadplata" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<h2 style="text-align: justify;">Policzmy obie opcje na konkretnych liczbach</h2>
 
-<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator nadpłaty kredytu</h3>
+<p style="text-align: justify;">Do tej pory mówiliśmy o tym ogólnie. Teraz zróbmy rachunek, bo dopiero przy konkretnych kwotach widać, jak duża jest ta różnica – i dlaczego to nie jest wybór między „trochę lepiej" a „trochę gorzej".</p>
 
-<!-- Komunikat błędu -->
-<div id="nadplata-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
+<p style="text-align: justify;">Weźmy kredyt <strong>400 000 zł na 25 lat</strong> przy oprocentowaniu <strong>5,90%</strong> rocznie. Rata równa wynosi w nim <strong>2 553 zł</strong>, a suma odsetek przez cały okres to <strong>365 843 zł</strong>. To jest nasz punkt odniesienia: tyle oddacie bankowi ponad pożyczony kapitał, jeśli nic nie zrobicie.</p>
 
-<!-- Pola formularza -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+<p style="text-align: justify;">Teraz zakładamy, że na początku kredytu wpada Wam <strong>50 000 zł</strong> – ze sprzedaży samochodu, z darowizny, z premii. Wpłacacie je jako nadpłatę i wybieracie jeden z dwóch wariantów.</p>
 
-<div style="grid-column: 1 / -1;">
-<label for="nadplata-pozostalo" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Pozostała kwota kredytu do spłaty (zł)</label>
-<input type="text" id="nadplata-pozostalo" placeholder="np. 400 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
+<h3 style="text-align: justify;">Wariant A – skrócenie okresu</h3>
 
-<div>
-<label for="nadplata-okres" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Pozostały okres spłaty (lat)</label>
-<input type="text" id="nadplata-okres" placeholder="np. 22" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
+<p style="text-align: justify;">Rata zostaje taka jak była, czyli 2 553 zł. Zmienia się tylko to, jak długo ją płacicie. Dług spada od razu do 350 000 zł, ale ponieważ nadal płacicie ratę policzoną od 400 000 zł, każda kolejna rata zjada dużo więcej kapitału niż wcześniej.</p>
 
-<div>
-<label for="nadplata-opr" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Oprocentowanie (%)</label>
-<input type="text" id="nadplata-opr" placeholder="np. 7,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-<div style="font-size: 11px; color: #888; margin-top: 4px;">WIBOR + marża</div>
-</div>
+<p style="text-align: justify;">Efekt: kredyt kończy się po <strong>229 miesiącach zamiast 300</strong>, czyli po 19 latach i 1 miesiącu. Skracacie go o <strong>71 miesięcy – prawie sześć lat</strong>. Suma odsetek spada do <strong>233 548 zł</strong>, czyli oszczędzacie <strong>132 295 zł</strong>.</p>
 
-<div style="grid-column: 1 / -1;">
-<label for="nadplata-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota nadpłaty (zł)</label>
-<input type="text" id="nadplata-kwota" placeholder="np. 20 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
+<p style="text-align: justify;">Zwróćcie uwagę na proporcję, bo ona robi największe wrażenie: wpłacacie 50 000 zł, a oszczędzacie ponad 132 000 zł. Każda złotówka nadpłaty przyniosła Wam około 2,65 zł oszczędności na odsetkach.</p>
 
-</div>
+<h3 style="text-align: justify;">Wariant B – obniżenie raty</h3>
 
-<!-- Przyciski -->
-<div style="display: flex; gap: 10px; margin-bottom: 25px;">
-<button id="nadplata-btn-oblicz" onclick="obliczNadplate()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Porównaj opcje</button>
-<button id="nadplata-btn-wyczysc" onclick="wyczyscNadplate()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
-</div>
+<p style="text-align: justify;">Tu okres zostaje ten sam – 25 lat – a bank przelicza ratę od nowego, niższego kapitału. Wystarczy podstawić do wzoru na ratę równą 350 000 zł zamiast 400 000 zł, przy tym samym r i n.</p>
 
-<!-- Wyniki -->
-<div id="nadplata-wyniki" style="display: none;">
+<p style="text-align: justify;">Efekt: rata spada z 2 553 zł do <strong>2 234 zł</strong>, czyli o <strong>319 zł miesięcznie</strong>. Suma odsetek to <strong>320 113 zł</strong>, więc oszczędzacie <strong>45 730 zł</strong>.</p>
 
-<!-- Aktualna sytuacja -->
-<div style="background: #f5f5f5; padding: 15px; border-radius: 6px; margin-bottom: 20px;">
-<div style="font-size: 12px; color: #888; margin-bottom: 8px;">Przed nadpłatą</div>
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
-<div>
-<span style="font-size: 12px; color: #666;">Aktualna rata: </span>
-<span id="nadplata-rata-przed" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</span>
-</div>
-<div>
-<span style="font-size: 12px; color: #666;">Odsetki do końca: </span>
-<span id="nadplata-odsetki-przed" style="font-size: 18px; font-weight: 600; color: #3c3c3c;">-</span>
-</div>
-</div>
-</div>
+<h3 style="text-align: justify;">Jak czytać to zestawienie</h3>
 
-<!-- Opcja 1: Skrócenie okresu -->
-<div style="background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 15px; border: 2px solid #5a8a6a;">
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-<div style="font-size: 16px; font-weight: 600; color: #5a8a6a;">Opcja 1: Skrócenie okresu</div>
-<div style="background: #5a8a6a; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 600;">WIĘCEJ OSZCZĘDNOŚCI</div>
-</div>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-<div>
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Rata pozostaje</div>
-<div id="nadplata-rata-skrocenie" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
-</div>
-<div>
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Skrócenie o</div>
-<div id="nadplata-skrocenie-czas" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
-</div>
-<div>
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędność na odsetkach</div>
-<div id="nadplata-oszcz-skrocenie" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
-</div>
-<div>
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Nowy okres spłaty</div>
-<div id="nadplata-nowy-okres" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
-</div>
-</div>
-</div>
+<p style="text-align: justify;">Różnica między wariantami wynosi <strong>86 565 zł</strong>. To nie jest niuans – to kwota, za którą można wykończyć sporą część domu. Wariant A jest oszczędniejszy prawie trzykrotnie, mimo że w obu przypadkach wpłacacie dokładnie te same 50 000 zł.</p>
 
-<!-- Opcja 2: Niższa rata -->
-<div style="background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 15px; border: 2px solid #c9a456;">
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-<div style="font-size: 16px; font-weight: 600; color: #c9a456;">Opcja 2: Niższa rata</div>
-<div style="background: #c9a456; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 600;">WIĘKSZA ELASTYCZNOŚĆ</div>
-</div>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-<div>
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Nowa rata</div>
-<div id="nadplata-rata-nizsza" style="font-size: 20px; font-weight: 700; color: #c9a456;">-</div>
-</div>
-<div>
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędzasz miesięcznie</div>
-<div id="nadplata-oszcz-miesieczna" style="font-size: 20px; font-weight: 700; color: #c9a456;">-</div>
-</div>
-<div>
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Oszczędność na odsetkach</div>
-<div id="nadplata-oszcz-nizsza" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
-</div>
-<div>
-<div style="font-size: 11px; color: #888; text-transform: uppercase;">Okres bez zmian</div>
-<div id="nadplata-okres-bez-zmian" style="font-size: 20px; font-weight: 700; color: #3c3c3c;">-</div>
-</div>
-</div>
-</div>
+<p style="text-align: justify;">Skąd ta przepaść? Z jednej rzeczy: <strong>odsetki naliczają się od salda, przez czas</strong>. W wariancie A skracacie czas naliczania o prawie sześć lat. W wariancie B czas zostaje ten sam, więc bank nalicza odsetki przez pełne 25 lat, tyle że od mniejszej kwoty. Zmniejszacie jeden czynnik zamiast dwóch – i stąd trzykrotnie słabszy wynik.</p>
 
-<!-- Porównanie -->
-<div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456;">
-<div style="font-size: 13px; color: #666; margin-bottom: 8px;"><strong>Różnica w oszczędnościach:</strong></div>
-<div id="nadplata-roznica" style="font-size: 20px; font-weight: 700; color: #5a8a6a;">-</div>
-<div style="font-size: 12px; color: #888; margin-top: 4px;">Tyle więcej zaoszczędzisz wybierając skrócenie okresu zamiast niższej raty.</div>
-</div>
+<p style="text-align: justify;">Ale zanim uznacie sprawę za zamkniętą, spójrzcie na to samo zestawienie z drugiej strony. Wariant B daje Wam <strong>319 zł miesięcznie na stałe</strong>, w każdym z 300 miesięcy, także w tych złych. Wariant A nie daje ani złotówki ulgi w bieżącym budżecie – cała korzyść przychodzi na końcu, pod warunkiem że przez 19 lat nic Wam się nie stanie. To jest właśnie ta cena bezpieczeństwa, o której pisałem wyżej: <strong>86 565 zł za możliwość oddychania</strong>. Dla kogoś ze stabilną pracą to drogo. Dla kogoś, kto prowadzi własną firmę i miewa chude kwartały, to może być najlepiej wydane 86 tysięcy w życiu.</p>
 
-<!-- Wskazówka -->
-<div style="margin-top: 15px; padding: 12px 15px; background: #f0f7f3; border-radius: 6px; border-left: 3px solid #5a8a6a;">
-<div style="font-size: 12px; color: #3c3c3c; line-height: 1.5;">
-<span style="color: #5a8a6a; font-size: 14px;">★</span> <strong>Wskazówka:</strong> Jeśli cenisz bezpieczeństwo, wybierz niższą ratę. Jeśli Twoja sytuacja finansowa jest stabilna i chcesz maksymalnie zaoszczędzić – wybierz skrócenie okresu.
-</div>
-</div>
+<h3 style="text-align: justify;">Cztery rzeczy, które łatwo przeoczyć przy tym rachunku</h3>
 
-</div>
+<p style="text-align: justify;"><strong>Po pierwsze – moment nadpłaty zmienia wszystko.</strong> Powyższy wynik dotyczy nadpłaty na początku kredytu. Ta sama kwota wpłacona w piętnastym roku da ułamek tej oszczędności, bo zostanie już tylko dziesięć lat naliczania odsetek. Piszę o tym szerzej w następnej sekcji.</p>
 
-<!-- Info -->
-<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Dokładne warunki nadpłaty sprawdź w swoim banku.</p>
+<p style="text-align: justify;"><strong>Po drugie – domyślny wariant banku bywa inny niż Wasz.</strong> Część banków przy nadpłacie automatycznie obniża ratę, bo tak jest dla nich korzystniej. Jeśli chcecie skrócić okres, zwykle musicie o to poprosić wprost, czasem pisemnie. Warto sprawdzić to w umowie <em>przed</em> przelewem, a nie po.</p>
 
-</div>
+<p style="text-align: justify;"><strong>Po trzecie – sprawdźcie prowizję za wcześniejszą spłatę.</strong> Przy kredytach o zmiennym oprocentowaniu bank może pobierać ją tylko przez pierwsze trzy lata i w ograniczonej wysokości, ale w tym okresie potrafi zjeść część korzyści z nadpłaty. Policzcie ją, zanim nadpłacicie.</p>
 
-<script>
-(function() {
-    var skipLink = document.querySelector('a.jump-to');
-    if (skipLink) {
-        skipLink.setAttribute('tabindex', '-1');
-        skipLink.style.display = 'none';
-    }
-    var tabOrder = ['nadplata-pozostalo', 'nadplata-okres', 'nadplata-opr', 'nadplata-kwota', 'nadplata-btn-oblicz', 'nadplata-btn-wyczysc'];
-    document.addEventListener('keydown', function(e) {
-        if (e.key !== 'Tab') return;
-        var activeId = document.activeElement.id;
-        var currentIndex = tabOrder.indexOf(activeId);
-        if (currentIndex !== -1) {
-            e.preventDefault();
-            e.stopPropagation();
-            var nextIndex;
-            if (e.shiftKey) {
-                nextIndex = currentIndex - 1;
-                if (nextIndex < 0) nextIndex = tabOrder.length - 1;
-            } else {
-                nextIndex = currentIndex + 1;
-                if (nextIndex >= tabOrder.length) nextIndex = 0;
-            }
-            var nextElement = document.getElementById(tabOrder[nextIndex]);
-            if (nextElement) nextElement.focus();
-        }
-    }, true);
-})();
+<p style="text-align: justify;"><strong>Po czwarte – nadpłata nie zawsze jest najlepszym użyciem tych pieniędzy.</strong> Jeżeli nie macie jeszcze poduszki finansowej na kilka miesięcy życia, zbudujcie ją najpierw. Nadpłaconych pieniędzy nie wyjmiecie z kredytu, gdy przyjdzie awaria dachu albo utrata pracy – a wtedy skończy się to droższym długiem gdzie indziej.</p>
 
-function obliczNadplate() {
-    var komunikat = document.getElementById('nadplata-blad');
-    komunikat.style.display = 'none';
-
-    var pozostaloStr = document.getElementById('nadplata-pozostalo').value;
-    var pozostalo = parseFloat(pozostaloStr.replace(/\s/g, '').replace(/,/g, '.'));
-
-    var okresStr = document.getElementById('nadplata-okres').value;
-    var lata = parseFloat(okresStr.replace(/,/g, '.'));
-
-    var oprStr = document.getElementById('nadplata-opr').value;
-    var opr = parseFloat(oprStr.replace(/,/g, '.'));
-
-    var kwotaNadplatyStr = document.getElementById('nadplata-kwota').value;
-    var kwotaNadplaty = parseFloat(kwotaNadplatyStr.replace(/\s/g, '').replace(/,/g, '.'));
-
-    var bledy = [];
-    if (isNaN(pozostalo) || pozostalo <= 0) bledy.push('Podaj pozostałą kwotę kredytu');
-    if (isNaN(lata) || lata < 1 || lata > 35) bledy.push('Okres musi wynosić od 1 do 35 lat');
-    if (isNaN(opr) || opr < 0 || opr > 20) bledy.push('Oprocentowanie musi wynosić od 0% do 20%');
-    if (isNaN(kwotaNadplaty) || kwotaNadplaty <= 0) bledy.push('Podaj kwotę nadpłaty');
-    if (kwotaNadplaty >= pozostalo) bledy.push('Kwota nadpłaty nie może być większa niż pozostały kredyt');
-
-    if (bledy.length > 0) {
-        komunikat.innerHTML = bledy.join('<br>');
-        komunikat.style.display = 'block';
-        document.getElementById('nadplata-wyniki').style.display = 'none';
-        return;
-    }
-
-    var r = opr / 100 / 12;
-    var n = Math.round(lata * 12);
-
-    function obliczRate(kwota, miesiace, r) {
-        if (r === 0) return kwota / miesiace;
-        return kwota * (r * Math.pow(1 + r, miesiace)) / (Math.pow(1 + r, miesiace) - 1);
-    }
-
-    // Symulacja spłaty stałą ratą: ostatnia rata niepełna, domyka saldo.
-    // (Poprzednia wersja liczyła sumę wpłat jako rata × liczba rat zaokrąglona
-    // w górę – zawyżało to odsetki po skróceniu; oszczędność była też błędnie
-    // pomniejszana o kwotę nadpłaty, choć nadpłata to spłata kapitału, nie koszt.)
-    function symulujSplate(kwota, rata, r) {
-        var saldo = kwota;
-        var odsetkiSuma = 0;
-        var miesiace = 0;
-        while (saldo > 0.005 && miesiace < 12000) {
-            var odsetki = saldo * r;
-            odsetkiSuma += odsetki;
-            var kapital = Math.min(rata - odsetki, saldo);
-            saldo -= kapital;
-            miesiace++;
-        }
-        return { miesiace: miesiace, sumaOdsetek: odsetkiSuma };
-    }
-
-    // Przed nadpłatą
-    var rataPrzed = obliczRate(pozostalo, n, r);
-    var odsetkiPrzed = symulujSplate(pozostalo, rataPrzed, r).sumaOdsetek;
-
-    // Opcja 1: Skrócenie okresu (rata bez zmian)
-    var nowaKwota = pozostalo - kwotaNadplaty;
-    var skrocenie = symulujSplate(nowaKwota, rataPrzed, r);
-    var nowyOkresMies = skrocenie.miesiace;
-    var odsetkiSkrocenie = skrocenie.sumaOdsetek;
-    var oszczednoscSkrocenie = odsetkiPrzed - odsetkiSkrocenie;
-    if (oszczednoscSkrocenie < 0) oszczednoscSkrocenie = 0;
-    var skrocenieOkres = n - nowyOkresMies;
-
-    // Opcja 2: Niższa rata (okres bez zmian)
-    var nowaRata = obliczRate(nowaKwota, n, r);
-    var odsetkiNizszaRata = symulujSplate(nowaKwota, nowaRata, r).sumaOdsetek;
-    var oszczednoscNizszaRata = odsetkiPrzed - odsetkiNizszaRata;
-    if (oszczednoscNizszaRata < 0) oszczednoscNizszaRata = 0;
-    var oszczMiesieczna = rataPrzed - nowaRata;
-
-    // Wyświetlanie
-    document.getElementById('nadplata-wyniki').style.display = 'block';
-
-    document.getElementById('nadplata-rata-przed').textContent = formatujKwoteN(rataPrzed) + ' zł';
-    document.getElementById('nadplata-odsetki-przed').textContent = formatujKwoteN(odsetkiPrzed) + ' zł';
-
-    // Opcja 1
-    document.getElementById('nadplata-rata-skrocenie').textContent = formatujKwoteN(rataPrzed) + ' zł';
-    var latSkr = Math.floor(skrocenieOkres / 12);
-    var miesSkr = skrocenieOkres % 12;
-    var skrTekst = '';
-    if (latSkr > 0) skrTekst += latSkr + ' ' + odmianaLat(latSkr) + ' ';
-    if (miesSkr > 0) skrTekst += miesSkr + ' mies.';
-    if (skrTekst === '') skrTekst = '< 1 mies.';
-    document.getElementById('nadplata-skrocenie-czas').textContent = skrTekst.trim();
-    document.getElementById('nadplata-oszcz-skrocenie').textContent = formatujKwoteN(oszczednoscSkrocenie) + ' zł';
-
-    var nowyOkresLat = Math.floor(nowyOkresMies / 12);
-    var nowyOkresMiesReszta = nowyOkresMies % 12;
-    var nowyOkresTekst = nowyOkresLat + ' ' + odmianaLat(nowyOkresLat);
-    if (nowyOkresMiesReszta > 0) nowyOkresTekst += ' ' + nowyOkresMiesReszta + ' mies.';
-    document.getElementById('nadplata-nowy-okres').textContent = nowyOkresTekst;
-
-    // Opcja 2
-    document.getElementById('nadplata-rata-nizsza').textContent = formatujKwoteN(nowaRata) + ' zł';
-    document.getElementById('nadplata-oszcz-miesieczna').textContent = formatujKwoteN(oszczMiesieczna) + ' zł';
-    document.getElementById('nadplata-oszcz-nizsza').textContent = formatujKwoteN(oszczednoscNizszaRata) + ' zł';
-    document.getElementById('nadplata-okres-bez-zmian').textContent = lata + ' ' + odmianaLat(lata);
-
-    // Różnica
-    var roznica = oszczednoscSkrocenie - oszczednoscNizszaRata;
-    document.getElementById('nadplata-roznica').textContent = '+' + formatujKwoteN(roznica) + ' zł';
-
-    // Formatowanie pól
-    document.getElementById('nadplata-pozostalo').value = formatujKwoteN(pozostalo);
-    document.getElementById('nadplata-kwota').value = formatujKwoteN(kwotaNadplaty);
-}
-
-function wyczyscNadplate() {
-    document.getElementById('nadplata-pozostalo').value = '';
-    document.getElementById('nadplata-okres').value = '';
-    document.getElementById('nadplata-opr').value = '';
-    document.getElementById('nadplata-kwota').value = '';
-    document.getElementById('nadplata-wyniki').style.display = 'none';
-    document.getElementById('nadplata-blad').style.display = 'none';
-    document.getElementById('nadplata-pozostalo').focus();
-}
-
-function formatujKwoteN(liczba) {
-    return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-}
-
-// Polska odmiana: 1 rok, 2-4 lata, 5+ lat (oraz 22 lata, 25 lat itd.)
-function odmianaLat(n) {
-    if (n === 1) return 'rok';
-    var dziesiatki = n % 100;
-    var jednosci = n % 10;
-    if (jednosci >= 2 && jednosci <= 4 && (dziesiatki < 12 || dziesiatki > 14)) return 'lata';
-    return 'lat';
-}
-</script>
-<!-- KONIEC KALKULATORA NADPŁATY -->
-
-<h2 style="text-align: justify;">Jak czytać wyniki kalkulatora?</h2>
-
-<p style="text-align: justify;">Kalkulator powyżej pokazuje Wam dokładnie, ile zaoszczędzicie przy każdej z opcji. Zwróćcie uwagę na kilka ważnych liczb.</p>
+<h2 style="text-align: justify;">Które liczby porównywać przy własnym kredycie</h2>
 
 <p style="text-align: justify;">Pierwsza to różnica w całkowitym koszcie kredytu. To suma wszystkich odsetek, które zapłacicie od dziś do ostatniej raty. Przy skróceniu okresu ta kwota będzie niższa – i to często znacząco niższa. Jeśli zależy Wam przede wszystkim na tym, żeby oddać bankowi jak najmniej, to jest Wasz główny wskaźnik.</p>
 
@@ -384,6 +123,15 @@ function odmianaLat(n) {
 
 <p style="text-align: justify;">Różnica? Jeśli coś pójdzie nie tak – stracicie pracę, zachorujecie, zmieni się sytuacja rodzinna – po prostu przestajecie nadpłacać i wracacie do niższej, bezpiecznej raty. Nikt Was o nic nie pyta, nie musicie nikogo prosić o zgodę. Macie elastyczność, której nie daje kredyt wzięty na krótszy okres.</p>
 
+<!-- ZAPROSZENIE CENTRUM -->
+<div style="max-width: 700px; margin: 35px auto; padding: 24px 26px; background: #faf9f5; border: 1px solid #e8dfc9; border-left: 4px solid #c5a44e; border-radius: 8px;">
+<p style="margin: 0 0 10px 0; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b8934a;">Narzędzia w Centrum Dowodzenia Budową</p>
+<p style="margin: 0 0 14px 0; line-height: 1.7; color: #3c3c3c;">Porównanie obu wariantów nadpłaty wymaga przejścia całego harmonogramu miesiąc po miesiącu – na kartce to zajęcie na wieczór. Kalkulator nadpłaty – razem z ośmioma innymi narzędziami – działa dziś w Centrum Dowodzenia Budową i pokazuje oszczędność w obu wariantach naraz.</p>
+<p style="margin: 0 0 18px 0; line-height: 1.7; color: #5a656b; font-size: 15px;">Dziś Centrum otwierają czytelnicy mojej książki – darmowa rejestracja dla wszystkich ruszy wkrótce. Na stronie narzędzi opisałem, co dokładnie jest w środku i na jakich zasadach działa, żebyście mogli sami ocenić, czy to dla Was.</p>
+<p style="margin: 0;"><a href="/narzedzia/?z=kalk-nadplata" data-astro-reload style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
+</div>
+<!-- KONIEC ZAPROSZENIA -->
+
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Nadpłata kredytu hipotecznego to jedna z najlepszych decyzji finansowych, jakie możecie podjąć. Ale to, czy wybrać skrócenie okresu, czy niższą ratę – zależy od Waszej indywidualnej sytuacji, planów na przyszłość i podejścia do ryzyka.</p>
@@ -394,6 +142,6 @@ function odmianaLat(n) {
 
 <p style="text-align: justify;">A najlepsza wiadomość? Nie musicie decydować raz na zawsze. Przy kolejnej nadpłacie możecie wybrać inaczej. Ważne, żebyście zaczęli nadpłacać – i żebyście zrobili to jak najszybciej.</p>
 
-<p style="text-align: justify;">Chcecie dokładnie policzyć, ile wyniesie Wasza rata przy różnych wariantach kredytu? Sprawdźcie nasz <a href="https://pozytywniezbudowani.pl/blog/kalkulator-raty-kredytu-hipotecznego/">kalkulator raty kredytu hipotecznego</a>. A jeśli zastanawiacie się, czy lepiej wziąć kredyt na 20, 25 czy 30 lat – <a href="https://pozytywniezbudowani.pl/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow/">ten artykuł</a> pomoże Wam podjąć świadomą decyzję. Więcej o przygotowaniu finansowym do budowy domu znajdziecie w naszym <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">pełnym przewodniku</a>.</p>
+<p style="text-align: justify;">Chcecie dokładnie policzyć, ile wyniesie Wasza rata przy różnych wariantach kredytu? Wzór krok po kroku znajdziecie w artykule o <a href="https://pozytywniezbudowani.pl/blog/kalkulator-raty-kredytu-hipotecznego/">racie kredytu hipotecznego</a>. A jeśli zastanawiacie się, czy lepiej wziąć kredyt na 20, 25 czy 30 lat – <a href="https://pozytywniezbudowani.pl/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow/">ten artykuł</a> pomoże Wam podjąć świadomą decyzję. Więcej o przygotowaniu finansowym do budowy domu znajdziecie w naszym <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">pełnym przewodniku</a>.</p>
 
 <p style="text-align: justify;">A jeśli chcecie poznać cały proces budowy domu od A do Z – od pierwszych marzeń, przez formalności, aż po odbiór kluczy – zapraszam do mojej książki „Od marzenia do wprowadzenia". Znajdziecie w niej nie tylko informacje o kredytach, ale też praktyczną wiedzę o każdym etapie budowy, zebraną przez lata pracy na budowach.</p>

@@ -10,8 +10,8 @@ tags:
 author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kredyt-na-20-25-czy-30-lat-porownanie-kosztow/'
-  title: 'Kredyt na 20, 25 czy 30 lat - porównanie kosztów | KALKULATOR'
-  description: 'Sprawdź, ile zapłacisz odsetek przy kredycie na 20, 25 i 30 lat. Poznaj strategię, która łączy niską ratę z oszczędnościami.'
+  title: 'Kredyt na 20, 25 czy 30 lat - porównanie kosztów'
+  description: 'Ile zapłacisz odsetek przy kredycie na 20, 25 i 30 lat. Wzór, trzy przeliczenia i strategia, która łączy niską ratę z oszczędnościami.'
   robots:
     index: true
     follow: true
@@ -25,229 +25,41 @@ metadata:
 
 <p style="text-align: justify;">Ale jest druga strona medalu. Rata kredytu na 30 lat jest znacznie niższa niż rata kredytu 20-letniego. I to nie jest tylko kwestia komfortu – to kwestia bezpieczeństwa finansowego Waszej rodziny. Przez 20 czy 30 lat naprawdę dużo może się wydarzyć. Pytanie brzmi: czy chcecie mieć wtedy pole manewru, czy być przyciśnięci do ściany?</p>
 
-<p style="text-align: justify;">Poniżej znajdziecie kalkulator, który pokaże Wam dokładnie, ile zapłacicie przy różnych okresach kredytowania. Ale zanim zaczniecie wpisywać liczby, przeczytajcie dalszą część artykułu – bo sam kalkulator to dopiero połowa odpowiedzi.</p>
+<p style="text-align: justify;">Poniżej pokażę Wam dokładnie, ile zapłacicie przy różnych okresach kredytowania – na jednym wzorze i trzech przeliczeniach, które możecie powtórzyć na własnych liczbach. Ale zanim przejdziemy do rachunku, jedno zastrzeżenie: sama matematyka to dopiero połowa odpowiedzi. Druga połowa to Wasza sytuacja życiowa, o której piszę w dalszej części artykułu.</p>
 
-<h2 style="text-align: justify;">Sprawdź, ile kosztuje Twój kredyt przy różnych okresach spłaty</h2>
+<h2 style="text-align: justify;">Policzmy to razem – trzy okresy, jeden wzór</h2>
 
-<!-- KALKULATOR PORÓWNANIA OKRESÓW KREDYTOWANIA -->
-<div id="kalk-okresy" style="max-width: 700px; margin: 30px auto; padding: 25px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<p style="text-align: justify;">Rata równa liczy się z jednego wzoru, który wygląda nieprzyjemnie tylko do momentu, w którym raz się go przerobi:</p>
 
-<h3 style="text-align: center; color: #3c3c3c; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; border-bottom: 3px solid #c9a456; padding-bottom: 12px;">Kalkulator porównania okresów kredytu</h3>
+<p style="text-align: justify;"><strong>Rata = K × [r × (1 + r)<sup>n</sup>] ÷ [(1 + r)<sup>n</sup> − 1]</strong></p>
 
-<!-- Komunikat błędu -->
-<div id="okresy-blad" style="display: none; background: #fee; border: 1px solid #c00; color: #c00; padding: 10px 15px; border-radius: 6px; margin-bottom: 15px; font-size: 14px;"></div>
+<p style="text-align: justify;">Gdzie <strong>K</strong> to kwota kredytu, <strong>r</strong> to oprocentowanie miesięczne (roczne podzielone przez 12), a <strong>n</strong> to liczba rat. Weźmy <strong>400 000 zł</strong> przy oprocentowaniu <strong>5,90%</strong> rocznie (przyjmijmy WIBOR 3,90% plus marża 2,00%) i przeliczmy trzy warianty. Oprocentowanie miesięczne jest w każdym takie samo: r = 0,059 ÷ 12 = 0,004917. Różni się tylko n.</p>
 
-<!-- Pola formularza -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+<p style="text-align: justify;"><strong>Wariant 20 lat</strong> (n = 240): rata wychodzi <strong>2 843 zł</strong>. Przez cały okres oddajecie 682 247 zł, z czego <strong>282 247 zł to odsetki</strong>.</p>
 
-<div style="grid-column: 1 / -1;">
-<label for="okresy-kwota" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Kwota kredytu (zł)</label>
-<input type="text" id="okresy-kwota" placeholder="np. 500 000" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 18px; font-weight: 600; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-</div>
+<p style="text-align: justify;"><strong>Wariant 25 lat</strong> (n = 300): rata spada do <strong>2 553 zł</strong>. Suma spłat rośnie do 765 843 zł, odsetki do <strong>365 843 zł</strong>.</p>
 
-<div>
-<label for="okresy-wibor" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">WIBOR 3M (%)</label>
-<input type="text" id="okresy-wibor" placeholder="np. 5,80" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-<div style="font-size: 11px; color: #888; margin-top: 4px;">Aktualną stawkę sprawdzisz na <a href="https://gpwbenchmark.pl/notowania-stawek-referencyjnych" target="_blank" rel="noopener" style="color: #c9a456;">gpwbenchmark.pl</a></div>
-</div>
+<p style="text-align: justify;"><strong>Wariant 30 lat</strong> (n = 360): rata to <strong>2 373 zł</strong>. Suma spłat 854 117 zł, odsetki <strong>454 117 zł</strong>.</p>
 
-<div>
-<label for="okresy-marza" style="display: block; margin-bottom: 6px; color: #3c3c3c; font-weight: 500; font-size: 14px;">Marża banku (%)</label>
-<input type="text" id="okresy-marza" placeholder="np. 2,00" style="width: 100%; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; color: #3c3c3c; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='#c9a456'" onblur="this.style.borderColor='#ddd'">
-<div style="font-size: 11px; color: #888; margin-top: 4px;">Typowa marża: 1,8% – 2,5%</div>
-</div>
+<h3 style="text-align: justify;">Co z tych trzech liczb naprawdę wynika</h3>
 
-</div>
+<p style="text-align: justify;">Zestawcie skrajne warianty, bo dopiero wtedy widać sedno. Wydłużenie kredytu z 20 do 30 lat obniża ratę o <strong>470 zł miesięcznie</strong> – rata na 30 lat to zaledwie 83,5% raty dwudziestoletniej. Za tę ulgę płacicie <strong>171 870 zł dodatkowych odsetek</strong>. To jest cały koszt decyzji, wyrażony w jednej liczbie.</p>
 
-<!-- Przyciski -->
-<div style="display: flex; gap: 10px; margin-bottom: 25px;">
-<button id="okresy-btn-oblicz" onclick="obliczOkresy()" style="flex: 1; padding: 14px 20px; background: #c9a456; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#b8934a'" onmouseout="this.style.background='#c9a456'">Porównaj okresy</button>
-<button id="okresy-btn-wyczysc" onclick="wyczyscOkresy()" style="padding: 14px 20px; background: #fff; color: #777; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='#c9a456'; this.style.color='#c9a456'" onmouseout="this.style.borderColor='#ddd'; this.style.color='#777'">Wyczyść</button>
-</div>
+<p style="text-align: justify;">Zwróćcie uwagę na proporcję, bo ona jest tu najciekawsza. Wydłużając kredyt o połowę (z 20 na 30 lat), ratę obniżacie tylko o 16,5%. Odsetki rosną natomiast o 61%. Innymi słowy: każdy kolejny rok kredytu daje coraz mniejszą ulgę w racie, a kosztuje coraz więcej. To dlatego przeskok z 20 na 25 lat ma sens dla wielu osób, a z 25 na 30 – już znacznie rzadziej.</p>
 
-<!-- Wyniki -->
-<div id="okresy-wyniki" style="display: none;">
+<p style="text-align: justify;">I jeszcze jedna rzecz, którą warto sprawdzić samodzielnie: odsetki w pierwszym miesiącu. To po prostu kapitał razy oprocentowanie miesięczne, czyli 400 000 × 0,004917 = <strong>1 967 zł</strong> – identycznie w każdym z trzech wariantów. Przy racie 2 373 zł (30 lat) na spłatę długu idzie więc 406 zł, a przy racie 2 843 zł (20 lat) – już 876 zł, czyli ponad dwa razy więcej. Krótszy okres nie jest „droższy miesięcznie": on po prostu od pierwszego dnia spłaca dług, zamiast karmić odsetki.</p>
 
-<!-- Oprocentowanie -->
-<div style="text-align: center; margin-bottom: 20px; padding: 12px; background: #fff; border-radius: 6px;">
-<span style="font-size: 13px; color: #888;">Oprocentowanie całkowite: </span>
-<span id="okresy-opr" style="font-size: 18px; font-weight: 700; color: #c9a456;">-</span>
-</div>
+<h3 style="text-align: justify;">Trzy pułapki przy tym rachunku</h3>
 
-<!-- Tabela porównawcza -->
-<div style="overflow-x: auto;">
-<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
-<thead>
-<tr style="background: linear-gradient(135deg, #c9a456 0%, #b8934a 100%); color: #fff;">
-<th style="padding: 12px 10px; text-align: left; font-weight: 600;">Okres</th>
-<th style="padding: 12px 10px; text-align: right; font-weight: 600;">Rata</th>
-<th style="padding: 12px 10px; text-align: right; font-weight: 600;">Suma odsetek</th>
-<th style="padding: 12px 10px; text-align: right; font-weight: 600;">Łącznie do spłaty</th>
-</tr>
-</thead>
-<tbody>
-<tr style="background: #fff;">
-<td style="padding: 12px 10px; border-bottom: 1px solid #eee; font-weight: 600; color: #3c3c3c;">20 lat</td>
-<td id="okresy-rata-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; font-weight: 600; color: #5a8a6a;">-</td>
-<td id="okresy-odsetki-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
-<td id="okresy-suma-20" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
-</tr>
-<tr style="background: #f9f9f9;">
-<td style="padding: 12px 10px; border-bottom: 1px solid #eee; font-weight: 600; color: #3c3c3c;">25 lat</td>
-<td id="okresy-rata-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; font-weight: 600; color: #c9a456;">-</td>
-<td id="okresy-odsetki-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
-<td id="okresy-suma-25" style="padding: 12px 10px; border-bottom: 1px solid #eee; text-align: right; color: #3c3c3c;">-</td>
-</tr>
-<tr style="background: #fff;">
-<td style="padding: 12px 10px; font-weight: 600; color: #3c3c3c;">30 lat</td>
-<td id="okresy-rata-30" style="padding: 12px 10px; text-align: right; font-weight: 600; color: #c75050;">-</td>
-<td id="okresy-odsetki-30" style="padding: 12px 10px; text-align: right; color: #3c3c3c;">-</td>
-<td id="okresy-suma-30" style="padding: 12px 10px; text-align: right; color: #3c3c3c;">-</td>
-</tr>
-</tbody>
-</table>
-</div>
+<p style="text-align: justify;"><strong>Pierwsza – porównywanie samych rat.</strong> Rata jest tym, co czujecie co miesiąc, ale to odsetki są ceną kredytu. Doradca pokazujący wyłącznie „u nas rata będzie niższa" mówi Wam połowę prawdy. Zawsze proście o sumę wszystkich rat.</p>
 
-<!-- Podsumowanie różnic -->
-<div style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-<div style="background: #fff; padding: 15px; border-radius: 6px; border-left: 3px solid #5a8a6a;">
-<div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Różnica raty 20 vs 30 lat</div>
-<div id="okresy-roznica-rata" style="font-size: 20px; font-weight: 700; color: #5a8a6a; margin-top: 4px;">-</div>
-<div style="font-size: 11px; color: #888; margin-top: 2px;">miesięcznie więcej przy 20 latach</div>
-</div>
-<div style="background: #fff; padding: 15px; border-radius: 6px; border-left: 3px solid #c75050;">
-<div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Dodatkowe odsetki 30 vs 20 lat</div>
-<div id="okresy-roznica-odsetki" style="font-size: 20px; font-weight: 700; color: #c75050; margin-top: 4px;">-</div>
-<div style="font-size: 11px; color: #888; margin-top: 2px;">więcej zapłacisz przy 30 latach</div>
-</div>
-</div>
+<p style="text-align: justify;"><strong>Druga – zakładanie stałego oprocentowania przez 30 lat.</strong> Powyższe liczby są prawdziwe przy 5,90% przez cały okres, a to się nie wydarzy. WIBOR będzie się zmieniał wielokrotnie. Rachunek pokazuje relację między wariantami, nie prognozę.</p>
 
-<!-- Wskazówka -->
-<div style="background: #fffbf0; padding: 15px; border-radius: 6px; border: 1px dashed #c9a456; margin-top: 15px;">
-<div style="font-size: 13px; color: #666; line-height: 1.5;">
-<span style="color: #c9a456; font-size: 14px;">★</span> <strong>Strategia:</strong> Weź kredyt na 30 lat (niższa obowiązkowa rata), ale nadpłacaj go tak, jakby był na 20 lat. Jeśli przyjdą trudniejsze czasy – po prostu przestajesz nadpłacać. Nikt nie pyta, nikt nie wymaga tłumaczeń.
-</div>
-</div>
-
-</div>
-
-<!-- Info -->
-<p style="font-size: 11px; color: #999; text-align: center; margin: 20px 0 0 0; line-height: 1.5;">Kalkulator ma charakter poglądowy. Rzeczywista rata może się różnić w zależności od oferty banku.</p>
-
-</div>
-
-<script>
-(function() {
-    var skipLink = document.querySelector('a.jump-to');
-    if (skipLink) {
-        skipLink.setAttribute('tabindex', '-1');
-        skipLink.style.display = 'none';
-    }
-    var tabOrder = ['okresy-kwota', 'okresy-wibor', 'okresy-marza', 'okresy-btn-oblicz', 'okresy-btn-wyczysc'];
-    document.addEventListener('keydown', function(e) {
-        if (e.key !== 'Tab') return;
-        var activeId = document.activeElement.id;
-        var currentIndex = tabOrder.indexOf(activeId);
-        if (currentIndex !== -1) {
-            e.preventDefault();
-            e.stopPropagation();
-            var nextIndex;
-            if (e.shiftKey) {
-                nextIndex = currentIndex - 1;
-                if (nextIndex < 0) nextIndex = tabOrder.length - 1;
-            } else {
-                nextIndex = currentIndex + 1;
-                if (nextIndex >= tabOrder.length) nextIndex = 0;
-            }
-            var nextElement = document.getElementById(tabOrder[nextIndex]);
-            if (nextElement) nextElement.focus();
-        }
-    }, true);
-})();
-
-function obliczOkresy() {
-    var komunikat = document.getElementById('okresy-blad');
-    komunikat.style.display = 'none';
-
-    var kwotaStr = document.getElementById('okresy-kwota').value;
-    var kwota = parseFloat(kwotaStr.replace(/\s/g, '').replace(/,/g, '.'));
-    var wiborStr = document.getElementById('okresy-wibor').value;
-    var wibor = parseFloat(wiborStr.replace(/,/g, '.'));
-    var marzaStr = document.getElementById('okresy-marza').value;
-    var marza = parseFloat(marzaStr.replace(/,/g, '.'));
-
-    var bledy = [];
-    if (isNaN(kwota) || kwota <= 0) bledy.push('Podaj prawidłową kwotę kredytu');
-    if (isNaN(wibor) || wibor < 0 || wibor > 15) bledy.push('WIBOR musi wynosić od 0% do 15%');
-    if (isNaN(marza) || marza < 0 || marza > 10) bledy.push('Marża musi wynosić od 0% do 10%');
-
-    if (bledy.length > 0) {
-        komunikat.innerHTML = bledy.join('<br>');
-        komunikat.style.display = 'block';
-        document.getElementById('okresy-wyniki').style.display = 'none';
-        return;
-    }
-
-    var oprocentowanie = wibor + marza;
-    var r = oprocentowanie / 100 / 12;
-
-    function obliczRate(kwota, lata, r) {
-        var n = lata * 12;
-        if (r === 0) return kwota / n;
-        return kwota * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
-    }
-
-    var rata20 = obliczRate(kwota, 20, r);
-    var rata25 = obliczRate(kwota, 25, r);
-    var rata30 = obliczRate(kwota, 30, r);
-
-    var suma20 = rata20 * 20 * 12;
-    var suma25 = rata25 * 25 * 12;
-    var suma30 = rata30 * 30 * 12;
-
-    var odsetki20 = suma20 - kwota;
-    var odsetki25 = suma25 - kwota;
-    var odsetki30 = suma30 - kwota;
-
-    document.getElementById('okresy-wyniki').style.display = 'block';
-    document.getElementById('okresy-opr').textContent = oprocentowanie.toFixed(2).replace('.', ',') + '%';
-
-    document.getElementById('okresy-rata-20').textContent = formatujKwoteO(rata20) + ' zł';
-    document.getElementById('okresy-rata-25').textContent = formatujKwoteO(rata25) + ' zł';
-    document.getElementById('okresy-rata-30').textContent = formatujKwoteO(rata30) + ' zł';
-
-    document.getElementById('okresy-odsetki-20').textContent = formatujKwoteO(odsetki20) + ' zł';
-    document.getElementById('okresy-odsetki-25').textContent = formatujKwoteO(odsetki25) + ' zł';
-    document.getElementById('okresy-odsetki-30').textContent = formatujKwoteO(odsetki30) + ' zł';
-
-    document.getElementById('okresy-suma-20').textContent = formatujKwoteO(suma20) + ' zł';
-    document.getElementById('okresy-suma-25').textContent = formatujKwoteO(suma25) + ' zł';
-    document.getElementById('okresy-suma-30').textContent = formatujKwoteO(suma30) + ' zł';
-
-    document.getElementById('okresy-roznica-rata').textContent = '+' + formatujKwoteO(rata20 - rata30) + ' zł';
-    document.getElementById('okresy-roznica-odsetki').textContent = '+' + formatujKwoteO(odsetki30 - odsetki20) + ' zł';
-
-    document.getElementById('okresy-kwota').value = formatujKwoteO(kwota);
-}
-
-function wyczyscOkresy() {
-    document.getElementById('okresy-kwota').value = '';
-    document.getElementById('okresy-wibor').value = '';
-    document.getElementById('okresy-marza').value = '';
-    document.getElementById('okresy-wyniki').style.display = 'none';
-    document.getElementById('okresy-blad').style.display = 'none';
-    document.getElementById('okresy-kwota').focus();
-}
-
-function formatujKwoteO(liczba) {
-    return Math.round(liczba).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-}
-</script>
-<!-- KONIEC KALKULATORA PORÓWNANIA OKRESÓW -->
+<p style="text-align: justify;"><strong>Trzecia – pomijanie tego, że okres da się nadpłacić, ale nie da się wydłużyć na życzenie.</strong> Kredyt na 30 lat możecie spłacać jak dwudziestoletni. Kredytu na 20 lat nie rozciągniecie do 30, gdy przyjdą gorsze czasy – bank sprawdzi wtedy Waszą zdolność, a to najgorszy moment na taką kontrolę. Ta asymetria jest ważniejsza niż różnica w odsetkach i wrócę do niej przy „złotym środku".</p>
 
 <h2 style="text-align: justify;">Co mówią te liczby</h2>
 
-<p style="text-align: justify;">Kiedy wpiszecie swoje dane w kalkulator, zobaczycie trzy różne scenariusze. I pewnie pierwszy raz w życiu poczujecie fizycznie, co to znaczy „procent składany pracujący przeciwko Wam". Różnica w całkowitym koszcie kredytu między 20 a 30 latami potrafi zaskoczyć nawet osoby, które uważają się za świadome finansowo.</p>
+<p style="text-align: justify;">Kiedy podstawicie własne kwoty, zobaczycie trzy scenariusze i pewnie pierwszy raz w życiu poczujecie fizycznie, co to znaczy „procent składany pracujący przeciwko Wam". Różnica w całkowitym koszcie kredytu między 20 a 30 latami potrafi zaskoczyć nawet osoby, które uważają się za świadome finansowo.</p>
 
 <p style="text-align: justify;">Weźmy przykład: przy aktualnych stopach procentowych rata kredytu na 30 lat w kwocie 5000 złotych miesięcznie składa się mniej więcej z 4670 złotych odsetek i zaledwie 330 złotych kapitału. Czytacie dobrze – przez pierwsze lata spłacacie głównie odsetki, a sam dług prawie nie maleje. Dopiero z czasem proporcje się odwracają, ale zanim to nastąpi, mija sporo lat i sporo pieniędzy.</p>
 
@@ -283,9 +95,18 @@ function formatujKwoteO(liczba) {
 
 <p style="text-align: justify;">To strategia, która daje Wam wszystko: niskie ryzyko, elastyczność, bezpieczeństwo finansowe i możliwość oszczędzenia dziesiątek tysięcy złotych na odsetkach. Jedyny warunek to odrobina samodyscypliny. Ale jeśli budujecie dom, to pewnie już wiecie, że bez samodyscypliny daleko się nie zajedzie.</p>
 
+<!-- ZAPROSZENIE CENTRUM -->
+<div style="max-width: 700px; margin: 35px auto; padding: 24px 26px; background: #faf9f5; border: 1px solid #e8dfc9; border-left: 4px solid #c5a44e; border-radius: 8px;">
+<p style="margin: 0 0 10px 0; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b8934a;">Narzędzia w Centrum Dowodzenia Budową</p>
+<p style="margin: 0 0 14px 0; line-height: 1.7; color: #3c3c3c;">Przeliczenie trzech okresów ręcznie to trzy razy ta sama potęga i łatwo się przy tym pomylić. Kalkulator porównania okresów – razem z ośmioma innymi narzędziami – działa dziś w Centrum Dowodzenia Budową i pokazuje wszystkie trzy scenariusze obok siebie, z różnicą w odsetkach.</p>
+<p style="margin: 0 0 18px 0; line-height: 1.7; color: #5a656b; font-size: 15px;">Dziś Centrum otwierają czytelnicy mojej książki – darmowa rejestracja dla wszystkich ruszy wkrótce. Na stronie narzędzi opisałem, co dokładnie jest w środku i na jakich zasadach działa, żebyście mogli sami ocenić, czy to dla Was.</p>
+<p style="margin: 0;"><a href="/narzedzia/?z=kalk-okresy" data-astro-reload style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
+</div>
+<!-- KONIEC ZAPROSZENIA -->
+
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
-<p style="text-align: justify;">Wybór między kredytem na 20, 25 czy 30 lat nie jest tak prosty, jak mogłoby się wydawać po spojrzeniu na kalkulator. Tak, dłuższy okres oznacza więcej odsetek – ale oznacza też bezpieczeństwo i pole manewru. Krótszy okres to oszczędności – ale też wyższa rata i mniejsza elastyczność.</p>
+<p style="text-align: justify;">Wybór między kredytem na 20, 25 czy 30 lat nie jest tak prosty, jak mogłoby się wydawać po spojrzeniu na same liczby. Tak, dłuższy okres oznacza więcej odsetek – ale oznacza też bezpieczeństwo i pole manewru. Krótszy okres to oszczędności – ale też wyższa rata i mniejsza elastyczność.</p>
 
 <p style="text-align: justify;">Moim zdaniem najlepszym rozwiązaniem jest kredyt na długi okres z regularnym nadpłacaniem. Dajesz sobie wtedy wolność wyboru każdego miesiąca: czy stawiasz na przyspieszenie spłaty, czy na większy bufor finansowy. A wolność wyboru – szczególnie w tak długoterminowym zobowiązaniu jak kredyt hipoteczny – jest bezcenna. Więcej o strategii finansowej znajdziecie w artykule o tym, <a href="https://pozytywniezbudowani.pl/blog/jak-przygotowac-sie-finansowo-do-budowy-domu/">jak przygotować się finansowo do budowy domu</a>.</p>
 
