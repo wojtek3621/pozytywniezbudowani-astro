@@ -10,17 +10,18 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "npm run check:emdash && astro build",
+    "build": "npm run check:emdash && npm run check:blocks && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "check": "npm run check:emdash && npm run check:astro && npm run check:eslint && npm run check:prettier",
+    "check": "npm run check:emdash && npm run check:blocks && npm run check:astro && npm run check:eslint && npm run check:prettier",
     "check:emdash": "node scripts/check-no-emdash.mjs",
     "check:astro": "astro check",
     "check:eslint": "eslint .",
     "check:prettier": "prettier --check .",
     "fix": "npm run fix:eslint && npm run fix:prettier",
     "fix:eslint": "eslint --fix .",
-    "fix:prettier": "prettier -w ."
+    "fix:prettier": "prettier -w .",
+    "check:blocks": "node scripts/check-embedded-blocks.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.12",
