@@ -100,7 +100,7 @@ metadata:
 <p style="margin: 0 0 10px 0; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b8934a;">Narzędzia w Centrum Dowodzenia Budową</p>
 <p style="margin: 0 0 14px 0; line-height: 1.7; color: #3c3c3c;">Przeliczenie trzech okresów ręcznie to trzy razy ta sama potęga i łatwo się przy tym pomylić. Kalkulator porównania okresów – razem z ośmioma innymi narzędziami – działa dziś w Centrum Dowodzenia Budową i pokazuje wszystkie trzy scenariusze obok siebie, z różnicą w odsetkach.</p>
 <p style="margin: 0 0 18px 0; line-height: 1.7; color: #5a656b; font-size: 15px;">Dziś Centrum otwierają czytelnicy mojej książki – darmowa rejestracja dla wszystkich ruszy wkrótce. Na stronie narzędzi opisałem, co dokładnie jest w środku i na jakich zasadach działa, żebyście mogli sami ocenić, czy to dla Was.</p>
-<p style="margin: 0;"><a href="/narzedzia/?z=kalk-okresy" style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
+<p style="margin: 0;"><a href="/narzedzia/?z=kalk-okresy" data-astro-reload style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
 </div>
 <!-- KONIEC ZAPROSZENIA -->
 

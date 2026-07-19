@@ -104,7 +104,7 @@ metadata:
 <p style="margin: 0 0 10px 0; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b8934a;">Narzędzia w Centrum Dowodzenia Budową</p>
 <p style="margin: 0 0 14px 0; line-height: 1.7; color: #3c3c3c;">Rachunek, który przed chwilą przerobiliśmy, robi się nużący, gdy chcecie porównać pięć ofert banków po kolei. Kalkulator raty – razem z ośmioma innymi narzędziami – działa dziś w Centrum Dowodzenia Budową i liczy obie raty naraz, równą i malejącą, razem z sumą odsetek.</p>
 <p style="margin: 0 0 18px 0; line-height: 1.7; color: #5a656b; font-size: 15px;">Dziś Centrum otwierają czytelnicy mojej książki – darmowa rejestracja dla wszystkich ruszy wkrótce. Na stronie narzędzi opisałem, co dokładnie jest w środku i na jakich zasadach działa, żebyście mogli sami ocenić, czy to dla Was.</p>
-<p style="margin: 0;"><a href="/narzedzia/?z=kalk-rata" style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
+<p style="margin: 0;"><a href="/narzedzia/?z=kalk-rata" data-astro-reload style="display: inline-block; padding: 12px 22px; background: #c5a44e; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600;">Zobaczcie narzędzia w Centrum</a></p>
 </div>
 <!-- KONIEC ZAPROSZENIA -->
 
