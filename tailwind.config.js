@@ -6,6 +6,14 @@ export default {
   content: ['./src/**/*.{astro,html,js,jsx,json,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
+      // Próg przełączenia menu głównego na hamburger (2026-07-20).
+      // Menu ma 7 pozycji i potrzebuje 561 px; poniżej ~1180 px nie mieści się
+      // obok logo i przycisku 'Logowanie' — napisy nachodziły na logo.
+      // Zmierzone w przeglądarce, nie oszacowane. Dodanie/wydłużenie pozycji
+      // menu => przemierz próg (Header.astro używa wariantu `nav:`).
+      screens: {
+        nav: '1180px',
+      },
       colors: {
         primary: 'var(--aw-color-primary)',
         secondary: 'var(--aw-color-secondary)',
