@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T18:59:38
-updateDate: 2026-06-01T18:59:38
+updateDate: 2026-07-20T04:30:00
 title: 'Altanka ogrodowa – rodzaje i pozwolenia 2026'
 excerpt: 'Altanka do 35 m² bez pozwolenia – brzmi prosto, dopóki nie zaczniecie liczyć powierzchni zabudowy i odległości od granicy. Sprawdźcie, co naprawdę mówią przepisy.'
 image: '~/assets/images/blog/altanka-ogrodowa-rodzaje-pozwolenia.jpeg'
@@ -23,7 +23,7 @@ metadata:
 
 <h2>Czym właściwie jest altanka w rozumieniu prawa budowlanego</h2>
 
-<p>Zacznijmy od podstaw, bo bez tego nie ma sensu rozmawiać o pozwoleniach. Pojęcie „altanki" w polskim prawie budowlanym jest węższe, niż mogłoby się wydawać. W ustawie z dnia 7 lipca 1994 r. – Prawo budowlane (tekst jednolity Dz.U. z 2024 r. poz. 725 z późn. zm.) altanka traktowana jest jako obiekt małej architektury (art. 3 pkt 4) lub – w określonych przypadkach – jako wolnostojący parterowy budynek rekreacji indywidualnej (art. 29 ust. 1).</p>
+<p>Zacznijmy od podstaw, bo bez tego nie ma sensu rozmawiać o pozwoleniach. Pojęcie „altanki" w polskim prawie budowlanym jest węższe, niż mogłoby się wydawać. W ustawie z dnia 7 lipca 1994 r. – Prawo budowlane (tekst jednolity Dz.U. 2026 poz. 524) altanka traktowana jest jako obiekt małej architektury (art. 3 pkt 4) lub – w określonych przypadkach – jako wolnostojący parterowy budynek rekreacji indywidualnej (art. 29 ust. 1).</p>
 
 <p>To rozróżnienie ma duże znaczenie, bo przesądza o tym, czy musicie iść do urzędu, czy nie. Mała architektura to obiekty służące rekreacji codziennej i utrzymaniu porządku – piaskownice, huśtawki, ławki, ale też właśnie niewielkie altanki o lekkiej konstrukcji. Z kolei budynek rekreacji indywidualnej to już obiekt o cechach budynku – z dachem, ścianami i przeznaczeniem do okresowego wypoczynku.</p>
 

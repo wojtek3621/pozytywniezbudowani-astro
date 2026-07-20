@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-10T18:02:05
-order: 26
+order: 28
 updateDate: 2026-01-11T19:19:32
 title: 'Błędy w projekcie domu - jak wyłapać przed budową'
 excerpt: 'Projekt kosztował tysiące złotych, ale czy jest bezbłędny? Sprawdźcie to zanim wbiją pierwszą łopatę...'

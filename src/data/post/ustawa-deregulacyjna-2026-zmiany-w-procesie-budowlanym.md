@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-17T21:54:16
-updateDate: 2026-05-17T21:54:16
+updateDate: 2026-07-20T04:30:00
 title: 'Ustawa deregulacyjna 2026 – zmiany w prawie budowlanym'
 excerpt: 'Deregulacja prawa budowlanego trwa od kilku lat. Wyjaśniam, co realnie się zmieniło i jak to wpływa na proces budowy.'
 image: '~/assets/images/blog/ustawa-deregulacyjna-2026-zmiany-w-procesie-budowlanym.jpeg'
@@ -21,7 +21,7 @@ metadata:
 
 <h2>Czym właściwie jest deregulacja prawa budowlanego</h2>
 
-<p>Deregulacja w kontekście budowlanym oznacza rozluźnianie wymogów formalnych, skracanie procedur i przenoszenie odpowiedzialności z urzędu na inwestora. To proces, który trwa od kilkunastu lat i obejmuje kolejne nowelizacje ustawy z dnia 7 lipca 1994 r. – Prawo budowlane (Dz.U. z 2024 r. poz. 725 z późn. zm.). Najgłośniejsze ostatnie reformy to wprowadzenie ścieżki zgłoszeniowej dla domów do 70 m² (2022), uruchomienie portalu e-Budownictwo (2021) oraz wdrożenie elektronicznego dziennika budowy – EDB (od 27 stycznia 2023 r., kolejne etapy obowiązkowości).</p>
+<p>Deregulacja w kontekście budowlanym oznacza rozluźnianie wymogów formalnych, skracanie procedur i przenoszenie odpowiedzialności z urzędu na inwestora. To proces, który trwa od kilkunastu lat i obejmuje kolejne nowelizacje ustawy z dnia 7 lipca 1994 r. – Prawo budowlane (tekst jednolity Dz.U. 2026 poz. 524). Najgłośniejsze ostatnie reformy to wprowadzenie ścieżki zgłoszeniowej dla domów do 70 m² (2022), uruchomienie portalu e-Budownictwo (2021) oraz wdrożenie elektronicznego dziennika budowy – EDB (od 27 stycznia 2023 r., kolejne etapy obowiązkowości).</p>
 
 <p>Jedno wiem na pewno: deregulacja na papierze i deregulacja na placu budowy to dwie różne rzeczy. Sama nazwa „budowa bez pozwolenia" brzmi jak zaproszenie do rozpoczęcia robót w weekend. W rzeczywistości oznacza inną ścieżkę formalną, ale nie zwalnia Was z odpowiedzialności technicznej, projektowej, ani – co najważniejsze – z zachowania wymagań zawartych w <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">warunkach technicznych</a> (rozporządzenie Ministra Infrastruktury w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie, czyli tzw. WT z aktualizacjami obowiązującymi w 2026 r.).</p>
 

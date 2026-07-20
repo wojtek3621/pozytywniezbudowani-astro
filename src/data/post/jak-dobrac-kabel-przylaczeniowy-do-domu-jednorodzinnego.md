@@ -1,5 +1,6 @@
 ---
 publishDate: 2024-09-30T12:43:27
+order: 4
 updateDate: 2025-12-28T20:42:57
 title: 'Jak dobrać kabel przyłączeniowy do domu jednorodzinnego?'
 excerpt: 'Dobór prawidłowego kabla zasilającego dom jednorodzinny wielu osobom sprawia problem. Nic dziwnego – w internecie trudno…'

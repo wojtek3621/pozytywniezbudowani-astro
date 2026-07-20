@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-order: 9
+order: 11
 updateDate: 2026-05-31T11:00:23
 title: 'Błędy na fundamentach – jak rozpoznać i kiedy reagować'
 excerpt: 'Fundament to ten element domu, którego nie poprawicie po latach. Pokazuję, jakie błędy widać gołym okiem i kiedy reagować.'

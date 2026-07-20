@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T18:20:18
-order: 27
+order: 29
 updateDate: 2026-05-31T19:13:14
 title: 'Kolejność prac wykończeniowych w domu – pełen harmonogram'
 excerpt: 'Zła kolejność prac wykończeniowych to nie tylko stres. To uszkodzone panele, porysowane schody i niemożliwe do wyegzekwowania reklamacje.'

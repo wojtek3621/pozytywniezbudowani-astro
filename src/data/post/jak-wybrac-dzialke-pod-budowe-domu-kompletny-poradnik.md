@@ -1,6 +1,6 @@
 ---
 publishDate: 2025-12-27T19:02:52
-order: 6
+order: 8
 updateDate: 2026-07-19T23:00:00
 title: 'Jak wybrać działkę pod budowę domu – kompletny poradnik dla przyszłego inwestora'
 excerpt: 'Ładna działka i dobra działka to często dwie różne rzeczy. Sprawdź, czego nie widać na zdjęciach w ogłoszeniu...'

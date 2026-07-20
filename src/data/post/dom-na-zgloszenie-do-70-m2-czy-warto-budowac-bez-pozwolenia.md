@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-17T21:54:16
-updateDate: 2026-05-17T21:54:16
+updateDate: 2026-07-20T04:30:00
 title: 'Dom na zgłoszenie do 70 m² – czy warto budować bez pozwolenia'
 excerpt: '70 metrów zabudowy bez kierownika, bez dziennika i bez pozwolenia. Brzmi jak skrót – ale w praktyce ten tryb pomaga tylko części inwestorów.'
 image: '~/assets/images/blog/dom-na-zgloszenie-do-70-m2-czy-warto-budowac-bez-pozwolenia.jpeg'
@@ -22,7 +22,7 @@ metadata:
 
 <h2>Co tak naprawdę oznacza „dom na zgłoszenie do 70 m²"</h2>
 
-<p>Podstawą prawną jest art. 29 ust. 1 pkt 1a ustawy z 7 lipca 1994 r. – Prawo budowlane (tekst jednolity Dz.U. z 2024 r. poz. 725 z późniejszymi zmianami). Zgodnie z tym przepisem nie wymaga decyzji o pozwoleniu na budowę, a jedynie <a href="/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia/">zgłoszenia</a>, budowa wolnostojącego, nie więcej niż dwukondygnacyjnego budynku mieszkalnego jednorodzinnego o powierzchni zabudowy do 70 m², którego obszar oddziaływania mieści się w całości na działce lub działkach, na których został zaprojektowany, a budowa jest prowadzona w celu zaspokojenia własnych potrzeb mieszkaniowych inwestora.</p>
+<p>Podstawą prawną jest art. 29 ust. 1 pkt 1a ustawy z 7 lipca 1994 r. – Prawo budowlane (tekst jednolity Dz.U. 2026 poz. 524). Zgodnie z tym przepisem nie wymaga decyzji o pozwoleniu na budowę, a jedynie <a href="/blog/zgloszenie-budowy-a-pozwolenie-czym-sie-roznia/">zgłoszenia</a>, budowa wolnostojącego, nie więcej niż dwukondygnacyjnego budynku mieszkalnego jednorodzinnego o powierzchni zabudowy do 70 m², którego obszar oddziaływania mieści się w całości na działce lub działkach, na których został zaprojektowany, a budowa jest prowadzona w celu zaspokojenia własnych potrzeb mieszkaniowych inwestora.</p>
 
 <p>Pierwsza wersja tego przepisu, wprowadzona ustawą z 17 września 2021 r. i obowiązująca od 3 stycznia 2022 r., dotyczyła wyłącznie budynków jednokondygnacyjnych. Późniejsza nowelizacja rozszerzyła zakres do dwóch kondygnacji. <a href="/blog/nowe-przepisy-budowlane-2026/">Na rok 2026 mamy więc sytuację</a>, w której można w tym trybie wybudować pełnoprawny dom – parterowy lub z poddaszem użytkowym – pod warunkiem, że spełnia kilka warunków równolegle.</p>
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T19:17:31
-order: 10
+order: 12
 updateDate: 2026-06-01T19:17:31
 title: 'Dom murowany czy szkieletowy – co wybrać? Praktyk porównuje'
 excerpt: 'Murowany czy szkieletowy? To pytanie wraca u mnie na konsultacjach co tydzień. Pokazuję Wam realne różnice z placu budowy, nie z folderów reklamowych.'

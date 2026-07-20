@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-14T18:19:04
-order: 5
+order: 7
 updateDate: 2026-02-14T18:28:48
 title: 'Lista rzeczy do załatwienia przed rozpoczęciem budowy domu'
 excerpt: 'Koparka za 3 tygodnie, a Wy nie wiecie, czy wszystko jest ogarnięte? Sprawdźcie, co musicie załatwić – punkt po punkcie.'

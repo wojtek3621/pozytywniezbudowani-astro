@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-01-04T15:49:53
+order: 3
 updateDate: 2026-07-20T21:00:00
 title: 'Warunki zabudowy - kiedy są potrzebne i jak je uzyskać'
 excerpt: 'Kompletna procedura uzyskania warunków zabudowy: kiedy są potrzebne, wniosek krok po kroku, dokumenty, koszty, terminy urzędu, odwołanie i przeniesienie decyzji. Stan prawny po nowelizacjach 2026.'

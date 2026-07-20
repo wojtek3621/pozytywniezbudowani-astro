@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-01T19:06:00
-updateDate: 2026-06-01T19:06:00
+updateDate: 2026-07-20T04:30:00
 title: 'Uzdatnianie wody ze studni – jak zaprojektować system'
 excerpt: 'Studnia oznacza, że to Wy jesteście stacją uzdatniania wody. Zobaczcie, co kupić, w jakiej kolejności i kiedy zrobić badania.'
 image: '~/assets/images/blog/uzdatnianie-wody-ze-studni.jpeg'
@@ -27,7 +27,7 @@ metadata:
 
 <p>Pierwsze – surowej wody prosto ze studni, zaraz po jej wywierceniu i wypompowaniu pierwszej, mętnej zawiesiny. To badanie powie Wam, z czym macie do czynienia: jaki jest poziom żelaza, manganu, twardości, jonu amonowego, azotanów, pH, przewodności, a w razie potrzeby także bakterii grupy coli i <em>Escherichia coli</em>. Na podstawie tego badania projektujemy system uzdatniania.</p>
 
-<p>Drugie – wody już uzdatnionej, czyli po przejściu przez wszystkie urządzenia. Robimy je dopiero, gdy system jest uruchomiony, wypłukany i pracuje stabilnie kilka tygodni. To badanie potwierdza, że uzdatnianie faktycznie działa – i że woda spełnia wymagania Rozporządzenia Ministra Zdrowia z 7 grudnia 2017 roku w sprawie jakości wody przeznaczonej do spożycia przez ludzi (Dz.U. 2017 poz. 2294).</p>
+<p>Drugie – wody już uzdatnionej, czyli po przejściu przez wszystkie urządzenia. Robimy je dopiero, gdy system jest uruchomiony, wypłukany i pracuje stabilnie kilka tygodni. To badanie potwierdza, że uzdatnianie faktycznie działa – i że woda spełnia wymagania Rozporządzenia Ministra Zdrowia z 22 maja 2026 roku w sprawie jakości wody przeznaczonej do spożycia przez ludzi (<a href="https://api.sejm.gov.pl/eli/acts/DU/2026/748/text.pdf" target="_blank" rel="noopener">Dz.U. 2026 poz. 748</a>). Uwaga na datę: to rozporządzenie zastąpiło poprzednie, z 7 grudnia 2017 roku, które straciło moc 24 czerwca 2026 roku. Jeśli traficie na starszy poradnik albo cennik laboratorium odsyłający do Dz.U. 2017 poz. 2294, to podstawa już nieaktualna – same wartości graniczne dla żelaza, manganu i jonu amonowego pozostały jednak bez zmian, zmieniła się za to jednostka zapisu (nowe rozporządzenie podaje żelazo i mangan w µg/l, czyli 200 µg/l to te same 0,2 mg/l).</p>
 
 <p>Badania zlecajcie w akredytowanym laboratorium albo lokalnym Sanepidzie. Zwykła próbka „od pana z internetu" nie jest dokumentem, a Wam może być potrzebny papier – chociażby przy odbiorze budynku albo w razie sporu z dostawcą urządzeń.</p>
 
@@ -151,4 +151,4 @@ metadata:
 
 <h2>Disclaimer</h2>
 
-<p>Niniejszy artykuł opisuje praktykę, którą stosuję na budowach domów jednorodzinnych zasilanych z własnej studni głębinowej. Konkretny dobór urządzeń i parametrów uzdatniania zależy od wyników badania surowej wody – każda studnia jest pod tym względem inna. Przed zakupem systemu zlećcie analizę wody w akredytowanym laboratorium, a projekt uzdatniania powierzcie firmie z doświadczeniem w Waszym regionie. Skuteczność dezynfekcji UV oraz parametry wody pitnej muszą być potwierdzone badaniem zgodnym z Rozporządzeniem Ministra Zdrowia z 7 grudnia 2017 roku w sprawie jakości wody przeznaczonej do spożycia przez ludzi (Dz.U. 2017 poz. 2294). Decyzje dotyczące dezynfekcji bakteriologicznej, doboru lampy UV oraz wymiany złóż konsultujcie z osobą posiadającą uprawnienia w zakresie uzdatniania wody.</p>
+<p>Niniejszy artykuł opisuje praktykę, którą stosuję na budowach domów jednorodzinnych zasilanych z własnej studni głębinowej. Konkretny dobór urządzeń i parametrów uzdatniania zależy od wyników badania surowej wody – każda studnia jest pod tym względem inna. Przed zakupem systemu zlećcie analizę wody w akredytowanym laboratorium, a projekt uzdatniania powierzcie firmie z doświadczeniem w Waszym regionie. Skuteczność dezynfekcji UV oraz parametry wody pitnej muszą być potwierdzone badaniem zgodnym z Rozporządzeniem Ministra Zdrowia z 22 maja 2026 roku w sprawie jakości wody przeznaczonej do spożycia przez ludzi (Dz.U. 2026 poz. 748). Decyzje dotyczące dezynfekcji bakteriologicznej, doboru lampy UV oraz wymiany złóż konsultujcie z osobą posiadającą uprawnienia w zakresie uzdatniania wody.</p>

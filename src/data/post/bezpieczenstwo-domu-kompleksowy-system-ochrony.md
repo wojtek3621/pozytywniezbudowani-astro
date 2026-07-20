@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T18:56:27
-order: 34
+order: 36
 updateDate: 2026-05-31T18:56:27
 title: 'Bezpieczeństwo domu – jak zaplanować ochronę krok po kroku'
 excerpt: 'Bezpieczeństwo domu to nie sam alarm. To system czterech warstw: otoczenia, obudowy, wnętrza i detekcji zagrożeń. Pokażę Wam, jak go zaplanować.'

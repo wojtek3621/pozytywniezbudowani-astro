@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T16:46:38
-order: 38
+order: 40
 updateDate: 2026-05-31T16:46:38
 title: 'Sucha zabudowa w domu – sufity, ścianki i zabudowy z g-k'
 excerpt: 'Sufit podwieszany, skosy poddasza, ścianki działowe – wszystko z karton-gipsu. Pokazuję, jak to zrobić dobrze i czego pilnować na budowie.'

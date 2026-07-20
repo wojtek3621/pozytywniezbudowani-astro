@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-25T08:59:37
-order: 7
+order: 9
 updateDate: 2026-07-19T18:00:00
 title: 'Jak wybrać projekt domu – kompletny poradnik 2026'
 excerpt: 'Wybór projektu domu zdecyduje nie tylko o tym, jak będzie wyglądał Wasz dom, ale jak będzie się w nim żyło przez 30 lat. Pokazuję, jak zrobić to świadomie.'
