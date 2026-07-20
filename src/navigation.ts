@@ -1,11 +1,19 @@
-import { getPermalink, getBlogPermalink } from './utils/permalinks';
+import { getPermalink, getBlogPermalink, getHomePermalink } from './utils/permalinks';
 
 // Nawigacja główna wg koncepcji strony-bramy (M3, 2026-07-18; strategia
-// ekosystemu 04-koncepcja-strony §2): max 5 pozycji — Centrum · Książka ·
-// Blog · O mnie (+ docelowo Sztab Budowy, czeka na decyzję nazwy W4).
-// Sklep / Kontakt / Media mieszkają w stopce — nie rozpychamy menu.
+// ekosystemu 04-koncepcja-strony §2): max 5 pozycji — Start · Centrum ·
+// Książka · Blog · O mnie. Sklep / Kontakt / Media mieszkają w stopce —
+// nie rozpychamy menu.
+// 2026-07-20 (dyrektywa właściciela): 'Start' jako pierwsza pozycja, jawne
+// wyjście na stronę główną obok klikalnego logo. Limit 5 jest tym wyczerpany —
+// ewentualny 'Sztab Budowy' (decyzja nazwy W4) wymaga zwolnienia miejsca,
+// nie doklejenia szóstej pozycji.
 export const headerData = {
   links: [
+    {
+      text: 'Start',
+      href: getHomePermalink(),
+    },
     {
       text: 'Centrum',
       href: getPermalink('/centrum'),
