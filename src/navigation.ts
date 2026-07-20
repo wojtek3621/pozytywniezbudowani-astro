@@ -1,13 +1,16 @@
 import { getPermalink, getBlogPermalink, getHomePermalink } from './utils/permalinks';
 
-// Nawigacja główna wg koncepcji strony-bramy (M3, 2026-07-18; strategia
-// ekosystemu 04-koncepcja-strony §2): max 5 pozycji — Start · Centrum ·
-// Książka · Blog · O mnie. Sklep / Kontakt / Media mieszkają w stopce —
-// nie rozpychamy menu.
-// 2026-07-20 (dyrektywa właściciela): 'Start' jako pierwsza pozycja, jawne
-// wyjście na stronę główną obok klikalnego logo. Limit 5 jest tym wyczerpany —
-// ewentualny 'Sztab Budowy' (decyzja nazwy W4) wymaga zwolnienia miejsca,
-// nie doklejenia szóstej pozycji.
+// Nawigacja główna: Start · Centrum · Książka · Blog · Sklep · O mnie · Kontakt.
+// Media zostają w stopce.
+//
+// ⚠ DYREKTYWA WŁAŚCICIELA 2026-07-20 — NIE PRZYWRACAĆ LIMITU 5 POZYCJI.
+// Koncepcja strony-bramy (M3, 2026-07-18; strategia ekosystemu
+// 04-koncepcja-strony §2) zakładała max 5 pozycji i zsyłała Sklep/Kontakt do
+// stopki. Wojtek świadomie to nadpisał: 'Start' (jawne wyjście na stronę
+// główną obok klikalnego logo) oraz powrót 'Sklep' i 'Kontakt' do menu —
+// przekroczenie piątki jest zamierzone, nie przeoczeniem. Sesja czytająca sam
+// dokument koncepcji zobaczy rozjazd; to NIE jest błąd do naprawienia.
+// Zmiana składu menu wymaga nowej decyzji Wojtka.
 export const headerData = {
   links: [
     {
@@ -27,8 +30,16 @@ export const headerData = {
       href: getBlogPermalink(),
     },
     {
+      text: 'Sklep',
+      href: getPermalink('/sklep'),
+    },
+    {
       text: 'O mnie',
       href: getPermalink('/o-mnie'),
+    },
+    {
+      text: 'Kontakt',
+      href: getPermalink('/kontakt'),
     },
   ],
   actions: [{ text: 'Logowanie', href: 'https://platforma.pozytywniezbudowani.pl/', target: '_blank' }],
