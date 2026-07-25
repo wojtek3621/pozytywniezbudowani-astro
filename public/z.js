@@ -297,11 +297,20 @@
   } catch (e) {}
 
   // page_leave (re-armed on return; sessionizer bierze MAX engagement per sesja+path)
+  //
+  // ⚠ activeMs to SUMA NARASTAJĄCA, a pageLeave odpala się WIELOKROTNIE na jedno wejście
+  // (każde przełączenie karty uzbraja go ponownie — 30,7% par sesja+strona miało >1
+  // page_leave, rekord 51). Dlatego po doliczeniu odcinka trzeba przesunąć lastActive:
+  // bez tego kolejny pageLeave doliczał ten SAM bezczynny odcinek jeszcze raz i
+  // active_time_ms przerastał time_on_page_ms (7,2% zdarzeń; nadwyżka do 43,7 s, bo
+  // strażnik 30 s ogranicza pojedynczy dorzut). Przegląd analityki 2026-07-25.
+  // Niezmiennik po naprawie: active_time_ms <= time_on_page_ms (odcinki są rozłączne).
   var leaveSent = false;
   function pageLeave() {
     if (leaveSent) return; leaveSent = true;
     var now = Date.now();
     if (now - lastActive < 30000) activeMs += now - lastActive;
+    lastActive = now;
     var p = base('page_leave');
     p.time_on_page_ms = now - pageStart;
     p.active_time_ms = activeMs;
@@ -311,7 +320,10 @@
   try {
     document.addEventListener('visibilitychange', function () {
       if (document.visibilityState === 'hidden') pageLeave();
-      else leaveSent = false;
+      // Powrót do karty: uzbrój ponownie ORAZ przesuń lastActive — czas spędzony w tle
+      // nie może doliczyć się jako aktywny przy pierwszym ruchu myszy po powrocie
+      // (strażnik 30 s wyłapywał tylko dłuższe nieobecności).
+      else { leaveSent = false; lastActive = Date.now(); }
     });
     window.addEventListener('pagehide', pageLeave);
   } catch (e) {}
