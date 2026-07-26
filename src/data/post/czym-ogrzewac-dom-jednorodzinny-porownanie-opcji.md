@@ -111,7 +111,7 @@ metadata:
 
 <p>To jest jedno z pierwszych pytań, jakie usłyszycie w salonie. Spróbuję rozłożyć temat przystępnie.</p>
 
-<p><strong>Kocioł dwufunkcyjny</strong> działa jako przepływowy ogrzewacz wody. Gdy odkręcacie ciepły kran, kocioł zapala palnik, podgrzewa wodę i wysyła ją do baterii. Plusy: zajmuje mało miejsca, kotłownia jest tańsza, dostarcza nielimitowaną ilość ciepłej wody. Minusy: gdy korzystają jednocześnie dwa punkty (ktoś bierze prysznic, ktoś zmywa), kocioł może mieć za małą wydajność. Nie da się też podpiąć cyrkulacji ciepłej wody użytkowej, a baterie termostatyczne mogą zaburzać jego działanie.</p>
+<p><strong>Kocioł dwufunkcyjny</strong> działa jako przepływowy ogrzewacz wody. Gdy odkręcacie ciepły kran, kocioł zapala palnik, podgrzewa wodę i wysyła ją do baterii. Plusy: zajmuje mało miejsca, kotłownia jest tańsza, dostarcza nielimitowaną ilość ciepłej wody. Minusy: gdy korzystają jednocześnie dwa punkty (ktoś bierze prysznic, ktoś zmywa), kocioł może mieć za małą wydajność. Nie da się też podpiąć <a href="/blog/cyrkulacja-cieplej-wody-czy-warto/">cyrkulacji ciepłej wody</a> użytkowej, a baterie termostatyczne mogą zaburzać jego działanie.</p>
 
 <p><strong>Kocioł jednofunkcyjny</strong> współpracuje z osobnym zasobnikiem ciepłej wody (najczęściej 100–140 litrów). Plusy: bardzo duża wydajność (dwa prysznice naraz to żaden problem), można podłączyć cyrkulację i baterie termostatyczne. Minusy: zasobnik zajmuje sporo miejsca, kotłownia jest droższa.</p>
 

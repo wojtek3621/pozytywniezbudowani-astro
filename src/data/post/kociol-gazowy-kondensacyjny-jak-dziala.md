@@ -77,7 +77,7 @@ metadata:
 
 <h2>Jednofunkcyjny czy dwufunkcyjny – tu nic się nie zmienia</h2>
 
-<p>Zasada kondensacji nie zmienia logiki wyboru między kotłem jednofunkcyjnym a dwufunkcyjnym. Każdy z tych kotłów może być – i dzisiaj praktycznie zawsze jest – kondensacyjny. Decyzja, który wariant Wam pasuje, zależy od tego, jak duża jest instalacja ciepłej wody użytkowej i jak chcecie ją obsłużyć.</p>
+<p>Zasada kondensacji nie zmienia logiki wyboru między kotłem jednofunkcyjnym a dwufunkcyjnym. Każdy z tych kotłów może być – i dzisiaj praktycznie zawsze jest – kondensacyjny. Decyzja, który wariant Wam pasuje, zależy od tego, jak duża jest instalacja <a href="/blog/cyrkulacja-cieplej-wody-czy-warto/">ciepłej wody</a> użytkowej i jak chcecie ją obsłużyć.</p>
 
 <p>Krótko – bo szczegółowo opisałem to w mojej książce: dwufunkcyjny działa jak przepływowy ogrzewacz wody (mała kotłownia, brak zasobnika, ale ograniczona wydajność przy dwóch punktach poboru jednocześnie i bez cyrkulacji). Jednofunkcyjny współpracuje z <a href="/blog/zasobnik-cwu-jaka-pojemnosc/">osobnym zasobnikiem 100–140 litrów</a> (więcej miejsca w kotłowni, ale duży zapas ciepłej wody, możliwa cyrkulacja, baterie termostatyczne). Sensownym kompromisem są kotły zintegrowane z niewielkim zasobnikiem 45 litrów albo all-in-one o gabarytach lodówki, które łączą zalety obu rozwiązań w jednej obudowie.</p>
 
