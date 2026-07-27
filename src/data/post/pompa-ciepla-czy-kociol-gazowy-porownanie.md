@@ -75,7 +75,7 @@ metadata:
 
 <p>Druga rzecz – temperatura wody w zasobniku. Pompa ciepła z natury rzeczy pracuje na niższych temperaturach niż kocioł gazowy. Jeśli chcecie podgrzać wodę do 60°C (zalecane raz na jakiś czas dla ochrony przed bakteriami legionella), pompa ciepła potrafi to zrobić, ale efektywność (COP) wtedy spada i robi się to zwykle z pomocą grzałki elektrycznej w zasobniku.</p>
 
-<p>W praktyce: jeśli rodzina jest mała (2–3 osoby), różnica w komforcie nie jest duża. Jeśli rodzina jest duża i intensywnie korzysta z wody, pompa ciepła wymaga większego zasobnika i lepiej zaprojektowanej instalacji ciepłej wody – cyrkulacja staje się obowiązkiem, a nie luksusem.</p>
+<p>W praktyce: jeśli rodzina jest mała (2–3 osoby), różnica w komforcie nie jest duża. Jeśli rodzina jest duża i intensywnie korzysta z wody, pompa ciepła wymaga większego zasobnika i lepiej zaprojektowanej instalacji ciepłej wody – <a href="/blog/cyrkulacja-cieplej-wody-czy-warto/">cyrkulacja</a> staje się obowiązkiem, a nie luksusem.</p>
 
 <h2>Instalacja grzewcza w domu – tu się rozstrzyga, czy pompa będzie miała sens</h2>
 

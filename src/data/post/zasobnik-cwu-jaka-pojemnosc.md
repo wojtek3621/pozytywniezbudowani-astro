@@ -69,7 +69,7 @@ metadata:
 
 <p>W praktyce oznacza to, że dom z cyrkulacją zużywa nieco więcej energii na podgrzewanie wody, a zasobnik powinien być odpowiednio dobrany. Dla domu z cyrkulacją, zwłaszcza pracującą stale, polecam zwiększyć pojemność o jeden „rozmiar" – czyli z 140 na 200 litrów albo z 200 na 300. Dla pomp ciepła ten zapas ma jeszcze większe znaczenie, bo każde uruchomienie pompy w trybie CWU obniża efektywność systemu.</p>
 
-<p>Dobrym kompromisem jest cyrkulacja z programatorem czasowym – pracująca tylko w godzinach faktycznego użytkowania domu. Pisałem o tym w rozdziale o instalacji wodno-kanalizacyjnej – w nocy i w środku dnia, gdy nikogo nie ma w domu, cyrkulacja powinna być wyłączona.</p>
+<p>Dobrym kompromisem jest <a href="/blog/cyrkulacja-cieplej-wody-czy-warto/">cyrkulacja z programatorem czasowym</a> – pracująca tylko w godzinach faktycznego użytkowania domu. Pisałem o tym w rozdziale o instalacji wodno-kanalizacyjnej – w nocy i w środku dnia, gdy nikogo nie ma w domu, cyrkulacja powinna być wyłączona.</p>
 
 <h3>Instalacja solarna lub fotowoltaika z grzałką</h3>
 
