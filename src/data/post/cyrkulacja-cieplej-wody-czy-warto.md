@@ -201,16 +201,6 @@ metadata:
 <li><strong>Nie da efektu „od razu” przy długich odejściach.</strong> Pętla trzyma ciepło w sobie, nie w rurce prowadzącej do baterii.</li>
 </ul>
 
-<h2>Jeśli już mieszkacie w domu bez cyrkulacji</h2>
-
-<p>Dostaję to pytanie od osób, które mieszkają kilka lat i mają dość czekania. Dorobienie obiegu jest wykonalne, ale wymaga poprowadzenia rurki powrotnej od najdalszego punktu do zasobnika – czyli kucia albo prowadzenia jej po wierzchu i schowania w <a href="/blog/obudowa-rur-i-instalacji-z-karton-gipsu/">zabudowie z płyt gipsowo-kartonowych</a>. Robota z pyłem, hałasem i malowaniem.</p>
-
-<p>Alternatywa, o którą pytacie najczęściej, to pompki wykorzystujące rurę zimnej wody jako drogę powrotu. Nie wymagają nowej rurki i pod względem komfortu działają. Mechanizm jest jednak taki, że zawór przy najdalszej baterii przepycha ostudzoną ciepłą wodę do przewodu zimnej – i to jest źródło obu problemów. Pierwszy jest użytkowy: przez chwilę po cyklu pracy z kranu zimnego leci woda letnia. Drugi poważniejszy: <strong>przewód zimnej wody zostaje okresowo podgrzewany do temperatury, w której bakteriom jest dobrze</strong>, a nie jest przewidziany ani do takiej pracy, ani do przegrzewu.</p>
-
-<p>Dlatego mówię o tym rozwiązaniu ostrożniej, niż mówi o nim reklama. <strong>Nie znam badania ani stanowiska, które rozstrzygałoby jego bezpieczeństwo mikrobiologiczne dla domów jednorodzinnych</strong> – szukałem. Jeżeli mimo to je rozważacie: sprawdźcie, czy producent wprost przewiduje pracę w instalacji wody pitnej i czy zestaw ma zabezpieczenie przed przepływem zwrotnym w rozumieniu PN-EN 1717, a całość niech oceni projektant instalacji sanitarnych. Sama odpowiedź handlowca „to normalnie się stosuje” nie jest tu wystarczająca, bo za zgodność całej instalacji w Waszym domu producent pojedynczego urządzenia nie odpowiada.</p>
-
-<p>Zanim zaczniecie kuć, sprawdźcie dwie tańsze rzeczy: czy woda wychodzi z zasobnika wystarczająco gorąca (bywa, że winna jest nastawa, nie droga) i czy nie da się skrócić drogi do najczęściej używanego punktu – choćby małym podgrzewaczem pod zlewozmywakiem w kuchni oddalonej od kotłowni. Rozwiązanie brzydsze koncepcyjnie, ale tańsze i bez pyłu.</p>
-
 <h2>Cztery zdania o cyrkulacji, które są nieprawdziwe</h2>
 
 <p><strong>„Cyrkulacja jest wymagana przepisami”.</strong> Nieprawda w odniesieniu do domu jednorodzinnego – takie budynki są z tego obowiązku wyłączone wprost. Wymagana jest temperatura wody, nie obieg. W książce piszę zresztą to samo: nie jest to obowiązkowe i nie wszyscy się na to decydują.</p>
@@ -239,13 +229,13 @@ metadata:
 
 <p>Nie znaczy to, że kocioł dwufunkcyjny jest zły – w małym, zwartym domu bywa rozsądny. Znaczy tyle, że wybór źródła ciepła i decyzja o obiegu to <strong>jedna decyzja, nie dwie</strong>. Jeżeli chcecie cyrkulacji, potrzebujecie zasobnika: kotła jednofunkcyjnego z zasobnikiem, kotła z zasobnikiem wbudowanym (w książce podaję typową pojemność około 45 litrów i zaznaczam, że tylko niektóre takie kotły współpracują z obiegiem) albo pompy ciepła, która w typowej instalacji domowej i tak grzeje wodę w zasobniku. Przegląd źródeł zebrałem w tekście o tym, <a href="/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji/">czym ogrzewać dom jednorodzinny</a>.</p>
 
-<p><strong>Pytanie 3 (przypadek modelowy): „Mamy cyrkulację od trzech lat i rachunki za gaz są wyższe, niż zakładaliśmy. Da się coś z tym zrobić bez kucia?”</strong></p>
+<p><strong>Pytanie 3 (przypadek modelowy): „Chcemy cyrkulację, ale boimy się rachunków. Co będziemy mogli z tym zrobić, jak już zamieszkamy?”</strong></p>
 
-<p>Zwykle tak, bo trzy największe dźwignie są dostępne bez ruszania instalacji.</p>
+<p>Sporo, i to bez ruszania instalacji – pod warunkiem że trzy rzeczy zamówicie na etapie budowy. Warto je znać teraz, bo dopisanie ich do zakresu prac nic nie kosztuje, a dorabianie później owszem.</p>
 
-<p>Pierwsza: <strong>czas pracy</strong>. Sprawdźcie, czy pompka nie chodzi całą dobę – różnica między pracą ciągłą a ośmioma godzinami to przy pętli 20 m około 640 kWh rocznie. Jeżeli pompka nie ma zegara, wystarczy programator na gniazdku.</p>
+<p>Pierwsza: <strong>czas pracy</strong>. Pompka, która chodzi całą dobę, kosztuje przy pętli 20 m około 640 kWh rocznie więcej niż ta sama pompka pracująca osiem godzin. Zamawiajcie od razu ze sterownikiem czasowym; jeżeli model go nie ma, wystarczy programator na gniazdku.</p>
 
-<p>Druga: <strong>izolacja odcinków dostępnych</strong>. Fragmenty w kotłowni, szachcie, na strychu i w garażu docieplicie bez kucia, a to właśnie tam rura biegnie przez chłodniejsze pomieszczenia i traci najwięcej. Minimum dla rury do 22 mm to 20 mm otuliny; jeżeli zastaniecie cieńszą albo żadną, macie gotową listę zadań.</p>
+<p>Druga: <strong>izolacja odcinków dostępnych</strong>. Odcinki w kotłowni, szachcie, na strychu i w garażu biegną przez chłodniejsze pomieszczenia i tracą najwięcej – a są dostępne także po wprowadzeniu, więc każdy błąd wykonawcy da się tam poprawić. Minimum dla rury do 22 mm to 20 mm otuliny: wpiszcie tę liczbę do zakresu prac i sprawdźcie ją przy odbiorze.</p>
 
 <p>Trzecia: <strong>nastawa zasobnika</strong>. Ustawiona wyżej, niż trzeba, zwiększa straty na całej pętli, bo rośnie różnica temperatur. Zmieśćcie się w zakresie 55–60 °C w punktach czerpalnych – schodzenie niżej „dla oszczędności” to zła droga, z powodów opisanych wyżej.</p>
 
