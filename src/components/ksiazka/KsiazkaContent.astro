@@ -3,6 +3,7 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Features from '~/components/widgets/Features.astro';
 import Image from '~/components/common/Image.astro';
 import BookNavigation from '~/components/widgets/BookNavigation.astro';
+import { CHECKOUT_URL } from '~/utils/checkout';
 
 import bookCoverCta from '~/assets/images/ksiazka/book-cover-cta.jpg';
 import heroWojtekKsiazka from '~/assets/images/site/hero-wojtek-ksiazka-portrait.jpg';
@@ -30,7 +31,7 @@ const interiorImages = [
   { src: interior08, alt: 'Rozkładówka książki 8' },
 ];
 
-const salesUrl = 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603';
+const salesUrl = CHECKOUT_URL;
 
 // Profil książki na Lubimy Czytać (zaproszenie w sekcji oferty + w sekcji recenzji, 2026-07-12)
 const lubimyCzytacUrl =
@@ -334,7 +335,7 @@ const { showBookNav = true } = Astro.props;
       price: '119.00',
       priceCurrency: 'PLN',
       availability: 'https://schema.org/InStock',
-      url: 'https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603',
+      url: salesUrl,
     },
   })}
 />
@@ -391,7 +392,7 @@ const { showBookNav = true } = Astro.props;
         name: 'Jak szybko dostanę książkę?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Zamówienia złożone do 11:00 wysyłamy tego samego dnia. Do wyboru: paczkomat InPost, ORLEN Paczka lub kurier Pocztex. W praktyce: zamawiasz dziś do południa – za kilka dni masz książkę w ręce.',
+          text: 'Zamówienia złożone do 11:00 wysyłamy tego samego dnia. Do wyboru: paczkomat InPost lub kurier. W praktyce: zamawiasz dziś do południa – za kilka dni masz książkę w ręce.',
         },
       },
       {
@@ -522,7 +523,7 @@ const { showBookNav = true } = Astro.props;
             Zobacz, co w środku ↓
           </a>
         </div>
-        <p class="text-sm text-slate-500 mt-3">Wysyłka od 4,99 zł • paczkomat InPost, ORLEN Paczka lub kurier</p>
+        <p class="text-sm text-slate-500 mt-3">Wysyłka od 4,99 zł • paczkomat InPost lub kurier</p>
       </div>
     </div>
   </div>
@@ -649,8 +650,8 @@ const { showBookNav = true } = Astro.props;
                 ></path>
               </svg>
               <span class="text-sm text-gray-800 dark:text-slate-200">
-                <strong>Wysyłka od 4,99 zł – paczkomat, ORLEN Paczka lub kurier</strong><br />
-                Paczkomat InPost i ORLEN Paczka od 4,99 zł, kurier Pocztex 5,99 zł – cała Polska
+                <strong>Wysyłka od 4,99 zł – paczkomat lub kurier</strong><br />
+                Paczkomat InPost od 4,99 zł, kurier Pocztex 5,99 zł – cała Polska
               </span>
             </li>
             <li class="flex items-start gap-3">
@@ -1413,8 +1414,8 @@ const { showBookNav = true } = Astro.props;
           >
         </summary>
         <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-          Zamówienia złożone do 11:00 wysyłamy tego samego dnia. Do wyboru: paczkomat InPost, ORLEN Paczka lub kurier
-          Pocztex. W praktyce: zamawiasz dziś do południa – za kilka dni masz książkę w ręce.
+          Zamówienia złożone do 11:00 wysyłamy tego samego dnia. Do wyboru: paczkomat InPost lub kurier Pocztex.
+          W praktyce: zamawiasz dziś do południa – za kilka dni masz książkę w ręce.
         </p>
       </details>
 
@@ -1545,7 +1546,7 @@ const { showBookNav = true } = Astro.props;
           608 stron wiedzy, która zaoszczędzi Wam tysięcy złotych i miesięcy stresu. To nie kolejny poradnik z internetu
           – to kompletny przewodnik napisany przez człowieka, który buduje domy na co dzień.
         </p>
-        <p class="text-slate-400 mb-8">Twarda oprawa. Wysyłka od 4,99 zł – paczkomat, ORLEN Paczka lub kurier.</p>
+        <p class="text-slate-400 mb-8">Twarda oprawa. Wysyłka od 4,99 zł – paczkomat lub kurier.</p>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
           <a
@@ -1648,8 +1649,10 @@ const { showBookNav = true } = Astro.props;
       });
     });
 
-    // UTM whitelist forwarding do salescrm.pl
-    document.querySelectorAll('a[href*="salescrm.pl"]').forEach(function (link) {
+    // UTM whitelist forwarding do checkoutu (SalesCRM lub własny sklep)
+    document
+      .querySelectorAll('a[href*="salescrm.pl"], a[href*="sklep.pozytywniezbudowani.pl"]')
+      .forEach(function (link) {
       try {
         const url = new URL(link.href);
         const params = new URLSearchParams(window.location.search);

@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import { CHECKOUT_URL } from '~/utils/checkout';
 
 const metadata = {
   title: 'Sklep',
@@ -36,7 +37,7 @@ const metadata = {
             <span class="text-3xl font-bold dark:text-white">119 zł</span>
           </div>
           <a
-            href="https://pozytywnie-zbudowani.salescrm.pl/cart/add_product/15603"
+            href={CHECKOUT_URL}
             target="_blank"
             rel="noopener"
             class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-secondary transition-colors"
