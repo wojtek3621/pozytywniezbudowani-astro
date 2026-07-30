@@ -5,7 +5,6 @@ const metadata = {
   title: 'Pozytywnie Zbudowani Ads Data Connector',
   description:
     'Wewnętrzne narzędzie Vultima sp. z o.o. do przekazywania własnych danych sprzedażowych i list odbiorców do konta Google Ads marki Pozytywnie Zbudowani.',
-  robots: { index: false, follow: true },
 };
 ---
 
@@ -63,6 +62,38 @@ const metadata = {
       <li>nie ma publicznego interfejsu, logowania ani API dla osób trzecich.</li>
     </ul>
 
+    <h2>O jaki dostęp do danych Google prosi aplikacja i dlaczego</h2>
+    <p>
+      Aplikacja prosi o jeden zakres uprawnień Google:
+      <code>https://www.googleapis.com/auth/adwords</code>. Autoryzacji udziela właściciel firmy na
+      swoim koncie Google, które ma dostęp do naszego konta reklamowego Google Ads
+      (identyfikator klienta 428-754-0284, konto menedżerskie 391-662-2862).
+    </p>
+    <p>Tego dostępu używamy wyłącznie do trzech operacji na naszym własnym koncie reklamowym:</p>
+    <ul>
+      <li>
+        <strong>zapis konwersji</strong> – przesłanie naszych zakupów wraz z kwotą oraz ich korekt
+        (zwroty, anulacje),
+      </li>
+      <li>
+        <strong>zapis list odbiorców</strong> – utworzenie i odświeżanie list Customer Match
+        z naszych własnych danych, o których piszemy niżej,
+      </li>
+      <li>
+        <strong>odczyt statystyk kampanii</strong> – wyświetlenia, kliknięcia, koszt, konwersje,
+        na potrzeby naszego wewnętrznego raportu.
+      </li>
+    </ul>
+    <p>
+      Dane odczytane z Google Ads przechowujemy wyłącznie na naszym własnym serwerze na terenie Unii
+      Europejskiej i wykorzystujemy je tylko do prowadzenia własnych kampanii oraz do porównania
+      kosztu reklamy z rzeczywistą sprzedażą. Nie udostępniamy ich nikomu, nie odsprzedajemy i nie
+      używamy do żadnego innego celu. Aplikacja nie prosi o dostęp do danych innych użytkowników
+      Google i nie ma możliwości ich uzyskania – autoryzuje ją jedna osoba, właściciel konta.
+      Zasady przetwarzania danych opisuje nasza
+      <a href="https://pozytywniezbudowani.pl/polityka-prywatnosci/">Polityka prywatności</a>.
+    </p>
+
     <h2>Jakie dane i na jakiej podstawie</h2>
     <ul>
       <li>
@@ -91,8 +122,8 @@ const metadata = {
 
     <p>
       Szczegóły przetwarzania danych opisuje
-      <a href="/polityka-prywatnosci/">Polityka prywatności</a>, a zasady sprzedaży –
-      <a href="/regulamin-sprzedazy-produktow-cyfrowych/">Regulamin</a>. Zgodę na cele marketingowe
+      <a href="https://pozytywniezbudowani.pl/polityka-prywatnosci/">Polityka prywatności</a>, a zasady sprzedaży –
+      <a href="https://pozytywniezbudowani.pl/regulamin-sprzedazy-produktow-cyfrowych/">Regulamin</a>. Zgodę na cele marketingowe
       można wycofać w każdej chwili w ustawieniach zgód na naszej stronie lub pisząc na
       <a href="mailto:kontakt@pozytywniezbudowani.pl">kontakt@pozytywniezbudowani.pl</a>.
     </p>
@@ -109,12 +140,12 @@ const metadata = {
       marketing consent, and (3) read campaign performance into our internal dashboard.
     </p>
     <p>
-      The tool has no public interface, no external users and no customers of its own. It does not
+      The application requests a single Google scope, <code>https://www.googleapis.com/auth/adwords</code>, authorised by the owner of our own Google Ads account (customer 428-754-0284, manager 391-662-2862). It uses that access only to upload our conversions and their adjustments, to create and refresh our Customer Match lists, and to read our own campaign statistics. Data read from Google Ads is stored only on our own server in the European Union, is never shared or sold, and is used for no other purpose. The tool has no public interface, no external users and no customers of its own. It does not
       create or manage accounts, campaigns, ad groups, ads, budgets or bids, and it never operates on
       any advertising account other than our own. Contact identifiers are hashed with SHA-256 before
       leaving our server, consent is verified at send time, withdrawal of consent stops further
       uploads, and no data is sold or shared with third parties. Data is processed on our own server
-      within the European Union. Details: <a href="/polityka-prywatnosci/">Privacy Policy</a>.
+      within the European Union. Details: <a href="https://pozytywniezbudowani.pl/polityka-prywatnosci/">Privacy Policy</a>.
       Questions: <a href="mailto:kontakt@pozytywniezbudowani.pl">kontakt@pozytywniezbudowani.pl</a>.
     </p>
   </div>
