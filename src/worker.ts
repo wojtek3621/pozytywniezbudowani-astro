@@ -305,12 +305,13 @@ async function handleZBeaconPost(request: Request, env: Env): Promise<Response> 
         asn, as_org, colo,
         http_protocol, tls_version, tls_cipher, client_tcp_rtt,
         ja3_hash, bot_score,
-        webdriver, webgl_renderer, languages_count, ua_is_bot
+        webdriver, webgl_renderer, languages_count, ua_is_bot,
+        fbp, fbc, mkt_consent, section
       ) VALUES (
         ?, ?, ?, ?, ?,  ?, ?, ?,  ?, ?, ?, ?, ?,  ?, ?, ?, ?, ?,  ?, ?,
         ?, ?, ?, ?, ?,  ?, ?, ?, ?,  ?, ?,  ?, ?, ?,  ?, ?, ?, ?,
         ?, ?, ?,  ?, ?, ?, ?,  ?, ?, ?,  ?, ?, ?, ?,  ?, ?,
-        ?, ?, ?, ?
+        ?, ?, ?, ?,  ?, ?, ?, ?
       )`
     )
       .bind(
@@ -332,7 +333,8 @@ async function handleZBeaconPost(request: Request, env: Env): Promise<Response> 
         asStr(cf.httpProtocol, 20), asStr(cf.tlsVersion, 20), asStr(cf.tlsCipher, 60),
         asNum(cf.clientTcpRtt),
         asStr(botMgmt.ja3Hash, 64), asNum(botMgmt.score),
-        p.webdriver, p.webgl_renderer, p.languages_count, uaIsBot
+        p.webdriver, p.webgl_renderer, p.languages_count, uaIsBot,
+        p.fbp, p.fbc, p.mkt_consent, p.section
       )
       .run();
   } catch (error) {

@@ -74,3 +74,34 @@ describe('bot-env fields (2026-07-18)', () => {
     assert.equal(r.fingerprint, 'abc123');
   });
 });
+
+describe('relay signals (misja bramka-pomiarowa 2026-07-30)', () => {
+  test('fbp/fbc accept fb.N.ts.payload shape, reject junk', () => {
+    const fbp = 'fb.1.1722334455666.1234567890';
+    const fbc = 'fb.1.1722334455666.IwAR2xyz_ABC-123';
+    assert.equal(validateZPayload(base({ fbp })).fbp, fbp);
+    assert.equal(validateZPayload(base({ fbc })).fbc, fbc);
+    assert.equal(validateZPayload(base({ fbp: 'not-a-cookie' })).fbp, null);
+    assert.equal(validateZPayload(base({ fbc: 'fb.1.abc.x' })).fbc, null);
+    assert.equal(validateZPayload(base({ fbp: 'fb.1.1722334455666.<script>' })).fbp, null);
+    assert.equal(validateZPayload(base()).fbp, null);
+    assert.equal(validateZPayload(base()).fbc, null);
+  });
+  test('mkt_consent 1/0/true/false → 1/0, else null', () => {
+    assert.equal(validateZPayload(base({ mkt_consent: 1 })).mkt_consent, 1);
+    assert.equal(validateZPayload(base({ mkt_consent: true })).mkt_consent, 1);
+    assert.equal(validateZPayload(base({ mkt_consent: 0 })).mkt_consent, 0);
+    assert.equal(validateZPayload(base({ mkt_consent: false })).mkt_consent, 0);
+    assert.equal(validateZPayload(base({ mkt_consent: 'yes' })).mkt_consent, null);
+    assert.equal(validateZPayload(base()).mkt_consent, null);
+  });
+  test('section_view is a valid event type, section token validated', () => {
+    assert.ok(VALID_Z_EVENTS.has('section_view'));
+    const r = validateZPayload(base({ event_type: 'section_view', section: 'cena' }));
+    assert.ok(r);
+    assert.equal(r.section, 'cena');
+    assert.equal(validateZPayload(base({ section: 'a<b>' })).section, null);
+    assert.equal(validateZPayload(base({ section: 'x'.repeat(80) })).section, null);
+    assert.equal(validateZPayload(base()).section, null);
+  });
+});

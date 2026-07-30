@@ -616,7 +616,9 @@ const { showBookNav = true } = Astro.props;
           </h2>
           <p class="text-muted mb-6">Kompletny przewodnik budowy domu</p>
 
-          <div class="mb-6">
+          <!-- data-z-section: kolektor z.js wysyła section_view („obejrzał cenę") przy
+               >=50% widoczności — taksonomia intencji, misja bramka-pomiarowa 2026-07-30 -->
+          <div class="mb-6" data-z-section="cena">
             <p class="text-xs font-semibold uppercase tracking-wider text-muted mb-1">Twoja cena</p>
             <div class="text-6xl md:text-7xl font-bold text-primary dark:text-amber-400 font-display leading-none">
               119 zł
@@ -1595,29 +1597,39 @@ const { showBookNav = true } = Astro.props;
 
 <!-- Meta Pixel ViewContent (init + PageView handled by GTM site-wide) -->
 <script is:inline>
-  // ViewContent for /ksiazka/ – fbq loaded by GTM, no duplicate init/PageView
-  if (typeof fbq !== 'undefined') {
-    fbq('track', 'ViewContent', {
+  // ViewContent for /ksiazka/ – fbq loaded by GTM, no duplicate init/PageView.
+  //
+  // eventID (misja bramka-pomiarowa 2026-07-30): 'vc-' + uid odsłony z mostka
+  // (window.__pzPvUid, Layout.astro). Przekaźnik CAPI derywuje ViewContent z tego
+  // samego page_view i buduje IDENTYCZNY event_id ('vc-'+event_uid) → Meta
+  // dedupuje parę browser↔server. Prefiks 'vc-' oddziela od PageView (dedup Meta
+  // idzie po parze event_name+event_id, ale osobny id jest czytelniejszy w Events
+  // Managerze i odporny na zmiany zachowania dedupu).
+  (function () {
+    function vcOptions() {
+      try {
+        if (window.__pzPvUid) return { eventID: 'vc-' + String(window.__pzPvUid).slice(0, 60) };
+      } catch (e) {}
+      return {};
+    }
+    var vcPayload = {
       content_name: 'Od Marzenia Do Wprowadzenia',
       content_type: 'product',
       content_ids: ['book-od-marzenia'],
       value: 119.0,
       currency: 'PLN',
-    });
-  } else {
-    // Fallback: wait for GTM to load fbq
-    window.addEventListener('load', function () {
-      if (typeof fbq !== 'undefined') {
-        fbq('track', 'ViewContent', {
-          content_name: 'Od Marzenia Do Wprowadzenia',
-          content_type: 'product',
-          content_ids: ['book-od-marzenia'],
-          value: 119.0,
-          currency: 'PLN',
-        });
-      }
-    });
-  }
+    };
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'ViewContent', vcPayload, vcOptions());
+    } else {
+      // Fallback: wait for GTM to load fbq
+      window.addEventListener('load', function () {
+        if (typeof fbq !== 'undefined') {
+          fbq('track', 'ViewContent', vcPayload, vcOptions());
+        }
+      });
+    }
+  })();
 </script>
 
 <!-- AddToCart listeners + UTM whitelist forwarding (debate I6: whitelist, nie ślepo cały query string) -->
@@ -1634,17 +1646,36 @@ const { showBookNav = true } = Astro.props;
       'ref',
     ];
 
-    // AddToCart event na wszystkich CTA z data-fbq-event="AddToCart"
+    // AddToCart event na wszystkich CTA z data-fbq-event="AddToCart".
+    //
+    // JEDYNY nadawca browserowego AddToCart (audyt ME §8.3: tag GTM „SE - Meta Pixel -
+    // add to cart" spauzowany 2026-07-30 — liczył ten sam klik drugi raz, bez value).
+    //
+    // eventID (misja bramka-pomiarowa): uid kliku z kolektora z.js — jego listener
+    // click działa w fazie CAPTURE, więc window.__pzZLastClick jest ustawione ZANIM
+    // ten handler (bubble) ruszy. Przekaźnik CAPI mapuje click_out(is_checkout=1)
+    // na AddToCart z TYM SAMYM event_id → dedup piksel↔server. Świeżość 5 s chroni
+    // przed użyciem uida z poprzedniego kliku (np. link nie-fbq między klikami).
     document.querySelectorAll('[data-fbq-event="AddToCart"]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         if (typeof fbq !== 'undefined') {
-          fbq('track', 'AddToCart', {
-            content_name: 'Od Marzenia Do Wprowadzenia',
-            content_type: 'product',
-            content_ids: ['book-od-marzenia'],
-            value: 119.0,
-            currency: 'PLN',
-          });
+          var opts = {};
+          try {
+            var lc = window.__pzZLastClick;
+            if (lc && lc.uid && Date.now() - lc.ts < 5000) opts.eventID = String(lc.uid).slice(0, 64);
+          } catch (e) {}
+          fbq(
+            'track',
+            'AddToCart',
+            {
+              content_name: 'Od Marzenia Do Wprowadzenia',
+              content_type: 'product',
+              content_ids: ['book-od-marzenia'],
+              value: 119.0,
+              currency: 'PLN',
+            },
+            opts
+          );
         }
       });
     });

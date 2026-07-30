@@ -45,8 +45,40 @@ const { language, textDirection } = I18N;
     <!-- Reason: ConsentBanner head script pushes consent defaults; Analytics (lazy in Phase 2) -->
     <!-- replays consent state. Without early init, early events could be lost. -->
     <!-- Plan: plans/active/2026-04-15-pz-astro-performance-ksiazka.md (Faza 1, DB8) -->
+    <!-- MOSTEK event_uid (misja bramka-pomiarowa 2026-07-30): JEDEN identyfikator odsłony
+         współdzielony przez kolektor z.js (event_uid page_view), tag fbq PageView w GTM
+         (eventID = deduplikacja piksel↔CAPI) i inline ViewContent ('vc-'+uid).
+         Generowany tu SYNCHRONICZNIE w <head>, bo GTM ładuje się leniwie (interakcja /
+         idle 1500 ms / eager przy fbclid), a z.js z defer — dataLayer kolejkuje wartość
+         ZANIM którykolwiek z nich ruszy, więc nie ma wyścigu. Świeży uid przy każdej
+         nawigacji SPA (astro:page-load), inaczej dedup Meta zjadałby realne odsłony. -->
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
+      (function () {
+        function pzUuid() {
+          try {
+            if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+          } catch (e) {}
+          return 'fb-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 12);
+        }
+        function freshPvUid() {
+          var uid = pzUuid();
+          window.__pzPvUid = uid;
+          window.dataLayer.push({ z_pv_uid: uid });
+          return uid;
+        }
+        freshPvUid();
+        document.addEventListener('astro:page-load', function () {
+          // Świeży uid dopiero od DRUGIEJ odsłony — pierwszy astro:page-load odpala się
+          // także przy początkowym załadowaniu strony i nadpisałby uid, który z.js
+          // (defer, może wykonać się później) ma współdzielić z tagiem PageView.
+          if (window.__pzPvUidLoaded) {
+            freshPvUid();
+          } else {
+            window.__pzPvUidLoaded = true;
+          }
+        });
+      })();
     </script>
 
     <CustomStyles />

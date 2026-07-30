@@ -18,13 +18,16 @@
 
 export const Z_MAX_PAYLOAD_BYTES = 4096;
 
-export const VALID_Z_EVENTS = new Set(['page_view', 'page_leave', 'click_out']);
+export const VALID_Z_EVENTS = new Set(['page_view', 'page_leave', 'click_out', 'section_view']);
 export const VALID_SITES = new Set(['pz', 'platforma', '4izby']);
 export const VALID_DEVICE_CLASS = new Set(['mobile', 'tablet', 'desktop']);
 
 const ISO8601_UTC_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,3})?Z$/;
 const UID_RE = /^[A-Za-z0-9_-]{1,64}$/; // uuid or fb-... fallback
 const MS_MAX = 24 * 3600 * 1000; // 24h cap on any duration
+// Meta pixel cookies (bramka pomiarowa 2026-07-30): fb.<subdomainIndex>.<creationTime>.<payload>
+// (format z żywego fbevents.js). Walidujemy kształt, nie treść — payload _fbc to fbclid.
+const FB_COOKIE_RE = /^fb\.\d\.\d{10,16}\.[A-Za-z0-9._-]{1,400}$/;
 
 function isPlainObject(v) {
   return typeof v === 'object' && v !== null && !Array.isArray(v);
@@ -121,5 +124,15 @@ export function validateZPayload(raw) {
     webdriver: o.webdriver === 1 || o.webdriver === true ? 1 : o.webdriver === 0 || o.webdriver === false ? 0 : null,
     webgl_renderer: str(o.webgl_renderer, 120),
     languages_count: intIn(o.languages_count, 50),
+    // Sygnały bramki pomiarowej (misja 2026-07-30): ciasteczka Meta do advanced matching
+    // przekaźnika CAPI (kształt fb.N.ts.payload, inaczej odrzucone do null) + stan zgody
+    // marketingowej w chwili zdarzenia (1/0/null; źródłem prawdy przy wysyłce jest
+    // consent receipt w aios.db, to pole to sygnał pomocniczy) + nazwa sekcji strony
+    // (section_view; token krótki, bez HTML-a).
+    fbp: typeof o.fbp === 'string' && FB_COOKIE_RE.test(o.fbp) ? o.fbp : null,
+    fbc: typeof o.fbc === 'string' && FB_COOKIE_RE.test(o.fbc) ? o.fbc : null,
+    mkt_consent:
+      o.mkt_consent === 1 || o.mkt_consent === true ? 1 : o.mkt_consent === 0 || o.mkt_consent === false ? 0 : null,
+    section: typeof o.section === 'string' && /^[a-z0-9_-]{1,60}$/i.test(o.section) ? o.section : null,
   };
 }

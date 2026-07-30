@@ -1,10 +1,25 @@
 /*!
- * z.js — first-party behavioral collector (misja „analityka-atrybucja" 2026-07-18).
+ * z.js — first-party behavioral collector (misja „analityka-atrybucja" 2026-07-18;
+ * sygnały bramki pomiarowej: misja „bramka-pomiarowa" 2026-07-30).
  *
- * KANONICZNY kolektor first-party. Identyczna kopia działa na platformie
- * (platforma/static/js/z.js). Wysyła page_view / page_leave / click_out na
- * same-origin POST /api/z (PZ: Cloudflare Worker; platforma: FastAPI). Zero
- * blokowania (sendBeacon / fetch keepalive), zero wpływu na stronę (try/catch wszędzie).
+ * KANONICZNY kolektor first-party. Identyczne kopie działają na platformie
+ * (platforma/static/js/z.js) i w sklepie (sklep/static/js/z.js). Wysyła
+ * page_view / page_leave / click_out / section_view na same-origin POST /api/z
+ * (PZ: Cloudflare Worker; platforma/sklep: FastAPI). Zero blokowania
+ * (sendBeacon / fetch keepalive), zero wpływu na stronę (try/catch wszędzie).
+ *
+ * Sygnały bramki pomiarowej (2026-07-30):
+ *   - fbp/fbc: odczyt cookies Meta piksela (_fbp ma Domain=eTLD+1, więc widoczne
+ *     też na subdomenach) — przekaźnik CAPI używa ich do advanced matching.
+ *   - mkt_consent: stan zgody marketingowej z cookie pz_consent W CHWILI zdarzenia
+ *     (sygnał pomocniczy; źródłem prawdy przy wysyłce jest consent receipt w aios.db).
+ *     Cookie pz_consent jest host-only na apexie PZ → na platformie/sklepie null.
+ *   - event_uid page_view = window.__pzPvUid z mostka w Layout.astro (WSPÓLNY
+ *     identyfikator odsłony z tagiem fbq PageView w GTM → dedup piksel↔CAPI).
+ *   - click_out wystawia window.__pzZLastClick (uid) — inline fbq AddToCart czyta
+ *     go jako eventID (ten sam dedup).
+ *   - section_view: dotarcie wzrokiem do elementu [data-z-section] (np. sekcja
+ *     ceny na /ksiazka/) — raz per sekcja per odsłona, próg 50% widoczności.
  *
  * REGUŁA A: to OSOBNY system od beaconu zgód (consent.js/ConsentBanner) — nie dotyka go.
  * REGUŁA B: dane lecą WYŁĄCZNIE na nasz endpoint (→ D1/tracking.db), nigdzie na zewnątrz;
@@ -177,6 +192,25 @@
     try { return (navigator.languages && navigator.languages.length) || 0; } catch (e) { return null; }
   }
 
+  // Zgoda marketingowa z cookie pz_consent (schemat: {"analytics":bool,"marketing":bool}).
+  // 1/0 gdy cookie czytelne, null gdy brak/nieczytelne (host-only apexu → subdomeny: null).
+  function mktConsent() {
+    try {
+      var parts = document.cookie ? document.cookie.split(';') : [];
+      for (var i = 0; i < parts.length; i++) {
+        var c = parts[i].trim();
+        if (c.indexOf('pz_consent=') === 0) {
+          var parsed = JSON.parse(decodeURIComponent(c.substring('pz_consent='.length)));
+          if (parsed && typeof parsed === 'object' && typeof parsed.marketing === 'boolean') {
+            return parsed.marketing ? 1 : 0;
+          }
+          return null;
+        }
+      }
+    } catch (e) {}
+    return null;
+  }
+
   var DID = deviceId(), SID = sessionId(), FP = fingerprint();
   var pageStart = Date.now(), maxScroll = 0, activeMs = 0, lastActive = Date.now();
 
@@ -202,7 +236,11 @@
       // env-sygnały detekcji botów (miękkie; fingerprint NIGDY nie jest sygnałem bota)
       webdriver: webdriverFlag(),
       webgl_renderer: webglRenderer(),
-      languages_count: languagesCount()
+      languages_count: languagesCount(),
+      // sygnały bramki pomiarowej (2026-07-30): ciasteczka Meta + stan zgody marketingowej
+      fbp: readCookie('_fbp'),
+      fbc: readCookie('_fbc'),
+      mkt_consent: mktConsent()
     };
   }
 
@@ -218,11 +256,18 @@
     } catch (e) {}
   }
 
-  // page_view
+  // page_view — event_uid WSPÓLNY z tagiem fbq PageView (mostek window.__pzPvUid
+  // z Layout.astro; dedup piksel↔CAPI po tym samym identyfikatorze). Fallback:
+  // własny uuid, gdy mostka nie ma (platforma/sklep — tam GTM z PageView nie działa).
   var pvSent = false;
   function pageView() {
     if (pvSent) return; pvSent = true;
     var p = base('page_view');
+    try {
+      if (window.__pzPvUid && /^[A-Za-z0-9_-]{1,64}$/.test(String(window.__pzPvUid))) {
+        p.event_uid = String(window.__pzPvUid);
+      }
+    } catch (e) {}
     p.is_new_device = isNewDevice; p.is_new_session = isNewSession;
     send(p);
   }
@@ -291,9 +336,47 @@
         p.outbound_host = h;
         p.link_text = (a.textContent || '').trim().slice(0, 120);
         p.is_checkout = isCheckout(a.href);
+        // Uid kliku dla inline fbq AddToCart (dedup piksel↔CAPI): listener z.js jest
+        // w fazie CAPTURE, więc wykonuje się ZAWSZE przed handlerami na elemencie.
+        try { window.__pzZLastClick = { uid: p.event_uid, href: a.href, ts: Date.now() }; } catch (err) {}
         send(p);
       } catch (err) {}
     }, true);
+  } catch (e) {}
+
+  // section_view — dotarcie wzrokiem do oznaczonej sekcji strony (markup dodaje
+  // data-z-section="nazwa", np. "cena" na sekcji cenowej /ksiazka/). Wysyłane RAZ
+  // per sekcja per odsłona, gdy element widoczny w >=50%. Taksonomia intencji:
+  // „obejrzał cenę" to inny sygnał niż „był na stronie" (misja bramka-pomiarowa).
+  try {
+    if ('IntersectionObserver' in window) {
+      var zSeenSections = {};
+      var zSectionObserver = new IntersectionObserver(function (entries) {
+        for (var i = 0; i < entries.length; i++) {
+          var en = entries[i];
+          if (!en.isIntersecting) continue;
+          var name = '';
+          try { name = en.target.getAttribute('data-z-section') || ''; } catch (e) {}
+          if (!name || zSeenSections[name]) continue;
+          zSeenSections[name] = 1;
+          var p = base('section_view');
+          p.section = name.slice(0, 60);
+          send(p);
+          try { zSectionObserver.unobserve(en.target); } catch (e) {}
+        }
+      }, { threshold: [0.5] });
+      var zObserveSections = function () {
+        try {
+          var els = document.querySelectorAll('[data-z-section]');
+          for (var i = 0; i < els.length; i++) zSectionObserver.observe(els[i]);
+        } catch (e) {}
+      };
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', zObserveSections, { once: true });
+      } else {
+        zObserveSections();
+      }
+    }
   } catch (e) {}
 
   // page_leave (re-armed on return; sessionizer bierze MAX engagement per sesja+path)
