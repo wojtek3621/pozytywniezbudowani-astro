@@ -1,0 +1,121 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Pozytywnie Zbudowani Ads Data Connector',
+  description:
+    'Wewnętrzne narzędzie Vultima sp. z o.o. do przekazywania własnych danych sprzedażowych i list odbiorców do konta Google Ads marki Pozytywnie Zbudowani.',
+  robots: { index: false, follow: true },
+};
+---
+
+<Layout metadata={metadata}>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12 prose dark:prose-invert prose-lg">
+    <h1>Pozytywnie Zbudowani Ads Data Connector</h1>
+
+    <p class="lead">
+      To strona informacyjna wewnętrznego narzędzia, którego używamy do prowadzenia własnych kampanii
+      reklamowych marki Pozytywnie Zbudowani. Narzędzie nie jest produktem, nie ma rejestracji ani
+      użytkowników z zewnątrz – korzysta z niego wyłącznie właściciel firmy.
+    </p>
+
+    <h2>Kto jest właścicielem narzędzia</h2>
+    <p>
+      Vultima sp. z o.o., ul. Bolesława Chrobrego 3, 42-690 Hanusek, KRS 0000670007, NIP 6452550794.
+      Kontakt: <a href="mailto:kontakt@pozytywniezbudowani.pl">kontakt@pozytywniezbudowani.pl</a>.
+      Vultima sp. z o.o. prowadzi serwis pozytywniezbudowani.pl oraz sprzedaje książkę
+      „Od marzenia do wprowadzenia” we własnym sklepie na
+      <a href="https://sklep.pozytywniezbudowani.pl/">sklep.pozytywniezbudowani.pl</a>.
+    </p>
+
+    <h2>Do czego służy</h2>
+    <p>
+      Narzędzie łączy naszą bazę zamówień z naszym własnym kontem Google Ads. Robi trzy rzeczy:
+    </p>
+    <ul>
+      <li>
+        <strong>przekazuje nasze konwersje zakupu wraz z kwotą</strong> – żeby system reklamowy
+        optymalizował się na opłacone zamówienia, a nie na kliknięcia w przycisk; zwroty i anulacje
+        przekazujemy jako korekty, aby raportowany przychód odpowiadał pieniądzom, które faktycznie
+        zostały w firmie,
+      </li>
+      <li>
+        <strong>buduje listy odbiorców z naszych własnych danych</strong> zbieranych na naszych
+        stronach za wyraźną zgodą marketingową – czytelnicy określonych grup artykułów, osoby, które
+        odwiedziły stronę książki, porzucone koszyki oraz lista klientów do wykluczenia, żebyśmy nie
+        płacili za reklamę pokazywaną osobom, które już kupiły,
+      </li>
+      <li>
+        <strong>pobiera wyniki kampanii</strong> (wyświetlenia, kliknięcia, koszt, konwersje) do
+        naszego wewnętrznego panelu, gdzie stawiamy je obok rzeczywistej sprzedaży z naszej bazy.
+      </li>
+    </ul>
+
+    <h2>Czego narzędzie nie robi</h2>
+    <ul>
+      <li>nie zakłada kont reklamowych i nie zarządza dostępami użytkowników,</li>
+      <li>
+        nie tworzy ani nie edytuje kampanii, grup reklam, reklam, budżetów i stawek – strukturę
+        kampanii i budżety ustala człowiek w panelu Google Ads,
+      </li>
+      <li>nie działa na żadnym koncie reklamowym poza naszym własnym,</li>
+      <li>nie jest udostępniane, odsprzedawane ani oferowane innym reklamodawcom,</li>
+      <li>nie ma publicznego interfejsu, logowania ani API dla osób trzecich.</li>
+    </ul>
+
+    <h2>Jakie dane i na jakiej podstawie</h2>
+    <ul>
+      <li>
+        <strong>Wyłącznie dane pierwszej strony</strong> – wszystko, czego używa narzędzie, zbieramy
+        sami na naszych stronach i w naszym sklepie. Nie kupujemy i nie pozyskujemy danych od
+        podmiotów trzecich.
+      </li>
+      <li>
+        <strong>Zgoda marketingowa jest warunkiem</strong> przekazania jakichkolwiek danych
+        identyfikujących. Nasz baner zgód rozdziela zgodę analityczną od marketingowej. Osoba bez
+        zgody marketingowej nie trafia na listę odbiorców i żaden jej identyfikator nie jest wysyłany.
+      </li>
+      <li>
+        <strong>Identyfikatory są szyfrowane skrótem (SHA-256) po naszej stronie</strong>, przed
+        wysłaniem. Nie przekazujemy danych w postaci jawnej.
+      </li>
+      <li>
+        <strong>Wycofanie zgody działa</strong> – zgodę sprawdzamy w momencie wysyłki, a wycofanie
+        usuwa osobę z listy przy najbliższym odświeżeniu i zatrzymuje dalsze przekazywanie.
+      </li>
+      <li>
+        <strong>Dane przetwarzamy na własnym serwerze na terenie Unii Europejskiej.</strong>
+        Administratorem danych jest Vultima sp. z o.o.
+      </li>
+    </ul>
+
+    <p>
+      Szczegóły przetwarzania danych opisuje
+      <a href="/polityka-prywatnosci/">Polityka prywatności</a>, a zasady sprzedaży –
+      <a href="/regulamin-sprzedazy-produktow-cyfrowych/">Regulamin</a>. Zgodę na cele marketingowe
+      można wycofać w każdej chwili w ustawieniach zgód na naszej stronie lub pisząc na
+      <a href="mailto:kontakt@pozytywniezbudowani.pl">kontakt@pozytywniezbudowani.pl</a>.
+    </p>
+
+    <hr />
+
+    <h2>In English</h2>
+    <p>
+      <strong>Pozytywnie Zbudowani Ads Data Connector</strong> is an internal, server-side tool owned
+      and used solely by Vultima sp. z o.o. (Poland, VAT PL6452550794), the publisher behind
+      pozytywniezbudowani.pl. It connects our own order database with our own Google Ads account in
+      order to (1) upload our purchase conversions with revenue and their adjustments, (2) maintain
+      Customer Match audience lists built from our own first-party data collected with explicit
+      marketing consent, and (3) read campaign performance into our internal dashboard.
+    </p>
+    <p>
+      The tool has no public interface, no external users and no customers of its own. It does not
+      create or manage accounts, campaigns, ad groups, ads, budgets or bids, and it never operates on
+      any advertising account other than our own. Contact identifiers are hashed with SHA-256 before
+      leaving our server, consent is verified at send time, withdrawal of consent stops further
+      uploads, and no data is sold or shared with third parties. Data is processed on our own server
+      within the European Union. Details: <a href="/polityka-prywatnosci/">Privacy Policy</a>.
+      Questions: <a href="mailto:kontakt@pozytywniezbudowani.pl">kontakt@pozytywniezbudowani.pl</a>.
+    </p>
+  </div>
+</Layout>
