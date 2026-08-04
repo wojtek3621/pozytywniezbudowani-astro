@@ -18,9 +18,23 @@
  * ucięty na pierwszej pustej linii, czyli w środku CSS/JS. Reszta kodu wycieka na
  * stronę jako widoczny tekst.
  *
- * CO SPRAWDZA: dla każdego posta renderuje markdown tym samym silnikiem co Astro
+ * CO SPRAWDZA (1): dla każdego posta renderuje markdown tym samym silnikiem co Astro
  * i porównuje długość każdego bloku <style>/<script> w źródle i w wyjściu.
  * Ubytek powyżej progu = build pada.
+ *
+ * CO SPRAWDZA (2) - kontrola MERYTORYCZNA wzoru WLZ (incydent INC-019, 2026-08-04):
+ * ten sam kalkulator liczył spadek napięcia dokładnie 2x za duży od publikacji
+ * (2024-09-30) do 2026-08-04. Wzór łączył dzielenie mocy przez 3 (założenie układu
+ * TRÓJFAZOWEGO symetrycznego: prądy sumują się w przewodzie neutralnym do zera,
+ * więc nie ma drogi powrotnej) z mnożnikiem 200, który jest poprawką na drogę
+ * "tam i z powrotem" - właściwą wyłącznie dla obwodu JEDNOFAZOWEGO. Te dwa
+ * założenia się wykluczają. Poprawny mnożnik przy P/3 to 100.
+ * Błąd przeżył dwie "niezależne weryfikacje" (20/20 i 5/5), bo obie liczyły
+ * referencję wzorem Z TEGO ARTYKUŁU - to była kalibracja, nie walidacja.
+ * Strażnik z punktu (1) pilnował wtedy INTEGRALNOŚCI bloku, nie poprawności liczb.
+ * Bliźniaczy wartownik po stronie platformy: aios-workspace ->
+ * platforma/tests/test_poprawnosc_kalkulatorow.py (referencja z fizyki: I=P/(3*Uf),
+ * R=L/(gamma*S), dU=I*R).
  *
  * Wołany z `npm run build` (obok check:emdash) oraz `npm run check`.
  */
@@ -79,6 +93,57 @@ for (const plik of readdirSync(KATALOG).filter((f) => f.endsWith('.md'))) {
   }
 }
 
+// ─── Kontrola merytoryczna wzoru: kalkulator WLZ (INC-019) ────────────────
+// Świadomie NIE "pomijamy w ciszy", gdy artykułu albo wzoru nie ma: cichy pominięty
+// przypadek to dokładnie ten sposób, w jaki strażnik ślepnie po zmianie nazwy pliku.
+const ARTYKUL_WLZ = 'jak-dobrac-kabel-przylaczeniowy-do-domu-jednorodzinnego.md';
+const problemyWzoru = [];
+
+try {
+  const tresc = readFileSync(join(KATALOG, ARTYKUL_WLZ), 'utf-8');
+
+  const mnoznik = tresc.match(/voltageDrop\s*=\s*\(\s*(\d+)\s*\*\s*powerPerPhase/);
+  if (!mnoznik) {
+    problemyWzoru.push(
+      `${ARTYKUL_WLZ}: nie znaleziono wzoru "voltageDrop = (N * powerPerPhase ...)". ` +
+        'Strażnik przestał cokolwiek pilnować - dopasuj wzorzec do nowego kształtu kodu.'
+    );
+  } else if (mnoznik[1] !== '100') {
+    problemyWzoru.push(
+      `${ARTYKUL_WLZ}: mnożnik we wzorze spadku napięcia = ${mnoznik[1]}, oczekiwane 100. ` +
+        'Wartość 200 przy powerPerPhase = P/3 daje wynik dokładnie 2x za duży (INC-019).'
+    );
+  }
+
+  // Mnożnik 100 jest poprawny TYLKO w parze z założeniem trójfazowym (P/3).
+  // Gdyby ktoś przeszedł na moc jednofazową, poprawne stałoby się 200 - dlatego
+  // druga kotwica pilnuje założenia, a nie samej liczby.
+  if (!/powerPerPhase\s*=\s*\(\s*power\s*\*\s*1000\s*\)\s*\/\s*3\b/.test(tresc)) {
+    problemyWzoru.push(
+      `${ARTYKUL_WLZ}: zmieniło się założenie fazowe (powerPerPhase != P*1000/3). ` +
+        'Mnożnik 100 przestaje być automatycznie poprawny - przelicz spadek napięcia ' +
+        'z definicji (I = P/(3*Uf), R = L/(gamma*S), dU = I*R) i zaktualizuj strażnika.'
+    );
+  }
+} catch (e) {
+  problemyWzoru.push(
+    `${ARTYKUL_WLZ}: nie udało się odczytać artykułu z kalkulatorem WLZ (${e.code || e.message}). ` +
+      'Jeśli artykuł zmienił nazwę albo został wycofany - zaktualizuj ten strażnik świadomie.'
+  );
+}
+
+if (problemyWzoru.length > 0) {
+  console.error('\n✗ check-embedded-blocks: kalkulator WLZ liczy WEDŁUG BŁĘDNEGO WZORU!\n');
+  for (const p of problemyWzoru) console.error(`  ${p}`);
+  console.error(
+    '\n  DLACZEGO TO PILNUJEMY: w symetrycznym układzie trójfazowym prądy sumują się\n' +
+      '  w przewodzie neutralnym do zera, więc nie ma drogi powrotnej - mnożnik 2 (czyli\n' +
+      '  200 zamiast 100) jest poprawką jednofazową i zawyża spadek dokładnie dwukrotnie.\n' +
+      '  Skutek: etykiety "Dopuszczalny"/"Nieodpowiedni" przy kablach poprawnych z zapasem,\n' +
+      '  na stronie z ~590 wejściami z Google miesięcznie.\n'
+  );
+}
+
 if (problemy.length > 0) {
   console.error('\n✗ check-embedded-blocks: bloki <style>/<script> są UCINANE przy renderze!\n');
   for (const p of problemy) {
@@ -95,6 +160,11 @@ if (problemy.length > 0) {
   process.exit(1);
 }
 
+if (problemyWzoru.length > 0) {
+  process.exit(1);
+}
+
+console.log(`✓ check-embedded-blocks: mnożnik wzoru WLZ = 100 przy P/3 (kontrola merytoryczna, INC-019).`);
 console.log(
   `✓ check-embedded-blocks: ${blokiRazem} bloków <style>/<script> w ${zbadane} postach ` +
     `renderuje się w całości. OK.`
