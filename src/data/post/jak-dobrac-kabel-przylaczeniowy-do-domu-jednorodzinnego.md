@@ -532,7 +532,15 @@ metadata:
             const cable = cableData[materialType][size];
             const denominator = voltageDenominators[materialType][size];
 
-            const voltageDrop = (200 * powerPerPhase * length) / denominator;
+            // Spadek napięcia dla obwodu TRÓJFAZOWEGO zrównoważonego.
+            // powerPerPhase = P_całk/3 (założona symetria), mianownik = γ·S·U_f² (U_f=230 V).
+            // ΔU% = 100·P_faza·L / (γ·S·U_f²) — współczynnik 100, NIE 200.
+            // Dwójka we wzorze jednofazowym bierze się z drogi tam i z powrotem (faza+neutralny);
+            // w symetrycznym układzie 3-faz. prądy sumują się w przewodzie neutralnym do zera,
+            // więc drogi powrotnej nie ma. Współczynnik 200 przy jednoczesnym dzieleniu mocy
+            // przez 3 łączył założenie symetrii z poprawką na asymetrię (wykluczają się) i dawał
+            // spadek 2× za duży — audyt S07-G01 (kopia platformowego S07-F01 na blogu PZ).
+            const voltageDrop = (100 * powerPerPhase * length) / denominator;
             const powerSufficient = totalPower <= cable.maxPower;
 
             let status;
