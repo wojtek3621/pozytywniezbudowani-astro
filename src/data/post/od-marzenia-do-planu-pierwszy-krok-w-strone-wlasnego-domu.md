@@ -83,7 +83,7 @@ metadata:
 
 <p style="text-align: justify;">Większość problemów na budowie wynika nie z tego, że coś poszło nie tak, ale z tego, że inwestor nie wiedział, że mogło pójść inaczej. Nie znał alternatyw, nie rozumiał konsekwencji decyzji, które podejmował. Im więcej wiecie, zanim zaczniecie, tym mniej niemiłych niespodzianek Was czeka.</p>
 
-<p style="text-align: justify;">Jeśli zastanawiacie się, <a href="https://pozytywniezbudowani.pl/czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet">jak policzyć realny budżet na budowę domu</a>, to właśnie jest moment, żeby się tym zająć. Nie za miesiąc, nie gdy znajdziecie działkę – teraz. Bo sposób, w jaki podejdziecie do finansów na samym początku, zadecyduje o tym, jak będzie wyglądała cała reszta procesu.</p>
+<p style="text-align: justify;">Jeśli zastanawiacie się, <a href="https://pozytywniezbudowani.pl/blog/czy-stac-mnie-na-budowe-domu-jak-policzyc-realny-budzet/">jak policzyć realny budżet na budowę domu</a>, to właśnie jest moment, żeby się tym zająć. Nie za miesiąc, nie gdy znajdziecie działkę – teraz. Bo sposób, w jaki podejdziecie do finansów na samym początku, zadecyduje o tym, jak będzie wyglądała cała reszta procesu.</p>
 
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
