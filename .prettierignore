@@ -16,3 +16,26 @@ public/vendor
 src/components/common/ConsentBanner.astro
 src/components/common/Clarity.astro
 src/components/widgets/Footer.astro
+
+# Ten sam plugin, inna jego przypadłość: wewnątrz wyrażenia Astro
+# (`{SIGNUP_OPEN ? (…) : (…)}`) prettier przenosi `</a>` do osobnej linii, przez co
+# w RENDERZE pojawia się spacja przed kropką: „platforma.pozytywniezbudowani.pl ."
+# — w dodatku podkreślona razem z linkiem. Wyszło przy porównaniu wyrenderowanego
+# HTML sprzed i po formatowaniu (w źródle wygląda niewinnie). Zapis `</a\n>`, który
+# temu zapobiega, prettier natychmiast cofa. ESLint nadal ten plik sprawdza.
+src/pages/centrum.astro
+
+# Kolektor first-party. Ten plik jest BAJT W BAJT identyczny z kopiami
+# platforma/static/js/z.js i sklep/static/js/z.js (mówi o tym jego nagłówek —
+# „KANONICZNY kolektor"). Prettier przeformatowałby wyłącznie kopię PZ i po cichu
+# rozjechał trójkę: nic by się nie zepsuło od razu, ale każde późniejsze
+# porównanie kopii dawałoby setki linii różnicy formatowania zamiast realnych zmian.
+public/z.js
+
+# Treść artykułów to nie kod. Prettier normalizuje puste linie, a TU pusta linia
+# jest nośna: jej brak przed <style>/<script> ucina blok w środku kodu i wysypuje
+# CSS jako widoczny tekst na stronie (INC-019 — kalkulator WLZ zepsuty 3,5 miesiąca).
+# Sprawdzone: na tym repo prettier chciał skasować pustą linię w pierwszym lepszym
+# poście. Integralności treści pilnują check-embedded-blocks i check-no-emdash —
+# narzędzia, które rozumieją, co czytają. Formatter tu nie ma czego szukać.
+src/data/post

@@ -1416,8 +1416,8 @@ const { showBookNav = true } = Astro.props;
           >
         </summary>
         <p class="px-6 pb-5 text-muted text-sm border-t border-gray-100 dark:border-gray-700 pt-4">
-          Zamówienia złożone do 11:00 wysyłamy tego samego dnia. Do wyboru: paczkomat InPost lub kurier Pocztex.
-          W praktyce: zamawiasz dziś do południa – za kilka dni masz książkę w ręce.
+          Zamówienia złożone do 11:00 wysyłamy tego samego dnia. Do wyboru: paczkomat InPost lub kurier Pocztex. W
+          praktyce: zamawiasz dziś do południa – za kilka dni masz książkę w ręce.
         </p>
       </details>
 
@@ -1612,7 +1612,7 @@ const { showBookNav = true } = Astro.props;
       } catch (e) {}
       return {};
     }
-    var vcPayload = {
+    const vcPayload = {
       content_name: 'Od Marzenia Do Wprowadzenia',
       content_type: 'product',
       content_ids: ['book-od-marzenia'],
@@ -1659,9 +1659,9 @@ const { showBookNav = true } = Astro.props;
     document.querySelectorAll('[data-fbq-event="AddToCart"]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         if (typeof fbq !== 'undefined') {
-          var opts = {};
+          const opts = {};
           try {
-            var lc = window.__pzZLastClick;
+            const lc = window.__pzZLastClick;
             if (lc && lc.uid && Date.now() - lc.ts < 5000) opts.eventID = String(lc.uid).slice(0, 64);
           } catch (e) {}
           fbq(
@@ -1684,17 +1684,17 @@ const { showBookNav = true } = Astro.props;
     document
       .querySelectorAll('a[href*="salescrm.pl"], a[href*="sklep.pozytywniezbudowani.pl"]')
       .forEach(function (link) {
-      try {
-        const url = new URL(link.href);
-        const params = new URLSearchParams(window.location.search);
-        ALLOWED_PARAMS.forEach(function (key) {
-          const val = params.get(key);
-          if (val) url.searchParams.set(key, val);
-        });
-        link.href = url.toString();
-      } catch {
-        /* URL parse may fail for relative hrefs */
-      }
-    });
+        try {
+          const url = new URL(link.href);
+          const params = new URLSearchParams(window.location.search);
+          ALLOWED_PARAMS.forEach(function (key) {
+            const val = params.get(key);
+            if (val) url.searchParams.set(key, val);
+          });
+          link.href = url.toString();
+        } catch {
+          /* URL parse may fail for relative hrefs */
+        }
+      });
   })();
 </script>

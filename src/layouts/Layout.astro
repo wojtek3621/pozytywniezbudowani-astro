@@ -62,7 +62,7 @@ const { language, textDirection } = I18N;
           return 'fb-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 12);
         }
         function freshPvUid() {
-          var uid = pzUuid();
+          const uid = pzUuid();
           window.__pzPvUid = uid;
           window.dataLayer.push({ z_pv_uid: uid });
           return uid;

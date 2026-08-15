@@ -65,7 +65,15 @@ function isPlainObject(v) {
  * @param {unknown} raw
  * @returns {{ ts: string, event: string, page_path: string, device: string | null,
  *             ms_to_decision: number | null, analytics: number | null,
- *             marketing: number | null } | null}
+ *             marketing: number | null, device_id: string | null,
+ *             banner_version: string | null, purposes: string | null } | null}
+ *
+ * ⚠ Ten typ jest JEDYNYM źródłem typowania payloadu w `src/worker.ts` (allowJs,
+ * bez .d.ts). Trzy ostatnie pola dołożyła de-anonimizacja z 2026-07-18, ale
+ * adnotacji wtedy nie ruszono — `astro check` zgłaszał od tamtej pory trzy błędy
+ * ts(2339) na `payload.device_id/purposes/banner_version` w workerze. Runtime był
+ * poprawny (walidator te pola zwracał i D1 je zapisywała), zepsuty był wyłącznie
+ * opis. Dokładasz pole do `return` niżej → dopisz je TUTAJ.
  */
 export function validateConsentPayload(raw) {
   if (!isPlainObject(raw)) return null;

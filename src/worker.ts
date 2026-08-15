@@ -21,10 +21,7 @@
 import { isbot } from 'isbot';
 // Typy walidatora pochodzą z JSDoc w .mjs (allowJs) – brak potrzeby .d.ts
 import { validatePayload, MAX_PAYLOAD_BYTES } from '../functions/api/_perf-beacon-validator.mjs';
-import {
-  validateConsentPayload,
-  CONSENT_MAX_PAYLOAD_BYTES,
-} from '../functions/api/_consent-beacon-validator.mjs';
+import { validateConsentPayload, CONSENT_MAX_PAYLOAD_BYTES } from '../functions/api/_consent-beacon-validator.mjs';
 import { validateZPayload, Z_MAX_PAYLOAD_BYTES } from '../functions/api/_z-beacon-validator.mjs';
 
 interface Env {
@@ -277,8 +274,7 @@ async function handleZBeaconPost(request: Request, env: Env): Promise<Response> 
   // Server-side enrichment z request.cf + nagłówków. Wszystko defensywnie:
   // pola nieobecne na naszym planie CF (ja3Hash, botManagement) → null.
   const cf = (request.cf ?? {}) as Record<string, unknown>;
-  const asNum = (v: unknown): number | null =>
-    typeof v === 'number' && Number.isFinite(v) ? Math.round(v) : null;
+  const asNum = (v: unknown): number | null => (typeof v === 'number' && Number.isFinite(v) ? Math.round(v) : null);
   const asStr = (v: unknown, max: number): string | null =>
     typeof v === 'string' && v.length ? v.slice(0, max) : null;
   const botMgmt = (cf.botManagement ?? {}) as Record<string, unknown>;
@@ -315,26 +311,68 @@ async function handleZBeaconPost(request: Request, env: Env): Promise<Response> 
       )`
     )
       .bind(
-        p.event_uid, p.site, p.ts, new Date().toISOString(), p.event_type,
-        p.device_id, p.session_id, p.fingerprint,
-        p.path, p.query, p.referrer, p.referrer_host, p.title,
-        p.utm_source, p.utm_medium, p.utm_campaign, p.utm_term, p.utm_content,
-        p.nlt, p.pxid,
-        p.screen_w, p.screen_h, p.viewport_w, p.viewport_h, p.device_pixel_ratio,
-        p.language, p.timezone, p.hardware_concurrency, p.device_memory,
-        p.connection_type, p.device_class,
-        p.time_on_page_ms, p.active_time_ms, p.max_scroll_pct,
-        p.outbound_url, p.outbound_host, p.link_text, p.is_checkout,
+        p.event_uid,
+        p.site,
+        p.ts,
+        new Date().toISOString(),
+        p.event_type,
+        p.device_id,
+        p.session_id,
+        p.fingerprint,
+        p.path,
+        p.query,
+        p.referrer,
+        p.referrer_host,
+        p.title,
+        p.utm_source,
+        p.utm_medium,
+        p.utm_campaign,
+        p.utm_term,
+        p.utm_content,
+        p.nlt,
+        p.pxid,
+        p.screen_w,
+        p.screen_h,
+        p.viewport_w,
+        p.viewport_h,
+        p.device_pixel_ratio,
+        p.language,
+        p.timezone,
+        p.hardware_concurrency,
+        p.device_memory,
+        p.connection_type,
+        p.device_class,
+        p.time_on_page_ms,
+        p.active_time_ms,
+        p.max_scroll_pct,
+        p.outbound_url,
+        p.outbound_host,
+        p.link_text,
+        p.is_checkout,
         request.headers.get('cf-connecting-ip'),
         rawUa,
         (request.headers.get('accept-language') ?? '').slice(0, 100) || null,
-        asStr(cf.country, 3), asStr(cf.region, 80), asStr(cf.city, 120), asStr(cf.postalCode, 20),
-        asNum(cf.asn), asStr(cf.asOrganization, 120), asStr(cf.colo, 10),
-        asStr(cf.httpProtocol, 20), asStr(cf.tlsVersion, 20), asStr(cf.tlsCipher, 60),
+        asStr(cf.country, 3),
+        asStr(cf.region, 80),
+        asStr(cf.city, 120),
+        asStr(cf.postalCode, 20),
+        asNum(cf.asn),
+        asStr(cf.asOrganization, 120),
+        asStr(cf.colo, 10),
+        asStr(cf.httpProtocol, 20),
+        asStr(cf.tlsVersion, 20),
+        asStr(cf.tlsCipher, 60),
         asNum(cf.clientTcpRtt),
-        asStr(botMgmt.ja3Hash, 64), asNum(botMgmt.score),
-        p.webdriver, p.webgl_renderer, p.languages_count, uaIsBot,
-        p.fbp, p.fbc, p.mkt_consent, p.section
+        asStr(botMgmt.ja3Hash, 64),
+        asNum(botMgmt.score),
+        p.webdriver,
+        p.webgl_renderer,
+        p.languages_count,
+        uaIsBot,
+        p.fbp,
+        p.fbc,
+        p.mkt_consent,
+        p.section
       )
       .run();
   } catch (error) {

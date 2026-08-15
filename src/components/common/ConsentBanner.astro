@@ -406,7 +406,7 @@ const { position } = Astro.props;
       // Endpoint same-origin /api/consent-beacon (src/worker.ts) → D1
       // consent_events → cron pz_consent_d1_sync.py → aios.db.
       // Logika zgód (F6/F7/F8, Consent Mode) NIETKNIĘTA – tylko wysyłka.
-      var telemetry = window.__pzConsentTelemetry;
+      let telemetry = window.__pzConsentTelemetry;
       if (!telemetry) {
         telemetry = window.__pzConsentTelemetry = {
           shownAt: null, // performance.now() w chwili pokazania banera
@@ -420,11 +420,11 @@ const { position } = Astro.props;
 
       // Wersja banera — receipt zgody wie, NA CO była zgoda (treść/układ z tej daty).
       // Bump przy każdej zmianie treści/kategorii banera (misja jakosc-ruchu 2026-07-18).
-      var BANNER_VERSION = 'pz-2026-07-19';
+      const BANNER_VERSION = 'pz-2026-07-19';
 
       function consentDevice() {
         try {
-          var w =
+          const w =
             window.innerWidth ||
             (document.documentElement && document.documentElement.clientWidth) ||
             0;
@@ -439,9 +439,9 @@ const { position } = Astro.props;
       // 2026-07-18): consent receipt wiąże decyzję z tożsamością w tracking.db.
       function pzDeviceId() {
         try {
-          var m = document.cookie.match('(^|;)\\s*pz_did=([^;]+)');
+          const m = document.cookie.match('(^|;)\\s*pz_did=([^;]+)');
           if (m) return decodeURIComponent(m[2]).substring(0, 64);
-          var ls = null;
+          let ls = null;
           try {
             ls = localStorage.getItem('pz_did');
           } catch (e) {}
@@ -453,7 +453,7 @@ const { position } = Astro.props;
 
       // purposes — jawna lista celów, na które padła zgoda (dowód RODO art. 7).
       function purposesStr(analytics, marketing) {
-        var p = ['necessary'];
+        const p = ['necessary'];
         if (analytics) p.push('analytics');
         if (marketing) p.push('marketing');
         return p.join(',');
@@ -461,7 +461,7 @@ const { position } = Astro.props;
 
       function sendConsentEvent(eventName, extra) {
         try {
-          var payload = {
+          const payload = {
             event: eventName,
             ts: new Date().toISOString(),
             page_path: (window.location && window.location.pathname
@@ -473,7 +473,7 @@ const { position } = Astro.props;
             banner_version: BANNER_VERSION,
           };
           if (eventName !== 'consent_shown' && telemetry.shownAt !== null) {
-            var ms = Math.round(performance.now() - telemetry.shownAt);
+            const ms = Math.round(performance.now() - telemetry.shownAt);
             if (ms >= 0 && ms <= 3600000) payload.ms_to_decision = ms;
           }
           if (extra) {
@@ -483,9 +483,9 @@ const { position } = Astro.props;
               payload.purposes = purposesStr(!!extra.analytics, !!extra.marketing);
             }
           }
-          var body = JSON.stringify(payload);
+          const body = JSON.stringify(payload);
           if (navigator && typeof navigator.sendBeacon === 'function') {
-            var ok = navigator.sendBeacon(
+            const ok = navigator.sendBeacon(
               '/api/consent-beacon',
               new Blob([body], { type: 'application/json' })
             );
@@ -510,7 +510,7 @@ const { position } = Astro.props;
       // shown i mówimy to wprost w pulpicie (HQ → Analityka → Zgody).
       function maybeSendAbandon() {
         if (telemetry.decided || telemetry.abandonSent) return;
-        var banner = document.getElementById('pz-consent-banner');
+        const banner = document.getElementById('pz-consent-banner');
         if (!banner || banner.classList.contains('pz-banner--hidden')) return;
         telemetry.abandonSent = true;
         sendConsentEvent('consent_abandon');
@@ -615,7 +615,7 @@ const { position } = Astro.props;
 
         // Telemetria: consent_shown raz per ścieżkę (SPA/astro:page-load
         // potrafi wywołać showBanner ponownie na tej samej odsłonie).
-        var path = (window.location && window.location.pathname) || '/';
+        const path = (window.location && window.location.pathname) || '/';
         if (telemetry.shownSentFor !== path) {
           telemetry.shownSentFor = path;
           telemetry.shownAt = performance.now();

@@ -1,0 +1,40 @@
+# Dependabot — włączony 2026-08-15 (do tego dnia strona nie miała ŻADNEGO sygnału
+# o podatnościach zależności; pierwszy skan po włączeniu pokazał 93 otwarte alerty).
+#
+# Ustawienie jest celowo wąskie: chcemy poprawek BEZPIECZEŃSTWA, nie strumienia
+# cotygodniowych podbić wersji. Powód: to repo buduje stronę statyczną, a wszystkie
+# podatne paczki (fast-xml-parser, axios, vite…) są PRZECHODNIMI zależnościami
+# narzędzi buildu (astro, astro-icon, @astrojs/rss) — do przeglądarki czytelnika
+# nie trafia z nich nic. Ryzyko dotyczy maszyny, która robi `npm run build`,
+# więc jest realne, ale nie jest pożarem. Rutynowe podbijanie 30 devDependencies
+# kosztowałoby więcej uwagi, niż warte.
+#
+#   open-pull-requests-limit: 0  → ZERO PR-ów z aktualizacjami wersji.
+#                                  PR-y bezpieczeństwa NIE podlegają temu limitowi
+#                                  (dokumentacja GitHuba, potwierdzone 2026-08-15).
+#   groups + applies-to: security-updates
+#                                → poprawki bezpieczeństwa lądują w JEDNYM PR
+#                                  zamiast w kilkudziesięciu osobnych.
+#
+# Chcesz włączyć rutynowe aktualizacje wersji: podnieś limit i dodaj drugą grupę
+# z `applies-to: version-updates`.
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'monday'
+      time: '06:00'
+      timezone: 'Europe/Warsaw'
+    open-pull-requests-limit: 0
+    groups:
+      bezpieczenstwo-npm:
+        applies-to: security-updates
+        patterns:
+          - '*'
+    labels:
+      - 'dependencies'
+      - 'security'
+    commit-message:
+      prefix: 'chore(deps)'

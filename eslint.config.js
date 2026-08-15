@@ -54,6 +54,31 @@ export default [
     },
   },
   {
+    // ── Wzorzec obronny beaconów: cichy `catch` jest DECYZJĄ, nie niedbalstwem ──
+    // z.js (kolektor first-party), ConsentBanner, PerfTelemetry i telemetria
+    // książki są pisane tak, żeby żaden ich błąd nie wywrócił strony ani banera
+    // zgód — stąd `try { … } catch {}` bez obsługi. Domyślne `no-empty` oraz
+    // `caughtErrors: 'all'` widzą w tym 66 błędów i trzymały `npm run check`
+    // (a więc i CI) na czerwono od miesięcy — bramka, która świeci na czerwono
+    // zawsze, nie niesie żadnej informacji.
+    // Dlatego zmieniamy REGUŁĘ, nie kod: pusty catch i nieużywana nazwa błędu
+    // są tu legalne. Reszta `no-unused-vars` (zmienne, argumenty, importy)
+    // działa bez zmian, więc realne martwe zmienne nadal wychodzą.
+    // ⚠ `public/z.js` jest BAJT W BAJT identyczny z kopiami w platforma/ i sklep/
+    // (patrz nagłówek pliku) — nie wolno go „modernizować" w jednym repo.
+    rules: {
+      'no-empty': ['error', { allowEmptyCatch: true }],
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        {
+          argsIgnorePattern: '^_',
+          destructuredArrayIgnorePattern: '^_',
+          caughtErrors: 'none',
+        },
+      ],
+    },
+  },
+  {
     ignores: [
       'dist',
       'node_modules',

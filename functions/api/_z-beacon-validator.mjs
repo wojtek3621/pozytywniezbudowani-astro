@@ -69,16 +69,12 @@ export function validateZPayload(raw) {
   const site = typeof o.site === 'string' && VALID_SITES.has(o.site) ? o.site : 'pz';
 
   // device_id / session_id: required identifiers, uid-shaped
-  const device_id =
-    typeof o.device_id === 'string' && UID_RE.test(o.device_id) ? o.device_id : null;
-  const session_id =
-    typeof o.session_id === 'string' && UID_RE.test(o.session_id) ? o.session_id : null;
+  const device_id = typeof o.device_id === 'string' && UID_RE.test(o.device_id) ? o.device_id : null;
+  const session_id = typeof o.session_id === 'string' && UID_RE.test(o.session_id) ? o.session_id : null;
   if (!device_id || !session_id) return null;
 
   const device_class =
-    typeof o.device_class === 'string' && VALID_DEVICE_CLASS.has(o.device_class)
-      ? o.device_class
-      : null;
+    typeof o.device_class === 'string' && VALID_DEVICE_CLASS.has(o.device_class) ? o.device_class : null;
 
   return {
     event_uid: o.event_uid,
