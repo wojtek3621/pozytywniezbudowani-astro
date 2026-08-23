@@ -81,8 +81,15 @@ const { position } = Astro.props;
     // - F7 HIGH: strict schema validation (prevents attacker consent injection)
     // - F8 HIGH: robust cookie parse (URL-encoded = in JSON value)
     window.dataLayer = window.dataLayer || [];
-    function gtag(...args) {
-      dataLayer.push(args);
+    // KSZTALT OBOWIAZKOWY (2026-08-23): dataLayer.push(arguments), NIE push([...]).
+    // Google rozpoznaje komende gtag wylacznie po obiekcie `arguments`; zwykla tablica
+    // laduje w dataLayer jako martwy wpis i Consent Mode NIGDY sie nie rejestruje.
+    // Tak bylo tutaj do 2026-08-23: google_tag_data.ics.entries mial wszystkie cztery
+    // zgody puste, wiec kazda bramka zgody w kontenerze GTM byla atrapa. Ta sama regula
+    // jest juz opisana w Analytics.astro („F1 fix") — ten plik jej nie dostal.
+    function gtag() {
+      // eslint-disable-next-line prefer-rest-params
+      dataLayer.push(arguments);
     }
 
     function isValidPzConsent(obj) {
@@ -610,8 +617,10 @@ const { position } = Astro.props;
         writeConsentCookie(consent);
 
         window.dataLayer = window.dataLayer || [];
-        function gtag(...args) {
-          dataLayer.push(args);
+        // patrz nota przy gtag() w skrypcie head — arguments, nigdy tablica
+        function gtag() {
+          // eslint-disable-next-line prefer-rest-params
+          dataLayer.push(arguments);
         }
         gtag('consent', 'update', {
           analytics_storage: analytics ? 'granted' : 'denied',

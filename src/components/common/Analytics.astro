@@ -96,6 +96,14 @@
         // RACE CONDITION FIX (DB1 + F1): replay current consent state via gtag() arguments pattern
         // User may have clicked "Akceptuję" during lazy-delay window – we re-assert state explicitly
         // so GTM sees the correct consent when it initializes.
+        //
+        // 2026-08-23: gałąź `else` DOPISANA. Wcześniej przy braku cookie NIE szła tu żadna
+        // komenda zgody, a jedyny `consent default` (z ConsentBanner position="head") był
+        // pchany jako tablica, więc GTM go nie widział – kontener startował BEZ ustawionego
+        // stanu zgody i tagi z bramką `analytics_storage` odpalały się mimo braku decyzji.
+        // Teraz stan domyślny `denied` jest asertowany TUŻ PRZED wstrzyknięciem gtm.js,
+        // niezależnie od tego, co zdążył zrobić baner. Kolejne `default` dla tego samego
+        // sygnału GTM ignoruje, więc podwójna asercja jest nieszkodliwa.
         var consent = getConsentFromCookie();
         if (consent) {
           gtag('consent', 'update', {
@@ -103,6 +111,15 @@
             ad_storage: consent.marketing ? 'granted' : 'denied',
             ad_user_data: consent.marketing ? 'granted' : 'denied',
             ad_personalization: consent.marketing ? 'granted' : 'denied',
+          });
+        } else {
+          gtag('consent', 'default', {
+            analytics_storage: 'denied',
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            functionality_storage: 'granted',
+            security_storage: 'granted',
           });
         }
 
