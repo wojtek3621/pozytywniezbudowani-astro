@@ -48,6 +48,18 @@
  *   → consent receipt (dowód zgody RODO art. 7 wiązany z tożsamością).
  * - GPC/DNT świadomie NIE odczytywane (decyzja Wojtka).
  *
+ * Update 2026-08-23 (owner directive – jedna zgoda na całą domenę):
+ * - Cookie pz_consent jest DOMENOWE (Domain=.pozytywniezbudowani.pl), a nie host-only.
+ *   Powód: „jedna wspólna zgoda na stronie musi to obejmować, bez osobnego baneru
+ *   cookies na sklep" – sklep.pozytywniezbudowani.pl i platforma.* czytają TĘ SAMĄ
+ *   decyzję. Wzorzec zapożyczony z pz_did (public/z.js).
+ * - Decyzje zapisane wcześniej (host-only) są migrowane przy pierwszym wejściu:
+ *   ta sama wartość razem z ts zapisywana ponownie z atrybutem domain, wariant
+ *   host-only kasowany (żeby nie cieniował domenowego).
+ * - Semantyka zgody NIETKNIĘTA: te same kategorie, ta sama postawa pre-consent
+ *   (bez kliknięcia zero zgody), te same domyślne przełączniki. BANNER_VERSION
+ *   zostaje 'pz-2026-07-19' – zmienił się nośnik, nie zakres zgody.
+ *
  * Usage in Layout.astro:
  *   <ConsentBanner position="head" />  – in <head>, BEFORE Analytics/GTM
  *   <ConsentBanner position="body" />  – in <body>, visible banner + logic
@@ -549,17 +561,53 @@ const { position } = Astro.props;
         return null;
       }
 
-      function setConsent(analytics, marketing) {
-        const consent = { analytics: analytics, marketing: marketing, ts: Date.now() };
+      // Cookie zgody jest DOMENOWE (Domain=.pozytywniezbudowani.pl) – jedna decyzja
+      // czytelnika obowiązuje na apexie, sklep.* i platforma.* (dyrektywa właściciela
+      // 2026-08-23: „jedna globalna zgoda”, bez osobnego banera w sklepie). Ten sam
+      // wzorzec co pz_did w public/z.js. Semantyka zgody bez zmian – zmienia się nośnik,
+      // więc BANNER_VERSION zostaje.
+      const CONSENT_COOKIE_DOMAIN = '.pozytywniezbudowani.pl';
+
+      // Na localhost / npm run preview przeglądarka ODRZUCI cookie wystawione dla obcej
+      // domeny – decyzja nie zapisałaby się, a baner wracałby w kółko. Domenę dokładamy
+      // wyłącznie na produkcyjnym hoście.
+      function consentDomainAttr() {
+        const host = (window.location && window.location.hostname) || '';
+        const onProd = host === 'pozytywniezbudowani.pl' || host.endsWith('.pozytywniezbudowani.pl');
+        return onProd ? '; domain=' + CONSENT_COOKIE_DOMAIN : '';
+      }
+
+      // F6 fix: Secure flag (HTTPS-only cookie) – strona jest HTTPS-only (HSTS wymusza).
+      function writeConsentCookie(consent) {
         const expires = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toUTCString();
-        // F6 fix: add Secure flag (HTTPS-only cookie, prevents interception on plain HTTP)
-        // Site is HTTPS-only (HSTS enforces) – Secure flag safe to add unconditionally
+        const domainAttr = consentDomainAttr();
         document.cookie =
           'pz_consent=' +
           encodeURIComponent(JSON.stringify(consent)) +
           '; expires=' +
           expires +
+          domainAttr +
           '; path=/; SameSite=Lax; Secure';
+
+        // Skasuj stary wariant host-only (zapis BEZ atrybutu domain usuwa wyłącznie
+        // cookie host-only). Bez tego w document.cookie byłyby DWA pz_consent, a
+        // bardziej szczegółowy host-only cieniowałby świeżo zapisany domenowy.
+        if (domainAttr) {
+          document.cookie = 'pz_consent=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; SameSite=Lax; Secure';
+        }
+      }
+
+      // Migracja decyzji sprzed 2026-08-23: siedzi w cookie host-only, którego nie widzi
+      // sklep.pozytywniezbudowani.pl. Przepisujemy TĘ SAMĄ wartość (razem z ts – data
+      // zgody się nie odmładza) na cookie domenowe i kasujemy host-only. Idempotentne.
+      function migrateConsentCookie() {
+        const existing = getConsent();
+        if (existing) writeConsentCookie(existing);
+      }
+
+      function setConsent(analytics, marketing) {
+        const consent = { analytics: analytics, marketing: marketing, ts: Date.now() };
+        writeConsentCookie(consent);
 
         window.dataLayer = window.dataLayer || [];
         function gtag(...args) {
@@ -664,6 +712,7 @@ const { position } = Astro.props;
         // Hover effect is now pure CSS (:hover), JS hover handlers removed
       }
 
+      migrateConsentCookie();
       showBannerIfNeeded();
       bindEvents();
 
