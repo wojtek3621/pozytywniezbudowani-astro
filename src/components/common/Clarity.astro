@@ -1,17 +1,23 @@
 ---
 // Microsoft Clarity – heatmapy + session recordings (CRO książki, Sprint 1 2026-07).
 //
-// AKTYWACJA (checklist Wojtka):
-//   1. Załóż projekt na https://clarity.microsoft.com (konto Microsoft, darmowe).
-//   2. Skopiuj Project ID (Settings → Overview, ~10 znaków).
-//   3. Dopisz do .env repo (i do CI/deploy env): PUBLIC_CLARITY_ID=xxxxxxxxxx
-//   4. npm run build + wrangler deploy.
-// Bez PUBLIC_CLARITY_ID komponent renderuje się do NICZEGO (zero kodu w HTML).
+// ID PROJEKTU JEST W REPO, NIE W .env (zmiana 2026-08-23). Powód: identyfikator i tak
+// trafia do HTML każdego odwiedzającego (jest publiczny z definicji), a trzymany
+// wyłącznie w gitignorowanym .env znikał po cichu z każdego builda spoza głównego
+// checkoutu – Clarity było nieobecne w produkcji od 14.07 do 23.08.2026 i nikt tego
+// nie zauważył, bo brak skryptu nie psuje strony. Ten sam wzorzec co GTM-PKRLVW2G,
+// zaszyty wprost w Analytics.astro.
+//
+// Zmiana projektu Clarity: podmień stałą poniżej (i zbuduj + zdeployuj). Zmienna
+// środowiskowa PUBLIC_CLARITY_ID nadal działa jako nadpisanie – przydatna, gdy
+// chcesz wypchnąć build na inny projekt bez commita.
 //
 // RODO: skrypt ładuje się WYŁĄCZNIE gdy cookie pz_consent ma analytics=true
 // (Consent Mode v2 – ConsentBanner.astro). Brak zgody = zero requestów do clarity.ms.
+// CSP: public/_headers musi mieć clarity.ms w script-src i connect-src.
 // Build: aios-workspace/builds/2026-07-05-ksiazka-sprint1/
-const clarityId = import.meta.env.PUBLIC_CLARITY_ID as string | undefined;
+const CLARITY_PROJECT_ID = 'xi4d9iurcz';
+const clarityId = (import.meta.env.PUBLIC_CLARITY_ID as string | undefined) || CLARITY_PROJECT_ID;
 ---
 
 {
