@@ -36,7 +36,12 @@ export default defineConfig({
         !/\/blog\/\d+\/?$/.test(page) &&
         // Lead magnet + wariant LP dla płatnego ruchu — noindex, poza sitemap (Sprint 1 książki 2026-07)
         !/\/darmowy-rozdzial\//.test(page) &&
-        !/\/ksiazka\/start\//.test(page),
+        !/\/ksiazka\/start\//.test(page) &&
+        // Robocza kopia strony głównej (noindex) + strona informacyjna narzędzia Google Ads —
+        // ani jedna, ani druga nie jest treścią dla czytelnika, więc nie ma jej w sitemapie
+        // (audyt 2026-08-23, Finding 6: Google dostawał adresy, których ma nie indeksować).
+        !/\/nowa\//.test(page) &&
+        !/\/ads-data-connector\//.test(page),
     }),
     mdx(),
     icon({
