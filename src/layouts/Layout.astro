@@ -114,6 +114,43 @@ const { language, textDirection } = I18N;
     <ConsentBanner position="body" />
     <BasicScripts />
 
+    <!-- Akordeony (FAQ, listy rozwijane): tlumienie przypadkowego dwukliku.
+         Natywne <details> przelacza sie przy KAZDYM kliknieciu, wiec dwuklik
+         (nawyk z pulpitu) otwieral tresc i w tej samej chwili ja zamykal – dla
+         czlowieka akordeon wygladal na martwy. Drugie klikniecie w to samo
+         <summary> w oknie 400 ms jest ignorowane; mechanika zostaje natywna
+         (bez JavaScriptu akordeon dziala jak dotad), a klawiatura
+         (ev.detail === 0) jest calkowicie poza tlumieniem. Guard na window
+         chroni przed podwojnym podpieciem przy nawigacji ClientRouter.
+         Zrodlo: P0-FAQ pewnaplyta.pl 2026-08-29, ta sama klasa bledu tutaj
+         na /pakiet-prawny (8 akordeonow) i /ksiazka (8). -->
+    <script is:inline>
+      (function () {
+        if (window.__pzDetailsDblGuard) return;
+        window.__pzDetailsDblGuard = true;
+        const OKNO_MS = 400;
+        let ostatni = null;
+        let ostatniCzas = 0;
+        document.addEventListener(
+          'click',
+          function (ev) {
+            const cel = ev.target;
+            const sum = cel && cel.closest ? cel.closest('summary') : null;
+            if (!sum) return;
+            if (ev.detail === 0) return;
+            const teraz = window.performance && performance.now ? performance.now() : Date.now();
+            if (sum === ostatni && teraz - ostatniCzas < OKNO_MS) {
+              ev.preventDefault();
+              return;
+            }
+            ostatni = sum;
+            ostatniCzas = teraz;
+          },
+          true
+        );
+      })();
+    </script>
+
     <!-- Kolektor behawioralny first-party (misja „analityka-atrybucja" 2026-07-18) →
          same-origin POST /api/z (Worker → D1 → tracking.db). OSOBNY system od beaconu
          zgód (reguła A). Reguła B: dane wyłącznie na naszą infra, nic do zewnętrznych
