@@ -2,6 +2,7 @@
 publishDate: 2026-08-28T12:00:00
 title: 'Co zamiast styroduru pod płytą fundamentową? Kompletny pakiet bez mostków'
 excerpt: 'Skoro XPS pod płytą się nie opłaca, to jak zbudować ciepły dom na płycie? Pokazuję kompletny pakiet: grubszy styropian pod posadzką, ciepły bloczek startowy i rozwiązanie trzpieni żelbetowych.'
+image: '~/assets/images/blog/co-zamiast-styroduru-pod-plyta-fundamentowa.jpeg'
 category: 'Blog'
 tags:
   - 'Fundamenty'
