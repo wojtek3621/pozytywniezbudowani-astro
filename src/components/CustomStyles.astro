@@ -3,9 +3,14 @@ import '@fontsource-variable/inter';
 ---
 
 <style is:inline>
+  /* Oswald (nagłówki): woff2 z podzbiorem latin + latin-ext (41 kB) zamiast pełnego TTF
+     (169 kB, 88 kB po brotli) — ten sam plik źródłowy i osie zmienności, komplet polskich
+     znaków (misja wydajność 2026-09-06). TTF zostaje jako drugie źródło. */
   @font-face {
     font-family: 'Oswald';
-    src: url('/fonts/Oswald-VariableFont_wght.ttf') format('truetype-variations');
+    src:
+      url('/fonts/Oswald-latin-ext.woff2') format('woff2'),
+      url('/fonts/Oswald-VariableFont_wght.ttf') format('truetype-variations');
     font-weight: 200 700;
     font-style: normal;
     font-display: swap;
