@@ -16,5 +16,10 @@
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
 
+# Kolektor first-party bez skrótu w nazwie: godzina (był max-age=0 → rewalidacja przy każdej
+# odsłonie); aktualizacja z.js dociera do przeglądarek z opóźnieniem ≤ 1 h (misja wydajność 2026-09-06).
+/z.js
+  Cache-Control: public, max-age=3600
+
 /favicons/*
   Cache-Control: public, max-age=2592000
