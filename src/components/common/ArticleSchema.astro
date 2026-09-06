@@ -2,25 +2,25 @@
 /**
  * JSON-LD BlogPosting structured data for blog articles.
  * Generates schema.org/BlogPosting markup for Google rich results.
+ *
+ * Bez datePublished/dateModified (decyzja Wojtka 2026-09-06): artykuły są evergreen,
+ * a Google pokazuje w wyniku wyszukiwania datę wziętą z danych strukturalnych nawet
+ * wtedy, gdy strona jej nie wyświetla. Data z frontmatteru porządkuje tylko listing.
  */
 export interface Props {
   title: string;
   description?: string;
-  publishDate: Date;
-  updateDate?: Date;
   image?: string;
   url: string;
 }
 
-const { title, description, publishDate, updateDate, image, url } = Astro.props;
+const { title, description, image, url } = Astro.props;
 
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
   headline: title,
   description: description || '',
-  datePublished: publishDate.toISOString(),
-  dateModified: (updateDate || publishDate).toISOString(),
   author: {
     '@type': 'Person',
     name: 'Wojciech Tracichleb',

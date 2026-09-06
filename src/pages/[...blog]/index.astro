@@ -51,8 +51,6 @@ const metadata = merge(
   <ArticleSchema
     title={post.title}
     description={post.excerpt}
-    publishDate={post.publishDate}
-    updateDate={post.updateDate}
     image={typeof image === 'string' ? image : image?.src}
     url={String(url)}
   />
