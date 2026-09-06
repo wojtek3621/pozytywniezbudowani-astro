@@ -9,7 +9,7 @@
 // ARCHITECTURE:
 // 1. dataLayer pre-initialized in Layout.astro <head> BEFORE ConsentBanner (race condition fix – DB1)
 // 2. Consent Mode v2 defaults set by ConsentBanner position="head" BEFORE this runs
-// 3. GTM + VisitorTracking loaded only after:
+// 3. GTM loaded only after (VisitorTracking usunięty 2026-09-06):
 //    - First user interaction (scroll, pointerdown, keydown), OR
 //    - requestIdleCallback with 1500ms timeout (iOS Safari: setTimeout fallback)
 // 4. On GTM load: replay current consent state from cookie via gtag() arguments pattern (F1)
@@ -140,33 +140,12 @@
           }
         })(window, document, 'script', 'dataLayer', 'GTM-PKRLVW2G');
 
-        // VisitorTracking – async load after GTM
-        //
-        // GUARD (2026-07-14): tracer.js dostawcy wywołuje wewnętrznie init_tracer()
-        // przez setTimeout, ale tej funkcji NIE definiuje (ani my – `grep init_tracer
-        // src/ public/` = 0 trafień). Ich try/catch owija tylko setTimeout, więc
-        // asynchroniczny ReferenceError leci POZA blokiem → niezłapany wyjątek w ~każdej
-        // sesji (Clarity ScriptErrorCount ~60%). Definiujemy brakującą funkcję jako no-op
-        // ZANIM wstrzykniemy skrypt. Nasza właściwa inicjalizacja idzie osobno przez
-        // new Tracer(...) w onload poniżej, więc no-op niczego nie psuje. Odwracalne.
-        // Analiza: builds/2026-07-14-pz-bledy-js/.
-        window.init_tracer = window.init_tracer || function () {};
-
-        var vt = document.createElement('script');
-        vt.async = true;
-        vt.defer = true;
-        vt.src = 'https://app.visitortracking.com/assets/js/tracer.js';
-        vt.onload = function () {
-          if (typeof Tracer !== 'undefined') {
-            try {
-              new Tracer({
-                websiteId: 'c23f4336-24d3-4730-933f-43d04963bf26',
-                async: true,
-              });
-            } catch (e) {}
-          }
-        };
-        document.head.appendChild(vt);
+        // VisitorTracking (app.visitortracking.com/tracer.js) USUNIĘTY 2026-09-06 — decyzja
+        // Wojtka (misja wydajność trzech witryn): raporty szły na skrzynkę, ale mamy własną
+        // analitykę (z.js → tracking.db, GA4, Clarity); narzędzie nie miało czytelnika
+        // w rejestrze warstw pomiaru, kosztowało 13 kB + żądanie zewnętrzne na odsłonę
+        // i od 07/2026 wymagało łatki `window.init_tracer` (rzucało błędami w ~60 % sesji).
+        // Przywrócenie: git log -S 'tracer.js' -- src/components/common/Analytics.astro
       }
 
       // Trigger 0 (2026-06-10): PAID TRAFFIC EAGER-LOAD – fbclid/gclid in URL = visitor
