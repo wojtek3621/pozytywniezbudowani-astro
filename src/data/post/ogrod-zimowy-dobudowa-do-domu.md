@@ -55,7 +55,7 @@ metadata:
 
 <h2>Szyby i parametry termiczne</h2>
 
-<p>Tutaj wchodzimy w obszar, w którym ogród zimowy całoroczny musi spełniać warunki techniczne dla budynku mieszkalnego. Zgodnie z obowiązującymi warunkami technicznymi (WT2021) współczynnik przenikania ciepła dla okien w ogrzewanych pomieszczeniach mieszkalnych nie może przekraczać 0,9 W/(m²·K). Dla ścian zewnętrznych obowiązuje wartość 0,2 W/(m²·K), dla dachu 0,15 W/(m²·K).</p>
+<p>Tutaj wchodzimy w obszar, w którym ogród zimowy całoroczny musi spełniać warunki techniczne dla budynku mieszkalnego. Zgodnie z warunkami technicznymi WT2021 współczynnik przenikania ciepła dla okien w ogrzewanych pomieszczeniach mieszkalnych nie może przekraczać 0,9 W/(m²·K). Dla ścian zewnętrznych obowiązuje wartość 0,2 W/(m²·K), dla dachu 0,15 W/(m²·K).</p>
 
 <p>Ogród zimowy całoroczny formalnie podpada pod te wymagania. W praktyce stosuje się szyby trzykomorowe (pakiet trzyszybowy z dwoma komorami wypełnionymi gazem szlachetnym), z powłoką niskoemisyjną, osiągające U na poziomie 0,5–0,7 W/(m²·K). Szkło dachowe musi być dodatkowo bezpieczne – od strony zewnętrznej zwykle hartowane, od wewnętrznej laminowane (klejone folią PVB), żeby w razie pęknięcia odłamki nie spadły na osoby pod spodem. To wynika z polskich norm dotyczących bezpieczeństwa szkła w budownictwie. Wybór konkretnych pakietów to zresztą ten sam świat, co przy całej stolarce w domu – tematykę szczegółowo omawiam w tekście o porównaniu <a href="/blog/okna-pcv-drewniane-aluminiowe-porownanie/">okien PCV, drewnianych i aluminiowych</a>.</p>
 

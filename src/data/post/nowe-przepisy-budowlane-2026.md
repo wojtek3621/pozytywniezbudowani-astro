@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-17T21:54:16
 order: 16
-updateDate: 2026-07-20T12:00:00
+updateDate: 2026-09-28T12:00:00
 title: 'Nowe przepisy budowlane 2026 – co obowiązuje, a co dopiero wejdzie'
 excerpt: 'Plan ogólny, Rejestr Urbanistyczny, dziennik budowy, warunki techniczne, dom do 70 m² i świadectwo energetyczne – co obowiązuje Waszą budowę dziś i które daty są naprawdę graniczne.'
 image: '~/assets/images/blog/nowe-przepisy-budowlane-2026.jpeg'
@@ -12,7 +12,7 @@ author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/nowe-przepisy-budowlane-2026/'
   title: 'Nowe przepisy budowlane 2026 – stan prawny, daty, co dotyczy Waszej budowy'
-  description: 'Co realnie obowiązuje w 2026 roku: plan ogólny i Rejestr Urbanistyczny, dziennik budowy, warunki techniczne do 20 września, dom do 70 m², świadectwo energetyczne.'
+  description: 'Co realnie obowiązuje w 2026 roku: plan ogólny i Rejestr Urbanistyczny, dziennik budowy, warunki techniczne po 20 września, dom do 70 m², świadectwo energetyczne.'
   robots:
     index: true
     follow: true
@@ -84,8 +84,8 @@ metadata:
 </tr>
 <tr style="background: #fdf6e3;">
 <td style="padding: 12px 10px; border-bottom: 1px solid #eee; font-weight: 600; color: #3c3c3c;">20 września 2026</td>
-<td style="padding: 12px 10px; border-bottom: 1px solid #eee;">Rozporządzenie o warunkach technicznych z 2002 r. traci moc; tego samego dnia definicje budynków wchodzą do ustawy Prawo budowlane</td>
-<td style="padding: 12px 10px; border-bottom: 1px solid #eee;">art. 66 ustawy z 19.07.2019 o zapewnianiu dostępności osobom ze szczególnymi potrzebami; art. 13 pkt 1 ustawy z 4.12.2025</td>
+<td style="padding: 12px 10px; border-bottom: 1px solid #eee;">Początek 18 miesięcy, w których można stosować rozporządzenie o warunkach technicznych z 2002 r. (nowego nie ma); tego samego dnia definicje budynków weszły do ustawy Prawo budowlane</td>
+<td style="padding: 12px 10px; border-bottom: 1px solid #eee;">art. 66 ustawy z 19.07.2019 o zapewnianiu dostępności osobom ze szczególnymi potrzebami; art. 102a–102c Prawa budowlanego (ustawa z 31.07.2026, Dz.U. 2026 poz. 1161); art. 13 pkt 1 ustawy z 4.12.2025</td>
 </tr>
 <tr style="background: #fff;">
 <td style="padding: 12px 10px; border-bottom: 1px solid #eee; font-weight: 600; color: #3c3c3c;">30 listopada 2026</td>
@@ -143,13 +143,13 @@ metadata:
 
 <p>Dwie rzeczy warte zapamiętania. Po pierwsze, dziennik budowy prowadzi się tylko przy robotach wymagających ustanowienia kierownika budowy (art. 45), a odpowiada za niego kierownik, nie Wy (art. 47d). Po drugie, jeżeli zaczniecie w papierze i zmienicie zdanie, <strong>dziennik papierowy można kontynuować w postaci elektronicznej</strong> (art. 47k ust. 1) – decyzja na starcie nie jest nieodwracalna. Jak prowadzić dziennik, żeby nie było problemów przy odbiorze, opisuję w tekście o <a href="/blog/dziennik-budowy-jak-prowadzic-poprawnie/">prowadzeniu dziennika budowy</a>.</p>
 
-<h2>Warunki techniczne – co obowiązuje do 20 września 2026</h2>
+<h2>Warunki techniczne – co się zmieniło 20 września 2026</h2>
 
-<p>To obszar, wokół którego narosło najwięcej nieporozumień. Krótko: <strong>„WT2026” nie są dziś obowiązującym prawem.</strong> Wymagania techniczne dla budynków nadal określa rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002 r. w brzmieniu obowiązującym od 1 stycznia 2021 roku. Nowe rozporządzenie pozostaje projektem – sprawdziłem 20 lipca 2026 roku w bazie Dziennika Ustaw i nie zostało opublikowane.</p>
+<p>To obszar, wokół którego narosło najwięcej nieporozumień. Krótko: <strong>„WT2026” nie są dziś obowiązującym prawem.</strong> Nowe rozporządzenie pozostaje projektem – sprawdziłem 28 września 2026 roku w bazie Dziennika Ustaw i nie zostało opublikowane. Rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002 r. formalnie przestało obowiązywać, ale ustawa z 31 lipca 2026 r. pozwala stosować je przez 18 miesięcy od 20 września 2026 r. – przy pozwoleniu na budowę i zgłoszeniu budowy po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego).</p>
 
-<p>Data 20 września 2026 roku, która krąży po branży, jest natomiast prawdziwa i ma nieoczywiste źródło. Nie wynika z żadnej ustawy budowlanej, tylko z art. 66 ustawy z 19 lipca 2019 r. o zapewnianiu dostępności osobom ze szczególnymi potrzebami: przepisy wykonawcze wydane m.in. na podstawie art. 7 ust. 2 Prawa budowlanego zachowują moc nie dłużej niż przez 84 miesiące od jej wejścia w życie. Ustawa weszła w życie 20 września 2019 roku – stąd 20 września 2026 roku. Tego samego dnia do Prawa budowlanego wchodzą definicje budynków (mieszkalnego, gospodarczego, użyteczności publicznej, rekreacji indywidualnej), przenoszone z § 3 wygasającego rozporządzenia.</p>
+<p>Data 20 września 2026 roku, która krąży po branży, jest natomiast prawdziwa i ma nieoczywiste źródło. Nie wynika z żadnej ustawy budowlanej, tylko z art. 66 ustawy z 19 lipca 2019 r. o zapewnianiu dostępności osobom ze szczególnymi potrzebami: przepisy wykonawcze wydane m.in. na podstawie art. 7 ust. 2 Prawa budowlanego zachowują moc nie dłużej niż przez 84 miesiące od jej wejścia w życie. Ustawa weszła w życie 20 września 2019 roku – stąd 20 września 2026 roku. Tego samego dnia do Prawa budowlanego weszły definicje budynków (mieszkalnego, gospodarczego, użyteczności publicznej, rekreacji indywidualnej), przeniesione z § 3 rozporządzenia z 2002 r.</p>
 
-<p>Dla Waszego projektu najważniejsze jest to, czego wbrew pozorom w tej zmianie nie ma: projekt nowych warunków technicznych <em>nie zaostrza na wejściu</em> ani wymagań energetycznych, ani współczynników przenikania ciepła. Realne zaostrzenia mają daty 31 grudnia 2029 roku (instalacja wykorzystująca energię słońca na nowych budynkach mieszkalnych) i 1 stycznia 2030 roku (bezemisyjność, która w praktyce kończy erę kotłów gazowych w nowych domach) – jedno i drugie wprost z dyrektywy EPBD. Co dokładnie zawiera projekt, jakie wartości obowiązują dziś i – najważniejsze – <strong>które przepisy dotyczą Waszej konkretnej budowy</strong>, rozbieram z paragrafami w <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">artykule o warunkach technicznych WT2026</a>. To lektura obowiązkowa, jeżeli składacie wniosek w okolicach września.</p>
+<p>Dla Waszego projektu najważniejsze jest to, czego wbrew pozorom w tej zmianie nie ma: projekt nowych warunków technicznych <em>nie zaostrza na wejściu</em> ani wymagań energetycznych, ani współczynników przenikania ciepła. Realne zaostrzenia mają daty 31 grudnia 2029 roku (instalacja wykorzystująca energię słońca na nowych budynkach mieszkalnych) i 1 stycznia 2030 roku (bezemisyjność, która w praktyce kończy erę kotłów gazowych w nowych domach) – jedno i drugie wprost z dyrektywy EPBD. Co dokładnie zawiera projekt, jakie wartości stosuje się dziś i – najważniejsze – <strong>które przepisy dotyczą Waszej konkretnej budowy</strong>, rozbieram z paragrafami w <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">artykule o warunkach technicznych WT2026</a>. To lektura obowiązkowa, jeżeli składacie wniosek w najbliższych miesiącach.</p>
 
 <h2>Dom do 70 m² – ścieżka, która naprawdę przyspiesza start</h2>
 
@@ -175,7 +175,7 @@ metadata:
 
 <h2>Ustawa deregulacyjna 2026 – co realnie zmieniła</h2>
 
-<p>„Deregulacja” pojawia się w mediach co kilka lat i zwykle rozmywa się w ogólnikach, więc nazwijmy rzecz po imieniu: chodzi o <strong>ustawę z 4 grudnia 2025 r. o zmianie ustawy Prawo budowlane oraz niektórych innych ustaw (Dz.U. 2025 poz. 1847), która weszła w życie 7 stycznia 2026 roku</strong>. Część jej przepisów – definicje budynków – wchodzi dopiero 20 września 2026 roku.</p>
+<p>„Deregulacja” pojawia się w mediach co kilka lat i zwykle rozmywa się w ogólnikach, więc nazwijmy rzecz po imieniu: chodzi o <strong>ustawę z 4 grudnia 2025 r. o zmianie ustawy Prawo budowlane oraz niektórych innych ustaw (Dz.U. 2025 poz. 1847), która weszła w życie 7 stycznia 2026 roku</strong>. Część jej przepisów – definicje budynków – weszła dopiero 20 września 2026 roku.</p>
 
 <p>Z perspektywy budującego dom najważniejsze są te zmiany:</p>
 
@@ -193,7 +193,7 @@ metadata:
 
 <h2>Co z tym zrobić – zależnie od etapu</h2>
 
-<p><strong>Jeżeli budujecie na podstawie wydanego już pozwolenia albo przyjętego zgłoszenia</strong> – większość opisanych zmian Was nie dotyczy. Realizujecie inwestycję w stanie prawnym, w którym została zatwierdzona. O tym, który dokładnie dzień decyduje o przepisach dla Waszej budowy, piszę w artykule o <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">warunkach technicznych</a> – to nie jest dzień rozpoczęcia robót ani dzień odbioru, a ta różnica bywa kosztowna.</p>
+<p><strong>Jeżeli budujecie na podstawie wydanego już pozwolenia albo przyjętego zgłoszenia</strong> – większość opisanych zmian Was nie dotyczy. Realizujecie inwestycję w stanie prawnym, w którym została zatwierdzona. O tym, co decyduje o warunkach technicznych dla Waszej budowy, piszę w artykule o <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">warunkach technicznych</a> – to nie jest dzień rozpoczęcia robót ani dzień odbioru, a ta różnica bywa kosztowna.</p>
 
 <p><strong>Jeżeli macie działkę bez planu miejscowego i bez warunków zabudowy</strong> – to Wy macie najbliższy termin. Wniosek o warunki zabudowy na dotychczasowych zasadach składacie najpóźniej 31 sierpnia 2026 roku. Zacznijcie od sprawdzenia w Rejestrze Urbanistycznym, czy Wasza gmina ma już plan ogólny i co przewiduje dla Waszej okolicy.</p>
 
@@ -225,10 +225,10 @@ metadata:
 
 <p>Przepisy budowlane w 2026 roku są wynikiem nałożenia się trzech procesów: cyfryzacji administracji, reformy planowania przestrzennego i unijnej polityki energetycznej. Każdy z osobna jest zrozumiały; razem sprawiają, że budowa domu wymaga więcej przygotowania niż kilka lat temu.</p>
 
-<p>Jeżeli mielibyście zapamiętać pięć rzeczy: <strong>termin 31 sierpnia 2026 roku</strong> dotyczy wniosków o warunki zabudowy i jest najpilniejszym zegarem dla działek bez planu miejscowego. <strong>Rejestr Urbanistyczny</strong> działa od 1 lipca 2026 roku i jest bezpłatny – sprawdzajcie tam działkę, zanim ją kupicie. <strong>Elektroniczny dziennik budowy jest wyborem</strong>, nie obowiązkiem, a papierowe dzienniki wydaje się do końca 2031 roku. <strong>Warunki techniczne z 2002 roku obowiązują do 20 września 2026 roku</strong> i nie zaostrzają się z dnia na dzień – prawdziwe zmiany mają daty 2029 i 2030. <strong>Świadectwo energetyczne</strong> jest obowiązkowe przy sprzedaży i najmie, ważne 10 lat i nie da się go zrzec.</p>
+<p>Jeżeli mielibyście zapamiętać pięć rzeczy: <strong>termin 31 sierpnia 2026 roku</strong> dotyczy wniosków o warunki zabudowy i jest najpilniejszym zegarem dla działek bez planu miejscowego. <strong>Rejestr Urbanistyczny</strong> działa od 1 lipca 2026 roku i jest bezpłatny – sprawdzajcie tam działkę, zanim ją kupicie. <strong>Elektroniczny dziennik budowy jest wyborem</strong>, nie obowiązkiem, a papierowe dzienniki wydaje się do końca 2031 roku. <strong>Warunki techniczne z 2002 roku można stosować jeszcze przez 18 miesięcy od 20 września 2026 roku</strong>, a projekt nowych nie zaostrza ich z dnia na dzień – prawdziwe zmiany mają w nim daty 2029 i 2030. <strong>Świadectwo energetyczne</strong> jest obowiązkowe przy sprzedaży i najmie, ważne 10 lat i nie da się go zrzec.</p>
 
 <p>Po latach pracy widzę jedno, co nie zmienia się niezależnie od przepisów: świadomy, dobrze przygotowany inwestor wygrywa z tym, który robi wszystko na ostatnią chwilę. Nowe przepisy tej zasady nie zmieniają – podkreślają ją mocniej niż kiedykolwiek.</p>
 
 <h2>Zastrzeżenie prawne</h2>
 
-<p>Niniejszy artykuł stanowi przegląd zmian w polskich przepisach budowlanych według stanu prawnego na dzień 20 lipca 2026 r. i ma charakter wyłącznie informacyjny. Nie stanowi porady prawnej w indywidualnej sprawie. Konkretne warunki Waszej budowy – w szczególności status prawny działki, treść planu ogólnego gminy, wymagania techniczne i terminy procedur administracyjnych – mogą się różnić w zależności od lokalizacji i bieżącego stanu prac legislacyjnych. Przed podjęciem decyzji o zakupie działki, wyborze projektu lub rozpoczęciu inwestycji skonsultujcie się z architektem adaptującym, geodetą, urbanistą lub radcą prawnym specjalizującym się w prawie budowlanym i planowaniu przestrzennym. Aktualne brzmienie przepisów sprawdzajcie w oficjalnych publikatorach, w szczególności w Internetowym Systemie Aktów Prawnych Sejmu RP (isap.sejm.gov.pl).</p>
+<p>Niniejszy artykuł stanowi przegląd zmian w polskich przepisach budowlanych według stanu prawnego na dzień 20 lipca 2026 r. (część o warunkach technicznych – na 28 września 2026 r.) i ma charakter wyłącznie informacyjny. Nie stanowi porady prawnej w indywidualnej sprawie. Konkretne warunki Waszej budowy – w szczególności status prawny działki, treść planu ogólnego gminy, wymagania techniczne i terminy procedur administracyjnych – mogą się różnić w zależności od lokalizacji i bieżącego stanu prac legislacyjnych. Przed podjęciem decyzji o zakupie działki, wyborze projektu lub rozpoczęciu inwestycji skonsultujcie się z architektem adaptującym, geodetą, urbanistą lub radcą prawnym specjalizującym się w prawie budowlanym i planowaniu przestrzennym. Aktualne brzmienie przepisów sprawdzajcie w oficjalnych publikatorach, w szczególności w Internetowym Systemie Aktów Prawnych Sejmu RP (isap.sejm.gov.pl).</p>
