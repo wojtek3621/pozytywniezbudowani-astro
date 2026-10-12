@@ -56,9 +56,7 @@ for (const f of pliki) {
 }
 
 if (bledy.length) {
-  console.error(
-    `✗ check:details — ${bledy.length} stron ma <details> BEZ mechanizmu tłumiącego dwuklik (${GUARD}):`
-  );
+  console.error(`✗ check:details — ${bledy.length} stron ma <details> BEZ mechanizmu tłumiącego dwuklik (${GUARD}):`);
   for (const b of bledy.slice(0, 20)) console.error('   ', b);
   if (bledy.length > 20) console.error(`    … i ${bledy.length - 20} więcej`);
   console.error('  Skutek: dwuklik otwiera i natychmiast zamyka treść — akordeon wygląda na martwy.');
@@ -66,6 +64,4 @@ if (bledy.length) {
   process.exit(1);
 }
 
-console.log(
-  `✓ check:details — ${zAkordeonem}/${sprawdzone} stron z akordeonem ma mechanizm tłumiący dwuklik`
-);
+console.log(`✓ check:details — ${zAkordeonem}/${sprawdzone} stron z akordeonem ma mechanizm tłumiący dwuklik`);
