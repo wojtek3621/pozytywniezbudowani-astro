@@ -22,6 +22,18 @@
 // (platforma/content/lessons.py → TOOL_SLUGS) ma dokładnie 9 pozycji w module
 // narzędzi i tyle samo deklaruje /centrum („Dziewięć narzędzi”). Zmiana tej liczby
 // = najpierw sprawdź TOOL_SLUGS, potem popraw TU i na /centrum jednocześnie.
+//
+// STAN 2026-10-12 (misja pz-narzedzia-strona, ta sama gałąź co poprawka /centrum):
+// TOOL_SLUGS mieszka dziś w platforma/content/kalkulatory.py i ma 10 pozycji –
+// dziesiąta to kalkulator kabla, widoczny wyłącznie w nowej powłoce Centrum 3.0
+// (access=centrum3). Czytelnicy książki są w starej powłoce i widzą 9 (8 kalkulatorów
+// + checklista), więc „Dziewięć” i „Osiem kalkulatorów” zostały – zmiana razem
+// z /centrum przy pełnym przepisaniu obu stron. Zdjęte zdania bez pokrycia
+// w produkcie: „z mapą”, „tam trafiają liczby, które policzycie narzędziami”
+// (wyniki kalkulatorów do budżetu nie trafiają – budżet i narzędzia stoją obok
+// siebie), „20 lekcji”, „Do kupienia osobno; … w cenie członkostwa”, „To samo konto
+// otwiera resztę” (dowody zdanie po zdaniu: aios-workspace/builds/
+// 2026-10-12-pz-centrum-strona/dla-wojtka.md, zmiany 13–17).
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
@@ -234,21 +246,23 @@ const grupy = [
         Narzędzia to jedna szuflada w Centrum
       </h2>
       <p class="text-muted text-lg text-center max-w-3xl mx-auto mb-10">
-        To samo konto otwiera resztę. Pełny opis każdego modułu znajdziecie na
+        Nie wszystko w Centrum jest za darmo: materiały przychodzą z książką, a Pakiet Prawny i Społeczność są płatne,
+        osobno od konta, więc pełny opis każdego modułu – z tym, dla kogo jest – znajdziecie na
         <a href="/centrum/?z=narzedzia-centrum" data-astro-reload class="text-secondary underline">stronie Centrum</a>.
       </p>
       <div class="grid md:grid-cols-2 gap-6">
         <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 bg-white dark:bg-slate-900">
           <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Budowa bez niespodzianek</h3>
           <p class="text-muted">
-            Budżet budowy z mapą, planem z ofert wykonawców i rejestrem wydatków. Gotowy szablon: 12 etapów, ponad 300
-            pozycji. To serce Centrum – tam trafiają liczby, które policzycie narzędziami.
+            Budżet budowy z planem z ofert wykonawców i rejestrem wydatków. Gotowy szablon: 12 etapów, ponad 300
+            pozycji. To serce Centrum – tu zapisujecie, ile co ma kosztować i ile już poszło; narzędzia obok liczą
+            kredyt i koszt całej inwestycji.
           </p>
         </div>
         <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 bg-white dark:bg-slate-900">
           <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Materiały do książki</h3>
           <p class="text-muted">
-            20 lekcji z checklistami, wideo i plikami roboczymi – rozdział po rozdziale. Dostęp dostaje każdy czytelnik <a
+            Lekcje z checklistami, wideo i plikami roboczymi – rozdział po rozdziale. Dostęp dostaje każdy czytelnik <a
               href="/ksiazka/"
               class="text-secondary underline">„Od marzenia do wprowadzenia"</a
             >.
@@ -257,8 +271,7 @@ const grupy = [
         <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 bg-white dark:bg-slate-900">
           <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Pakiet Prawny</h3>
           <p class="text-muted">
-            20 wzorów umów i protokołów na każdy etap budowy – od umowy z wykonawcą po protokoły odbioru. Do kupienia
-            osobno; członkowie Społeczności mają go w cenie członkostwa.
+            20 wzorów umów i protokołów na każdy etap budowy – od umowy z wykonawcą po protokoły odbioru.
           </p>
         </div>
         <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 bg-white dark:bg-slate-900">
