@@ -10,12 +10,20 @@
 // (BBN_SIGNUP_ENABLED=0 → /budowa/start = 404). Przy false strona mówi
 // uczciwie „rejestracja wkrótce" zamiast zapraszać na 404. Re-otwarcie
 // = flip tej jednej stałej z powrotem na true (przycisk wraca 1:1).
+//
+// PRAWDA O PRODUKCIE (2026-10-12, misja pz-centrum-strona, K1+K2 z
+// aios-workspace/builds/2026-10-11-centrum-komunikacja-audyt/synteza.md):
+// zdjęte zdania bez pokrycia w produkcie – „mapa budowy", automatyczne
+// rozpoznawanie etapu, przegląd tygodnia, wspólny pulpit, „za darmo na start",
+// Pakiet „w cenie członkostwa" – i link do oferty Społeczności (anonim → 404).
+// Zanim dopiszesz tu funkcję, sprawdź ją w kodzie platforma/ (dowody zdanie po
+// zdaniu: aios-workspace/builds/2026-10-12-pz-centrum-strona/dla-wojtka.md).
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
   title: 'Centrum Dowodzenia Budową – prowadźcie budowę w jednym miejscu | Pozytywnie Zbudowani',
   description:
-    'Jedno darmowe konto do całej budowy: budżet z mapą budowy, kalkulatory, materiały do książki, wzory dokumentów i społeczność budujących. Wystarczy adres e-mail.',
+    'Darmowe konto do prowadzenia własnej budowy: plan budowy etap po etapie, kosztorys z ofert wykonawców, rejestr wydatków i kalkulatory. Wystarczy adres e-mail.',
 };
 
 const SIGNUP_OPEN = false;
@@ -27,16 +35,15 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
   <section class="bg-slate-900 py-16 md:py-20">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
       <p class="text-amber-400 text-sm font-bold uppercase tracking-wider mb-4">
-        Jedno konto, cała budowa – za darmo na start
+        Jedno konto, cała budowa – za darmo
       </p>
       <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-5">
         Centrum Dowodzenia Budową
       </h1>
       <p class="text-lg text-slate-300 leading-relaxed mb-8">
-        Miejsce, w którym prowadzicie swoją budowę: budżet z mapą budowy, kalkulatory, materiały do książki, wzory
-        dokumentów i społeczność ludzi, którzy budują równolegle z Wami. Sercem Centrum jest darmowy moduł „Budowa bez
-        niespodzianek" – Wasza budowa w liczbach, nie w domysłach. Bez Excela, bez instalowania – tak samo na telefonie
-        i laptopie.
+        Miejsce, w którym prowadzicie swoją budowę: plan budowy etap po etapie, budżet z kosztorysem i wydatkami oraz
+        kalkulatory. Sercem Centrum jest darmowy moduł „Budowa bez niespodzianek" – Wasza budowa w liczbach, nie w
+        domysłach. Bez Excela, bez instalowania – tak samo na telefonie i laptopie.
       </p>
       {
         SIGNUP_OPEN ? (
@@ -111,10 +118,10 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
           </p>
         </div>
         <div class="bg-white dark:bg-slate-900 rounded-lg p-6 shadow-sm">
-          <h3 class="text-lg font-bold dark:text-white mb-3 font-display">Mapa budowy</h3>
+          <h3 class="text-lg font-bold dark:text-white mb-3 font-display">Budżet na jednym ekranie</h3>
           <p class="text-muted">
-            Jeden rzut oka i wiecie, jak stoicie: co wycenione, co wydane, który etap się przegrzewa. Raz w tygodniu
-            10-minutowy przegląd zbiera wszystko, co wymaga Waszej decyzji.
+            Jeden rzut oka i wiecie, jak stoicie: co wycenione, co wydane, który etap się przegrzewa. Na górze trzy
+            liczby – ile zaplanowaliście, ile poszło i ile zostało – a pod nimi tabela etapów.
           </p>
         </div>
       </div>
@@ -132,16 +139,16 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
         Jedno konto, całe Centrum
       </h2>
       <p class="text-muted text-lg text-center max-w-3xl mx-auto mb-10">
-        Budżet budowy to serce Centrum – ale to samo konto otwiera resztę. Po zalogowaniu widzicie wszystkie moduły na
-        jednym pulpicie, z uczciwą informacją, co macie, a co możecie mieć.
+        Budżet budowy to serce Centrum – ale to samo konto otwiera resztę: kalkulatory i Bibliotekę. Nad każdym opisem
+        niżej macie napisane, co jest za darmo, a co płatne.
       </p>
       <div class="grid md:grid-cols-2 gap-6">
         <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6">
           <p class="text-xs font-bold uppercase tracking-wider text-primary mb-2">Za darmo dla każdego</p>
           <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Budowa bez niespodzianek</h3>
           <p class="text-muted">
-            Budżet budowy z mapą, planem z ofert i rejestrem wydatków – pełny moduł, nie okrojona wersja pokazowa.
-            Opisany wyżej.
+            Budżet budowy z planem z ofert i rejestrem wydatków – pełny moduł, nie okrojona wersja pokazowa. Opisany
+            wyżej.
           </p>
         </div>
         <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6">
@@ -156,28 +163,25 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
           <p class="text-xs font-bold uppercase tracking-wider text-secondary mb-2">Dla czytelników książki</p>
           <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Materiały do książki</h3>
           <p class="text-muted">
-            20 lekcji z checklistami, wideo i plikami roboczymi – rozdział po rozdziale, od marzenia po budowę. Dostęp
+            Lekcje z checklistami, wideo i plikami roboczymi – rozdział po rozdziale, od marzenia po budowę. Dostęp
             dostaje każdy czytelnik
             <a href="/ksiazka" class="text-secondary underline">„Od marzenia do wprowadzenia"</a>.
           </p>
         </div>
         <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6">
-          <p class="text-xs font-bold uppercase tracking-wider text-secondary mb-2">Papiery budowy</p>
+          <p class="text-xs font-bold uppercase tracking-wider text-secondary mb-2">Płatny, osobno od konta</p>
           <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Pakiet Prawny</h3>
           <p class="text-muted">
-            20 wzorów umów i protokołów na każdy etap budowy – od umowy z wykonawcą po protokoły odbioru. Do kupienia
-            osobno; członkowie Społeczności mają go w cenie członkostwa.
+            20 wzorów umów i protokołów na każdy etap budowy – od umowy z wykonawcą po protokoły odbioru.
           </p>
         </div>
         <div class="border border-slate-200 dark:border-slate-700 rounded-lg p-6 md:col-span-2">
-          <p class="text-xs font-bold uppercase tracking-wider text-secondary mb-2">Nabór w oknach, 2 razy w roku</p>
+          <p class="text-xs font-bold uppercase tracking-wider text-secondary mb-2">Płatne członkostwo</p>
           <h3 class="text-lg font-bold dark:text-white mb-2 font-display">Społeczność</h3>
           <p class="text-muted">
             Zamknięte forum budujących z gospodarzem-praktykiem: kategorie od działki po ogród, dzienniki budowy,
-            webinary na żywo. Ofertę i cennik znajdziecie
-            <a href="https://platforma.pozytywniezbudowani.pl/spolecznosc" class="text-secondary underline"
-              >na stronie Społeczności</a
-            >.
+            webinary na żywo. Nabór otwieram w oknach, dwa razy w roku, i ogłaszam z wyprzedzeniem – dziś jest
+            zamknięty.
           </p>
         </div>
       </div>
@@ -209,11 +213,10 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
             >2</span
           >
           <div>
-            <p class="font-bold dark:text-white mb-1">Wchodzicie prosto na mapę budowy</p>
+            <p class="font-bold dark:text-white mb-1">Wchodzicie na plan budowy</p>
             <p class="text-muted">
-              Bez ankiet i konfiguracji – od razu widzicie 12 etapów drogi do własnego domu. Moduł sam rozpoznaje po
-              Waszych wpisach, czy marzycie, planujecie, czy budujecie – i dopasowuje się do etapu, zamiast wciskać
-              wszystkim to samo.
+              Widzicie etapy po kolei – od marzenia o domu po formalności na koniec. To, czy marzycie, przygotowujecie
+              się, budujecie, czy kończycie, zaznaczacie sami – tak samo jak etapy, które są już za Wami.
             </p>
           </div>
         </li>
@@ -225,8 +228,8 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
           <div>
             <p class="font-bold dark:text-white mb-1">Wpisujecie pierwsze kwoty</p>
             <p class="text-muted">
-              Trzy pozycje planu i jeden wydatek wystarczą, żeby mapa budowy zaczęła pokazywać, jak stoicie. Od tego
-              momentu robi to już zawsze.
+              Jedna kwota w kosztorysie i jeden wydatek wystarczą, żeby budżet pokazał, ile zaplanowaliście, ile poszło
+              i ile zostało. Resztę dopisujecie wtedy, kiedy przychodzą oferty i faktury.
             </p>
           </div>
         </li>
@@ -244,8 +247,10 @@ const SIGNUP_URL = 'https://platforma.pozytywniezbudowani.pl/budowa/start';
         liczby zamiast wrażeń, źródło przy każdej kwocie, decyzje zamiast alarmów.
       </p>
       <p class="text-muted text-lg">
-        Konto jest darmowe dla każdego – niczego nie musicie kupować. Jeśli kiedyś uznacie, że chcecie więcej, książka i
-        pozostałe materiały czekają obok. Ale to Wasza decyzja, nie warunek.
+        Konto jest darmowe dla każdego – żeby prowadzić w nim budowę, niczego nie musicie kupować. Płatne są rzeczy
+        obok: książka, Pakiet Prawny i Społeczność. Dlaczego konto jest za darmo? Bo jesteśmy w fazie rozwoju i nas to
+        dużo nie kosztuje, a na tej książce i na tej płatnej społeczności tak naprawdę najwięcej będziemy zarabiać –
+        jakiś procent z Was dołączy do Społeczności, jakiś procent kupi książkę. Ale to Wasza decyzja, nie warunek.
       </p>
     </div>
   </section>
