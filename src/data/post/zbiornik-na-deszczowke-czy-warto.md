@@ -353,7 +353,7 @@ metadata:
 <li>Co dokładnie mówi plan miejscowy albo decyzja o warunkach zabudowy o wodach opadowych.</li>
 <li>Ile wody da dach podłączony do zbiornika i ile potrzebujecie – w m³, z liczbami.</li>
 <li>Pojemność czynna, a nie tylko nominalna – i czy system zaprojektowano według PN-EN 16941-1.</li>
-<li>Dokąd idzie przelew i jak policzono jego przepustowość; gdzie popłynie woda, gdy odbiornik zawiedzie.</li>
+<li>Dokąd idzie przelew i jak policzono jego przepustowość (według PN-EN 12056); gdzie popłynie woda, gdy odbiornik zawiedzie.</li>
 <li>Poziom wody gruntowej w najmokrzejszym okresie i rodzaj gruntu – z badań, nie z oka.</li>
 <li>Wypór: czy model jest dopuszczony do Waszych warunków i jak będzie posadowiony.</li>
 <li>Miejsce na działce, odległości od budynku, granicy, drzew i sieci, dojazd dla sprzętu i dostawy.</li>
