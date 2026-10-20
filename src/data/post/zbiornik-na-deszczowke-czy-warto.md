@@ -22,7 +22,7 @@ metadata:
 
 <p>W tym tekście nie znajdziecie rankingu zbiorników, bo chcę, abyście zrozumieli, co zbiornik robi, a czego nie robi, ile wody realnie z niego weźmiecie i co trzeba zaplanować razem z nim, zanim koparka wjedzie na działkę. Liczby pochodzą z mojej symulacji na 35 latach codziennych pomiarów opadów z pięciu polskich miast, a wszystkie założenia podaję jawnie, abyście mogli przeliczyć swój przypadek.</p>
 
-<p style="background: #f8f9fa; border-left: 3px solid #c5a44e; padding: 10px 14px;">Na końcu tekstu jest sekcja <a href="#pytania-czytelnikow">Pytania czytelników</a> – trzy konkretne sytuacje z budów: zbiornik wpisany przez projektanta, duży trawnik przy małym dachu i działka na glinie z wysoką wodą gruntową.</p>
+<p style="background: #f8f9fa; border-left: 3px solid #c5a44e; padding: 10px 14px;">Na końcu tekstu jest sekcja <a href="#pytania-czytelnikow">Pytania czytelników</a> – trzy przypadki modelowe, ułożone wokół sytuacji z budów: zbiornik wpisany przez projektanta, duży trawnik przy małym dachu i działka na glinie z wysoką wodą gruntową.</p>
 
 <h2>Najkrótsza wersja, jeśli decydujecie dzisiaj</h2>
 
@@ -30,9 +30,9 @@ metadata:
 
 <p><strong>Po pierwsze:</strong> po co Wam zbiornik? To pytanie trzeba sobie zadać, zanim cokolwiek kupicie, ponieważ zbiornik retencyjny ma być pusty, kiedy przychodzi ulewa. Zbiornik na wodę do podlewania ma być pełny, kiedy przychodzi susza. Ta sama objętość nie może być naraz pusta i pełna – jeden zbiornik może natomiast mieć dwie strefy, dolną do poboru i górną, która sama się opróżnia.</p>
 
-<p><strong>Po drugie:</strong> zbiornik nie rozwiązuje problemu wody opadowej, tylko go przesuwa. W mojej symulacji zbiornik 5 m³ używany do podlewania ogrodu, z dachu o powierzchni 150 m², oddaje przelewem 24–40 m³ wody rocznie, w dwóch trzecich jesienią i zimą. Dlatego najważniejsze pytanie brzmi: dokąd płynie woda, kiedy zbiornik jest pełny.</p>
+<p><strong>Po drugie:</strong> zbiornik nie rozwiązuje problemu wody opadowej, tylko go przesuwa. W mojej symulacji zbiornik 5 m³, z którego podlewa się regularnie ogród 300 m², z dachu o powierzchni 150 m², oddaje przelewem 24–40 m³ wody rocznie, w dwóch trzecich jesienią i zimą – a przy oszczędnym podlewaniu rabat jeszcze więcej. Dlatego najważniejsze pytanie brzmi: dokąd płynie woda, kiedy zbiornik jest pełny.</p>
 
-<p><strong>Po trzecie:</strong> to, czy wody wystarczy, zależy od tego, co podlewacie, a nie od pojemności zbiornika. Rabaty i warzywnik zbiornik 5 m³ obsłuży prawie w całości. Trawnik w pełnym słońcu – w jednej trzeciej albo mniej. A w suchym roku, kiedy woda jest najbardziej potrzebna, zbiornik daje jej najmniej.</p>
+<p><strong>Po trzecie:</strong> to, czy wody wystarczy, zależy najpierw od tego, ile wody potrzebuje to, co podlewacie – pojemność zbiornika ma znaczenie, ale dużej potrzeby nie nadrobi. Rabaty i krzewy na ok. 300 m², podlewane pod roślinę, zbiornik 5 m³ obsłuży prawie w całości. Trawnik w pełnym słońcu – w jednej trzeciej albo mniej. A w suchym roku, kiedy woda jest najbardziej potrzebna, zbiornik daje jej najmniej.</p>
 
 <p><strong>Po czwarte:</strong> oszczędzacie tylko tę wodę, którą i tak byście kupili, a płacicie za zbiornik, wykop, pompę, prąd i serwis. Jeżeli do ogrodu macie podlicznik, za wodę z wodociągu płacicie bez opłaty za ścieki. Liczyłem to wiele razy: jako inwestycja oszczędnościowa zbiornik w moich rachunkach się nie zwracał. Sens ma wtedy, kiedy chcecie podlewać rośliny deszczówką, kiedy wymaga go plan miejscowy albo kiedy woda ma iść do spłukiwania toalet przez cały rok.</p>
 
@@ -50,13 +50,13 @@ metadata:
 
 <p>Widzicie konflikt: zbiornik, z którego nikt nie pobiera wody, po pierwszym napełnieniu nie zatrzymuje już nic – w mojej symulacji przez 35 lat na pięciu stacjach każda doba z opadem powyżej 20 mm przechodziła przez taki zbiornik w całości przelewem, niezależnie od tego, czy miał 3, 5 czy 10 m³. Wyglądał na retencję, a działał jak kawałek rury.</p>
 
-<p>Zbiornik używany do podlewania wypada lepiej, ale też nie zabezpiecza przed ulewą. Zbiornik 5 m³ zatrzymywał średnio 51–66% objętości wody z dób ulewnych, a w 18–31% takich dób był już pełny i cała woda szła przelewem. Doba z 20 mm deszczu to z dachu 150 m² ok. 2 m³ wody, a takich dób w roku jest kilka.</p>
+<p>Zbiornik używany do podlewania wypada lepiej, ale też nie zabezpiecza przed ulewą. Zbiornik 5 m³ zatrzymywał średnio 53–68% objętości wody z dób ulewnych, a w 16–28% takich dób był już pełny i cała woda szła przelewem. Doba z 20 mm deszczu to z dachu 150 m² ok. 2 m³ wody, a takich dób w roku jest kilka.</p>
 
 <p>Da się te dwie funkcje połączyć, tylko trzeba to zaplanować. Są zbiorniki z dwiema strefami: dolna jest na wodę do podlewania, a górna, retencyjna, ma dławiony odpływ – mały otwór albo regulator, który ją opróżnia przez kilkanaście godzin do studni chłonnej albo kanalizacji deszczowej. W mojej symulacji układ 3 m³ do podlewania plus 3 m³ retencji z odpływem ok. 0,05 litra na sekundę zatrzymywał 92–94% objętości dób ulewnych i oddawał ją powoli do odbiornika. Podlewać z niego można było tyle, co ze zbiornika 3 m³. Czyli: retencja wymaga miejsca na wodę i drogi, którą ta woda wyjdzie, a tę drogę trzeba zaprojektować w każdym wariancie.</p>
 
 <h2>Ile wody da dach, a ile potrzebuje ogród</h2>
 
-<p>Ile wody spłynie z Waszego dachu, a ile wypije ogród? Rachunek jest prosty w zapisie i zdradliwy w szczegółach. Z dachu do zbiornika trafia: opad × powierzchnia rzutu dachu × współczynnik spływu × sprawność filtra. Dla dachu krytego dachówką niemieckie wytyczne DIN 1989-1 (cytowane w <a href="https://www.loebbeshop.de/Media/Default/Uploaded/static/doc/planung-regenwasser_2218.pdf" rel="nofollow noopener" target="_blank">podręczniku projektowania jednego z producentów pomp</a>) przyjmują współczynnik spływu 0,75, dla pokryć z tworzyw i papy 0,80, dla dachu zielonego 0,2–0,25. Filtr, jeżeli producent nie podaje inaczej, przepuszcza do zbiornika 90% wody. W moim rachunku: 0,75 × 0,9 = 0,675. W poradnikach krąży odwrotne przypisanie – 0,9 dla dachówki i 0,75 dla papy – a to zawyża wynik dla dachówki o jedną piątą.</p>
+<p>Ile wody spłynie z Waszego dachu, a ile wypije ogród? Rachunek jest prosty w zapisie i zdradliwy w szczegółach. Z dachu do zbiornika trafia: opad × powierzchnia rzutu dachu × współczynnik spływu × sprawność filtra. Dla dachu krytego dachówką niemieckie wytyczne DIN 1989-1 (cytowane w <a href="https://www.loebbeshop.de/Media/Default/Uploaded/static/doc/planung-regenwasser_2218.pdf" rel="nofollow noopener" target="_blank">podręczniku projektowania jednego z producentów pomp</a>) przyjmują współczynnik spływu 0,75, dla dachów skośnych z pokryciem z tworzyw i papy 0,80 (dla płaskich 0,70), dla dachu zielonego 0,2–0,25. Filtr, jeżeli producent nie podaje inaczej, przepuszcza do zbiornika 90% wody. W moim rachunku: 0,75 × 0,9 = 0,675. W poradnikach krąży odwrotne przypisanie – 0,9 dla dachówki i 0,75 dla papy – a to zawyża wynik dla dachówki o jedną piątą.</p>
 
 <p>Opady wziąłem z <a href="https://danepubliczne.imgw.pl/" rel="nofollow noopener" target="_blank">danych publicznych IMGW-PIB</a>: codzienne sumy ze stacji Katowice, Kraków, Wrocław, Poznań i Warszawa z lat 1991–2025, razem 63 920 dni pomiarowych. Nie liczyłem na średniej rocznej, tylko dzień po dniu: deszcz napełnia zbiornik, podlewanie go opróżnia, a to, co się nie mieści, idzie przelewem. Śnieg odkłada się na dachu i spływa, kiedy topnieje. Tylko taki rachunek pokazuje to, czego średnia nie pokaże: w których tygodniach zbiornik jest pełny, a w których pusty.</p>
 
@@ -71,13 +71,13 @@ metadata:
 
 <p>Woda z dachu to średnia z mojej symulacji dla lat 1991–2025, przy współczynniku 0,675 opisanym wyżej.</p>
 
-<p>Pierwsza rzecz, która zaskakuje: latem pada najwięcej, nie najmniej. Od maja do września spada 54–60% rocznej sumy. Kłopot polega na tym, że pada nierówno – w ulewach i z przerwami. Najdłuższy ciąg dni bez opadu w sezonie od połowy kwietnia do połowy września to w połowie lat 13–16 dni, a rekordowe przerwy sięgały 24–35 dni i przez cały ten czas zbiornik musi wystarczyć sam.</p>
+<p>Pierwsza rzecz, która zaskakuje: latem pada najwięcej, nie najmniej. Od maja do września spada 54–60% rocznej sumy. Kłopot polega na tym, że pada nierówno – w ulewach i z przerwami. Najdłuższy ciąg dni z opadem poniżej 1 mm w sezonie od połowy kwietnia do połowy września to w połowie lat 13–16 dni, a rekordowe przerwy sięgały 24–35 dni i przez cały ten czas zbiornik musi wystarczyć prawie sam.</p>
 
 <p>Druga strona rachunku to potrzeby ogrodu, i tu rozrzut jest ogromny. Decydując się na system nawadniania, musicie wiedzieć, że zużywa on bardzo dużo wody. Sam byłem zdziwiony tą ilością, gdy w swoim domu pierwszy raz zacząłem korzystać z tego rozwiązania. Aby nie zgadywać, przyjąłem trzy poziomy:</p>
 
 <ul>
-<li><strong>mniej więcej 60 litrów na m² w sezonie</strong> – tyle norma DIN 1989 przyjmuje dla intensywnego podlewania ogrodu; w praktyce to bliżej rabat, warzywnika i podlewania pod roślinę;</li>
-<li><strong>mniej więcej 180 litrów na m²</strong> – tyle wychodzi z polskiej <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20020080070" rel="nofollow noopener" target="_blank">normy zużycia wody</a>, która przyjmuje 2,5 litra na m² w dniu podlewania, przez 15 dni w miesiącu od 15 kwietnia do 15 września; to norma do rozliczeń z wodociągami, nie zalecenie ogrodnicze, ale dobrze oddaje regularne podlewanie;</li>
+<li><strong>mniej więcej 60 litrów na m² w sezonie</strong> – tyle norma DIN 1989 przyjmuje dla intensywnego podlewania ogrodu; w praktyce to bliżej rabat, krzewów i podlewania pod roślinę;</li>
+<li><strong>mniej więcej 180 litrów na m²</strong> – tyle wychodzi z polskiej <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20020080070" rel="nofollow noopener" target="_blank">normy zużycia wody</a>, która przyjmuje 2,5 litra na m² w dniu podlewania, przez 15 dni w miesiącu od 15 kwietnia do 15 września (2,5 l × 75 dni = 187,5 l, w rachunku przyjąłem okrągłe 180); to norma do rozliczeń z wodociągami, nie zalecenie ogrodnicze, ale dobrze oddaje regularne podlewanie;</li>
 <li><strong>340–390 litrów na m²</strong> – tyle w moim bilansie wody w glebie potrzebował trawnik w pełnym słońcu utrzymywany bez przesuszenia, a w suchych latach ponad 450.</li>
 </ul>
 
@@ -85,49 +85,60 @@ metadata:
 
 <h3>Ile pokryje zbiornik – wynik symulacji</h3>
 
-<p>Poniżej pokrycie potrzeb ogrodu przy dachu 150 m² dla trzech miast: dwóch najbardziej deszczowych i najsuchszego z pięciu. Pojemność w tabeli to pojemność czynna, czyli woda między poziomem, przy którym pompa się wyłącza, a przelewem. Zbiornik sprzedawany jako 5000 litrów ma jej mniej, bo część objętości zajmują osad i woda poniżej poboru – sprawdźcie to w karcie konkretnego modelu.</p>
+<p>Poniżej pokrycie potrzeb ogrodu przy dachu 150 m² dla trzech miast: dwóch najbardziej deszczowych i najsuchszego z pięciu. Pojemność w tabeli to pojemność czynna, czyli woda między poziomem, przy którym pompa się wyłącza, a przelewem. Zbiornik sprzedawany jako 5000 litrów ma jej mniej, bo część objętości zajmują osad i woda poniżej poboru – sprawdźcie to w karcie konkretnego modelu. Do progów z Prawa budowlanego (5 i 15 m³), o których niżej, bezpieczniej przyjmować pojemność zbiornika z karty producenta, a nie pojemność czynną z tej tabeli.</p>
 
 <table>
 <tr><th>Potrzeba ogrodu w sezonie</th><th>Zbiornik 3 m³</th><th>Zbiornik 5 m³</th><th>Zbiornik 10 m³</th><th>Zbiornik 15 m³</th></tr>
-<tr><td>20 m³ (np. rabaty i warzywnik ok. 300 m² podlewane pod roślinę)</td><td>84–92%</td><td>94–98%</td><td>100%</td><td>100%</td></tr>
+<tr><td>20 m³ (np. rabaty i krzewy ok. 300 m² podlewane pod roślinę)</td><td>84–92%</td><td>94–98%</td><td>100%</td><td>100%</td></tr>
 <tr><td>30 m³</td><td>68–77%</td><td>80–89%</td><td>94–98%</td><td>98–100%</td></tr>
 <tr><td>50 m³ (ok. 300 m² podlewanych regularnie)</td><td>46–55%</td><td>56–66%</td><td>70–82%</td><td>80–91%</td></tr>
 <tr><td>75 m³</td><td>33–39%</td><td>40–48%</td><td>49–59%</td><td>56–66%</td></tr>
-<tr><td>100 m³ (ok. 300 m² trawnika w pełnym słońcu)</td><td>25–30%</td><td>30–37%</td><td>37–45%</td><td>43–51%</td></tr>
+<tr><td>100 m³</td><td>25–30%</td><td>30–37%</td><td>37–45%</td><td>43–51%</td></tr>
 </table>
 
 <p>Zakresy dotyczą Katowic, Krakowa i Poznania przy moich założeniach; dla północy kraju i gór tego nie liczyłem. Kilka rzeczy z tej tabeli trzeba powiedzieć wprost:</p>
 
 <ul>
-<li><strong>Zbiornik obsłuży wodą umiarkowane podlewanie, a trawnika nie obsłuży.</strong> Przy potrzebie 20–30 m³ zbiornik 5 m³ daje prawie wszystko. Przy 100 m³ nawet 15 m³ daje połowę.</li>
+<li><strong>Zbiornik obsłuży wodą umiarkowane podlewanie, a trawnika nie obsłuży.</strong> Przy potrzebie 20–30 m³ zbiornik 5 m³ daje prawie wszystko. Przy 100 m³ nawet 15 m³ daje mniej więcej połowę. Trawnik w pełnym słońcu wypada jeszcze gorzej, bo najwięcej wody potrzebuje właśnie w suchych tygodniach: przy potrzebie ok. 100–110 m³ z bilansu wody w glebie zbiornik 5 m³ pokrywał 25–33%, a 15 m³ – 37–47%.</li>
 <li><strong>Średnia ukrywa suche lata.</strong> Ogród 300 m² podlewany regularnie (54 m³ w sezonie) zbiornik 5 m³ pokrywał średnio w 52–63%, ale w najgorszych latach (na przykład 1992, 2015, 2018) tylko w 28–39%.</li>
 <li><strong>Nawet przy dobrym wyniku zbiornik bywa pusty.</strong> Przy tym samym ogrodzie i 5 m³ na 44–49 dni podlewania w sezonie wypadało średnio 10–15 dni, kiedy zbiornik nie dawał nic, i kolejne 12–14, kiedy starczało na część dawki.</li>
-<li><strong>Zbiornik napełnia się, kiedy wody nie potrzebujecie.</strong> Wiosną i jesienią podlewać nie trzeba, a wtedy pada. Przed sezonem, w połowie kwietnia, zbiornik ogrodowy był w symulacji praktycznie zawsze pełny, a pod koniec lipca średnio w jednej trzeciej.</li>
+<li><strong>Zbiornik napełnia się, kiedy wody nie potrzebujecie.</strong> Poza sezonem od połowy kwietnia do połowy września w moim rachunku się nie podlewa, a wtedy też pada. Przed sezonem, w połowie kwietnia, zbiornik ogrodowy był w symulacji praktycznie zawsze pełny, a pod koniec lipca średnio w jednej trzeciej.</li>
 </ul>
 
 <p>Często spotkacie się z regułą z DIN 1989, że pojemność zbiornika to 6% mniejszej z dwóch wartości: rocznego dopływu z dachu albo rocznego zapotrzebowania. Obok niej powtarzane jest hasło, że do ogrodu wystarczy 3–5 m³. Dla ogrodu 300 m² podlewanego regularnie daje to ok. 3,2 m³, a w mojej symulacji taki zbiornik pokrywał 45–53% potrzeb. To rozsądny kompromis kosztu i miejsca, ale nie obietnica wody na cały sezon – a hasło o 3–5 m³ jest prawdziwe tylko dla ogrodu, który potrzebuje niewiele.</p>
 
 <p>Większy dach pomaga mniej, niż się wydaje: przy 200 m² zamiast 100 m² pokrycie ogrodu 300 m² ze zbiornika 5 m³ rosło w Katowicach z 51 do 70%, a w Poznaniu z 42 do 60%, bo więcej wody z dachu nie zmienia tego, kiedy pada.</p>
 
+<h3>Jak liczyłem – założenia symulacji</h3>
+
+<ul>
+<li><strong>Krok dobowy.</strong> Każdego dnia najpierw pobieram wodę na podlewanie (o ile jest w zbiorniku), potem dolewam dopływ z dachu, a to, co przekracza pojemność czynną, idzie przelewem. Pierwszy rok zaczyna się od pustego zbiornika.</li>
+<li><strong>Dopływ.</strong> Opad × powierzchnia dachu × 0,675 (współczynnik spływu i sprawność filtra według DIN 1989-1). Gdy średnia temperatura doby nie przekracza 0 °C, opad odkłada się jako śnieg i spływa przy odwilży – 3 mm na każdy stopień powyżej zera na dobę.</li>
+<li><strong>Podlewanie.</strong> Od 15 kwietnia do 15 września, tylko w dzień, w którym ani dziś, ani wczoraj nie spadł 1 mm deszczu, nie częściej niż co drugi dzień i najwyżej 75 dni w sezonie. Takich dni wypadało średnio 44–49 w roku, więc przy 180 l/m² dawka wynosi ok. 3,7–4,1 litra na m² w dniu podlewania – więcej niż 2,5 l z normy, bo dni podlewania jest mniej niż normowe 75.</li>
+<li><strong>Trawnik.</strong> Osobny bilans wody w glebie: parowanie liczone metodą Hargreavesa według wytycznych FAO-56, współczynnik dla trawy 0,9; podlewam, gdy z gleby ubędzie 12 mm wody.</li>
+<li><strong>Doba ulewna.</strong> Zmierzony opad co najmniej 20 mm w dobie, w której woda spływa z dachu. „Zatrzymana część” to udział objętości wody z takich dób, który nie wyszedł przelewem.</li>
+<li><strong>Toalety.</strong> Cztery osoby po 8,8 m³ rocznie (wartość z DIN 1989 dla spłuczki z przyciskiem oszczędnym), równo przez cały rok.</li>
+</ul>
+
 <h2>Wasza sytuacja – co robić</h2>
 
 <table>
 <tr><th>Wasza sytuacja</th><th>Co ma sens</th><th>Na co uważać</th></tr>
-<tr><td>Chcecie podlewać rabaty, warzywnik, donice, krzewy</td><td>Zbiornik 3–5 m³ pojemności czynnej przy rurze spustowej albo kilka beczek naziemnych przy mniejszych potrzebach</td><td>Przelew i odbiornik nadmiaru, zabezpieczenie przed dziećmi, zimowanie</td></tr>
+<tr><td>Chcecie podlewać rabaty, donice, krzewy (o warzywniku – zastrzeżenie w części o deszczówce w domu)</td><td>Zbiornik 3–5 m³ pojemności czynnej przy rurze spustowej albo kilka beczek naziemnych przy mniejszych potrzebach</td><td>Przelew i odbiornik nadmiaru, zabezpieczenie przed dziećmi, zimowanie</td></tr>
 <tr><td>Duży trawnik podlewany zraszaczami albo automatem</td><td>Zbiornik pokryje małą część; podstawą będzie woda z wodociągu przez podlicznik ogrodowy</td><td>Filtr i pompa pod nawadnianie, energia; nie kupujcie dużego zbiornika „na trawnik”</td></tr>
 <tr><td>Chcecie spłukiwać toalety deszczówką</td><td>Zbiornik 3–5 m³ – pobór przez cały rok to najlepsze wykorzystanie wody</td><td>Odrębna instalacja w domu, zasilanie zastępcze z wodociągu przez szczelinę powietrzną, ustalenia z wodociągami</td></tr>
 <tr><td>Plan miejscowy albo warunki zabudowy każą zagospodarować wody opadowe na działce, grunt przepuszczalny, woda gruntowa nisko</td><td>Rozsączanie: punktowe przy rurach spustowych albo studnia chłonna; zbiornik tylko wtedy, gdy chcecie wody</td><td>Badania gruntu, odległości od budynku i granicy, przelew awaryjny na teren</td></tr>
 <tr><td>Plan wprost wymaga zbiornika o określonej pojemności</td><td>Zbiornik w projekcie domu, najmniejszy, który spełnia zapis i rachunek dla dachu, z przelewem do rozsączania</td><td>Jeżeli ma też zatrzymywać ulewy – dwie strefy albo dławiony odpływ</td></tr>
 <tr><td>Glina, wysoka woda gruntowa, brak kanalizacji deszczowej</td><td>Najpierw geolog i projektant; retencja powierzchniowa (niecka, ogród deszczowy), zbiornik tylko w wersji dopuszczonej przez producenta do takich warunków</td><td>Wypór pustego zbiornika, brak miejsca na przelew – szczelny zbiornik bez odbiornika tylko odsuwa problem</td></tr>
 <tr><td>W ulicy jest kanalizacja deszczowa</td><td>Przyłącze według warunków zarządcy; zbiornik jest opcją, nie koniecznością</td><td>Zabezpieczenie przed cofką na przelewie, umowa, w części gmin opłata za odprowadzanie</td></tr>
-<tr><td>Mała działka, brak dojazdu dla ciężkiego sprzętu</td><td>Beczka naziemna albo zbiornik z tworzywa zakopany ręcznie mniejszym sprzętem</td><td>Zbiornik pod ziemią wyklucza drzewa i zabudowę nad nim</td></tr>
+<tr><td>Mała działka, brak dojazdu dla ciężkiego sprzętu</td><td>Beczka naziemna albo zbiornik z tworzywa zakopany mniejszym sprzętem</td><td>Zbiornik pod ziemią wyklucza drzewa i zabudowę nad nim; ściany wykopu zabezpieczone przed obsunięciem – do niezabezpieczonego wykopu się nie wchodzi</td></tr>
 </table>
 
 <h2>Kiedy zbiornik się nie opłaca i czego nie załatwia</h2>
 
 <p>Zacznę od tego, za co płacicie, bo to układa resztę. Zbiornik na deszczówkę oszczędza wyłącznie wodę, którą i tak byście kupili. Jeżeli do ogrodu założycie podlicznik, za wodę z wodociągu do podlewania płacicie tylko stawkę za wodę – <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000757" rel="nofollow noopener" target="_blank">ustawa o zbiorowym zaopatrzeniu w wodę</a> każe odliczać wodę bezpowrotnie zużytą od ścieków właśnie na podstawie dodatkowego wodomierza (art. 27 ust. 6). Dzięki temu będziecie płacić za samą wodę, bez ponoszenia kosztów odprowadzania ścieków. Więcej o podliczniku piszę w tekście o <a href="/blog/automatyczne-nawadnianie-ogrodu/">automatycznym nawadnianiu ogrodu</a>.</p>
 
-<p>Ile tej wody jest? Zbiornik 5 m³ do ogrodu wymienia w roku, w moim rachunku, równowartość 5,7–6,8 swojej pojemności, czyli 28–34 m³. Pomnóżcie to przez swoją stawkę za metr sześcienny i porównajcie z tym, co trzeba za zbiornik zapłacić:</p>
+<p>Ile tej wody jest? Zbiornik 5 m³ przy ogrodzie 300 m² podlewanym regularnie wymienia w roku, w moim rachunku, równowartość 5,7–6,8 swojej pojemności, czyli 28–34 m³, a przy oszczędnym podlewaniu rabat ok. 17–18 m³, bo tyle wynosi cała potrzeba. Pomnóżcie to przez swoją stawkę za metr sześcienny i porównajcie z tym, co trzeba za zbiornik zapłacić:</p>
 
 <ul>
 <li>sam zbiornik, filtr, studzienkę i właz,</li>
@@ -139,9 +150,9 @@ metadata:
 
 <p>Uczciwy rachunek porównuje tylko koszt <em>dodatkowy</em>: jeżeli wodę opadową i tak musicie zagospodarować na działce, część pracy wykonacie w każdym wariancie, a zbiornik dokłada resztę. Mnie ten rachunek jako oszczędność nie wychodził, i dlatego klientom, którym zależy wyłącznie na pieniądzach, zbiornika często odradzam. Jeżeli komuś zależy na deszczówce do roślin – w porządku, to jest dobry powód, tylko nazwijcie go wtedy po imieniu.</p>
 
-<p>Prąd pompy jest najczęściej pomijany w kalkulacjach z internetu, a potrafi zaskoczyć. W przeglądzie badań opublikowanym w <a href="https://doi.org/10.1016/j.rser.2014.03.012" rel="nofollow noopener" target="_blank">Renewable and Sustainable Energy Reviews</a> mediana energochłonności systemów deszczówki wyliczona teoretycznie wynosiła 0,20 kWh na m³, a zmierzona w działających budynkach – 1,40 kWh na m³. Różnicę robią rozruchy pompy, czuwanie i realne sprawności. Przy ogrodzie 300 m² i spłukiwaniu toalet dla czterech osób (48–56 m³ deszczówki rocznie) daje to dwa scenariusze: ok. 10–11 kWh rocznie albo 67–79 kWh. Pompa, która w czuwaniu bierze 11 W i stoi pod prądem przez cały rok, sama zużyje 96 kWh. Dlatego zasilanie pompy ogrodowej warto zaplanować na osobnym, wyłączanym obwodzie – przy <a href="/blog/instalacja-elektryczna-w-domu-planowanie/">planowaniu instalacji elektrycznej</a> to jedna linijka w zestawieniu, później to kucie.</p>
+<p>Prąd pompy jest najczęściej pomijany w kalkulacjach z internetu, a potrafi zaskoczyć. W przeglądzie badań opublikowanym w <a href="https://doi.org/10.1016/j.rser.2014.03.012" rel="nofollow noopener" target="_blank">Renewable and Sustainable Energy Reviews</a> mediana energochłonności systemów deszczówki wyliczona teoretycznie wynosiła 0,20 kWh na m³, a zmierzona w działających budynkach – 1,40 kWh na m³. Różnicę robią rozruchy pompy, czuwanie i realne sprawności. Przy ogrodzie 300 m² i spłukiwaniu toalet dla czterech osób (48–56 m³ deszczówki rocznie) daje to dwa scenariusze: ok. 10–11 kWh rocznie albo 67–79 kWh. Pompa, która w czuwaniu bierze 11 W i stoi pod prądem przez cały rok, sama zużyje 96 kWh. Dlatego zasilanie pompy ogrodowej warto zaplanować na osobnym, wyłączanym obwodzie, z ochroną przeciwporażeniową dobraną przez elektryka według instrukcji pompy – przy <a href="/blog/instalacja-elektryczna-w-domu-planowanie/">planowaniu instalacji elektrycznej</a> to jedna linijka w zestawieniu, później to kucie.</p>
 
-<p>Nawadnianie kropelkowe i zraszacze potrzebują czystej wody, dlatego deszczówkę trzeba do nich filtrować drobniej, a drobny filtr dławi przepływ, więc pompa pracuje dłużej i zużywa więcej prądu. Prawda jest też taka, że mam alergię na rzeczy, o które trzeba dbać i które mogą się zepsuć – pompa, filtr, pilnowanie poziomu. Dobre rozwiązanie wody opadowej to takie, o którym po kilku latach nie musicie pamiętać.</p>
+<p>Nawadnianie kropelkowe i zraszacze potrzebują czystej wody, dlatego deszczówkę trzeba do nich filtrować drobniej, a drobny filtr stawia opór, który trzeba uwzględnić przy doborze pompy – zabrudzony potrafi wydłużyć jej pracę. Prawda jest też taka, że mam alergię na rzeczy, o które trzeba dbać i które mogą się zepsuć – pompa, filtr, pilnowanie poziomu. Dobre rozwiązanie wody opadowej to takie, o którym po kilku latach nie musicie pamiętać.</p>
 
 <p>Czego zbiornik nie załatwia:</p>
 
@@ -155,13 +166,13 @@ metadata:
 
 <p>Co się dzieje z wodą, kiedy zbiornik jest pełny? Zbiorniki często projektuje się tak, jakby woda miała magicznie zniknąć. W dokumentacji, którą oglądam, zbiornik bywa narysowany jako karta katalogowa z rurą od rynien – bez opisu, dokąd idzie przelew. Tymczasem jesienią nie podlewamy, deszcz pada, zbiornik stoi pełny i z punktu widzenia wody opadowej nie pełni żadnej funkcji, a każda kolejna kropla wychodzi przelewem.</p>
 
-<p>Ile tej wody jest, pokazała symulacja: przy zbiorniku 5 m³ do ogrodu, z dachu 150 m², 24–40 m³ rocznie, w 64–74% w miesiącach od października do marca, a przy 15 m³ wciąż 11–27 m³. Nie ma takiej pojemności, przy której przelew byłby zbędny.</p>
+<p>Ile tej wody jest, pokazała symulacja: przy zbiorniku 5 m³ i ogrodzie 300 m² podlewanym regularnie, z dachu 150 m², 24–40 m³ rocznie, w 64–74% w miesiącach od października do marca, a przy 15 m³ wciąż 11–27 m³. Przy oszczędnym podlewaniu rabat przelew rośnie do 37–56 m³ rocznie. Nie ma takiej pojemności, przy której przelew byłby zbędny.</p>
 
 <p>Gdzie ten przelew może trafić:</p>
 
 <ul>
 <li><strong>Do rozsączania w gruncie</strong> – studni chłonnej, rozsączania punktowego albo skrzynek – jeżeli grunt przepuszcza wodę, a woda gruntowa stoi wystarczająco nisko. Na moich budowach to najczęstszy odbiornik przelewu, jeżeli grunt na to pozwala.</li>
-<li><strong>Do kanalizacji deszczowej</strong> – jeżeli jest w ulicy. Ma właściciela: przyłączenie odbywa się na wniosek, według warunków przyłączenia od przedsiębiorstwa wodociągowo-kanalizacyjnego, a budowę przyłącza zapewniacie sami. W części gmin za odprowadzanie wody opadowej do kanalizacji deszczowej płaci się osobno – uchwała jednej z gmin wprost zwalnia z opłaty powierzchnie, z których wodę zagospodarowano na działce. Na przelewie do kanalizacji potrzebne jest zabezpieczenie przed cofnięciem się wody do zbiornika.</li>
+<li><strong>Do kanalizacji deszczowej</strong> – jeżeli jest w ulicy. Ma właściciela albo zarządcę i to on określa warunki przyłączenia, a budowę przyłącza zwykle zapewniacie sami. W części gmin za odprowadzanie wody opadowej do kanalizacji deszczowej płaci się osobno – uchwała jednej z gmin wprost zwalnia z opłaty powierzchnie, z których wodę zagospodarowano na działce. Na przelewie do kanalizacji potrzebne jest zabezpieczenie przed cofnięciem się wody do zbiornika.</li>
 <li><strong>Do rowu</strong> – rów ma zarządcę. Bez jego zgody nie podłączajcie niczego, a o formalnościach rozmawiajcie z projektantem przed złożeniem projektu.</li>
 <li><strong>Na własny teren</strong> – do niecki albo ogrodu deszczowego, czyli zagłębienia porośniętego roślinami, w którym woda może stać krótko i wsiąkać.</li>
 </ul>
@@ -170,13 +181,13 @@ metadata:
 
 <p>Z tym drugim wiąże się sytuacja, którą widzę regularnie. Kiedy zbiornik przelewa się w czasie deszczu, nikt tej wody nie widzi, bo wszędzie jest mokro. Kiedy natomiast wypompowujecie go w suchy dzień przed zapowiadaną ulewą – aby zrobić miejsce – woda płynie po trawniku do sąsiada lub na drogę i wtedy wszyscy patrzą. Zbiornik retencyjny, który trzeba opróżniać ręcznie, prędzej czy później będzie opróżniany właśnie tak. Dlatego wolę rozwiązania, które opróżniają się same: rozsączanie albo dławiony odpływ do odbiornika.</p>
 
-<p>Trzecia rzecz to przelew awaryjny na wypadek, gdy wszystko inne zawiedzie: odbiornik się zatka, klapa przeciwcofkowa się zamknie, przyjdzie ulewa ponad miarę, a dach nie przestanie wtedy dostarczać wody. Przelew i zabezpieczenie przed cofką projektuje się według zasad odwodnienia budynków z normy PN-EN 12056 – z syfonem, jeżeli idzie do kanalizacji, i z barierą dla zwierząt. Przelew trzeba policzyć na sumę wszystkich podłączonych dopływów, a nie tylko na jeden króciec, i przewidzieć, dokąd popłynie woda po terenie, kiedy rury nie dadzą rady. Na moich budowach to zwykle mała kratka nad studnią chłonną, z której woda wypłynie na trawnik i też wsiąknie, albo najniższy punkt podjazdu z kratką odwodnienia. Lepiej, aby woda w awarii wyszła na trawnik dwa metry od domu niż do piwnicy.</p>
+<p>Trzecia rzecz to przelew awaryjny na wypadek, gdy wszystko inne zawiedzie: odbiornik się zatka, klapa przeciwcofkowa się zamknie, przyjdzie ulewa ponad miarę, a dach nie przestanie wtedy dostarczać wody. Przelew i zabezpieczenie przed cofką projektuje się według zasad odwodnienia budynków z normy PN-EN 12056 – z syfonem, jeżeli idzie do kanalizacji, i z barierą dla zwierząt. Przelew trzeba policzyć na sumę wszystkich podłączonych dopływów, a nie tylko na jeden króciec, i przewidzieć, dokąd popłynie woda po terenie, kiedy rury nie dadzą rady. Na moich budowach to zwykle mała kratka nad studnią chłonną, z której woda wypłynie na trawnik, albo najniższy punkt podjazdu z kratką odwodnienia. Lepiej, aby woda w awarii wyszła na trawnik ze spadkiem od domu niż do piwnicy.</p>
 
 <h2>Kiedy zbiornik jest obowiązkiem</h2>
 
 <p>A co, jeżeli zbiornik jest obowiązkowy? To pytanie wraca przy każdym projekcie, tak samo jak pierwsze. Sam fakt, że działka musi mieć zagospodarowane wody opadowe, wynika z ogólnych zasad: warunki techniczne każą odprowadzić wodę z dachu do kanalizacji deszczowej albo ogólnospławnej, a gdy jej nie ma albo przy budynkach niskich – dopuszczają odprowadzenie na własny teren nieutwardzony, do dołów chłonnych lub do zbiorników retencyjnych (§ 28 ust. 2). Nie ma takiego obowiązku, który kazałby każdemu domowi mieć zbiornik. Z tego przepisu nie wynika żaden zbiornik o konkretnej pojemności. Wymóg zbiornika, jeżeli istnieje, wynika z <a href="/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego/">miejscowego planu zagospodarowania</a>, z <a href="/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/">decyzji o warunkach zabudowy</a> lub z warunków, które stawia zarządca sieci.</p>
 
-<p>Jedno zastrzeżenie co do samych warunków technicznych, bo ich stan jest dziś nietypowy. Rozporządzenie z 2002 roku przestało obowiązywać 20 września 2026 r., a nowego, kiedy sprawdziłem, nie było. Przez 18 miesięcy od tej daty dotychczasowe przepisy można stosować: przy projekcie do pozwolenia na budowę albo zgłoszenia – po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego), a przy robotach, które nie wymagają ani pozwolenia, ani zgłoszenia – wprost (art. 102b); wprowadziła to <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260001161" rel="nofollow noopener" target="_blank">ustawa z 31 lipca 2026 r.</a> Szerzej o tym okresie piszę w tekście o <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">nowych warunkach technicznych</a>.</p>
+<p>Jedno zastrzeżenie co do samych warunków technicznych, bo ich stan jest dziś nietypowy. Rozporządzenie z 2002 roku przestało obowiązywać 20 września 2026 r., a nowego, kiedy sprawdziłem, nie było. Przez 18 miesięcy od tej daty dotychczasowe przepisy można stosować: przy projekcie do pozwolenia na budowę albo zgłoszenia – po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego), a przy robotach, które nie wymagają ani pozwolenia, ani zgłoszenia – wprost (art. 102b); wprowadziła to <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260001161" rel="nofollow noopener" target="_blank">ustawa z 31 lipca 2026 r.</a> O tym, co nowe warunki techniczne zmieniają w projekcie, piszę w tekście o <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">nowych warunkach technicznych</a> – powstał przed tą ustawą, więc okresu przejściowego jeszcze nie opisuje.</p>
 
 <p>W praktyce najpierw sprawdzam, co dokładnie jest zapisane. „Zagospodarowanie wód opadowych w granicach działki” i „zbiornik retencyjny o pojemności nie mniejszej niż…” to dwa różne zapisy. W pierwszym przypadku wodę opadową zagospodarowuje się na działce różnymi sposobami, a w dokumentacji to jeden podpunkt opisu i adnotacja na <a href="/blog/projekt-zagospodarowania-terenu-co-zawiera/">projekcie zagospodarowania działki</a>. W drugim – zbiornik musi być i musi spełniać zapis. Wtedy robię najmniejszy, który spełnia zapis i rachunek dla dachu, prosty w obsłudze, z przelewem do rozsączania, zakopany na tyle głęboko, aby nad nim rosły rośliny.</p>
 
@@ -234,7 +245,7 @@ metadata:
 
 <p>Przed zbiornikiem musi być filtr albo osadnik, który zatrzymuje liście, igły i piasek – siatki filtrów mają zwykle oczka 0,3–1,8 mm. Przelew powinien mieć co najmniej taką średnicę jak dopływ, leżeć poniżej wlotu i mieć zabezpieczenie przed zwierzętami. Okresowe przelewanie jest nawet korzystne, bo zbiera z powierzchni wody pływające zanieczyszczenia.</p>
 
-<p>Obsługę trzeba rozdzielić na trzy poziomy – niemiecka norma DIN 1989-1 ma do tego osobną listę przeglądów, miesięcznych i rocznych:</p>
+<p>Obsługę trzeba rozdzielić na trzy poziomy – niemiecka norma DIN 1989-1 ma do tego osobną listę przeglądów, miesięcznych i rocznych. Przed każdą pracą przy pompie i filtrze wyłączcie zasilanie i zabezpieczcie je przed ponownym włączeniem, bo pompa z automatyką potrafi ruszyć sama:</p>
 
 <ul>
 <li><strong>bieżąca</strong> – czyszczenie filtra i koszy rynnowych; producenci urządzeń podczyszczających przed rozsączaniem każą je kontrolować i czyścić co najmniej dwa razy w roku, wiosną i jesienią;</li>
@@ -244,11 +255,11 @@ metadata:
 
 <p>Studnia chłonna też wymaga obsługi, choć niewielkiej: osadnik przed nią trzeba czyścić, a samą studnię co jakiś czas sprawdzić, bo drobne zanieczyszczenia stopniowo zamulają dno i ścianki.</p>
 
-<p>I jedno zdanie, które traktuję bardzo poważnie: <strong>do zbiornika się nie wchodzi.</strong> Zamknięty zbiornik pod ziemią to przestrzeń, w której może brakować tlenu, a utonąć da się nawet przy niewielkiej ilości wody. Producenci zbiorników podziemnych każą najpierw sprawdzić, czy pracę da się wykonać z zewnątrz, a jeżeli nie – pracować w środku wyłącznie z drugą osobą przy wejściu, przy całkowicie opróżnionym zbiorniku. Czyszczenie zlećcie serwisowi albo róbcie z zewnątrz, pompą.</p>
+<p>I jedno zdanie, które traktuję bardzo poważnie: <strong>do zbiornika się nie wchodzi.</strong> Zamknięty zbiornik pod ziemią to przestrzeń, w której może brakować tlenu i mogą zbierać się szkodliwe gazy, a utonąć da się nawet przy niewielkiej ilości wody. Czyszczenie róbcie z zewnątrz, pompą, albo zlećcie serwisowi, który ma do takiej pracy sprzęt i procedury – producenci wymieniają między innymi przewietrzenie, kontrolę powietrza, drugą osobę przy wejściu i wolną drogę wyjścia. A jeżeli ktoś w zbiorniku stracił przytomność, nie wchodźcie po niego: wezwijcie pomoc pod numerem 112 i wietrzcie zbiornik z zewnątrz.</p>
 
 <h3>Bezpieczeństwo dzieci</h3>
 
-<p>Przy domu z małym dzieckiem właz ma być zabezpieczony przed otwarciem – przykręcony albo z zamkiem – a najlepiej dodatkowo przykryty ziemią. Instrukcja zbiornika z tworzywa wymaga przykręcenia pokrywy wkrętem tak, aby dziecko jej nie otworzyło, a wszystkich punktów poboru deszczówki – oznakowania napisem o wodzie niezdatnej do picia i zaworów z zabezpieczeniem przed dziećmi, bo napis nie wystarczy. Beczka naziemna musi mieć szczelną pokrywę, stać stabilnie i nie mieć obok niczego, po czym dziecko wejdzie na brzeg.</p>
+<p>Przy domu z małym dzieckiem właz ma być zamknięty i zabezpieczony przed otwarciem – przykręcony albo z zamkiem – i zostać dostępny do kontroli; pokryw nie zasypuje się ziemią, chyba że producent to przewiduje. Instrukcja zbiornika z tworzywa wymaga przykręcenia pokrywy wkrętem tak, aby dziecko jej nie otworzyło, a wszystkich punktów poboru deszczówki – oznakowania napisem o wodzie niezdatnej do picia i zaworów z zabezpieczeniem przed dziećmi, bo napis nie wystarczy. Beczka naziemna musi mieć szczelną pokrywę, stać stabilnie i nie mieć obok niczego, po czym dziecko wejdzie na brzeg.</p>
 
 <h2>Podziemny czy naziemny, tworzywo czy beton</h2>
 
@@ -259,20 +270,20 @@ metadata:
 <tr><td>Pobór</td><td>kranik, grawitacyjnie albo pompą</td><td>pompa zatapialna lub w domu</td><td>pompa zatapialna lub w domu</td></tr>
 <tr><td>Woda w zbiorniku</td><td>nagrzewa się, światło sprzyja glonom</td><td>ciemno i chłodno</td><td>ciemno i chłodno</td></tr>
 <tr><td>Miejsce na działce</td><td>widać go, ale nie blokuje nasadzeń</td><td>teren nad nim wyłączony z drzew i zabudowy</td><td>jak przy tworzywie</td></tr>
-<tr><td>Kiedy ma sens</td><td>rabaty, warzywnik, donice, mała potrzeba</td><td>ogród, toalety, wymóg planu</td><td>wysoka woda gruntowa (w wersji do tego przewidzianej), duże pojemności, ruch nad zbiornikiem</td></tr>
+<tr><td>Kiedy ma sens</td><td>rabaty, krzewy, donice, mała potrzeba</td><td>ogród, toalety, wymóg planu</td><td>wysoka woda gruntowa (w wersji do tego przewidzianej), duże pojemności, ruch nad zbiornikiem</td></tr>
 </table>
 
-<p>Kilka beczek przy kilku rurach spustowych to najprostszy i najmniej awaryjny sposób na deszczówkę do roślin. Jeżeli Waszym celem jest woda do podlewania warzywnika, od tego bym zaczął i dopiero przy większej potrzebie przeszedł do zbiornika w ziemi.</p>
+<p>Kilka beczek przy kilku rurach spustowych to najprostszy i najmniej awaryjny sposób na deszczówkę do roślin. Jeżeli Waszym celem jest woda do podlewania rabat i krzewów, od tego bym zaczął i dopiero przy większej potrzebie przeszedł do zbiornika w ziemi.</p>
 
 <h2>Deszczówka w domu – toalety i pralka</h2>
 
-<p>Spłukiwanie toalet to najlepsze wykorzystanie zbiornika, bo pobór jest przez cały rok, także wtedy, kiedy najwięcej pada. Spłuczka z przyciskiem oszczędnym zużywa według DIN 1989 ok. 8,8 m³ wody na osobę rocznie, czyli dla czterech osób ok. 35 m³. Zbiornik 3 m³ pokrywał to w mojej symulacji średnio w 95–98%, 5 m³ – w 98–100%, a w najgorszym roku 3 m³ wystarczał na 81–89%. Taki zbiornik prawie nie zatrzymuje natomiast ulew: pobór ok. 0,1 m³ dziennie nie zrobi miejsca na 2 m³ z jednej burzy.</p>
+<p>Spłukiwanie toalet to najlepsze wykorzystanie zbiornika, bo pobór jest przez cały rok, także wtedy, kiedy najwięcej pada. Spłuczka z przyciskiem oszczędnym zużywa według DIN 1989 ok. 8,8 m³ wody na osobę rocznie, czyli dla czterech osób ok. 35 m³. Zbiornik 3 m³ pokrywał to w mojej symulacji średnio w 94–98%, 5 m³ – w 98–100%, a w najgorszym roku 3 m³ wystarczał na 81–89%. Taki zbiornik prawie nie zatrzymuje natomiast ulew: pobór ok. 0,1 m³ dziennie nie zrobi miejsca na 2 m³ z jednej burzy.</p>
 
 <p>Druga instalacja w domu to jednak poważna sprawa i trzeba ją zaprojektować razem z <a href="/blog/instalacja-wodno-kanalizacyjna-w-domu-jednorodzinnym/">instalacją wodno-kanalizacyjną</a>, przed tynkami:</p>
 
 <ul>
 <li><strong>Osobne rury, niepołączone z wodociągiem.</strong> Wymagają tego warunki techniczne (§ 126), a podręczniki producentów piszą wprost, że bezpośrednie połączenie instalacji wody pitnej z instalacją deszczówki jest zabronione.</li>
-<li><strong>Zasilanie zastępcze przez szczelinę powietrzną.</strong> Kiedy zbiornik jest pusty, woda z wodociągu uzupełnia system przez tak zwany wolny wypływ – strumień spada z wysokości do zbiornika albo modułu, nie dotykając wody deszczowej (zasada z normy PN-EN 1717), a nie przez zawór zwrotny. Podręcznik jednego z producentów zaleca odstęp wylotu od najwyższego poziomu wody co najmniej dwóch średnic wylotu, nie mniej niż 30 mm. Urządzenie uzupełniające instaluje się poza zbiornikiem deszczówki.</li>
+<li><strong>Zasilanie zastępcze przez szczelinę powietrzną.</strong> Kiedy zbiornik jest pusty, woda z wodociągu uzupełnia system przez tak zwany wolny wypływ – strumień spada z wysokości do zbiornika albo modułu, nie dotykając wody deszczowej (zasada z normy PN-EN 1717), a nie przez zawór zwrotny. Podręcznik jednego z producentów zaleca odstęp wylotu od najwyższego poziomu wody co najmniej dwóch średnic wylotu, nie mniej niż 30 mm. Urządzenie uzupełniające instaluje się poza zbiornikiem deszczówki i poza studzienką włazu, w miejscu, którego woda nie zaleje także przy cofce – sam odstęp nie wystarczy, jeżeli szczelinę może zalać.</li>
 <li><strong>Oznakowanie.</strong> Każdy przewód i punkt poboru deszczówki oznakowany „Woda niezdatna do picia”, aby za dwadzieścia lat hydraulik nie podłączył do tej rury kranu w kuchni.</li>
 <li><strong>Awarie.</strong> Zapytajcie projektanta, co się stanie przy pustym zbiorniku, awarii pompy oraz przerwie w dostawie prądu – i czy wtedy toaleta nadal się spłucze.</li>
 <li><strong>Rozliczenie ścieków.</strong> Ścieki rozlicza się według urządzeń pomiarowych, a bez nich – według ilości wody pobranej z wodociągu. Deszczówka spuszczona z toalety trafia do kanalizacji, choć nie przeszła przez wodomierz. Jak to rozliczyć, ustalcie z przedsiębiorstwem wodociągowym, zanim powstanie instalacja.</li>
@@ -280,7 +291,7 @@ metadata:
 
 <p>Zakres normy <a href="https://sklep.pkn.pl/pn-en-16941-1-2024-08e.html" rel="nofollow noopener" target="_blank">PN-EN 16941-1</a>, która dotyczy systemów wykorzystania wody deszczowej jako zamiennika wody wodociągowej, wprost wyłącza z jej zastosowań wodę do picia, przygotowania żywności i higieny osobistej. Pralka bywa zasilana deszczówką w niemieckich instalacjach (wytyczne przyjmują ok. 4,4 m³ na osobę rocznie), ale to decyzja do podjęcia z projektantem instalacji, a nie przy okazji.</p>
 
-<p>Co do podlewania warzyw: woda z wodociągu ma znaną jakość, a o tym, co osiada na dachu, nie wiemy wszystkiego. Amerykańska agencja zdrowia publicznego <a href="https://www.cdc.gov/drinking-water/about/collecting-rainwater-and-your-health-an-overview.html" rel="nofollow noopener" target="_blank">CDC</a> pisze, że deszczówka, nawet czysta z wyglądu, może zawierać drobnoustroje i substancje spłukane z dachu, i do picia, gotowania, mycia zębów, płukania warzyw oraz podlewania roślin jadalnych zaleca wodę z wodociągu. Bezpieczniejsze zastosowania to rośliny, których nie jecie. CDC radzi też założyć siatkę na wlocie wody, aby w beczce nie rozmnażały się komary.</p>
+<p>Co do podlewania warzyw: woda z wodociągu ma znaną jakość, a o tym, co osiada na dachu, nie wiemy wszystkiego. Amerykańska agencja zdrowia publicznego <a href="https://www.cdc.gov/drinking-water/about/collecting-rainwater-and-your-health-an-overview.html" rel="nofollow noopener" target="_blank">CDC</a> pisze, że deszczówka, nawet czysta z wyglądu, może zawierać drobnoustroje i substancje spłukane z dachu, i do picia, gotowania, mycia zębów, płukania warzyw oraz podlewania roślin jadalnych zaleca wodę z wodociągu. Bezpieczniejsze zastosowania to rośliny, których nie jecie – i dlatego w radach tego tekstu piszę o rabatach i krzewach, a nie o warzywniku: wody liczy się tyle samo, ale o jej jakości decyduje dach. CDC radzi też założyć siatkę na wlocie wody, aby w beczce nie rozmnażały się komary.</p>
 
 <h2>Alternatywy, które często są lepsze</h2>
 
@@ -293,22 +304,22 @@ metadata:
 <tr><td>Studnia chłonna z kręgów</td><td>bufor wody i wsiąkanie w głębsze warstwy</td><td>grunt przepuszczalny poniżej wierzchniej warstwy</td><td>ciężki element, dźwig; osadnik do czyszczenia</td></tr>
 <tr><td>Skrzynki rozsączające</td><td>duża pustka pod ziemią, przenosi obciążenie</td><td>pod podjazdem, parkingiem, chodnikiem</td><td>w trawniku drogie; tylko z podczyszczaniem i kanałem inspekcyjnym</td></tr>
 <tr><td>Zbiornik z dwiema strefami</td><td>woda do użytku i retencja z odpływem dławionym</td><td>plan wymaga retencji, a chcecie też podlewać</td><td>potrzebny odbiornik odpływu</td></tr>
-<tr><td>Beczki naziemne</td><td>zapas wody do roślin</td><td>rabaty, warzywnik, mała potrzeba</td><td>bez funkcji retencji; zimowanie</td></tr>
+<tr><td>Beczki naziemne</td><td>zapas wody do roślin</td><td>rabaty, krzewy, mała potrzeba</td><td>retencja znikoma przy małej pojemności; zimowanie</td></tr>
 </table>
 
 <p>Z punktu widzenia ochrony wód najlepiej, aby deszczówka wsiąkała szeroko, przez co najmniej 30 cm porośniętej gleby. Kolejne w tej hierarchii są niecki, a punktowe rozsączanie w studni jest na jej końcu. Tak układają to niemieckie wytyczne, które czytałem, a <a href="https://www.gov.pl/web/wody-polskie/retencja-przydomowa" rel="nofollow noopener" target="_blank">Wody Polskie</a> w materiałach o retencji przydomowej wymieniają ogrody deszczowe i oczka obok zbiorników i skrzynek. Na działce z miejscem na płytką nieckę to bywa najtańsze i najtrwalsze rozwiązanie. <a href="/blog/oczko-wodne-w-ogrodzie-jak-zalozyc/">Oczko wodne</a> to temat sam w sobie, ale też jest jednym z odbiorników.</p>
 
 <p>Na działkach z piaskiem robię najczęściej studnię chłonną z dużych kręgów betonowych. Działa jak bufor: woda w czasie ulewy zbiera się w studni i stopniowo wsiąka w głębsze, jeszcze nienasycone warstwy gruntu. Im wyżej stoi w niej woda, tym szybciej wsiąka – rośnie różnica poziomów i ciśnienie – ale tylko wtedy, gdy grunt dookoła jest przepuszczalny, a woda gruntowa nisko. Na glinie albo przy zamulonym dnie wysoka woda w studni niczego nie uratuje. Studnię zakopuję pod 20–30 cm ziemi, z małą kratką na górze, która jest przelewem awaryjnym i odpowietrzeniem, i zawsze przewiduję, dokąd popłynie nadmiar.</p>
 
-<p>Przy samej rurze spustowej często wystarcza punktowe rozsączanie: osadnik, odwiert wiertnicą poniżej strefy przemarzania, geowłóknina, żwir, rura drenarska i mała kratka u góry jako przelew. Przy oberwaniu chmury woda wypłynie na trawnik i też wsiąknie.</p>
+<p>Przy samej rurze spustowej często wystarcza punktowe rozsączanie: osadnik, odwiert wiertnicą do warstwy, która przepuszcza wodę, geowłóknina, żwir, rura drenarska i mała kratka u góry jako przelew. Głębokość odwiertu wynika z rozpoznania gruntu, a nie z samej strefy przemarzania: pod dnem ma zostać ok. metr gruntu nad wodą gruntową, a odwiert nie może przebić warstwy, która chroni wodę podziemną przed zanieczyszczeniem. Przy oberwaniu chmury woda wypłynie kratką na trawnik, więc teren wokół musi ją odprowadzić z dala od domu i od granicy.</p>
 
 <p>Skrzynki rozsączające mają dla mnie sens tam, gdzie pod podjazdem albo parkingiem potrzebna jest nośna pustka. W trawniku to duży koszt w stosunku do efektu. Jeżeli już, to tylko z podczyszczaniem na dopływie i kanałem inspekcyjnym, bo inaczej nie sprawdzicie, co po latach dzieje się z geowłókniną i namułem z podjazdu.</p>
 
-<p>Jeżeli przy domu będzie też drenaż, to jest osobny system z osobnymi zasadami – piszę o nim w tekście o <a href="/blog/drenaz-przy-fundamentach-kiedy-konieczny/">drenażu przy fundamentach</a> i o <a href="/blog/drenaz-dzialki-kiedy-jest-potrzebny/">drenażu działki</a>. Tu tylko jedno: odbiornik wody z drenażu i odbiornik przelewu ze zbiornika projektuje się razem, bo często to jeden punkt na działce.</p>
+<p>Jeżeli przy domu będzie też drenaż, to jest osobny system z osobnymi zasadami – piszę o nim w tekście o <a href="/blog/drenaz-przy-fundamentach-kiedy-konieczny/">drenażu przy fundamentach</a> i o <a href="/blog/drenaz-dzialki-kiedy-jest-potrzebny/">drenażu działki</a>. Tu tylko jedno: odbiornik wody z drenażu i odbiornik przelewu ze zbiornika projektuje się razem, bo często to jeden punkt na działce. Wtedy projektant sprawdza rzędne i to, czy spiętrzona woda z przelewu nie cofnie się do drenażu – takich rur nie łączy się na oko.</p>
 
 <h2>Dopłaty</h2>
 
-<p>Do zbiorników i rozsączania można dostać dopłatę, ale warunki zmieniają się co rok, więc piszę o mechanizmie. Krajowy program <a href="https://www.gov.pl/web/nfosigw/mikroretencja" rel="nofollow noopener" target="_blank">Mikroretencja</a> (pieniądze z funduszy europejskich przez Narodowy Fundusz Ochrony Środowiska, nabory prowadzą wojewódzkie fundusze) finansuje między innymi zbiorniki o łącznej pojemności co najmniej 2 m³, studnie chłonne, skrzynki i pompy, do 90% kosztów kwalifikowanych z limitem kwotowym. Dla budujących najważniejsze są trzy warunki z oficjalnej strony programu: finansowane są wyłącznie przedsięwzięcia zakończone, koszty muszą być poniesione od 1 lipca 2024 r., a wnioskodawca składa oświadczenie o oddaniu budynku do użytkowania.</p>
+<p>Do zbiorników i rozsączania można dostać dopłatę, ale warunki zmieniają się co rok, więc piszę o mechanizmie. Krajowy program <a href="https://www.gov.pl/web/nfosigw/mikroretencja" rel="nofollow noopener" target="_blank">Mikroretencja</a> (pieniądze z funduszy europejskich przez Narodowy Fundusz Ochrony Środowiska, nabory prowadzą wojewódzkie fundusze) finansuje między innymi zbiorniki o łącznej pojemności co najmniej 2 m³, zasilane z powierzchni co najmniej 50 m², studnie chłonne, skrzynki i pompy, do 90% kosztów kwalifikowanych z limitem kwotowym. Woda ma zostać na działce: z kanalizacją deszczową system może być połączony tylko przelewem awaryjnym, więc stały odpływ dławiony do kanalizacji może nie spełnić warunków, a kosztów sfinansowanych już z innego programu publicznego program nie pokrywa. Dla budujących najważniejsze są trzy warunki z oficjalnej strony programu: finansowane są wyłącznie przedsięwzięcia zakończone, koszty muszą być poniesione od 1 lipca 2024 r., a wnioskodawca składa oświadczenie o oddaniu budynku do użytkowania. Zanim kupicie, sprawdźcie, czy wybrany układ mieści się w zasadach naboru.</p>
 
 <p>W praktyce oznacza to, że zbiornik zrobiony w trakcie budowy możecie rozliczyć dopiero po odbiorze domu – o ile nabór w Waszym województwie będzie wtedy trwał, a środki się nie skończą, więc zachowajcie faktury i dokumentację. Programy gminne działają niezależnie, często na prostszych zasadach, i też warto je sprawdzić przed zakupem.</p>
 
@@ -316,13 +327,13 @@ metadata:
 
 <p><strong>„Latem nie pada, więc zbiornik nic nie da.”</strong> To nieprawda, bo od maja do września spada 54–60% rocznego opadu. Problemem nie jest brak deszczu, tylko jego rytm: ulewy i kilkunastodniowe przerwy.</p>
 
-<p><strong>„Zbiornik zatrzyma ulewę, więc odpływ nie jest potrzebny.”</strong> To też nieprawda: zbiornik, z którego nikt nie pobiera, po napełnieniu nie zatrzymuje nic, a zbiornik ogrodowy 5 m³ zatrzymuje mniej więcej połowę objętości dób ulewnych, więc przelew i odbiornik są potrzebne zawsze.</p>
+<p><strong>„Zbiornik zatrzyma ulewę, więc odpływ nie jest potrzebny.”</strong> To też nieprawda: zbiornik, z którego nikt nie pobiera, po napełnieniu nie zatrzymuje nic, a zbiornik ogrodowy 5 m³ zatrzymuje od połowy do dwóch trzecich objętości dób ulewnych, więc przelew i odbiornik są potrzebne zawsze.</p>
 
 <p><strong>„Deszczówka jest za darmo.”</strong> Za wodę z nieba rzeczywiście nie płacicie, ale płacicie za zbiornik, wykop, pompę, prąd i serwis, a oszczędzacie tylko wodę, którą byście kupili – przy podliczniku ogrodowym bez opłaty za ścieki.</p>
 
-<p><strong>„Za deszcz trzeba płacić podatek, więc lepiej mieć zbiornik.”</strong> Nieprawda w przypadku domu jednorodzinnego. Opłata za zmniejszenie naturalnej retencji z Prawa wodnego (art. 269 ust. 1 pkt 1) dotyczy nieruchomości powyżej 3500 m², na których ponad 70% powierzchni wyłączono z powierzchni biologicznie czynnej, na obszarach bez kanalizacji. Czym innym jest opłata za odprowadzanie wody do kanalizacji deszczowej, którą w części gmin się płaci – i której można uniknąć, zagospodarowując wodę na działce.</p>
+<p><strong>„Za deszcz trzeba płacić podatek, więc lepiej mieć zbiornik.”</strong> Na typowej działce z domem jednorodzinnym ta opłata Was nie dotyczy. Opłata za zmniejszenie naturalnej retencji z Prawa wodnego (art. 269 ust. 1 pkt 1) dotyczy nieruchomości powyżej 3500 m², na których ponad 70% powierzchni wyłączono z powierzchni biologicznie czynnej, na obszarach bez kanalizacji. Czym innym jest opłata za odprowadzanie wody do kanalizacji deszczowej, którą w części gmin się płaci – i której można uniknąć, zagospodarowując wodę na działce.</p>
 
-<p><strong>„Im większy zbiornik, tym lepiej.”</strong> Nie zawsze. Zbiornik 15 m³ zamiast 5 m³ pokrywał w symulacji więcej potrzeb ogrodu, ale wymaga zgłoszenia, większego wykopu, więcej miejsca i jest bardziej narażony na wypór. A jeżeli nie macie z niego regularnego poboru, każdy dodatkowy metr sześcienny stoi pełny.</p>
+<p><strong>„Im większy zbiornik, tym lepiej.”</strong> Nie zawsze. Zbiornik 15 m³ zamiast 5 m³ pokrywał w symulacji więcej potrzeb ogrodu, ale zbiornik tej wielkości wymaga zgłoszenia (a przy pojemności powyżej 15 m³ – pozwolenia), większego wykopu i więcej miejsca, a przy wysokiej wodzie gruntowej jego posadowienie trzeba sprawdzić osobno. A jeżeli nie macie z niego regularnego poboru, każdy dodatkowy metr sześcienny stoi pełny.</p>
 
 <h2 id="pytania-czytelnikow">Pytania czytelników</h2>
 
@@ -332,17 +343,17 @@ metadata:
 
 <p>Zacznijcie od przeczytania zapisu w planie, słowo po słowie. Jeżeli plan każe „zagospodarować wody opadowe w granicach działki”, nie wymaga zbiornika – wymaga, aby woda została u Was. Na przepuszczalnym gruncie można to zrobić rozsączaniem, a zbiornik dodać tylko wtedy, gdy chcecie podlewać. Jeżeli plan wymaga zbiornika o określonej pojemności, zbiornik musi być, ale wtedy pytanie brzmi, jaka najmniejsza pojemność spełnia zapis.</p>
 
-<p>Drugie pytanie do projektanta: po co te 10 m³? Jeżeli to ma być retencja, a nikt z niego nie będzie pobierał wody, zbiornik po kilku deszczach stoi pełny i niczego nie zatrzymuje. Sensowny wariant to zbiornik z dławionym odpływem do studni chłonnej lub z dwiema strefami. Jeżeli ma być na wodę do ogrodu – policzcie potrzebę i zobaczcie w tabeli wyżej, co daje 5, a co 10 m³. Pamiętajcie też, że bezodpływowy zbiornik powyżej 5 m³ łącznie wymaga zgłoszenia, a do 5 m³ – niczego. I zapytajcie o trzecią rzecz, której zwykle w projekcie brakuje: dokąd idzie przelew, kiedy zbiornik jest pełny.</p>
+<p>Drugie pytanie do projektanta: po co te 10 m³? Jeżeli to ma być retencja, a nikt z niego nie będzie pobierał wody, zbiornik po kilku deszczach stoi pełny i niczego nie zatrzymuje. Sensowny wariant to zbiornik z dławionym odpływem do studni chłonnej lub z dwiema strefami. Jeżeli ma być na wodę do ogrodu – policzcie potrzebę i zobaczcie w tabeli wyżej, co daje 5, a co 10 m³. Pamiętajcie też o progach z Prawa budowlanego: bezodpływowe zbiorniki o łącznej pojemności do 5 m³ nie wymagają ani pozwolenia, ani zgłoszenia, a powyżej 5 i do 15 m³ – zgłoszenia; przelew i sprawy prawa wodnego to osobna kwestia. I zapytajcie o trzecią rzecz, której zwykle w projekcie brakuje: dokąd idzie przelew, kiedy zbiornik jest pełny.</p>
 
 <p><strong>Pytanie 2 (przypadek modelowy): „Mamy dach o powierzchni ok. 120 m² i chcemy trawnik na 600 m². Czy da się go podlewać tylko deszczówką?”</strong></p>
 
 <p>Nie da się, i to nie przez pojemność zbiornika. Trawnik 600 m² w pełnym słońcu potrzebował w moim bilansie wody w glebie ok. 200–220 m³ dolewki w sezonie. Zbiornik 5 m³ przy dachu 120 m² pokrywał z tego 11–15%, a 10 m³ – 14–18%. Większy zbiornik niewiele tu zmieni, bo w sezonie z takiego dachu po prostu nie spływa tyle wody, ile trawnik wypije.</p>
 
-<p>Taki sam dach i zbiornik 5 m³ wystarczą za to na rabaty albo warzywnik ok. 100 m² podlewane linią kroplującą: 94–99% potrzeb, a w najgorszym roku 71–86%. Więc jeżeli chcecie deszczówki, użyjcie jej tam, gdzie wystarczy, a trawnik podlewajcie wodą z wodociągu przez podlicznik. Jeżeli linia kroplująca ma być zasilana ze zbiornika, potrzebny będzie drobny filtr i pompa, która przy nim pracuje dłużej – uwzględnijcie to przy wyborze pompy.</p>
+<p>Taki sam dach i zbiornik 5 m³ wystarczą za to na rabaty albo krzewy ok. 100 m² podlewane linią kroplującą: 94–99% potrzeb, a w najgorszym roku 71–86%. Więc jeżeli chcecie deszczówki, użyjcie jej tam, gdzie wystarczy, a trawnik podlewajcie wodą z wodociągu przez podlicznik. Jeżeli linia kroplująca ma być zasilana ze zbiornika, potrzebny będzie drobny filtr, a jego opór trzeba uwzględnić przy wyborze pompy.</p>
 
 <p><strong>Pytanie 3 (przypadek modelowy): „Działka na glinie, wiosną woda gruntowa stoi ok. 1,2 m pod terenem, w ulicy nie ma kanalizacji deszczowej. Zbiornik czy studnia chłonna?”</strong></p>
 
-<p>To najtrudniejszy przypadek i nie da się go rozstrzygnąć bez geologa i projektanta. Kilka rzeczy wiadomo jednak od razu, jeszcze przed badaniami. Studnia chłonna i skrzynki rozsączające potrzebują, według wytycznych i instrukcji producentów, ok. metra gruntu nienasyconego nad wodą gruntową – przy wodzie na 1,2 m i glinie zwykle nie ma na to miejsca. Szczelny zbiornik w takim gruncie będzie częściowo w wodzie, więc musi być dopuszczony przez producenta do takiej głębokości zanurzenia, a przy wyższym poziomie wody – posadowiony na płycie i odwodniony według instrukcji.</p>
+<p>To najtrudniejszy przypadek i nie da się go rozstrzygnąć bez geologa i projektanta. Kilka rzeczy wiadomo jednak od razu, jeszcze przed badaniami. Studnia chłonna i skrzynki rozsączające potrzebują, według wytycznych i instrukcji producentów, ok. metra gruntu nienasyconego nad wodą gruntową – przy wodzie na 1,2 m i glinie zwykle nie ma na to miejsca. Szczelny zbiornik w takim gruncie będzie częściowo w wodzie, więc musi być dopuszczony przez producenta do takiej głębokości zanurzenia, a jeżeli woda może podejść wyżej, niż producent dopuszcza, trzeba wybrać inny model albo wariant z jego instrukcji. Drenaż wokół zbiornika ma sens tylko wtedy, gdy ma dokąd odprowadzić wodę – a na tej działce właśnie tego brakuje.</p>
 
 <p>Ale nawet najlepiej posadowiony zbiornik nie rozwiąże sprawy sam, bo po napełnieniu woda musi gdzieś pójść. Na takiej działce zaczynam od pytania o odbiornik: czy da się wykonać płytką nieckę albo ogród deszczowy w miejscu, gdzie woda może powoli wsiąkać przez wierzchnią warstwę, czy w pobliżu jest rów, którego zarządca zgodzi się przyjąć odpływ, i czy zbiornik może mieć regularny pobór, choćby do spłukiwania toalet – i dopiero wtedy dobiera się zbiornik. Kolejność odwrotna – najpierw zbiornik, potem pytanie o przelew – kończy się wodą w ogrodzie albo u sąsiada.</p>
 
@@ -370,8 +381,8 @@ metadata:
 
 <p>Od 2013 roku buduję domy jednorodzinne, a jeden zbudowałem dla siebie. Przez ten czas widziałem zbiorniki, które się sprawdziły, i takie, które ktoś zakopał, bo tak się teraz robi, a potem nie wiedział, co zrobić z wodą, kiedy się przepełniały. Różnica między nimi rzadko leżała w samym zbiorniku.</p>
 
-<p>Zbiornik na deszczówkę ma sens, kiedy wiecie, po co jest, macie regularny pobór i zaplanowaliście, dokąd idzie woda, kiedy jest pełny. Do rabat, warzywnika i toalet sprawdza się dobrze, do trawnika słabo, jako sposób na oszczędzanie rzadko, a jako retencja tylko wtedy, gdy umie się opróżnić sam.</p>
+<p>Zbiornik na deszczówkę ma sens, kiedy wiecie, po co jest, macie regularny pobór i zaplanowaliście, dokąd idzie woda, kiedy jest pełny. Do rabat, krzewów i toalet sprawdza się dobrze, do trawnika słabo, jako sposób na oszczędzanie rzadko, a jako retencja wtedy, gdy przed ulewą ma w sobie wolne miejsce – najpewniej, gdy opróżnia się sam.</p>
 
-<p>A jeżeli Wasz plan miejscowy po prostu każe zatrzymać wodę na działce, zanim kupicie zbiornik, zapytajcie, czy nie wystarczy rozsączanie albo niecka. Na wielu działkach to tańsze, trwalsze i nie ma w nim nic, co mogłoby się zepsuć.</p>
+<p>A jeżeli Wasz plan miejscowy po prostu każe zatrzymać wodę na działce, zanim kupicie zbiornik, zapytajcie, czy nie wystarczy rozsączanie albo niecka. Na wielu działkach to tańsze i trwalsze, bez pompy i elektroniki – choć osadnik też trzeba czyścić, a teren chronić przed zamuleniem.</p>
 
 <p><em>Ten artykuł opisuje moją praktykę wykonawczą oraz obliczenia własne, których założenia podaję jawnie w tekście. Symulacja opiera się na danych z pięciu stacji IMGW-PIB i uproszczonym bilansie dobowym – Wasz wynik będzie inny przy innym klimacie, dachu i ogrodzie. Tekst nie zastępuje projektu: dobór zbiornika, rozsączania i przelewu dla Waszej działki powinien wykonać projektant na podstawie badań gruntu, a montaż – wykonawca zgodnie z instrukcją producenta konkretnego zbiornika. Stan przepisów sprawdziłem na 20 października 2026 r.; informacja o przepisach nie jest poradą prawną.</em></p>
