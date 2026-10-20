@@ -204,7 +204,7 @@ metadata:
 
 <h3>Miejsce na działce i odległości</h3>
 
-<p>Zbiornik i studnia pod ziemią potrafią zagracić działkę. Potem nie posadzicie drzewa i nie postawicie altany tam, gdzie chcecie, bo nad zbiornikiem rosną tylko płytko korzeniące się rośliny, a dojazd do włazu musi zostać. Miejsce wybiera się razem z planem ogrodu, a nie tam, gdzie akurat stoi koparka.</p>
+<p>Zbiornik i studnia pod ziemią potrafią zagracić działkę. Potem nie posadzicie drzewa i nie postawicie altany tam, gdzie chcecie, bo nad zbiornikiem rosną tylko płytko korzeniące się rośliny, a dojazd do włazu musi zostać. Miejsce wybiera się razem <a href="/blog/zagospodarowanie-terenu-wokol-domu/">z planem ogrodu</a>, a nie tam, gdzie akurat stoi koparka.</p>
 
 <p>Producenci podają minimalne odległości – dla skrzynek rozsączających cytowana wyżej instrukcja wymienia między innymi: 2 m od budynku z izolacją przeciwwodną i 5 m od budynku bez izolacji, 3 m od drzew, 2 m od granicy działki i drogi, 1,5 m od wodociągu i gazu, zaznaczając, że bezpieczne odległości zależą od przepuszczalności gruntu i kierunku przepływu wody gruntowej. Instrukcja zbiornika z tworzywa każe trzymać co najmniej 1 m od stałych elementów budynku, robić wykop szerszy o 50 cm z każdej strony, a przy skarpie bliżej niż 5 m wykonać mur oporowy. Wody z rozsączania nie może dostać grunt sąsiada – to wynika już nie z instrukcji, tylko z prawa.</p>
 

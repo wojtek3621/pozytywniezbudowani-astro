@@ -69,7 +69,7 @@ metadata:
 
 <p style="text-align: justify;">Po drugie, może okazać się konieczna wymiana gruntu lub zastosowanie płyty fundamentowej zamiast tradycyjnych ław. Płyta fundamentowa to żelbetowa konstrukcja o grubości od 15 do 30 centymetrów, która rozkłada ciężar budynku na dużą powierzchnię i jest posadawiana bardzo płytko – nie zagłębiając się w grunt. Dzięki temu przy płytko występującej wodzie gruntowej fundament nie ma z nią kontaktu, co minimalizuje ryzyko zawilgocenia ścian.</p>
 
-<p style="text-align: justify;">Po trzecie, prawdopodobnie będziecie musieli wykonać <a href="https://pozytywniezbudowani.pl/blog/drenaz-dzialki-kiedy-jest-potrzebny/">drenaż opaskowy</a> wokół budynku. To system rur drenarskich ułożonych wokół fundamentów ze spadkiem 2–5 procent, który zbiera nadmiar wody i odprowadza ją na bezpieczną odległość od domu – do studni chłonnej, zbiornika retencyjnego, rowu melioracyjnego lub kanalizacji deszczowej. W każdym naroża budynku umieszcza się studzienkę drenarską, która umożliwia inspekcję i czyszczenie systemu.</p>
+<p style="text-align: justify;">Po trzecie, prawdopodobnie będziecie musieli wykonać <a href="https://pozytywniezbudowani.pl/blog/drenaz-dzialki-kiedy-jest-potrzebny/">drenaż opaskowy</a> wokół budynku. To system rur drenarskich ułożonych wokół fundamentów ze spadkiem 2–5 procent, który zbiera nadmiar wody i odprowadza ją na bezpieczną odległość od domu – do studni chłonnej, <a href="/blog/zbiornik-na-deszczowke-czy-warto/">zbiornika retencyjnego</a>, rowu melioracyjnego lub kanalizacji deszczowej. W każdym naroża budynku umieszcza się studzienkę drenarską, która umożliwia inspekcję i czyszczenie systemu.</p>
 
 <h2 style="text-align: justify;">Konsekwencje zignorowania problemu</h2>
 

@@ -69,7 +69,7 @@ metadata:
 
 <p><strong>Studnia głębinowa</strong> daje wodę za darmo (poza prądem do pompy), ale wymaga inwestycji w wiercenie i samą pompę. W praktyce dobrze sprawdza się przy większych ogrodach, gdzie zużycie wody na podlewanie jest na tyle duże, że studnia szybko się zwraca. Przy małych działkach inwestycja w studnię tylko po to, żeby podlewać kilkadziesiąt metrów trawnika, nie ma większego sensu.</p>
 
-<p><strong>Zbiornik na deszczówkę</strong> – ekologiczne i sympatyczne rozwiązanie, ale w praktyce rzadko wystarczy do całego ogrodu. Latem, gdy potrzeba podlewania jest największa, deszczu jest najmniej. Zbiornik o pojemności kilkunastu metrów sześciennych zwykle wystarczy na kilka cykli podlewania, a potem i tak musicie sięgać po wodę z sieci. Najsensowniej traktować deszczówkę jako uzupełnienie, nie podstawowe źródło.</p>
+<p><strong><a href="/blog/zbiornik-na-deszczowke-czy-warto/">Zbiornik na deszczówkę</a></strong> – ekologiczne i sympatyczne rozwiązanie, ale w praktyce rzadko wystarczy do całego ogrodu. Latem, gdy potrzeba podlewania jest największa, deszczu jest najmniej. Zbiornik o pojemności kilkunastu metrów sześciennych zwykle wystarczy na kilka cykli podlewania, a potem i tak musicie sięgać po wodę z sieci. Najsensowniej traktować deszczówkę jako uzupełnienie, nie podstawowe źródło.</p>
 
 <h2>Podlicznik wody ogrodowej – oszczędność, o której wielu zapomina</h2>
 

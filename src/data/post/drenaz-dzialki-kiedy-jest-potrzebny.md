@@ -85,7 +85,7 @@ metadata:
 
 <p style="text-align: justify;">Na działkach o większej powierzchni można wykonać drenaż powierzchniowy – sieć rur drenarskich ułożonych pod trawnikiem, które zbierają nadmiar wody i odprowadzają ją do odbiornika. To rozwiązanie droższe, ale w niektórych przypadkach jedyne skuteczne.</p>
 
-<p style="text-align: justify;">Coraz popularniejsze stają się też rozwiązania łączące odwadnianie z retencją wody deszczowej. Zamiast odprowadzać wodę poza działkę, gromadzi się ją w zbiornikach i wykorzystuje później do podlewania ogrodu. To nie tylko ekologiczne, ale i ekonomiczne – szczególnie w kontekście coraz częstszych okresów suszy.</p>
+<p style="text-align: justify;">Coraz popularniejsze stają się też rozwiązania łączące odwadnianie z <a href="/blog/zbiornik-na-deszczowke-czy-warto/">retencją wody deszczowej</a>. Zamiast odprowadzać wodę poza działkę, gromadzi się ją w zbiornikach i wykorzystuje później do podlewania ogrodu. To nie tylko ekologiczne, ale i ekonomiczne – szczególnie w kontekście coraz częstszych okresów suszy.</p>
 
 <h2 style="text-align: justify;">Stare dreny na działce – co z nimi zrobić</h2>
 
