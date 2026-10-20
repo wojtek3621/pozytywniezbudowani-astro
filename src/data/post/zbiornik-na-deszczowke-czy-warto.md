@@ -69,6 +69,8 @@ metadata:
 <tr><td>Poznań</td><td>539 mm</td><td>54%</td><td>ok. 55 m³</td></tr>
 </table>
 
+<p>Woda z dachu to średnia z mojej symulacji dla lat 1991–2025, przy współczynniku 0,675 opisanym wyżej.</p>
+
 <p>Pierwsza rzecz, która zaskakuje: latem pada najwięcej, nie najmniej. Od maja do września spada 54–60% rocznej sumy. Kłopot polega na tym, że pada nierówno – w ulewach i z przerwami. Najdłuższy ciąg dni bez opadu w sezonie od połowy kwietnia do połowy września to w połowie lat 13–16 dni, a rekordowe przerwy sięgały 24–35 dni i przez cały ten czas zbiornik musi wystarczyć sam.</p>
 
 <p>Druga strona rachunku to potrzeby ogrodu, i tu rozrzut jest ogromny. Decydując się na system nawadniania, musicie wiedzieć, że zużywa on bardzo dużo wody. Sam byłem zdziwiony tą ilością, gdy w swoim domu pierwszy raz zacząłem korzystać z tego rozwiązania. Aby nie zgadywać, przyjąłem trzy poziomy:</p>
@@ -145,13 +147,13 @@ metadata:
 
 <ul>
 <li><strong>Nie zastępuje odbiornika wody.</strong> Pełny zbiornik oddaje przelewem tyle, ile przyjmuje, więc bez rozsączania, kanalizacji deszczowej albo innego miejsca, dokąd ta woda może pójść, problem wraca przy pierwszej mokrej jesieni.</li>
-<li><strong>Nie chroni domu przed zalaniem w czasie gwałtownej burzy.</strong> Moja symulacja liczy objętość z całej doby. Czy woda w czasie oberwania chmury nie stanie przy ścianie, zależy od przepustowości rynien, przelewu i odbiornika, od spadków terenu i od <a href="/blog/drenaz-przy-fundamentach-kiedy-konieczny/">to, jak zabezpieczono fundamenty</a>.</li>
+<li><strong>Nie chroni domu przed zalaniem w czasie gwałtownej burzy.</strong> Moja symulacja liczy objętość z całej doby. Czy woda w czasie oberwania chmury nie stanie przy ścianie, zależy od przepustowości rynien, przelewu i odbiornika, od spadków terenu i od tego, <a href="/blog/drenaz-przy-fundamentach-kiedy-konieczny/">jak zabezpieczono fundamenty</a>.</li>
 <li><strong>Nie zastąpi podlicznika przy dużym ogrodzie.</strong> Przy trawniku i tak będziecie podlewać głównie wodą z wodociągu albo ze <a href="/blog/studnia-glebinowa-kiedy-warto-wiercic/">studni głębinowej</a>.</li>
 </ul>
 
 <h2>Przelew i odbiornik nadmiaru – właściwe pytanie do projektanta</h2>
 
-<p>Co się dzieje z wodą, kiedy zbiornik jest pełny? Zbiorniki często projektuje się tak, jakby miała magicznie zniknąć. W dokumentacji, którą oglądam, zbiornik bywa narysowany jako karta katalogowa z rurą od rynien – bez opisu, dokąd idzie przelew. Tymczasem jesienią nie podlewamy, deszcz pada, zbiornik stoi pełny i z punktu widzenia wody opadowej nie pełni żadnej funkcji, a każda kolejna kropla wychodzi przelewem.</p>
+<p>Co się dzieje z wodą, kiedy zbiornik jest pełny? Zbiorniki często projektuje się tak, jakby woda miała magicznie zniknąć. W dokumentacji, którą oglądam, zbiornik bywa narysowany jako karta katalogowa z rurą od rynien – bez opisu, dokąd idzie przelew. Tymczasem jesienią nie podlewamy, deszcz pada, zbiornik stoi pełny i z punktu widzenia wody opadowej nie pełni żadnej funkcji, a każda kolejna kropla wychodzi przelewem.</p>
 
 <p>Ile tej wody jest, pokazała symulacja: przy zbiorniku 5 m³ do ogrodu, z dachu 150 m², 24–40 m³ rocznie, w 64–74% w miesiącach od października do marca, a przy 15 m³ wciąż 11–27 m³. Nie ma takiej pojemności, przy której przelew byłby zbędny.</p>
 
@@ -172,9 +174,9 @@ metadata:
 
 <h2>Kiedy zbiornik jest obowiązkiem</h2>
 
-<p>A co, jeżeli zbiornik jest obowiązkowy? Ta druga połowa pytań wraca przy każdym projekcie. Sam fakt, że działka musi mieć zagospodarowane wody opadowe, wynika z ogólnych zasad: warunki techniczne każą odprowadzić wodę z dachu do kanalizacji deszczowej albo ogólnospławnej, a gdy jej nie ma albo przy budynkach niskich – dopuszczają odprowadzenie na własny teren nieutwardzony, do dołów chłonnych lub do zbiorników retencyjnych (§ 28 ust. 2). Nie ma takiego obowiązku, który kazałby każdemu domowi mieć zbiornik. Z tego przepisu nie wynika żaden zbiornik o konkretnej pojemności. Wymóg zbiornika, jeżeli istnieje, wynika z <a href="/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego/">miejscowego planu zagospodarowania</a>, z <a href="/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/">decyzji o warunkach zabudowy</a> lub z warunków, które stawia zarządca sieci.</p>
+<p>A co, jeżeli zbiornik jest obowiązkowy? To pytanie wraca przy każdym projekcie, tak samo jak pierwsze. Sam fakt, że działka musi mieć zagospodarowane wody opadowe, wynika z ogólnych zasad: warunki techniczne każą odprowadzić wodę z dachu do kanalizacji deszczowej albo ogólnospławnej, a gdy jej nie ma albo przy budynkach niskich – dopuszczają odprowadzenie na własny teren nieutwardzony, do dołów chłonnych lub do zbiorników retencyjnych (§ 28 ust. 2). Nie ma takiego obowiązku, który kazałby każdemu domowi mieć zbiornik. Z tego przepisu nie wynika żaden zbiornik o konkretnej pojemności. Wymóg zbiornika, jeżeli istnieje, wynika z <a href="/blog/mpzp-jak-czytac-miejscowy-plan-zagospodarowania-przestrzennego/">miejscowego planu zagospodarowania</a>, z <a href="/blog/warunki-zabudowy-kiedy-potrzebne-jak-uzyskac/">decyzji o warunkach zabudowy</a> lub z warunków, które stawia zarządca sieci.</p>
 
-<p>Jedno zastrzeżenie co do samych warunków technicznych, bo ich stan jest dziś nietypowy. Rozporządzenie z 2002 roku przestało obowiązywać 20 września 2026 r., a nowego, kiedy sprawdziłem, nie było. Przez 18 miesięcy od tej daty dotychczasowe przepisy można stosować: przy projekcie do pozwolenia na budowę albo zgłoszenia – po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego), a przy robotach, które nie wymagają ani pozwolenia, ani zgłoszenia – wprost (art. 102b) – wprowadziła to <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260001161" rel="nofollow noopener" target="_blank">ustawa z 31 lipca 2026 r.</a> Szerzej o tym okresie piszę w tekście o <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">nowych warunkach technicznych</a>.</p>
+<p>Jedno zastrzeżenie co do samych warunków technicznych, bo ich stan jest dziś nietypowy. Rozporządzenie z 2002 roku przestało obowiązywać 20 września 2026 r., a nowego, kiedy sprawdziłem, nie było. Przez 18 miesięcy od tej daty dotychczasowe przepisy można stosować: przy projekcie do pozwolenia na budowę albo zgłoszenia – po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego), a przy robotach, które nie wymagają ani pozwolenia, ani zgłoszenia – wprost (art. 102b); wprowadziła to <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260001161" rel="nofollow noopener" target="_blank">ustawa z 31 lipca 2026 r.</a> Szerzej o tym okresie piszę w tekście o <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">nowych warunkach technicznych</a>.</p>
 
 <p>W praktyce najpierw sprawdzam, co dokładnie jest zapisane. „Zagospodarowanie wód opadowych w granicach działki” i „zbiornik retencyjny o pojemności nie mniejszej niż…” to dwa różne zapisy. W pierwszym przypadku wodę opadową zagospodarowuje się na działce różnymi sposobami, a w dokumentacji to jeden podpunkt opisu i adnotacja na <a href="/blog/projekt-zagospodarowania-terenu-co-zawiera/">projekcie zagospodarowania działki</a>. W drugim – zbiornik musi być i musi spełniać zapis. Wtedy robię najmniejszy, który spełnia zapis i rachunek dla dachu, prosty w obsłudze, z przelewem do rozsączania, zakopany na tyle głęboko, aby nad nim rosły rośliny.</p>
 
@@ -188,7 +190,7 @@ metadata:
 <li>powyżej 15 m³ przepis nie przewiduje zwolnienia, więc zostaje pozwolenie na budowę.</li>
 </ul>
 
-<p>Uwaga na słowo bezodpływowe, którego przepis nie definiuje – a co najmniej jeden producent w instrukcji nazywa tak wersję zbiornika bez przelewu awaryjnego. Czy zbiornik z przelewem do studni chłonnej, z otwartym dnem lub z otworami mieści się w tych progach – tego nie rozstrzygnę. Przy nowym domu najprościej ująć zbiornik i cały system wód opadowych w projekcie zagospodarowania działki, razem z pozwoleniem na dom, a o kwalifikację zapytać projektanta. Osobną sprawą jest prawo wodne: wprowadzanie wody do ziemi i do rowów ma własne przepisy, wyraźnego zwolnienia dla domowego rozsączania deszczówki z dachu w nich nie znalazłem, a praktyka urzędów nie jest jednolita. To też pytanie do projektanta, zadane przed złożeniem wniosku, a nie po.</p>
+<p>Uwaga na słowo „bezodpływowy”, którego przepis nie definiuje – a co najmniej jeden producent w instrukcji nazywa tak wersję zbiornika bez przelewu awaryjnego. Czy zbiornik z przelewem do studni chłonnej, z otwartym dnem lub z otworami mieści się w tych progach – tego nie rozstrzygnę. Przy nowym domu najprościej ująć zbiornik i cały system wód opadowych w projekcie zagospodarowania działki, razem z pozwoleniem na dom, a o kwalifikację zapytać projektanta. Osobną sprawą jest prawo wodne: wprowadzanie wody do ziemi i do rowów ma własne przepisy, wyraźnego zwolnienia dla domowego rozsączania deszczówki z dachu w nich nie znalazłem, a praktyka urzędów nie jest jednolita. To też pytanie do projektanta, zadane przed złożeniem wniosku, a nie po.</p>
 
 <h2>Jak zrobić to dobrze – grunt, miejsce, głębokość, moment</h2>
 
@@ -224,7 +226,7 @@ metadata:
 
 <h3>Kiedy to zrobić</h3>
 
-<p>Zbiornik i studnię chłonną najtaniej wykonać razem z pracami ziemnymi przy fundamentach, kiedy koparka i tak jest na działce. Ale aby to było możliwe, wcześniej trzeba mieć ustalone: miejsce, rzędne (jak głęboko wchodzi rura od rynien i jak głęboko wychodzi przelew), trasy rur i przepusty przez fundament, jeżeli coś ma wejść do domu. Krąg betonowy o średnicy 1,5 m i wysokości metra waży blisko dwie tony, więc dostawa musi przyjechać tego samego dnia co koparka, a dźwig – dojechać do wykopu. Zbiornik z tworzywa o pojemności kilku metrów sześciennych waży w instrukcji jednego z producentów 120–220 kg, ale wymaga starannej podsypki i zasypki warstwami, a rury, studzienki i skrzynki układa się według PN-EN 1610.</p>
+<p>Zbiornik i studnię chłonną najtaniej wykonać razem z pracami ziemnymi przy fundamentach, kiedy koparka i tak jest na działce. Ale aby to było możliwe, wcześniej trzeba mieć ustalone: miejsce, rzędne (jak głęboko wchodzi rura od rynien i jak głęboko wychodzi przelew), trasy rur i przepusty przez fundament, jeżeli coś ma wejść do domu. Krąg betonowy o średnicy 1,5 m i wysokości metra waży blisko dwie tony, więc potrzebny jest dźwig z dojazdem do wykopu, a dostawę najlepiej zgrać z dniem, w którym koparka otwiera wykop. Zbiornik z tworzywa o pojemności kilku metrów sześciennych waży w instrukcji jednego z producentów 120–220 kg, ale wymaga starannej podsypki i zasypki warstwami, a rury, studzienki i skrzynki układa się według PN-EN 1610.</p>
 
 <p>Kiedy zbiornik jest już w ziemi, przed zasypaniem zróbcie zdjęcia z miarą i naniesieniem odległości od narożników domu. Po trzech latach nikt nie będzie pamiętał, gdzie dokładnie biegnie przelew.</p>
 
@@ -237,7 +239,7 @@ metadata:
 <ul>
 <li><strong>bieżąca</strong> – czyszczenie filtra i koszy rynnowych; producenci urządzeń podczyszczających przed rozsączaniem każą je kontrolować i czyścić co najmniej dwa razy w roku, wiosną i jesienią;</li>
 <li><strong>kontrola</strong> – instrukcja zbiornika z tworzywa każe sprawdzać cały system pod kątem szczelności, czystości i stabilności przynajmniej co trzy miesiące;</li>
-<li><strong>serwis</strong> – mniej więcej co pięć lat całkowite opróżnienie, umycie i usunięcie osadu, którego przy dobrym filtrze przybywa kilka milimetrów rocznie.</li>
+<li><strong>serwis</strong> – mniej więcej co pięć lat całkowite opróżnienie (w suchym okresie, przy niskiej wodzie gruntowej i według instrukcji producenta, bo pusty zbiornik jest najbardziej narażony na wypór), umycie i usunięcie osadu, którego przy dobrym filtrze przybywa kilka milimetrów rocznie.</li>
 </ul>
 
 <p>Studnia chłonna też wymaga obsługi, choć niewielkiej: osadnik przed nią trzeba czyścić, a samą studnię co jakiś czas sprawdzić, bo drobne zanieczyszczenia stopniowo zamulają dno i ścianki.</p>
@@ -246,7 +248,7 @@ metadata:
 
 <h3>Bezpieczeństwo dzieci</h3>
 
-<p>Przy domu z małym dzieckiem właz ma być zabezpieczony albo ukryty pod ziemią. Instrukcja zbiornika z tworzywa wymaga przykręcenia pokrywy wkrętem tak, aby dziecko jej nie otworzyło, a wszystkich punktów poboru deszczówki – oznakowania napisem o wodzie niezdatnej do picia i zaworów z zabezpieczeniem przed dziećmi, bo napis nie wystarczy. Beczka naziemna musi mieć szczelną pokrywę, stać stabilnie i nie mieć obok niczego, po czym dziecko wejdzie na brzeg.</p>
+<p>Przy domu z małym dzieckiem właz ma być zabezpieczony przed otwarciem – przykręcony albo z zamkiem – a najlepiej dodatkowo przykryty ziemią. Instrukcja zbiornika z tworzywa wymaga przykręcenia pokrywy wkrętem tak, aby dziecko jej nie otworzyło, a wszystkich punktów poboru deszczówki – oznakowania napisem o wodzie niezdatnej do picia i zaworów z zabezpieczeniem przed dziećmi, bo napis nie wystarczy. Beczka naziemna musi mieć szczelną pokrywę, stać stabilnie i nie mieć obok niczego, po czym dziecko wejdzie na brzeg.</p>
 
 <h2>Podziemny czy naziemny, tworzywo czy beton</h2>
 
@@ -278,7 +280,7 @@ metadata:
 
 <p>Zakres normy <a href="https://sklep.pkn.pl/pn-en-16941-1-2024-08e.html" rel="nofollow noopener" target="_blank">PN-EN 16941-1</a>, która dotyczy systemów wykorzystania wody deszczowej jako zamiennika wody wodociągowej, wprost wyłącza z jej zastosowań wodę do picia, przygotowania żywności i higieny osobistej. Pralka bywa zasilana deszczówką w niemieckich instalacjach (wytyczne przyjmują ok. 4,4 m³ na osobę rocznie), ale to decyzja do podjęcia z projektantem instalacji, a nie przy okazji.</p>
 
-<p>Co do podlewania warzyw: woda z wodociągu ma znaną jakość, a o tym, co osiada na dachu, nie wiemy wszystkiego. Amerykańska agencja zdrowia publicznego <a href="https://www.cdc.gov/drinking-water/about/collecting-rainwater-and-your-health-an-overview.html" rel="nofollow noopener" target="_blank">CDC</a> pisze, że deszczówka, nawet czysta z wyglądu, może zawierać drobnoustroje i substancje spłukane z dachu, i do picia, gotowania, mycia zębów, płukania warzyw oraz podlewania roślin jadalnych zaleca wodę z wodociągu. Bezpieczniejsze zastosowania to rośliny, których nie jecie. CDC radzi też siatkę na wlocie wody, aby w beczce nie rozmnażały się komary.</p>
+<p>Co do podlewania warzyw: woda z wodociągu ma znaną jakość, a o tym, co osiada na dachu, nie wiemy wszystkiego. Amerykańska agencja zdrowia publicznego <a href="https://www.cdc.gov/drinking-water/about/collecting-rainwater-and-your-health-an-overview.html" rel="nofollow noopener" target="_blank">CDC</a> pisze, że deszczówka, nawet czysta z wyglądu, może zawierać drobnoustroje i substancje spłukane z dachu, i do picia, gotowania, mycia zębów, płukania warzyw oraz podlewania roślin jadalnych zaleca wodę z wodociągu. Bezpieczniejsze zastosowania to rośliny, których nie jecie. CDC radzi też założyć siatkę na wlocie wody, aby w beczce nie rozmnażały się komary.</p>
 
 <h2>Alternatywy, które często są lepsze</h2>
 
@@ -294,7 +296,7 @@ metadata:
 <tr><td>Beczki naziemne</td><td>zapas wody do roślin</td><td>rabaty, warzywnik, mała potrzeba</td><td>bez funkcji retencji; zimowanie</td></tr>
 </table>
 
-<p>Z punktu widzenia ochrony wód najlepiej, aby deszczówka wsiąkała szeroko, przez co najmniej 30 cm porośniętej gleby. Kolejne w tej hierarchii są niecki, a punktowe rozsączanie w studni to ostatnia z form. Tak układają to niemieckie wytyczne, które czytałem, a <a href="https://www.gov.pl/web/wody-polskie/retencja-przydomowa" rel="nofollow noopener" target="_blank">Wody Polskie</a> w materiałach o retencji przydomowej wymieniają ogrody deszczowe i oczka obok zbiorników i skrzynek. Na działce z miejscem na płytką nieckę to bywa najtańsze i najtrwalsze rozwiązanie. Woda w <a href="/blog/oczko-wodne-w-ogrodzie-jak-zalozyc/">oczku wodnym</a> to temat sam w sobie, ale też jest jednym z odbiorników.</p>
+<p>Z punktu widzenia ochrony wód najlepiej, aby deszczówka wsiąkała szeroko, przez co najmniej 30 cm porośniętej gleby. Kolejne w tej hierarchii są niecki, a punktowe rozsączanie w studni jest na jej końcu. Tak układają to niemieckie wytyczne, które czytałem, a <a href="https://www.gov.pl/web/wody-polskie/retencja-przydomowa" rel="nofollow noopener" target="_blank">Wody Polskie</a> w materiałach o retencji przydomowej wymieniają ogrody deszczowe i oczka obok zbiorników i skrzynek. Na działce z miejscem na płytką nieckę to bywa najtańsze i najtrwalsze rozwiązanie. <a href="/blog/oczko-wodne-w-ogrodzie-jak-zalozyc/">Oczko wodne</a> to temat sam w sobie, ale też jest jednym z odbiorników.</p>
 
 <p>Na działkach z piaskiem robię najczęściej studnię chłonną z dużych kręgów betonowych. Działa jak bufor: woda w czasie ulewy zbiera się w studni i stopniowo wsiąka w głębsze, jeszcze nienasycone warstwy gruntu. Im wyżej stoi w niej woda, tym szybciej wsiąka – rośnie różnica poziomów i ciśnienie – ale tylko wtedy, gdy grunt dookoła jest przepuszczalny, a woda gruntowa nisko. Na glinie albo przy zamulonym dnie wysoka woda w studni niczego nie uratuje. Studnię zakopuję pod 20–30 cm ziemi, z małą kratką na górze, która jest przelewem awaryjnym i odpowietrzeniem, i zawsze przewiduję, dokąd popłynie nadmiar.</p>
 
@@ -364,9 +366,9 @@ metadata:
 <li>Formalności: czy zbiornik i rozsączanie są w projekcie zagospodarowania, czy potrzebne jest zgłoszenie, zgody zarządcy sieci albo rowu.</li>
 </ol>
 
-<h2>Podsumowanie</h2>
+<h2>Na koniec – od czego zacząć</h2>
 
-<p>Od 2013 roku zajmuję się prawie wszystkim, co ma styczność ze stawianiem domów jednorodzinnych, a sam jako inwestor budowałem własny dom. Przez ten czas widziałem zbiorniki, które się sprawdziły, i takie, które ktoś zakopał, bo tak się teraz robi, a potem nie wiedział, co zrobić z wodą, kiedy się przepełniały. Różnica między nimi rzadko leżała w samym zbiorniku.</p>
+<p>Od 2013 roku buduję domy jednorodzinne, a jeden zbudowałem dla siebie. Przez ten czas widziałem zbiorniki, które się sprawdziły, i takie, które ktoś zakopał, bo tak się teraz robi, a potem nie wiedział, co zrobić z wodą, kiedy się przepełniały. Różnica między nimi rzadko leżała w samym zbiorniku.</p>
 
 <p>Zbiornik na deszczówkę ma sens, kiedy wiecie, po co jest, macie regularny pobór i zaplanowaliście, dokąd idzie woda, kiedy jest pełny. Do rabat, warzywnika i toalet sprawdza się dobrze, do trawnika słabo, jako sposób na oszczędzanie rzadko, a jako retencja tylko wtedy, gdy umie się opróżnić sam.</p>
 
