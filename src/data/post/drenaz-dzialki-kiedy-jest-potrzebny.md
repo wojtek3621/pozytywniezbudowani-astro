@@ -59,7 +59,7 @@ metadata:
 
 <h2 style="text-align: justify;">Drenaż opaskowy – ochrona fundamentów</h2>
 
-<p style="text-align: justify;">Najczęściej spotykanym rodzajem drenażu przy budowie domu jednorodzinnego jest drenaż opaskowy, czyli system rur ułożonych wokół fundamentów budynku. Jego zadanie jest proste – zbierać wodę, która gromadzi się w pobliżu fundamentów, i odprowadzać ją w bezpieczne miejsce, z dala od domu.</p>
+<p style="text-align: justify;">Najczęściej spotykanym rodzajem drenażu przy budowie domu jednorodzinnego jest <a href="/blog/drenaz-przy-fundamentach-kiedy-konieczny/">drenaż opaskowy</a>, czyli system rur ułożonych wokół fundamentów budynku. Jego zadanie jest proste – zbierać wodę, która gromadzi się w pobliżu fundamentów, i odprowadzać ją w bezpieczne miejsce, z dala od domu.</p>
 
 <p style="text-align: justify;">Rury drenarskie to specjalne przewody z licznymi perforacjami, przez które woda przesącza się do środka. Układa się je na głębokości równej spodowi płyty fundamentowej lub ław fundamentowych, ze spadkiem 2–5%, który umożliwia grawitacyjny przepływ wody. Całość obsypuje się żwirem i zawija w geowłókninę, która działa jak filtr – przepuszcza wodę, ale zatrzymuje drobne cząsteczki gleby i piasku, które mogłyby z czasem zatkać system.</p>
 
