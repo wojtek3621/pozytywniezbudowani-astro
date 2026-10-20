@@ -420,6 +420,43 @@ metadata:
         }
     }
 
+
+    /* Wąski telefon (K02): jedna kolumna, etykieta nad wartością, mniejsze odstępy —
+       liczby w kartach nie wychodzą poza kartę z `overflow: hidden`. */
+    @media (max-width: 480px) {
+        .cable-calculator-container {
+            padding: 16px;
+            margin: 20px 0;
+        }
+
+        .calc-result-section {
+            padding: 14px;
+        }
+
+        .calc-cable-option {
+            padding: 12px;
+        }
+
+        .calc-cable-details {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .calc-detail-item {
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            min-width: 0;
+            padding: 8px 10px;
+        }
+
+        .calc-detail-label {
+            margin-bottom: 4px;
+        }
+
+        .calc-detail-value {
+            overflow-wrap: anywhere;
+        }
+    }
 </style>
 <div class="cable-calculator-container">
 <h3 class="calc-title">Kalkulator Doboru Kabla Przyłączeniowego</h3>
@@ -722,13 +759,13 @@ metadata:
 
 <p style="text-align: justify;">Im dłuższy kabel, tym większy spadek napięcia przy tym samym obciążeniu. Dlatego przed zamówieniem przewodu musicie zmierzyć, jak długi będzie Wasz kabel. Pamiętajcie, że długość to nie tylko odległość od skrzynki do budynku w linii prostej. Potrzebujecie około półtora metra, żeby podpiąć kabel w skrzynce i zejść nim pod ziemię. Kolejne minimum trzy metry to wyjście z wykopu, przejście przez ścianę i doprowadzenie do rozdzielnicy. Do tego warto dodać dwa–trzy metry zapasu, bo lepiej żeby zostało Wam trochę kabla, niż żeby po rozłożeniu zabrakło trzydziestu centymetrów.</p>
 
-<p style="text-align: justify;">Załóżmy, że po zmierzeniu wyszło Wam piętnaście metrów całkowitej długości kabla. Teraz czas na obliczenia. Wzór na spadek napięcia wygląda groźnie, ale da się go uprościć do formy, którą można policzyć na zwykłym kalkulatorze. Spadek napięcia w procentach równa się dwieście razy moc w watach razy długość w metrach, a całość dzielona przez współczynnik zależny od przekroju i materiału kabla.</p>
+<p style="text-align: justify;">Załóżmy, że po zmierzeniu wyszło Wam piętnaście metrów całkowitej długości kabla. Teraz czas na obliczenia. Wzór na spadek napięcia wygląda groźnie, ale da się go uprościć do formy, którą można policzyć na zwykłym kalkulatorze. Spadek napięcia w procentach równa się sto razy moc w watach razy długość w metrach, a całość dzielona przez współczynnik zależny od przekroju i materiału kabla.</p>
 
 <p style="text-align: justify;">Ponieważ dom to nie urządzenie trójfazowe i każdą fazę wykorzystujemy oddzielnie, obliczenia wykonujemy dla jednej fazy. Trzydzieści kilowatów podzielone na trzy daje dziesięć kilowatów na fazę, czyli dziesięć tysięcy watów.</p>
 
-<p style="text-align: justify;">Dla kabla miedzianego o przekroju szesnaście milimetrów kwadratowych i długości piętnastu metrów spadek napięcia wynosi około sześćdziesiąt trzy setne procenta. To wartość, która mieści się w normie, choć przy konserwatywnym podejściu – takim jak w kalkulatorze powyżej – zostałaby oznaczona jako zalecana. Sprawdźmy jeszcze kable aluminiowe.</p>
+<p style="text-align: justify;">Dla kabla miedzianego o przekroju szesnaście milimetrów kwadratowych i długości piętnastu metrów spadek napięcia wynosi około trzydzieści dwie setne procenta. To wartość, która mieści się w normie, choć przy konserwatywnym podejściu – takim jak w kalkulatorze powyżej – zostałaby oznaczona jako zalecana. Sprawdźmy jeszcze kable aluminiowe.</p>
 
-<p style="text-align: justify;">Kabel aluminiowy o przekroju dwadzieścia pięć milimetrów kwadratowych przy tej samej długości daje spadek około sześćdziesiąt osiem setnych procenta – podobnie jak miedź szesnaście. Natomiast aluminium trzydzieści pięć milimetrów kwadratowych to spadek czterdzieści dziewięć setnych procenta, czyli wynik bardzo komfortowy.</p>
+<p style="text-align: justify;">Kabel aluminiowy o przekroju dwadzieścia pięć milimetrów kwadratowych przy tej samej długości daje spadek około trzydzieści cztery setne procenta – podobnie jak miedź szesnaście. Natomiast aluminium trzydzieści pięć milimetrów kwadratowych to spadek dwadzieścia pięć setnych procenta, czyli wynik bardzo komfortowy.</p>
 
 <p style="text-align: justify;">I tu dochodzimy do ciekawego wniosku: w wielu przypadkach kabel aluminiowy o przekroju trzydzieści pięć milimetrów kwadratowych okazuje się najlepszym wyborem. Jest grubszy, więc spadki napięcia są mniejsze. Jest też znacznie tańszy od kabla miedzianego – często o połowę. Aluminium ma złą opinię wyłącznie ze względu na stare, cienkie instalacje w mieszkaniach, które łatwo się łamały. Ten problem nie dotyczy grubych kabli przyłączeniowych. Sam w siedzibie mojej firmy mam położony kabel aluminiowy, który musi wytrzymywać spore obciążenia od elektrowni fotowoltaicznej o mocy czterdziestu kilowatów. Jedyne, o czym trzeba pamiętać, to niezbędność stosowania odpowiednich złączek – aluminium nie wolno łączyć bezpośrednio z miedzią ze względu na ryzyko korozji elektrochemicznej.</p>
 
