@@ -421,7 +421,7 @@ metadata:
     }
 
 
-    /* Wąski telefon (K02): jedna kolumna, etykieta nad wartością, mniejsze odstępy —
+    /* Wąski telefon (K02): jedna kolumna, etykieta nad wartością, mniejsze odstępy –
        liczby w kartach nie wychodzą poza kartę z `overflow: hidden`. */
     @media (max-width: 480px) {
         .cable-calculator-container {
