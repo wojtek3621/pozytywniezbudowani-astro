@@ -33,7 +33,7 @@ metadata:
 
 <p>Brama segmentowa wykonywana jest z paneli wypełnionych pianką poliuretanową (PUR). Standardowe panele mają grubość 40 mm, lepsze 45 mm, a w wersji premium nawet 60 mm. Współczynnik przenikania ciepła <strong>U</strong> takiej bramy potrafi zejść poniżej 1,0 W/(m²·K), a w przypadku bram premium z paneli 60 mm i z dobrym uszczelnieniem – nawet do 0,7–0,9 W/(m²·K). Do tego dochodzą uszczelki na całym obwodzie i pomiędzy panelami, które ograniczają przewiewy.</p>
 
-<p>Brama uchylna to z reguły jeden płat ocieplony znacznie cieniej, a uszczelnienie z natury rzeczy jest gorsze – płat musi swobodnie się wychylać, więc nie da się go docisnąć do ramy tak szczelnie jak panele segmentowe. Współczynnik U bram uchylnych oscyluje zwykle wokół 2,0–3,0 W/(m²·K). Z punktu widzenia obowiązujących Warunków Technicznych (WT 2021, a wkrótce WT 2026) i wymagań energetycznych dla nowo budowanych domów, brama uchylna w nowym budownictwie traci sens praktycznie na starcie.</p>
+<p>Brama uchylna to z reguły jeden płat ocieplony znacznie cieniej, a uszczelnienie z natury rzeczy jest gorsze – płat musi swobodnie się wychylać, więc nie da się go docisnąć do ramy tak szczelnie jak panele segmentowe. Współczynnik U bram uchylnych oscyluje zwykle wokół 2,0–3,0 W/(m²·K). Z punktu widzenia Warunków Technicznych (WT 2021, a wkrótce WT 2026) i wymagań energetycznych dla nowo budowanych domów, brama uchylna w nowym budownictwie traci sens praktycznie na starcie.</p>
 
 <h2>Wyciszenie i napęd – sprawa codziennego komfortu</h2>
 

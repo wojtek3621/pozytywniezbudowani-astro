@@ -52,7 +52,7 @@ metadata:
 
 <p>Drugi element to okapy i rynny. Żaden element budynku – ani okap, ani rynna, ani parapet – nie może wystawać poza linię granicy działki. Jeśli stawiacie dom 3 metry od granicy, a okap ma 60 centymetrów, to ściana musi stać 3,60 metra od granicy, żeby okap mieścił się w obrysie Waszej działki. To często ginie przy adaptacji i wychodzi dopiero, gdy geodeta robi inwentaryzację powykonawczą. Wtedy jest już za późno.</p>
 
-<p>Praktyczne rozwiązanie wody opadowej to skrzynki rozsączające, studnie chłonne albo zbiornik retencyjny na własnej działce. W warunkach przyłączy, o które wnioskujecie przed budową, gestor sieci kanalizacyjnej często wskazuje, czy w ogóle przyjmuje wody opadowe – w wielu gminach nie przyjmuje, bo kanalizacja jest sanitarna, a nie ogólnospławna. Wtedy zostaje rozwiązanie na działce. Skrzynki rozsączające pod trawnikiem albo pod podjazdem to dziś standard i koszt, który warto przewidzieć w budżecie.</p>
+<p>Praktyczne rozwiązanie wody opadowej to skrzynki rozsączające, studnie chłonne albo <a href="/blog/zbiornik-na-deszczowke-czy-warto/">zbiornik retencyjny</a> na własnej działce. W warunkach przyłączy, o które wnioskujecie przed budową, gestor sieci kanalizacyjnej często wskazuje, czy w ogóle przyjmuje wody opadowe – w wielu gminach nie przyjmuje, bo kanalizacja jest sanitarna, a nie ogólnospławna. Wtedy zostaje rozwiązanie na działce. Skrzynki rozsączające pod trawnikiem albo pod podjazdem to dziś standard i koszt, który warto przewidzieć w budżecie.</p>
 
 <h2>Drzewa na granicy – temat, który wraca latami</h2>
 

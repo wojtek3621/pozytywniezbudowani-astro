@@ -188,17 +188,15 @@ metadata:
 
 <h2 id="pytania-czytelnikow">Pytania czytelników</h2>
 
-<p>Poniższe trzy pytania to przypadki modelowe – ułożyłem je z sytuacji, które powtarzają się w rozmowach na moich budowach i w wiadomościach od Was; nie cytuję konkretnych osób.</p>
-
-<p><strong>Buduję z silikatu na płycie, projekt nie przewiduje żadnego bloczka w pierwszej warstwie. Czy mogę to zmienić bez przeprojektowywania domu? (przypadek modelowy)</strong></p>
+<p><strong>Buduję z silikatu na płycie, projekt nie przewiduje żadnego bloczka w pierwszej warstwie. Czy mogę to zmienić bez przeprojektowywania domu?</strong></p>
 
 <p>Tak, i to jest zmiana stosunkowo prosta, pod dwoma warunkami. Bloczek cokołowy ma inną wysokość niż silikat (typowo 11,3 cm wobec 19,9 cm warstwy silikatu z zaprawą), więc konstruktor albo projektant musi przeliczyć układ warstw tak, żeby wysokości kondygnacji i nadproży się zgadzały – czasem wystarczy korekta grubości warstwy wyrównawczej. Drugi warunek: nośność. Bloczki klasy 20 MPa przenoszą typowe ściany domów jednorodzinnych z zapasem, ale formalnie tę zgodność potwierdza konstruktor, zwłaszcza pod ścianami mocno obciążonymi i przy trzpieniach. Zmianę zgłoście przed zamówieniem materiałów na stan surowy – w trakcie murowania jest już za późno, bo start ścian to pierwsza rzecz, która powstaje.</p>
 
-<p><strong>Wykonawca mówi, że zamiast bloczków wystarczy „ocieplić cokół głębiej" i efekt będzie ten sam. Kto ma rację? (przypadek modelowy)</strong></p>
+<p><strong>Wykonawca mówi, że zamiast bloczków wystarczy „ocieplić cokół głębiej" i efekt będzie ten sam. Kto ma rację?</strong></p>
 
 <p>Ocieplenie cokołu i ścian fundamentowych od zewnątrz jest potrzebne zawsze – ale to inne, uzupełniające się zabiegi, a nie zamienniki. Izolacja zewnętrzna wydłuża ciepłu drogę dookoła, natomiast nie przerywa pionowej ucieczki przez sam mur stojący na płycie. Obliczenia producenta bloczków cokołowych – cytowane wyżej, z zastrzeżeniem, że to materiały strony – pokazują, że samo schodzenie z izolacją coraz głębiej przestaje poprawiać wynik już poniżej mniej więcej 0,5 m, a domknięcie mostka daje dopiero nośna warstwa izolacyjna w murze. Fizyka stoi po stronie tego wniosku: najkrótsza droga ciepła prowadzi pionowo przez mur, nie dookoła izolacji. Odpowiedź dla wykonawcy brzmi więc: robimy jedno i drugie, każde na swoim miejscu.</p>
 
-<p><strong>Mam już wylaną płytę i wymurowany parter, pierwsza warstwa jest ze zwykłych bloczków. Czy da się coś jeszcze zrobić? (przypadek modelowy)</strong></p>
+<p><strong>Mam już wylaną płytę i wymurowany parter, pierwsza warstwa jest ze zwykłych bloczków. Czy da się coś jeszcze zrobić?</strong></p>
 
 <p>Wymiana pierwszej warstwy pod stojącym murem nie wchodzi w grę – tego mostka już nie przerwiecie i uczciwie mówię to wprost. Zostają zabiegi łagodzące, które nadal są przed Wami, skoro trwa budowa: pełna, staranna izolacja obwodowa krawędzi płyty i cokołu (z materiału do tego przeznaczonego, na przykład XPS – to jego właściwe miejsce), grubsza warstwa styropianu pod posadzką – jeśli poziom zero na to pozwala, 20 cm zamiast 15 cm – szczelne dojście izolacji podłogi do ścian oraz otulenie trzpieni w strefie cokołowej. Ten zestaw nie wyzeruje mostka startu muru, ale ograniczy jego skutki – podniesie temperaturę naroży i zmniejszy straty. A najważniejsza lekcja zostaje na przyszłość i dla czytających przed budową: o strefie zero decyduje się raz, przy projekcie.</p>
 

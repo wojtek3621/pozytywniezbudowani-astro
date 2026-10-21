@@ -94,7 +94,7 @@ metadata:
 
 <h2>Brak sieci kanalizacyjnej – co wtedy</h2>
 
-<p>Jeśli na Waszej działce nie ma dostępu do sieci kanalizacyjnej, czyli najbliższy kolektor jest na tyle daleko, że nie da się ekonomicznie wykonać przyłącza, macie dwie alternatywy: <a href="/blog/szambo-czy-oczyszczalnia-przydomowa/">przydomowa oczyszczalnia ścieków albo zbiornik bezodpływowy</a>.</p>
+<p>Jeśli na Waszej działce nie ma dostępu do sieci kanalizacyjnej, czyli najbliższy kolektor jest na tyle daleko, że nie da się ekonomicznie wykonać przyłącza, macie dwie alternatywy: <a href="/blog/przydomowa-oczyszczalnia-sciekow/">przydomowa oczyszczalnia ścieków albo zbiornik bezodpływowy</a>.</p>
 
 <p>Zbiornik bezodpływowy to rozwiązanie najprostsze technicznie, ale uciążliwe i drogie w eksploatacji – wywóz ścieków wozem asenizacyjnym to stały koszt, a w wielu gminach gminy wymagają od mieszkańców okazywania faktur za wywóz, żeby udowodnić, że nie wylewacie ścieków na działkę.</p>
 

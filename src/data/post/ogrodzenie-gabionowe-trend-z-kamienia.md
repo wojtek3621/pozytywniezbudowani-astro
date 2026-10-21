@@ -49,7 +49,7 @@ metadata:
 
 <h2>Fundament pod gabion – serce całej konstrukcji</h2>
 
-<p>To miejsce, w którym najczęściej widzę zaniedbania. Wykonawca wylewa cienką ławę betonową kilkanaście centymetrów pod ziemią, mówi „spoko, da radę", a po dwóch zimach gabion zaczyna się przechylać, bo grunt pod ławą zmarzł, podniósł beton, a po odwilży osiadł nierównomiernie. Naprawa polega na rozebraniu odcinka ogrodzenia, wybraniu kamienia, skuciu ławy, ponownym wylaniu – koszt potrafi przekroczyć koszt pierwotnego wykonania. W trudnych warunkach gruntowych warto przy okazji przemyśleć też kwestię <a href="/blog/drenaz-opaskowy-wokol-domu-czy-konieczny/">drenażu opaskowego wokół domu</a>, bo woda gruntowa, która podchodzi pod gabion, działa tym samym mechanizmem co przy fundamencie domu.</p>
+<p>To miejsce, w którym najczęściej widzę zaniedbania. Wykonawca wylewa cienką ławę betonową kilkanaście centymetrów pod ziemią, mówi „spoko, da radę", a po dwóch zimach gabion zaczyna się przechylać, bo grunt pod ławą zmarzł, podniósł beton, a po odwilży osiadł nierównomiernie. Naprawa polega na rozebraniu odcinka ogrodzenia, wybraniu kamienia, skuciu ławy, ponownym wylaniu – koszt potrafi przekroczyć koszt pierwotnego wykonania. W trudnych warunkach gruntowych warto przy okazji przemyśleć też kwestię <a href="/blog/drenaz-przy-fundamentach-kiedy-konieczny/">drenażu opaskowego wokół domu</a>, bo woda gruntowa, która podchodzi pod gabion, działa tym samym mechanizmem co przy fundamencie domu.</p>
 
 <p>Co powinno znaleźć się pod gabionem zrobionym dobrze:</p>
 

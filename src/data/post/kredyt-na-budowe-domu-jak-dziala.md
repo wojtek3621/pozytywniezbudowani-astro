@@ -87,6 +87,8 @@ metadata:
 
 <p style="text-align: justify;">Sam kiedyś otrzymałem odmowę przy próbie wzięcia miksera za 300 złotych na raty – bo byłem zbyt młody, zbyt krótko prowadziłem jednoosobową działalność gospodarczą i nie miałem żadnej historii kredytowej. Banki wolą, kiedy ktoś ma umowę o pracę na czas nieokreślony z trzymiesięcznym okresem wypowiedzenia. Dlatego warto dać się poznać bankom – wziąć cokolwiek na raty, aby pokazać, że terminowo spłacacie zobowiązania. Nawet jeśli to rata 50 złotych miesięcznie.</p>
 
+<p>Zanim podpiszecie umowę, sprawdźcie też, na jakim wskaźniku bank liczy oprocentowanie. Co oznacza dla kredytu na budowę zastąpienie WIBOR przez POLSTR, opisałem w tekście <a href="/blog/polstr-zamiast-wibor/">POLSTR zamiast WIBOR – co to znaczy dla kredytu na budowę domu</a>.</p>
+
 <h2 style="text-align: justify;">Podsumowanie</h2>
 
 <p style="text-align: justify;">Kredyt na budowę domu to produkt finansowy wymagający od Was znacznie więcej zaangażowania niż kredyt na gotowe mieszkanie. Musicie przygotować obszerniejszą dokumentację, przedstawić harmonogram budowy, rozliczać się z bankiem w transzach i pilnować terminów. Ale jest też druga strona medalu – działka może zostać uznana za wkład własny, bank chętnie negocjuje warunki przy bezpiecznych inwestycjach, a Wy macie pełną kontrolę nad tym, jak będzie wyglądał Wasz dom.</p>
