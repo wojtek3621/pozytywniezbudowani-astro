@@ -28,7 +28,7 @@ metadata:
 <p>Gdyby oba wskaźniki stały w miejscu do końca kredytu, odsetki wyniosłyby tyle, ile pokazano wyżej. Wskaźniki się zmieniają – to porównanie dzisiejszych warunków, nie prognoza.</p>
 <p>Marża zrównuje tylko oprocentowanie. Opłaty, ubezpieczenia i warunki nadpłaty porównaj w aneksie.</p><p>Liczymy w uproszczeniu – miesiąc to 1/12 roku. Bank liczy odsetki za rzeczywiste dni i zaokrągla raty, więc kwoty w harmonogramie mogą się nieco różnić.</p>
 <p>Kalkulator liczy matematykę raty i nie sprawdza limitu odsetek maksymalnych – wynik nie przesądza, jakie odsetki bank może pobrać.</p>
-<p>Budujesz i bank wypłaca kredyt w transzach? Pełna rata zacznie się po karencji; tę fazę policz w <a href="https://platforma.pozytywniezbudowani.pl/narzedzia/kalkulator-transz-kredytu">kalkulatorze transz w Centrum (po zalogowaniu)</a>.</p>
+<p>Budujesz i bank wypłaca kredyt w transzach? Pełna rata zacznie się po karencji; koszt tej fazy policz ze wzoru we <a href="/blog/kalkulator-transz-kredytu-na-budowe-domu/">wpisie o transzach i karencji</a>.</p>
 </div></div>
 
 <style>

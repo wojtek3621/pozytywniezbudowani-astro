@@ -30,7 +30,7 @@ metadata:
 <details><summary>Jeśli planujesz nadpłatę</summary><p>Ten kalkulator nie uwzględnia nadpłaty. Planujesz dużą nadpłatę, np. ze sprzedaży mieszkania? Poproś bank o harmonogramy obu ofert z nadpłatą w tym samym miesiącu. Jeśli umowa przewiduje rekompensatę: przy stałej stopie bank może ją pobrać w okresie stałym, nie więcej niż swoje koszty związane z wcześniejszą spłatą; przy zmiennej tylko przez 36 miesięcy od zawarcia umowy, nie więcej niż odsetki od nadpłaty za rok (za krótszy czas, gdy do końca umowy został mniej niż rok), nie więcej niż 3% nadpłaty i nie więcej niż koszty banku. Dotyczy umów od 22.07.2017. Gdy umowa już obowiązuje, bank na Twój wniosek poda koszty wcześniejszej spłaty w 7 dni roboczych.</p></details>
 <details><summary>Zdolność kredytowa</summary><p id="k2-zdolnosc"></p></details><p>Liczymy w uproszczeniu – miesiąc to 1/12 roku. Bank liczy odsetki za rzeczywiste dni i zaokrągla raty, więc kwoty w harmonogramie mogą się nieco różnić.</p>
 <p>Kalkulator liczy matematykę raty i nie sprawdza limitu odsetek maksymalnych – wynik nie przesądza, jakie odsetki bank może pobrać.</p>
-<p>Budujesz i bank wypłaca kredyt w transzach? Pełna rata zacznie się po karencji; tę fazę policz w <a href="https://platforma.pozytywniezbudowani.pl/narzedzia/kalkulator-transz-kredytu">kalkulatorze transz w Centrum (po zalogowaniu)</a>.</p>
+<p>Budujesz i bank wypłaca kredyt w transzach? Pełna rata zacznie się po karencji; koszt tej fazy policz ze wzoru we <a href="/blog/kalkulator-transz-kredytu-na-budowe-domu/">wpisie o transzach i karencji</a>.</p>
 </div></div>
 
 <style>
