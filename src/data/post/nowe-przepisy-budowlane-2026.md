@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-05-17T21:54:16
-order: 16
-updateDate: 2026-09-28T12:00:00
+order: 20
+updateDate: 2026-10-21T12:00:00
 title: 'Nowe przepisy budowlane 2026 – co obowiązuje, a co dopiero wejdzie'
 excerpt: 'Plan ogólny, Rejestr Urbanistyczny, dziennik budowy, warunki techniczne, dom do 70 m² i świadectwo energetyczne – co obowiązuje Waszą budowę dziś i które daty są naprawdę graniczne.'
 image: '~/assets/images/blog/nowe-przepisy-budowlane-2026.jpeg'
@@ -145,7 +145,7 @@ metadata:
 
 <h2>Warunki techniczne – co się zmieniło 20 września 2026</h2>
 
-<p>To obszar, wokół którego narosło najwięcej nieporozumień. Krótko: <strong>„WT2026” nie są dziś obowiązującym prawem.</strong> Nowe rozporządzenie pozostaje projektem – sprawdziłem 28 września 2026 roku w bazie Dziennika Ustaw i nie zostało opublikowane. Rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002 r. formalnie przestało obowiązywać, ale ustawa z 31 lipca 2026 r. pozwala stosować je przez 18 miesięcy od 20 września 2026 r. – przy pozwoleniu na budowę i zgłoszeniu budowy po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego).</p>
+<p>To obszar, wokół którego narosło najwięcej nieporozumień. Krótko: <strong>„WT2026” nie są dziś obowiązującym prawem.</strong> Nowe rozporządzenie pozostaje projektem – sprawdziłem 21 października 2026 roku w bazie Dziennika Ustaw i nie zostało opublikowane. Rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002 r. formalnie przestało obowiązywać, ale ustawa z 31 lipca 2026 r. pozwala stosować je przez 18 miesięcy od 20 września 2026 r. – przy pozwoleniu na budowę i zgłoszeniu budowy po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego).</p>
 
 <p>Data 20 września 2026 roku, która krąży po branży, jest natomiast prawdziwa i ma nieoczywiste źródło. Nie wynika z żadnej ustawy budowlanej, tylko z art. 66 ustawy z 19 lipca 2019 r. o zapewnianiu dostępności osobom ze szczególnymi potrzebami: przepisy wykonawcze wydane m.in. na podstawie art. 7 ust. 2 Prawa budowlanego zachowują moc nie dłużej niż przez 84 miesiące od jej wejścia w życie. Ustawa weszła w życie 20 września 2019 roku – stąd 20 września 2026 roku. Tego samego dnia do Prawa budowlanego weszły definicje budynków (mieszkalnego, gospodarczego, użyteczności publicznej, rekreacji indywidualnej), przeniesione z § 3 rozporządzenia z 2002 r.</p>
 
@@ -231,4 +231,4 @@ metadata:
 
 <h2>Zastrzeżenie prawne</h2>
 
-<p>Niniejszy artykuł stanowi przegląd zmian w polskich przepisach budowlanych według stanu prawnego na dzień 20 lipca 2026 r. (część o warunkach technicznych – na 28 września 2026 r.) i ma charakter wyłącznie informacyjny. Nie stanowi porady prawnej w indywidualnej sprawie. Konkretne warunki Waszej budowy – w szczególności status prawny działki, treść planu ogólnego gminy, wymagania techniczne i terminy procedur administracyjnych – mogą się różnić w zależności od lokalizacji i bieżącego stanu prac legislacyjnych. Przed podjęciem decyzji o zakupie działki, wyborze projektu lub rozpoczęciu inwestycji skonsultujcie się z architektem adaptującym, geodetą, urbanistą lub radcą prawnym specjalizującym się w prawie budowlanym i planowaniu przestrzennym. Aktualne brzmienie przepisów sprawdzajcie w oficjalnych publikatorach, w szczególności w Internetowym Systemie Aktów Prawnych Sejmu RP (isap.sejm.gov.pl).</p>
+<p>Niniejszy artykuł stanowi przegląd zmian w polskich przepisach budowlanych według stanu prawnego na dzień 20 lipca 2026 r. (część o warunkach technicznych – na 21 października 2026 r.) i ma charakter wyłącznie informacyjny. Nie stanowi porady prawnej w indywidualnej sprawie. Konkretne warunki Waszej budowy – w szczególności status prawny działki, treść planu ogólnego gminy, wymagania techniczne i terminy procedur administracyjnych – mogą się różnić w zależności od lokalizacji i bieżącego stanu prac legislacyjnych. Przed podjęciem decyzji o zakupie działki, wyborze projektu lub rozpoczęciu inwestycji skonsultujcie się z architektem adaptującym, geodetą, urbanistą lub radcą prawnym specjalizującym się w prawie budowlanym i planowaniu przestrzennym. Aktualne brzmienie przepisów sprawdzajcie w oficjalnych publikatorach, w szczególności w Internetowym Systemie Aktów Prawnych Sejmu RP (isap.sejm.gov.pl).</p>
