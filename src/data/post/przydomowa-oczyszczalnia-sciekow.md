@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-10-21T07:00:00
+order: 5
 updateDate: 2026-10-21T07:00:00
 title: 'Przydomowa oczyszczalnia ścieków – kompendium dla budujących dom'
 excerpt: 'Szambo, oczyszczalnia czy czekanie na sieć? Grunt, woda gruntowa i dokąd pójdą ścieki, formalności po kolei, odległości, kabel i odpowietrzenie, eksploatacja, awarie i dopłaty – sprawdzone u źródła.'
