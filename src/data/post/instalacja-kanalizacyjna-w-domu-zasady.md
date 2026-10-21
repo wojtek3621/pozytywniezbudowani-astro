@@ -22,7 +22,7 @@ metadata:
 
 <h2>Dwa systemy: kanalizacja zewnętrzna i wewnętrzna</h2>
 
-<p>Zanim przejdę do konkretów, ważna jest świadomość, że w domu jednorodzinnym macie tak naprawdę dwie instalacje kanalizacyjne. Pierwsza to kanalizacja zewnętrzna, która biegnie pod ziemią od fundamentu Waszego domu do sieci miejskiej, do przydomowej oczyszczalni ścieków albo do <a href="/blog/szambo-czy-oczyszczalnia-przydomowa/">szamba</a>. Drugą jest kanalizacja wewnętrzna, czyli wszystko, co znajduje się wewnątrz budynku – od pionu odpowietrzającego nad dachem aż do podejścia każdej pojedynczej umywalki, wanny czy WC.</p>
+<p>Zanim przejdę do konkretów, ważna jest świadomość, że w domu jednorodzinnym macie tak naprawdę dwie instalacje kanalizacyjne. Pierwsza to kanalizacja zewnętrzna, która biegnie pod ziemią od fundamentu Waszego domu do sieci miejskiej, do przydomowej oczyszczalni ścieków albo do <a href="/blog/przydomowa-oczyszczalnia-sciekow/">szamba</a>. Drugą jest kanalizacja wewnętrzna, czyli wszystko, co znajduje się wewnątrz budynku – od pionu odpowietrzającego nad dachem aż do podejścia każdej pojedynczej umywalki, wanny czy WC.</p>
 
 <p>Obie instalacje są ze sobą połączone w jednym miejscu – tam, gdzie rura wychodzi <a href="/blog/kanalizacja-pod-fundamentami-jak-zaplanowac/">spod płyty fundamentowej</a> i łączy się z <a href="/blog/przylacze-kanalizacyjne-jak-wykonac/">przyłączem zewnętrznym</a>. Ten styk trzeba wykonać starannie i bez skrótów. Każda nieszczelność w tym punkcie oznacza realne ryzyko – albo wody gruntowe i grunt dostaną się do instalacji, albo, co gorsza, ścieki będą podmywać Wam fundament. Ani jedno, ani drugie nie jest scenariuszem, który chcecie zafundować swojemu domowi na 30 lat.</p>
 

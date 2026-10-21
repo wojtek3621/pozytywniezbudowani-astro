@@ -156,7 +156,7 @@ metadata:
 <li>Podpisujecie umowę o odprowadzanie ścieków.</li>
 </ol>
 
-<p>Cała ścieżka opiera się na ustawie z 7 czerwca 2001 r. o zbiorowym zaopatrzeniu w wodę i zbiorowym odprowadzaniu ścieków oraz regulaminie dostarczania wody i odprowadzania ścieków uchwalonym przez Waszą gminę. W każdej gminie szczegóły są nieco inne – to pierwsza rzecz, którą warto sprawdzić, zanim podejmiecie decyzje techniczne dotyczące lokalizacji studzienek i przebiegu rur na działce. Jeśli sieć jest poza zasięgiem, alternatywą pozostaje <a href="/blog/szambo-czy-oczyszczalnia-przydomowa/">szambo lub oczyszczalnia przydomowa</a>.</p>
+<p>Cała ścieżka opiera się na ustawie z 7 czerwca 2001 r. o zbiorowym zaopatrzeniu w wodę i zbiorowym odprowadzaniu ścieków oraz regulaminie dostarczania wody i odprowadzania ścieków uchwalonym przez Waszą gminę. W każdej gminie szczegóły są nieco inne – to pierwsza rzecz, którą warto sprawdzić, zanim podejmiecie decyzje techniczne dotyczące lokalizacji studzienek i przebiegu rur na działce. Jeśli sieć jest poza zasięgiem, alternatywą pozostaje <a href="/blog/przydomowa-oczyszczalnia-sciekow/">szambo lub oczyszczalnia przydomowa</a>.</p>
 
 <h2>Dokumentacja po wykonaniu</h2>
 
