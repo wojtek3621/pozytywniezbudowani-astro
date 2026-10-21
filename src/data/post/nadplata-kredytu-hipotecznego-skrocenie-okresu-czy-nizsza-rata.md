@@ -89,7 +89,7 @@ metadata:
 
 <p style="text-align: justify;"><strong>Po drugie – domyślny wariant banku bywa inny niż Wasz.</strong> Część banków przy nadpłacie automatycznie obniża ratę, bo tak jest dla nich korzystniej. Jeśli chcecie skrócić okres, zwykle musicie o to poprosić wprost, czasem pisemnie. Warto sprawdzić to w umowie <em>przed</em> przelewem, a nie po.</p>
 
-<p style="text-align: justify;"><strong>Po trzecie – sprawdźcie prowizję za wcześniejszą spłatę.</strong> Przy kredytach o zmiennym oprocentowaniu bank może pobierać ją tylko przez pierwsze trzy lata i w ograniczonej wysokości, ale w tym okresie potrafi zjeść część korzyści z nadpłaty. Policzcie ją, zanim nadpłacicie.</p>
+<p style="text-align: justify;"><strong>Po trzecie – sprawdźcie prowizję za wcześniejszą spłatę.</strong> Przy kredytach o <a href="/blog/polstr-zamiast-wibor/">zmiennym oprocentowaniu</a> bank może pobierać ją tylko przez pierwsze trzy lata i w ograniczonej wysokości, ale w tym okresie potrafi zjeść część korzyści z nadpłaty. Policzcie ją, zanim nadpłacicie.</p>
 
 <p style="text-align: justify;"><strong>Po czwarte – nadpłata nie zawsze jest najlepszym użyciem tych pieniędzy.</strong> Jeżeli nie macie jeszcze poduszki finansowej na kilka miesięcy życia, zbudujcie ją najpierw. Nadpłaconych pieniędzy nie wyjmiecie z kredytu, gdy przyjdzie awaria dachu albo utrata pracy – a wtedy skończy się to droższym długiem gdzie indziej.</p>
 
