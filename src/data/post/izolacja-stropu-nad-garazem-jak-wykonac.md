@@ -33,7 +33,7 @@ metadata:
 
 <h2>Co mówi prawo – WT2021 i wymagania na wartość Uc</h2>
 
-<p>Zgodnie z Rozporządzeniem Ministra Infrastruktury z dnia 12 kwietnia 2002 roku w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie, w brzmieniu obowiązującym od 1 stycznia 2021 roku (potocznie WT2021), strop oddzielający pomieszczenie ogrzewane od pomieszczenia nieogrzewanego musi mieć współczynnik przenikania ciepła Uc maksymalnie 0,25 W/(m²·K).</p>
+<p>Zgodnie z Rozporządzeniem Ministra Infrastruktury z dnia 12 kwietnia 2002 roku w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie, w brzmieniu z wymaganiami od 31 grudnia 2020 roku (potocznie WT2021), strop oddzielający pomieszczenie ogrzewane od pomieszczenia nieogrzewanego musi mieć współczynnik przenikania ciepła Uc maksymalnie 0,25 W/(m²·K).</p>
 
 <p>To znaczy, że strop nad garażem traktujemy w obliczeniach tak samo jak strop pod nieogrzewanym poddaszem albo strop nad piwnicą nieogrzewaną. Wymóg jest jednoznaczny i nie ma tu przestrzeni na własną interpretację. Jeśli architekt adaptujący robił świadectwo charakterystyki energetycznej budynku, to ta wartość musiała być w nim ujęta i obliczona dla każdej przegrody.</p>
 

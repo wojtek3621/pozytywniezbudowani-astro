@@ -213,7 +213,7 @@ metadata:
 
 <p>Architekt adaptujący Wasz projekt musi pokazać, że projekt spełnia WT2021. Jeśli się okaże, że źródło ciepła z projektu typowego nie wystarcza, trzeba je zmienić albo dodać dodatkowe izolacje, lepsze okna, rekuperację. Każda taka decyzja ma swoje koszty.</p>
 
-<p>WT2026 mają zaostrzyć wymagania jeszcze bardziej. Jeśli budujecie dom w 2026 lub później, weźcie pod uwagę, że w praktyce wybór źródła ciepła zostanie zawężony jeszcze mocniej do pomp ciepła i ewentualnie kotłów gazowych z doposażeniem (np. fotowoltaika).</p>
+<p>Projekt nowych warunków technicznych (WT2026) na wejściu nie zaostrza ani wskaźnika EP, ani współczynników U. Prawdziwa zmiana ma w nim datę 1 stycznia 2030 r.: wskaźnik EP dla domu jednorodzinnego spada z 70 do 63, a źródło ciepła w nowym budynku nie może emitować na miejscu CO₂ z paliw kopalnych – więc kocioł na gaz ziemny wypada z wyboru. Stan prawny i szczegóły opisuję w <a href="/blog/wt2026-warunki-techniczne-co-oznaczaja-dla-projektu/">artykule o WT2026</a>.</p>
 
 <h2>Co ja sam montuję u siebie i u klientów</h2>
 
