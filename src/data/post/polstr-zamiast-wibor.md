@@ -132,10 +132,10 @@ metadata:
 
 <table>
 <tr><th>Co się dzieje ze wskaźnikiem</th><th>Wynik zmiennej wobec stałej przez 5 lat</th><th>Najwyższa rata zmiennej</th></tr>
-<tr><td>nic się nie zmienia</td><td>zmienna taniej o 14 846 zł</td><td>3 698,68 zł</td></tr>
-<tr><td>od trzynastego miesiąca wyższy o 1 punkt procentowy</td><td>zmienna drożej o 8 516 zł</td><td>4 055,11 zł</td></tr>
-<tr><td>od trzynastego miesiąca wyższy o 2 punkty procentowe</td><td>zmienna drożej o 32 032 zł</td><td>4 426,86 zł</td></tr>
-<tr><td>od trzynastego miesiąca niższy o 1 punkt procentowy</td><td>zmienna taniej o 38 019 zł</td><td>3 698,68 zł</td></tr>
+<tr><td>nic się nie zmienia</td><td>zmienna taniej o 14 845,85 zł</td><td>3 698,68 zł</td></tr>
+<tr><td>od trzynastego miesiąca wyższy o 1 punkt procentowy</td><td>zmienna drożej o 8 515,82 zł</td><td>4 055,11 zł</td></tr>
+<tr><td>od trzynastego miesiąca wyższy o 2 punkty procentowe</td><td>zmienna drożej o 32 031,54 zł</td><td>4 426,86 zł</td></tr>
+<tr><td>od trzynastego miesiąca niższy o 1 punkt procentowy</td><td>zmienna taniej o 38 018,59 zł</td><td>3 698,68 zł</td></tr>
 </table>
 
 <p>Rata przy stałej stopie wynosi w tym przykładzie 3 880,29 zł i nie zmienia się przez pięć lat. Przy podanych założeniach zmienna przestaje być tańsza, gdy wskaźnik od drugiego roku jest wyższy o więcej niż około 0,64 punktu procentowego. Nie przewiduję, czy tak będzie, pokazuję tylko mechanizm: w tym przykładzie stała jest na starcie droższa i to jest cena za to, że rata nie wzrośnie przez pięć lat, a przy zmiennej przyjmujecie, że może wzrosnąć o kilkaset złotych miesięcznie. W Waszej ofercie różnica między stałą a zmienną może być większa, mniejsza albo odwrotna – sprawdźcie ją, zanim założycie, że spokój kosztuje. Ile może wzrosnąć rata przy wyższym wskaźniku, rozpisałem w tekście o tym, <a href="/blog/co-jesli-wibor-wzrosnie-jak-zmieni-sie-twoja-rata/">co, jeśli WIBOR wzrośnie</a> – mechanizm przy POLSTR jest ten sam. W tym samym przykładzie wskaźnik wyższy od trzynastego miesiąca o 1 punkt procentowy podnosi ratę z 3 698,68 zł do 4 055,11 zł, czyli o 356,43 zł, a o 2 punkty – do 4 426,86 zł, czyli o 728,18 zł. Jeżeli taki wzrost rozłożyłby Wasz domowy budżet, nie zakładajcie sobie pętli na szyję. Swój wariant porównacie w <a href="/blog/stala-czy-zmienna-stopa-kalkulator/">kalkulatorze stałej i zmiennej stopy</a> – liczy raty równe i nie uwzględnia nadpłaty.</p>

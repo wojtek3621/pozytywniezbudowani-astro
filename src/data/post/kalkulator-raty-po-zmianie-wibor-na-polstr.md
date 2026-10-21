@@ -62,8 +62,10 @@ metadata:
 <style>
 .polstr-kalk {max-width:820px;margin:24px auto;padding:24px;border:1px solid #ddd;border-radius:12px;background:#faf9f6;color:#30383c;font-size:16px;line-height:1.55;font-family:inherit;box-sizing:border-box}
 .polstr-kalk * {box-sizing:border-box;min-width:0}
-.polstr-kalk :is(h2,h3,p,span,strong,label,th,td,caption,summary,li,legend,em,div) {color:#30383c}
-.polstr-kalk a {color:#3369b1}
+.polstr-kalk :is(h2,h3,p,span,strong,label,th,td,caption,summary,li,legend,em,div) {color:#30383c !important}
+.polstr-kalk small {color:#555 !important}
+.polstr-kalk [role=alert] {color:#9b2020 !important}
+.polstr-kalk a {color:#3369b1 !important}
 .polstr-kalk h2 {font-size:1.5rem;line-height:1.3;margin:0 0 20px}
 .polstr-pola,.polstr-wynik {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .polstr-kalk label {display:block;font-weight:600;margin-bottom:6px}
@@ -73,7 +75,7 @@ metadata:
 .polstr-kalk fieldset label {display:inline-block;margin-right:18px}
 .polstr-akcje {display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
 .polstr-kalk button {font-size:16px;font-weight:600;padding:12px 18px;border:1px solid #555;border-radius:6px;background:white;color:#30383c;cursor:pointer}
-.polstr-kalk button:first-child {background:var(--aw-color-primary,#c5a44e);color:#202629;border-color:#8a6d2a}
+.polstr-kalk button:first-child {background:#c5a44e;color:#202629;border-color:#8a6d2a}
 .polstr-kalk :focus-visible {outline:3px solid #3369b1;outline-offset:3px}
 .polstr-kalk [role=alert] {padding:14px;color:#9b2020;background:#fff0f0;border:1px solid #9b2020;margin-bottom:20px}
 .polstr-kalk .polstr-karta {background:white;padding:16px;border:1px solid #ddd;border-radius:8px}
@@ -402,6 +404,7 @@ function inicjujK1() {
     root.__kalkPolstrGotowy = true;
     root.addEventListener('input', function () {
     opcjeK1().wynik.style.display = 'none';
+    opcjeK1().status.textContent = '';
     Kalk.zdarzenie('kalk:wyczysc', opcjeK1().kontener);
 });
 root.dataset.marzaReczna = '';
@@ -412,6 +415,7 @@ document.getElementById('k1-marza-przed').addEventListener('input', function () 
 document.querySelectorAll('[name="k1-rodzaj-wybor"]').forEach(el => el.addEventListener('change', function () {
     document.getElementById('k1-rodzaj').value = this.value;
     opcjeK1().wynik.style.display = 'none';
+    opcjeK1().status.textContent = '';
     Kalk.zdarzenie('kalk:wyczysc', opcjeK1().kontener);
 }));
 }
