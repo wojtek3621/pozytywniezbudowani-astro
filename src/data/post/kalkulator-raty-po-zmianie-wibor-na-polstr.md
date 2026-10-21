@@ -1,16 +1,43 @@
 ---
-# Roboczy blok na osobnej gałęzi; tekst i data do odbioru przed scaleniem.
-publishDate: 2026-10-20T00:00:00Z
-title: 'Kalkulator raty po zmianie WIBOR na POLSTR'
-category: 'Finansowanie budowy'
-tags: ['kalkulator', 'POLSTR', 'WIBOR', 'kredyt hipoteczny']
+publishDate: 2026-10-22T07:00:00 # ustawić w dniu publikacji
+updateDate: 2026-10-22T07:00:00 # ustawić w dniu publikacji
+title: 'Kalkulator raty po zmianie WIBOR na POLSTR – policzcie aneks od banku'
+excerpt: 'Bank proponuje aneks: POLSTR zamiast WIBOR, nowa marża, czasem spread. Wpiszcie liczby z harmonogramu i z aneksu, a kalkulator pokaże ratę dziś i po zmianie, marżę, przy której oprocentowanie się nie zmienia, i ratę przy wyższym wskaźniku.'
+image: '~/assets/images/blog/kalkulator-raty-po-zmianie-wibor-na-polstr.jpeg'
+category: 'Blog'
+tags:
+  - 'Finanse i kredyt'
+author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/kalkulator-raty-po-zmianie-wibor-na-polstr/'
+  title: 'Kalkulator raty po zmianie WIBOR na POLSTR – aneks od banku'
+  description: 'Policzcie ratę przed aneksem i po nim: nowy wskaźnik, marża i spread z aneksu, marża zrównująca oprocentowanie i rata przy wskaźniku wyższym o 1 i 2 punkty. Przykład liczbowy z jawnymi założeniami.'
+  robots:
+    index: true
+    follow: true
 ---
 
-<!-- Powiazane: platforma/content/html/kalkulator-zmiany-wskaznika.html (repo AIOS), builds/2026-10-20-kalk-polstr/raport.md -->
-<!-- TEKST-WPISU: pisze proces pisania w głosie autora -->
-<!-- LINK-ARTYKUL: /blog/polstr-zamiast-wibor/ – do wpięcia po scaleniu gałęzi artykułu -->
+<!-- Powiazane: platforma/content/html/kalkulator-zmiany-wskaznika.html (repo AIOS), builds/2026-10-20-kalk-polstr/raport.md, builds/2026-10-21-kalk-polstr-wpisy/raport.md -->
+
+<p>Bank przysłał propozycję aneksu, w której zamiast WIBOR 3M ma być POLSTR 1M Stopa Składana, do tego nowa marża, a czasem jeszcze spread korygujący. Pierwsze pytanie, jakie wtedy przychodzi do głowy, dotyczy raty i właśnie na nie odpowiada ten kalkulator. Wpisujecie liczby z harmonogramu spłat i z aneksu, a on pokazuje ratę dziś i po zmianie, różnicę w ciągu najbliższego roku, odsetki do końca kredytu, marżę, przy której oprocentowanie zostałoby takie, jakie jest dziś, oraz ratę po zmianie przy wskaźniku wyższym o 1 i 2 punkty procentowe.</p>
+
+<p>Od razu uczciwie: nie jestem doradcą kredytowym i nigdy nie pracowałem przy kredytach ani ubezpieczeniach. Od 2013 roku buduję domy, a sam jako inwestor budowałem własny i brałem na niego kredyt hipoteczny. Kalkulator policzy oprocentowanie i ratę, ale o tym, czy podpisać aneks, zdecydujecie sami, gdy przeczytacie cały dokument, także to, co zmienia się w nim poza oprocentowaniem.</p>
+
+<p>Skąd wzięła się zmiana, co obowiązuje dziś, a co jest dopiero w projekcie ustawy, opisałem w tekście <a href="/blog/polstr-zamiast-wibor/">POLSTR zamiast WIBOR – co to znaczy dla kredytu na budowę domu</a>, a tutaj zajmiemy się wyłącznie liczeniem.</p>
+
+<h2>Skąd wziąć liczby do kalkulatora</h2>
+
+<p>Kalkulator nie pobiera notowań wskaźników, więc wszystkie wartości wpisujecie sami i przy każdej liczy się to, skąd ją weźmiecie.</p>
+
+<ul>
+<li><strong>Kapitał pozostały do spłaty i liczba pozostałych rat</strong> – z aktualnego harmonogramu spłat lub zaświadczenia z banku, a nie z umowy sprzed lat, bo od tamtej pory część kapitału już spłaciliście. Kredyt, który ma jeszcze 22 lata do końca, to 264 raty.</li>
+<li><strong>Wskaźnik, który bank stosuje dziś</strong> – wartość z ostatniego ustalenia oprocentowania, którą znajdziecie w harmonogramie lub w zawiadomieniu o zmianie oprocentowania. Nie wpisujcie dzisiejszego notowania ze strony GPW Benchmark, bo bank ustalił Wasze oprocentowanie z innego dnia i z notowania wyjdzie rata inna niż ta, którą płacicie.</li>
+<li><strong>Marża dziś</strong> – tak jak jest zapisana w umowie kredytu.</li>
+<li><strong>Nowy wskaźnik</strong> – dokładnie ten, który jest w aneksie, z wartością z dnia, z którego bank będzie ją brał. Pełna nazwa ma znaczenie, bo POLSTR 1M Stopa Składana i jednodniowy POLSTR to dwie różne liczby: według GPW Benchmark pierwszy wynosił 20 października 2026 roku 3,53946%, a drugi 19 października 3,634%.</li>
+<li><strong>Marża po zmianie</strong> – z aneksu. Kalkulator na początek przepisuje do tego pola marżę dziś, żebyście nie musieli wpisywać jej drugi raz, jeśli bank jej nie zmienia.</li>
+<li><strong>Spread korygujący</strong> – stały dodatek do nowego wskaźnika, o ile aneks go przewiduje, przy czym może on być też ujemny. Gdy aneks nie mówi o spreadzie, zostawcie pole puste lub wpiszcie 0.</li>
+<li><strong>Raty równe albo malejące</strong> – zaznaczcie te, które macie w umowie.</li>
+</ul>
 
 <!-- POCZĄTEK KALKULATORA POLSTR K1 -->
 <div id="kalk-k1" class="polstr-kalk">
@@ -398,3 +425,53 @@ inicjujK1();
 <!-- KONIEC KALKULATORA POLSTR K1 -->
 
 <div class="polstr-kalk"><a href="https://platforma.pozytywniezbudowani.pl/narzedzia/kalkulator-zmiany-wskaznika">Wersja w Centrum z zapisem wyników (po zalogowaniu)</a></div>
+
+<h2>Przykład: aneks z marżą wyższą o 0,30 punktu</h2>
+
+<p>Przykład jest taki, jak w artykule o reformie. Do spłaty zostało 480 000 zł i 22 lata, czyli 264 raty równe, a kredyt jest na WIBOR 3M z marżą 2,00 punktu procentowego. Bank proponuje POLSTR 1M Stopa Składana z marżą 2,30, bez spreadu. Zamiast wartości z harmonogramu i z aneksu wpisałem notowania z GPW Benchmark: WIBOR 3M 3,89% z 19 października 2026 roku i POLSTR 1M Stopa Składana 3,53946% z 20 października 2026 roku. Liczby służą do pokazania mechanizmu i nie pochodzą z oferty żadnego banku.</p>
+
+<table>
+<tr><th>Co pokazuje kalkulator</th><th>Wynik</th></tr>
+<tr><td>oprocentowanie dziś i po zmianie</td><td>5,89000% i 5,83946%</td></tr>
+<tr><td>rata dziś</td><td>3 247,63 zł</td></tr>
+<tr><td>modelowa rata za pełny miesiąc po zmianie</td><td>3 233,38 zł</td></tr>
+<tr><td>różnica rat</td><td>14,25 zł mniej</td></tr>
+<tr><td>suma różnic w ciągu najbliższych 12 rat</td><td>171,02 zł mniej</td></tr>
+<tr><td>odsetki do końca kredytu przy dzisiejszym wskaźniku</td><td>377 374,08 zł</td></tr>
+<tr><td>odsetki do końca kredytu przy nowym wskaźniku</td><td>373 611,56 zł</td></tr>
+<tr><td>marża zrównująca oprocentowanie</td><td>2,35054 punktu</td></tr>
+<tr><td>rata po zmianie przy wskaźniku wyższym o 1 punkt</td><td>3 521,13 zł</td></tr>
+<tr><td>rata po zmianie przy wskaźniku wyższym o 2 punkty</td><td>3 820,55 zł</td></tr>
+</table>
+
+<p>Różnice kalkulator pokazuje ze znakiem, a minus przed kwotą znaczy, że po zmianie płacicie mniej. Rata spada, choć marża w aneksie jest wyższa, bo przy wartościach z tego przykładu POLSTR 1M Stopa Składana jest niższy od WIBOR 3M o 0,35054 punktu, a marża rośnie tylko o 0,30, więc całe oprocentowanie spada o 0,05054 punktu.</p>
+
+<h2>Jak czytać wynik</h2>
+
+<p><strong>Marża zrównująca oprocentowanie</strong> to liczba, z którą warto iść na rozmowę o aneksie. Czy wiecie, że z bankiem można negocjować? Gdyby marża po zmianie wynosiła 2,35054 punktu, oprocentowanie byłoby w tym przykładzie dokładnie takie, jakie jest dziś. Bank proponuje 2,30, czyli mniej, i dlatego rata spada. Gdyby zaproponował 2,40, oprocentowanie po zmianie byłoby wyższe niż dziś, choć w aneksie podwyżka marży o 0,40 punktu wyglądałaby prawie tak samo jak o 0,30. W przypadku kredytu hipotecznego nawet niewielkie obniżenie prowizji lub marży przekłada się na duże oszczędności – różnica 0,05054 punktu z tego przykładu to 3 762,52 zł odsetek do końca kredytu, o ile wskaźniki się nie zmienią. A zmieniać się będą, dlatego marża zrównująca nie jest stała i policzona za miesiąc wyjdzie inna. Nie znaczy też, że przy takiej marży cała oferta jest równie dobra, bo opłaty, ubezpieczenia i warunki nadpłaty trzeba porównać w aneksie osobno.</p>
+
+<p><strong>Rata po zmianie</strong> to modelowa rata za pełny miesiąc. Pierwsza płatność po aneksie może być inna, ponieważ bank liczy odsetki za rzeczywistą liczbę dni, pierwszy okres po zmianie bywa niepełny, a raty bank zaokrągla do grosza. Do porównania raty przed zmianą i po niej wystarczy rata modelowa, natomiast kwotę do zapłaty sprawdźcie w nowym harmonogramie – umowa kredytu hipotecznego musi przewidywać, że o zmianie wskaźnika dowiecie się najpóźniej razem z nim.</p>
+
+<p><strong>Suma różnic w ciągu 12 rat</strong> to różnica rat dodana miesiąc po miesiącu. Przy ratach równych wychodzi prawie dwanaście razy różnica jednej raty, ale przy malejących już nie, bo każda kolejna rata jest inna. Gdyby kredyt z przykładu był spłacany w ratach malejących, pierwsza rata spadłaby z 4 174,18 zł do 4 153,97 zł, czyli o 20,21 zł, a w ciągu roku różnica wyniosłaby 237,54 zł, nie 242,52 zł, które wyszłyby z prostego mnożenia.</p>
+
+<p><strong>Odsetki do końca kredytu</strong> kalkulator liczy tak, jakby oba wskaźniki stały w miejscu przez wszystkie pozostałe raty. Jest to porównanie dzisiejszych warunków. Prognozą nie jest, bo wskaźniki będą się zmieniać, a razem z nimi odsetki, które zapłacicie.</p>
+
+<p><strong>Rata przy wskaźniku wyższym o 1 i 2 punkty</strong> przypomina, że aneks zmienia wskaźnik, ale ryzyko zmiennej stopy zostaje po Waszej stronie. W przykładzie rata po zmianie rośnie przy wskaźniku wyższym o 2 punkty do 3 820,55 zł, czyli o 587,17 zł miesięcznie. Jeżeli taki wzrost rozłożyłby Wasz domowy budżet, nie zakładajcie sobie pętli na szyję. Zapytajcie bank, czy przy okazji aneksu możecie przejść na stałą lub okresowo stałą stopę, i porównajcie obie drogi w <a href="/blog/stala-czy-zmienna-stopa-kalkulator/">kalkulatorze stałej i zmiennej stopy</a>. Jako kwotę wpiszcie tam kapitał, który został do spłaty, a jako okres liczbę lat, które zostały do końca kredytu.</p>
+
+<h2>Gdy aneks dodaje spread</h2>
+
+<p>Część aneksów zostawia marżę bez zmian i dodaje do nowego wskaźnika spread korygujący. Gdyby w przykładzie marża została na poziomie 2,00, a spread wynosił 0,35 punktu, oprocentowanie po zmianie wyniosłoby 5,88946%, a rata spadłaby z 3 247,63 zł do 3 247,48 zł, czyli o 0,15 zł, co przez 12 rat daje 1,83 zł. Spread 0,35 wyrównuje więc różnicę wskaźników prawie co do grosza, a dokładnie wyrównałby ją spread 0,35054 punktu. Taki aneks zmienia sposób, w jaki bank liczy oprocentowanie, ale przy wartościach z dnia porównania nie zmienia jego wysokości. Zapytajcie, jak bank policzył spread i czy zostanie on taki sam do końca kredytu.</p>
+
+<h2>Czego kalkulator nie policzy</h2>
+
+<ul>
+<li><strong>Opłat, ubezpieczeń, produktów dodatkowych i kosztu samego aneksu.</strong> Przeczytajcie, czy aneks zmienia coś poza oprocentowaniem, na przykład zasady nadpłaty, bo tego żaden kalkulator za Was nie sprawdzi.</li>
+<li><strong>Okresowo stałej stopy w trakcie okresu stałego.</strong> Do jego końca wskaźnik nie wpływa na Wasze oprocentowanie, więc ten rachunek będzie Was dotyczył dopiero przy ustalaniu kolejnego okresu.</li>
+<li><strong>Innej konstrukcji oprocentowania</strong> niż wartość wskaźnika znana z góry na okres odsetkowy, na przykład średniej z okresu lub wskaźnika ustalanego z dołu. W takiej sytuacji poproście bank o rozpisanie raty.</li>
+<li><strong>Okresu budowy.</strong> Kalkulator liczy kredyt, który bank wypłacił w całości. Jeśli pieniądze dostajecie w transzach, pełna rata zacznie się po karencji, a odsetki w karencji policzycie ze wzoru z tekstu o <a href="/blog/kalkulator-transz-kredytu-na-budowe-domu/">transzach kredytu na budowę domu</a>.</li>
+<li><strong>Kwoty co do grosza z harmonogramu.</strong> Kalkulator liczy miesiąc jako jedną dwunastą roku, a bank liczy odsetki za rzeczywiste dni i zaokrągla raty, dlatego kwoty mogą się nieco różnić.</li>
+</ul>
+
+<p>Z takim wynikiem idziecie do banku z rachunkiem, który zrobiliście sami, a nie tylko z tym, który przyszedł razem z aneksem. Po co być aż tak mocno na czyjejś łasce? Jeśli aneks się nie opłaca, możecie go negocjować lub nie podpisywać, a co się wtedy stanie, wynika z Waszej umowy i obowiązujących przepisów.</p>
+
+<p><em>Kalkulator i przykłady mają charakter informacyjny i nie są poradą kredytową ani prawną. Wartości wskaźników wpisujecie sami, bo kalkulator ich nie pobiera. Notowania w przykładzie pochodzą ze strony GPW Benchmark z 19 i 20 października 2026 roku. Przed podpisaniem aneksu sprawdźcie warunki w swoim banku.</em></p>

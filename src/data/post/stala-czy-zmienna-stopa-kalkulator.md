@@ -1,16 +1,42 @@
 ---
-# Roboczy blok na osobnej gałęzi; tekst i data do odbioru przed scaleniem.
-publishDate: 2026-10-20T00:00:00Z
-title: 'Stała czy zmienna stopa – kalkulator rat i odsetek'
-category: 'Finansowanie budowy'
-tags: ['kalkulator', 'POLSTR', 'WIBOR', 'kredyt hipoteczny']
+publishDate: 2026-10-22T07:00:00 # ustawić w dniu publikacji
+updateDate: 2026-10-22T07:00:00 # ustawić w dniu publikacji
+title: 'Stała czy zmienna stopa kredytu – kalkulator rat i odsetek'
+excerpt: 'Ile kosztuje stała stopa w porównaniu ze zmienną w Waszym scenariuszu i przy jakiej zmianie wskaźnika obie wychodzą tak samo. Wpiszcie ofertę banku, a kalkulator policzy raty i odsetki w okresie stałej stopy.'
+image: '~/assets/images/blog/stala-czy-zmienna-stopa-kalkulator.jpeg'
+category: 'Blog'
+tags:
+  - 'Finanse i kredyt'
+author: 'Wojciech Tracichleb'
 metadata:
   canonical: 'https://pozytywniezbudowani.pl/blog/stala-czy-zmienna-stopa-kalkulator/'
+  title: 'Stałe czy zmienne oprocentowanie kredytu – kalkulator'
+  description: 'Porównajcie stałą, okresowo stałą i zmienną stopę na liczbach z oferty: raty, suma odsetek w okresie stałej stopy, próg zmiany wskaźnika i tabela scenariuszy. Przykład z jawnymi założeniami.'
+  robots:
+    index: true
+    follow: true
 ---
 
-<!-- Powiazane: platforma/content/html/kalkulator-stalej-i-zmiennej-stopy.html (repo AIOS), builds/2026-10-20-kalk-polstr/raport.md -->
-<!-- TEKST-WPISU: pisze proces pisania w głosie autora -->
-<!-- LINK-ARTYKUL: /blog/polstr-zamiast-wibor/ – do wpięcia po scaleniu gałęzi artykułu -->
+<!-- Powiazane: platforma/content/html/kalkulator-stalej-i-zmiennej-stopy.html (repo AIOS), builds/2026-10-20-kalk-polstr/raport.md, builds/2026-10-21-kalk-polstr-wpisy/raport.md -->
+
+<p>Do nowego domu przyzwyczaicie się szybciej, niż dziś myślicie. To, co jednak nigdy nie przestaje robić wrażenia, to rata kredytu hipotecznego. Dobitnie pokazało nam to podniesienie stóp procentowych po pandemii – raty kredytów hipotecznych potrafiły w niektórych przypadkach urosnąć ponaddwukrotnie. Dlatego wybór między stałą, okresowo stałą a zmienną stopą jest ważniejszy niż to, czy zmienna opiera się na WIBOR, czy na POLSTR. Ten kalkulator porównuje obie formuły na liczbach z Waszej oferty: pokazuje raty, sumę odsetek w okresie stałej stopy oraz to, przy jakiej zmianie wskaźnika obie kosztują tyle samo.</p>
+
+<p>Od razu uczciwie: nie jestem doradcą kredytowym. Buduję domy od 2013 roku, a sam jako inwestor budowałem własny, więc na wybór stopy patrzę od strony domowego budżetu na najbliższe lata. Kalkulator nie wybierze za Was formuły, bo nikt nie zna przyszłych stóp procentowych. Pokaże za to, ile w Waszej ofercie kosztuje stała rata oraz przy jakim wzroście wskaźnika zmienna przestaje być tańsza.</p>
+
+<p>Co reforma WIBOR zmienia w nowych umowach i dlaczego banki obok kredytów na POLSTR mają oferować stałą lub okresowo stałą stopę, opisałem w tekście <a href="/blog/polstr-zamiast-wibor/">POLSTR zamiast WIBOR – co to znaczy dla kredytu na budowę domu</a>. Jeśli już spłacacie kredyt i bank proponuje aneks na nowy wskaźnik, ratę przed zmianą i po niej policzycie w <a href="/blog/kalkulator-raty-po-zmianie-wibor-na-polstr/">kalkulatorze raty po zmianie WIBOR na POLSTR</a>.</p>
+
+<h2>Skąd wziąć liczby do kalkulatora</h2>
+
+<p>Kalkulator nie pobiera notowań ani ofert, więc wszystkie wartości wpisujecie sami z oferty banku, najlepiej z dwóch symulacji przygotowanych na identyczną kwotę i okres.</p>
+
+<ul>
+<li><strong>Kwota kredytu</strong> – cała kwota, którą bank już wypłacił. Kalkulator liczy fazę spłaty, więc przy kredycie na budowę wpiszcie kwotę po ostatniej transzy, a okres budowy i karencję policzcie osobno, o czym piszę niżej.</li>
+<li><strong>Okres kredytu</strong> – w pełnych latach. Kalkulator liczy wyłącznie raty równe.</li>
+<li><strong>Wskaźnik dziś i marża przy zmiennej</strong> – wartość wskaźnika z oferty zmiennej stopy, na przykład POLSTR 1M Stopa Składana, i marża, którą bank podał w tej ofercie.</li>
+<li><strong>Oprocentowanie stałe z oferty</strong> – całe oprocentowanie, a nie sama marża, bo przy stałej stopie bank podaje jedną liczbę, która nie zależy od wskaźnika.</li>
+<li><strong>Na ile lat stała</strong> – długość okresu stałej stopy z oferty. Kalkulator przyjmuje od 5 lat, bo tyle wynosi minimum według Rekomendacji S, do całego okresu kredytu, gdy stała obowiązuje do końca spłaty.</li>
+<li><strong>Scenariusz</strong> – o ile punktów procentowych zmieni się wskaźnik i od którego miesiąca. Wpiszcie taki, przy którym chcecie zobaczyć swoją ratę, a typowe scenariusze kalkulator i tak pokaże w tabeli pod wynikiem.</li>
+</ul>
 
 <!-- POCZĄTEK KALKULATORA POLSTR K2 -->
 <div id="kalk-k2" class="polstr-kalk">
@@ -426,3 +452,58 @@ inicjujK2();
 <!-- KONIEC KALKULATORA POLSTR K2 -->
 
 <div class="polstr-kalk"><a href="https://platforma.pozytywniezbudowani.pl/narzedzia/kalkulator-stalej-i-zmiennej-stopy">Wersja w Centrum z zapisem wyników (po zalogowaniu)</a></div>
+
+<h2>Przykład: stała na 5 lat, a wskaźnik od drugiego roku wyższy o 2 punkty</h2>
+
+<p>Przykład jest taki, jak w artykule o reformie. Kredyt 600 000 zł na 25 lat w ratach równych, a zmienna stopa to POLSTR 1M Stopa Składana z 20 października 2026 roku, czyli 3,53946%, plus przykładowa marża 2,00 punktu procentowego. Okresowo stałą na 5 lat przyjąłem o 0,50 punktu wyższą od dzisiejszej zmiennej, czyli 6,03946%, i jest to założenie przykładu, bez związku z ofertą konkretnego banku. W scenariuszu wskaźnik od trzynastego miesiąca rośnie o 2 punkty procentowe.</p>
+
+<table>
+<tr><th>Co pokazuje kalkulator</th><th>Wynik</th></tr>
+<tr><td>rata przy stałej stopie, bez zmian przez 5 lat</td><td>3 880,29 zł</td></tr>
+<tr><td>rata zmienna przy dzisiejszym wskaźniku</td><td>3 698,68 zł</td></tr>
+<tr><td>najwyższa rata zmienna w scenariuszu</td><td>4 426,86 zł</td></tr>
+<tr><td>suma odsetek z 60 rat przy stałej</td><td>172 715,14 zł</td></tr>
+<tr><td>suma odsetek z 60 rat przy zmiennej</td><td>204 746,67 zł</td></tr>
+<tr><td>różnica odsetek</td><td>zmienna drożej o 32 031,54 zł</td></tr>
+<tr><td>do spłaty po 60 ratach przy stałej i przy zmiennej</td><td>539 897,50 zł i 547 873,32 zł</td></tr>
+<tr><td>próg zmiany wskaźnika od trzynastego miesiąca</td><td>0,63632 punktu</td></tr>
+</table>
+
+<p>A co, jeśli wskaźnik wzrośnie mniej albo spadnie? Pod wynikiem kalkulator pokazuje też tabelę typowych scenariuszy dla tej oferty; odsetki stałej są w każdym wierszu takie same, 172 715,14 zł, bo stała nie zależy od wskaźnika.</p>
+
+<table>
+<tr><th>Co się dzieje ze wskaźnikiem</th><th>Odsetki zmiennej z 60 rat</th><th>Zmienna w porównaniu ze stałą</th></tr>
+<tr><td>bez zmiany</td><td>157 869,28 zł</td><td>taniej o 14 845,85 zł</td></tr>
+<tr><td>od trzynastego miesiąca wyższy o 1 punkt</td><td>181 230,96 zł</td><td>drożej o 8 515,82 zł</td></tr>
+<tr><td>od trzynastego miesiąca wyższy o 2 punkty</td><td>204 746,67 zł</td><td>drożej o 32 031,54 zł</td></tr>
+<tr><td>od trzynastego miesiąca niższy o 1 punkt</td><td>134 696,54 zł</td><td>taniej o 38 018,59 zł</td></tr>
+</table>
+
+<h2>Jak czytać wynik</h2>
+
+<p><strong>Okres porównania</strong> to okres stałej stopy, w przykładzie 60 miesięcy. Kalkulator kończy rachunek w tym miejscu świadomie, bo nikt nie wie, jakie oprocentowanie bank zaproponuje po jego końcu. Koniec okresu stałego nie oznacza automatycznego przejścia na zmienną: strony mogą uzgodnić kolejny okres stały, a jeśli się nie porozumieją, działa formuła wpisana w umowę, dlatego sprawdźcie ją przed podpisaniem.</p>
+
+<p><strong>Koszt formuły</strong> to suma odsetek zapłaconych w okresie stałej stopy, a nie suma wpłat, bo wpłaty zawierają też spłacony kapitał. W przykładzie przy zmiennej przez 5 lat wpłacicie o 24 055,72 zł więcej, niż wpłacilibyście przy stałej, a odsetek zapłacicie więcej o 32 031,54 zł. Skąd ta różnica? Przy zmiennej po wzroście wskaźnika mniejsza część raty idzie na kapitał, więc po 60 ratach do spłaty zostaje 547 873,32 zł zamiast 539 897,50 zł. Suma odsetek uwzględnia już tę różnicę, więc nie dodawajcie do niej różnicy sald drugi raz. Kalkulator liczy różnice przed zaokrągleniem kwot do grosza, dlatego mogą one różnić się o grosz od odejmowania liczb pokazanych na ekranie.</p>
+
+<p><strong>Próg zmiany wskaźnika</strong> mówi, przy jakim wzroście wskaźnika od wskazanego miesiąca obie formuły kosztują w okresie stałym tyle samo odsetek. W przykładzie jest to 0,63632 punktu od trzynastego miesiąca, więc przy większym wzroście zmienna kosztuje więcej niż stała; przy mniejszym albo przy spadku – mniej. Gdyby wskaźnik zmienił się już od pierwszego miesiąca, próg wyniósłby 0,50 punktu, czyli dokładnie tyle, o ile stała jest wyższa od zmiennej. Im później przychodzi zmiana, tym większa musi być, żeby zrównać koszt, bo działa przez mniej miesięcy – w tym przykładzie przy zmianie od 25. miesiąca próg wynosi już 0,86458 punktu.</p>
+
+<p><strong>Najwyższa rata w scenariuszu</strong> to liczba do sprawdzenia domowego budżetu. W przykładzie rata zmienna rośnie z 3 698,68 zł do 4 426,86 zł, czyli o 728,18 zł miesięcznie, podczas gdy rata stała przez 5 lat wynosi 3 880,29 zł. Jeżeli wyższa rata rozłożyłaby Wasz budżet, nie zakładajcie sobie pętli na szyję. Ale stała jest w tym przykładzie na starcie droższa i jest to cena za to, że rata nie wzrośnie przez cały okres stały. W Waszej ofercie różnica między stałą a zmienną może być większa, mniejsza albo odwrotna, dlatego liczcie na własnych liczbach.</p>
+
+<h2>Nadpłata, której kalkulator nie widzi</h2>
+
+<p>W książce radzę brać kredyt na najdłuższy możliwy okres i co miesiąc nadpłacać tyle, na ile Was stać. Sprawdźcie, jaką mielibyście ratę przy kredycie na krótszy czas, i mentalnie uznajcie to za swoje minimum. Przy stałej stopie taka strategia może jednak kosztować, a kalkulator nadpłaty nie uwzględnia. Jeśli umowa przewiduje rekompensatę za wcześniejszą spłatę, bank przy stałej stopie może ją pobrać przez cały okres stałego oprocentowania, w wysokości nie większej niż jego koszty bezpośrednio związane z wcześniejszą spłatą. Przy zmiennej stopie rekompensata jest możliwa tylko przez 36 miesięcy od zawarcia umowy i nie może przekroczyć odsetek od nadpłacanej kwoty za rok, a gdy do końca umowy zostało mniej niż rok – za ten krótszy czas, ani 3% tej kwoty, ani kosztów banku. Te zasady wynikają z ustawy o kredycie hipotecznym i dotyczą umów zawartych od 22 lipca 2017 roku.</p>
+
+<p>Zanim wybierzecie stałą stopę, zapytajcie bank, czy w okresie stałym każda nadpłata kosztuje i jak w tej ofercie liczy się rekompensatę. Planujecie dużą nadpłatę, na przykład po sprzedaży mieszkania? Poproście o harmonogramy obu ofert z nadpłatą w jednym, wskazanym przez Was miesiącu. Gdy umowa już obowiązuje, bank na Wasz wniosek musi w ciągu 7 dni roboczych podać koszty wcześniejszej spłaty. Skracanie okresu i obniżanie raty przy nadpłacie porównuję w tekście o <a href="/blog/nadplata-kredytu-hipotecznego-skrocenie-okresu-czy-nizsza-rata/">nadpłacie kredytu hipotecznego</a>.</p>
+
+<h2>Czego kalkulator nie policzy</h2>
+
+<ul>
+<li><strong>Rat malejących.</strong> Przy nich płatności, saldo i koszt będą inne.</li>
+<li><strong>Oprocentowania po końcu okresu stałego</strong>, bo nikt go dziś nie zna.</li>
+<li><strong>Prowizji, ubezpieczeń i wartości pieniądza w czasie.</strong> Kalkulator porównuje samo oprocentowanie.</li>
+<li><strong>Zdolności kredytowej.</strong> Bank liczy ją z buforem na wzrost stóp, który zależy od formuły oprocentowania i długości okresu stałego. Jak to wygląda według Rekomendacji S, opisałem w artykule o reformie. Poproście bank o wyliczenie zdolności dla obu formuł przy identycznej kwocie i okresie.</li>
+<li><strong>Okresu budowy.</strong> Przy kredycie budowlanym okres stały może liczyć się od uruchomienia kredytu, a nie od podpisania umowy, więc zapytajcie o to bank. Odsetki w karencji policzycie ze wzoru z tekstu o <a href="/blog/kalkulator-transz-kredytu-na-budowe-domu/">transzach kredytu na budowę domu</a>, a pełna rata zacznie się po karencji.</li>
+<li><strong>Kwoty co do grosza z harmonogramu.</strong> Kalkulator liczy miesiąc jako jedną dwunastą roku, a bank liczy odsetki za rzeczywiste dni.</li>
+</ul>
+
+<p><em>Kalkulator i przykłady mają charakter informacyjny i nie są poradą kredytową ani prawną. Wartości wskaźników i ofert wpisujecie sami. Wartość POLSTR 1M Stopa Składana w przykładzie pochodzi ze strony GPW Benchmark z 20 października 2026 roku, a oprocentowanie stałe to założenie przykładu. Przed podpisaniem umowy sprawdźcie warunki w swoim banku.</em></p>
