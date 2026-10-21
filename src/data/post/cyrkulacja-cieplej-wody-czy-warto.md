@@ -213,9 +213,7 @@ metadata:
 
 <h2 id="pytania-czytelnikow">Pytania czytelników</h2>
 
-<p>W tej sekcji odpowiadam na sytuacje przysyłane przez <a href="/kontakt/">formularz kontaktowy</a>. Uczciwie o pochodzeniu: przy tym temacie nie mam jeszcze zgłoszeń, więc trzy pytania poniżej to <strong>przypadki modelowe</strong> – ułożone wokół sytuacji, o które pytają mnie klienci na budowach. Nadesłane dopiszę przy kolejnych aktualizacjach.</p>
-
-<p><strong>Pytanie 1 (przypadek modelowy): „Dom parterowy, od kotłowni do najdalszej łazienki jakieś 12 metrów rury. Hydraulik mówi, że cyrkulacja to strata pieniędzy, sąsiad, że bez niej się nie da żyć. Kto ma rację?”</strong></p>
+<p><strong>Pytanie 1: „Dom parterowy, od kotłowni do najdalszej łazienki jakieś 12 metrów rury. Hydraulik mówi, że cyrkulacja to strata pieniędzy, sąsiad, że bez niej się nie da żyć. Kto ma rację?”</strong></p>
 
 <p>Obaj mówią o czymś innym i obaj mogą mieć rację. Przy 12 metrach rury 16 mm w przewodzie stoi około 1,4 litra, czyli jakieś czternaście sekund czekania przy baterii umywalkowej. Niewiele wody i sporo sekund – dlatego stanowiska się rozjeżdżają.</p>
 
@@ -223,13 +221,13 @@ metadata:
 
 <p>A jeżeli wahacie się na etapie stanu surowego – połóżcie rurkę, ale zostawcie ją niepodłączoną, zaślepioną i opróżnioną. Dlaczego nie „zamkniętą zaworem”, piszę wyżej.</p>
 
-<p><strong>Pytanie 2 (przypadek modelowy): „Wybieramy kocioł. Salon poleca dwufunkcyjny, bo tańszy i nie zajmuje miejsca. Chcemy dom piętrowy z dwiema łazienkami na górze. Czy to problem?”</strong></p>
+<p><strong>Pytanie 2: „Wybieramy kocioł. Salon poleca dwufunkcyjny, bo tańszy i nie zajmuje miejsca. Chcemy dom piętrowy z dwiema łazienkami na górze. Czy to problem?”</strong></p>
 
 <p>Tak, i to problem, który ujawni się dopiero po wprowadzeniu. <a href="/blog/kociol-gazowy-kondensacyjny-jak-dziala/">Kocioł dwufunkcyjny</a> bez zasobnika nie obsłuży cyrkulacji, bo nie ma zbiornika, do którego obieg mógłby wracać. W domu piętrowym z łazienkami nad kotłownią oznacza to czekanie przy każdym poborze na górze, na stałe. Dochodzi druga rzecz: baterie termostatyczne potrafią źle współpracować z kotłem przepływowym, bo taki kocioł reaguje na przepływ, a bateria go dławi. Nie jest to zakaz z automatu – nowsze kotły radzą sobie z tym lepiej – ale jest to pytanie do instrukcji kotła i baterii, zadane <em>przed</em> zakupem. A mówimy o armaturze, która w łazience dziecięcej chroni przed poparzeniem, więc nie jest to element, z którego chce się rezygnować.</p>
 
 <p>Nie znaczy to, że kocioł dwufunkcyjny jest zły – w małym, zwartym domu bywa rozsądny. Znaczy tyle, że wybór źródła ciepła i decyzja o obiegu to <strong>jedna decyzja, nie dwie</strong>. Jeżeli chcecie cyrkulacji, potrzebujecie zasobnika: kotła jednofunkcyjnego z zasobnikiem, kotła z zasobnikiem wbudowanym (w książce podaję typową pojemność około 45 litrów i zaznaczam, że tylko niektóre takie kotły współpracują z obiegiem) albo pompy ciepła, która w typowej instalacji domowej i tak grzeje wodę w zasobniku. Przegląd źródeł zebrałem w tekście o tym, <a href="/blog/czym-ogrzewac-dom-jednorodzinny-porownanie-wszystkich-opcji/">czym ogrzewać dom jednorodzinny</a>.</p>
 
-<p><strong>Pytanie 3 (przypadek modelowy): „Chcemy cyrkulację, ale boimy się rachunków. Co będziemy mogli z tym zrobić, jak już zamieszkamy?”</strong></p>
+<p><strong>Pytanie 3: „Chcemy cyrkulację, ale boimy się rachunków. Co będziemy mogli z tym zrobić, jak już zamieszkamy?”</strong></p>
 
 <p>Sporo, i to bez ruszania instalacji – pod warunkiem że trzy rzeczy zamówicie na etapie budowy. Warto je znać teraz, bo dopisanie ich do zakresu prac nic nie kosztuje, a dorabianie później owszem.</p>
 
