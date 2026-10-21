@@ -31,7 +31,7 @@ metadata:
 
 <ul>
 <li><strong>Kwota kredytu</strong> – cała kwota, którą bank już wypłacił. Kalkulator liczy fazę spłaty, więc przy kredycie na budowę wpiszcie kwotę po ostatniej transzy, a okres budowy i karencję policzcie osobno, o czym piszę niżej.</li>
-<li><strong>Okres kredytu</strong> – w pełnych latach. Kalkulator liczy wyłącznie raty równe.</li>
+<li><strong>Okres kredytu</strong> – w pełnych latach, liczony od początku spłaty. Jeśli karencja jest wliczona w okres kredytu, wpiszcie liczbę lat, które zostaną po niej, a nie cały okres z umowy, bo inaczej kalkulator pokaże ratę zaniżoną: w przykładzie z artykułu o reformie pierwsza pełna rata po 18 miesiącach karencji wynosi 3 809,10 zł, a liczona na pełne 25 lat – 3 698,68 zł. Kalkulator przyjmuje tylko pełne lata, więc przy niepełnym roku wynik będzie przybliżony. Liczy też wyłącznie raty równe.</li>
 <li><strong>Wskaźnik dziś i marża przy zmiennej</strong> – wartość wskaźnika z oferty zmiennej stopy, na przykład POLSTR 1M Stopa Składana, i marża, którą bank podał w tej ofercie.</li>
 <li><strong>Oprocentowanie stałe z oferty</strong> – całe oprocentowanie, a nie sama marża, bo przy stałej stopie bank podaje jedną liczbę, która nie zależy od wskaźnika.</li>
 <li><strong>Na ile lat stała</strong> – długość okresu stałej stopy z oferty. Kalkulator przyjmuje od 5 lat, bo tyle wynosi minimum według Rekomendacji S, do całego okresu kredytu, gdy stała obowiązuje do końca spłaty.</li>
