@@ -1,6 +1,6 @@
 ---
-publishDate: 2026-10-21T08:00:00
-updateDate: 2026-10-21T08:00:00
+publishDate: 2026-10-21T07:00:00
+updateDate: 2026-10-21T07:00:00
 title: 'Zbiornik na deszczówkę – czy warto i dlaczego to nie jest takie proste'
 excerpt: 'Zbiornik na deszczówkę ma dwie różne funkcje: zatrzymać wodę na działce i dać wodę do podlewania. Policzyłem na 35 latach danych pogodowych, ile realnie daje, kiedy stoi pusty, ile wody idzie przelewem i od czego zależy, czy ma sens akurat u Was.'
 image: '~/assets/images/blog/zbiornik-na-deszczowke-czy-warto.jpeg'
@@ -21,8 +21,6 @@ metadata:
 <p>O zbiornik na deszczówkę pytają mnie przy niemal każdej budowie i prawie zawsze z jednym z dwóch zdań w tle. Pierwsze brzmi: „kupimy zbiornik i będziemy mieli darmową wodę do ogrodu”. Drugie: „gmina każe zagospodarować deszczówkę na działce, więc musi być zbiornik”. Oba są uproszczeniem, a różnica między uproszczeniem a dobrym rozwiązaniem leży pod ziemią przez następne kilkadziesiąt lat.</p>
 
 <p>W tym tekście nie znajdziecie rankingu zbiorników, bo chcę, abyście zrozumieli, co zbiornik robi, a czego nie robi, ile wody realnie z niego weźmiecie i co trzeba zaplanować razem z nim, zanim koparka wjedzie na działkę. Liczby pochodzą z mojej symulacji na 35 latach codziennych pomiarów opadów z pięciu polskich miast, a wszystkie założenia podaję jawnie, abyście mogli przeliczyć swój przypadek.</p>
-
-<p style="background: #f8f9fa; border-left: 3px solid #c5a44e; padding: 10px 14px;">Na końcu tekstu jest sekcja <a href="#pytania-czytelnikow">Pytania czytelników</a> – trzy przypadki modelowe, ułożone wokół sytuacji z budów: zbiornik wpisany przez projektanta, duży trawnik przy małym dachu i działka na glinie z wysoką wodą gruntową.</p>
 
 <h2>Najkrótsza wersja, jeśli decydujecie dzisiaj</h2>
 
@@ -337,21 +335,19 @@ metadata:
 
 <h2 id="pytania-czytelnikow">Pytania czytelników</h2>
 
-<p>W tej sekcji odpowiadam na sytuacje przysyłane przez <a href="/kontakt/">formularz kontaktowy</a>. Uczciwie o pochodzeniu: przy tym temacie nie mam jeszcze zgłoszeń, więc trzy pytania poniżej to <strong>przypadki modelowe</strong> – ułożone wokół sytuacji, o które pytają mnie klienci na budowach. Nadesłane dopiszę przy kolejnych aktualizacjach.</p>
-
-<p><strong>Pytanie 1 (przypadek modelowy): „Projektant wrysował nam zbiornik retencyjny 10 m³, bo plan miejscowy każe zagospodarować wody opadowe na działce. Czy to musi być aż tyle?”</strong></p>
+<p><strong>„Projektant wrysował nam zbiornik retencyjny 10 m³, bo plan miejscowy każe zagospodarować wody opadowe na działce. Czy to musi być aż tyle?”</strong></p>
 
 <p>Zacznijcie od przeczytania zapisu w planie, słowo po słowie. Jeżeli plan każe „zagospodarować wody opadowe w granicach działki”, nie wymaga zbiornika – wymaga, aby woda została u Was. Na przepuszczalnym gruncie można to zrobić rozsączaniem, a zbiornik dodać tylko wtedy, gdy chcecie podlewać. Jeżeli plan wymaga zbiornika o określonej pojemności, zbiornik musi być, ale wtedy pytanie brzmi, jaka najmniejsza pojemność spełnia zapis.</p>
 
 <p>Drugie pytanie do projektanta: po co te 10 m³? Jeżeli to ma być retencja, a nikt z niego nie będzie pobierał wody, zbiornik po kilku deszczach stoi pełny i niczego nie zatrzymuje. Sensowny wariant to zbiornik z dławionym odpływem do studni chłonnej lub z dwiema strefami. Jeżeli ma być na wodę do ogrodu – policzcie potrzebę i zobaczcie w tabeli wyżej, co daje 5, a co 10 m³. Pamiętajcie też o progach z Prawa budowlanego: bezodpływowe zbiorniki o łącznej pojemności do 5 m³ nie wymagają ani pozwolenia, ani zgłoszenia, a powyżej 5 i do 15 m³ – zgłoszenia; przelew i sprawy prawa wodnego to osobna kwestia. I zapytajcie o trzecią rzecz, której zwykle w projekcie brakuje: dokąd idzie przelew, kiedy zbiornik jest pełny.</p>
 
-<p><strong>Pytanie 2 (przypadek modelowy): „Mamy dach o powierzchni ok. 120 m² i chcemy trawnik na 600 m². Czy da się go podlewać tylko deszczówką?”</strong></p>
+<p><strong>„Mamy dach o powierzchni ok. 120 m² i chcemy trawnik na 600 m². Czy da się go podlewać tylko deszczówką?”</strong></p>
 
 <p>Nie da się, i to nie przez pojemność zbiornika. Trawnik 600 m² w pełnym słońcu potrzebował w moim bilansie wody w glebie ok. 200–220 m³ dolewki w sezonie. Zbiornik 5 m³ przy dachu 120 m² pokrywał z tego 11–15%, a 10 m³ – 14–18%. Większy zbiornik niewiele tu zmieni, bo w sezonie z takiego dachu po prostu nie spływa tyle wody, ile trawnik wypije.</p>
 
 <p>Taki sam dach i zbiornik 5 m³ wystarczą za to na rabaty albo krzewy ok. 100 m² podlewane linią kroplującą: 94–99% potrzeb, a w najgorszym roku 71–86%. Więc jeżeli chcecie deszczówki, użyjcie jej tam, gdzie wystarczy, a trawnik podlewajcie wodą z wodociągu przez podlicznik. Jeżeli linia kroplująca ma być zasilana ze zbiornika, potrzebny będzie drobny filtr, a jego opór trzeba uwzględnić przy wyborze pompy.</p>
 
-<p><strong>Pytanie 3 (przypadek modelowy): „Działka na glinie, wiosną woda gruntowa stoi ok. 1,2 m pod terenem, w ulicy nie ma kanalizacji deszczowej. Zbiornik czy studnia chłonna?”</strong></p>
+<p><strong>„Działka na glinie, wiosną woda gruntowa stoi ok. 1,2 m pod terenem, w ulicy nie ma kanalizacji deszczowej. Zbiornik czy studnia chłonna?”</strong></p>
 
 <p>To najtrudniejszy przypadek i nie da się go rozstrzygnąć bez geologa i projektanta. Kilka rzeczy wiadomo jednak od razu, jeszcze przed badaniami. Studnia chłonna i skrzynki rozsączające potrzebują, według wytycznych i instrukcji producentów, ok. metra gruntu nienasyconego nad wodą gruntową – przy wodzie na 1,2 m i glinie zwykle nie ma na to miejsca. Szczelny zbiornik w takim gruncie będzie częściowo w wodzie, więc musi być dopuszczony przez producenta do takiej głębokości zanurzenia, a jeżeli woda może podejść wyżej, niż producent dopuszcza, trzeba wybrać inny model albo wariant z jego instrukcji. Drenaż wokół zbiornika ma sens tylko wtedy, gdy ma dokąd odprowadzić wodę – a na tej działce właśnie tego brakuje.</p>
 
