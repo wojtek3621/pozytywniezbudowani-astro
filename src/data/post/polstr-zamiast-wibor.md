@@ -1,6 +1,6 @@
 ---
-publishDate: 2026-10-20T22:00:00
-updateDate: 2026-10-20T22:00:00
+publishDate: 2026-10-21T07:00:00
+updateDate: 2026-10-21T07:00:00
 title: 'POLSTR zamiast WIBOR – co to znaczy dla kredytu na budowę domu'
 excerpt: 'WIBOR znika z nowych umów, a jego miejsce ma zająć POLSTR. Piszę, co się zmienia i od kiedy, co z kredytem budowlanym wypłacanym w transzach, czy podpisywać aneks od banku i jak porównać stałą stopę ze zmienną, żeby nie kierować się samą nazwą wskaźnika.'
 image: '~/assets/images/blog/polstr-zamiast-wibor.jpeg'
@@ -17,7 +17,7 @@ metadata:
     follow: true
 ---
 
-<p>To, co jednak nigdy nie przestaje robić wrażenia, to rata kredytu hipotecznego. W kredycie ze zmiennym oprocentowaniem jej wysokość zależy od wskaźnika, a w polskich kredytach hipotecznych przez lata był nim WIBOR, który właśnie dostał datę końca. Dla nowych umów ma go zastąpić POLSTR, a stare umowy będą na WIBOR spłacane jeszcze przez dekadę. Piszę o tym, bo to znowu jest temat, który jest i będzie długo na czasie: dotyczy każdego, kto dopiero planuje kredyt na budowę, kto jest w trakcie wypłat transz i kto spłaca dom od lat.</p>
+<p>Jest jedna rzecz, która przy budowie domu nigdy nie przestaje robić wrażenia: rata kredytu hipotecznego. W kredycie ze zmiennym oprocentowaniem jej wysokość zależy od wskaźnika, a w polskich kredytach hipotecznych przez lata był nim WIBOR, który właśnie dostał datę końca. Dla nowych umów ma go zastąpić POLSTR, a stare umowy będą na WIBOR spłacane jeszcze przez dekadę. Piszę o tym, bo to znowu jest temat, który jest i będzie długo na czasie: dotyczy każdego, kto dopiero planuje kredyt na budowę, kto jest w trakcie wypłat transz i kto spłaca dom od lat.</p>
 
 <p>Od razu uczciwie: nie jestem doradcą kredytowym i nigdy nie pracowałem przy kredytach ani ubezpieczeniach. Od 2013 roku zajmuję się budową domów jednorodzinnych, a sam jako inwestor budowałem własny dom, więc patrzę na kredyt od strony budowy, nie banku – od strony harmonogramu, transz i raty, która zostaje na lata. Wszystko, co niżej piszę o reformie, sprawdziłem w komunikatach Komisji Nadzoru Finansowego, w dokumentach administratora wskaźników i w przepisach.</p>
 
@@ -228,17 +228,17 @@ KALKULATORY-POLSTR -->
 
 <h2 id="pytania-czytelnikow">Pytania czytelników</h2>
 
-<p>Poniżej trzy sytuacje, na których dobrze widać, jak reforma dotyka budujących. Wszystkie są przypadkami modelowymi – ułożyłem je tak, żeby odpowiedź dało się w całości oprzeć na źródłach z tego tekstu. Liczby w odpowiedziach są przykładowe, z założeniami podanymi przy nich.</p>
+<p>Poniżej trzy sytuacje, na których dobrze widać, jak reforma dotyka budujących. Liczby w odpowiedziach są przykładowe, z założeniami podanymi przy nich.</p>
 
-<p><strong>Pytanie 1 – przypadek modelowy: „Podpisujemy umowę kredytu na budowę we wrześniu 2026 roku, na WIBOR 3M. Ostatnia transza wypadnie w marcu 2027 roku. Czy bank przeliczy nas wtedy na POLSTR?”</strong></p>
+<p><strong>„Podpisujemy umowę kredytu na budowę we wrześniu 2026 roku, na WIBOR 3M. Ostatnia transza wypadnie w marcu 2027 roku. Czy bank przeliczy nas wtedy na POLSTR?”</strong></p>
 
 <p>Sama data transzy tego nie zrobi. Komunikaty KNF dotyczą nowych umów zawieranych od 1 stycznia 2027 roku, a transza wypłacona w marcu to wykonanie umowy z września. WIBOR 3M będzie publikowany do końca 2036 roku, więc w Waszej umowie może zostać. Przed podpisaniem sprawdziłbym dwie rzeczy. Pierwsza: co umowa mówi o sytuacji, w której WIBOR przestanie być publikowany – to ważne, jeśli kredyt potrwa dłużej niż do 2036 roku. Druga: co bank zrobi, gdyby w 2027 roku trzeba było zwiększyć kwotę albo przesunąć transze. Tego dokumenty nadzoru nie rozstrzygają i odpowiedź warto mieć na piśmie.</p>
 
-<p><strong>Pytanie 2 – przypadek modelowy: „Bank przysłał aneks: POLSTR 1M Stopa Składana zamiast WIBOR 3M, marża wyższa o 0,30 punktu. Zostało nam 480 000 zł do spłaty i 22 lata. Podpisać?”</strong></p>
+<p><strong>„Bank przysłał aneks: POLSTR 1M Stopa Składana zamiast WIBOR 3M, marża wyższa o 0,30 punktu. Zostało nam 480 000 zł do spłaty i 22 lata. Podpisać?”</strong></p>
 
 <p>Najpierw policzcie oprocentowanie przed aneksem i po nim. Przykład na wartościach z 19–20 października 2026 roku: WIBOR 3M 3,89% plus marża 2,00 daje 5,89% i ratę 3 247,63 zł; POLSTR 1M Stopa Składana 3,53946% plus marża 2,30 daje 5,83946% i ratę 3 233,38 zł. Rata spadłaby o 14,25 zł, czyli przy tych wartościach aneks nie pogarsza oprocentowania, mimo wyższej marży. Marża, przy której oprocentowanie byłoby dokładnie takie samo, to około 2,35 punktu. Potem sprawdźcie resztę: czy aneks zmienia coś poza oprocentowaniem, jak często będzie zmieniać się rata i czy możecie później przejść na stałą stopę. Pamiętajcie też, że zakaz podnoszenia marży w ofercie zmiany oprocentowania jest w projekcie rządowym, który jeszcze nie obowiązuje – dziś o marży w aneksie decydujecie sami, przyjmując go albo nie. Jeśli aneks się nie opłaca, możecie go negocjować albo nie podpisywać; co wtedy, wynika z Waszej umowy.</p>
 
-<p><strong>Pytanie 3 – przypadek modelowy: „Wybieramy między okresowo stałą stopą na 5 lat a zmienną na POLSTR. Po przeprowadzce chcemy sprzedać mieszkanie i nadpłacić około 200 000 zł. Co wybrać?”</strong></p>
+<p><strong>„Wybieramy między okresowo stałą stopą na 5 lat a zmienną na POLSTR. Po przeprowadzce chcemy sprzedać mieszkanie i nadpłacić około 200 000 zł. Co wybrać?”</strong></p>
 
 <p>Przy takim planie liczy się nie tylko oprocentowanie, ale też koszt nadpłaty. Przy stopie zmiennej bank może pobrać rekompensatę – jeśli przewiduje ją umowa – tylko w ciągu 36 miesięcy od zawarcia umowy i najwyżej 3% nadpłacanej kwoty, a przy tym nie więcej niż odsetki od niej za rok – albo za krótszy czas, jeśli do końca umowy zostało mniej niż rok – i nie więcej niż koszty banku związane z wcześniejszą spłatą. W przykładzie z oprocentowaniem 5,53946% odsetki od 200 000 zł za rok to około 11 079 zł, więc z tych dwóch limitów niższy jest limit 3%, czyli 6 000 zł. To górna granica – rzeczywista rekompensata może być niższa albo żadna, a po upływie 36 miesięcy bank nie może jej pobrać. Przy okresowo stałej stopie bank może w okresie stałym pobrać rekompensatę do wysokości swoich kosztów związanych z wcześniejszą spłatą, jeśli umowa ją przewiduje. Kwoty nie da się policzyć bez danych banku, więc przed wyborem zapytajcie, jak bank liczy rekompensatę w tej ofercie. Ustawowy termin 7 dni roboczych na podanie kosztów dotyczy wniosku złożonego, gdy umowa już obowiązuje. Jeśli sprzedaż mieszkania planujecie w ciągu pierwszych lat, a stała stopa wiąże się z wysoką rekompensatą, zmienna stopa może wyjść korzystniej mimo ryzyka wzrostu raty. Rozstrzygną to liczby z Waszej oferty.</p>
 
