@@ -1,7 +1,7 @@
 ---
-publishDate: 2026-10-21T21:00:00
+publishDate: 2026-10-22T07:00:00
 order: 7
-updateDate: 2026-10-21T21:00:00
+updateDate: 2026-10-22T07:00:00
 title: 'Kalkulator raty po zmianie WIBOR na POLSTR – policzcie aneks od banku'
 excerpt: 'Bank proponuje aneks: POLSTR zamiast WIBOR, nowa marża, czasem spread. Wpiszcie liczby z harmonogramu i z aneksu, a kalkulator pokaże ratę dziś i po zmianie, marżę, przy której oprocentowanie się nie zmienia, i ratę przy wyższym wskaźniku.'
 image: '~/assets/images/blog/kalkulator-raty-po-zmianie-wibor-na-polstr.jpeg'
