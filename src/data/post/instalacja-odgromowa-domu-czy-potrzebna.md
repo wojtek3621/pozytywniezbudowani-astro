@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-10-22T18:00:00
 title: 'Instalacja odgromowa (piorunochron) na domu – czy jest Wam potrzebna i jak ją zrobić dobrze'
-excerpt: 'Typowy dom murowany – w wariantach, które policzyłem – nie potrzebował piorunochronu, ale każdy dom potrzebuje dobrego uziomu i ograniczników przepięć. Pokazuję, skąd się to bierze, kiedy instalacja odgromowa jest potrzebna i jak sprawdzić, czy projekt i wykonanie są dobre.'
+excerpt: 'W policzonych przeze mnie wariantach typowego domu murowanego o zwykłym zagrożeniu pożarowym piorunochron nie był potrzebny do ochrony ludzi, a uziom i ograniczniki przepięć potrzebne są w każdym domu. Pokazuję, skąd się to bierze, kiedy instalacja odgromowa jest potrzebna i jak sprawdzić, czy projekt i wykonanie są dobre.'
 category: 'Blog'
 tags:
   - 'Instalacje i przyłącza'
@@ -15,7 +15,7 @@ metadata:
     follow: true
 ---
 
-<p>Pytanie o piorunochron słyszę od klientów zwykle w tej samej chwili budowy: dach jest już kryty albo zaraz będzie, ktoś z rodziny przeczytał, że dom powyżej 500 m² musi mieć instalację odgromową, a elektryk mówi, że u nich to niepotrzebne. Odpowiadam wtedy tak, jak odpowiem Wam w tym tekście: uziom w każdym domu jest potrzebny, a odgrom – piorunochron – zazwyczaj nie. Mówię to z doświadczenia i z obliczeń dla typowego domu murowanego, które pokażę niżej. Ograniczniki przepięć w rozdzielnicy są potrzebne zawsze. A to, czy na dach ma wejść instalacja odgromowa, nie wynika z metrażu, tylko z analizy ryzyka, którą da się policzyć – i to robi projektant.</p>
+<p>Pytanie o piorunochron słyszę od klientów zwykle w tej samej chwili budowy: dach jest już kryty albo zaraz będzie, ktoś z rodziny przeczytał, że dom powyżej 500 m² musi mieć instalację odgromową, a elektryk mówi, że u nich to niepotrzebne. Odpowiadam wtedy tak, jak odpowiem Wam w tym tekście: uziom w każdym domu jest potrzebny, a odgrom – piorunochron – zazwyczaj nie. Mówię to z doświadczenia i z obliczeń ryzyka dla ludzi w typowym domu murowanym o zwykłym zagrożeniu pożarowym – a niżej pokażę też, kiedy wynik się odwraca. Ograniczniki przepięć w rozdzielnicy są potrzebne zawsze. A to, czy na dach ma wejść instalacja odgromowa, nie wynika z metrażu, tylko z analizy ryzyka, którą da się policzyć – i to robi projektant.</p>
 
 <p>Od 2013 roku zajmuję się prawie wszystkim, co ma styczność ze stawianiem domów jednorodzinnych od strony technicznej. W tym tekście nie znajdziecie instrukcji montażu krok po kroku – to robota dla elektryka z projektem w ręku. Chcę, żebyście zrozumieli, skąd w ogóle bierze się decyzja o instalacji odgromowej, dlaczego w typowym domu najgroźniejszy jest prąd pioruna, który wchodzi kablami, a nie przez dach, i jak sprawdzić, czy projekt i wykonawca zrobili swoje dobrze.</p>
 
@@ -89,7 +89,7 @@ metadata:
 <tr><th>Wariant</th><th>Udział linii w ryzyku</th><th>Co wyszło z analizy</th></tr>
 </thead>
 <tbody>
-<tr><td>Dom murowany, zwykłe zagrożenie pożarowe, 2,5 wyładowania na km², zabudowa miejska</td><td>41–74 %</td><td>ryzyko poniżej progu bez dodatkowych środków z tej analizy</td></tr>
+<tr><td>Dom murowany, zwykłe zagrożenie pożarowe, bez podwyższonego zagrożenia paniką, 2,5 wyładowania na km², zabudowa miejska</td><td>41–74 %</td><td>ryzyko poniżej progu bez dodatkowych środków z tej analizy</td></tr>
 <tr><td>To samo, zabudowa podmiejska</td><td>78–93 %</td><td>poniżej progu; gdy i zasilanie, i miedziana linia telefoniczna są napowietrzne – ochrona wejść linii</td></tr>
 <tr><td>To samo, dom odosobniony na wsi</td><td>78–93 %</td><td>przy światłowodzie i kablu w ziemi – poniżej progu; w pozostałych wariantach wystarcza ochrona wejść linii</td></tr>
 <tr><td>Zwykłe zagrożenie pożarowe, 4,6 wyładowania na km²</td><td>41–93 %</td><td>w 7 z 18 wariantów bez dodatkowych środków, w 11 – ochrona wejść linii, w żadnym zwody</td></tr>
@@ -113,7 +113,7 @@ metadata:
 
 <table>
 <thead>
-<tr><th>Wasza sytuacja</th><th>Piorunochron (zwody na dachu)</th><th>Co ustalić z projektantem</th></tr>
+<tr><th>Wasza sytuacja</th><th>Piorunochron (część zewnętrzna)</th><th>Co ustalić z projektantem</th></tr>
 </thead>
 <tbody>
 <tr><td>Projekt budowlany wpisuje instalację odgromową</td><td>tak – jest częścią zatwierdzonego projektu</td><td>projekt techniczny tej instalacji: klasa, zwody, przewody, uziom, odstępy, ochrona wejść; bez niego wykonawca zgaduje</td></tr>
@@ -205,7 +205,7 @@ metadata:
 
 <p>Czy panele na dachu zwiększają ryzyko trafienia? Nie. Według <a href="https://www.dehn-international.com/sites/default/files/media/files/lpg_en_complete.pdf" rel="nofollow">przewodnika DEHN</a>, producenta ochrony odgromowej, „the installation of PV modules does not increase the risk of a lightning strike”, więc sama obecność fotowoltaiki nie jest powodem do montowania piorunochronu. Fotowoltaika wprowadza jednak do domu nowe przewody, które biegną po dachu i schodzą do falownika – czyli kolejną drogę dla przepięć. Projekt nowych warunków technicznych mówi o tym podobnie: w budynku z instalacją piorunochronną elementy PV obejmuje się ochroną odgromową, a w pozostałych postępuje się według analizy ryzyka.</p>
 
-<p>W praktyce są dwie sytuacje. Gdy dom nie ma instalacji odgromowej, konstrukcję paneli łączy się z połączeniami wyrównawczymi i uziemieniem domu – nie z osobną szpilką wbitą obok – a ograniczniki przepięć po stronie prądu stałego i przemiennego stosuje się, chyba że analiza wykaże, że nie są potrzebne. Gdy dom ma instalację odgromową, moduły muszą znaleźć się w przestrzeni chronionej zwodów i w odstępie separacyjnym od nich, a zwody i iglice ustawia się tak, żeby nie rzucały na moduły ostrego cienia – projektant sprawdza, w jakiej odległości cień się już rozmywa. Jeśli odstępu nie da się zachować, konstrukcję paneli łączy się z instalacją odgromową przewodem zdolnym przewodzić prąd pioruna – i wtedy przewody fotowoltaiki wchodzące do domu wymagają ograniczników dobranych na prąd pioruna. Wszystko to rozstrzyga się razem, przed kryciem dachu. Panele dołożone za trzy lata na dach z gotową instalacją odgromową to zwykle kompromis: albo moduły tam, gdzie nie przeszkadzają zwodom, albo przebudowa zwodów. Więcej o przygotowaniu domu pod panele piszę w tekstach <a href="/blog/fotowoltaika-na-etapie-projektu-jak-zaplanowac/">o fotowoltaice na etapie projektu</a> i <a href="/blog/instalacja-pod-fotowoltaike-co-przygotowac/">o instalacji pod fotowoltaikę</a>.</p>
+<p>W praktyce są dwie sytuacje. Gdy dom nie ma instalacji odgromowej, konstrukcję paneli łączy się z połączeniami wyrównawczymi i uziemieniem domu – nie z osobną szpilką wbitą obok – a ograniczniki przepięć w rozdzielnicy domu są i tak. O dodatkowych ogranicznikach dla samej fotowoltaiki, po stronie prądu stałego i przy falowniku, decyduje projekt – przewodnik DEHN zaleca je, chyba że analiza wykaże, że nie są potrzebne. Gdy dom ma instalację odgromową, moduły muszą znaleźć się w przestrzeni chronionej zwodów i w odstępie separacyjnym od nich, sprawdzonym na całej trasie przewodów fotowoltaiki, także pod pokryciem, a zwody i iglice ustawia się tak, żeby nie rzucały na moduły ostrego cienia – projektant sprawdza, w jakiej odległości cień się już rozmywa. Jeśli odstępu nie da się zachować, konstrukcję paneli łączy się z instalacją odgromową przewodem zdolnym przewodzić prąd pioruna – i wtedy przewody fotowoltaiki wchodzące do domu wymagają ograniczników dobranych na prąd pioruna. Wszystko to rozstrzyga się razem, przed kryciem dachu. Panele dołożone za trzy lata na dach z gotową instalacją odgromową to zwykle kompromis: albo moduły tam, gdzie nie przeszkadzają zwodom, albo przebudowa zwodów. Więcej o przygotowaniu domu pod panele piszę w tekstach <a href="/blog/fotowoltaika-na-etapie-projektu-jak-zaplanowac/">o fotowoltaice na etapie projektu</a> i <a href="/blog/instalacja-pod-fotowoltaike-co-przygotowac/">o instalacji pod fotowoltaikę</a>.</p>
 
 <h2>Kto projektuje, kto wykonuje i kiedy na budowie</h2>
 
@@ -216,7 +216,7 @@ metadata:
 <li>wymiary i wysokość domu, kształt dachu, otoczenie: czy obok stoją wyższe budynki i drzewa, czy dom stoi na wzniesieniu,</li>
 <li>konstrukcję i materiały: dom murowany czy drewniany, co jest na poddaszu, z czego jest pokrycie i co leży pod nim,</li>
 <li>wszystkie linie wchodzące do domu: zasilanie – kabel czy linia napowietrzna i jak daleko do stacji transformatorowej – telefon, internet, antena, przewody do garażu, bramy, ogrodu,</li>
-<li>ludzi: ilu będzie domowników, czy ktoś jest w domu stale, czy będzie w nim urządzenie, którego awaria zagraża życiu, i jaka nawierzchnia będzie w domu i wokół niego – od tego zależą założenia o porażeniu i ewakuacji,</li>
+<li>ludzi: ilu będzie domowników, czy ktoś jest w domu stale, czy będzie w nim urządzenie, którego awaria zagraża życiu, czy wszyscy domownicy wyjdą z domu sami, czy ktoś będzie potrzebował pomocy, i jaka nawierzchnia będzie w domu i wokół niego – od tego zależą założenia o porażeniu i ewakuacji,</li>
 <li>urządzenia na dachu i w połaci: okna dachowe z napędami, kamery, lampy w podbitce, wywiewki, planowaną fotowoltaikę – także tę na za kilka lat.</li>
 </ul>
 
@@ -242,7 +242,7 @@ metadata:
 
 <p>Wykonuje elektryk według projektu, a elementy, które zostaną zakryte – uziom, połączenia w gruncie i w betonie, przewody pod elewacją – sprawdza się i fotografuje przed zakryciem, a kierownik budowy powinien to widzieć na własne oczy. Pomiary po zakończeniu robi osoba z uprawnieniami, często osobny elektryk-pomiarowiec. Protokoły badań instalacji dołącza się do zawiadomienia o zakończeniu budowy – więcej piszę o tym w tekstach o <a href="/blog/zakonczenie-budowy-domu-jakich-formalnosci-trzeba-dopelnic/">formalnościach na zakończenie budowy</a> i o <a href="/blog/protokol-odbioru-instalacji-elektrycznej/">protokole odbioru instalacji elektrycznej</a>. Od wykonawcy powinniście dostać: projekt z naniesionymi zmianami, zdjęcia elementów zakrytych, oznaczenie złącz kontrolnych, protokół pomiarów – ciągłości połączeń, rezystancji złącz i uziemienia – z metodą i kryteriami oraz dokumenty zastosowanych elementów. Sam wpis, że uziemienie ma 8 Ω, nie potwierdza, że cała instalacja jest dobra.</p>
 
-<p>A po wprowadzeniu? Zostają przeglądy, o których warto wiedzieć już przy budowie, bo ich wynik porównuje się z protokołem odbiorczym. Prawo budowlane wymaga co najmniej raz na 5 lat kontroli, która obejmuje „badanie instalacji elektrycznej i piorunochronnej w zakresie stanu sprawności połączeń, osprzętu, zabezpieczeń i środków ochrony od porażeń, oporności izolacji przewodów oraz uziemień” – także w domach jednorodzinnych; tak stanowi <a href="https://eli.gov.pl/eli/DU/2026/524/ogl" rel="nofollow">tekst jednolity z 2026 r.</a> Taką kontrolę mogą przeprowadzić osoby z uprawnieniami budowlanymi w odpowiedniej specjalności albo z kwalifikacjami wymaganymi przy dozorze nad eksploatacją instalacji energetycznych – o te same kwalifikacje warto zapytać osobę, która robi pomiary odbiorcze. Norma zaleca dla klas III–IV oględziny co 2 lata i pełne badanie co 4 lata, a po każdym trafieniu i po każdej przebudowie dachu – sprawdzenie od razu. Dlatego tak ważne jest, żeby protokół odbiorczy był pełny.</p>
+<p>A po wprowadzeniu? Zostają przeglądy, o których warto wiedzieć już przy budowie, bo ich wynik porównuje się z protokołem odbiorczym. Prawo budowlane wymaga co najmniej raz na 5 lat kontroli, która obejmuje „badanie instalacji elektrycznej i piorunochronnej w zakresie stanu sprawności połączeń, osprzętu, zabezpieczeń i środków ochrony od porażeń, oporności izolacji przewodów oraz uziemień” – także w domach jednorodzinnych; tak stanowi <a href="https://eli.gov.pl/eli/DU/2026/524/ogl" rel="nofollow">tekst jednolity z 2026 r.</a> Taką kontrolę mogą przeprowadzić osoby z uprawnieniami budowlanymi w odpowiedniej specjalności albo z kwalifikacjami wymaganymi przy dozorze nad eksploatacją instalacji energetycznych. Norma zaleca dla klas III–IV oględziny co 2 lata i pełne badanie co 4 lata, a po każdym trafieniu i po każdej przebudowie dachu – sprawdzenie od razu. Dlatego tak ważne jest, żeby protokół odbiorczy był pełny.</p>
 
 <h2>Jak rozpoznać zły projekt i złe wykonanie</h2>
 
@@ -288,9 +288,9 @@ metadata:
 
 <p>W książce napisałem o uziomie otokowym, że jest zazwyczaj dużo droższy od szpilek wbijanych w ziemię, jeśli nie wykona się go na etapie prac fundamentowych. Ta zasada dotyczy całej instalacji odgromowej: każdy jej element zrobiony w swoim momencie budowy kosztuje mniej niż dorabiany później.</p>
 
-<h2>Kiedy instalacja nie jest potrzebna i czego piorunochron nie załatwia</h2>
+<h2>Kiedy piorunochron nie jest potrzebny i czego nie załatwia</h2>
 
-<p>Kiedy instalacja odgromowa nie jest potrzebna? Uczciwie: w typowym domu murowanym, stojącym wśród innych zabudowań, z zasilaniem kablem w ziemi i internetem przez światłowód, zwody na dachu zwykle nie są potrzebne, żeby ryzyko dla ludzi zeszło poniżej progu normy, a pierwszeństwo mają dobry uziom, porządna ochrona wejść linii i ochrona urządzeń. Czy dodatkowa ochrona budynku i sprzętu się opłaca, ta analiza nie mówi – to osobny rachunek strat, który możecie zrobić z projektantem. Nie namawiam też na instalację odgromową bez projektu, położoną na wszelki wypadek. Instalacja położona bez liczenia odstępów, przy kablach w połaci i metalu pod pokryciem, może zrobić więcej szkody niż brak instalacji, bo sama zaprasza prąd pioruna pod dach.</p>
+<p>Kiedy piorunochron nie jest potrzebny? Uczciwie: w typowym domu murowanym, stojącym wśród innych zabudowań, z zasilaniem kablem w ziemi i internetem przez światłowód, zwody na dachu zwykle nie są potrzebne, żeby ryzyko dla ludzi zeszło poniżej progu normy, a pierwszeństwo mają dobry uziom, porządna ochrona wejść linii i ochrona urządzeń. Czy dodatkowa ochrona budynku i sprzętu się opłaca, ta analiza nie mówi – to osobny rachunek strat, który możecie zrobić z projektantem. Nie namawiam też na instalację odgromową bez projektu, położoną na wszelki wypadek. Instalacja położona bez liczenia odstępów, przy kablach w połaci i metalu pod pokryciem, może zrobić więcej szkody niż brak instalacji, bo sama zaprasza prąd pioruna pod dach.</p>
 
 <p>Czego piorunochron nie załatwia:</p>
 <ul>
