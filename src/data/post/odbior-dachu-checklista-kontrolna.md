@@ -139,7 +139,7 @@ metadata:
 <li><a href="/blog/plotki-sniegowe-gdzie-montowac/">płotki przeciwśniegowe</a> – wymagane w wielu regionach Polski (dachy ze spadkiem powyżej 20 stopni), zamontowane w odpowiednich miejscach (nad wejściem, nad podjazdem, nad rynnami w miejscach możliwego zsuwania się śniegu)</li>
 <li>uchwyt anteny i wyprowadzenia kablowe – tam, gdzie są planowane, z obróbkami wokół</li>
 <li>siatki przeciw kunom i ptakom – wpięte w okapie i na kalenicy</li>
-<li>piorunochron – jeśli wymagany, zamontowany zgodnie z projektem; uziom sprawdzony pomiarami</li>
+<li><a href="/blog/instalacja-odgromowa-domu-czy-potrzebna/">piorunochron</a> – jeśli wymagany, zamontowany zgodnie z projektem; uziom sprawdzony pomiarami</li>
 </ul>
 
 <h2>Dokumenty po odbiorze</h2>

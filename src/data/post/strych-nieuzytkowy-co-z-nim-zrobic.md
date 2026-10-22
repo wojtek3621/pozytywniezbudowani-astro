@@ -90,7 +90,7 @@ metadata:
 
 <p>Antena, wzmacniacz sygnału TV, router pod dachem – mogą tam być, pamiętając o tym, że elektronika nie lubi skrajnych temperatur. Lepiej wybierać urządzenia o szerokim zakresie pracy lub umieszczać je w obudowach termicznych.</p>
 
-<p>Instalacja odgromowa – jej elementy przewodzące mogą biec po strychu w drodze do uziemienia. Nic tu nie zmieniacie, ale warto wiedzieć, że są.</p>
+<p><a href="/blog/instalacja-odgromowa-domu-czy-potrzebna/">Instalacja odgromowa</a> – jej elementy przewodzące mogą biec po strychu w drodze do uziemienia. Nic tu nie zmieniacie, ale warto wiedzieć, że są.</p>
 
 <h2>Najczęstsze błędy, które widzę na budowach</h2>
 

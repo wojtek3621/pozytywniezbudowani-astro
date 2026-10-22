@@ -105,7 +105,7 @@ metadata:
 
 <p>Zabezpieczenia przeciwprzepięciowe powinny znaleźć się w każdej rozdzielnicy w domu jednorodzinnym. Ich zadaniem jest chronić urządzenia podłączone do prądu w sytuacji, w której w sieci elektrycznej doszłoby do przepięcia – czyli nagłego, krótkotrwałego skoku napięcia. Może się tak zdarzyć w wyniku awarii sieci energetycznej, ale też po uderzeniu pioruna gdzieś w okolicy.</p>
 
-<p>Na rynku dostępne są zabezpieczenia tańsze i droższe. Dla celów ubezpieczeniowych i z zasady „lepsze tanie niż żadne" na budowach często stosuje się te tańsze – i to też jest jakiś poziom ochrony. Jeżeli jednak chcecie zwiększyć szanse, że Wasze urządzenia przetrwają przepięcie powstałe wskutek awarii sieci albo uderzenia pioruna w sieć energetyczną, rozważcie zakup droższych, ale skuteczniejszych modeli.</p>
+<p>Na rynku dostępne są zabezpieczenia tańsze i droższe. Dla celów ubezpieczeniowych i z zasady „lepsze tanie niż żadne" na budowach często stosuje się te tańsze – i to też jest jakiś poziom ochrony. Jeżeli jednak chcecie zwiększyć szanse, że Wasze urządzenia przetrwają przepięcie powstałe wskutek awarii sieci albo <a href="/blog/instalacja-odgromowa-domu-czy-potrzebna/">uderzenia pioruna w sieć energetyczną</a>, rozważcie zakup droższych, ale skuteczniejszych modeli.</p>
 
 <p>Trzeba przy tym pamiętać o jednej rzeczy: żeby zabezpieczenie przeciwprzepięciowe mogło skutecznie zadziałać, uziom musi być wykonany prawidłowo, a wynik pomiarów uziemienia powinien mieścić się poniżej 10 omów. Bez sensownego uziomu zabezpieczenie przeciwprzepięciowe traci znaczną część swojej funkcji.</p>
 
