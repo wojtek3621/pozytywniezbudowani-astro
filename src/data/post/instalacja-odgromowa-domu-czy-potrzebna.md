@@ -23,7 +23,7 @@ metadata:
 
 <h2>Najkrótsza wersja, jeśli decydujecie dzisiaj</h2>
 
-<p><strong>Po pierwsze:</strong> ogólnego obowiązku montowania piorunochronu na domu jednorodzinnym w polskim prawie dziś nie ma. Popularny próg 500 m² i 15 m wysokości to pozostałość dawnej, nieobowiązującej normy – i nawet tam dotyczył budynków dużych i wysokich, nie typowych domów. O potrzebie ochrony decyduje analiza ryzyka według PN-EN 62305-2. W Waszym konkretnym domu instalacja staje się obowiązkowa – z mojego doświadczenia – zwykle przez zatwierdzony projekt budowlany – jeśli projekt ją wpisuje, to ona ma być.</p>
+<p><strong>Po pierwsze:</strong> ogólnego obowiązku montowania piorunochronu na domu jednorodzinnym w polskim prawie dziś nie ma. Popularny próg 500 m² i 15 m wysokości to pozostałość dawnej, nieobowiązującej normy – i nawet tam dotyczył budynków dużych i wysokich, nie typowych domów. O potrzebie ochrony decyduje analiza ryzyka według PN-EN 62305-2. Z mojego doświadczenia instalacja staje się obowiązkowa w Waszym konkretnym domu zwykle przez zatwierdzony projekt budowlany: jeśli projekt ją wpisuje, to ona ma być.</p>
 
 <p><strong>Po drugie:</strong> w typowym domu największa część ryzyka nie siedzi w dachu, tylko w liniach, które wchodzą do budynku – w zasilaniu i w miedzianej linii telefonicznej. W wariantach, które policzyłem dla domu murowanego, poza ścisłą zabudową linie dawały od 78 do 93 % ryzyka utraty życia. Dlatego ograniczniki przepięć na wejściu linii i dobry uziom robią w takim domu więcej niż zwody na dachu.</p>
 
@@ -31,7 +31,7 @@ metadata:
 
 <p><strong>Po czwarte:</strong> jeśli instalacja ma być, decyzję zapisujecie w projekcie przed fundamentami, a nie po pokryciu dachu. Uziom robi się przy robotach ziemnych, przewody odprowadzające przed elewacją, zwody razem z kryciem. Dorabianie po fakcie oznacza kucie, rozkopywanie i kompromisy na dachu.</p>
 
-<p><strong>Po piąte:</strong> zła instalacja odgromowa bywa groźniejsza niż żadna. Przewód położony za blisko kabla w połaci albo metalu pod pokryciem zaprasza prąd pioruna do środka domu. Instalacja położona bez projektu, bo dekarz akurat ma drut, nie jest tańszą wersją dobrej instalacji – jest inną rzeczą.</p>
+<p><strong>Po piąte:</strong> zła instalacja odgromowa bywa groźniejsza niż żadna. Przewód położony za blisko kabla w połaci albo metalu pod pokryciem zaprasza prąd pioruna do środka domu. Instalacja położona bez projektu, bo dekarz akurat ma drut, nie jest tańszą wersją dobrej instalacji, bo nikt nie sprawdził, co leży pod pokryciem i w połaci.</p>
 
 <h2>Co to jest instalacja odgromowa – i co w tym tekście nazywam piorunochronem</h2>
 
@@ -109,7 +109,7 @@ metadata:
 
 <h3>Wasza sytuacja – co robić</h3>
 
-<p>Gdzie w tej układance jest Wasz dom? Tabela nie zastąpi analizy projektanta, ale pozwoli Wam rozmawiać z nim konkretnie. Wszystkie wiersze zakładają, że w domu i tak będą ograniczniki przepięć w rozdzielnicy i porządny uziom – to jest punkt wyjścia, nie opcja.</p>
+<p>Gdzie w tym wszystkim jest Wasz dom? Tabela nie zastąpi analizy projektanta, ale pozwoli Wam rozmawiać z nim konkretnie. Wszystkie wiersze zakładają, że w domu i tak będą ograniczniki przepięć w rozdzielnicy i porządny uziom – to jest punkt wyjścia.</p>
 
 <table>
 <thead>
@@ -139,7 +139,7 @@ metadata:
 
 <h3>Mit trzeci: piorunochron ochroni elektronikę</h3>
 
-<p>To błędne przekonanie bierze się z tego, że jedno słowo opisuje dwie różne rzeczy. Zwody i przewody odprowadzające chronią przed skutkami bezpośredniego trafienia – przed pożarem i zniszczeniem. Elektronikę przed przepięciami chronią ograniczniki przepięć i połączenia wyrównawcze. Dom z piorunochronem i bez ograniczników może stracić elektronikę przy pierwszym wyładowaniu w linię. Co więcej – kiedy na dach wchodzi instalacja odgromowa, ochrona wejść linii staje się obowiązkową częścią tej instalacji, bo przy trafieniu w dom część prądu pioruna i tak popłynie do sieci zewnętrznej przez kable.</p>
+<p>To błędne przekonanie bierze się z tego, że jedno słowo opisuje dwie różne rzeczy. Zwody i przewody odprowadzające chronią przed skutkami bezpośredniego trafienia – przed pożarem i zniszczeniem. Elektronikę przed przepięciami chronią ograniczniki przepięć i połączenia wyrównawcze. Dom z piorunochronem i bez ograniczników może stracić elektronikę przy pierwszym wyładowaniu w linię. Do tego kiedy na dach wchodzi instalacja odgromowa, ochrona wejść linii staje się obowiązkową częścią tej instalacji, bo przy trafieniu w dom część prądu pioruna i tak popłynie do sieci zewnętrznej przez kable.</p>
 
 <h3>Mit czwarty: piorunochron aktywny chroni większy obszar</h3>
 
@@ -157,7 +157,7 @@ metadata:
 
 <h3>Klasa – co oznaczają cyfry I–IV</h3>
 
-<p>Którą klasę wybrać dla domu? Dobiera ją projektant z analizy ryzyka. Dla domów jednorodzinnych Polski Komitet Ochrony Odgromowej SEP proponował klasę III–IV, a dla domów na wzniesieniach i z konstrukcją lub materiałami nieodpornymi na wysoką temperaturę – klasę II, jak podaje tablica 18 w <a href="https://sep.com.pl/opracowania/opracowania_ochr_odgrom_bud.pdf" rel="nofollow">opracowaniu SEP z 2013 r.</a> Klasa nie jest stopniem jakości – określa, jak słabe wyładowania instalacja ma jeszcze przechwycić. Słabe wyładowanie podchodzi bliżej do budynku, zanim uderzy, więc żeby je złapać, zwody muszą stać gęściej. Żadna klasa nie przechwytuje wszystkiego, co widać w ostatniej kolumnie tabeli.</p>
+<p>Którą klasę wybrać dla domu? Dobiera ją projektant z analizy ryzyka. Dla domów jednorodzinnych Polski Komitet Ochrony Odgromowej SEP proponował klasę III–IV, a dla domów na wzniesieniach i z konstrukcją lub materiałami nieodpornymi na wysoką temperaturę – klasę II, jak podaje tablica 18 w <a href="https://sep.com.pl/opracowania/opracowania_ochr_odgrom_bud.pdf" rel="nofollow">opracowaniu SEP z 2013 r.</a> Klasa nie jest stopniem jakości – określa, jak słabe wyładowania instalacja ma jeszcze przechwycić. Słabe wyładowanie podchodzi bliżej do budynku, zanim uderzy, więc żeby je złapać, zwody muszą stać gęściej. Żadna klasa nie przechwytuje wszystkiego, co widać w ostatniej kolumnie tabeli niżej.</p>
 
 <table>
 <thead>
@@ -171,7 +171,7 @@ metadata:
 </tbody>
 </table>
 
-<p>Wartości według PN-EN 62305, w opisie przewodników <a href="https://www.dehn-international.com/sites/default/files/media/files/lpg_en_complete.pdf" rel="nofollow">DEHN</a> i <a href="https://library.e.abb.com/public/ee4d371685e544e09e8d9712fbd716c9/IEC%20BS%20EN%2062305%201%20-%204.pdf" rel="nofollow">ABB</a>. Kula toczona to sposób sprawdzania, które miejsca dachu są osłonięte: wyobraźcie sobie kulę o danym promieniu tocząca się po budynku i zwodach – czego dotknie, to może dostać wyładowanie i wymaga zwodu.</p>
+<p>Wartości według PN-EN 62305, w opisie przewodników <a href="https://www.dehn-international.com/sites/default/files/media/files/lpg_en_complete.pdf" rel="nofollow">DEHN</a> i <a href="https://library.e.abb.com/public/ee4d371685e544e09e8d9712fbd716c9/IEC%20BS%20EN%2062305%201%20-%204.pdf" rel="nofollow">ABB</a>. Kula toczona to sposób sprawdzania, które miejsca dachu są osłonięte: wyobraźcie sobie kulę o danym promieniu toczącą się po budynku i zwodach – czego dotknie, to może dostać wyładowanie i wymaga zwodu.</p>
 
 <h3>Zwody na dachu</h3>
 
@@ -179,11 +179,11 @@ metadata:
 
 <p>Błąd, który widziałem w projektach i na dachach i o którym najrzadziej się mówi, dotyczy tego, czego nie widać. W połaci biegną kable: do lamp w podbitce, do kamer pod okapem, do rolet w oknach dachowych, przewód internetowy do anteny. Pod dachówką leży membrana, a czasem metal – blacha, aluminiowa okładzina płyt ocieplenia, stalowe elementy konstrukcji. Jeśli zwód leży za blisko takiego kabla, przy trafieniu prąd pioruna przeskoczy przez dachówkę i membranę do kabla, a kablem – do środka domu. Dlatego mówię klientom wprost: projekt instalacji odgromowej musi wiedzieć o każdym kablu w połaci, a elektryk i dekarz muszą wiedzieć o sobie nawzajem.</p>
 
-<p>Narzędziem, które tego pilnuje, jest odstęp separacyjny – najmniejsza odległość między instalacją odgromową a metalem lub kablem, przy której nie będzie przeskoku. Projektant liczy go dla każdego zbliżenia: rośnie z klasą i z długością drogi prądu wzdłuż przewodu do najbliższego punktu połączenia wyrównawczego, maleje, gdy przewodów odprowadzających jest więcej, i zależy od tego, co jest pomiędzy – powietrze, mur czy drewno. Co zrobić, gdy odstępu nie da się zachować? Są dwa uczciwe wyjścia: połączyć metal z instalacją odgromową – i wtedy kable przy nim potrzebują ochrony przepięciowej – albo odsunąć zwody – maszty obok domu albo przewody izolowane wysokonapięciowo. Takie przewody mają odstęp równoważny podany przez producenta dla konkretnego wyrobu i własne wymagania montażowe. Zwykła rura z tworzywa nałożona na drut nie jest ich odpowiednikiem.</p>
+<p>Narzędziem, które tego pilnuje, jest odstęp separacyjny – najmniejsza odległość między instalacją odgromową a metalem lub kablem, przy której nie będzie przeskoku. Projektant liczy go dla każdego zbliżenia: rośnie z klasą i z długością drogi prądu wzdłuż przewodu do najbliższego punktu połączenia wyrównawczego, maleje, gdy przewodów odprowadzających jest więcej, i zależy od tego, co jest pomiędzy – powietrze, mur czy drewno. Co zrobić, gdy odstępu nie da się zachować? Są dwa uczciwe wyjścia: połączyć metal z instalacją odgromową, a wtedy kable przy nim potrzebują ochrony przepięciowej, albo odsunąć zwody, czyli postawić maszty obok domu albo użyć przewodów izolowanych wysokonapięciowo. Takie przewody mają odstęp równoważny podany przez producenta dla konkretnego wyrobu i własne wymagania montażowe. Zwykła rura z tworzywa nałożona na drut nie jest ich odpowiednikiem.</p>
 
 <h3>Przewody odprowadzające i złącza kontrolne</h3>
 
-<p>Przewodów odprowadzających są co najmniej dwa, przy narożnikach i możliwie równomiernie po obwodzie, prowadzone prosto i pionowo do uziomu. Ich liczba rośnie z obwodem domu i klasą – w klasie IV typowy odstęp to 20 m, w III 15 m, więc dom o obwodzie 50 m w klasie IV potrzebuje co najmniej trzech, a przy czterech narożnikach zwykle czterech. Przewodu nie wpuszcza się do rury spustowej. Metalową rurę spustową można wykorzystać jako przewód naturalny tylko wtedy, gdy ma trwałe połączenia i wystarczającą ściankę, i to decyduje projekt.</p>
+<p>Instalacja ma co najmniej dwa przewody odprowadzające, przy narożnikach i możliwie równomiernie po obwodzie, prowadzone prosto i pionowo do uziomu. Ich liczba rośnie z obwodem domu i klasą – w klasie IV typowy odstęp to 20 m, w III 15 m, więc dom o obwodzie 50 m w klasie IV potrzebuje co najmniej trzech, a przy czterech narożnikach zwykle czterech. Przewodu nie wpuszcza się do rury spustowej. Metalową rurę spustową można wykorzystać jako przewód naturalny tylko wtedy, gdy ma trwałe połączenia i wystarczającą ściankę, i o tym decyduje projekt.</p>
 
 <p>Na elewacji czy pod ociepleniem? Przewody można prowadzić na uchwytach na gotowej elewacji albo schować je pod ociepleniem. To drugie wygląda lepiej, ale nie jest decyzją ekipy od elewacji: przewód nagrzewa się przy trafieniu, a typowe ocieplenie jest palne. Przewodnik DEHN podaje, że przy ścianie z materiału łatwo zapalnego, gdy nagrzewanie przewodu jest groźne, przewód ma być ponad 0,1 m od ściany. Pod ociepleniem prowadzi się więc przewód według projektu – z określeniem materiału, przekroju i osłony – i odbiera przed zakryciem.</p>
 
@@ -209,7 +209,7 @@ metadata:
 
 <h2>Kto projektuje, kto wykonuje i kiedy na budowie</h2>
 
-<p>Kto ma to policzyć? Projekt instalacji odgromowej jest częścią projektu technicznego, a sporządza go projektant z uprawnieniami budowlanymi w specjalności instalacyjnej w zakresie instalacji elektrycznych. Sam bym to policzył na kolanie, ale to za duża odpowiedzialność, żeby robić ją bez narzędzi i doświadczenia w tej jednej dziedzinie – i nie oczekujcie tego od architekta ani od dekarza. Projektant potrzebuje od Was danych, a Wy potrzebujecie od niego dokumentu, z którego wykonawca nie będzie musiał zgadywać.</p>
+<p>Kto ma to policzyć? Projekt instalacji odgromowej jest częścią projektu technicznego, a sporządza go projektant z uprawnieniami budowlanymi w specjalności instalacyjnej w zakresie instalacji elektrycznych. Sam bym to policzył na kolanie, ale to za duża odpowiedzialność, żeby liczyć bez narzędzi i doświadczenia w tej jednej dziedzinie – i nie oczekujcie tego od architekta ani od dekarza. Projektant potrzebuje od Was danych, a Wy potrzebujecie od niego dokumentu, z którego wykonawca nie będzie musiał zgadywać.</p>
 
 <p>Co dać projektantowi do analizy ryzyka:</p>
 <ul>
@@ -285,7 +285,7 @@ metadata:
 <li><strong>projekt i pomiary</strong> – projekt z analizą ryzyka i protokół odbiorczy to osobne pozycje; oferta bez nich nie jest tańsza, tylko niepełna.</li>
 </ul>
 
-<p>W książce napisałem o uziomie otokowym, że jest zazwyczaj dużo droższy od szpilek wbijanych w ziemię, jeśli nie wykona się go na etapie prac fundamentowych. Ta zasada dotyczy całej instalacji odgromowej: najdrożej kosztuje decyzja odłożona na później.</p>
+<p>W książce napisałem o uziomie otokowym, że jest zazwyczaj dużo droższy od szpilek wbijanych w ziemię, jeśli nie wykona się go na etapie prac fundamentowych. Ta zasada dotyczy całej instalacji odgromowej: każdy jej element zrobiony w swoim momencie budowy kosztuje mniej niż dorabiany później.</p>
 
 <h2>Kiedy instalacja się nie opłaca i czego nie załatwia</h2>
 
@@ -312,7 +312,7 @@ metadata:
 
 <p><strong>Pytanie z wyszukiwarki: czy bez piorunochronu ubezpieczyciel wypłaci odszkodowanie, gdy piorun spali dom?</strong></p>
 
-<p>Przeczytałem dwa aktualne komplety warunków: <a href="https://www.warta.pl/documents/oferta_dla_ciebie/OWU_Warta_Dom_C7177_int.pdf" rel="nofollow">Warta Dom, obowiązujące od 17 maja 2026 r.</a>, i <a href="https://www.mbank.pl/pdf/ind/ubezpieczenia/nieruchomosci/owu-nieruchomosci-od-19-06-2026.pdf" rel="nofollow">ubezpieczenie nieruchomości w mBanku, obowiązujące od 19 czerwca 2026 r.</a> W żadnym nie znalazłem wymogu posiadania piorunochronu, choć Warta wyłącza jednak szkody wynikłe z nieprzestrzegania prawa budowlanego, „o ile miało to wpływ na powstanie lub rozmiar szkody”, i osobno wyłącza wady projektowe i wykonawcze. Z tego wyłączenia zwolnione są pominięte kontrole instalacji gazowej, elektrycznej i przewodów kominowych – instalacja piorunochronna w tym wyjątku nie jest wymieniona. W praktyce więc nie chodzi o to, czy dom ma piorunochron, tylko czy ma to, co przewidział projekt, i czy to działa. Jeśli projekt przewidywał instalację odgromową, a jej nie zrobiliście, ryzykujecie spór o to, czy jej brak miał wpływ na szkodę. W obu warunkach uderzenie pioruna i przepięcie to osobne zdarzenia – sprawdźcie, czy polisa obejmuje przepięcia i do jakiej sumy, bo to one najczęściej niszczą sprzęt. Warunki innych towarzystw mogą się różnić; czytajcie swoje, zanim podpiszecie <a href="/blog/ubezpieczenie-domu-jakie-wybrac-po-wprowadzeniu/">ubezpieczenie domu</a>.</p>
+<p>Przeczytałem dwa aktualne komplety warunków: <a href="https://www.warta.pl/documents/oferta_dla_ciebie/OWU_Warta_Dom_C7177_int.pdf" rel="nofollow">Warta Dom, obowiązujące od 17 maja 2026 r.</a>, i <a href="https://www.mbank.pl/pdf/ind/ubezpieczenia/nieruchomosci/owu-nieruchomosci-od-19-06-2026.pdf" rel="nofollow">ubezpieczenie nieruchomości w mBanku, obowiązujące od 19 czerwca 2026 r.</a> W żadnym nie znalazłem wymogu posiadania piorunochronu, jednak Warta wyłącza szkody wynikłe z nieprzestrzegania prawa budowlanego, „o ile miało to wpływ na powstanie lub rozmiar szkody”, i osobno wyłącza wady projektowe i wykonawcze. Z tego wyłączenia zwolnione są pominięte kontrole instalacji gazowej, elektrycznej i przewodów kominowych – instalacja piorunochronna w tym wyjątku nie jest wymieniona. W praktyce więc nie chodzi o to, czy dom ma piorunochron, tylko czy ma to, co przewidział projekt, i czy to działa. Jeśli projekt przewidywał instalację odgromową, a jej nie zrobiliście, ryzykujecie spór o to, czy jej brak miał wpływ na szkodę. W obu warunkach uderzenie pioruna i przepięcie to osobne zdarzenia – sprawdźcie, czy polisa obejmuje przepięcia i do jakiej sumy, bo to one najczęściej niszczą sprzęt. Warunki innych towarzystw mogą się różnić; czytajcie swoje, zanim podpiszecie <a href="/blog/ubezpieczenie-domu-jakie-wybrac-po-wprowadzeniu/">ubezpieczenie domu</a>.</p>
 
 <p><strong>Przypadek modelowy: fotowoltaikę chcemy założyć za kilka lat. Dach kryjemy teraz, instalacji odgromowej projekt nie przewiduje. Co przygotować?</strong></p>
 
