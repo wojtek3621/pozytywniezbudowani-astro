@@ -457,6 +457,25 @@ metadata:
             overflow-wrap: anywhere;
         }
     }
+
+    /* Czytelność w trybie ciemnym strony i kontrast oznaczeń (22.10.2026, jak kalkulatory POLSTR): reguły
+       motywu bloga (dark:prose-*) malowały tytuł, liczby w polach, nagłówki i pogrubienia ramek na jasno
+       na jasnym tle kalkulatora; kolory oznaczeń wyników miały kontrast 1,9–3,1. */
+    .cable-calculator-container :is(h3,h4,p,li,label,strong,em,small) {color:#333 !important}
+    .cable-calculator-container input {color:#333 !important;background:#fff !important}
+    .cable-calculator-container .calc-detail-label {color:#5a6268 !important}
+    .cable-calculator-container .calc-detail-value.success,
+    .cable-calculator-container .calc-detail-value.voltage-excellent {color:#1e7e34 !important}
+    .cable-calculator-container .calc-detail-value.voltage-good {color:#2e7d32 !important}
+    .cable-calculator-container .calc-detail-value.voltage-acceptable {color:#8a5a00 !important}
+    .cable-calculator-container .calc-detail-value.voltage-warning {color:#a84300 !important}
+    .cable-calculator-container .calc-detail-value.error,
+    .cable-calculator-container .calc-detail-value.voltage-bad {color:#b21f2d !important}
+    .cable-calculator-container .calc-status-recommended {background:#1e7e34 !important;color:#fff !important}
+    .cable-calculator-container .calc-status-not-suitable {background:#b21f2d !important;color:#fff !important}
+    .cable-calculator-container .calc-status-acceptable {color:#333 !important}
+    .cable-calculator-container .calc-comment.warning,
+    .cable-calculator-container .calc-comment.warning :is(p,strong,li) {color:#8f3300 !important}
 </style>
 <div class="cable-calculator-container">
 <h3 class="calc-title">Kalkulator Doboru Kabla Przyłączeniowego</h3>
