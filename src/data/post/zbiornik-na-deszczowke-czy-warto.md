@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-10-21T07:00:00
-order: 4
+order: 6
 updateDate: 2026-10-21T07:00:00
 title: 'Zbiornik na deszczówkę – czy warto i dlaczego to nie jest takie proste'
 excerpt: 'Zbiornik na deszczówkę ma dwie różne funkcje: zatrzymać wodę na działce i dać wodę do podlewania. Policzyłem na 35 latach danych pogodowych, ile realnie daje, kiedy stoi pusty, ile wody idzie przelewem i od czego zależy, czy ma sens akurat u Was.'

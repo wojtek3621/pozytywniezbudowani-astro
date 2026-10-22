@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T12:53:55
-order: 44
+order: 46
 updateDate: 2026-05-31T12:53:55
 title: 'Materiały budowlane – skąd kupować najtaniej? Poradnik praktyka'
 excerpt: 'Większość inwestorów oddaje państwu kilkadziesiąt tysięcy złotych VAT-u, którego płacić nie muszą. Pokazuję, jak tę kwotę zatrzymać w swoim budżecie.'

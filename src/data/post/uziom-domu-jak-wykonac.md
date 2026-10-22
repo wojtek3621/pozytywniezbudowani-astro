@@ -1,8 +1,10 @@
 ---
 publishDate: 2026-10-22T07:00:00
+order: 4
 updateDate: 2026-10-22T07:00:00
 title: 'Uziom w domu – kiedy fundamentowy nie zadziała i jak zrobić taki, który działa'
 excerpt: 'Uziom jest potrzebny w każdym domu, ale fundament, który dziś robimy – szczelny, na kruszywie, często ocieplony – nie zawsze nadaje się na uziom. Piszę, kiedy uziom fundamentowy traci kontakt z gruntem, jak zrobić szpilkę albo otok, z czego, jakim przewodem je podłączyć i jaki wynik pomiaru jest dobry.'
+image: '~/assets/images/blog/uziom-domu-jak-wykonac.jpeg'
 category: 'Blog'
 tags:
   - 'Instalacje i przyłącza'
@@ -17,7 +19,7 @@ metadata:
     follow: true
 ---
 
-<p>Od 2013 roku zajmuję się prawie wszystkim, co ma styczność ze stawianiem domów jednorodzinnych, i uziom należy do rzeczy, o które warto zapytać, zanim powstanie fundament. Uziom w każdym domu jest potrzebny, a odgrom, piorunochron, zazwyczaj nie – choć o tym, czy Wasz dom go wymaga, rozstrzyga projektant po ocenie ryzyka, a nie przyzwyczajenie. Tyle że z uziomem to nie jest tak łatwe jak kiedyś. Fundamenty, które dziś robimy, są szczelne, stoją na grubej warstwie zagęszczonego kruszywa, coraz częściej na ociepleniu. Problem polega na tym, że przez to stal zatopiona w takim fundamencie może nie mieć z gruntem żadnego kontaktu.</p>
+<p>Od 2013 roku zajmuję się prawie wszystkim, co ma styczność ze stawianiem domów jednorodzinnych, i uziom należy do rzeczy, o które warto zapytać, zanim powstanie fundament. Uziom w każdym domu jest potrzebny, a odgrom, piorunochron, zazwyczaj nie – choć o tym, czy Wasz dom go wymaga, rozstrzyga projektant po <a href="/blog/instalacja-odgromowa-domu-czy-potrzebna/">ocenie ryzyka</a>, a nie przyzwyczajenie. Tyle że z uziomem to nie jest tak łatwe jak kiedyś. Fundamenty, które dziś robimy, są szczelne, stoją na grubej warstwie zagęszczonego kruszywa, coraz częściej na ociepleniu. Problem polega na tym, że przez to stal zatopiona w takim fundamencie może nie mieć z gruntem żadnego kontaktu.</p>
 
 <p>W tym tekście piszę, po co jest uziom w domu, który i tak dostaje przewód ochronny z sieci, w jakich fundamentach uziom fundamentowy działa, a w jakich nie, jak zrobić szpilkę albo otok, z czego, jakim przewodem podłączyć uziom do rozdzielnicy i jaki wynik pomiaru możecie uznać za dobry. Na końcu rozpisałem trzy typowe sytuacje – złożone z tego, co widzę na budowach, a nie konkretne listy od czytelników – w sekcji <a href="#pytania-czytelnikow">Pytania czytelników</a>.</p>
 
@@ -253,7 +255,7 @@ metadata:
 
 <p>Jeśli dom ma mieć instalację odgromową, uziom musi spełnić jej wymagania. Norma odgromowa rozróżnia dwa układy uziomów. W pierwszym, typie A, przy każdym przewodzie odprowadzającym stoi osobny uziom, co najmniej dwa na dom; w klasach III–IV uziom poziomy ma mieć co najmniej 5 m, a pionowy co najmniej 2,5 m długości skutecznej – górnego odcinka w strefie przemarzania się do niej nie liczy, więc pręt jest dłuższy. W drugim, typie B, jest otok, który na co najmniej 80% swojej długości leży w gruncie, albo uziom fundamentowy. Dla otoku liczy się promień koła o takiej samej powierzchni, jaką otok obejmuje – w klasach III–IV co najmniej 5 m; jeśli wychodzi mniej, trzeba dołożyć uziomy. Rezystancji uziemienia norma zaleca nie więcej niż 10 Ω. Otok układa się na głębokości co najmniej 0,5 m i ok. 1 m od ścian, przy każdym przewodzie odprowadzającym montuje się złącze kontrolne do pomiarów, a przewód uziemiający musi mieć co najmniej 16 mm² miedzi albo 50 mm² stali.</p>
 
-<p>Te wymagania pochodzą z wydania normy z 2011 roku, które powoływały warunki techniczne; nowe wydanie, PN-EN IEC 62305-3 z 2025 roku, jest już w katalogu Polskiego Komitetu Normalizacyjnego w wersji angielskiej. Czy dom w ogóle potrzebuje instalacji odgromowej, jak wygląda dobry projekt i dlaczego przy uziomie odgromowym liczą się jeszcze napięcia krokowe – to temat na osobny tekst o instalacji odgromowej.</p>
+<p>Te wymagania pochodzą z wydania normy z 2011 roku, które powoływały warunki techniczne; nowe wydanie, PN-EN IEC 62305-3 z 2025 roku, jest już w katalogu Polskiego Komitetu Normalizacyjnego w wersji angielskiej. Czy dom w ogóle potrzebuje instalacji odgromowej, jak wygląda dobry projekt i dlaczego przy uziomie odgromowym liczą się jeszcze napięcia krokowe – to temat na osobny tekst o <a href="/blog/instalacja-odgromowa-domu-czy-potrzebna/">instalacji odgromowej na domu</a>.</p>
 
 <h2>Czego uziom nie załatwia i kiedy coś się nie opłaca</h2>
 

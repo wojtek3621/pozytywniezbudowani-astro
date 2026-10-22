@@ -1,7 +1,9 @@
 ---
 publishDate: 2026-10-22T18:00:00
+order: 3
 title: 'Instalacja odgromowa (piorunochron) na domu – czy jest Wam potrzebna i jak ją zrobić dobrze'
 excerpt: 'W policzonych przeze mnie wariantach typowego domu murowanego o zwykłym zagrożeniu pożarowym piorunochron nie był potrzebny do ochrony ludzi, a uziom i ograniczniki przepięć potrzebne są w każdym domu. Pokazuję, skąd się to bierze, kiedy instalacja odgromowa jest potrzebna i jak sprawdzić, czy projekt i wykonanie są dobre.'
+image: '~/assets/images/blog/instalacja-odgromowa-domu-czy-potrzebna.jpeg'
 category: 'Blog'
 tags:
   - 'Instalacje i przyłącza'
@@ -193,7 +195,7 @@ metadata:
 
 <h3>Uziom – jeden akapit, bo to temat na osobny tekst</h3>
 
-<p>Czego instalacja odgromowa wymaga od uziomu? Norma zna dwa układy: typ A – co najmniej dwa uziomy pojedyncze, po jednym przy przewodzie odprowadzającym, każdy poziomy o długości co najmniej 5 m albo pionowy co najmniej 2,5 m długości skutecznej (odcinka w strefie przemarzania się do niej nie liczy, więc pręt jest dłuższy) w klasach III–IV; i typ B – otok leżący w gruncie na co najmniej 80 % swojej długości albo uziom fundamentowy, obejmujący odpowiednio dużą powierzchnię. Zalecana rezystancja uziemienia to nie więcej niż 10 Ω – to zalecenie normy, a nie twardy wymóg; w układzie typu A przy wyniku poniżej 10 Ω norma pozwala nawet odstąpić od minimalnych długości, ale o tym decyduje projektant. W książce napisałem o ochronie przepięciowej: <strong>Trzeba też pamiętać, że aby takie zabezpieczenie mogło skutecznie zadziałać, uziom musi być wykonany prawidłowo, a wynik pomiarów uziemienia powinien mieścić się poniżej 10 omów.</strong> To mój standard wykonawczy, a nie wymóg normy – i sam wynik poniżej 10 Ω nie dowodzi jeszcze, że cała ochrona działa; liczy się też to, jak ograniczniki są połączone z uziemieniem. Uwaga przy płycie fundamentowej na ociepleniu i przy szczelnej hydroizolacji fundamentów: stal w takim fundamencie nie musi działać jako uziom, więc uziom robi się osobno – otokiem w gruncie wokół domu albo uziomem pionowym – i decyduje się o tym przed betonowaniem. Uziom jest potrzebny w każdym domu, także bez instalacji odgromowej, bo na nim opierają się ochrona przeciwporażeniowa, połączenia wyrównawcze i ograniczniki przepięć.</p>
+<p>Czego instalacja odgromowa wymaga od uziomu? Norma zna dwa układy: typ A – co najmniej dwa uziomy pojedyncze, po jednym przy przewodzie odprowadzającym, każdy poziomy o długości co najmniej 5 m albo pionowy co najmniej 2,5 m długości skutecznej (odcinka w strefie przemarzania się do niej nie liczy, więc pręt jest dłuższy) w klasach III–IV; i typ B – otok leżący w gruncie na co najmniej 80 % swojej długości albo uziom fundamentowy, obejmujący odpowiednio dużą powierzchnię. Zalecana rezystancja uziemienia to nie więcej niż 10 Ω – to zalecenie normy, a nie twardy wymóg; w układzie typu A przy wyniku poniżej 10 Ω norma pozwala nawet odstąpić od minimalnych długości, ale o tym decyduje projektant. W książce napisałem o ochronie przepięciowej: <strong>Trzeba też pamiętać, że aby takie zabezpieczenie mogło skutecznie zadziałać, uziom musi być wykonany prawidłowo, a wynik pomiarów uziemienia powinien mieścić się poniżej 10 omów.</strong> To mój standard wykonawczy, a nie wymóg normy – i sam wynik poniżej 10 Ω nie dowodzi jeszcze, że cała ochrona działa; liczy się też to, jak ograniczniki są połączone z uziemieniem. Uwaga przy płycie fundamentowej na ociepleniu i przy szczelnej hydroizolacji fundamentów: stal w takim fundamencie nie musi działać jako uziom, więc uziom robi się osobno – otokiem w gruncie wokół domu albo uziomem pionowym – i decyduje się o tym przed betonowaniem. Uziom jest potrzebny w każdym domu, także bez instalacji odgromowej, bo na nim opierają się ochrona przeciwporażeniowa, połączenia wyrównawcze i ograniczniki przepięć. Cały temat – otok, uziom fundamentowy, szpilki i pomiar – opisuję w tekście o <a href="/blog/uziom-domu-jak-wykonac/">uziomie w domu</a>.</p>
 
 <h3>Ochrona wejść linii – ograniczniki przepięć</h3>
 
@@ -272,7 +274,7 @@ metadata:
 <li>przewód odprowadzający przy drzwiach wejściowych albo przy tarasie, bez rozwiązania napięcia dotykowego.</li>
 </ul>
 
-<p>Ocynk jest przy tym pełnoprawnym materiałem – sam go stosuję. Pracuje długo, jeśli ma właściwy przekrój i grubość powłoki, jeśli przejście z gruntu jest zabezpieczone, a połączenia są wykonane poprawnie. O uziomach i ich materiałach piszę osobno.</p>
+<p>Ocynk jest przy tym pełnoprawnym materiałem – sam go stosuję. Pracuje długo, jeśli ma właściwy przekrój i grubość powłoki, jeśli przejście z gruntu jest zabezpieczone, a połączenia są wykonane poprawnie. O uziomach i ich materiałach <a href="/blog/uziom-domu-jak-wykonac/">piszę osobno</a>.</p>
 
 <h2>Od czego zależy koszt</h2>
 
