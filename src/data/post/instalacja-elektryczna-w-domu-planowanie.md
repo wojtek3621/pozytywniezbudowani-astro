@@ -58,7 +58,7 @@ metadata:
 
 <h2>Ochrona przepięciowa – co inwestorzy często pomijają</h2>
 
-<p style="text-align: justify;">Przepięcia w sieci elektrycznej to temat, który większość inwestorów kompletnie pomija. A szkody, jakie potrafią wyrządzić, idą w tysiące złotych – zniszczona elektronika, spalony sterownik pompy ciepła, uszkodzona płyta indukcyjna. Przepięcie może pochodzić od wyładowania atmosferycznego (piorun w linię energetyczną lub w pobliżu domu), ale też od operacji łączeniowych w sieci – włączenia i wyłączenia dużych odbiorników w okolicy.</p>
+<p style="text-align: justify;">Przepięcia w sieci elektrycznej to temat, który większość inwestorów kompletnie pomija. A szkody, jakie potrafią wyrządzić, idą w tysiące złotych – zniszczona elektronika, spalony sterownik pompy ciepła, uszkodzona płyta indukcyjna. Przepięcie może pochodzić od <a href="/blog/instalacja-odgromowa-domu-czy-potrzebna/">wyładowania atmosferycznego</a> (piorun w linię energetyczną lub w pobliżu domu), ale też od operacji łączeniowych w sieci – włączenia i wyłączenia dużych odbiorników w okolicy.</p>
 
 <p style="text-align: justify;">Norma PN-HD 60364-4-443, zaktualizowana w 2017 roku, znacząco rozszerzyła wymagania dotyczące stosowania ograniczników przepięć (SPD) w instalacjach domowych. Przed nowelizacją obowiązek montażu SPD dotyczył tylko budynków w rejonach o ponad 25 dniach burzowych rocznie i zasilanych linią napowietrzną. Po nowelizacji – ocena ryzyka przepięciowego uwzględnia znacznie więcej czynników: lokalizację budynku, typ linii zasilającej (napowietrzna czy kablowa), jej długość, rodzaj budynku. W praktyce oznacza to, że niemal każdy nowy dom jednorodzinny powinien mieć zainstalowane ograniczniki przepięć.</p>
 
