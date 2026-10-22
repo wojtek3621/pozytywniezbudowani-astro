@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-10-21T07:00:00
-order: 8
+order: 6
 updateDate: 2026-10-22T07:00:00
 title: 'POLSTR zamiast WIBOR – co to znaczy dla kredytu na budowę domu'
 excerpt: 'WIBOR znika z nowych umów, a jego miejsce ma zająć POLSTR. Piszę, co się zmienia i od kiedy, co z kredytem budowlanym wypłacanym w transzach, czy podpisywać aneks od banku i jak porównać stałą stopę ze zmienną, żeby nie kierować się samą nazwą wskaźnika.'

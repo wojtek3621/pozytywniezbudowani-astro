@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T11:00:17
-order: 5
+order: 3
 updateDate: 2026-10-21T07:00:00
 title: 'Drenaż wokół domu i fundamentów – kiedy jest potrzebny, a kiedy szkodzi'
 excerpt: 'Drenaż wokół domu chroni przed wodą, która spiętrza się w gruncie przy fundamencie, i działa tylko wtedy, gdy ma ją dokąd oddać. Pokazuję, od czego zależy, czy go potrzebujecie, jak go zrobić dobrze i kiedy szkodzi.'

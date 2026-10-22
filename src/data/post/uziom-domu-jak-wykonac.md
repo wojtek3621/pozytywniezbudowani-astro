@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-10-22T07:00:00
-order: 4
+order: 8
 updateDate: 2026-10-22T07:00:00
 title: 'Uziom w domu – kiedy fundamentowy nie zadziała i jak zrobić taki, który działa'
 excerpt: 'Uziom jest potrzebny w każdym domu, ale fundament, który dziś robimy – szczelny, na kruszywie, często ocieplony – nie zawsze nadaje się na uziom. Piszę, kiedy uziom fundamentowy traci kontakt z gruntem, jak zrobić szpilkę albo otok, z czego, jakim przewodem je podłączyć i jaki wynik pomiaru jest dobry.'

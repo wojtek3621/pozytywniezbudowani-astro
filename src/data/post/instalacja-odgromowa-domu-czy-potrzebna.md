@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-10-22T18:00:00
-order: 3
+order: 7
 title: 'Instalacja odgromowa (piorunochron) na domu – czy jest Wam potrzebna i jak ją zrobić dobrze'
 excerpt: 'W policzonych przeze mnie wariantach typowego domu murowanego o zwykłym zagrożeniu pożarowym piorunochron nie był potrzebny do ochrony ludzi, a uziom i ograniczniki przepięć potrzebne są w każdym domu. Pokazuję, skąd się to bierze, kiedy instalacja odgromowa jest potrzebna i jak sprawdzić, czy projekt i wykonanie są dobre.'
 image: '~/assets/images/blog/instalacja-odgromowa-domu-czy-potrzebna.jpeg'
