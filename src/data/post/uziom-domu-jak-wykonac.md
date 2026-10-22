@@ -51,7 +51,7 @@ metadata:
 
 <p>Część domów jest zasilana w innym układzie, w którym operator nie doprowadza przewodu ochronnego – nazywa się go TT. Wtedy uziom domu jest częścią ochrony przeciwporażeniowej: jego rezystancja razem z wyłącznikiem różnicowoprądowym decyduje, czy przy uszkodzeniu prąd zostanie wyłączony na czas. Wymaganą wartość liczy elektryk dla konkretnego wyłącznika. Jaki układ ma Wasza sieć, podaje operator w warunkach przyłączenia – warto to sprawdzić, zanim zapadnie decyzja o uziomie.</p>
 
-<p>Są jeszcze ograniczniki przepięć. W każdej nowej instalacji powinny być w rozdzielnicy, a ich zadanie polega na tym, aby przepięcie odprowadzić do szyny uziemiającej. Dla ich działania liczą się krótkie i grube połączenia z szyną i porządny uziom. W źródłach, które sprawdziłem, nie znalazłem jednej przepisowej wartości rezystancji uziomu dla ograniczników w domu; wymagania konkretnego urządzenia podaje jego dokumentacja. Tak samo z falownikiem fotowoltaiki, magazynem energii, ładowarką samochodu i pompą ciepła – potrzebują pewnego połączenia z układem uziemiającym domu. To połączenie z tym samym, jednym uziomem, a nie osobne uziomy dla każdego urządzenia.</p>
+<p>Są jeszcze ograniczniki przepięć. W każdej nowej instalacji powinny być w <a href="/blog/rozdzielnica-elektryczna-co-powinna-zawierac/">rozdzielnicy</a>, a ich zadanie polega na tym, aby przepięcie odprowadzić do szyny uziemiającej. Dla ich działania liczą się krótkie i grube połączenia z szyną i porządny uziom. W źródłach, które sprawdziłem, nie znalazłem jednej przepisowej wartości rezystancji uziomu dla ograniczników w domu; wymagania konkretnego urządzenia podaje jego dokumentacja. Tak samo z falownikiem fotowoltaiki, magazynem energii, ładowarką samochodu i pompą ciepła – potrzebują pewnego połączenia z układem uziemiającym domu. To połączenie z tym samym, jednym uziomem, a nie osobne uziomy dla każdego urządzenia.</p>
 
 <p>Jeśli dom ma mieć instalację odgromową, uziom jest jej trzecią częścią i musi spełnić jej wymagania – piszę o nich w osobnej sekcji niżej. Więcej o planowaniu całej elektryki, w tym o ogranicznikach przepięć, w tekście o <a href="/blog/instalacja-elektryczna-w-domu-planowanie/">planowaniu instalacji elektrycznej w domu</a>.</p>
 
@@ -247,7 +247,7 @@ metadata:
 </tbody>
 </table>
 
-<p>Jak podłączyć prąd na czas budowy, opisuję w tekście o <a href="/blog/prad-na-budowe-jak-podlaczyc/">prądzie na budowę</a>.</p>
+<p>Jak podłączyć prąd na czas budowy, opisuję w tekście o <a href="/blog/prad-na-budowe-jak-podlaczyc/">prądzie na budowę</a>, a co jeszcze trzeba zaplanować wokół domu, zanim położycie kostkę – w tekście o <a href="/blog/zagospodarowanie-terenu-wokol-domu/">zagospodarowaniu terenu wokół domu</a>.</p>
 
 <h2>Uziom pod instalację odgromową</h2>
 

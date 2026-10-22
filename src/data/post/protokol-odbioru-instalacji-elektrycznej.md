@@ -73,7 +73,7 @@ metadata:
 
 <h3>Pomiar rezystancji uziemienia</h3>
 
-<p>Uziemienie Waszego domu powinno mieć rezystancję poniżej 30 Ω wymaganą normą, a w praktyce dąży się do wartości poniżej 10 Ω – to wartość bezpieczna i szczególnie istotna, jeśli dom ma instalację odgromową (tam norma PN-EN 62305 wymaga już ≤ 10 Ω dla uziomu LPS). Najczęściej stosuje się dwie metody: uziom otokowy (bednarka ułożona wokół fundamentów) albo uziom pionowy (szpilki wbijane w grunt). W obu przypadkach efekt końcowy musi być potwierdzony pomiarem. Jeśli wynik wychodzi powyżej akceptowalnego progu, trzeba dołożyć kolejne szpilki albo poprawić istniejący uziom – i ponowić pomiar.</p>
+<p>Uziemienie Waszego domu powinno mieć rezystancję poniżej 30 Ω wymaganą normą, a w praktyce dąży się do wartości poniżej 10 Ω – to wartość bezpieczna i szczególnie istotna, jeśli dom ma instalację odgromową (tam norma PN-EN 62305 wymaga już ≤ 10 Ω dla uziomu LPS). Najczęściej stosuje się dwie metody: <a href="/blog/uziom-domu-jak-wykonac/">uziom otokowy</a> (bednarka ułożona wokół fundamentów) albo uziom pionowy (szpilki wbijane w grunt). W obu przypadkach efekt końcowy musi być potwierdzony pomiarem. Jeśli wynik wychodzi powyżej akceptowalnego progu, trzeba dołożyć kolejne szpilki albo poprawić istniejący uziom – i ponowić pomiar.</p>
 
 <h3>Sprawdzenie kolejności i biegunowości</h3>
 

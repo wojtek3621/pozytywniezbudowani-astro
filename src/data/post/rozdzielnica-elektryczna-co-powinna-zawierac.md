@@ -107,7 +107,7 @@ metadata:
 
 <p>Na rynku dostępne są zabezpieczenia tańsze i droższe. Dla celów ubezpieczeniowych i z zasady „lepsze tanie niż żadne" na budowach często stosuje się te tańsze – i to też jest jakiś poziom ochrony. Jeżeli jednak chcecie zwiększyć szanse, że Wasze urządzenia przetrwają przepięcie powstałe wskutek awarii sieci albo uderzenia pioruna w sieć energetyczną, rozważcie zakup droższych, ale skuteczniejszych modeli.</p>
 
-<p>Trzeba przy tym pamiętać o jednej rzeczy: żeby zabezpieczenie przeciwprzepięciowe mogło skutecznie zadziałać, uziom musi być wykonany prawidłowo, a wynik pomiarów uziemienia powinien mieścić się poniżej 10 omów. Bez sensownego uziomu zabezpieczenie przeciwprzepięciowe traci znaczną część swojej funkcji.</p>
+<p>Trzeba przy tym pamiętać o jednej rzeczy: żeby zabezpieczenie przeciwprzepięciowe mogło skutecznie zadziałać, uziom musi być wykonany prawidłowo, a wynik pomiarów uziemienia powinien mieścić się poniżej 10 omów. Bez <a href="/blog/uziom-domu-jak-wykonac/">sensownego uziomu</a> zabezpieczenie przeciwprzepięciowe traci znaczną część swojej funkcji.</p>
 
 <p>Standardowo w rozdzielnicy stosuje się zabezpieczenia typu 1+2 – najczęściej w jednym urządzeniu zajmującym cztery pola na szynie DIN. Przed samym urządzeniem podłączonym do prądu należałoby dodatkowo użyć zabezpieczenia typu 3. Jeżeli dom jest duży, a co za tym idzie – instalacja też jest rozległa, może być konieczne zastosowanie dodatkowych zabezpieczeń pomiędzy zabezpieczeniem typu 1+2 w rozdzielnicy a zabezpieczeniem typu 3 przy urządzeniu, które chcecie chronić.</p>
 

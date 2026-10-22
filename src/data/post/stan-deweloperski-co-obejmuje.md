@@ -41,7 +41,7 @@ metadata:
 
 <h3>Przyłącza do budynku i uziom</h3>
 
-<p>Kolejna grupa prac to przyłącza: prądu, wody, kanalizacji, gazu (jeśli dotyczy), internetu. Do tego dochodzi uziemienie budynku, najczęściej w postaci uziomu pionowego ze szpilek lub uziomu otokowego z bednarki. Bez prawidłowo wykonanego uziomu, potwierdzonego pomiarami opornościowymi, dom nie spełnia podstawowych wymogów elektrycznych, a późniejsze odebranie pomiarów elektrycznych staje się problematyczne.</p>
+<p>Kolejna grupa prac to przyłącza: prądu, wody, kanalizacji, gazu (jeśli dotyczy), internetu. Do tego dochodzi <a href="/blog/uziom-domu-jak-wykonac/">uziemienie budynku</a>, najczęściej w postaci uziomu pionowego ze szpilek lub uziomu otokowego z bednarki. Bez prawidłowo wykonanego uziomu, potwierdzonego pomiarami opornościowymi, dom nie spełnia podstawowych wymogów elektrycznych, a późniejsze odebranie pomiarów elektrycznych staje się problematyczne.</p>
 
 <p>W zakres stanu deweloperskiego wchodzą zazwyczaj odcinki przyłączy do budynku oraz wprowadzenie ich do pomieszczenia technicznego. Kwestia, kto wykonuje przyłącze po stronie zewnętrznego dostawcy mediów, a kto po stronie inwestora, bywa źródłem nieporozumień – warto w umowie wskazać granicę odpowiedzialności jednoznacznie.</p>
 
