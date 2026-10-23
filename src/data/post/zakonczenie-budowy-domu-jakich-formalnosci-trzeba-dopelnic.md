@@ -32,6 +32,7 @@ metadata:
 	<li>oświadczenie kierownika budowy o zgodności wykonania obiektu budowlanego z projektem lub warunkami pozwolenia na budowę;</li>
 	<li>oświadczenie o właściwym zagospodarowaniu terenów przyległych (nie zawsze) – niezbędne wtedy, gdy możliwość użytkowania domu uzależniona jest od ich odpowiedniego zagospodarowania;</li>
 	<li>dokumentacja geodezyjna – mapkę powykonawczą przygotowuje geodeta, najczęściej ten sam, który przygotowywał mapę do celów projektowych i wytyczał budynek;</li>
+	<li>kopia albo wydruk świadectwa charakterystyki energetycznej – od 28 kwietnia 2023 roku, z wyjątkiem domu do 70 m² budowanego w trybie uproszczonym; co w nim jest i jak je zamówić, opisuję w tekście o <a href="/blog/swiadectwo-charakterystyki-energetycznej-domu/">świadectwie charakterystyki energetycznej domu</a>;</li>
 	<li>protokół odbioru pionów wentylacyjnych oraz kominów spalinowych wystawiony przez kominiarza;</li>
 	<li>protokół odbioru przyłącza wodnego, kanalizacyjnego oraz elektrycznego;</li>
 	<li>protokół z pomiarów elektrycznych wystawiony przez elektryka z odpowiednimi uprawnieniami pomiarowymi;</li>

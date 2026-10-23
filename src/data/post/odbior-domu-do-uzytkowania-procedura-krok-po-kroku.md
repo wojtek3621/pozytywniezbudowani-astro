@@ -54,7 +54,7 @@ metadata:
 
 <p style="text-align: justify;">Jeśli w budynku jest komin (wentylacyjny, spalinowy lub dymowy), potrzebujecie opinii kominiarskiej potwierdzającej prawidłowe wykonanie przewodów. Natomiast jeśli macie wentylację mechaniczną z rekuperacją zamiast tradycyjnych kominów wentylacyjnych, wymagany jest protokół z pomiarów wydajności instalacji podpisany przez kierownika budowy ze specjalnością instalacyjną.</p>
 
-<p style="text-align: justify;">Do dokumentacji musicie dołączyć też świadectwo charakterystyki energetycznej budynku. To dokument określający, ile energii pierwotnej zużywa Wasz dom w przeliczeniu na metr kwadratowy rocznie. Świadectwo sporządza osoba z odpowiednimi uprawnieniami – najczęściej audytor energetyczny.</p>
+<p style="text-align: justify;">Do dokumentacji musicie dołączyć też <a href="/blog/swiadectwo-charakterystyki-energetycznej-domu/">świadectwo charakterystyki energetycznej</a> budynku. To dokument określający, ile energii pierwotnej zużywa Wasz dom w przeliczeniu na metr kwadratowy rocznie. Świadectwo sporządza osoba z odpowiednimi uprawnieniami – najczęściej audytor energetyczny.</p>
 
 <h2 style="text-align: justify;">Kiedy potrzebne są dodatkowe uzgodnienia</h2>
 
