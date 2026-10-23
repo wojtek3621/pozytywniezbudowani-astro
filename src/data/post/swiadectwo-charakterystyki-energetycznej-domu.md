@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-10-23T07:00:00
+order: 10
 title: 'Świadectwo charakterystyki energetycznej domu – kiedy jest potrzebne, co mówi o domu i jak nie dostać świadectwa zza biurka'
 excerpt: 'Świadectwo energetyczne dołączacie do zawiadomienia o zakończeniu budowy domu, ale jego wynik zapada dużo wcześniej – w projekcie i na budowie. Piszę, kiedy jest obowiązkowe, jak czytać EU, EK i EP, co przygotować dla osoby, która je sporządza, jak rozpoznać świadectwo, które nic o domu nie mówi, i co zmienia unijna dyrektywa z klasami A–G.'
 image: '~/assets/images/blog/swiadectwo-charakterystyki-energetycznej-domu.jpeg'
@@ -71,7 +72,7 @@ metadata:
 
 <p>Drugi dokument, świadectwo, powstaje po budowie. Art. 6 ustawy pozwala oprzeć je na charakterystyce z projektu technicznego, ale z uwzględnieniem odstępstw od projektu, a art. 4 ust. 2 każe uwzględnić parametry techniczne konstrukcji, instalacji i źródła ciepła. Czyli świadectwo ma opisywać dom zbudowany, a nie dom zaprojektowany. Na wielu budowach projektowana charakterystyka to strona w projekcie, której nikt nie czyta, a w trakcie budowy zdarza się, że ściana wychodzi lepsza niż w adaptacji, ponieważ inwestor dołożył izolacji. Liczy się to, co faktycznie stoi.</p>
 
-<p>Krąży też w sieci twierdzenie, że świadectwo trzeba dołączyć do wniosku o pozwolenie na budowę. To nieprawda. Do wniosku o pozwolenie dołącza się projekt zagospodarowania działki i projekt architektoniczno-budowlany, które organ zatwierdza. Świadectwo dołącza się na końcu, do zawiadomienia o zakończeniu budowy.</p>
+<p>Krąży też w sieci twierdzenie, że świadectwo trzeba dołączyć do wniosku o pozwolenie na budowę. To nieprawda. Do <a href="/blog/pozwolenie-na-budowe-jak-uzyskac-krok-po-kroku/">wniosku o pozwolenie</a> dołącza się projekt zagospodarowania działki i projekt architektoniczno-budowlany, które organ zatwierdza. Świadectwo dołącza się na końcu, do zawiadomienia o zakończeniu budowy.</p>
 
 <p>Ważna konsekwencja dla budujących: świadectwo odzwierciedla zmianę wprowadzoną na budowie, ale jej nie legalizuje. Zgodnie z art. 36b Prawa budowlanego odstąpienie od projektu technicznego jest dopuszczalne dopiero po wprowadzeniu zmian przez projektanta, a zmiany rozwiązań, które wcześniej uzgadniano, wymagają ponownego uzgodnienia. Jeśli zmiana dotyczy projektu architektoniczno-budowlanego, projektant kwalifikuje ją jako istotną lub nieistotną. Jedna zmiana jest w art. 36a ust. 5 pkt 7 wymieniona wprost jako istotna i dotyczy właśnie tematu tego tekstu: zmiana źródła ciepła do ogrzewania lub ciepłej wody z gazowego, olejowego, odnawialnego czy sieciowego na źródło na paliwo stałe. O tym, co da się zmienić w gotowym projekcie i jak, piszę w tekście <a href="/blog/adaptacja-projektu-gotowego-co-mozna-zmienic/">o adaptacji projektu gotowego</a>.</p>
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-17T21:54:16
-order: 24
+order: 25
 updateDate: 2026-10-21T12:00:00
 title: 'Nowe przepisy budowlane 2026 – co obowiązuje, a co dopiero wejdzie'
 excerpt: 'Plan ogólny, Rejestr Urbanistyczny, dziennik budowy, warunki techniczne, dom do 70 m² i świadectwo energetyczne – co obowiązuje Waszą budowę dziś i które daty są naprawdę graniczne.'

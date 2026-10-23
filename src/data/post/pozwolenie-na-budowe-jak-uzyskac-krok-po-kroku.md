@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-02-04T12:16:11
-order: 23
+order: 9
 updateDate: 2026-10-23T12:00:00
 title: 'Pozwolenie na budowę domu – jak je uzyskać za pierwszym podejściem'
 excerpt: 'Czy Wasz dom w ogóle potrzebuje pozwolenia, co musi być gotowe przed projektem, jakie dokumenty idą do urzędu, ile czeka się na decyzję, kiedy wolno zacząć budowę i co wolno potem zmienić. Każdy termin sprawdzony w Dzienniku Ustaw.'
@@ -296,7 +296,7 @@ metadata:
 <li><strong>Wejście na działkę sąsiada.</strong> Jeżeli do robót potrzebne jest wejście na sąsiednią nieruchomość, przed robotami uzyskujecie zgodę właściciela i uzgadniacie z nim sposób, zakres i terminy korzystania oraz ewentualną rekompensatę. Bez porozumienia urząd na Wasz wniosek rozstrzyga sprawę decyzją w 14 dni, a milczenie sąsiada nie jest zgodą. Niezależnie od rekompensaty po zakończeniu robót musicie naprawić szkody, które powstały przy korzystaniu z jego nieruchomości – mówi o tym art. 47 ust. 3 Prawa budowlanego.</li>
 <li><strong>Bezpieczeństwo konstrukcji</strong>, ponieważ urząd w postępowaniu o pozwolenie nie zatwierdza projektu technicznego. Za konstrukcję odpowiadają projektanci, a na budowie kierownik, i dlatego wybór projektantów i kierownika jest ważniejszy niż sama pieczątka na decyzji.</li>
 <li><strong>Kredyt.</strong> Z mojego doświadczenia bank finansujący budowę chce widzieć pozwolenie albo przyjęte zgłoszenie, a ich kopia jest na liście dokumentów do wniosku kredytowego.</li>
-<li><strong>Zamieszkanie.</strong> Do użytkowania domu przystępuje się zwykle po zawiadomieniu o zakończeniu budowy, jeżeli nadzór budowlany w 14 dni nie zgłosi sprzeciwu. Pozwolenie na użytkowanie jest potrzebne między innymi wtedy, gdy chcecie zamieszkać przed wykonaniem wszystkich robót, a inwestor może je też wybrać zamiast zawiadomienia. Do zawiadomienia o zakończeniu budowy dołączacie między innymi świadectwo charakterystyki energetycznej, poza domem do 70 m² budowanym w trybie uproszczonym, który art. 57 Prawa budowlanego z tego obowiązku zwalnia. Co jeszcze trzeba złożyć, opisuję w tekście <a href="/blog/zakonczenie-budowy-domu-jakich-formalnosci-trzeba-dopelnic/">zakończenie budowy domu – formalności</a>.</li>
+<li><strong>Zamieszkanie.</strong> Do użytkowania domu przystępuje się zwykle po zawiadomieniu o zakończeniu budowy, jeżeli nadzór budowlany w 14 dni nie zgłosi sprzeciwu. Pozwolenie na użytkowanie jest potrzebne między innymi wtedy, gdy chcecie zamieszkać przed wykonaniem wszystkich robót, a inwestor może je też wybrać zamiast zawiadomienia. Do zawiadomienia o zakończeniu budowy dołączacie między innymi <a href="/blog/swiadectwo-charakterystyki-energetycznej-domu/">świadectwo charakterystyki energetycznej</a>, poza domem do 70 m² budowanym w trybie uproszczonym, który art. 57 Prawa budowlanego z tego obowiązku zwalnia. Co jeszcze trzeba złożyć, opisuję w tekście <a href="/blog/zakonczenie-budowy-domu-jakich-formalnosci-trzeba-dopelnic/">zakończenie budowy domu – formalności</a>.</li>
 </ul>
 
 <h2>Jak sprawdzić pozwolenie na budowę – swoje i sąsiada</h2>
