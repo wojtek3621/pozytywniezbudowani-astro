@@ -42,7 +42,7 @@ metadata:
 
 <p style="text-align: justify;">Następnie architekt dostosowuje projekt do warunków gruntowo-wodnych. Jeśli badania geotechniczne pokazują, że na Waszej działce jest wysoki poziom wód gruntowych lub grunty o niskiej nośności, może zaproponować zmianę sposobu fundamentowania. Zamiast tradycyjnych ław fundamentowych może być konieczna płyta fundamentowa. To są decyzje, które mają ogromne znaczenie dla bezpieczeństwa i kosztów budowy.</p>
 
-<p style="text-align: justify;">Architekt adaptuje również projektowaną charakterystykę energetyczną budynku, uwzględniając rozwiązania budowlane, które faktycznie zostaną zrealizowane – rodzaj ogrzewania, sposób wentylacji, grubość ocieplenia. To nie jest akademickie ćwiczenie – od tych wyliczeń zależy, czy Wasz dom będzie spełniał aktualne wymagania energetyczne.</p>
+<p style="text-align: justify;">Architekt adaptuje również projektowaną <a href="/blog/swiadectwo-charakterystyki-energetycznej-domu/">charakterystykę energetyczną budynku</a>, uwzględniając rozwiązania budowlane, które faktycznie zostaną zrealizowane – rodzaj ogrzewania, sposób wentylacji, grubość ocieplenia. To nie jest akademickie ćwiczenie – od tych wyliczeń zależy, czy Wasz dom będzie spełniał aktualne wymagania energetyczne.</p>
 
 <p style="text-align: justify;">Do dokumentacji autor adaptacji musi dołączyć kopię swoich uprawnień zawodowych, zaświadczenie o przynależności do izby zawodowej, oświadczenie o zgodności projektu z przepisami i zasadami wiedzy technicznej aktualne na dzień wykonania adaptacji oraz informację dotyczącą bezpieczeństwa i ochrony zdrowia na budowie. To wszystko razem tworzy komplet dokumentów, który składacie w urzędzie, ubiegając się o pozwolenie na budowę.</p>
 
