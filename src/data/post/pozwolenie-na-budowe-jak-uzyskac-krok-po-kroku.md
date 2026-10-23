@@ -29,7 +29,7 @@ metadata:
 <h2>Najkrótsza wersja</h2>
 
 <ol>
-<li><strong>Wolno stojący dom z obszarem oddziaływania na Waszej działce</strong> możecie zbudować na zgłoszenie z projektem albo na pozwolenie, a wybór należy do Was – tak stanowi art. 29 Prawa budowlanego. Pozwolenie jest obowiązkowe, gdy obszar oddziaływania wychodzi poza działkę, gdy projekt wymaga odstępstwa od przepisów techniczno-budowlanych, gdy budowa wymaga oceny oddziaływania na środowisko, a także przy bliźniaku i segmencie szeregowca.</li>
+<li><strong>Wolno stojący dom z obszarem oddziaływania na Waszej działce</strong> możecie zbudować na zgłoszenie z projektem albo na pozwolenie, a wybór należy do Was – mówi o tym art. 29 Prawa budowlanego. Pozwolenie jest obowiązkowe, gdy obszar oddziaływania wychodzi poza działkę, gdy projekt wymaga odstępstwa od przepisów techniczno-budowlanych, gdy budowa wymaga oceny oddziaływania na środowisko, a także przy bliźniaku i segmencie szeregowca.</li>
 <li><strong>Wniosek składacie na formularzu PB-1</strong> u starosty właściwego dla działki, a w mieście na prawach powiatu u prezydenta miasta – na papierze z projektem w 3 egzemplarzach lub elektronicznie przez portal e-Budownictwo.</li>
 <li><strong>Do urzędu idą dwie z trzech części projektu</strong>, czyli projekt zagospodarowania działki i projekt architektoniczno-budowlany. Projekt techniczny musi być gotowy przed rozpoczęciem robót, a nie przed wnioskiem.</li>
 <li><strong>Pozwolenie na dom mieszkalny nie podlega opłacie skarbowej.</strong> Jeżeli wniosek składa za Was architekt, płacicie 17 zł za pełnomocnictwo, chyba że pełnomocnikiem jest ktoś z najbliższej rodziny.</li>
@@ -70,7 +70,7 @@ metadata:
 
 <h2>Zanim architekt usiądzie do projektu: działka, plan, mapa, grunt</h2>
 
-<p>Pozwolenie dostaje projekt, który pasuje do konkretnej działki. Jeżeli działka ma problem, wyjdzie on w urzędzie dopiero po miesiącach pracy architekta, dlatego cztery rzeczy sprawdzacie, zanim ktokolwiek zacznie rysować.</p>
+<p>Pozwolenie dostaje się na projekt dopasowany do konkretnej działki. Jeżeli działka ma problem, wyjdzie on w urzędzie dopiero po miesiącach pracy architekta, dlatego cztery rzeczy sprawdzacie, zanim ktokolwiek zacznie rysować.</p>
 
 <h3>Prawo do działki na cele budowlane</h3>
 
@@ -96,7 +96,7 @@ metadata:
 
 <ul>
 <li><strong>Nowy zjazd z drogi publicznej</strong> wymaga zezwolenia zarządcy drogi na lokalizację zjazdu, wydawanego decyzją, które dołącza się do wniosku o pozwolenie lub do zgłoszenia – wymaga tego art. 29 ustawy o drogach publicznych. Przy drodze krajowej lub wojewódzkiej projekt zawiera też oświadczenie zarządcy drogi o możliwości połączenia działki z drogą.</li>
-<li><strong>Grunt rolny klas I–III lub grunt leśny</strong> wymaga decyzji o wyłączeniu z produkcji rolnej lub leśnej, którą wydaje się przed pozwoleniem albo zgłoszeniem i dołącza do wniosku – tak stanowi art. 11 ustawy o ochronie gruntów rolnych i leśnych. Klasę gruntu sprawdzicie w wypisie z ewidencji, a więcej piszę w tekście o <a href="/blog/dzialka-rolna-pod-budowe-domu-odrolnienie/">działce rolnej pod budowę domu</a>.</li>
+<li><strong>Grunt rolny klas I–III lub grunt leśny</strong> wymaga decyzji o wyłączeniu z produkcji rolnej lub leśnej, którą wydaje się przed pozwoleniem albo zgłoszeniem i dołącza do wniosku – wynika to z art. 11 ustawy o ochronie gruntów rolnych i leśnych. Klasę gruntu sprawdzicie w wypisie z ewidencji, a więcej piszę w tekście o <a href="/blog/dzialka-rolna-pod-budowe-domu-odrolnienie/">działce rolnej pod budowę domu</a>.</li>
 <li><strong>Na obszarze wpisanym do rejestru zabytków</strong> potrzebujecie pozwolenia wojewódzkiego konserwatora lub zgłoszenia konserwatorskiego, wobec którego nie wniósł sprzeciwu. Jeżeli działka jest tylko w gminnej ewidencji zabytków, urząd wydaje pozwolenie w uzgodnieniu z konserwatorem, który ma na stanowisko 30 dni.</li>
 </ul>
 
@@ -109,7 +109,7 @@ metadata:
 <ul>
 <li><strong>Projekt zagospodarowania działki</strong> pokazuje dom na mapie: granice działki, usytuowanie i obrys budynku, sieci i urządzenia poza budynkiem, sposób odprowadzania ścieków, układ komunikacyjny i zieleni, wymiary, rzędne i odległości oraz obszar oddziaływania. W części rysunkowej znajdziecie też rzędne terenu istniejącego i projektowanego, wejścia i wjazdy, sposób odprowadzania wód opadowych i przyłącza, czego wymaga § 15 rozporządzenia o projekcie budowlanym.</li>
 <li><strong>Projekt architektoniczno-budowlany</strong> to rzuty, przekroje, elewacje i opis budynku, a w nim opinia geotechniczna i sposób posadowienia.</li>
-<li><strong>Projekt techniczny</strong> to konstrukcja z obliczeniami, instalacje i rozwiązania materiałowe, a w przypadku budynków także charakterystyka energetyczna. Do urzędu go nie składacie, jednak musi być gotowy przed rozpoczęciem robót i zgodny z dwiema zatwierdzonymi częściami. Do zawiadomienia o rozpoczęciu budowy dołączacie oświadczenie projektanta, a jeżeli sprawdzenie jest wymagane, także sprawdzającego, że projekt techniczny został sporządzony. Do nadzoru budowlanego trafia on dopiero przy zakończeniu budowy.</li>
+<li><strong>Projekt techniczny</strong> to konstrukcja z obliczeniami, instalacje i rozwiązania materiałowe, a w przypadku budynków także charakterystyka energetyczna. Do urzędu go nie składacie, jednak musi być gotowy przed rozpoczęciem robót i zgodny z dwiema zatwierdzonymi częściami. Do zawiadomienia o rozpoczęciu budowy dołączacie oświadczenie projektanta, a jeżeli sprawdzenie jest wymagane, także sprawdzającego, że projekt techniczny został sporządzony. Nadzorowi budowlanemu składacie go dopiero razem z zawiadomieniem o zakończeniu budowy.</li>
 </ul>
 
 <p>Do każdej części projektu projektant dołącza oświadczenie, że sporządził ją zgodnie z przepisami i zasadami wiedzy technicznej, oraz kopię uprawnień i zaświadczenia o przynależności do izby. Kopii nie trzeba, o ile uprawnienia i projektant są w centralnym rejestrze. Do projektu dołącza się też opinie i uzgodnienia z przepisów odrębnych oraz informację dotyczącą bezpieczeństwa i ochrony zdrowia, którą przygotowuje projektant. Na projekcie domu podpisuje się kilku projektantów, każdy w swojej branży, ponieważ adaptacja projektu gotowego to praca zespołu, a nie jednej osoby.</p>
@@ -130,9 +130,9 @@ metadata:
 <li><strong>Poziom zero</strong>, czyli wysokość, na jakiej stanie parter względem terenu – od niej zależą schody wejściowe, podjazd i to, dokąd spłynie woda, o czym piszę w tekście <a href="/blog/poziom-zero-budynku-co-to-jest-jak-ustalic/">poziom zero budynku – jak go ustalić</a>.</li>
 <li><strong>Usytuowanie domu i odległość od drogi.</strong> Czy budynek jest wystarczająco odsunięty od drogi, aby można było wjechać, zaparkować i zamknąć bramę? Brama będzie przesuwna czy rozwierna i ile zostaje ogrodu z tyłu?</li>
 <li><strong>Wjazd i miejsca postojowe</strong>, ponieważ jeżeli nie macie garażu, wcale nie jest oczywiste, gdzie staną samochody, a lepiej od razu zaprojektować je tam, gdzie mają być.</li>
-<li><strong>Utwardzenia i tarasy</strong>, o których ustalcie z architektem, czy i w jakiej formie wchodzą do projektu.</li>
+<li><strong>Utwardzenia i tarasy</strong> – ustalcie z architektem, czy i w jakiej formie wchodzą do projektu.</li>
 <li><strong>Przebieg przyłączy</strong> prądu, wody, kanalizacji i gazu, narysowany od razu mniej więcej tak, jak będą przebiegać.</li>
-<li><strong>Woda opadowa</strong>, której sposób zagospodarowania to w dokumentacji jeden punkt w opisie i adnotacja na mapie. Jeżeli jednak narysujecie na przykład zbiornik na deszczówkę, rysunek staje się wiążący i odejście od niego trzeba będzie potem wyjaśniać.</li>
+<li><strong>Woda opadowa.</strong> Sposób jej zagospodarowania to w dokumentacji jeden punkt w opisie i adnotacja na mapie. Jeżeli jednak narysujecie na przykład zbiornik na deszczówkę, rysunek staje się wiążący i odejście od niego trzeba będzie potem wyjaśniać.</li>
 </ol>
 
 <p>Druga sprawa to dach. Jeżeli w kupionym projekcie zastosowano lekkie pokrycie, na przykład blachodachówkę, a Wy chcecie dachówkę ceramiczną lub betonową, to może się okazać, że konstrukcja dachu nie jest na to przygotowana. To ważna informacja dla architekta adaptującego i trzeba mu ją przekazać teraz – o ile sam już o to nie zapytał. Do tego kąt nachylenia dachu musi zgadzać się z planem miejscowym lub z warunkami zabudowy, a z mojego doświadczenia urząd najdokładniej sprawdza właśnie parametry z planu, takie jak powierzchnia biologicznie czynna i kąty dachu. Więcej o tym, co wolno zmienić w projekcie gotowym, piszę w tekstach o <a href="/blog/adaptacja-projektu-gotowego-co-mozna-zmienic/">adaptacji projektu gotowego</a>, o <a href="/blog/kat-nachylenia-dachu-jak-wplywa-na-projekt-i-koszty/">kącie nachylenia dachu</a> i o tym, <a href="/blog/projekt-zagospodarowania-terenu-co-zawiera/">co zawiera projekt zagospodarowania terenu</a>.</p>
@@ -143,7 +143,7 @@ metadata:
 
 <h2>Wniosek o pozwolenie na budowę krok po kroku</h2>
 
-<p><strong>Gdzie go złożyć?</strong> Pozwolenie na dom wydaje co do zasady starosta, a w mieście na prawach powiatu zadania starosty wykonuje prezydent miasta, na podstawie art. 92 ustawy o samorządzie powiatowym. Właściwy jest urząd według położenia działki, a nie według Waszego adresu zamieszkania – tak stanowi art. 21 § 1 Kodeksu postępowania administracyjnego, który dalej nazywam KPA.</p>
+<p><strong>Gdzie go złożyć?</strong> Pozwolenie na dom wydaje co do zasady starosta, a w mieście na prawach powiatu zadania starosty wykonuje prezydent miasta, na podstawie art. 92 ustawy o samorządzie powiatowym. Właściwy jest urząd według położenia działki, a nie Waszego adresu zamieszkania – wskazuje to art. 21 § 1 Kodeksu postępowania administracyjnego, który dalej nazywam KPA.</p>
 
 <p><strong>Na jakim formularzu?</strong> Wniosek składa się na formularzu PB-1, którego nowy wzór stosuje się od 4 marca 2026 roku, a rozporządzenie z tym wzorem ogłoszono w Dz.U. 2026 poz. 255. Na papierze składacie go w urzędzie lub wysyłacie pocztą. Elektronicznie robicie to w portalu e-Budownictwo: wypełniacie formularz, podpisujecie go podpisem kwalifikowanym, zaufanym lub osobistym z e-dowodu i wysyłacie. Portal przekazuje wnioski do urzędów przez e-Doręczenia, które zastąpiły ePUAP, jak podał Główny Urząd Nadzoru Budowlanego w komunikacie z 6 marca 2026 roku. Samo zapisanie formularza nie jest złożeniem wniosku, a datą wszczęcia sprawy złożonej elektronicznie jest dzień wystawienia dowodu otrzymania – tak stanowi art. 61 § 3a KPA. Zachowajcie ten dowód, ponieważ od niego liczycie terminy urzędu.</p>
 
@@ -188,7 +188,7 @@ metadata:
 
 <p>Jeżeli znajdzie nieprawidłowości, nakłada postanowieniem obowiązek ich usunięcia w określonym terminie, a gdy go nie wykonacie, odmawia pozwolenia. Odmówi też, jeżeli przed decyzją rozpoczęliście roboty albo na działce stoi obiekt z ostatecznym nakazem rozbiórki. Gdy wszystkie wymagania są spełnione, urząd nie może odmówić. Jeżeli do projektu potrzebne jest uzgodnienie innego organu, ma on na nie 14 dni, a brak stanowiska w tym terminie uznaje się za brak zastrzeżeń, z wyjątkiem spraw, w których stanowisko wyraża się decyzją.</p>
 
-<p>Stronami postępowania jesteście Wy jako inwestor oraz właściciele, użytkownicy wieczyści i zarządcy nieruchomości położonych w obszarze oddziaływania domu – tak stanowi art. 28 ust. 2 Prawa budowlanego. Jeżeli obszar oddziaływania mieści się na Waszej działce, sąsiedzi stronami nie są. Każda strona ma prawo wglądu w akta sprawy.</p>
+<p>Według art. 28 ust. 2 Prawa budowlanego stronami postępowania jesteście Wy jako inwestor oraz właściciele, użytkownicy wieczyści i zarządcy nieruchomości położonych w obszarze oddziaływania domu. Jeżeli obszar oddziaływania mieści się na Waszej działce, sąsiedzi stronami nie są. Każda strona ma prawo wglądu w akta sprawy.</p>
 
 <h2>Ile to trwa – terminy urzędu i Wasze</h2>
 
@@ -196,7 +196,7 @@ metadata:
 
 <p>Gdy urząd przekroczy 65 dni, organ wyższego stopnia, czyli wojewoda, wymierza mu karę 500 zł za każdy dzień zwłoki. Wpływy z kar są dochodem budżetu państwa, a przy przedsięwzięciach z oceną oddziaływania na środowisko kary w ogóle nie ma. Niezależnie od tego KPA wymaga załatwienia sprawy bez zbędnej zwłoki: sprawy wymagającej postępowania wyjaśniającego w ciągu miesiąca, a szczególnie skomplikowanej w ciągu dwóch miesięcy. O każdym niezałatwieniu sprawy w terminie urząd zawiadamia Was, podaje przyczynę i nowy termin oraz poucza o prawie do ponaglenia. Ponaglenie wnosicie do organu wyższego stopnia za pośrednictwem starostwa, jednak ponaglenie złożone przed upływem terminu zostaje bez rozpoznania, co wynika z art. 37 KPA.</p>
 
-<p>W praktyce najdłużej czekaliśmy mniej więcej pół roku, przy domu, w którym garaż miał płaski dach, a plan go nie przewidywał. Dużo zależy też od tego, na kogo w starostwie sprawa trafi. Co realnie wydłuża czekanie i jak to wygląda w urzędach, opisuję w tekście <a href="/blog/ile-trwa-uzyskanie-pozwolenia-na-budowe/">ile trwa uzyskanie pozwolenia na budowę</a>.</p>
+<p>W mojej praktyce najdłuższe czekanie trwało mniej więcej pół roku, przy domu, w którym garaż miał płaski dach, a plan go nie przewidywał. Dużo zależy też od tego, na kogo w starostwie sprawa trafi. Co realnie wydłuża czekanie i jak to wygląda w urzędach, opisuję w tekście <a href="/blog/ile-trwa-uzyskanie-pozwolenia-na-budowe/">ile trwa uzyskanie pozwolenia na budowę</a>.</p>
 
 <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
 <thead>
@@ -253,7 +253,7 @@ metadata:
 
 <h3>Ile ważne jest pozwolenie na budowę</h3>
 
-<p>Pozwolenie wygasa, jeżeli budowy nie rozpoczęto przed upływem 3 lat od dnia, w którym decyzja stała się ostateczna, albo jeżeli budowę przerwano na dłużej niż 3 lata – tak stanowi art. 37 Prawa budowlanego. Liczy się dzień ostateczności, a nie dzień wydania decyzji. Rozpoczęciem są realne prace przygotowawcze, a ich dowodem wpis w dzienniku budowy, natomiast samo zawiadomienie o planowanym rozpoczęciu albo odebranie dziennika budową nie jest. Po wygaśnięciu rozpoczęcie lub wznowienie budowy jest możliwe dopiero po wydaniu nowej decyzji o pozwoleniu na budowę.</p>
+<p>Pozwolenie wygasa, jeżeli budowy nie rozpoczęto przed upływem 3 lat od dnia, w którym decyzja stała się ostateczna, albo jeżeli budowę przerwano na dłużej niż 3 lata – tak stanowi art. 37 Prawa budowlanego. Liczy się dzień ostateczności, a nie dzień wydania decyzji. Rozpoczęciem są realne prace przygotowawcze, a ich dowodem wpis w dzienniku budowy, natomiast samo zawiadomienie o planowanym rozpoczęciu albo odebranie dziennika rozpoczęciem budowy nie jest. Po wygaśnięciu rozpoczęcie lub wznowienie budowy jest możliwe dopiero po wydaniu nowej decyzji o pozwoleniu na budowę.</p>
 
 <h3>Zmiany w projekcie po pozwoleniu</h3>
 
@@ -292,10 +292,10 @@ metadata:
 
 <ul>
 <li><strong>Wycinka drzew</strong> to osobna sprawa w gminie, u wójta, burmistrza lub prezydenta miasta. Właściciel działki, który jest osobą fizyczną i usuwa drzewa na cele niezwiązane z działalnością gospodarczą, zgłasza zamiar usunięcia drzew powyżej progów obwodu pnia. Urząd ma wtedy 21 dni na oględziny i 14 dni po nich na sprzeciw, a drzewo można usunąć dopiero po tym terminie, co wynika z art. 83f ustawy o ochronie przyrody. Szczegóły znajdziecie w tekście <a href="/blog/dzialka-z-drzewami-wycinka-i-formalnosci/">działka z drzewami – wycinka i formalności</a>.</li>
-<li><strong>Przyłącza</strong>, ponieważ pozwolenie może ich nie obejmować, a przyłącza buduje się według osobnych zasad i umów z dostawcami. Pozwolenie jest natomiast potrzebne, aby dostawca w ogóle podłączył budowę.</li>
+<li><strong>Przyłącza</strong>, ponieważ pozwolenie może ich nie obejmować, a przyłącza buduje się według osobnych zasad i umów z dostawcami. Pozwolenie albo przyjęte zgłoszenie musicie natomiast okazać, zanim dostawca zacznie dostarczać prąd, wodę czy gaz na potrzeby budowy.</li>
 <li><strong>Wejście na działkę sąsiada.</strong> Jeżeli do robót potrzebne jest wejście na sąsiednią nieruchomość, przed robotami uzyskujecie zgodę właściciela i uzgadniacie z nim sposób, zakres i terminy korzystania oraz ewentualną rekompensatę. Bez porozumienia urząd na Wasz wniosek rozstrzyga sprawę decyzją w 14 dni, a milczenie sąsiada nie jest zgodą.</li>
 <li><strong>Bezpieczeństwo konstrukcji</strong>, ponieważ urząd w postępowaniu o pozwolenie nie zatwierdza projektu technicznego. Za konstrukcję odpowiadają projektanci, a na budowie kierownik, i dlatego wybór projektantów i kierownika jest ważniejszy niż sama pieczątka na decyzji.</li>
-<li><strong>Kredyt</strong>, bo bank finansujący budowę chce widzieć pozwolenie albo przyjęte zgłoszenie, a kopia jest na liście dokumentów. Bez jednego z nich wniosku kredytowego nie dokończycie.</li>
+<li><strong>Kredyt.</strong> Z mojego doświadczenia bank finansujący budowę chce widzieć pozwolenie albo przyjęte zgłoszenie, a ich kopia jest na liście dokumentów do wniosku kredytowego.</li>
 <li><strong>Zamieszkanie.</strong> Do użytkowania domu przystępuje się zwykle po zawiadomieniu o zakończeniu budowy, jeżeli nadzór budowlany w 14 dni nie zgłosi sprzeciwu. Pozwolenie na użytkowanie jest potrzebne między innymi wtedy, gdy chcecie zamieszkać przed wykonaniem wszystkich robót, a inwestor może je też wybrać zamiast zawiadomienia. Do zawiadomienia o zakończeniu budowy dołączacie między innymi świadectwo charakterystyki energetycznej, poza domem do 70 m² budowanym w trybie uproszczonym, który art. 57 Prawa budowlanego z tego obowiązku zwalnia. Co jeszcze trzeba złożyć, opisuję w tekście <a href="/blog/zakonczenie-budowy-domu-jakich-formalnosci-trzeba-dopelnic/">zakończenie budowy domu – formalności</a>.</li>
 </ul>
 
@@ -342,7 +342,7 @@ metadata:
 
 <p><strong>Pytanie z wyszukiwarki: „Mamy pozwolenie na jeden projekt, a chcemy zbudować zupełnie inny dom. Czy wystarczy zmiana pozwolenia?”</strong></p>
 
-<p>Prawo budowlane nie ma osobnej procedury na „inny dom”, ma natomiast decyzję o zmianie pozwolenia, w której urząd stosuje przepisy o wydawaniu pozwolenia w zakresie zmiany – tak stanowi art. 36a ust. 3 Prawa budowlanego. Przy zupełnie innym domu zakres zmiany obejmuje praktycznie cały projekt zagospodarowania i cały projekt architektoniczno-budowlany, a więc składacie nowe projekty i nowe oświadczenia projektantów, a urząd sprawdza je tak samo jak przy pierwszym wniosku.</p>
+<p>Prawo budowlane nie ma osobnej procedury na „inny dom”, ma natomiast decyzję o zmianie pozwolenia, w której urząd stosuje przepisy o wydawaniu pozwolenia w zakresie zmiany – przewiduje to art. 36a ust. 3 Prawa budowlanego. Przy zupełnie innym domu zakres zmiany obejmuje praktycznie cały projekt zagospodarowania i cały projekt architektoniczno-budowlany, a więc składacie nowe projekty i nowe oświadczenia projektantów, a urząd sprawdza je tak samo jak przy pierwszym wniosku.</p>
 
 <p>Pewne są dwie rzeczy. Robót według nowego projektu nie wolno zacząć przed decyzją o zmianie, ponieważ istotne odstąpienie jest dopuszczalne jedynie po jej uzyskaniu. Nowy dom musi też zmieścić się w planie miejscowym lub w ważnych warunkach zabudowy, a jeżeli Wasze warunki zabudowy wygasły albo nowy dom ich nie spełnia, potrzebne będą nowe – w gminie bez planu ogólnego nowej decyzji o warunkach zabudowy na wniosek złożony od 1 września 2026 roku jednak nie dostaniecie. Jeżeli nowy dom jest wolno stojący, a jego obszar oddziaływania mieści się na działce, możecie też zamiast zmiany pozwolenia wybrać zgłoszenie z nowym projektem. Którą drogą iść w Waszym przypadku, ustalcie z architektem, zanim zamówicie nowy projekt.</p>
 
@@ -352,7 +352,7 @@ metadata:
 
 <p>Złożenie pełnomocnictwa kosztuje 17 zł od każdego stosunku pełnomocnictwa. Jeżeli inwestorami jesteście we dwoje i każde z Was udziela pełnomocnictwa architektowi, zapytajcie w urzędzie, ile opłat to oznacza, ponieważ ustawa liczy opłatę od każdego stosunku pełnomocnictwa, a nie od kartki papieru. Jeżeli wniosek składa za Was mąż, żona, rodzic, dziecko albo brat czy siostra, opłaty nie ma, a samo pozwolenie na dom mieszkalny opłaty skarbowej nie wymaga.</p>
 
-<p>Macie pytanie o swoją sytuację? Napiszcie przez <a href="/kontakt/">formularz kontaktowy</a>, a wybrane pytania, po usunięciu danych, które mogłyby Was rozpoznać, dopiszę do tej sekcji. Odpowiadam w nich o przepisach w ujęciu ogólnym, a nie udzielam porady prawnej dla konkretnej działki.</p>
+<p>Macie pytanie o swoją sytuację? Napiszcie przez <a href="/kontakt/">formularz kontaktowy</a>, a wybrane pytania, po usunięciu danych, które mogłyby Was rozpoznać, dopiszę do tej sekcji. Odpowiadam w nich o przepisach w ujęciu ogólnym, bez porady prawnej dla konkretnej działki.</p>
 
 <h2>Wasza lista kontrolna</h2>
 
@@ -369,7 +369,7 @@ metadata:
 <li>Każdą zmianę w projekcie zgłaszajcie projektantowi, zanim ją wykonacie.</li>
 </ol>
 
-<p>Stan prawny opisuję na dzień 23 października 2026 roku i będę aktualizował tekst, gdy w Dzienniku Ustaw ukażą się nowe warunki techniczne albo zmiany w procedurze. Tekst ma charakter informacyjny i opisuje przepisy w ujęciu ogólnym, a nie zastępuje analizy prawnej konkretnej działki. Przy sporze z urzędem albo z sąsiadem skonsultujcie swoją sprawę z prawnikiem.</p>
+<p>Stan prawny opisuję na dzień 23 października 2026 roku i będę aktualizował tekst, gdy w Dzienniku Ustaw ukażą się nowe warunki techniczne albo zmiany w procedurze. Tekst ma charakter informacyjny, opisuje przepisy w ujęciu ogólnym i nie zastępuje analizy prawnej konkretnej działki. Przy sporze z urzędem albo z sąsiadem skonsultujcie swoją sprawę z prawnikiem.</p>
 
 <h2>Źródła</h2>
 
