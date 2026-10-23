@@ -17,17 +17,20 @@
 // sam mówi „rejestracja wkrótce”), drugie na ekran logowania dla tych, którzy
 // dostęp już mają.
 //
-// LICZBA NARZĘDZI = 9, nie 18. Wsad misji mówił o 18, ale to liczba plików HTML
-// w platforma/content/html/ – z czego 9 to materiały do książki. Rejestr treści
-// (platforma/content/lessons.py → TOOL_SLUGS) ma dokładnie 9 pozycji w module
-// narzędzi i tyle samo deklaruje /centrum („Dziewięć narzędzi”). Zmiana tej liczby
-// = najpierw sprawdź TOOL_SLUGS, potem popraw TU i na /centrum jednocześnie.
+// LICZBA NARZĘDZI = 11 (od 2026-10-23, po kalkulatorach POLSTR z misji KALK-P).
+// Liczymy to, co widzi czytelnik książki, czyli stara powłoka Centrum:
+// 10 kalkulatorów + checklista. Rejestr (platforma/content/kalkulatory.py →
+// KALKULATORY, TOOL_SLUGS) ma 12 pozycji – dwunasta to kalkulator kabla, widoczny
+// wyłącznie w nowej powłoce (access=centrum3). Zmiana tej liczby = najpierw sprawdź
+// rejestr i flagi powłoki, potem popraw TU (opis strony, nagłówek, lista niżej)
+// i na /centrum jednocześnie. Bramka prawdy w AIOS (context/prawda-produktu/
+// rejestr.yaml → narzedzia-liczba) czyta oba pliki z gałęzi main.
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
   title: 'Narzędzia i kalkulatory budowlane – Centrum Dowodzenia Budową | Pozytywnie Zbudowani',
   description:
-    'Dziewięć narzędzi do policzenia budowy: rata i nadpłata kredytu, transze i karencja, wkład własny, VAT na materiały, prawdziwy koszt inwestycji. Każdy kalkulator zweryfikowany matematycznie.',
+    'Jedenaście narzędzi do policzenia budowy: rata i nadpłata kredytu, transze i karencja, wkład własny, VAT na materiały, prawdziwy koszt inwestycji. Każdy kalkulator zweryfikowany matematycznie.',
 };
 
 // Stan rejestracji – patrz komentarz wyżej. Otwarcie = flip na true RAZEM
@@ -37,7 +40,7 @@ const SIGNUP_OPEN = false;
 const grupy = [
   {
     naglowek: 'Kredyt i rata',
-    opis: 'Pięć rachunków, które decydują o tym, ile naprawdę oddacie bankowi.',
+    opis: 'Siedem rachunków, które decydują o tym, ile naprawdę oddacie bankowi.',
     narzedzia: [
       {
         tytul: 'Rata kredytu hipotecznego',
@@ -58,6 +61,14 @@ const grupy = [
       {
         tytul: 'Test wzrostu WIBOR',
         opis: 'Stress-test budżetu: o ile urośnie rata przy WIBOR wyższym o 1, 2 i 4 punkty procentowe.',
+      },
+      {
+        tytul: 'Rata po zmianie wskaźnika (WIBOR i POLSTR)',
+        opis: 'Porównanie raty przed zmianą wskaźnika i po niej, z marżą i spreadem z aneksu.',
+      },
+      {
+        tytul: 'Stała, okresowo stała czy zmienna (raty równe)',
+        opis: 'Raty, odsetki i saldo w okresie stałej stopy oraz próg zmiany wskaźnika.',
       },
     ],
   },
@@ -100,7 +111,7 @@ const grupy = [
         Narzędzia w Centrum Dowodzenia Budową
       </p>
       <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-5">
-        Dziewięć narzędzi, żeby policzyć budowę
+        Jedenaście narzędzi, żeby policzyć budowę
       </h1>
       <p class="text-lg text-slate-300 leading-relaxed mb-8">
         Rata i nadpłata kredytu, koszt karencji przy transzach, wkład własny, VAT na materiałach, prawdziwy koszt całej
@@ -152,8 +163,8 @@ const grupy = [
         Co dokładnie jest w środku
       </h2>
       <p class="text-muted text-lg text-center max-w-3xl mx-auto mb-10">
-        Osiem kalkulatorów i jedna checklista. Każdy kalkulator przeszedł niezależną weryfikację matematyczną – wynik z
-        narzędzia był liczony drugi raz, osobnym programem, i musiał się zgodzić.
+        Dziesięć kalkulatorów i jedna checklista. Każdy kalkulator przeszedł niezależną weryfikację matematyczną – wynik
+        z narzędzia był liczony drugi raz, osobnym programem, i musiał się zgodzić.
       </p>
 
       {
