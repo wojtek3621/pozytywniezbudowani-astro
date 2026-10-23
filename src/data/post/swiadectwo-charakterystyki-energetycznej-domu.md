@@ -60,7 +60,7 @@ metadata:
 <tr><td>Dom jednorodzinny na pozwolenie na budowę lub na zwykłe zgłoszenie, kończycie budowę</td><td>tak, kopia lub wydruk do zawiadomienia o zakończeniu budowy, chyba że budynek mieści się w wyłączeniach z trzeciego wiersza</td><td>zamówcie świadectwo, gdy dom jest skończony, a projekt techniczny ma naniesione wszystkie zmiany; nie składajcie zawiadomienia bez niego</td></tr>
 <tr><td>Dom do 70 m² powierzchni zabudowy w trybie art. 29 ust. 1 pkt 1a, na własne potrzeby mieszkaniowe</td><td>do zawiadomienia nie, art. 57 ust. 1bb</td><td>świadectwo i tak będzie potrzebne, jeśli kiedyś sprzedacie lub wynajmiecie dom, o ile nie mieści się on w wyłączeniach z ustawy</td></tr>
 <tr><td>Budynek wolnostojący o powierzchni użytkowej poniżej 50 m² albo dom przeznaczony do użytkowania najwyżej 4 miesiące w roku</td><td>nie, to wyłączenia z ustawy o charakterystyce energetycznej</td><td>sprawdźcie, czy powierzchnia użytkowa naprawdę jest poniżej 50 m², a nie równa 50</td></tr>
-<tr><td>W trakcie budowy zmieniliście źródło ciepła, okna albo izolację względem projektu</td><td>tak, i musi opisywać dom po zmianach</td><td>najpierw zmiana w projekcie, którą wprowadza projektant, potem świadectwo z nowych danych; zmiana źródła gazowego, olejowego, odnawialnego czy sieciowego na paliwo stałe to odstąpienie istotne</td></tr>
+<tr><td>W trakcie budowy zmieniliście źródło ciepła, okna albo izolację względem projektu</td><td>tak, chyba że budynek mieści się w wyłączeniach z trzeciego wiersza; świadectwo musi opisywać dom po zmianach</td><td>najpierw zmiana w projekcie, którą wprowadza projektant, potem świadectwo z nowych danych; zmiana źródła gazowego, olejowego, odnawialnego czy sieciowego na paliwo stałe to odstąpienie istotne</td></tr>
 <tr><td>Świadectwo jest, a po odbiorze wymieniacie źródło ciepła albo docieplacie dom</td><td>stare traci ważność</td><td>nowe będzie potrzebne dopiero przy sprzedaży albo najmie</td></tr>
 <tr><td>Bank kredytujący budowę pyta o EP albo o świadectwo</td><td>zależy od warunków Waszej umowy kredytowej</td><td>zapytajcie bank przed zamówieniem świadectwa, jakiego dokumentu, z jakiego etapu i z jaką wartością wymaga</td></tr>
 </table>
@@ -101,7 +101,7 @@ metadata:
 <p>Wymagania dla domów projektowanych przez ostatnie lata wynikały z <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220001225">rozporządzenia w sprawie warunków technicznych</a> z 2002 roku, którego tekst jednolity jest w Dz.U. 2022 poz. 1225. Według § 329 dla domu jednorodzinnego od 31 grudnia 2020 roku cząstkowe EP na ogrzewanie, wentylację i ciepłą wodę wynosi 70 kWh/m² rocznie. Jeśli dom ma instalację chłodzenia, dolicza się ΔEP<sub>C</sub> = 5·A<sub>f,C</sub>/A<sub>f</sub>, czyli przy chłodzeniu całego domu wymaganie wynosi 75. Drugim wymaganiem są maksymalne współczynniki przenikania ciepła U przegród i okien z załącznika nr 2. To z nimi porównuje się U uzyskane, wpisane na świadectwie. Dla pomieszczeń o temperaturze co najmniej 16°C wynoszą:</p>
 
 <table>
-<tr><th>Przegroda</th><th>Maksymalne U od 31 grudnia 2020 roku, dla ścian, dachu i podłogi jako skorygowane U<sub>C</sub></th></tr>
+<tr><th>Przegroda</th><th>Maksymalne U od 31 grudnia 2020 roku, dla ścian, dachu, stropów i podłogi jako skorygowane U<sub>C</sub></th></tr>
 <tr><td>ściana zewnętrzna</td><td>0,20 W/(m²·K)</td></tr>
 <tr><td>dach, stropodach, strop pod nieogrzewanym poddaszem</td><td>0,15 W/(m²·K)</td></tr>
 <tr><td>podłoga na gruncie</td><td>0,30 W/(m²·K)</td></tr>
@@ -165,11 +165,11 @@ metadata:
 
 <p>Na szczelność duży wpływ mają montaż okien i drzwi, połączenia przegród i przejścia instalacji. Uważam, że ze wszystkich rzeczy, na które trzeba zwrócić uwagę podczas montażu okien, to, aby zostały one zamontowane szczelnie, jest najważniejsze. Od osoby, która liczy świadectwa moim klientom, usłyszałem też, że szczelny montaż wyraźnie poprawia wynik świadectwa – w obliczeniu widać to wtedy, gdy wynik próby szczelności trafi do świadectwa. O samym montażu piszę w tekście <a href="/blog/montaz-okien-warstwie-ocieplenia-cieply-montaz/">o ciepłym montażu okien</a>.</p>
 
-<p>Dwie rzeczy, których nie należy mylić. Próba szczelności budynku to pomiar całej obudowy domu, zupełnie co innego niż próba szczelności instalacji gazowej, której protokół dołączacie do zawiadomienia. A szczelność obudowy dotyczy powietrza, które ucieka przez szpary i nieszczelności. Uszczelnianie obudowy nie zastępuje wentylacji: dopływ i wywiew powietrza potrzebnego do oddychania projektuje projektant instalacji wentylacyjnej, a im szczelniejszy dom, tym ważniejsze, aby ten dopływ był zaprojektowany.</p>
+<p>Dwie rzeczy, których nie należy mylić. Próba szczelności budynku to pomiar całej obudowy domu, zupełnie co innego niż próba szczelności instalacji gazowej, której protokół dołączacie do zawiadomienia. A szczelność obudowy dotyczy powietrza, które ucieka przez szpary i nieszczelności. Uszczelnianie obudowy nie zastępuje wentylacji: dopływ i wywiew powietrza potrzebnego do oddychania projektuje projektant instalacji wentylacyjnej. Przy wentylacji innej niż mechaniczna nawiewna lub nawiewno-wywiewna warunki techniczne każą zapewnić dopływ powietrza przez urządzenia nawiewne w oknach albo innych częściach ścian zewnętrznych.</p>
 
 <h3>Wentylacja i rekuperacja</h3>
 
-<p>Rekuperator odzyskuje część ciepła z powietrza wywiewanego, a metodologia uwzględnia jego skuteczność przy obliczaniu strat ciepła na wentylację. To pomaga w EP, ale nie jest warunkiem jego spełnienia. Jako wykonawca po 2021 roku budowałem domy bez rekuperacji i za każdym razem udało się uzyskać wymagany współczynnik EP, choć faktycznie, było to trudniejsze. Jeśli nie chcecie montować rekuperacji, przedyskutujcie z architektem adaptującym Wasz projekt, jaką wartość EP osiągniecie bez niej. Porównanie obu rozwiązań znajdziecie w tekście <a href="/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac/">rekuperacja czy wentylacja grawitacyjna</a>.</p>
+<p>Rekuperator odzyskuje część ciepła z powietrza wywiewanego, a metodologia uwzględnia jego skuteczność przy obliczaniu strat ciepła na wentylację. To obniża w obliczeniu straty ciepła na wentylację, choć wentylatory rekuperatora zużywają prąd liczony jako energia pomocnicza; rekuperacja pomaga więc w EP, ale nie jest warunkiem jego spełnienia. Jako wykonawca po 2021 roku budowałem domy bez rekuperacji i za każdym razem udało się uzyskać wymagany współczynnik EP, choć faktycznie, było to trudniejsze. Jeśli nie chcecie montować rekuperacji, przedyskutujcie z architektem adaptującym Wasz projekt, jaką wartość EP osiągniecie bez niej. Porównanie obu rozwiązań znajdziecie w tekście <a href="/blog/rekuperacja-czy-wentylacja-grawitacyjna-co-wybrac/">rekuperacja czy wentylacja grawitacyjna</a>.</p>
 
 <h3>Izolacja i przegrody</h3>
 
@@ -177,11 +177,11 @@ metadata:
 
 <h3>Zmiany w trakcie budowy</h3>
 
-<p>Zmieniacie coś w trakcie budowy? Każda zmiana, która dotyczy izolacji, okien, źródła ciepła albo wentylacji, ma trafić do projektu przez projektanta, zanim ją wykonacie, a świadectwo zamawiajcie dopiero wtedy, gdy projekt ma wszystkie zmiany. Świadectwo liczone z projektu sprzed zmian opisuje inny dom niż Wasz. Gdy zmiana jest na plus – grubsza izolacja, okna o niższym U – wynik zwykle będzie lepszy. Gdy na minus, lepiej dowiedzieć się o tym od projektanta w trakcie budowy niż z kolumny wymagań na świadectwie.</p>
+<p>Zmieniacie coś w trakcie budowy? Każda zmiana, która dotyczy izolacji, okien, źródła ciepła albo wentylacji, ma trafić do projektu przez projektanta, zanim ją wykonacie, a świadectwo zamawiajcie dopiero wtedy, gdy projekt ma wszystkie zmiany. Świadectwo liczone z projektu sprzed zmian opisuje inny dom niż Wasz. Gdy zmiana jest na plus – grubsza izolacja, okna o niższym U – spadną straty ciepła przez przegrody. Gdy na minus, lepiej dowiedzieć się o tym od projektanta w trakcie budowy niż z kolumny wymagań na świadectwie.</p>
 
 <h3>Fotowoltaika</h3>
 
-<p>Rozporządzenie o metodologii nie zawiera osobnych zasad dla fotowoltaiki – słowo to w nim nie pada, a tabela współczynników ma tylko pozycję energii słonecznej z wartością 0,00. Jeśli panele są na dachu przed sporządzeniem świadectwa, podajcie ich dane osobie sporządzającej i zapytajcie, jak je uwzględniła. Jeśli planujecie je później, zaplanujcie przynajmniej instalację – piszę o tym w tekście <a href="/blog/fotowoltaika-na-etapie-projektu-jak-zaplanowac/">o fotowoltaice na etapie projektu</a>.</p>
+<p>Rozporządzenie o metodologii nie wymienia fotowoltaiki z nazwy – słowo to w nim nie pada, a tabela współczynników ma tylko pozycję energii słonecznej z wartością 0,00. Jeśli panele są na dachu przed sporządzeniem świadectwa, podajcie ich dane osobie sporządzającej i zapytajcie, jak je uwzględniła. Jeśli planujecie je później, zaplanujcie przynajmniej instalację – piszę o tym w tekście <a href="/blog/fotowoltaika-na-etapie-projektu-jak-zaplanowac/">o fotowoltaice na etapie projektu</a>.</p>
 
 <h2>Co przygotować dla osoby, która sporządza świadectwo</h2>
 
@@ -245,7 +245,7 @@ metadata:
 
 <p>Za rażące i oczywiste błędy stwierdzone w weryfikacji lub za dokument sporządzony poza rejestrem minister wykreśla osobę z wykazu. Według art. 41 ust. 1 ustawy grzywnie podlega między innymi ten, kto sporządza świadectwo bez wymaganych uprawnień lub wpisu, kto przekazuje jako świadectwo dokument sporządzony poza rejestrem, kto nie przekazuje świadectwa nabywcy czy najemcy i kto jako osoba uprawniona nie ma OC lub nie przechowuje danych. Grzywna w sprawach o wykroczenia wynosi od 20 do 5000 zł, co wynika z <a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260001372">art. 24 § 1 Kodeksu wykroczeń</a>. Nie jest to jednak ogólna kara za błędny wynik, a grzywna za nieprzekazanie świadectwa może Was dotyczyć dopiero przy sprzedaży albo najmie domu.</p>
 
-<p>A co grozi Wam jako budującym? Skutki są inne. Bez świadectwa zawiadomienie o zakończeniu budowy jest niekompletne i organ nałoży obowiązek uzupełnienia. A jeśli zamieszkacie bez skutecznego zawiadomienia, organ nadzoru najpierw poucza, a gdy po 60 dniach od pouczenia dom nadal jest użytkowany bez skutecznego zawiadomienia, wymierza karę z tytułu nielegalnego użytkowania – i może ją wymierzać ponownie, nie częściej niż co 30 dni, dopóki naruszenie trwa. Tę procedurę opisuje art. 59i Prawa budowlanego.</p>
+<p>A co grozi Wam jako budującym? Skutki są inne. Bez świadectwa zawiadomienie o zakończeniu budowy jest niekompletne i organ nałoży obowiązek uzupełnienia. A jeśli zamieszkacie bez skutecznego zawiadomienia, organ nadzoru najpierw poucza, a gdy po 60 dniach od pouczenia dom nadal jest użytkowany bez skutecznego zawiadomienia albo wymaganego pozwolenia na użytkowanie, wymierza karę z tytułu nielegalnego użytkowania – i może ją wymierzać ponownie, nie częściej niż co 30 dni, dopóki naruszenie trwa. Tę procedurę opisuje art. 59i Prawa budowlanego.</p>
 
 <h2>Co zrobić, gdy EP wychodzi powyżej wymagań</h2>
 
@@ -288,7 +288,7 @@ metadata:
 <ul>
 <li><strong>Nie przewiduje rachunków.</strong> Metoda obliczeniowa zakłada standardowe użytkowanie i standardowy klimat, a rozporządzenie wprost pisze, że wyniki „nie pozwalają wnioskować o rzeczywistym zużyciu energii w budynku”. Do tego nie obejmuje prądu na sprzęty domowe.</li>
 <li><strong>Nie służy do doboru źródła ciepła.</strong> Świadectwo podaje roczne zapotrzebowanie na energię w kWh/(m²·rok), a nie moc, jakiej potrzebuje pompa ciepła czy kocioł. Moc dobiera projektant instalacji z osobnych obliczeń.</li>
-<li><strong>Nie sprawdza jakości wykonania.</strong> Osoba sporządzająca liczy z danych. Nieszczelności, mostki cieplne i źle ułożoną izolację mogą pokazać próba szczelności, termowizja wykonana w odpowiednich warunkach i odbiory, nie świadectwo.</li>
+<li><strong>Nie sprawdza jakości wykonania.</strong> Osoba sporządzająca liczy z danych. Nieszczelności, mostki cieplne i źle ułożoną izolację mogą pokazać próba szczelności, badanie kamerą termowizyjną i odbiory, nie świadectwo.</li>
 <li><strong>Nie zastępuje odbiorów i badań.</strong> Protokoły instalacji robi się niezależnie od świadectwa, nawet jeśli przy domu jednorodzinnym nie dołączacie ich do zawiadomienia.</li>
 <li><strong>Nie legalizuje zmian.</strong> Jeśli na budowie zmieniliście coś bez projektanta, świadectwo może to opisać, ale nie załatwia sprawy zmiany projektu.</li>
 <li><strong>Nie jest zatwierdzeniem przez urząd.</strong> Numer z rejestru oznacza, że dokument wygenerowano w systemie, a nie że ktoś sprawdził obliczenia.</li>
