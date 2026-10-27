@@ -34,7 +34,7 @@ metadata:
 
 <p>Zanim zaczniecie myśleć o materiałach, musicie wiedzieć, z czym macie do czynienia pod ziemią. Bez aktualnych badań geotechnicznych dobór hydroizolacji to wróżenie z fusów. Geolog odpowiada Wam na trzy zasadnicze pytania: jaki jest poziom wód gruntowych, jakie warstwy gruntu występują na poziomie posadowienia piwnicy i czy grunt jest przepuszczalny czy wodoodporny.</p>
 
-<p>Te trzy informacje decydują o klasyfikacji obciążenia hydrologicznego ścian piwnicy. Jeśli wody gruntowe są daleko poniżej poziomu fundamentu, a grunt to przepuszczalny piasek – wystarczy izolacja przeciwwilgociowa, czyli ta lżejsza wersja. Jeśli wody gruntowe sięgają poziomu piwnicy albo grunt jest gliniasty (czyli słabo przepuszczalny i potrafi gromadzić wodę opadową w wykopie), to mówimy już o izolacji przeciwwodnej, ciężkiej, plus drenaż obowiązkowo.</p>
+<p>Te trzy informacje decydują o klasyfikacji obciążenia hydrologicznego ścian piwnicy. Jeśli wody gruntowe są daleko poniżej poziomu fundamentu, a grunt to przepuszczalny piasek – wystarczy izolacja przeciwwilgociowa, czyli ta lżejsza wersja. Jeśli wody gruntowe sięgają poziomu piwnicy albo grunt jest gliniasty (czyli słabo przepuszczalny i potrafi gromadzić wodę opadową w wykopie), to mówimy już o <a href="/blog/hydroizolacja-fundamentow/">izolacji przeciwwodnej, ciężkiej</a>, plus drenaż obowiązkowo.</p>
 
 <p>W polskich warunkach na większości działek warto zakładać scenariusz pośredni, czyli grunt mieszany, możliwe okresowe podtopienia po większych opadach, a przy tym bezpieczeństwo na lata. Skąpienie kilkunastu tysięcy złotych na izolacji ciężkiej piwnicy, żeby potem przez następne 30 lat wydawać na osuszacze i remonty, to nie jest dobra inwestycja.</p>
 
