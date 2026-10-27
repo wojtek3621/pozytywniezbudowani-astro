@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-10-22T07:00:00
-order: 12
+order: 13
 updateDate: 2026-10-22T07:00:00
 title: 'Stała czy zmienna stopa kredytu – kalkulator rat i odsetek'
 excerpt: 'Ile kosztuje stała stopa w porównaniu ze zmienną w Waszym scenariuszu i przy jakiej zmianie wskaźnika obie wychodzą tak samo. Wpiszcie ofertę banku, a kalkulator policzy raty i odsetki w okresie stałej stopy.'
