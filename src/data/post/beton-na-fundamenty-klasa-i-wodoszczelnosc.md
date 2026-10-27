@@ -47,7 +47,7 @@ metadata:
 
 <p><strong>Po drugie</strong> – przy płycie fundamentowej. Płyta jest jednolitą bryłą żelbetu i dopłata do W8 to niewielki procent kosztu samego betonu, a zysk w trwałości znaczący. Po setkach kontrolek na placach budowy mam jasne stanowisko: na płycie fundamentowej W8 traktuję jako standard. Dopłata, która pojawia się w rozliczeniach, jest na tyle niska w stosunku do wartości całej budowy, że nie ma racjonalnego powodu, żeby z tego rezygnować.</p>
 
-<p><strong>Po trzecie</strong> – gdy badania geotechniczne wykazały wysoki poziom wody gruntowej albo grunt o niskiej przepuszczalności (gliny, iły) zatrzymujący wodę przy fundamencie. W takich warunkach hydroizolacja od strony zewnętrznej i tak musi być wzmocniona, ale beton wodoszczelny od wnętrza daje drugą linię obrony, której później nie będziecie w stanie dorobić.</p>
+<p><strong>Po trzecie</strong> – gdy badania geotechniczne wykazały wysoki poziom wody gruntowej albo grunt o niskiej przepuszczalności (gliny, iły) zatrzymujący wodę przy fundamencie. W takich warunkach <a href="/blog/hydroizolacja-fundamentow/">hydroizolacja od strony zewnętrznej</a> i tak musi być wzmocniona, ale beton wodoszczelny od wnętrza daje drugą linię obrony, której później nie będziecie w stanie dorobić.</p>
 
 <p>To jest dokładnie ten przypadek, kiedy „zaoszczędzenie" na betonie wraca do Was po latach w postaci wilgoci pod posadzką albo wykwitów na ścianie fundamentowej. Decyzja o W8 podejmowana jest jeden raz – w momencie zamówienia gruszki. Potem już się tego nie zmieni.</p>
 
