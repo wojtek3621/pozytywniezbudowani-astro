@@ -9,7 +9,7 @@ tags:
   - 'Fundamenty'
 author: 'Wojciech Tracichleb'
 metadata:
-  canonical: 'https://pozytywniezbudowani.pl/blog/poziom-zero-budynku-co-to-jest-i-jak-ustalic/'
+  canonical: 'https://pozytywniezbudowani.pl/blog/poziom-zero-budynku-co-to-jest-jak-ustalic/'
   title: 'Poziom zero budynku – co to jest i jak ustalić | Poradnik'
   description: 'Poziom zero budynku to jeden z najważniejszych parametrów na budowie. Dowiedz się, jak go ustalić i dlaczego błąd w tym zakresie może Cię drogo kosztować.'
   robots:

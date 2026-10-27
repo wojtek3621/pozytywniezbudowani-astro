@@ -10,7 +10,7 @@ tags:
   - 'Działka i grunt'
 author: 'Wojciech Tracichleb'
 metadata:
-  canonical: 'https://pozytywniezbudowani.pl/blog/wklad-wlasny-przy-kredycie-na-budowe-domu-ile-i-jak-zebrac/'
+  canonical: 'https://pozytywniezbudowani.pl/blog/wklad-wlasny-przy-kredycie-na-budowe-domu/'
   title: 'Wkład własny przy kredycie na budowę domu – ile i jak zebrać?'
   description: 'Ile wkładu własnego potrzebujesz na budowę domu? Działka, gotówka czy coś więcej? Praktyczny przewodnik dla przyszłych inwestorów.'
   robots:
