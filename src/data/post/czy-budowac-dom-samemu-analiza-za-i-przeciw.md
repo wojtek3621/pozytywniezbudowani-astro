@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T19:13:14
-updateDate: 2026-05-31T19:13:14
+updateDate: 2026-10-27T21:50:00
 title: 'Czy budować dom samemu? Wady i zalety budowy gospodarczej'
 excerpt: 'Wiele osób słyszało, że samodzielne prowadzenie budowy oszczędza nawet 20–30% kosztów. Sprawdźmy, ile w tym prawdy.'
 image: '~/assets/images/blog/czy-budowac-dom-samemu-analiza-za-i-przeciw.jpeg'
@@ -56,7 +56,7 @@ metadata:
 
 <p>Skutek: błędy, których w momencie popełniania w ogóle się nie zauważa. Mostek termiczny przy montażu okien, źle dobrany wymiennik w rekuperatorze, brak rezerwy na rozdzielnicy, niedostateczne wzmocnienie stropu pod przyszłą wannę z hydromasażem. Każdy taki błąd ujawnia się dopiero później – i prawie zawsze poprawka kosztuje wielokrotnie więcej, niż kosztowałoby zrobienie tego dobrze za pierwszym razem.</p>
 
-<p><strong>Pułapka VAT-owska, której prawie nikt nie liczy.</strong> To jeden z największych ukrytych kosztów budowy systemem gospodarczym, a jednocześnie temat, o którym mało kto mówi. Mechanizm wygląda następująco: wykonawca świadczący usługę kompleksową (robocizna razem z materiałem) na obiekcie objętym społecznym programem mieszkaniowym – czyli dom jednorodzinny do 300 m² powierzchni użytkowej – stosuje na całość tej usługi stawkę VAT 8 procent. Inwestor, który kupuje te same materiały samodzielnie w sklepie jako osoba fizyczna, płaci pełne 23 procent VAT. Robocizna w systemie gospodarczym też najczęściej rozliczana jest osobno, bez efektu „kompleksowej usługi mieszkaniowej".</p>
+<p><strong>Pułapka VAT-owska, której prawie nikt nie liczy.</strong> To jeden z największych <a href="/blog/ukryte-koszty-budowy-domu/">ukrytych kosztów budowy</a> systemem gospodarczym, a jednocześnie temat, o którym mało kto mówi. Mechanizm wygląda następująco: wykonawca świadczący usługę kompleksową (robocizna razem z materiałem) na obiekcie objętym społecznym programem mieszkaniowym – czyli dom jednorodzinny do 300 m² powierzchni użytkowej – stosuje na całość tej usługi stawkę VAT 8 procent. Inwestor, który kupuje te same materiały samodzielnie w sklepie jako osoba fizyczna, płaci pełne 23 procent VAT. Robocizna w systemie gospodarczym też najczęściej rozliczana jest osobno, bez efektu „kompleksowej usługi mieszkaniowej".</p>
 
 <p>Przy budżecie materiałowym rzędu kilkuset tysięcy złotych netto różnica wynikająca z samej stawki VAT na materiałach potrafi sięgać kilkudziesięciu tysięcy złotych. Generalny wykonawca, który ma status czynnego podatnika VAT i świadczy usługę kompleksową, może rozliczyć całość z preferencyjną stawką 8 procent. Inwestor budujący samodzielnie tej oszczędności nie ma – i trzeba to wkalkulować w decyzję uczciwie, bo różnica potrafi przewyższyć całą rzekomą oszczędność na marży generalnego wykonawcy. Konkretne wyliczenie zawsze warto skonsultować z księgową, bo zasady stosowania stawki 8 procent mają swoje warunki i wyłączenia.</p>
 

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-05-31T19:13:14
-updateDate: 2026-05-31T19:13:14
+updateDate: 2026-10-27T21:50:00
 title: 'Budowa domu dla singla – czy to ma sens? Praktyczna analiza'
 excerpt: 'Singiel pyta mnie o budowę domu częściej, niż się Wam wydaje. Drugie pytanie, które wraca u takich osób, to czy <a href="/blog/czy-budowac-dom-teraz-czy-poczekac/">budować dom teraz, czy poczekać</a>. Zanim podpiszecie umowę z bankiem, przeczytajcie tę analizę.'
 image: '~/assets/images/blog/budowa-domu-dla-singla-czy-to-ma-sens.jpeg'
@@ -26,7 +26,7 @@ metadata:
 
 <p>Banki nie patrzą na singla jak na osobę gorszą czy słabszą – patrzą na niego jak na kredytobiorcę z większym ryzykiem koncentracji. Dlatego wymagają wyższej zdolności na każdą wnioskowaną złotówkę kredytu, częściej proszą o dodatkowe zabezpieczenia, a marże potrafią być nieco mniej korzystne niż dla małżeństwa o tych samych łącznych dochodach. To nie złośliwość banków – to chłodna kalkulacja ryzyka.</p>
 
-<p>Druga rzecz, o której pisałem szerzej w pierwszej części mojej książki, to historia Ryśka. Pamiętacie? Człowiek, który stał się niewolnikiem własnego sukcesu, bo wybudował dom „prawie na styk" finansowy. W przypadku singla ryzyko stania się takim Ryśkiem jest większe, bo nie ma drugiej osoby, która mogłaby przejąć ciężar w trudnym momencie. Każde załamanie zawodowe, każdy problem zdrowotny, każda zmiana planów życiowych uderza w jeden portfel, a nie w dwa.</p>
+<p>Druga rzecz, o której pisałem szerzej w pierwszej części mojej książki, to historia Ryśka. Pamiętacie? Człowiek, który stał się <a href="/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku/">niewolnikiem własnego sukcesu</a>, bo wybudował dom „prawie na styk" finansowy. W przypadku singla ryzyko stania się takim Ryśkiem jest większe, bo nie ma drugiej osoby, która mogłaby przejąć ciężar w trudnym momencie. Każde załamanie zawodowe, każdy problem zdrowotny, każda zmiana planów życiowych uderza w jeden portfel, a nie w dwa.</p>
 
 <h2>Czy singiel w ogóle potrzebuje domu?</h2>
 

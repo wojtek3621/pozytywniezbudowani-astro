@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-01-11T16:40:35
-updateDate: 2026-01-11T16:42:37
+updateDate: 2026-10-27T21:50:00
 title: 'Przekroczenie budżetu na budowę – jak reagować'
 excerpt: 'Budżet pęka w szwach, a dom wciąż nie jest gotowy? Spokojnie – masz więcej opcji, niż Ci się wydaje...'
 image: '~/assets/images/blog/przekroczenie-budzetu-na-budowe-jak-reagowac.jpeg'
@@ -25,7 +25,7 @@ metadata:
 
 <p style="text-align: justify;">Zanim przejdziemy do tego, jak reagować na przekroczenie budżetu, warto zrozumieć, dlaczego w ogóle do niego dochodzi. Wielu z moich klientów było przekonanych, że mają wszystko policzone co do złotówki. Mieli arkusze kalkulacyjne, zbierali wyceny, porównywali oferty. A mimo to w pewnym momencie budowy okazywało się, że środki się kończą, a przed nimi jeszcze sporo prac.</p>
 
-<p style="text-align: justify;">Pierwszy powód to inflacja stylu życia przeniesiona na budowę. Przyzwyczajamy się do coraz wyższego standardu i małymi krokami zwiększamy swoje oczekiwania. Na etapie projektu planowaliście tańsze płytki, ale w sklepie spodobały Wam się te droższe. Okna miały być standardowe, ale przecież te z lepszym współczynnikiem U będą oszczędniejsze w eksploatacji. Każda pojedyncza decyzja wydaje się rozsądna, ale suma tych decyzji potrafi wykroczyć daleko poza pierwotny budżet.</p>
+<p style="text-align: justify;">Pierwszy powód to <a href="/blog/budowa-domu-a-kredyt-hipoteczny-czy-nie-stane-sie-niewolnikiem-banku/">inflacja stylu życia</a> przeniesiona na budowę. Przyzwyczajamy się do coraz wyższego standardu i małymi krokami zwiększamy swoje oczekiwania. Na etapie projektu planowaliście tańsze płytki, ale w sklepie spodobały Wam się te droższe. Okna miały być standardowe, ale przecież te z lepszym współczynnikiem U będą oszczędniejsze w eksploatacji. Każda pojedyncza decyzja wydaje się rozsądna, ale suma tych decyzji potrafi wykroczyć daleko poza pierwotny budżet.</p>
 
 <p style="text-align: justify;">Drugi powód to pominięcie kosztów, które trudno przewidzieć na początku. Badania geotechniczne mogą wykazać konieczność droższego fundamentu. Ekipa elektryków może zaproponować rozwiązania, o których wcześniej nie myśleliście. Kierownik budowy może zalecić dodatkowe prace zabezpieczające. Każda z tych rzeczy jest potrzebna i uzasadniona, ale wszystkie razem zjadają Wasz zapas finansowy.</p>
 
